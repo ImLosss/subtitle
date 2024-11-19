@@ -43,14 +43,14 @@ async function cut(inputFile, outputFile) {
       '-y',
       '-i', inputFile,
       '-ss', '00:03:09',             // Tempatkan -ss sebelum input untuk pemotongan cepat
-      '-to', '00:20:00',             // Tentukan waktu akhir
+      '-to', '00:18:10',             // Tentukan waktu akhir
       '-c:v', 'libx264',             // Menggunakan encoder h.264
-      '-crf', '23',                  // Atur CRF untuk menjaga kualitas (20-23 ideal untuk kualitas tinggi)
+      '-crf', '22',                  // Atur CRF untuk menjaga kualitas (20-23 ideal untuk kualitas tinggi)
       '-preset', 'slow',             // 'slow' atau 'veryslow' untuk kompresi yang lebih baik
       '-c:a', 'aac',                 // Re-encode audio
       '-b:a', '128k',                // Turunkan bitrate audio ke 128k untuk ukuran lebih kecil
-      '-maxrate', '2M',              // Batasi bitrate video maksimum
-      '-bufsize', '3M',              // Buffer size untuk kontrol bitrate
+      '-maxrate', '3M',              // Batasi bitrate video maksimum
+      '-bufsize', '4M',              // Buffer size untuk kontrol bitrate
       outputFile
     ];
 
@@ -79,4 +79,4 @@ async function cut(inputFile, outputFile) {
   });
 }
 
-cut('input.ts', 'cut.mp4');
+cut('input.ts', 'cut2.mp4');

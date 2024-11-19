@@ -7,15 +7,18 @@ async function burnSubtitle(inputFile, outputFile) {
         '-y',
         '-i', inputFile,
         '-c:v', 'libx264',
-        '-crf', '23',
+        '-crf', '20',
         '-preset', 'slow',
-        '-vf', `subtitles=btth_indo_sortered.srt:force_style='FontName=Verdana,FontSize=18,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25', \
-        drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
+        '-vf', `subtitles=./renegade_immortal/ri_indo_63.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=40',
+          drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
         '-c:a', 'copy',  
         '-maxrate', '2M', 
         '-bufsize', '3M', 
         outputFile
       ];
+
+      // btth : 25
+      // renegade : 40
   
       // Jalankan ffmpeg dengan argumen yang telah ditentukan
       const ffmpegProcess = spawn(ffmpegStatic, ffmpegArgs);
@@ -47,7 +50,7 @@ async function embedSubtitle(inputFile, outputFile) {
       const ffmpegArgs = [
         '-y',
         '-i', inputFile,
-        '-i', 'btth_indo.srt',            // Tambahkan subtitle sebagai input kedua
+        '-i', 'cut_indo.srt',            // Tambahkan subtitle sebagai input kedua
         '-c:v', 'copy',                  // Copy video tanpa re-encoding
         '-c:a', 'copy',                  // Copy audio tanpa re-encoding
         '-c:s', 'mov_text',              // Encode subtitle sebagai stream terpisah
@@ -114,4 +117,4 @@ async function extractSrt(inputFile) {
     });
 }
 
-burnSubtitle('cut.mp4', 'btth_indo.mp4')
+burnSubtitle('cut.mp4', 'output.mp4')
