@@ -48,8 +48,8 @@ function addDelay(timeString, delay) {
 }
 
 // Contoh penggunaan
-const inputSRT = 'sub.srt'; // Nama file input
+const inputSRT = 'output.srt'; // Nama file input
 const outputSRT = 'sub_modified.srt'; // Nama file output dengan delay
-const delay = 200; // Delay dalam milidetik
+const delay = -6000; // Delay dalam milidetik
 
 addDelayToSRT(inputSRT, outputSRT, delay);

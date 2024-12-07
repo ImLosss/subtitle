@@ -9,11 +9,11 @@ async function burnSubtitle(inputFile, outputFile) {
         '-c:v', 'libx264',
         '-crf', '20',
         '-preset', 'slow',
-        '-vf', `subtitles=./renegade_immortal/ri_indo_63.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=40',
+        '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
           drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
         '-c:a', 'copy',  
-        '-maxrate', '2M', 
-        '-bufsize', '3M', 
+        '-maxrate', '3M', 
+        '-bufsize', '4M', 
         outputFile
       ];
 
@@ -44,6 +44,54 @@ async function burnSubtitle(inputFile, outputFile) {
       });
     });
 }
+
+async function burnSubtitleGPU(inputFile, outputFile) {
+  return new Promise((resolve, reject) => {
+    const ffmpegArgs = [
+      '-y', // Overwrite file output jika ada
+      '-i', inputFile, // File input
+      '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
+      '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
+      '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
+      '-b:v', '3M', // Bitrate target rata-rata
+      '-maxrate', '3M', // Batasi bitrate maksimum hingga 5 Mbps
+      '-bufsize', '6M', // Buffer size dua kali maksimum bitrate
+      '-quality', 'quality', // Prioritaskan kualitas
+      '-preset', 'quality', // Gunakan preset kualitas GPU
+      '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
+        drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
+      '-c:a', 'copy', 
+      outputFile // File output
+    ];
+    // btth : 25
+    // renegade : 40
+    //pw : 33
+
+    // Jalankan ffmpeg dengan argumen yang telah ditentukan
+    const ffmpegProcess = spawn(ffmpegStatic, ffmpegArgs);
+
+    ffmpegProcess.stdout.on('data', (data) => {
+      console.log(`stdout: ${data}`);
+    });
+
+    ffmpegProcess.stderr.on('data', (data) => {
+      console.log(`Process: ${data}`);
+    });
+
+    ffmpegProcess.stderr.on('error', (err) => {
+      console.log(err)
+    });
+
+    ffmpegProcess.on('close', (code) => {
+      if (code === 0) {
+        resolve('Konversi MP4A ke MP3 selesai.');
+      } else {
+        reject(new Error(`Proses ffmpeg berakhir dengan kode error ${code}`));
+      }
+    });
+  });
+}
+
 
 async function embedSubtitle(inputFile, outputFile) {
     return new Promise((resolve, reject) => {
@@ -117,4 +165,4 @@ async function extractSrt(inputFile) {
     });
 }
 
-burnSubtitle('cut.mp4', 'output.mp4')
+burnSubtitleGPU('output.mp4', 'btth_124_indo.mp4')
