@@ -58,7 +58,9 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       '-bufsize', '6M', // Buffer size dua kali maksimum bitrate
       '-quality', 'quality', // Prioritaskan kualitas
       '-preset', 'quality', // Gunakan preset kualitas GPU
-      '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
+      // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
+      //   drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
+      '-vf', `subtitles=output.ass,
         drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
       '-c:a', 'copy', 
       outputFile // File output
@@ -165,4 +167,4 @@ async function extractSrt(inputFile) {
     });
 }
 
-burnSubtitleGPU('output.mp4', 'btth_124_indo.mp4')
+burnSubtitleGPU('input.mp4', 'ri_67_indo_1080_2.mp4')

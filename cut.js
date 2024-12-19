@@ -42,9 +42,10 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', // Overwrite file output jika ada
       '-i', inputFile, // File input
-      '-ss', '00:00:06', // Tempatkan -ss sebelum input untuk pemotongan cepat
-      // '-to', '00:15:21',
+      // '-ss', '00:00:00', // Tempatkan -ss sebelum input untuk pemotongan cepat
+      // '-to', '00:17:58',
       // '-vf', 'scale=1920:-1', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
+      '-r', '25', // Atur FPS menjadi 25
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
       '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
@@ -97,4 +98,4 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('input.ts', 'output2.mp4');
+cut('input.mp4', 'output.mp4');
