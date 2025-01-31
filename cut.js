@@ -6,8 +6,8 @@ async function cutFast(inputFile, outputFile) {
       const ffmpegArgs = [
         '-y',
         '-i', inputFile,
-        '-ss', '00:03:09',
-        '-to', '00:19:20',
+        '-ss', '00:02:24',
+        '-to', '00:19:18',
         '-c', 'copy',
         outputFile
       ];
@@ -42,8 +42,8 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', // Overwrite file output jika ada
       '-i', inputFile, // File input
-      // '-ss', '00:00:00', // Tempatkan -ss sebelum input untuk pemotongan cepat
-      // '-to', '00:17:58',
+      // '-ss', '00:02:15', // Tempatkan -ss sebelum input untuk pemotongan cepat
+      // '-to', '00:18:15',
       // '-vf', 'scale=1920:-1', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
       '-r', '25', // Atur FPS menjadi 25
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
@@ -58,6 +58,8 @@ async function cut(inputFile, outputFile) {
       outputFile // File output
   ];
   
+  // immortaldoctor: 1.40
+
   
     // Jalankan ffmpeg dengan argumen yang telah ditentukan
     const ffmpegProcess = spawn(ffmpegStatic, ffmpegArgs);
@@ -98,4 +100,4 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('input.mp4', 'output.mp4');
+cut('PW_EP200_1080P.ts', 'PW_EP200_1080P.mp4');

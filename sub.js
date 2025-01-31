@@ -51,16 +51,16 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       '-y', // Overwrite file output jika ada
       '-i', inputFile, // File input
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
+      // '-r', '25', // Atur FPS menjadi 25
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
       '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
-      '-b:v', '3M', // Bitrate target rata-rata
-      '-maxrate', '3M', // Batasi bitrate maksimum hingga 5 Mbps
-      '-bufsize', '6M', // Buffer size dua kali maksimum bitrate
+      '-b:v', '4M', // Bitrate target rata-rata
+      '-maxrate', '4M', // Batasi bitrate maksimum hingga 5 Mbps
+      '-bufsize', '8M', // Buffer size dua kali maksimum bitrate
       '-quality', 'quality', // Prioritaskan kualitas
       '-preset', 'quality', // Gunakan preset kualitas GPU
       // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
-      //   drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
-      '-vf', `subtitles=output.ass,
+      '-vf', `subtitles=PW_EP200_INDO_1080P.ass,
         drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
       '-c:a', 'copy', 
       outputFile // File output
@@ -167,4 +167,25 @@ async function extractSrt(inputFile) {
     });
 }
 
-burnSubtitleGPU('input.mp4', 'ri_67_indo_1080_2.mp4')
+
+// // with logo
+// const ffmpegArgs = [
+//   '-y', // Overwrite file output jika ada
+//   '-i', inputFile, // File input
+//   '-i', 'logo.png', // File logo PNG
+//   '-ss', '00:00:20', // Tempatkan -ss sebelum input untuk pemotongan cepat
+//   '-to', '00:00:30',
+//   '-filter_complex', '[1:v]scale=100:-1[logo];[0:v][logo]overlay=10:10', // Atur ukuran logo menjadi 100x100 dan tempatkan di posisi (10,10)
+//   '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
+//   '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi
+//   '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
+//   '-b:v', '3M', // Bitrate target rata-rata
+//   '-maxrate', '3M', // Batasi bitrate maksimum
+//   '-bufsize', '6M', // Buffer size dua kali maksimum bitrate
+//   '-quality', 'quality', // Prioritaskan kualitas
+//   '-preset', 'quality', // Gunakan preset kualitas GPU
+//   '-c:a', 'copy', // Salin audio tanpa perubahan
+//   outputFile // File output
+// ];
+
+burnSubtitleGPU('PW_EP200_1080P.ts', 'PW_EP200_INDO_1080P_bilibili.mp4')
