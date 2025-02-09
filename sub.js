@@ -9,7 +9,7 @@ async function burnSubtitle(inputFile, outputFile) {
         '-c:v', 'libx264',
         '-crf', '20',
         '-preset', 'slow',
-        '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
+        '-vf', '-vf', `subtitles=132.ass,
           drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
         '-c:a', 'copy',  
         '-maxrate', '3M', 
@@ -54,13 +54,13 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       // '-r', '25', // Atur FPS menjadi 25
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
       '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
-      '-b:v', '4M', // Bitrate target rata-rata
-      '-maxrate', '4M', // Batasi bitrate maksimum hingga 5 Mbps
-      '-bufsize', '8M', // Buffer size dua kali maksimum bitrate
+      '-b:v', '5M', // Bitrate target rata-rata
+      '-maxrate', '5M', // Batasi bitrate maksimum hingga 5 Mbps
+      '-bufsize', '10M', // Buffer size dua kali maksimum bitrate
       '-quality', 'quality', // Prioritaskan kualitas
       '-preset', 'quality', // Gunakan preset kualitas GPU
       // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
-      '-vf', `subtitles=PW_EP200_INDO_1080P.ass,
+      '-vf', `subtitles=BTTH_EP133_INDO_1080P.ass,
         drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15`,
       '-c:a', 'copy', 
       outputFile // File output
@@ -100,7 +100,7 @@ async function embedSubtitle(inputFile, outputFile) {
       const ffmpegArgs = [
         '-y',
         '-i', inputFile,
-        '-i', 'cut_indo.srt',            // Tambahkan subtitle sebagai input kedua
+        '-i', '132.ass',            // Tambahkan subtitle sebagai input kedua
         '-c:v', 'copy',                  // Copy video tanpa re-encoding
         '-c:a', 'copy',                  // Copy audio tanpa re-encoding
         '-c:s', 'mov_text',              // Encode subtitle sebagai stream terpisah
@@ -188,4 +188,4 @@ async function extractSrt(inputFile) {
 //   outputFile // File output
 // ];
 
-burnSubtitleGPU('PW_EP200_1080P.ts', 'PW_EP200_INDO_1080P_bilibili.mp4')
+burnSubtitleGPU('BTTH_EP133_1080P.ts', 'BTTH_EP133_INDO_1080P_bilibili.mp4')

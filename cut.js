@@ -42,16 +42,16 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', // Overwrite file output jika ada
       '-i', inputFile, // File input
-      // '-ss', '00:02:15', // Tempatkan -ss sebelum input untuk pemotongan cepat
-      // '-to', '00:18:15',
+      // '-ss', '00:18:10', // Tempatkan -ss sebelum input untuk pemotongan cepat
+      // '-to', '00:19:30',
       // '-vf', 'scale=1920:-1', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
       '-r', '25', // Atur FPS menjadi 25
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
       '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
-      '-b:v', '3M', // Bitrate target rata-rata
-      '-maxrate', '3M', // Batasi bitrate maksimum hingga 5 Mbps
-      '-bufsize', '6M', // Buffer size dua kali maksimum bitrate
+      '-b:v', '2M', // Bitrate target rata-rata
+      '-maxrate', '2M', // Batasi bitrate maksimum hingga 5 Mbps
+      '-bufsize', '4M', // Buffer size dua kali maksimum bitrate
       '-quality', 'quality',
       '-preset', 'quality', // Gunakan preset kualitas GPU
       '-c:a', 'aac',
@@ -100,4 +100,4 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('PW_EP200_1080P.ts', 'PW_EP200_1080P.mp4');
+cut('STRONGEST_EP35.ts', 'STRONGEST_EP35.mp4');
