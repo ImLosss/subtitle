@@ -53,9 +53,9 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
       '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
-      '-b:v', '3M', // Bitrate target rata-rata
-      '-maxrate', '3M', // Batasi bitrate maksimum hingga 5 Mbps
-      '-bufsize', '6M', // Buffer size dua kali maksimum bitrate
+      '-b:v', '4M', // Bitrate target rata-rata
+      '-maxrate', '4M', // Batasi bitrate maksimum hingga 5 Mbps
+      '-bufsize', '8M', // Buffer size dua kali maksimum bitrate
       '-quality', 'quality', // Prioritaskan kualitas
       '-preset', 'quality', // Gunakan preset kualitas GPU
       // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
@@ -206,4 +206,4 @@ async function extractSrt(inputFile) {
 //   outputFile // File output
 // ];
 
-burnSubtitleGPU('RI_EP91.mp4', 'RI_EP91_INDO.mp4')
+burnSubtitleGPU('RI_EP91d.mp4', 'RI_EP91_INDO_bilibili.mp4')

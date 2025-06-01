@@ -44,14 +44,14 @@ async function cut(inputFile, outputFile) {
       '-i', inputFile, // File input
       // '-ss', '00:01:16', 
       // '-to', '00:22:15',
-      // '-vf', 'scale=1920:-2', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
-      '-r', '25', // Atur FPS menjadi 25
+      '-vf', 'scale=1920:-2', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
+      // '-r', '25', // Atur FPS menjadi 25
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
       '-rc', 'cbr', 
-      '-b:v', '2M',
-      '-maxrate', '2M', 
-      '-bufsize', '4M', 
+      '-b:v', '5M',
+      '-maxrate', '5M', 
+      '-bufsize', '10M', 
       '-quality', 'quality',
       '-preset', 'quality', // Gunakan preset kualitas GPU
       '-c:a', 'aac',
@@ -112,4 +112,4 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('RI_EP91.ts', 'RI_EP91.mp4');
+cut('91_4K.mp4', 'RI_EP91d.mp4');
