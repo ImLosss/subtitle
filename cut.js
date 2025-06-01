@@ -42,20 +42,20 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', // Overwrite file output jika ada
       '-i', inputFile, // File input
-      '-ss', '00:02:29', 
-      '-to', '00:18:09',
-      '-vf', 'scale=1920:-1', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
-      // '-r', '25', // Atur FPS menjadi 25
+      // '-ss', '00:01:16', 
+      // '-to', '00:22:15',
+      // '-vf', 'scale=1920:-2', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
+      '-r', '25', // Atur FPS menjadi 25
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
-      '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
-      '-b:v', '5M', // Bitrate target rata-rata
-      '-maxrate', '5M', // Batasi bitrate maksimum hingga 5 Mbps
-      '-bufsize', '10M', // Buffer size dua kali maksimum bitrate
+      '-rc', 'cbr', 
+      '-b:v', '2M',
+      '-maxrate', '2M', 
+      '-bufsize', '4M', 
       '-quality', 'quality',
       '-preset', 'quality', // Gunakan preset kualitas GPU
       '-c:a', 'aac',
-      outputFile // File output
+      outputFile
     ];
 
     // const ffmpegArgs = [
@@ -112,4 +112,4 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('217_4K.mp4', 'PW_EP217.mp4');
+cut('RI_EP91.ts', 'RI_EP91.mp4');
