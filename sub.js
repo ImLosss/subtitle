@@ -60,7 +60,7 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       '-preset', 'quality', // Gunakan preset kualitas GPU
       // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
       // scale=1920:-1
-      '-vf', "subtitles=RI_EP91_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
+      '-vf', "subtitles=SS_EP174_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
       '-c:a', 'copy', 
       outputFile // File output
     ];
@@ -206,4 +206,4 @@ async function extractSrt(inputFile) {
 //   outputFile // File output
 // ];
 
-burnSubtitleGPU('RI_EP91d.mp4', 'RI_EP91_INDO_bilibili.mp4')
+burnSubtitleGPU('SS_EP174d.mp4', 'SS_EP174_indo.mp4')
