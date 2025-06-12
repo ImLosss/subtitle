@@ -60,7 +60,7 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       '-preset', 'quality', // Gunakan preset kualitas GPU
       // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
       // scale=1920:-1
-      '-vf', "subtitles=SS_EP174_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
+      '-vf', "subtitles=PW_EP219_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
       '-c:a', 'copy', 
       outputFile // File output
     ];
@@ -72,9 +72,9 @@ async function burnSubtitleGPU(inputFile, outputFile) {
     //   '-y', // Overwrite file output jika ada
     //   '-i', inputFile, // File input
     //   //scale=-1:1080
-    //   '-vf', "subtitles=pv.ass,drawtext=text='DongWorld':font=Verdana:fontsize=20:fontcolor=white@0.5:x=15:y=15",
+    //   '-vf', "subtitles=jd/52_indo.ass,drawtext=text='DongWorld':font=Verdana:fontsize=20:fontcolor=white@0.5:x=15:y=15",
     //   '-c:v', 'libx264',
-    //   '-crf', '25',
+    //   '-crf', '30',
     //   // '-b:v', '2M', // Bitrate target rata-rata
     //   '-maxrate', '5M', // Batasi bitrate maksimum hingga 5 Mbps
     //   '-bufsize', '10M', // Buffer size dua kali maksimum bitrate
@@ -206,4 +206,4 @@ async function extractSrt(inputFile) {
 //   outputFile // File output
 // ];
 
-burnSubtitleGPU('SS_EP174d.mp4', 'SS_EP174_indo.mp4')
+burnSubtitleGPU('PW_EP219.mp4', 'PW_EP219_INDO.mp4')

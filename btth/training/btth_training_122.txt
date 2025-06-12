@@ -572,7 +572,7 @@
 
 142
 00:11:09,250 --> 00:11:12,500
-只能委屈你们下地狱了 aku terpaksa mengirim kalian ke neraka.
+只能委屈你们下地狱了 -> aku terpaksa mengirim kalian ke neraka.
 
 143
 00:11:19,750 --> 00:11:20,750
@@ -588,7 +588,7 @@
 
 146
 00:11:31,250 --> 00:11:33,250
-少 少宗主 Tu-Tuan muda.
+少 少宗主 -> Tu-Tuan muda.
 
 147
 00:11:44,500 --> 00:11:45,750

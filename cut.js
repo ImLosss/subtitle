@@ -42,16 +42,16 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', // Overwrite file output jika ada
       '-i', inputFile, // File input
-      // '-ss', '00:02:22', 
-      // '-to', '00:18:07',
-      // '-vf', 'scale=1920:-2', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
-      '-r', '25', // Atur FPS menjadi 25
+      '-ss', '00:02:30', 
+      '-to', '00:18:49',
+      '-vf', 'scale=1920:-2', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
+      // '-r', '25', // Atur FPS menjadi 25
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
       '-rc', 'cbr', 
-      '-b:v', '2M',
-      '-maxrate', '2M', 
-      '-bufsize', '4M', 
+      '-b:v', '5M',
+      '-maxrate', '5M', 
+      '-bufsize', '10M', 
       '-quality', 'quality',
       '-preset', 'quality', // Gunakan preset kualitas GPU
       '-c:a', 'aac',
@@ -112,4 +112,4 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('TOS_EP162.mkv', 'TOS_EP162.mp4');
+cut('219_4K.mp4', 'PW_EP219.mp4');
