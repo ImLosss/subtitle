@@ -42,16 +42,16 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', // Overwrite file output jika ada
       '-i', inputFile, // File input
-      // '-ss', '00:02:18', 
-      // '-to', '00:20:09',
-      '-vf', 'scale=1920:-2', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
-      // '-r', '25', // Atur FPS menjadi 25
+      // '-ss', '00:02:29', 
+      // '-to', '00:17:28',
+      // '-vf', 'scale=1920:-2', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
+      '-r', '25', // Atur FPS menjadi 25
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
       '-rc', 'cbr', 
-      '-b:v', '5M',
-      '-maxrate', '5M', 
-      '-bufsize', '10M', 
+      '-b:v', '2M',
+      '-maxrate', '2M', 
+      '-bufsize', '4M', 
       '-quality', 'quality',
       '-preset', 'quality', // Gunakan preset kualitas GPU
       '-c:a', 'aac',
@@ -112,4 +112,4 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('151_4K.mp4', 'BTTH_EP151d.mp4');
+cut('SL_EP108.ts', 'SL_EP108.mp4');

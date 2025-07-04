@@ -11,12 +11,12 @@ YCbCr Matrix: TV.601
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: ../BTTH_EP151d.mp4
-Video File: ../BTTH_EP151d.mp4
+Audio File: ../BTTH_EP153d.mp4
+Video File: ../BTTH_EP153d.mp4
 Video AR Mode: 4
 Video AR Value: 2.388060
 Video Zoom Percent: 0.500000
-Scroll Position: 64
+Scroll Position: 85
 Active Line: 86
 Video Position: 4688
 
@@ -35,7 +35,7 @@ Style: Default,LibbyScript,56,&H00FFFFFF,&H0000DEFF,&H000096FF,&H00000000,-1,0,0
 Style: Default - Copier,LibbyScript,39,&H00FFFFFF,&H0000DEFF,&H000096FF,&H00000000,-1,0,0,0,100,100,0,0,1,2.23334,0,9,15,15,11,1
 Style: op btth,Forte,44,&H00FFFFFF,&H836E6E6E,&H00FFD437,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,79,1
 Style: op btth karaoke,Forte,44,&H00FFFFFF,&H836E6E6E,&H00FFD437,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,10,10,10,1
-Style: btth,Arial Rounded MT Bold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0.5,0,1,1.97059,1,2,500,500,75,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
 Style: Preview,Gloucester MT Extra Condensed,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0.5,0,1,0.985294,0,8,10,10,8,1
 Style: channel,Arial Rounded MT Bold,30,&H32FFFFFF,&H000000FF,&H64000000,&H00000000,0,-1,0,0,100,100,0,0,1,0,0,8,10,10,5,1
 Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
