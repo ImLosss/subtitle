@@ -58,8 +58,8 @@ function findMatch(chSub, idSubs, tolerance = 3) {
 function createTrainingFile() {
     try {
         // Baca file subtitle Mandarin dan Indonesia
-        const chContent = fs.readFileSync('d:/Dokumenku/Pemrograman/Node/subtitle/sl/101_ch.srt', 'utf8');
-        const idContent = fs.readFileSync('d:/Dokumenku/Pemrograman/Node/subtitle/sl/101_id.srt', 'utf8');
+        const chContent = fs.readFileSync('d:/Dokumenku/Pemrograman/Node/subtitle/sl/95_ch.srt', 'utf8');
+        const idContent = fs.readFileSync('d:/Dokumenku/Pemrograman/Node/subtitle/sl/95_id.srt', 'utf8');
         
         // Parse subtitle
         const chSubs = parseSRT(chContent);
@@ -83,7 +83,7 @@ function createTrainingFile() {
         }
         
         // Simpan file training
-        const outputPath = 'd:/Dokumenku/Pemrograman/Node/subtitle/sl/101_training.srt';
+        const outputPath = 'd:/Dokumenku/Pemrograman/Node/subtitle/sl/95_training.srt';
         fs.writeFileSync(outputPath, trainingContent, 'utf8');
         
         console.log(`File training berhasil dibuat: ${outputPath}`);

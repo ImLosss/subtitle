@@ -42,8 +42,8 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', // Overwrite file output jika ada
       '-i', inputFile, // File input
-      // '-ss', '00:02:29', 
-      // '-to', '00:17:28',
+      // '-ss', '00:02:17', 
+      // '-to', '00:17:50',
       // '-vf', 'scale=1920:-2', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
       '-r', '25', // Atur FPS menjadi 25
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
@@ -112,4 +112,4 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('SL_EP108.ts', 'SL_EP108.mp4');
+cut('JD_EP07.ts', 'JD_EP07d.mp4');

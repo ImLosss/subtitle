@@ -20,7 +20,7 @@ function timeToSeconds(timeStr) {
 }
 
 // 🔍 Fungsi untuk mencari gap waktu >= 30 detik
-function findTimeGaps(blocks, minGapSeconds = 30) {
+function findTimeGaps(blocks, minGapSeconds = 25) {
   const gaps = [];
   
   for (let i = 0; i < blocks.length - 1; i++) {
@@ -121,7 +121,7 @@ if (gaps.length > 0) {
   for (let i = gaps.length - 1; i >= 0; i--) {
     const gap = gaps[i];
     console.log(i);
-    blocks = insertSubtitleInGap(blocks, gap, "Join channel t.me/dongworld agar tidak ketinggalan update.\\NDonghua ini diterjemahkan oleh DongWorld.");
+    blocks = insertSubtitleInGap(blocks, gap, "Join channel telegram dongworld agar tidak ketinggalan update.\\NDonghua ini diterjemahkan oleh Dongworld.");
     console.log(`✅ Subtitle berhasil disisipkan pada gap ${i + 1} (${gap.gapDuration.toFixed(1)} detik)!`);
   }
 

@@ -53,14 +53,14 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
       '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
       '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
-      '-b:v', '3M', // Bitrate target rata-rata
-      '-maxrate', '3M', // Batasi bitrate maksimum hingga 5 Mbps
-      '-bufsize', '6M', // Buffer size dua kali maksimum bitrate
+      '-b:v', '3.5M', // Bitrate target rata-rata
+      '-maxrate', '3.5M', // Batasi bitrate maksimum hingga 5 Mbps
+      '-bufsize', '7M', // Buffer size dua kali maksimum bitrate
       '-quality', 'quality', // Prioritaskan kualitas
       '-preset', 'quality', // Gunakan preset kualitas GPU
       // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
       // scale=1920:-1
-      '-vf', "subtitles=PW_EP222_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
+      '-vf', "subtitles=TOS_EP167.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
       '-c:a', 'copy', 
       outputFile // File output
     ];
@@ -72,7 +72,7 @@ async function burnSubtitleGPU(inputFile, outputFile) {
     //   '-y', // Overwrite file output jika ada
     //   '-i', inputFile, // File input
     //   //scale=-1:1080
-    //   '-vf', "subtitles=pv_jade.ass,drawtext=text='DongWorld':font=Verdana:fontsize=20:fontcolor=white@0.5:x=15:y=15",
+    //   '-vf', "subtitles=pv.ass,drawtext=text='DongWorld':font=Verdana:fontsize=20:fontcolor=white@0.5:x=15:y=15",
     //   '-c:v', 'libx264',
     //   '-crf', '30',
     //   // '-b:v', '2M', // Bitrate target rata-rata
@@ -206,4 +206,4 @@ async function extractSrt(inputFile) {
 //   outputFile // File output
 // ];
 
-burnSubtitleGPU('PW_EP222.mp4', 'PW_EP222_INDO.mp4')
+burnSubtitleGPU('TOS_EP167.ts', 'TOS_EP167_indo.mp4')
