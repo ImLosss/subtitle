@@ -1,0 +1,305 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,80,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,1,1,1,1,2,10,10,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,50,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.32,0:00:11.44,tales,,0,0,0,,Pemimpin Muda, bagaimana pendapatmu tentang Penasihat Negara Yankang?
+Dialogue: 0,0:00:12.32,0:00:13.72,tales,,0,0,0,,Seorang pahlawan di antara manusia.
+Dialogue: 0,0:00:13.72,0:00:14.60,tales,,0,0,0,,Berhati lapang.
+Dialogue: 0,0:00:16.40,0:00:17.52,tales,,0,0,0,,Bakat yang langka.
+Dialogue: 0,0:00:17.84,0:00:20.53,tales,,0,0,0,,Dulu, saat dia datang menanyakan Tao padaku,
+Dialogue: 0,0:00:21.12,0:00:22.72,tales,,0,0,0,,aku juga berpikir begitu.
+Dialogue: 0,0:00:23.12,0:00:25.04,tales,,0,0,0,,Awalnya aku ingin menerimanya sebagai murid,
+Dialogue: 0,0:00:25.32,0:00:28.92,tales,,0,0,0,,tapi ternyata pengetahuannya hampir melampauiku.
+Dialogue: 0,0:00:29.20,0:00:31.00,tales,,0,0,0,,Jadi aku urungkan niat itu.
+Dialogue: 0,0:00:33.60,0:00:34.52,tales,,0,0,0,,Lalu,
+Dialogue: 0,0:00:34.80,0:00:38.00,tales,,0,0,0,,karena Yankang menguasai semua sekte di dunia,
+Dialogue: 0,0:00:38.40,0:00:40.52,tales,,0,0,0,,dan Penasihat adalah jenius langka,
+Dialogue: 0,0:00:40.80,0:00:42.72,tales,,0,0,0,,sementara Kultus Suci juga sebuah sekte,
+Dialogue: 0,0:00:43.32,0:00:45.92,tales,,0,0,0,,jika Penasihat ingin menghancurkan semua sekte,
+Dialogue: 0,0:00:46.52,0:00:47.64,tales,,0,0,0,,menghancurkan Kultus Suci,
+Dialogue: 0,0:00:50.64,0:00:52.72,tales,,0,0,0,,bagaimana seharusnya sikap kita?
+Dialogue: 0,0:00:55.92,0:00:56.84,tales,,0,0,0,,Ada dua jalan.
+Dialogue: 0,0:00:58.20,0:00:59.52,tales,,0,0,0,,Pertama, ubah kultus menjadi negara.
+Dialogue: 0,0:01:00.24,0:01:01.52,tales,,0,0,0,,Jika Kultus Suci ingin mendirikan negara,
+Dialogue: 0,0:01:01.60,0:01:04.80,tales,,0,0,0,,kita harus menjauhi Yankang agar tidak ditelan.
+Dialogue: 0,0:01:05.64,0:01:08.92,tales,,0,0,0,,Tapi 360 Aula Kultus Suci berakar pada rakyat biasa.
+Dialogue: 0,0:01:09.72,0:01:11.00,tales,,0,0,0,,Jika meninggalkan Yankang,
+Dialogue: 0,0:01:11.52,0:01:12.84,tales,,0,0,0,,fondasi kita bisa hancur.
+Dialogue: 0,0:01:17.72,0:01:18.84,tales,,0,0,0,,Bagaimana dengan jalan kedua?
+Dialogue: 0,0:01:20.92,0:01:22.12,tales,,0,0,0,,Bergabung dengan Yankang.
+Dialogue: 0,0:01:25.52,0:01:26.92,tales,,0,0,0,,Kau ingin jadi pemimpin kultus
+Dialogue: 0,0:01:27.52,0:01:29.52,tales,,0,0,0,,hanya untuk menghancurkan Kultus Suci?
+Dialogue: 0,0:01:30.92,0:01:32.64,tales,,0,0,0,,Berani sekali kau!
+Dialogue: 0,0:01:36.64,0:01:38.52,tales,,0,0,0,,Aku akan memenggal kepalamu!
+Dialogue: 0,0:01:39.72,0:01:41.52,tales,,0,0,0,,Grandmaster tidak punya niat seperti itu.
+Dialogue: 0,0:01:48.80,0:01:49.40,tales,,0,0,0,,Ada.
+Dialogue: 0,0:01:50.20,0:01:52.04,tales,,0,0,0,,Kepalamu bisa tetap menempel untuk sekarang.
+Dialogue: 0,0:01:52.32,0:01:53.64,tales,,0,0,0,,Lanjutkan.
+Dialogue: 0,0:01:54.40,0:01:55.20,tales,,0,0,0,,Bolehkah aku bertanya, Grandmaster,
+Dialogue: 0,0:01:55.72,0:01:58.40,tales,,0,0,0,,berapa persen murid Akademi Kekaisaran yang berasal dari keluarga miskin?
+Dialogue: 0,0:01:59.12,0:01:59.52,tales,,0,0,0,,Sepuluh persen.
+Dialogue: 0,0:02:00.20,0:02:03.52,tales,,0,0,0,,Berapa persen pejabat Yankang yang lulus dari Akademi Kekaisaran?
+Dialogue: 0,0:02:03.72,0:02:04.72,tales,,0,0,0,,Tujuh puluh dua persen.
+Dialogue: 0,0:02:04.80,0:02:07.00,tales,,0,0,0,,Inilah kelemahan Akademi Kekaisaran.
+Dialogue: 0,0:02:09.44,0:02:13.12,tales,,0,0,0,,Dua ratus tahun lagi, semua pejabat akan berasal dari Akademi Kekaisaran.
+Dialogue: 0,0:02:13.44,0:02:16.64,tales,,0,0,0,,Tapi tidak ada satu pun murid dari keluarga miskin di sana.
+Dialogue: 0,0:02:17.20,0:02:18.84,tales,,0,0,0,,Keluarga miskin semakin sengsara,
+Dialogue: 0,0:02:19.32,0:02:20.80,tales,,0,0,0,,keluarga kaya semakin makmur.
+Dialogue: 0,0:02:21.92,0:02:23.92,tales,,0,0,0,,Kemarahan rakyat pasti akan meledak.
+Dialogue: 0,0:02:24.44,0:02:27.00,tales,,0,0,0,,Saat itulah Kultus Suci akan menguasai dunia.
+Dialogue: 0,0:02:27.92,0:02:29.32,tales,,0,0,0,,Gelombang sejarah
+Dialogue: 0,0:02:29.52,0:02:31.92,tales,,0,0,0,,tak bisa dihentikan atau dilawan oleh siapa pun.
+Dialogue: 0,0:02:33.72,0:02:35.00,tales,,0,0,0,,Kau ingin memberontak?
+Dialogue: 0,0:02:37.12,0:02:38.92,tales,,0,0,0,,Membuat Kultus Suci jadi pengkhianat?
+Dialogue: 0,0:02:39.32,0:02:40.72,tales,,0,0,0,,Aku akan memenggal kepalamu!
+Dialogue: 0,0:02:41.04,0:02:43.12,tales,,0,0,0,,Grandmaster, jangan main-main.
+Dialogue: 0,0:02:48.92,0:02:52.72,tales,,0,0,0,,Kau butuh 200 tahun untuk menjadikan Kultus Suci seperti Yankang.
+Dialogue: 0,0:02:53.20,0:02:54.64,tales,,0,0,0,,Lalu 200 tahun berikutnya?
+Dialogue: 0,0:02:55.72,0:02:57.92,tales,,0,0,0,,Pasti akan ada yang menggulingkan Kultus Suci.
+Dialogue: 0,0:02:58.52,0:02:59.92,tales,,0,0,0,,Mohon petunjuk Grandmaster.
+Dialogue: 0,0:03:01.12,0:03:03.72,tales,,0,0,0,,Aku juga tidak bisa melihat 200 tahun ke depan.
+Dialogue: 0,0:03:04.92,0:03:08.32,tales,,0,0,0,,Tapi pandanganku berbeda denganmu.
+Dialogue: 0,0:03:08.92,0:03:10.20,tales,,0,0,0,,Yang kupikirkan adalah
+Dialogue: 0,0:03:10.52,0:03:11.92,tales,,0,0,0,,ajaran Kultus Suci.
+Dialogue: 0,0:03:14.12,0:03:17.80,tales,,0,0,0,,Tao Orang Suci tak berbeda dengan penggunaan sehari-hari rakyat.
+Dialogue: 0,0:03:18.32,0:03:20.20,tales,,0,0,0,,Saat Penasihat Yankang bangkit,
+Dialogue: 0,0:03:20.32,0:03:22.72,tales,,0,0,0,,aku sudah melihat ambisinya.
+Dialogue: 0,0:03:23.12,0:03:24.60,tales,,0,0,0,,Dia datang menanyakan Tao padaku,
+Dialogue: 0,0:03:24.72,0:03:26.92,tales,,0,0,0,,dan kuberitahu dia kalimat ini.
+Dialogue: 0,0:03:27.40,0:03:28.80,tales,,0,0,0,,Yang dilakukannya sekarang
+Dialogue: 0,0:03:29.44,0:03:31.00,tales,,0,0,0,,adalah kalimat itu.
+Dialogue: 0,0:03:31.44,0:03:34.12,tales,,0,0,0,,Grandmaster ingin memengaruhi Yankang melalui Penasihat?
+Dialogue: 0,0:03:34.40,0:03:35.72,tales,,0,0,0,,Untuk memengaruhi Yankang,
+Dialogue: 0,0:03:36.04,0:03:37.92,tales,,0,0,0,,jadikan Yankang sebagai Kultus Suci.
+Dialogue: 0,0:03:38.40,0:03:40.44,tales,,0,0,0,,Jika Yankang bisa mewujudkan Tao Orang Suci,
+Dialogue: 0,0:03:41.04,0:03:43.12,tales,,0,0,0,,Yankang adalah Kultus Suci Langit.
+Dialogue: 0,0:03:43.32,0:03:44.20,tales,,0,0,0,,Grandmaster bijaksana.
+Dialogue: 0,0:03:44.52,0:03:45.72,tales,,0,0,0,,Anda sudah menjadi Orang Suci.
+Dialogue: 0,0:03:47.60,0:03:49.44,tales,,0,0,0,,Aku tidak bisa mewujudkan Tao Orang Suci.
+Dialogue: 0,0:03:50.00,0:03:51.92,tales,,0,0,0,,Penasihat Yankang juga tidak bisa.
+Dialogue: 0,0:03:52.52,0:03:54.04,tales,,0,0,0,,Seperti yang kau katakan,
+Dialogue: 0,0:03:54.20,0:03:58.12,tales,,0,0,0,,200 tahun lagi kekuasaan akan dikuasai keluarga bangsawan.
+Dialogue: 0,0:03:58.60,0:04:00.00,tales,,0,0,0,,Aku sudah gagal.
+Dialogue: 0,0:04:00.52,0:04:04.06,tales,,0,0,0,,Tanggung jawab ini kuberikan padamu.
+Dialogue: 0,0:04:05.92,0:04:07.12,tales,,0,0,0,,Dibanding menghancurkan kultus,
+Dialogue: 0,0:04:07.64,0:04:11.12,tales,,0,0,0,,Penasihat Yankang lebih ingin mengontrol Kultus Suci untuk tujuannya.
+Dialogue: 0,0:04:11.80,0:04:12.32,tales,,0,0,0,,Benar?
+Dialogue: 0,0:04:12.92,0:04:15.24,tales,,0,0,0,,Ya, kau bisa manfaatkan ini.
+Dialogue: 0,0:04:16.04,0:04:18.12,tales,,0,0,0,,Kau masih muda dan lemah,
+Dialogue: 0,0:04:18.44,0:04:20.00,tales,,0,0,0,,dia akan merasa bisa mengendalikanmu.
+Dialogue: 0,0:04:20.40,0:04:23.00,tales,,0,0,0,,Jika dia bisa mewujudkan Tao Orang Suci di masa depan,
+Dialogue: 0,0:04:23.32,0:04:26.32,tales,,0,0,0,,biarkan dia mengendalikanmu dan Kultus Suci.
+Dialogue: 0,0:04:27.60,0:04:29.24,tales,,0,0,0,,Jika dia gagal,
+Dialogue: 0,0:04:30.72,0:04:32.52,tales,,0,0,0,,kau gantikan dia.
+Dialogue: 0,0:04:35.60,0:04:37.72,tales,,0,0,0,,Grandmaster, ikan apa ini?
+Dialogue: 0,0:04:38.72,0:04:40.92,tales,,0,0,0,,Energi sembilan naga berkumpul di sini,
+Dialogue: 0,0:04:40.92,0:04:42.60,tales,,0,0,0,,membentuk danau ini.
+Dialogue: 0,0:04:43.24,0:04:45.12,tales,,0,0,0,,Ikan ini menyerap energi naga,
+Dialogue: 0,0:04:45.32,0:04:47.04,tales,,0,0,0,,jadi disebut ikan mas sembilan naga.
+Dialogue: 0,0:04:47.80,0:04:50.04,tales,,0,0,0,,Ikan ini tulangnya keras,
+Dialogue: 0,0:04:50.72,0:04:53.12,tales,,0,0,0,,dagingnya sedikit, hanya bisa untuk sup.
+Dialogue: 0,0:04:53.40,0:04:56.52,tales,,0,0,0,,Tapi supnya sangat lezat.
+Dialogue: 0,0:04:57.24,0:05:01.00,tales,,0,0,0,,Grandmaster ingin aku menjadi ikan mas sembilan naga yang tulangnya keras?
+Dialogue: 0,0:05:02.72,0:05:03.92,tales,,0,0,0,,Kau terlalu banyak berpikir.
+Dialogue: 0,0:05:04.72,0:05:06.12,tales,,0,0,0,,Apa salahnya menjadi manusia?
+Dialogue: 0,0:05:06.32,0:05:07.64,tales,,0,0,0,,Kenapa malah ingin jadi ikan?
+Dialogue: 0,0:05:08.12,0:05:09.60,tales,,0,0,0,,Kau ingin direbus jadi sup?
+Dialogue: 0,0:05:10.32,0:05:11.60,tales,,0,0,0,,Aku hanya lapar saja.
+Dialogue: 0,0:05:12.12,0:05:13.60,tales,,0,0,0,,Mengajakmu kesini hanya untuk minum sup ikan.
+Dialogue: 0,0:05:17.72,0:05:21.60,tales,,0,0,0,,Tahukah kau mengapa aku menjadi Kepala Akademi Kekaisaran?
+Dialogue: 0,0:05:22.20,0:05:24.72,tales,,0,0,0,,Aku ingin mempelajari semua pengetahuan di dunia.
+Dialogue: 0,0:05:25.12,0:05:27.12,tales,,0,0,0,,Untuk menyaksikan zaman baru.
+Dialogue: 0,0:05:28.00,0:05:31.20,tales,,0,0,0,,Sayangnya, sepertinya aku tidak akan melihatnya.
+Dialogue: 0,0:05:32.32,0:05:33.60,tales,,0,0,0,,Tapi tidak apa.
+Dialogue: 0,0:05:34.12,0:05:35.32,tales,,0,0,0,,Kau bisa melihatnya.
+Dialogue: 0,0:05:36.00,0:05:36.84,tales,,0,0,0,,Zaman itu.
+Dialogue: 0,0:05:37.80,0:05:39.04,tales,,0,0,0,,Bagaimana cara melihatnya?
+Dialogue: 0,0:05:40.80,0:05:42.40,tales,,0,0,0,,Ketinggian yang berbeda.
+Dialogue: 0,0:05:42.80,0:05:44.52,tales,,0,0,0,,Memandang dunia yang berbeda.
+Dialogue: 0,0:05:45.32,0:05:48.72,tales,,0,0,0,,Ayam dan burung terbang rendah, hanya melihat sejengkal tanah.
+Dialogue: 0,0:05:49.20,0:05:52.40,tales,,0,0,0,,Elang membentang sayap, seribu li adalah wilayah berburu.
+Dialogue: 0,0:05:53.12,0:05:54.04,tales,,0,0,0,,Pemimpin Muda.
+Dialogue: 0,0:05:54.72,0:05:57.60,tales,,0,0,0,,Di usiamu yang masih muda sudah bisa melihat 200 tahun ke depan.
+Dialogue: 0,0:05:58.00,0:05:59.92,tales,,0,0,0,,Kau sudah layak jadi pemimpin kultus.
+Dialogue: 0,0:06:01.00,0:06:02.12,tales,,0,0,0,,Kau lulus.
+Dialogue: 0,0:06:05.72,0:06:08.60,tales,,0,0,0,,Beberapa bulan lagi aku akan mengundurkan diri.
+Dialogue: 0,0:06:08.92,0:06:11.32,tales,,0,0,0,,Kembali ke Kultus Suci untuk memimpin upacara penobatan.
+Dialogue: 0,0:06:12.24,0:06:16.00,tales,,0,0,0,,Aku ingin menyaksikanmu menjadi pemimpin Kultus Suci.
+Dialogue: 0,0:06:16.72,0:06:17.24,tales,,0,0,0,,Grandmaster.
+Dialogue: 0,0:06:18.04,0:06:20.20,tales,,0,0,0,,Aku tahu Kultus Suci punya aturan tidak tertulis.
+Dialogue: 0,0:06:21.12,0:06:22.92,tales,,0,0,0,,Siapa yang bisa membunuh pemimpin lama.
+Dialogue: 0,0:06:23.20,0:06:24.44,tales,,0,0,0,,Bisa jadi pemimpin baru.
+Dialogue: 0,0:06:25.32,0:06:27.24,tales,,0,0,0,,Sekarang aku di tingkat Lima Cahaya.
+Dialogue: 0,0:06:27.52,0:06:31.92,tales,,0,0,0,,Bukankah terlalu banyak yang bisa membunuhku?
+Dialogue: 0,0:06:33.32,0:06:35.72,tales,,0,0,0,,Selama aku ada, tak ada yang berani menyentuhmu.
+Dialogue: 0,0:06:36.80,0:06:38.72,tales,,0,0,0,,Kau harus cepat mengasah diri.
+Dialogue: 0,0:06:39.12,0:06:40.72,tales,,0,0,0,,Maka tak ada yang bisa membunuhmu.
+Dialogue: 0,0:06:41.04,0:06:44.52,tales,,0,0,0,,Bukankah Grandmaster bilang hanya punya tujuh tahun lagi?
+Dialogue: 0,0:06:45.00,0:06:46.92,tales,,0,0,0,,Waktumu tidak banyak.
+Dialogue: 0,0:06:47.92,0:06:49.40,tales,,0,0,0,,Hanya mengandalkan tingkat kekuatan.
+Dialogue: 0,0:06:50.32,0:06:52.20,tales,,0,0,0,,Pasti seperti berjalan di atas es tipis.
+Dialogue: 0,0:06:53.40,0:06:54.80,tales,,0,0,0,,Sebagai Guru Suci.
+Dialogue: 0,0:06:55.20,0:06:58.24,tales,,0,0,0,,Jika bisa memimpin Kultus Suci menuju jalan baru.
+Dialogue: 0,0:06:58.60,0:07:01.20,tales,,0,0,0,,Mendapatkan dukungan semua murid.
+Dialogue: 0,0:07:02.20,0:07:04.12,tales,,0,0,0,,Maka tak ada yang ingin membunuhmu.
+Dialogue: 0,0:07:05.32,0:07:08.04,tales,,0,0,0,,Dan tak ada yang berani berniat membunuhmu.
+Dialogue: 0,0:07:11.40,0:07:18.80,tales,,0,0,0,,Sekarang bukan zaman lagi mengandalkan satu dua teknik warisan leluhur untuk menguasai dunia.
+Dialogue: 0,0:07:19.24,0:07:21.40,tales,,0,0,0,,Jangan terjebak dalam batasan sendiri.
+Dialogue: 0,0:07:21.92,0:07:24.84,tales,,0,0,0,,Kau tak akan pernah kekurangan pesaing.
+Dialogue: 0,0:07:24.86,0:07:39.86,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:07:53.72,0:07:56.72,tales,,0,0,0,,Grandmaster, Gadis Suci minta bertemu.
+Dialogue: 0,0:07:57.40,0:07:57.92,tales,,0,0,0,,Tidak usah.
+Dialogue: 0,0:07:58.72,0:08:01.00,tales,,0,0,0,,Aku sudah punya calon Pemimpin Suci.
+Dialogue: 0,0:08:01.92,0:08:02.80,tales,,0,0,0,,Suruh dia pulang.
+Dialogue: 0,0:08:07.32,0:08:09.52,tales,,0,0,0,,Upacara penobatan belum dimulai.
+Dialogue: 0,0:08:09.72,0:08:12.04,tales,,0,0,0,,Jika Gadis Suci lebih unggul dari pemimpin baru.
+Dialogue: 0,0:08:12.40,0:08:14.52,tales,,0,0,0,,Bukankah seharusnya yang terbaik yang menang?
+Dialogue: 0,0:08:20.72,0:08:21.52,tales,,0,0,0,,Tuan Muda.
+Dialogue: 0,0:08:23.44,0:08:24.72,tales,,0,0,0,,Aku sudah siapkan semuanya.
+Dialogue: 0,0:08:25.40,0:08:27.84,tales,,0,0,0,,Kapan kita pindah ke Akademi Kekaisaran?
+Dialogue: 0,0:08:28.92,0:08:29.52,tales,,0,0,0,,Tidak usah buru-buru.
+Dialogue: 0,0:08:31.12,0:08:33.20,tales,,0,0,0,,Masih ada dua hari sebelum Akademi Kekaisaran dimulai.
+Dialogue: 0,0:08:33.32,0:08:33.84,tales,,0,0,0,,Terima kasih.
+Dialogue: 0,0:08:34.04,0:08:35.32,tales,,0,0,0,,Aku akan lanjutkan pengobatan.
+Dialogue: 0,0:08:39.64,0:08:41.20,tales,,0,0,0,,Tabib, tolong selamatkan dia.
+Dialogue: 0,0:08:41.72,0:08:45.60,tales,,0,0,0,,Di medan perang, dia terkena sinar cermin dari orang barbar bertanduk.
+Dialogue: 0,0:08:45.84,0:08:47.92,tales,,0,0,0,,Sejak itu badannya semakin kurus.
+Dialogue: 0,0:08:48.40,0:08:50.64,tales,,0,0,0,,Jenderal tak ingin dia menunggu ajal di barak.
+Dialogue: 0,0:08:50.92,0:08:52.40,tales,,0,0,0,,Menyuruhku membawanya ke ibukota untuk berobat.
+Dialogue: 0,0:08:52.60,0:08:53.24,tales,,0,0,0,,Terlambat.
+Dialogue: 0,0:08:53.64,0:08:54.60,tales,,0,0,0,,Dia sudah meninggal.
+Dialogue: 0,0:08:56.04,0:08:57.60,tales,,0,0,0,,Tapi dia masih bernafas.
+Dialogue: 0,0:08:58.12,0:08:58.92,tales,,0,0,0,,Masih hidup.
+Dialogue: 0,0:08:59.12,0:09:00.60,tales,,0,0,0,,Hanya tubuhnya yang masih hidup.
+Dialogue: 0,0:09:01.12,0:09:02.72,tales,,0,0,0,,Dia terkena racun sihir Bangsa Mandi.
+Dialogue: 0,0:09:02.92,0:09:04.32,tales,,0,0,0,,Racun telah merasuk ke jiwanya.
+Dialogue: 0,0:09:04.64,0:09:05.92,tales,,0,0,0,,Jiwanya sudah tercerai-berai.
+Dialogue: 0,0:09:06.52,0:09:07.20,tales,,0,0,0,,Aku tak bisa menyelamatkannya.
+Dialogue: 0,0:09:09.72,0:09:11.52,tales,,0,0,0,,Resep ini bernama Pil Matahari Murni Pembasmi Cacing.
+Dialogue: 0,0:09:12.52,0:09:13.72,tales,,0,0,0,,Jika ada yang terkena racun sihir lagi.
+Dialogue: 0,0:09:14.12,0:09:15.52,tales,,0,0,0,,Minum secepatnya bisa menyelamatkan nyawa.
+Dialogue: 0,0:09:17.12,0:09:18.52,tales,,0,0,0,,Tabib yang mulia.
+Dialogue: 0,0:09:18.72,0:09:20.72,tales,,0,0,0,,Kami para prajurit perbatasan tak bisa membalas budi.
+Dialogue: 0,0:09:34.44,0:09:36.40,tales,,0,0,0,,Mereka adalah prajurit dari Gerbang Qingmen.
+Dialogue: 0,0:09:37.84,0:09:40.24,tales,,0,0,0,,Gerbang Qingmen sedang berperang dengan Bangsa Mandi.
+Dialogue: 0,0:09:40.92,0:09:43.40,tales,,0,0,0,,Resepmu bisa menyelamatkan jutaan prajurit.
+Dialogue: 0,0:09:44.92,0:09:46.00,tales,,0,0,0,,Feiqi.
+Dialogue: 0,0:09:48.32,0:09:49.20,tales,,0,0,0,,Penggembala.
+Dialogue: 0,0:09:50.12,0:09:51.00,tales,,0,0,0,,Terima kasih.
+Dialogue: 0,0:09:54.84,0:09:56.00,tales,,0,0,0,,Kondisimu terlihat baik.
+Dialogue: 0,0:09:56.32,0:09:57.52,tales,,0,0,0,,Kenapa juga mencari pengobatan?
+Dialogue: 0,0:09:59.40,0:10:02.20,tales,,0,0,0,,Ada seorang kerabat yang sudah lama terbaring sakit.
+Dialogue: 0,0:10:02.64,0:10:04.20,tales,,0,0,0,,Sudah diperiksa banyak tabib.
+Dialogue: 0,0:10:04.24,0:10:05.24,tales,,0,0,0,,Tapi tak kunjung sembuh.
+Dialogue: 0,0:10:05.80,0:10:07.72,tales,,0,0,0,,Jadi menyuruhku menjemputmu.
+Dialogue: 0,0:10:09.40,0:10:10.32,tales,,0,0,0,,Naiklah ke tandu.
+Dialogue: 0,0:10:11.60,0:10:13.40,tales,,0,0,0,,Feiqi adalah putri Yankang.
+Dialogue: 0,0:10:14.00,0:10:15.00,tales,,0,0,0,,Kerabatnya.
+Dialogue: 0,0:10:16.60,0:10:17.64,tales,,0,0,0,,Jangan-jangan.
+Dialogue: 0,0:10:23.72,0:10:24.80,tales,,0,0,0,,Kaisar sakit?
+Dialogue: 0,0:10:25.60,0:10:27.12,tales,,0,0,0,,Terakhir aku bertemu dia.
+Dialogue: 0,0:10:27.32,0:10:28.72,tales,,0,0,0,,Tubuhnya sangat kuat.
+Dialogue: 0,0:10:29.72,0:10:30.92,tales,,0,0,0,,Yang sakit adalah nenekku.
+Dialogue: 0,0:10:31.20,0:10:32.12,tales,,0,0,0,,Ibu Permaisuri.
+Dialogue: 0,0:10:33.52,0:10:37.60,tales,,0,0,0,,Tahukah kau mengapa ayah mengampuni dosamu menghindari cermin ajaib?
+Dialogue: 0,0:10:38.04,0:10:40.32,tales,,0,0,0,,Ayah berharap kau bisa menyembuhkan nenek.
+Dialogue: 0,0:10:40.72,0:10:42.60,tales,,0,0,0,,Bagaimana jika aku gagal?
+Dialogue: 0,0:10:42.72,0:10:46.20,tales,,0,0,0,,Bahkan ayah tak bisa menyelamatkan kepalamu.
+Dialogue: 0,0:11:10.20,0:11:11.12,tales,,0,0,0,,Nenek.
+Dialogue: 0,0:11:11.52,0:11:13.64,tales,,0,0,0,,Aku bawa Tabib dari Jalan Bunga.
+Dialogue: 0,0:11:14.44,0:11:15.72,tales,,0,0,0,,Qin Mu menghadap Ibu Permaisuri.
+Dialogue: 0,0:11:17.60,0:11:19.12,tales,,0,0,0,,Dia masih sangat muda.
+Dialogue: 0,0:11:19.20,0:11:21.52,tales,,0,0,0,,Mungkin belum banyak baca buku pengobatan.
+Dialogue: 0,0:11:21.64,0:11:23.52,tales,,0,0,0,,Bagaimana bisa mengobati Ibu Permaisuri?
+Dialogue: 0,0:11:23.72,0:11:25.32,tales,,0,0,0,,Jangan-jangan dia penipu.
+Dialogue: 0,0:11:26.00,0:11:28.52,tales,,0,0,0,,Tabib Xiao juga bilang begitu.
+Dialogue: 0,0:11:29.12,0:11:31.40,tales,,0,0,0,,Lalu dia mati.
+Dialogue: 0,0:11:34.12,0:11:35.72,tales,,0,0,0,,Tabib Jalan Bunga.
+Dialogue: 0,0:11:36.00,0:11:38.92,tales,,0,0,0,,Para tabib adalah pengawas Akademi Kekaisaran.
+Dialogue: 0,0:11:39.12,0:11:41.20,tales,,0,0,0,,Mereka akan mengajarimu pengobatan nanti.
+Dialogue: 0,0:11:42.12,0:11:44.60,tales,,0,0,0,,Biarkan mereka lihat kemampuanmu.
+Dialogue: 0,0:11:44.62,0:11:59.62,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:17.00,0:12:19.32,tales,,0,0,0,,Mata Langit Qingxiao, Buka!
+Dialogue: 0,0:12:24.60,0:12:26.00,tales,,0,0,0,,Ibu Permaisuri keracunan.
+Dialogue: 0,0:12:26.00,0:12:27.00,tales,,0,0,0,,Racun apa?
+Dialogue: 0,0:12:28.64,0:12:30.24,tales,,0,0,0,,Racun ini bernama Racun Seribu Muslihat.
+Dialogue: 0,0:12:34.92,0:12:38.32,tales,,0,0,0,,Dibuat dari 1.023 racun yang berbeda.
+Dialogue: 0,0:12:38.64,0:12:39.72,tales,,0,0,0,,Korban racun ini.
+Dialogue: 0,0:12:40.12,0:12:43.12,tales,,0,0,0,,Akan memiliki 1.023 racun dalam tubuhnya sekaligus.
+Dialogue: 0,0:12:43.60,0:12:44.92,tales,,0,0,0,,Bagaimana pun resepnya.
+Dialogue: 0,0:12:45.20,0:12:46.72,tales,,0,0,0,,Hanya bisa menyembuhkan sebagian.
+Dialogue: 0,0:12:47.04,0:12:47.80,tales,,0,0,0,,Dan.
+Dialogue: 0,0:12:47.80,0:12:51.72,tales,,0,0,0,,Setiap penawar akan menciptakan perubahan baru pada racun.
+Dialogue: 0,0:12:51.92,0:12:53.40,tales,,0,0,0,,Semakin banyak pengobatan.
+Dialogue: 0,0:12:53.40,0:12:54.72,tales,,0,0,0,,Semakin dalam keracunannya.
+Dialogue: 0,0:12:55.44,0:12:57.32,tales,,0,0,0,,Pantasan setiap tabib memeriksa.
+Dialogue: 0,0:12:57.40,0:12:58.40,tales,,0,0,0,,Mengatakan ini racun.
+Dialogue: 0,0:12:58.60,0:13:00.40,tales,,0,0,0,,Tapi racun terus berubah.
+Dialogue: 0,0:13:00.80,0:13:02.32,tales,,0,0,0,,Resep pun terus berganti.
+Dialogue: 0,0:13:02.32,0:13:04.52,tales,,0,0,0,,Tapi racun tak kunjung hilang.
+Dialogue: 0,0:13:04.52,0:13:06.72,tales,,0,0,0,,Nenek malah semakin parah.
+Dialogue: 0,0:13:08.12,0:13:12.92,tales,,0,0,0,,Tabib muda, bagaimana kau tahu Racun Seribu Muslihat?
+Dialogue: 0,0:13:13.40,0:13:15.04,tales,,0,0,0,,Kudengar dari seorang kerabat.
+Dialogue: 0,0:13:15.72,0:13:19.32,tales,,0,0,0,,Di mana kerabatmu sekarang?
+Dialogue: 0,0:13:19.80,0:13:20.44,tales,,0,0,0,,Daxu.
+Dialogue: 0,0:13:24.11,0:13:25.46,tales,,0,0,0,,Daxu?
+Dialogue: 0,0:13:27.32,0:13:28.80,tales,,0,0,0,,Racun Seribu Muslihat.
+Dialogue: 0,0:13:29.04,0:13:31.00,tales,,0,0,0,,Racun ini diciptakan Raja Racun Bermuka Giok.
+Dialogue: 0,0:13:31.00,0:13:32.52,tales,,0,0,0,,Tak ada yang pernah melihatnya.
+Dialogue: 0,0:13:32.52,0:13:34.92,tales,,0,0,0,,Jadi, tak ada penawarnya.
+Dialogue: 0,0:13:35.00,0:13:37.60,tales,,0,0,0,,Hamba tak mampu, hamba pantas mati.
+Dialogue: 0,0:13:37.80,0:13:40.12,tales,,0,0,0,,Racun Seribu Muslihat milik Raja Racun Bermuka Giok?
+Dialogue: 0,0:13:40.40,0:13:42.40,tales,,0,0,0,,Tapi aku pernah melihatnya di tempat Kakek Guru Obat.
+Dialogue: 0,0:13:42.40,0:13:45.92,tales,,0,0,0,,Di mana Raja Racun Bermuka Giok sekarang?
+Dialogue: 0,0:13:46.44,0:13:50.44,tales,,0,0,0,,Katanya muridnya membocorkan wajah aslinya di balik topeng.
+Dialogue: 0,0:13:50.92,0:13:52.80,tales,,0,0,0,,Banyak musuh datang menyerbu.
+Dialogue: 0,0:13:53.24,0:13:55.80,tales,,0,0,0,,Dia tak bisa bertahan, akhirnya kabur dengan mengubah wajahnya.
+Dialogue: 0,0:13:55.80,0:13:57.52,tales,,0,0,0,,Sejak itu dia menghilang selama dua ratus tahun.
+Dialogue: 0,0:13:58.20,0:14:01.40,tales,,0,0,0,,Tapi, aku pernah melihatnya sekali di Daxu.
+Dialogue: 0,0:14:03.20,0:14:04.87,tales,,0,0,0,,Raja Racun Bermuka Giok yang mereka sebut,
+Dialogue: 0,0:14:05.24,0:14:06.92,tales,,0,0,0,,jangan-jangan itu benar-benar Kakek Guru Obat?
+Dialogue: 0,0:14:07.84,0:14:08.92,tales,,0,0,0,,Sejak kecil sampai besar.
+Dialogue: 0,0:14:09.12,0:14:10.84,tales,,0,0,0,,Kakek Guru Obat selalu memakai topeng.
+Dialogue: 0,0:14:11.52,0:14:13.44,tales,,0,0,0,,Tak pernah melihat wajah aslinya di balik topeng.
+Dialogue: 0,0:14:16.72,0:14:19.00,tales,,0,0,0,,Para tabib tidak bisa mengatasinya.
+Dialogue: 0,0:14:19.92,0:14:21.52,tales,,0,0,0,,Tabib Jalan Bunga.
+Dialogue: 0,0:14:22.20,0:14:23.20,tales,,0,0,0,,Bagaimana denganmu?
+Dialogue: 0,0:14:24.40,0:14:26.52,tales,,0,0,0,,Racun Seribu Muslihat adalah racun milik Kakek Guru Obat.
+Dialogue: 0,0:14:27.24,0:14:28.84,tales,,0,0,0,,Apakah dia yang meracuni?
+Dialogue: 0,0:14:29.72,0:14:33.20,tales,,0,0,0,,Tidak mungkin, Kakek Guru Obat tidak pernah keluar dari Daxu.
+Dialogue: 0,0:14:33.72,0:14:35.24,tales,,0,0,0,,Tidak mungkin dia yang meracuni.
+Dialogue: 0,0:14:39.24,0:14:40.12,tales,,0,0,0,,Aku punya cara untuk menawarnya.
+Dialogue: 0,0:14:44.04,0:14:44.72,tales,,0,0,0,,Tapi.
+Dialogue: 0,0:14:45.20,0:14:48.40,tales,,0,0,0,,Aku perlu tahu obat apa saja yang diminum Ibu Permaisuri sejak keracunan.
+Dialogue: 0,0:14:49.12,0:14:50.92,tales,,0,0,0,,Dan butuh 1.023 dayang istana.
+Dialogue: 0,0:14:52.12,0:14:53.60,tales,,0,0,0,,1.023 papan kayu.
+Dialogue: 0,0:14:54.80,0:14:57.12,tales,,0,0,0,,1.023 katak bermata hijau.
+Dialogue: 0,0:14:58.00,0:14:59.84,tales,,0,0,0,,Sekumpulan dayang yang tidak paham pengobatan.
+Dialogue: 0,0:15:00.00,0:15:01.20,tales,,0,0,0,,Tumpukan papan kayu usang.
+Dialogue: 0,0:15:01.72,0:15:04.04,tales,,0,0,0,,Ditambah beberapa katak pemakan racun.
+Dialogue: 0,0:15:04.52,0:15:05.52,tales,,0,0,0,,Bisa menawar Racun Seribu Muslihat?
+Dialogue: 0,0:15:05.52,0:15:07.80,tales,,0,0,0,,Apa trik yang dimainkan anak ini?
+Dialogue: 0,0:15:07.92,0:15:09.12,tales,,0,0,0,,Bikin-bikin misteri.
+Dialogue: 0,0:15:09.64,0:15:11.32,tales,,0,0,0,,Jika dia gagal menawar racun.
+Dialogue: 0,0:15:11.44,0:15:13.64,tales,,0,0,0,,Sembilan kepala pun tak cukup untuk dipenggal.
+Dialogue: 0,0:15:14.00,0:15:17.52,tales,,0,0,0,,Kita mungkin ikut mati bersamanya.
+Dialogue: 0,0:15:18.52,0:15:19.84,tales,,0,0,0,,Disetujui.

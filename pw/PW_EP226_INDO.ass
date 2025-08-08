@@ -1,0 +1,260 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 820
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.9,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,1,1,1,1,2,10,10,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,50,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:49.82,0:00:52.90,komen,,0,0,0,,{\pos(127,537)\fad(500,250)}[Fragmen Waktu]
+Dialogue: 0,0:01:17.76,0:01:21.78,komen,,0,0,0,,{\pos(491,283)\fad(500,250)}[Jalur Menuju Panggung Ascension Immortal\NKeberuntungan Khusus dari Peta Sepuluh Dunia]
+Dialogue: 0,0:01:48.90,0:01:53.32,komen,,0,0,0,,{\pos(341,338)\fad(500,250)}[Refleksi Fragmen Waktu]
+Dialogue: 0,0:02:34.28,0:02:38.87,komen,,0,0,0,,{\pos(367,308)\fad(500,250)}[Pemandangan Masa Lalu\NBayangan Pertempuran besar]
+Dialogue: 0,0:03:03.40,0:03:06.94,komen,,0,0,0,,{\pos(226,435)\fad(500,250)}[Roh Pahlawan True Immortal]
+Dialogue: 0,0:04:20.50,0:04:24.50,komen,,0,0,0,,{\pos(471,377)\fad(500,250)}[Anggur Pilihan takdir Immortal\NMengandung Aturan Dao Immortal Kuno]
+Dialogue: 0,0:06:12.57,0:06:13.83,komen,,0,0,0,,{\pos(180,435)\fad(500,250)}[Teko Ribuan Teknik Dao]
+Dialogue: 0,0:06:21.98,0:06:24.76,komen,,0,0,0,,{\pos(399,422)\fad(500,250)}[Dekrit Hukum Langit\NHukuman Pembasmian Telah Tiba]
+Dialogue: 0,0:09:00.87,0:09:03.28,komen,,0,0,0,,{\pos(304,638)\fad(500,250)}[Kaisar Henren\NAhli misterius dari masa depan]
+Dialogue: 0,0:09:23.50,0:09:26.44,komen,,0,0,0,,{\pos(373,427)\fad(500,250)}[Raja Merah\NKlan Binatang Waktu\NSalah satu Raja Immortal]
+Dialogue: 0,0:09:39.01,0:09:43.30,komen,,0,0,0,,{\pos(273,586)\fad(500,250)}[Teknik Immortal Seribu Perubahan]
+Dialogue: 0,0:10:07.00,0:10:09.29,komen,,0,0,0,,{\pos(160,563)\fad(500,250)}[Topeng Perunggu]
+Dialogue: 0,0:10:25.13,0:10:28.12,komen,,0,0,0,,{\pos(409,372)\fad(500,250)}[Tungku Raja Merah\NSenjata Immortal King Raja Merah]
+Dialogue: 0,0:11:24.70,0:11:26.43,komen,,0,0,0,,{\pos(345,376)\fad(500,250)}[Immortal Gold\NImmortal Gold Era Kuno]
+Dialogue: 0,0:12:06.97,0:12:08.95,komen,,0,0,0,,{\pos(524,312)\fad(500,250)}[Guci Penelan Langit\NSenjata Kaisar tingkat tertinggi milik Kaisar Henren]
+Dialogue: 0,0:12:48.87,0:12:52.67,komen,,0,0,0,,{\pos(397,399)\fad(500,250)}[Satu Tubuh Abadi\NIstana Tubuh Sejati Raja Merah]
+Dialogue: 0,0:12:52.69,0:12:55.17,komen,,0,0,0,,{\pos(180,427)\fad(500,250)}[Wujud Asli Raja Merah]
+Dialogue: 0,0:13:30.81,0:13:33.62,komen,,0,0,0,,{\pos(230,649)\fad(500,250)}[Menciptakan Diri Sejati Kembali\NBayangan Pedang Immortal]
+Dialogue: 0,0:15:08.19,0:15:11.00,komen,,0,0,0,,{\pos(186,428)\fad(500,250)}[Altar Gunung Huoyuan]
+Dialogue: 0,0:00:00.20,0:00:20.20,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:00:00.36,0:00:02.64,pw,,0,0,0,,Aku memiliki Menara Penahan Roh yang bisa mengikat Roh Primordial.
+Dialogue: 0,0:00:02.76,0:00:03.56,pw,,0,0,0,,Mulai sekarang,
+Dialogue: 0,0:00:03.64,0:00:04.76,pw,,0,0,0,,kau akan menjadi pelayanku.
+Dialogue: 0,0:00:04.96,0:00:05.76,pw,,0,0,0,,Mo Dao,
+Dialogue: 0,0:00:05.80,0:00:07.32,pw,,0,0,0,,kau berani berkhianat?
+Dialogue: 0,0:00:07.36,0:00:08.32,pw,,0,0,0,,Semut!
+Dialogue: 0,0:00:08.48,0:00:10.52,pw,,0,0,0,,Rasakan kekuatan Sang Waktu.
+Dialogue: 0,0:00:11.36,0:00:13.04,pw,,0,0,0,,Mengambil nyawa seenaknya,
+Dialogue: 0,0:00:13.28,0:00:15.76,pw,,0,0,0,,hari ini akan kuhancurkan kau berkeping-keping.
+Dialogue: 0,0:00:16.48,0:00:17.80,pw,,0,0,0,,Peta Sepuluh Dunia lepas kendali,
+Dialogue: 0,0:00:18.00,0:00:19.96,pw,,0,0,0,,ruang ini akan hancur.
+Dialogue: 0,0:00:30.72,0:00:31.64,pw,,0,0,0,,Ini...
+Dialogue: 0,0:00:32.40,0:00:33.08,pw,,0,0,0,,di mana?
+Dialogue: 0,0:00:41.36,0:00:42.76,pw,,0,0,0,,Tubuhku menghilang.
+Dialogue: 0,0:00:46.08,0:00:47.44,pw,,0,0,0,,Untung jiwaku masih ada.
+Dialogue: 0,0:00:49.08,0:00:50.00,pw,,0,0,0,,Apa ini?
+Dialogue: 0,0:00:54.36,0:00:56.40,pw,,0,0,0,,Ruang Spiritual akan runtuh, segera evakuasi!
+Dialogue: 0,0:01:01.20,0:01:02.32,pw,,0,0,0,,Mo Dao,
+Dialogue: 0,0:01:02.48,0:01:04.96,pw,,0,0,0,,kau berkhianat pada Tuan Immortal!
+Dialogue: 0,0:01:05.96,0:01:08.52,pw,,0,0,0,,Saat kami benar-benar turun,
+Dialogue: 0,0:01:09.04,0:01:11.60,pw,,0,0,0,,kami akan mengguncang dunia kalian.
+Dialogue: 0,0:01:21.84,0:01:24.68,pw,,0,0,0,,Peta Sepuluh Dunia diberkati hukum langit dan bumi,
+Dialogue: 0,0:01:25.48,0:01:27.36,pw,,0,0,0,,mungkin ada peluang besar.
+Dialogue: 0,0:01:27.65,0:01:29.40,pw,,0,0,0,,Tapi keberuntungan dan bahaya datang bersamaan.
+Dialogue: 0,0:01:30.44,0:01:31.87,pw,,0,0,0,,Mau mengambil risiko?
+Dialogue: 0,0:01:32.44,0:01:34.84,pw,,0,0,0,,Silakan putuskan sendiri.
+Dialogue: 0,0:01:41.60,0:01:43.36,pw,,0,0,0,,Ini ingatanku sebelum masuk.
+Dialogue: 0,0:01:52.00,0:01:53.00,pw,,0,0,0,,Ini...
+Dialogue: 0,0:01:54.40,0:01:55.85,pw,,0,0,0,,Aliran Waktu?
+Dialogue: 0,0:02:06.76,0:02:08.48,pw,,0,0,0,,Kenapa Penjara Kegelapan ada di sini?
+Dialogue: 0,0:02:09.24,0:02:10.44,pw,,0,0,0,,Apakah ini nyata
+Dialogue: 0,0:02:10.80,0:02:11.84,pw,,0,0,0,,atau ilusi?
+Dialogue: 0,0:02:20.56,0:02:21.56,pw,,0,0,0,,Tempat apa lagi ini?
+Dialogue: 0,0:02:22.36,0:02:24.36,pw,,0,0,0,,Mungkinkah ini momen tertentu dalam Aliran Waktu?
+Dialogue: 0,0:02:34.16,0:02:35.52,pw,,0,0,0,,Kekuatan kita masih kurang.
+Dialogue: 0,0:02:35.72,0:02:36.60,pw,,0,0,0,,Lebih baik mati daripada mundur!
+Dialogue: 0,0:02:36.96,0:02:39.76,pw,,0,0,0,,Bahkan jika hancur berkeping, jangan biarkan mereka maju.
+Dialogue: 0,0:02:39.96,0:02:42.76,pw,,0,0,0,,Jaga rumah kita sampai mati!
+Dialogue: 0,0:02:43.16,0:02:44.36,pw,,0,0,0,,Serang mereka, lindungi rumah!
+Dialogue: 0,0:02:44.76,0:02:46.16,pw,,0,0,0,,Sangat kejam.
+Dialogue: 0,0:02:46.64,0:02:48.96,pw,,0,0,0,,Ini bekas pertempuran Ancient Immortal.
+Dialogue: 0,0:02:51.72,0:02:53.16,pw,,0,0,0,,Karena kau sudah datang,
+Dialogue: 0,0:02:53.96,0:02:55.44,pw,,0,0,0,,mari berbincang.
+Dialogue: 0,0:03:00.16,0:03:01.20,pw,,0,0,0,,Boleh tahu siapa Senior?
+Dialogue: 0,0:03:02.64,0:03:03.56,pw,,0,0,0,,Tak perlu formal.
+Dialogue: 0,0:03:06.56,0:03:08.20,pw,,0,0,0,,Aura yang sangat misterius.
+Dialogue: 0,0:03:08.80,0:03:10.16,pw,,0,0,0,,Apakah ini seorang True Immortal?
+Dialogue: 0,0:03:10.36,0:03:12.04,pw,,0,0,0,,True Immortal apa?
+Dialogue: 0,0:03:13.40,0:03:16.16,pw,,0,0,0,,Hanya sisa dendam yang gugur di sini.
+Dialogue: 0,0:03:17.32,0:03:17.92,pw,,0,0,0,,Telepati.
+Dialogue: 0,0:03:20.28,0:03:21.48,pw,,0,0,0,,Dia bilang gugur di sini.
+Dialogue: 0,0:03:21.96,0:03:23.20,pw,,0,0,0,,Tampaknya ini dulunya medan perang.
+Dialogue: 0,0:03:24.12,0:03:25.48,pw,,0,0,0,,Apa sebenarnya yang sedang kualami?
+Dialogue: 0,0:03:26.44,0:03:27.92,pw,,0,0,0,,Reinkarnasi,
+Dialogue: 0,0:03:30.00,0:03:31.28,pw,,0,0,0,,terlahir kembali?
+Dialogue: 0,0:03:31.48,0:03:33.20,pw,,0,0,0,,Siapa yang tahu?
+Dialogue: 0,0:03:34.04,0:03:36.27,pw,,0,0,0,,Yang jelas kau sudah tak ada di dunia fana.
+Dialogue: 0,0:03:37.64,0:03:38.44,pw,,0,0,0,,Reinkarnasi?
+Dialogue: 0,0:03:40.20,0:03:40.52,pw,,0,0,0,,Tidak.
+Dialogue: 0,0:03:41.52,0:03:42.48,pw,,0,0,0,,Aku masih aku yang dulu.
+Dialogue: 0,0:03:44.36,0:03:47.52,pw,,0,0,0,,Siapa bilang kelahiran kembali harus melalui reinkarnasi?
+Dialogue: 0,0:03:48.20,0:03:49.28,pw,,0,0,0,,Tapi bagiku,
+Dialogue: 0,0:03:50.08,0:03:51.24,pw,,0,0,0,,ini lebih seperti sebuah perjalanan.
+Dialogue: 0,0:03:52.12,0:03:53.72,pw,,0,0,0,,Reinkarnasi tak diukur oleh waktu.
+Dialogue: 0,0:03:54.84,0:03:56.56,pw,,0,0,0,,Sekejap pun bisa terjadi kelahiran kembali.
+Dialogue: 0,0:03:57.72,0:03:59.04,pw,,0,0,0,,Mimpi di siang bolong,
+Dialogue: 0,0:03:59.44,0:04:00.48,pw,,0,0,0,,juga reinkarnasi.
+Dialogue: 0,0:04:00.96,0:04:01.84,pw,,0,0,0,,Kalau begitu,
+Dialogue: 0,0:04:02.16,0:04:03.20,pw,,0,0,0,,jika seseorang duduk merenung,
+Dialogue: 0,0:04:03.44,0:04:04.40,pw,,0,0,0,,melayang ke alam khayal,
+Dialogue: 0,0:04:04.88,0:04:06.32,pw,,0,0,0,,jiwa menyatu dengan Dao,
+Dialogue: 0,0:04:06.60,0:04:07.84,pw,,0,0,0,,apakah ini juga reinkarnasi?
+Dialogue: 0,0:04:10.12,0:04:10.88,pw,,0,0,0,,Ya.
+Dialogue: 0,0:04:13.66,0:04:14.58,pw,,0,0,0,,Terima kasih atas pencerahannya.
+Dialogue: 0,0:04:17.06,0:04:19.58,pw,,0,0,0,,Hanya lamunan di tengah waktu yang tak berujung.
+Dialogue: 0,0:04:24.96,0:04:26.04,pw,,0,0,0,,Kebanyakan.
+Dialogue: 0,0:04:30.06,0:04:30.86,pw,,0,0,0,,Baiklah.
+Dialogue: 0,0:04:31.58,0:04:32.62,pw,,0,0,0,,Minumlah pelan-pelan.
+Dialogue: 0,0:04:36.22,0:04:36.94,pw,,0,0,0,,Hei!
+Dialogue: 0,0:04:37.26,0:04:38.82,pw,,0,0,0,,Jangan diminum begitu.
+Dialogue: 0,0:04:43.26,0:04:46.46,pw,,0,0,0,,Seolah ada tak terhitung Dao dan siklus zaman terkandung dalam anggur ini.
+Dialogue: 0,0:04:47.18,0:04:48.17,pw,,0,0,0,,Terus bergulir.
+Dialogue: 0,0:04:50.10,0:04:52.14,pw,,0,0,0,,Seketika langit dan bumi terasa luas.
+Dialogue: 0,0:04:52.74,0:04:53.78,pw,,0,0,0,,Inilah pencerahan.
+Dialogue: 0,0:04:54.66,0:04:55.78,pw,,0,0,0,,Kenapa ada biji lagi?
+Dialogue: 0,0:04:56.34,0:04:57.34,pw,,0,0,0,,Di dalam anggur ini?
+Dialogue: 0,0:04:57.74,0:04:59.78,pw,,0,0,0,,Apakah ini jalan dan hukum Ancient Immortal?
+Dialogue: 0,0:05:01.70,0:05:04.06,pw,,0,0,0,,Kau sanggup menanggung Dao sebesar ini?
+Dialogue: 0,0:05:09.14,0:05:10.30,pw,,0,0,0,,Bisa minta segelas lagi?
+Dialogue: 0,0:05:15.42,0:05:17.26,pw,,0,0,0,,Minum semuanya pun tak ada artinya.
+Dialogue: 0,0:05:17.78,0:05:19.30,pw,,0,0,0,,Setiap tetes anggur dalam teko ini,
+Dialogue: 0,0:05:19.86,0:05:21.30,pw,,0,0,0,,sudah kucicipi berjuta-juta kali.
+Dialogue: 0,0:05:22.06,0:05:24.50,pw,,0,0,0,,Mencari cara mengatasi malapetaka dunia.
+Dialogue: 0,0:05:26.42,0:05:28.42,pw,,0,0,0,,Tapi tak ada apa-apa.
+Dialogue: 0,0:05:29.14,0:05:31.78,pw,,0,0,0,,Hanya pengulangan tiada akhir,
+Dialogue: 0,0:05:32.30,0:05:33.50,pw,,0,0,0,,dan penantian.
+Dialogue: 0,0:05:34.70,0:05:37.83,pw,,0,0,0,,Hukum Ancient Immoral sudah terbukti buntu.
+Dialogue: 0,0:05:39.18,0:05:40.78,pw,,0,0,0,,Kejayaan masa lalu,
+Dialogue: 0,0:05:41.06,0:05:42.98,pw,,0,0,0,,pada akhirnya musnah.
+Dialogue: 0,0:05:43.54,0:05:45.78,pw,,0,0,0,,Begitu pula hukum Ancient Immortal.
+Dialogue: 0,0:05:47.46,0:05:49.38,pw,,0,0,0,,Kau harus berdiri di atas tulang-belulang kami.
+Dialogue: 0,0:05:49.58,0:05:51.46,pw,,0,0,0,,Membuka jalan baru.
+Dialogue: 0,0:05:52.62,0:05:55.66,pw,,0,0,0,,Jika memang kaulah yang akan mengubah semua hukum.
+Dialogue: 0,0:05:58.06,0:05:59.62,pw,,0,0,0,,Satu gelas takkan cukup membuktikan kebenaran.
+Dialogue: 0,0:06:00.02,0:06:02.06,pw,,0,0,0,,Bahkan jika diulang jutaan kali sekalipun.
+Dialogue: 0,0:06:03.06,0:06:04.18,pw,,0,0,0,,Teruslah mengulang.
+Dialogue: 0,0:06:04.66,0:06:06.18,pw,,0,0,0,,Bahkan jika mulutmu muntah darah.
+Dialogue: 0,0:06:06.90,0:06:08.66,pw,,0,0,0,,Bahkan jika tulangmu remuk sekalipun.
+Dialogue: 0,0:06:09.46,0:06:10.30,pw,,0,0,0,,Kata-kata yang bagus.
+Dialogue: 0,0:06:10.74,0:06:12.30,pw,,0,0,0,,Cobalah goyang teko ini.
+Dialogue: 0,0:06:13.10,0:06:15.90,pw,,0,0,0,,Gagal, hukum langit akan menghukummu.
+Dialogue: 0,0:06:16.46,0:06:20.18,pw,,0,0,0,,Berhasil, mungkin ada secercah harapan di tengah malapetaka zaman.
+Dialogue: 0,0:06:20.70,0:06:23.70,pw,,0,0,0,,Apapun pilihanmu, kau yang menanggung konsekuensinya.
+Dialogue: 0,0:07:00.14,0:07:03.66,pw,,0,0,0,,Kau bisa menanggung karma sebesar ini.
+Dialogue: 0,0:07:07.66,0:07:08.26,pw,,0,0,0,,Kau...
+Dialogue: 0,0:07:08.86,0:07:10.06,pw,,0,0,0,,Siapa sebenarnya dirimu?
+Dialogue: 0,0:07:11.42,0:07:13.98,pw,,0,0,0,,Hahaha.
+Dialogue: 0,0:07:15.42,0:07:18.26,pw,,0,0,0,,Akhirnya kutemukan kau.
+Dialogue: 0,0:07:34.26,0:07:36.14,pw,,0,0,0,,Aura dari dunia lain yang sangat kuat.
+Dialogue: 0,0:07:48.46,0:07:49.74,pw,,0,0,0,,Dia datang untuk membunuhmu.
+Dialogue: 0,0:07:50.54,0:07:52.06,pw,,0,0,0,,Bahkan melintasi waktu dari masa lalu.
+Dialogue: 0,0:07:52.06,0:07:52.90,pw,,0,0,0,,Menurunkan wujudnya.
+Dialogue: 0,0:07:53.26,0:07:54.30,pw,,0,0,0,,Sungguh memalukan.
+Dialogue: 0,0:07:58.94,0:08:00.06,pw,,0,0,0,,Kekuatan seperti ini...
+Dialogue: 0,0:08:00.86,0:08:02.14,pw,,0,0,0,,belum pernah kurasakan sebelumnya.
+Dialogue: 0,0:08:06.02,0:08:07.18,pw,,0,0,0,,Sebagai Immortal King.
+Dialogue: 0,0:08:07.62,0:08:08.62,pw,,0,0,0,,Kau rela merobek ruang-waktu.
+Dialogue: 0,0:08:08.74,0:08:09.74,pw,,0,0,0,,Mengacaukan karma.
+Dialogue: 0,0:08:10.02,0:08:11.54,pw,,0,0,0,,Hanya untuk membunuh seorang pemula.
+Dialogue: 0,0:08:11.86,0:08:13.86,pw,,0,0,0,,Tidakkah kau takut memicu malapetaka terbesar?
+Dialogue: 0,0:08:16.66,0:08:18.70,pw,,0,0,0,,Kalian sangat takut padanya di masa depan.
+Dialogue: 0,0:08:20.46,0:08:22.78,pw,,0,0,0,,Hanya perlu dihapus begitu saja.
+Dialogue: 0,0:08:23.58,0:08:27.38,pw,,0,0,0,,Waktu bagi ras kami hanyalah sebuah lingkaran.
+Dialogue: 0,0:08:27.82,0:08:29.46,pw,,0,0,0,,Bahkan jika melawan karma.
+Dialogue: 0,0:08:30.26,0:08:31.74,pw,,0,0,0,,Bisa dibentuk kembali.
+Dialogue: 0,0:08:37.66,0:08:38.86,pw,,0,0,0,,Siapa!
+Dialogue: 0,0:08:39.46,0:08:41.22,pw,,0,0,0,,Berani mengganggu karmaku!
+Dialogue: 0,0:08:41.70,0:08:43.86,pw,,0,0,0,,Menghalangi perburuanku!
+Dialogue: 0,0:09:01.14,0:09:02.82,pw,,0,0,0,,Orang yang terpantul dalam setetes darah itu.
+Dialogue: 0,0:09:10.62,0:09:11.46,pw,,0,0,0,,Ini...
+Dialogue: 0,0:09:12.26,0:09:14.06,pw,,0,0,0,,Makhluk dengan tingkat kekuatan seperti apa ini?
+Dialogue: 0,0:09:15.30,0:09:18.50,pw,,0,0,0,,Bisa dengan mudah menangkis serangan tingkat Immortal King.
+Dialogue: 0,0:09:39.62,0:09:40.93,pw,,0,0,0,,Membunuhnya,
+Dialogue: 0,0:09:41.62,0:09:45.25,pw,,0,0,0,,harganya terlalu mahal untukmu.
+Dialogue: 0,0:09:46.10,0:09:47.90,pw,,0,0,0,,Dia bisa memanipulasi hukum langit dan bumi.
+Dialogue: 0,0:09:48.10,0:09:48.50,pw,,0,0,0,,Tidak.
+Dialogue: 0,0:09:48.66,0:09:50.86,pw,,0,0,0,,Ini sudah melampaui hukum.
+Dialogue: 0,0:09:51.38,0:09:52.62,pw,,0,0,0,,Dengan sosok luar biasa seperti ini.
+Dialogue: 0,0:09:53.14,0:09:54.86,pw,,0,0,0,,Masa depan menjanjikan.
+Dialogue: 0,0:09:55.26,0:09:57.26,pw,,0,0,0,,Aku telah mengubur banyak zaman.
+Dialogue: 0,0:09:57.46,0:09:59.06,pw,,0,0,0,,Tapi belum pernah melihat teknik seperti ini.
+Dialogue: 0,0:09:59.50,0:10:03.18,pw,,0,0,0,,Jika ini ciptaanmu sendiri, sungguh luar biasa.
+Dialogue: 0,0:10:12.74,0:10:13.50,pw,,0,0,0,,Hancur.
+Dialogue: 0,0:10:32.98,0:10:33.78,pw,,0,0,0,,Cepat mundur.
+Dialogue: 0,0:10:34.13,0:10:35.50,pw,,0,0,0,,Kekuatan ini terlalu besar untuk kita tahan.
+Dialogue: 0,0:10:41.30,0:10:43.34,pw,,0,0,0,,Hanya dengan setetes air mata sudah sekuat ini.
+Dialogue: 0,0:10:44.58,0:10:45.74,pw,,0,0,0,,Siapa sebenarnya kau?
+Dialogue: 0,0:10:46.30,0:10:47.42,pw,,0,0,0,,Kenapa membantuku?
+Dialogue: 0,0:11:25.66,0:11:27.90,pw,,0,0,0,,Immortal Gold, barang bagus.
+Dialogue: 0,0:11:30.50,0:11:32.66,pw,,0,0,0,,Hahaha.
+Dialogue: 0,0:11:33.38,0:11:35.42,pw,,0,0,0,,Semakin banyak darahku tumpah.
+Dialogue: 0,0:11:36.06,0:11:38.82,pw,,0,0,0,,Semakin sengsara musuhku.
+Dialogue: 0,0:11:39.82,0:11:54.82,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:35.92,0:12:36.83,pw,,0,0,0,,Tidak.
+Dialogue: 0,0:12:37.70,0:12:52.70,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:13:04.90,0:13:07.10,pw,,0,0,0,,Dia datang dengan membawa karma.
+Dialogue: 0,0:13:07.78,0:13:09.14,pw,,0,0,0,,Untuk menghapusmu.
+Dialogue: 0,0:13:23.42,0:13:25.18,pw,,0,0,0,,Aku melihat secuil lagi.
+Dialogue: 0,0:13:25.66,0:13:27.54,pw,,0,0,0,,Pantas masa depan begitu sulit.
+Dialogue: 0,0:13:28.18,0:13:29.18,pw,,0,0,0,,Begitu pahit.
+Dialogue: 0,0:13:30.06,0:13:32.02,pw,,0,0,0,,Penuh darah dan api.
+Dialogue: 0,0:13:33.02,0:13:48.02,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:13:58.02,0:13:59.82,pw,,0,0,0,,Meski memotong aliran waktu.
+Dialogue: 0,0:14:00.50,0:14:02.70,pw,,0,0,0,,Tak bisa lari dari takdir.
+Dialogue: 0,0:14:03.06,0:14:07.78,pw,,0,0,0,,Semua akan musnah.
+Dialogue: 0,0:14:07.94,0:14:11.70,pw,,0,0,0,,Hahaha.
+Dialogue: 0,0:14:11.86,0:14:12.66,pw,,0,0,0,,Apa yang terjadi?
+Dialogue: 0,0:14:13.42,0:14:15.14,pw,,0,0,0,,Dia sepertinya memotong aliran waktu untukmu.
+Dialogue: 0,0:14:15.86,0:14:16.94,pw,,0,0,0,,Memutus karma.
+Dialogue: 0,0:14:17.06,0:14:18.78,pw,,0,0,0,,Mereka tak bisa menyerang lagi.
+Dialogue: 0,0:14:20.02,0:14:21.78,pw,,0,0,0,,Akhirnya kusaksikan.
+Dialogue: 0,0:14:22.74,0:14:24.22,pw,,0,0,0,,Hidup di zaman ini.
+Dialogue: 0,0:14:25.14,0:14:26.62,pw,,0,0,0,,Kau lebih menderita dari siapapun.
+Dialogue: 0,0:14:27.62,0:14:28.58,pw,,0,0,0,,Lebih sengsara.
+Dialogue: 0,0:14:32.38,0:14:33.70,pw,,0,0,0,,Butuh seseorang.
+Dialogue: 0,0:14:34.86,0:14:36.51,pw,,0,0,0,,Sendirian menentukan takdir ribuan zaman.
+Dialogue: 0,0:14:39.06,0:14:39.90,pw,,0,0,0,,Sampai jumpa.
+Dialogue: 0,0:14:41.96,0:14:43.32,pw,,0,0,0,,Sampai jumpa.
+Dialogue: 0,0:14:56.16,0:14:58.24,pw,,0,0,0,,Kuberikan Immortal Gold ini padamu.
+Dialogue: 0,0:14:58.88,0:15:00.31,pw,,0,0,0,,Semoga kita bertemu lagi.
+Dialogue: 0,0:15:01.04,0:15:02.12,pw,,0,0,0,,Apa yang belum terjadi.
+Dialogue: 0,0:15:02.58,0:15:04.22,pw,,0,0,0,,Masih bisa diubah.
+Dialogue: 0,0:15:05.14,0:15:07.50,pw,,0,0,0,,Aku harus temukan cara memecahkannya.
+Dialogue: 0,0:15:09.82,0:15:10.46,pw,,0,0,0,,Kau.
+Dialogue: 0,0:15:10.46,0:15:12.38,pw,,0,0,0,,Ini Tombak Kekacauan.
+Dialogue: 0,0:15:12.50,0:15:14.22,pw,,0,0,0,,Pernah membunuh 3000 Dewa Kekacauan.
+Dialogue: 0,0:15:14.42,0:15:15.30,pw,,0,0,0,,Boleh kulihat?
+Dialogue: 0,0:15:15.62,0:15:16.54,pw,,0,0,0,,Apa?
+Dialogue: 0,0:15:16.58,0:15:17.46,pw,,0,0,0,,Hukum Ancient Immortal.
+Dialogue: 0,0:15:17.48,0:15:19.56,pw,,0,0,0,,Kudengar ada yang melihat Phoenix bereinkarnasi.
+Dialogue: 0,0:15:19.86,0:15:21.50,pw,,0,0,0,,Mendapat pencerahan agung.
+Dialogue: 0,0:15:30.40,0:15:32.62,pw,,0,0,0,,Tetua memintamu menyerahkan semua peluang yang didapat.
+Dialogue: 0,0:15:32.78,0:15:33.54,pw,,0,0,0,,Saling berbagi.
+Dialogue: 0,0:15:33.56,0:15:34.39,pw,,0,0,0,,Sama-sama mengambil peruntungan
+Dialogue: 0,0:15:35.46,0:15:37.06,pw,,0,0,0,,Jangan lancang.
+Dialogue: 0,0:15:40.30,0:15:41.50,pw,,0,0,0,,Saling berbagi.
+Dialogue: 0,0:15:42.30,0:15:43.66,pw,,0,0,0,,Saat Lu Tuo pergi tadi.
+Dialogue: 0,0:15:43.66,0:15:45.06,pw,,0,0,0,,Kalian bahkan tak berani bersuara.
+Dialogue: 0,0:15:45.30,0:15:46.70,pw,,0,0,0,,Kenapa tidak cari dia untuk berbagi?
+Dialogue: 0,0:15:46.90,0:15:48.26,pw,,0,0,0,,Harimau tak menunjukkan taringnya,
+Dialogue: 0,0:15:48.46,0:15:49.66,pw,,0,0,0,,kalian anggap aku kucing sakit?
+Dialogue: 0,0:15:50.06,0:15:50.82,pw,,0,0,0,,Matilah!
+Dialogue: 0,0:15:50.98,0:15:52.98,pw,,0,0,0,,Tidak takut Huang kembali dan membunuh kalian?
+Dialogue: 0,0:15:53.54,0:15:55.14,pw,,0,0,0,,Berani mengganggu mereka?
+Dialogue: 0,0:15:56.34,0:15:57.78,pw,,0,0,0,,Ayo berbagi dengan orang-orang ini.
+Dialogue: 0,0:15:58.34,0:15:59.82,pw,,0,0,0,,Hancurkan mereka semua!
+Dialogue: 0,0:16:07.66,0:16:10.06,pw,,0,0,0,,Aku akan berbagi dengan kalian.

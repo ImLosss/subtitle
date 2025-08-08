@@ -1,0 +1,217 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2.5,1.5,1,1,1,2,500,500,125,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,50,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.00,0:00:32.00,sl,,0,0,0,,[PREVIEW EPISODE SEBELUMNYA]
+Dialogue: 0,0:00:32.02,0:00:47.02,sl,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:53.18,0:00:53.98,sl,,0,0,0,,Sangat indah.
+Dialogue: 0,0:00:55.02,0:00:57.02,sl,,0,0,0,,Ini adalah pusat Hutan Pertarungan Bintang?
+Dialogue: 0,0:00:57.46,0:00:59.38,sl,,0,0,0,,Namanya Danau Kehidupan.
+Dialogue: 0,0:01:00.26,0:01:02.66,sl,,0,0,0,,Airnya mengandung energi kehidupan yang sangat kuat.
+Dialogue: 0,0:01:03.58,0:01:06.58,sl,,0,0,0,,Minumlah air ini untuk memulihkan kekuatan rohmu.
+Dialogue: 0,0:01:10.46,0:01:13.38,sl,,0,0,0,,Rasanya manis, semua kelelahan langsung hilang.
+Dialogue: 0,0:01:13.58,0:01:14.42,sl,,0,0,0,,Tak kusangka...
+Dialogue: 0,0:01:14.70,0:01:16.98,sl,,0,0,0,,tempat yang kami manusia sebut sebagai tempat paling jahat...
+Dialogue: 0,0:01:17.42,0:01:18.98,sl,,0,0,0,,ternyata adalah surga dunia seperti ini.
+Dialogue: 0,0:01:20.26,0:01:22.58,sl,,0,0,0,,Ini adalah tempat di mana kehidupan tercipta.
+Dialogue: 0,0:01:23.18,0:01:27.06,sl,,0,0,0,,Ini adalah Danau Kehidupan paling suci di Hutan Pertarungan Bintang kami.
+Dialogue: 0,0:01:28.10,0:01:32.38,sl,,0,0,0,,Sejak jutaan tahun yang lalu, danau ini sudah ada.
+Dialogue: 0,0:01:32.98,0:01:33.66,sl,,0,0,0,,Dialah...
+Dialogue: 0,0:01:33.82,0:01:36.90,sl,,0,0,0,,yang menciptakan semua makhluk di Hutan Pertarungan Bintang.
+Dialogue: 0,0:01:37.58,0:01:39.78,sl,,0,0,0,,Dia sendiri adalah keajaiban.
+Dialogue: 0,0:01:41.90,0:01:42.98,sl,,0,0,0,,Kaisar Naga.
+Dialogue: 0,0:01:48.58,0:01:49.58,sl,,0,0,0,,Manusia!
+Dialogue: 0,0:01:55.90,0:01:57.26,sl,,0,0,0,,Mundur!
+Dialogue: 0,0:02:03.46,0:02:04.06,sl,,0,0,0,,Kaisar Naga,
+Dialogue: 0,0:02:04.66,0:02:07.38,sl,,0,0,0,,tahukah kau berapa banyak saudara kita yang mati?
+Dialogue: 0,0:02:07.82,0:02:09.18,sl,,0,0,0,,Berapa banyak teman kita yang gugur?
+Dialogue: 0,0:02:09.90,0:02:11.90,sl,,0,0,0,,Saat manusia-manusia terkutuk ini
+Dialogue: 0,0:02:12.06,0:02:13.66,sl,,0,0,0,,hampir saja kita hancurkan sepenuhnya,
+Dialogue: 0,0:02:14.06,0:02:17.66,sl,,0,0,0,,mengapa kau memerintahkan mundur? Mengapa?
+Dialogue: 0,0:02:17.66,0:02:20.70,sl,,0,0,0,,Berani menantangku? Kau ingin mati?
+Dialogue: 0,0:02:26.82,0:02:28.78,sl,,0,0,0,,Maaf, Kaisar Naga.
+Dialogue: 0,0:02:30.38,0:02:34.98,sl,,0,0,0,,Tapi... begitu banyak saudara kita yang mati. Aku...
+Dialogue: 0,0:02:35.10,0:02:39.10,sl,,0,0,0,,Kekuatan manusia jauh melebihi perkiraan kita.
+Dialogue: 0,0:02:40.30,0:02:41.98,sl,,0,0,0,,Dan bantuan mereka sudah datang.
+Dialogue: 0,0:02:42.66,0:02:47.02,sl,,0,0,0,,Jika kita menghancurkan Kota Shrek dengan segala cara...
+Dialogue: 0,0:02:47.58,0:02:50.38,sl,,0,0,0,,apa reaksi negara-negara manusia lainnya?
+Dialogue: 0,0:02:51.10,0:02:54.86,sl,,0,0,0,,Kita sudah terlalu banyak mengorbankan diri di Kota Shrek.
+Dialogue: 0,0:02:55.38,0:02:56.86,sl,,0,0,0,,Jika terus berlanjut...
+Dialogue: 0,0:02:57.66,0:03:01.06,sl,,0,0,0,,yang menunggu kita hanyalah kehancuran total.
+Dialogue: 0,0:03:01.98,0:03:04.18,sl,,0,0,0,,Kaisar Naga, untuk apa kau memanggil kami?
+Dialogue: 0,0:03:07.78,0:03:09.78,sl,,0,0,0,,Lima Monster Ganas Hutan Pertarungan Bintang sudah berkumpul.
+Dialogue: 0,0:03:10.58,0:03:12.70,sl,,0,0,0,,Ditambah Kaisar Es dan Dewi Salju di lautan rohku...
+Dialogue: 0,0:03:12.98,0:03:15.86,sl,,0,0,0,,Tujuh dari Sepuluh Monster Ganas berkumpul di sini.
+Dialogue: 0,0:03:16.22,0:03:21.38,sl,,0,0,0,,Katakan manusia! Mengapa hewan kekaisaran mengorbankan dirinya untukmu?
+Dialogue: 0,0:03:21.58,0:03:23.38,sl,,0,0,0,,Keluarkan Dewi Salju juga.
+Dialogue: 0,0:03:34.98,0:03:37.90,sl,,0,0,0,,Aura ini... Dia benar-benar Dewi Salju.
+Dialogue: 0,0:03:39.46,0:03:41.06,sl,,0,0,0,,Pertama kali aku bertemu hewan kekaisaran...
+Dialogue: 0,0:03:41.82,0:03:43.18,sl,,0,0,0,,adalah di Hutan Pertarungan Bintang.
+Dialogue: 0,0:03:46.86,0:03:47.50,sl,,0,0,0,,Pada akhirnya...
+Dialogue: 0,0:03:47.78,0:03:50.06,sl,,0,0,0,,Qiu'er mengorbankan dirinya untuk menyelamatkanku.
+Dialogue: 0,0:03:50.30,0:03:52.78,sl,,0,0,0,,Dan juga ratusan Master Roh muda yang terjebak di Kota Risheng.
+Dialogue: 0,0:03:53.26,0:03:54.98,sl,,0,0,0,,Dia adalah pahlawan Dunia Roh.
+Dialogue: 0,0:03:55.62,0:03:56.58,sl,,0,0,0,,Hewan kekaisaran...
+Dialogue: 0,0:03:56.70,0:04:00.18,sl,,0,0,0,,memilih mengakhiri hidupnya dengan cara seperti ini.
+Dialogue: 0,0:04:00.58,0:04:03.46,sl,,0,0,0,,Kematian hewan kekaisaran tidak bisa dibatalkan.
+Dialogue: 0,0:04:03.66,0:04:07.50,sl,,0,0,0,,Bagaimana pendapat kalian tentang penjelasannya mengenai spiritual roh?
+Dialogue: 0,0:04:08.38,0:04:10.46,sl,,0,0,0,,Seberapa bisa dipercaya?
+Dialogue: 0,0:04:11.18,0:04:12.50,sl,,0,0,0,,Bocah kecil.
+Dialogue: 0,0:04:12.78,0:04:14.38,sl,,0,0,0,,Seberapa besar keyakinanmu?
+Dialogue: 0,0:04:14.58,0:04:19.46,sl,,0,0,0,,Bisakah kita mempertahankan kesadaran setelah monster roh menjadi spiritual roh?
+Dialogue: 0,0:04:20.46,0:04:21.38,sl,,0,0,0,,Setidaknya 70%.
+Dialogue: 0,0:04:21.78,0:04:22.98,sl,,0,0,0,,Kasus Dewi Salju khusus.
+Dialogue: 0,0:04:23.38,0:04:25.46,sl,,0,0,0,,Guruku membakar kesadarannya untuk menyelamatkannya.
+Dialogue: 0,0:04:25.86,0:04:27.46,sl,,0,0,0,,Mempertahankan eksistensinya saja sudah sulit.
+Dialogue: 0,0:04:28.06,0:04:30.50,sl,,0,0,0,,Untuk penggabungan spiritual roh biasa antara monster roh dan master roh,
+Dialogue: 0,0:04:30.78,0:04:32.18,sl,,0,0,0,,tentu tidak akan terjadi situasi seperti itu.
+Dialogue: 0,0:04:32.66,0:04:35.22,sl,,0,0,0,,Dan seiring penguasaanku atas rahasia spiritual roh semakin matang,
+Dialogue: 0,0:04:36.02,0:04:37.58,sl,,0,0,0,,tingkat keberhasilannya akan terus meningkat.
+Dialogue: 0,0:04:39.66,0:04:41.06,sl,,0,0,0,,Menurutku bisa dicoba.
+Dialogue: 0,0:04:42.26,0:04:43.58,sl,,0,0,0,,Setelah pertempuran ini,
+Dialogue: 0,0:04:43.70,0:04:45.42,sl,,0,0,0,,banyak monster roh yang terluka parah.
+Dialogue: 0,0:04:45.78,0:04:47.66,sl,,0,0,0,,Sudah tidak bisa disembuhkan lagi.
+Dialogue: 0,0:04:47.98,0:04:49.82,sl,,0,0,0,,Jika melakukan percobaan spiritual roh,
+Dialogue: 0,0:04:50.18,0:04:52.58,sl,,0,0,0,,setidaknya mereka bisa terus hidup.
+Dialogue: 0,0:04:53.38,0:04:56.18,sl,,0,0,0,,Baik, mari kita coba.
+Dialogue: 0,0:04:56.38,0:04:58.90,sl,,0,0,0,,Huo Yuhao, kuharap kau berhasil.
+Dialogue: 0,0:04:59.06,0:05:00.90,sl,,0,0,0,,Kalian kembali ke wilayah masing-masing.
+Dialogue: 0,0:05:01.10,0:05:03.78,sl,,0,0,0,,Pilih monster roh yang bersedia berpartisipasi.
+Dialogue: 0,0:05:04.02,0:05:08.02,sl,,0,0,0,,Kau tetap di sini, pulihkan kondisimu.
+Dialogue: 0,0:05:18.42,0:05:20.70,sl,,0,0,0,,Jika monster roh memiliki visi sejauhmu, Yuhao,
+Dialogue: 0,0:05:21.38,0:05:23.18,sl,,0,0,0,,tidak akan sampai seperti ini.
+Dialogue: 0,0:05:23.86,0:05:24.46,sl,,0,0,0,,Kak Tianmeng.
+Dialogue: 0,0:05:25.38,0:05:27.38,sl,,0,0,0,,Monster roh tidak pernah belajar bersatu.
+Dialogue: 0,0:05:28.78,0:05:30.46,sl,,0,0,0,,Gelombang monster kali ini bisa terjadi
+Dialogue: 0,0:05:32.22,0:05:33.70,sl,,0,0,0,,hanya karena hewan kekaisaran
+Dialogue: 0,0:05:33.78,0:05:36.06,sl,,0,0,0,,mempengaruhi nasib semua monster roh di benua ini.
+Dialogue: 0,0:05:36.82,0:05:39.38,sl,,0,0,0,,Sementara kalian manusia terus mengembangkan teknologi
+Dialogue: 0,0:05:39.38,0:05:40.78,sl,,0,0,0,,dengan pesat,
+Dialogue: 0,0:05:41.38,0:05:43.58,sl,,0,0,0,,mereka malah sibuk saling berperang.
+Dialogue: 0,0:05:44.42,0:05:45.26,sl,,0,0,0,,Jika tidak begitu,
+Dialogue: 0,0:05:45.70,0:05:47.70,sl,,0,0,0,,Kak Tianmeng tidak akan dipenjara oleh Kaisar Naga.
+Dialogue: 0,0:05:48.18,0:05:49.50,sl,,0,0,0,,Terus menyerap esensi kehidupan.
+Dialogue: 0,0:05:50.06,0:05:50.66,sl,,0,0,0,,Benar.
+Dialogue: 0,0:05:51.46,0:05:53.30,sl,,0,0,0,,Dia memang tidak kuat bertarung,
+Dialogue: 0,0:05:53.78,0:05:55.06,sl,,0,0,0,,tapi kekuatan spiritualnya
+Dialogue: 0,0:05:55.26,0:05:58.22,sl,,0,0,0,,bisa menyaingi Penguasa Tiran Xieyan.
+Dialogue: 0,0:05:58.58,0:06:00.46,sl,,0,0,0,,Kaisar Es, kau juga berubah wujud manusia.
+Dialogue: 0,0:06:01.86,0:06:04.58,sl,,0,0,0,,Bagaimana? Aku dan Bing cocok kan?
+Dialogue: 0,0:06:09.22,0:06:11.90,sl,,0,0,0,,Jika dulu Kaisar Naga bermaksud melindungi dan melatih,
+Dialogue: 0,0:06:12.22,0:06:13.26,sl,,0,0,0,,Tianmeng sekarang
+Dialogue: 0,0:06:13.30,0:06:15.62,sl,,0,0,0,,bisa jadi monster ganas kesebelas.
+Dialogue: 0,0:06:17.10,0:06:17.50,sl,,0,0,0,,Kaisar Es.
+Dialogue: 0,0:06:18.42,0:06:19.90,sl,,0,0,0,,Sejak keluar dari Lembah Cinta Semesta,
+Dialogue: 0,0:06:20.22,0:06:21.98,sl,,0,0,0,,hubunganmu dan Kak Tianmeng jadi akrab sekali.
+Dialogue: 0,0:06:25.02,0:06:25.86,sl,,0,0,0,,Apa maksudmu?
+Dialogue: 0,0:06:28.78,0:06:30.86,sl,,0,0,0,,Yuhao, aku dan Kaisar Es.
+Dialogue: 0,0:06:30.86,0:06:31.62,sl,,0,0,0,,Dan Dewi Salju.
+Dialogue: 0,0:06:31.98,0:06:33.46,sl,,0,0,0,,Setelah memilih jalan spiritual roh ini.
+Dialogue: 0,0:06:34.18,0:06:35.86,sl,,0,0,0,,Kami sudah tidak satu jalan lagi dengan monster roh.
+Dialogue: 0,0:06:37.66,0:06:39.10,sl,,0,0,0,,Tapi kami berasal dari monster roh.
+Dialogue: 0,0:06:39.78,0:06:40.42,sl,,0,0,0,,Di lubuk hati.
+Dialogue: 0,0:06:40.78,0:06:43.06,sl,,0,0,0,,Kami masih berharap monster roh bisa terus ada,
+Dialogue: 0,0:06:43.30,0:06:44.62,sl,,0,0,0,,di Dunia Roh ini.
+Dialogue: 0,0:06:45.46,0:06:45.86,sl,,0,0,0,,Yuhao.
+Dialogue: 0,0:06:46.98,0:06:49.90,sl,,0,0,0,,Harapan ini hanya bisa kau yang wujudkan.
+Dialogue: 0,0:06:58.18,0:06:59.66,sl,,0,0,0,,Energi kehidupan yang meluap di sini,
+Dialogue: 0,0:07:00.26,0:07:01.66,sl,,0,0,0,,membuat latihanku semakin efektif.
+Dialogue: 0,0:07:24.58,0:07:26.06,sl,,0,0,0,,Inilah yang guru katakan dulu.
+Dialogue: 0,0:07:26.58,0:07:30.18,sl,,0,0,0,,Perasaan ketika energi spiritual dan roh menyatu dalam Penguasaan Sejati.
+Dialogue: 0,0:07:32.02,0:07:33.78,sl,,0,0,0,,Teknik yang bagus.
+Dialogue: 0,0:07:58.70,0:07:59.06,sl,,0,0,0,,Tidak berani.
+Dialogue: 0,0:07:59.70,0:08:01.18,sl,,0,0,0,,Di hadapan Senior Kaisar Naga.
+Dialogue: 0,0:08:01.46,0:08:02.86,sl,,0,0,0,,Aku hanyalah cahaya kunang-kunang.
+Dialogue: 0,0:08:02.98,0:08:04.50,sl,,0,0,0,,Kau sudah cukup luar biasa.
+Dialogue: 0,0:08:04.70,0:08:08.06,sl,,0,0,0,,Kau memiliki banyak keistimewaan yang tidak dimiliki manusia lain.
+Dialogue: 0,0:08:08.46,0:08:10.42,sl,,0,0,0,,Di sarang naga dan gua harimau milikku ini.
+Dialogue: 0,0:08:10.70,0:08:12.30,sl,,0,0,0,,Kau tetap tenang berlatih.
+Dialogue: 0,0:08:12.78,0:08:14.50,sl,,0,0,0,,Dan bisa fokus sepenuhnya.
+Dialogue: 0,0:08:14.78,0:08:15.82,sl,,0,0,0,,Bisa melakukan ini saja.
+Dialogue: 0,0:08:15.82,0:08:17.18,sl,,0,0,0,,Sudah sangat hebat.
+Dialogue: 0,0:08:17.50,0:08:20.38,sl,,0,0,0,,Ini hanya pertukaran ilmu, lakukan yang terbaik.
+Dialogue: 0,0:09:04.70,0:09:06.26,sl,,0,0,0,,Berikan yang terbaik.
+Dialogue: 0,0:09:07.26,0:09:22.26,sl,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:43.38,0:09:45.26,sl,,0,0,0,,Pusatkan energi.
+Dialogue: 0,0:09:56.86,0:09:58.78,sl,,0,0,0,,Auranya menjadi samar.
+Dialogue: 0,0:09:59.02,0:10:01.78,sl,,0,0,0,,Seolah telah menyatu dengan alam.
+Dialogue: 0,0:10:03.90,0:10:06.26,sl,,0,0,0,,Dia sudah tumbuh sampai level ini.
+Dialogue: 0,0:10:06.58,0:10:08.22,sl,,0,0,0,,Memang pantas jadi murid Mu En.
+Dialogue: 0,0:10:08.58,0:10:09.38,sl,,0,0,0,,Bocah ini.
+Dialogue: 0,0:10:09.58,0:10:10.86,sl,,0,0,0,,Sudah meningkatkan teknik manusia.
+Dialogue: 0,0:10:10.86,0:10:12.38,sl,,0,0,0,,Sampai level seperti ini.
+Dialogue: 0,0:10:14.90,0:10:17.46,sl,,0,0,0,,Bahkan di antara Master Dunia Super manusia.
+Dialogue: 0,0:10:17.66,0:10:19.38,sl,,0,0,0,,Hanya sedikit yang bisa melakukannya.
+Dialogue: 0,0:10:20.38,0:10:35.38,sl,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:11.46,0:11:12.78,sl,,0,0,0,,Terima kasih sudah mengalah.
+Dialogue: 0,0:11:13.62,0:11:15.02,sl,,0,0,0,,Kau lanjut berlatih saja.
+Dialogue: 0,0:11:15.46,0:11:17.18,sl,,0,0,0,,Aku akan menemuimu lagi dua hari lagi.
+Dialogue: 0,0:11:22.18,0:11:23.30,sl,,0,0,0,,Pukulan tadi.
+Dialogue: 0,0:11:23.58,0:11:25.86,sl,,0,0,0,,Seharusnya tidak mungkin melukaiku.
+Dialogue: 0,0:11:26.62,0:11:28.26,sl,,0,0,0,,Tapi aku tak bisa menahan diri untuk menghindar.
+Dialogue: 0,0:11:28.86,0:11:31.58,sl,,0,0,0,,Bocah itu, apakah dia punya bakat menjadi dewa?
+Dialogue: 0,0:11:42.38,0:11:43.18,sl,,0,0,0,,Kaisar Naga.
+Dialogue: 0,0:11:56.66,0:11:57.98,sl,,0,0,0,,Semua sudah siap?
+Dialogue: 0,0:11:59.58,0:12:01.18,sl,,0,0,0,,Orang dari Shrek juga sudah datang.
+Dialogue: 0,0:12:03.70,0:12:04.58,sl,,0,0,0,,Kalau begitu mari pergi.
+Dialogue: 0,0:12:14.82,0:12:15.66,sl,,0,0,0,,Yuhao.
+Dialogue: 0,0:12:17.46,0:12:20.62,sl,,0,0,0,,Kaisar Naga, kami sudah bawa orang sesuai perjanjian.
+Dialogue: 0,0:12:21.38,0:12:23.58,sl,,0,0,0,,Langsung saja kita mulai.
+Dialogue: 0,0:12:23.86,0:12:26.18,sl,,0,0,0,,Sekarang saatnya kau membuktikan diri.
+Dialogue: 0,0:12:26.46,0:12:29.42,sl,,0,0,0,,Semoga eksperimen spiritual rohmu berhasil.
+Dialogue: 0,0:12:31.30,0:12:34.18,sl,,0,0,0,,Kaisar Naga, tidakkah kau akan memberinya pembatasan?
+Dialogue: 0,0:12:34.70,0:12:36.18,sl,,0,0,0,,Bagaimana jika dia melarikan diri?
+Dialogue: 0,0:12:52.18,0:12:54.58,sl,,0,0,0,,Kedua pihak mengirim perwakilan pertama mereka.
+Dialogue: 0,0:13:13.78,0:13:15.78,sl,,0,0,0,,Macan Satu Mata, kau yang pertama.
+Dialogue: 0,0:13:27.50,0:13:28.06,sl,,0,0,0,,Tunggu.
+Dialogue: 0,0:13:29.30,0:13:32.58,sl,,0,0,0,,Macan Satu Mata berusia sepuluh ribu tahun ini adalah bawahanku yang setia.
+Dialogue: 0,0:13:33.10,0:13:35.38,sl,,0,0,0,,Dia terluka parah dalam gelombang monster ini.
+Dialogue: 0,0:13:35.66,0:13:37.06,sl,,0,0,0,,Sudah tidak bisa diselamatkan.
+Dialogue: 0,0:13:38.02,0:13:39.46,sl,,0,0,0,,Jika eksperimenmu gagal.
+Dialogue: 0,0:13:39.98,0:13:42.62,sl,,0,0,0,,Aku akan membunuhmu dan manusia di seberang itu sendiri.
+Dialogue: 0,0:13:50.26,0:13:50.66,sl,,0,0,0,,Aku yang akan melakukannya.
+Dialogue: 0,0:13:59.78,0:14:00.42,sl,,0,0,0,,Dai Huabin.
+Dialogue: 0,0:14:01.82,0:14:04.50,sl,,0,0,0,,Tidak menyangka kau yang pertama maju.
+Dialogue: 0,0:14:04.62,0:14:07.06,sl,,0,0,0,,Dulu di akademi aku sering menargetmu.
+Dialogue: 0,0:14:07.90,0:14:09.58,sl,,0,0,0,,Pasti kau juga tidak punya kesan baik padaku.
+Dialogue: 0,0:14:09.90,0:14:10.98,sl,,0,0,0,,Tapi itu urusan lain.
+Dialogue: 0,0:14:11.62,0:14:12.86,sl,,0,0,0,,Terakhir kau menyelamatkan ayahku.
+Dialogue: 0,0:14:13.62,0:14:15.58,sl,,0,0,0,,Hutang budi ini harus kubayar.
+Dialogue: 0,0:14:16.26,0:14:16.86,sl,,0,0,0,,Bersiaplah.
+Dialogue: 0,0:14:17.46,0:14:19.62,sl,,0,0,0,,Kau harus benar-benar tulus menyatu dengan monster roh.
+Dialogue: 0,0:14:19.82,0:14:21.06,sl,,0,0,0,,Baru bisa menyelesaikan ritual spiritual roh.
+Dialogue: 0,0:14:21.62,0:14:23.98,sl,,0,0,0,,Jika penyatuan berhasil, dia akan menjadi spiritual rohmu.
+Dialogue: 0,0:14:24.82,0:14:25.38,sl,,0,0,0,,Ayo.
+Dialogue: 0,0:14:31.06,0:14:32.02,sl,,0,0,0,,Master Roh Mulia tujuh cincin.
+Dialogue: 0,0:14:32.78,0:14:35.22,sl,,0,0,0,,Itu pun dengan cincin roh seratus ribu tahun.
+Dialogue: 0,0:14:36.62,0:14:37.86,sl,,0,0,0,,Sepertinya seumur hidupku.
+Dialogue: 0,0:14:38.26,0:14:39.86,sl,,0,0,0,,Aku tak akan pernah bisa menyusulnya.
+Dialogue: 0,0:14:44.18,0:14:45.46,sl,,0,0,0,,Napas spiritual roh.
+Dialogue: 0,0:14:45.90,0:14:47.18,sl,,0,0,0,,Sampaikan keinginanmu.
+Dialogue: 0,0:14:48.18,0:15:03.18,sl,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:15:17.62,0:15:21.06,sl,,0,0,0,,Darah dan roh beresonansi, hidup bersama.
+Dialogue: 0,0:15:24.10,0:15:29.26,sl,,0,0,0,,Tubuhku sebagai jalan, jiwaku sebagai penuntun, perjanjian abadi.
+Dialogue: 0,0:15:33.18,0:15:36.66,sl,,0,0,0,,Bakar sisa tubuhmu, tempa kelahiran barumu.
+Dialogue: 0,0:15:38.50,0:15:40.02,sl,,0,0,0,,Gawat, dia akan menyergap.
+Dialogue: 0,0:15:44.38,0:15:44.82,sl,,0,0,0,,Telapak Kaisar.
+Dialogue: 0,0:15:45.66,0:15:46.82,sl,,0,0,0,,Salju yang Tak Pernah Turun.
+Dialogue: 0,0:15:47.42,0:15:51.06,sl,,0,0,0,,Brengsek, kau berani membunuh anggota kelompokku!

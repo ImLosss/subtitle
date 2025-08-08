@@ -1,0 +1,242 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,1,1,1,1,2,10,10,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:25.00,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:32.76,0:00:34.96,tales,,0,0,0,,Suruh para dayang berbaris sesuai diagram.
+Dialogue: 0,0:00:35.52,0:00:39.04,tales,,0,0,0,,Penggembala, apa yang akan kau lakukan dengan mereka?
+Dialogue: 0,0:00:39.32,0:00:39.80,tales,,0,0,0,,Bentuk formasi.
+Dialogue: 0,0:00:54.96,0:00:57.64,tales,,0,0,0,,Papan kayu sisi hitam melambangkan Yin.
+Dialogue: 0,0:00:58.00,0:01:00.08,tales,,0,0,0,,Sisi putih melambangkan Yang.
+Dialogue: 0,0:01:00.28,0:01:01.56,tales,,0,0,0,,Dengarkan perintahku.
+Dialogue: 0,0:01:01.76,0:01:03.68,tales,,0,0,0,,Baris pertama, Yang.
+Dialogue: 0,0:01:05.52,0:01:07.04,tales,,0,0,0,,Baris kedua, Yin.
+Dialogue: 0,0:01:08.12,0:01:11.60,tales,,0,0,0,,Baris ketiga, Yang, Yin, Yang, Yang.
+Dialogue: 0,0:01:11.72,0:01:12.72,tales,,0,0,0,,Baris keempat.
+Dialogue: 0,0:01:16.48,0:01:17.32,tales,,0,0,0,,Aku mengerti.
+Dialogue: 0,0:01:17.52,0:01:20.52,tales,,0,0,0,,Setiap dayang mewakili racun dari Racun Seribu Mekanisme.
+Dialogue: 0,0:01:20.84,0:01:21.92,tales,,0,0,0,,Sedangkan perintahnya,
+Dialogue: 0,0:01:22.12,0:01:24.12,tales,,0,0,0,,adalah mengubah obat yang diminum nenek,
+Dialogue: 0,0:01:24.24,0:01:26.88,tales,,0,0,0,,menjadi simbol Yin-Yang berdasarkan sifat obat.
+Dialogue: 0,0:01:27.20,0:01:31.32,tales,,0,0,0,,Lalu menghitung perubahan Racun Seribu Mekanisme dalam tubuh nenek.
+Dialogue: 0,0:01:32.08,0:01:34.24,tales,,0,0,0,,Menggunakan matematika untuk menganalisa farmakologi.
+Dialogue: 0,0:01:34.80,0:01:36.12,tales,,0,0,0,,Luar biasa.
+Dialogue: 0,0:01:36.72,0:01:38.88,tales,,0,0,0,,Baris pertama masuk ke baris ketiga.
+Dialogue: 0,0:01:42.60,0:01:44.24,tales,,0,0,0,,Dua Yang bertabrakan,
+Dialogue: 0,0:01:44.40,0:01:45.60,tales,,0,0,0,,posisi depan maju ke Yang,
+Dialogue: 0,0:01:45.80,0:01:46.76,tales,,0,0,0,,posisi ini berubah jadi Yin.
+Dialogue: 0,0:01:53.16,0:01:55.20,tales,,0,0,0,,Kenapa dia terus mengubah posisi?
+Dialogue: 0,0:01:55.44,0:01:59.20,tales,,0,0,0,,Apa dia ingin menyeimbangkan Yin-Yang semua racun?
+Dialogue: 0,0:01:59.40,0:02:01.44,tales,,0,0,0,,Keseimbangan tidak mudah dicapai.
+Dialogue: 0,0:02:01.88,0:02:02.72,tales,,0,0,0,,Kecuali...
+Dialogue: 0,0:02:03.16,0:02:07.00,tales,,0,0,0,,dia bisa menemukan racun inti di antara 1.023 racun langka,
+Dialogue: 0,0:02:07.44,0:02:12.64,tales,,0,0,0,,yang menjadi pusat penggerak 1.022 racun lainnya.
+Dialogue: 0,0:02:14.32,0:02:17.52,tales,,0,0,0,,Energi Yang habis, vitalitas melemah.
+Dialogue: 0,0:02:17.52,0:02:19.24,tales,,0,0,0,,Dia akan gagal.
+Dialogue: 0,0:02:20.24,0:02:35.24,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:03:08.32,0:03:09.32,tales,,0,0,0,,Berhasil!
+Dialogue: 0,0:03:10.12,0:03:12.60,tales,,0,0,0,,1.022 racun,
+Dialogue: 0,0:03:13.00,0:03:14.88,tales,,0,0,0,,Yin-Yang saling menetralisir.
+Dialogue: 0,0:03:14.92,0:03:16.92,tales,,0,0,0,,Racun Seribu Mekanisme terurai.
+Dialogue: 0,0:03:17.44,0:03:19.80,tales,,0,0,0,,Mengubah perubahan yang rumit,
+Dialogue: 0,0:03:19.92,0:03:21.92,tales,,0,0,0,,menjadi sederhana: Yin dan Yang.
+Dialogue: 0,0:03:22.68,0:03:24.90,tales,,0,0,0,,Keahliannya itu sudah seperti dewa.
+Dialogue: 0,0:03:29.96,0:03:30.92,tales,,0,0,0,,Para tabib istana,
+Dialogue: 0,0:03:31.12,0:03:32.28,tales,,0,0,0,,bagaimana resep ini?
+Dialogue: 0,0:03:33.35,0:03:34.60,tales,,0,0,0,,Resepnya sangat indah,
+Dialogue: 0,0:03:34.76,0:03:35.92,tales,,0,0,0,,megah seperti nyanyian.
+Dialogue: 0,0:03:36.20,0:03:38.12,tales,,0,0,0,,Aku sudah 100 tahun berpraktik,
+Dialogue: 0,0:03:38.16,0:03:40.00,tales,,0,0,0,,tapi hanya menyentuh permukaan-nya.
+Dialogue: 0,0:03:40.44,0:03:42.32,tales,,0,0,0,,Hari ini bertemu tabib muda,
+Dialogue: 0,0:03:42.48,0:03:45.04,tales,,0,0,0,,baru tahu ilmu kedokteran tak terbatas.
+Dialogue: 0,0:03:45.84,0:03:49.64,tales,,0,0,0,,Tabib Xiao bisa mati di hadapan Tabib Jenius Muda,
+Dialogue: 0,0:03:49.72,0:03:53.00,tales,,0,0,0,,adalah kematian yang mulia.
+Dialogue: 0,0:04:17.68,0:04:19.36,tales,,0,0,0,,Tidak pakai tungku untuk meracik obat?
+Dialogue: 0,0:04:19.92,0:04:21.92,tales,,0,0,0,,Memanipulasi energi untuk menciptakan api tungku,
+Dialogue: 0,0:04:22.24,0:04:24.52,tales,,0,0,0,,air dan api menyatu mengekstrak khasiat obat.
+Dialogue: 0,0:04:24.96,0:04:28.92,tales,,0,0,0,,Ini adalah Teknik Naga-Harimau yang telah hilang selama 200 tahun.
+Dialogue: 0,0:04:29.52,0:04:32.80,tales,,0,0,0,,Tak kusangka bisa melihat teknik legendaris ini.
+Dialogue: 0,0:04:32.88,0:04:34.28,tales,,0,0,0,,Apa aku sedang bermimpi?
+Dialogue: 0,0:04:36.20,0:04:36.96,tales,,0,0,0,,Mau belajar?
+Dialogue: 0,0:04:37.32,0:04:38.04,tales,,0,0,0,,Aku akan ajarkan kalian.
+Dialogue: 0,0:04:38.32,0:04:39.88,tales,,0,0,0,,Terima kasih, Tabib Jenius Muda.
+Dialogue: 0,0:04:40.80,0:04:42.12,tales,,0,0,0,,Kenapa mereka begitu bersemangat?
+Dialogue: 0,0:04:42.64,0:04:46.60,tales,,0,0,0,,Kakek Guru Obat bilang kunci meracik obat adalah menguasai farmakologi.
+Dialogue: 0,0:04:47.08,0:04:48.76,tales,,0,0,0,,Teknik hanyalah pelengkap.
+Dialogue: 0,0:04:48.96,0:04:50.72,tales,,0,0,0,,Tidak terlalu istimewa.
+Dialogue: 0,0:04:54.72,0:04:55.64,tales,,0,0,0,,Minumlah pil ini.
+Dialogue: 0,0:04:56.16,0:04:58.00,tales,,0,0,0,,Racun Seribu Mekanisme akan keluar,
+Dialogue: 0,0:04:59.04,0:05:00.92,tales,,0,0,0,,lalu dimakan oleh katak bermata biru.
+Dialogue: 0,0:05:01.92,0:05:16.92,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:06:34.24,0:06:35.60,tales,,0,0,0,,Benar-benar sembuh.
+Dialogue: 0,0:06:36.54,0:06:37.56,tales,,0,0,0,,Luar biasa.
+Dialogue: 0,0:06:37.58,0:06:51.60,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:07:30.72,0:07:31.76,tales,,0,0,0,,Tabib Jenius Muda.
+Dialogue: 0,0:07:32.28,0:07:33.84,tales,,0,0,0,,Terima kasih telah membantuku menyembuhkan racun.
+Dialogue: 0,0:07:35.12,0:07:38.16,tales,,0,0,0,,Teknik meracik obatmu mengingatkanku pada seseorang.
+Dialogue: 0,0:07:39.20,0:07:43.36,tales,,0,0,0,,Raja Racun Berwajah Giok yang meracuni para ahli 200 tahun lalu.
+Dialogue: 0,0:07:44.32,0:07:46.36,tales,,0,0,0,,Ibu Suri pernah bertemu Raja Racun Berwajah Giok?
+Dialogue: 0,0:07:48.16,0:07:49.20,tales,,0,0,0,,Sebenarnya.
+Dialogue: 0,0:07:49.32,0:07:50.88,tales,,0,0,0,,Setelah almarhum Kaisar meninggal.
+Dialogue: 0,0:07:51.80,0:07:53.24,tales,,0,0,0,,Aku pernah bertemu dengannya.
+Dialogue: 0,0:07:53.52,0:07:55.32,tales,,0,0,0,,Pernah beberapa kali berkencan diam-diam.
+Dialogue: 0,0:07:55.60,0:07:56.80,tales,,0,0,0,,Dan terpesona padanya.
+Dialogue: 0,0:07:59.76,0:08:01.04,tales,,0,0,0,,Siapa sangka.
+Dialogue: 0,0:08:01.12,0:08:04.44,tales,,0,0,0,,Raja Racun Berwajah Giok yang bertaring hijau dan terkenal kejam.
+Dialogue: 0,0:08:04.48,0:08:07.96,tales,,0,0,0,,Dengan Tuan Berwajah Giok yang tampan dan terkenal romantis.
+Dialogue: 0,0:08:07.96,0:08:09.56,tales,,0,0,0,,Adalah orang yang sama.
+Dialogue: 0,0:08:11.84,0:08:14.52,tales,,0,0,0,,Sudah berapa banyak hati wanita yang dia lukai.
+Dialogue: 0,0:08:17.96,0:08:20.36,tales,,0,0,0,,Kakek Guru Obat ternyata punya identitas lain.
+Dialogue: 0,0:08:22.76,0:08:24.52,tales,,0,0,0,,Muridnya di masa lalu.
+Dialogue: 0,0:08:24.52,0:08:26.16,tales,,0,0,0,,Raja Racun Kecil, Fu Yuanqing.
+Dialogue: 0,0:08:26.20,0:08:28.52,tales,,0,0,0,,Tiba-tiba membongkar identitas aslinya.
+Dialogue: 0,0:08:29.48,0:08:31.96,tales,,0,0,0,,Dia dikejar-kejar musuh sampai terjepit.
+Dialogue: 0,0:08:32.56,0:08:33.76,tales,,0,0,0,,Aku memberitahunya.
+Dialogue: 0,0:08:33.96,0:08:35.44,tales,,0,0,0,,Aku bisa melindunginya.
+Dialogue: 0,0:08:36.56,0:08:39.32,tales,,0,0,0,,Dan beberapa wanita lain juga ingin melindunginya.
+Dialogue: 0,0:08:40.24,0:08:42.44,tales,,0,0,0,,Ibu Suri menyukai Kakek Guru Obat.
+Dialogue: 0,0:08:43.08,0:08:45.32,tales,,0,0,0,,Tak kusangka Kakek Guru Obat yang sederhana.
+Dialogue: 0,0:08:45.48,0:08:47.04,tales,,0,0,0,,Dulu begitu romantis.
+Dialogue: 0,0:08:48.52,0:08:50.76,tales,,0,0,0,,Mereka akhirnya tidak bisa mengalahkanku.
+Dialogue: 0,0:08:52.92,0:08:55.52,tales,,0,0,0,,Aku juga tidak bisa mengalahkan mereka.
+Dialogue: 0,0:08:56.20,0:08:57.80,tales,,0,0,0,,Dia tetap pergi.
+Dialogue: 0,0:08:59.72,0:09:01.44,tales,,0,0,0,,Takdir memang kejam.
+Dialogue: 0,0:09:01.56,0:09:04.36,tales,,0,0,0,,Racun Seribu Mekanisme yang menyiksaku puluhan tahun.
+Dialogue: 0,0:09:04.56,0:09:06.84,tales,,0,0,0,,Ternyata buatan sang kekasih.
+Dialogue: 0,0:09:09.20,0:09:12.48,tales,,0,0,0,,Ibu Suri pikir dia sendiri yang meracuni?
+Dialogue: 0,0:09:13.96,0:09:15.24,tales,,0,0,0,,Bukan dia.
+Dialogue: 0,0:09:15.72,0:09:17.16,tales,,0,0,0,,Tapi Raja Racun Kecil.
+Dialogue: 0,0:09:18.28,0:09:20.84,tales,,0,0,0,,Konon Raja Racun Kecil bergabung dengan Penasihat Kerajaan.
+Dialogue: 0,0:09:21.92,0:09:23.48,tales,,0,0,0,,Dialah yang meracuniku.
+Dialogue: 0,0:09:23.88,0:09:25.80,tales,,0,0,0,,Ini pasti perintah Penasihat Kerajaan.
+Dialogue: 0,0:09:32.84,0:09:34.32,tales,,0,0,0,,Si Cacing kecil bilang.
+Dialogue: 0,0:09:34.40,0:09:37.64,tales,,0,0,0,,Racun Seribu Mekanisme Ibu Suri berhasil dinetralisir oleh seorang pemuda.
+Dialogue: 0,0:09:38.32,0:09:41.52,tales,,0,0,0,,Rupanya murid baru guruku telah tiba.
+Dialogue: 0,0:09:42.56,0:09:43.40,tales,,0,0,0,,Penasihat.
+Dialogue: 0,0:09:43.80,0:09:46.24,tales,,0,0,0,,Haruskah kita gunakan racun lain?
+Dialogue: 0,0:09:47.72,0:09:49.12,tales,,0,0,0,,Sudah tidak perlu.
+Dialogue: 0,0:09:50.00,0:09:52.72,tales,,0,0,0,,Tidak ada permusuhan antara Ibu Suri dan aku.
+Dialogue: 0,0:09:53.56,0:09:57.31,tales,,0,0,0,,Dulu dia menentang reformasiku demi melindungi tahta putranya.
+Dialogue: 0,0:09:57.60,0:09:59.60,tales,,0,0,0,,Yang Mulia juga ragu-ragu.
+Dialogue: 0,0:10:00.32,0:10:01.92,tales,,0,0,0,,Makanya kusuruh meracuni-nya.
+Dialogue: 0,0:10:02.20,0:10:03.96,tales,,0,0,0,,Bukan untuk membunuhnya.
+Dialogue: 0,0:10:04.72,0:10:07.24,tales,,0,0,0,,Hanya agar dia tak campur tangan urusan negara.
+Dialogue: 0,0:10:07.32,0:10:10.32,tales,,0,0,0,,Sehingga Yang Mulia bisa fokus pada reformasi.
+Dialogue: 0,0:10:10.76,0:10:14.08,tales,,0,0,0,,Kini banyak yang mendukung reformasi.
+Dialogue: 0,0:10:14.52,0:10:17.40,tales,,0,0,0,,Para sekte pemberontak sudah terjebak dalam rencanaku.
+Dialogue: 0,0:10:18.12,0:10:19.92,tales,,0,0,0,,Kekuatanku sudah tak terbendung.
+Dialogue: 0,0:10:20.72,0:10:22.76,tales,,0,0,0,,Ibu Suri tak bisa menghentikanku.
+Dialogue: 0,0:10:24.92,0:10:26.52,tales,,0,0,0,,Penasihat ingin aku mati.
+Dialogue: 0,0:10:27.28,0:10:29.12,tales,,0,0,0,,Sudah lama menginginkannya.
+Dialogue: 0,0:10:29.76,0:10:33.12,tales,,0,0,0,,Mungkin karena aku tak setuju dengan caranya.
+Dialogue: 0,0:10:33.40,0:10:36.44,tales,,0,0,0,,Dia anggap aku penghalang reformasinya.
+Dialogue: 0,0:10:37.40,0:10:38.84,tales,,0,0,0,,Mengapa Ibu Suri tidak melapor ke Kaisar?
+Dialogue: 0,0:10:39.72,0:10:41.52,tales,,0,0,0,,Kau pikir Kaisar tidak tahu?
+Dialogue: 0,0:10:42.72,0:10:44.84,tales,,0,0,0,,Dia lihat reformasi sudah berhasil.
+Dialogue: 0,0:10:44.92,0:10:46.44,tales,,0,0,0,,Aku tak bisa berbuat apa-apa.
+Dialogue: 0,0:10:47.08,0:10:48.60,tales,,0,0,0,,Lalu menyuruhmu menyembuhkanku.
+Dialogue: 0,0:10:49.12,0:10:52.48,tales,,0,0,0,,Kalau tidak, kenapa dia memaafkanmu atas saran Xiuer?
+Dialogue: 0,0:10:55.48,0:10:58.80,tales,,0,0,0,,Memaafkan orang buangan adalah dosa penghinaan dewa.
+Dialogue: 0,0:10:59.64,0:11:04.55,tales,,0,0,0,,Hanya pencipta Racun Seribu Mekanisme yang bisa memahaminya.
+Dialogue: 0,0:11:05.20,0:11:07.20,tales,,0,0,0,,Gurumu pasti Tuan Giok.
+Dialogue: 0,0:11:07.92,0:11:09.64,tales,,0,0,0,,Bagaimana kabarnya di Daxu?
+Dialogue: 0,0:11:12.60,0:11:13.32,tales,,0,0,0,,Dia baik-baik saja.
+Dialogue: 0,0:11:22.72,0:11:24.56,tales,,0,0,0,,Apakah dia yang memintamu untuk menyelamatkanku?
+Dialogue: 0,0:11:27.12,0:11:29.12,tales,,0,0,0,,Dia masih memikirkan aku.
+Dialogue: 0,0:11:31.44,0:11:33.52,tales,,0,0,0,,Ibu Suri terlalu banyak berpikir.
+Dialogue: 0,0:11:34.32,0:11:35.72,tales,,0,0,0,,Tabib Jenius Muda pasti lelah.
+Dialogue: 0,0:11:35.72,0:11:36.92,tales,,0,0,0,,Pulanglah dan beristirahat.
+Dialogue: 0,0:11:37.60,0:11:38.64,tales,,0,0,0,,Kau harus berhati-hati.
+Dialogue: 0,0:11:39.00,0:11:40.66,tales,,0,0,0,,Kau sudah menetralkan racun Raja Racun Kecil.
+Dialogue: 0,0:11:40.83,0:11:42.47,tales,,0,0,0,,Dia pasti akan mengincarmu.
+Dialogue: 0,0:11:49.28,0:11:51.00,tales,,0,0,0,,Raja Racun Kecil?
+Dialogue: 0,0:11:58.92,0:12:02.44,tales,,0,0,0,,Kau bicara tren besar, aku bicara dendam kesumat.
+Dialogue: 0,0:12:05.32,0:12:07.12,tales,,0,0,0,,Lukamu hampir sembuh.
+Dialogue: 0,0:12:07.76,0:12:10.52,tales,,0,0,0,,Lanjutkan menyerap energi bintang untuk pemulihan.
+Dialogue: 0,0:12:12.04,0:12:13.72,tales,,0,0,0,,Aku mau jalan-jalan.
+Dialogue: 0,0:12:14.76,0:12:16.52,tales,,0,0,0,,Adik seperguruanku datang.
+Dialogue: 0,0:12:16.64,0:12:19.72,tales,,0,0,0,,Sebagai senior, harusnya aku menyambutnya.
+Dialogue: 0,0:12:20.16,0:12:21.32,tales,,0,0,0,,Kau harus berhati-hati.
+Dialogue: 0,0:12:21.32,0:12:23.52,tales,,0,0,0,,Meski Ibu Suri tak bisa berbuat apa-apa padaku.
+Dialogue: 0,0:12:23.56,0:12:25.64,tales,,0,0,0,,Tapi dia bisa membunuhmu.
+Dialogue: 0,0:12:26.20,0:12:27.56,tales,,0,0,0,,Ibu Suri sangat cerdas.
+Dialogue: 0,0:12:27.76,0:12:30.44,tales,,0,0,0,,Pasti sudah menebak identitas adik seperguruanmu.
+Dialogue: 0,0:12:30.72,0:12:32.32,tales,,0,0,0,,Dia menunggumu masuk perangkap.
+Dialogue: 0,0:12:32.52,0:12:34.00,tales,,0,0,0,,Untuk membunuhmu.
+Dialogue: 0,0:12:34.32,0:12:36.16,tales,,0,0,0,,Kau yang menyuruhku meracuni.
+Dialogue: 0,0:12:36.32,0:12:38.92,tales,,0,0,0,,Kenapa dia tidak membunuhmu malah membunuhku?
+Dialogue: 0,0:12:39.04,0:12:40.76,tales,,0,0,0,,Aku tidak bersalah.
+Dialogue: 0,0:12:41.68,0:12:42.92,tales,,0,0,0,,Kau lupa?
+Dialogue: 0,0:12:42.96,0:12:46.40,tales,,0,0,0,,Ibu Suri dan gurumu punya hubungan tidak jelas.
+Dialogue: 0,0:12:46.44,0:12:48.32,tales,,0,0,0,,Dia ingin balas dendam untuk dirinya.
+Dialogue: 0,0:12:48.52,0:12:50.44,tales,,0,0,0,,Dan juga untuk gurumu.
+Dialogue: 0,0:12:51.00,0:12:53.32,tales,,0,0,0,,Raja Racun Berwajah Giok sekarang tinggal di Daxu.
+Dialogue: 0,0:12:53.92,0:12:57.40,tales,,0,0,0,,Baru-baru ini ada orang buangan Daxu menjadi murid Kaisar.
+Dialogue: 0,0:12:57.92,0:13:00.24,tales,,0,0,0,,Pasti adik seperguruanmu.
+Dialogue: 0,0:13:11.68,0:13:14.84,tales,,0,0,0,,Pelajaran hari ini adalah ilmu pedang.
+Dialogue: 0,0:13:26.60,0:13:27.52,tales,,0,0,0,,Apa yang terjadi?
+Dialogue: 0,0:13:27.60,0:13:28.88,tales,,0,0,0,,Energi pedang yang kuat.
+Dialogue: 0,0:13:40.72,0:13:42.76,tales,,0,0,0,,Ini peringatan untuk kita.
+Dialogue: 0,0:13:44.84,0:13:46.12,tales,,0,0,0,,Pedang belum keluar sarung.
+Dialogue: 0,0:13:46.52,0:13:48.24,tales,,0,0,0,,Tapi energinya sudah menusuk.
+Dialogue: 0,0:13:48.88,0:13:50.52,tales,,0,0,0,,Inilah Pengawas Ilmu Pedang.
+Dialogue: 0,0:13:51.32,0:13:52.32,tales,,0,0,0,,Jian Sansheng.
+Dialogue: 0,0:13:54.70,0:13:56.08,tales,,0,0,0,,Jian Sansheng?
+Dialogue: 0,0:13:56.48,0:13:58.24,tales,,0,0,0,,Rupanya ketua aula pedang sekte kita.
+Dialogue: 0,0:13:58.72,0:14:00.92,tales,,0,0,0,,Balai Hanguang adalah aula ilmu pedang.
+Dialogue: 0,0:14:01.52,0:14:04.56,tales,,0,0,0,,Kalian pasti sudah merasakan atmosfer ilmu pedang.
+Dialogue: 0,0:14:04.96,0:14:08.40,tales,,0,0,0,,Tahukah kalian apa itu Hanguang?
+Dialogue: 0,0:14:09.52,0:14:10.76,tales,,0,0,0,,Orang Suci punya tiga pedang.
+Dialogue: 0,0:14:11.44,0:14:12.60,tales,,0,0,0,,Satu disebut Hanguang.
+Dialogue: 0,0:14:12.64,0:14:13.72,tales,,0,0,0,,Tak terlihat oleh mata.
+Dialogue: 0,0:14:14.28,0:14:15.28,tales,,0,0,0,,Tak terasa saat digunakan.
+Dialogue: 0,0:14:16.08,0:14:17.12,tales,,0,0,0,,Saat menyentuh.
+Dialogue: 0,0:14:17.36,0:14:18.36,tales,,0,0,0,,Tak berbekas.
+Dialogue: 0,0:14:19.28,0:14:20.92,tales,,0,0,0,,Melewati benda tanpa disadari.
+Dialogue: 0,0:14:21.12,0:14:23.08,tales,,0,0,0,,Tak terlihat, tak tersentuh.
+Dialogue: 0,0:14:23.08,0:14:24.92,tales,,0,0,0,,Guru Pedang sudah sangat hebat.
+Dialogue: 0,0:14:25.20,0:14:28.04,tales,,0,0,0,,Apakah tingkat Hanguang lebih hebat lagi?
+Dialogue: 0,0:14:28.48,0:14:29.08,tales,,0,0,0,,Benar.
+Dialogue: 0,0:14:29.52,0:14:32.28,tales,,0,0,0,,Pedang yang mencapai tingkat Hanguang.
+Dialogue: 0,0:14:32.32,0:14:35.28,tales,,0,0,0,,Disebut memasuki Tao melalui pedang.
+Dialogue: 0,0:14:35.56,0:14:37.64,tales,,0,0,0,,Yang dijuluki Dewa Pedang Hanguang.
+Dialogue: 0,0:14:38.04,0:14:40.72,tales,,0,0,0,,Hanya ada satu di dunia.
+Dialogue: 0,0:14:41.56,0:14:44.08,tales,,0,0,0,,Jadikan ini sebagai tujuan kalian.
+Dialogue: 0,0:14:44.92,0:14:47.64,tales,,0,0,0,,Bagaimana cara mencapai tingkat Hanguang?
+Dialogue: 0,0:14:47.92,0:14:50.60,tales,,0,0,0,,Dari cara kalian menangkis energiku tadi.
+Dialogue: 0,0:14:50.96,0:14:54.20,tales,,0,0,0,,Hanya satu orang yang memuaskan.
+Dialogue: 0,0:14:54.32,0:14:57.28,tales,,0,0,0,,Kalian harus latihan dasar pedang lagi.
+Dialogue: 0,0:14:57.92,0:15:00.96,tales,,0,0,0,,Kami sudah belajar dasar pedang sejak awal.
+Dialogue: 0,0:15:01.04,0:15:02.36,tales,,0,0,0,,Kenapa masih harus latihan?
+Dialogue: 0,0:15:02.76,0:15:04.64,tales,,0,0,0,,Jangan remehkan dasar ilmu pedang.
+Dialogue: 0,0:15:05.08,0:15:06.60,tales,,0,0,0,,Jika dasar tidak kuat,
+Dialogue: 0,0:15:06.76,0:15:08.88,tales,,0,0,0,,semua jurus pedang hebat akan sia-sia.
+Dialogue: 0,0:15:09.16,0:15:11.60,tales,,0,0,0,,Dulu aku bertemu seorang anak di tingkat Janin Spiritual,
+Dialogue: 0,0:15:11.80,0:15:13.44,tales,,0,0,0,,dasarnya sangat kokoh.
+Dialogue: 0,0:15:13.64,0:15:15.80,tales,,0,0,0,,Aku melawannya dengan tingkat yang sama,
+Dialogue: 0,0:15:16.04,0:15:18.04,tales,,0,0,0,,tapi dikalahkan dengan pedang kayu.
+Dialogue: 0,0:15:18.52,0:15:22.32,tales,,0,0,0,,Saat itulah aku tahu betapa pentingnya dasar ilmu pedang.
+Dialogue: 0,0:15:23.56,0:15:25.16,tales,,0,0,0,,Anak siapa yang begitu hebat?
+Dialogue: 0,0:15:25.92,0:15:26.52,tales,,0,0,0,,Ya.
+Dialogue: 0,0:15:29.96,0:15:30.64,tales,,0,0,0,,Sekarang,
+Dialogue: 0,0:15:30.84,0:15:33.84,tales,,0,0,0,,gunakan semua kekuatanmu dan ikuti gerakan tusuk pedang bersamaku.
+Dialogue: 0,0:15:38.52,0:15:40.56,tales,,0,0,0,,Qin Mu, ikut aku ke ruang samping.

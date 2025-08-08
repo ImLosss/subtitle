@@ -1,0 +1,230 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,1,1,1,1,2,10,10,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:52.13,0:03:54.62,komen,,0,0,0,,{\fad(500,250)}{\pos(1604,489)}[Lembah Jiwa Emas\NMakam Vermillion]
+Dialogue: 0,0:07:13.44,0:07:16.59,komen,,0,0,0,,{\fad(500,250)}{\pos(1595,495)}[Area luar Gunung Spiritual\NMakam Vermillion]
+Dialogue: 0,0:13:32.71,0:13:35.86,komen,,0,0,0,,{\fad(500,250)}{\pos(1595,495)}[Pintu Masuk Gunung Spiritual\NMakam Vermillion]
+Dialogue: 0,0:00:02.40,0:00:44.40,ri,,0,0,0,,[EPISODE SEBELUMNYA]
+Dialogue: 0,0:00:44.42,0:00:57.42,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:58.28,0:00:59.32,ri,,0,0,0,,Wan'er.
+Dialogue: 0,0:01:17.72,0:01:18.52,ri,,0,0,0,,Tidak!
+Dialogue: 0,0:01:27.08,0:01:27.72,ri,,0,0,0,,Itu dia.
+Dialogue: 0,0:01:32.96,0:01:35.40,ri,,0,0,0,,Masih belum menemukan Jiwa Takdir-mu,
+Dialogue: 0,0:01:35.40,0:01:38.25,ri,,0,0,0,,Sepertinya takdirmu berakhir di sini.
+Dialogue: 0,0:01:41.57,0:01:42.58,ri,,0,0,0,,Bakar!
+Dialogue: 0,0:01:48.52,0:01:49.51,ri,,0,0,0,,Berhenti!
+Dialogue: 0,0:01:52.52,0:01:54.44,ri,,0,0,0,,Aku tak boleh biarkan dia menyentuh Jiwa Takdir Wan'er.
+Dialogue: 0,0:01:55.56,0:01:56.84,ri,,0,0,0,,Kau?
+Dialogue: 0,0:01:57.80,0:01:58.88,ri,,0,0,0,,Bendera Jiwa!
+Dialogue: 0,0:02:04.12,0:02:05.20,ri,,0,0,0,,Bergerak lagi,
+Dialogue: 0,0:02:06.16,0:02:07.25,ri,,0,0,0,,mati!
+Dialogue: 0,0:02:14.72,0:02:15.28,ri,,0,0,0,,Bahaya!
+Dialogue: 0,0:02:15.52,0:02:17.00,ri,,0,0,0,,Tempat ini akan runtuh.
+Dialogue: 0,0:02:17.12,0:02:19.40,ri,,0,0,0,,Harus mencari cara lain untuk menemukan Jiwa Takdir.
+Dialogue: 0,0:02:22.72,0:02:24.08,ri,,0,0,0,,Jika tempat ini runtuh,
+Dialogue: 0,0:02:24.56,0:02:26.08,ri,,0,0,0,,Jiwa Takdir Wan'er pasti hancur.
+Dialogue: 0,0:02:30.68,0:02:31.12,ri,,0,0,0,,Bersatu!
+Dialogue: 0,0:02:31.12,0:02:33.12,ri,,0,0,0,,Terima kasih atas bantuanmu, rekanku.
+Dialogue: 0,0:02:39.40,0:02:40.56,ri,,0,0,0,,Hanya dengan menghancurkannya,
+Dialogue: 0,0:02:41.16,0:02:42.88,ri,,0,0,0,,aku bisa menemukan Jiwa Takdir Wan'er.
+Dialogue: 0,0:02:46.84,0:02:48.36,ri,,0,0,0,,Kau menyelamatkannya,
+Dialogue: 0,0:02:48.60,0:02:49.92,ri,,0,0,0,,lalu menyerangnya lagi.
+Dialogue: 0,0:02:49.96,0:02:50.72,ri,,0,0,0,,Apa maksudmu?
+Dialogue: 0,0:02:50.72,0:02:51.37,ri,,0,0,0,,Hancur!
+Dialogue: 0,0:02:54.20,0:02:54.69,ri,,0,0,0,,Wan'er.
+Dialogue: 0,0:02:55.92,0:02:56.68,ri,,0,0,0,,Di mana kau?
+Dialogue: 0,0:03:09.72,0:03:10.68,ri,,0,0,0,,Gila!
+Dialogue: 0,0:03:10.88,0:03:12.32,ri,,0,0,0,,Benar-benar gila!
+Dialogue: 0,0:03:13.64,0:03:14.20,ri,,0,0,0,,Hancur!
+Dialogue: 0,0:03:20.12,0:03:20.48,ri,,0,0,0,,Wan'er.
+Dialogue: 0,0:03:38.14,0:03:39.09,ri,,0,0,0,,Wan'er.
+Dialogue: 0,0:03:39.92,0:03:40.76,ri,,0,0,0,,Jangan takut.
+Dialogue: 0,0:04:02.76,0:04:04.52,ri,,0,0,0,,Tempat ini semakin tidak stabil.
+Dialogue: 0,0:04:05.00,0:04:06.32,ri,,0,0,0,,Harus cepat temukan Gunung Spiritual.
+Dialogue: 0,0:04:06.48,0:04:07.72,ri,,0,0,0,,Ambil kembali Jiwa Takdir-ku.
+Dialogue: 0,0:04:08.68,0:04:09.92,ri,,0,0,0,,Dan keluar dari sini.
+Dialogue: 0,0:04:19.84,0:04:20.32,ri,,0,0,0,,Ini...
+Dialogue: 0,0:04:24.40,0:04:25.44,ri,,0,0,0,,Jiwa Takdir Emas.
+Dialogue: 0,0:04:26.00,0:04:26.72,ri,,0,0,0,,Xu Liguo.
+Dialogue: 0,0:04:27.12,0:04:28.12,ri,,0,0,0,,Cucu.
+Dialogue: 0,0:04:28.52,0:04:30.92,ri,,0,0,0,,Berani bersuara di hadapan Kakek Xu!
+Dialogue: 0,0:04:34.24,0:04:34.80,ri,,0,0,0,,Lari?
+Dialogue: 0,0:04:35.28,0:04:36.68,ri,,0,0,0,,Kapan Kakek mengizinkanmu lari?
+Dialogue: 0,0:04:38.72,0:04:40.16,ri,,0,0,0,,Makhluk roh dari Jiwa Emas.
+Dialogue: 0,0:04:40.52,0:04:42.04,ri,,0,0,0,,Mirip dengan Jiwa Pedang.
+Dialogue: 0,0:04:42.72,0:04:44.68,ri,,0,0,0,,Akan kugunakan Xu Liguo untuk menaklukkannya.
+Dialogue: 0,0:04:58.72,0:04:59.48,ri,,0,0,0,,Aura ini...
+Dialogue: 0,0:05:00.40,0:05:02.40,ri,,0,0,0,,Mirip dengan Pedang Abadi dari Dunia Abadi.
+Dialogue: 0,0:05:08.36,0:05:09.60,ri,,0,0,0,,Tekanan yang kuat!
+Dialogue: 0,0:05:10.52,0:05:12.40,ri,,0,0,0,,Jiwa Pedang ini ternyata Jiwa Takdir tunggal.
+Dialogue: 0,0:05:13.40,0:05:14.52,ri,,0,0,0,,Pedang ini punya jiwa yang angkuh,
+Dialogue: 0,0:05:14.76,0:05:15.72,ri,,0,0,0,,memiliki aura liar.
+Dialogue: 0,0:05:16.60,0:05:18.32,ri,,0,0,0,,Ini jelas bukan benda biasa.
+Dialogue: 0,0:05:29.96,0:05:30.88,ri,,0,0,0,,Tinggalkan
+Dialogue: 0,0:05:31.48,0:05:33.16,ri,,0,0,0,,jiwanya.
+Dialogue: 0,0:05:33.72,0:05:34.48,ri,,0,0,0,,Kau—
+Dialogue: 0,0:05:35.00,0:05:35.84,ri,,0,0,0,,pergi!
+Dialogue: 0,0:05:36.32,0:05:38.08,ri,,0,0,0,,Tidak-tidak-tidak!
+Dialogue: 0,0:05:58.72,0:06:00.12,ri,,0,0,0,,Makhluk roh ini sangat cepat,
+Dialogue: 0,0:06:00.88,0:06:02.52,ri,,0,0,0,,setara dengan Jiwa Keempat.
+Dialogue: 0,0:06:03.12,0:06:04.72,ri,,0,0,0,,Tapi kekuatan serangannya lebih kuat.
+Dialogue: 0,0:06:06.48,0:06:07.16,ri,,0,0,0,,Tahan
+Dialogue: 0,0:06:07.56,0:06:08.79,ri,,0,0,0,,dia!
+Dialogue: 0,0:06:20.76,0:06:21.48,ri,,0,0,0,,Zeng Niu!
+Dialogue: 0,0:06:22.08,0:06:23.92,ri,,0,0,0,,Beruntung kau menarik perhatian Jiwa Takdir Emas,
+Dialogue: 0,0:06:24.12,0:06:25.68,ri,,0,0,0,,aku bisa melewatinya dengan lancar.
+Dialogue: 0,0:06:26.20,0:06:27.04,ri,,0,0,0,,Kalau begitu,
+Dialogue: 0,0:06:27.44,0:06:29.08,ri,,0,0,0,,akan kuberikan hadiah untukmu.
+Dialogue: 0,0:06:30.28,0:06:32.28,ri,,0,0,0,,Dulu kau ingin bertarung lagi dengan Zeng Niu, kan?
+Dialogue: 0,0:06:32.72,0:06:34.52,ri,,0,0,0,,Hari ini kuberi kesempatan itu.
+Dialogue: 0,0:06:34.92,0:06:35.80,ri,,0,0,0,,Bunuh dia.
+Dialogue: 0,0:06:45.18,0:06:47.88,ri,,0,0,0,,Pedang melengkung ini sepertinya tidak berniat menyakiti Xu Liguo.
+Dialogue: 0,0:06:48.56,0:06:49.88,ri,,0,0,0,,Mungkin ada maksud lain.
+Dialogue: 0,0:06:51.52,0:06:52.24,ri,,0,0,0,,Xu Liguo,
+Dialogue: 0,0:06:52.84,0:06:53.84,ri,,0,0,0,,kau harus bersabar dulu.
+Dialogue: 0,0:06:54.28,0:06:55.04,ri,,0,0,0,,Ikuti saja.
+Dialogue: 0,0:06:55.52,0:06:56.76,ri,,0,0,0,,Tuan,
+Dialogue: 0,0:06:56.76,0:06:58.28,ri,,0,0,0,,jangan!
+Dialogue: 0,0:06:58.28,0:06:59.72,ri,,0,0,0,,Kau monster, tak mudah mati.
+Dialogue: 0,0:07:00.40,0:07:01.56,ri,,0,0,0,,Setelah aku ambil Jiwa Takdir-ku,
+Dialogue: 0,0:07:01.84,0:07:02.71,ri,,0,0,0,,aku akan menyelamatkanmu.
+Dialogue: 0,0:07:03.57,0:07:06.76,ri,,0,0,0,,Jangan lupa menyelamatkanku!
+Dialogue: 0,0:07:07.52,0:07:09.12,ri,,0,0,0,,Pedang ini benar-benar harta karun.
+Dialogue: 0,0:07:09.68,0:07:11.44,ri,,0,0,0,,Nanti setelah kutemukan Xu Liguo,
+Dialogue: 0,0:07:11.92,0:07:13.72,ri,,0,0,0,,aku harus menaklukkannya.
+Dialogue: 0,0:07:17.12,0:07:18.76,ri,,0,0,0,,Ini pasti Gunung Spiritual.
+Dialogue: 0,0:07:29.32,0:07:30.32,ri,,0,0,0,,Hong Die!
+Dialogue: 0,0:07:31.52,0:07:33.56,ri,,0,0,0,,Ternyata benar Qian Feng menjadikannya tungku.
+Dialogue: 0,0:07:33.56,0:07:34.72,ri,,0,0,0,,Kehilangan akal.
+Dialogue: 0,0:07:38.12,0:07:39.32,ri,,0,0,0,,Waktu mepet,
+Dialogue: 0,0:07:39.72,0:07:41.16,ri,,0,0,0,,jangan terlalu menguras banyak waktu.
+Dialogue: 0,0:07:41.18,0:07:56.18,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:08:07.92,0:08:08.83,ri,,0,0,0,,Bunuh...
+Dialogue: 0,0:08:09.52,0:08:10.46,ri,,0,0,0,,aku.
+Dialogue: 0,0:08:10.64,0:08:11.68,ri,,0,0,0,,Masih sadar...
+Dialogue: 0,0:08:14.92,0:08:15.72,ri,,0,0,0,,Aku...
+Dialogue: 0,0:08:16.72,0:08:17.72,ri,,0,0,0,,tak bisa...
+Dialogue: 0,0:08:17.88,0:08:19.12,ri,,0,0,0,,mengendalikan diri.
+Dialogue: 0,0:08:20.28,0:08:21.68,ri,,0,0,0,,Hidup seperti ini...
+Dialogue: 0,0:08:22.84,0:08:24.72,ri,,0,0,0,,aku tak mau.
+Dialogue: 0,0:08:41.52,0:08:42.24,ri,,0,0,0,,Kumohon...
+Dialogue: 0,0:08:43.72,0:08:44.88,ri,,0,0,0,,bunuh aku.
+Dialogue: 0,0:08:57.06,0:08:58.14,ri,,0,0,0,,Aku, Hong Die.
+Dialogue: 0,0:08:58.82,0:08:59.90,ri,,0,0,0,,Lebih memilih mati
+Dialogue: 0,0:09:01.34,0:09:02.94,ri,,0,0,0,,daripada hidup hina.
+Dialogue: 0,0:09:04.30,0:09:05.86,ri,,0,0,0,,Berlatih ratusan tahun,
+Dialogue: 0,0:09:06.42,0:09:08.10,ri,,0,0,0,,kau adalah salah satu lawan terberatku.
+Dialogue: 0,0:09:09.34,0:09:11.02,ri,,0,0,0,,dalam perjalanan Dao-ku.
+Dialogue: 0,0:09:11.70,0:09:13.39,ri,,0,0,0,,Tak kusangka pertarungan terakhir
+Dialogue: 0,0:09:14.02,0:09:15.54,ri,,0,0,0,,akan berakhir seperti ini.
+Dialogue: 0,0:09:18.82,0:09:20.82,ri,,0,0,0,,Aku menghormati sikapmu yang angkuh.
+Dialogue: 0,0:09:23.10,0:09:24.06,ri,,0,0,0,,Pertarungan ini,
+Dialogue: 0,0:09:25.46,0:09:26.82,ri,,0,0,0,,akan kukabulkan permintaanmu.
+Dialogue: 0,0:09:26.84,0:09:41.84,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:10:08.30,0:10:09.58,ri,,0,0,0,,Lakukanlah!
+Dialogue: 0,0:10:30.02,0:10:31.42,ri,,0,0,0,,Ratusan tahun mencapai Soul Formation,
+Dialogue: 0,0:10:32.42,0:10:33.94,ri,,0,0,0,,namun terjebak di Soul Formation.
+Dialogue: 0,0:10:34.58,0:10:36.26,ri,,0,0,0,,Kini menjadi boneka,
+Dialogue: 0,0:10:36.94,0:10:38.71,ri,,0,0,0,,tak mungkin bangkit kembali.
+Dialogue: 0,0:10:39.22,0:10:40.42,ri,,0,0,0,,Hanya kematian
+Dialogue: 0,0:10:41.82,0:10:43.02,ri,,0,0,0,,yang bisa membebaskanku.
+Dialogue: 0,0:10:45.58,0:10:47.51,ri,,0,0,0,,Hidupku tak sampai dua ratus tahun.
+Dialogue: 0,0:10:48.62,0:10:50.18,ri,,0,0,0,,Fana seperti kupu-kupu,
+Dialogue: 0,0:10:50.62,0:10:51.86,ri,,0,0,0,,berlalu sekejap.
+Dialogue: 0,0:10:52.58,0:10:54.03,ri,,0,0,0,,Tapi sekejap itu,
+Dialogue: 0,0:10:54.82,0:10:56.58,ri,,0,0,0,,takkan pernah kulupakan.
+Dialogue: 0,0:11:03.62,0:11:04.58,ri,,0,0,0,,Selamat tinggal.
+Dialogue: 0,0:11:33.14,0:11:34.42,ri,,0,0,0,,Konsepsi Qian Feng
+Dialogue: 0,0:11:35.18,0:11:36.70,ri,,0,0,0,,adalah hasrat tak terbatas.
+Dialogue: 0,0:11:37.82,0:11:40.70,ri,,0,0,0,,Dia menelan konsepsi untuk mendapatkan pencerahan berbeda.
+Dialogue: 0,0:11:41.14,0:11:43.42,ri,,0,0,0,,hingga konsepsinya mencapai kesempurnaan.
+Dialogue: 0,0:11:44.42,0:11:47.54,ri,,0,0,0,,Aku wariskan pemahaman tentang konsepsinya dan Cambuk Kunji padamu.
+Dialogue: 0,0:11:48.70,0:11:49.50,ri,,0,0,0,,Zeng Niu,
+Dialogue: 0,0:11:50.82,0:11:51.58,ri,,0,0,0,,tolong
+Dialogue: 0,0:11:52.34,0:11:53.82,ri,,0,0,0,,bunuh Qian Feng.
+Dialogue: 0,0:11:54.82,0:11:55.74,ri,,0,0,0,,Bisakah?
+Dialogue: 0,0:11:57.14,0:11:58.42,ri,,0,0,0,,Musim semi depan,
+Dialogue: 0,0:11:59.26,0:12:00.78,ri,,0,0,0,,di dataran utara,
+Dialogue: 0,0:12:00.78,0:12:02.86,ri,,0,0,0,,akan ada mawar biru mekar.
+Dialogue: 0,0:12:03.86,0:12:05.66,ri,,0,0,0,,Itu hadiahku untukmu.
+Dialogue: 0,0:12:17.54,0:12:18.22,ri,,0,0,0,,Aku berjanji.
+Dialogue: 0,0:12:18.24,0:12:33.24,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:46.90,0:12:49.14,ri,,0,0,0,,Kali ini dengan bantuan tengkorak leluhur,
+Dialogue: 0,0:12:49.30,0:12:50.90,ri,,0,0,0,,kuaksa membuka Makam Vermillion.
+Dialogue: 0,0:12:51.78,0:12:53.30,ri,,0,0,0,,Tapi hanya satu yang masuk,
+Dialogue: 0,0:12:53.38,0:12:54.58,ri,,0,0,0,,dan waktunya terbatas.
+Dialogue: 0,0:12:55.58,0:12:58.02,ri,,0,0,0,,Jika belum keluar saat kekuatan simbol menghilang,
+Dialogue: 0,0:12:58.42,0:13:00.14,ri,,0,0,0,,akan langsung dimusnahkan.
+Dialogue: 0,0:13:01.18,0:13:01.94,ri,,0,0,0,,Siapa yang pergi?
+Dialogue: 0,0:13:07.38,0:13:08.50,ri,,0,0,0,,Aku yang pergi.
+Dialogue: 0,0:13:11.42,0:13:13.94,ri,,0,0,0,,Setelah kutemukan Kristal Bintang,
+Dialogue: 0,0:13:14.14,0:13:16.78,ri,,0,0,0,,akan kuperbaiki dengan formasi terbalik.
+Dialogue: 0,0:13:17.02,0:13:19.42,ri,,0,0,0,,Mencegah Aliansi Kultivator turun.
+Dialogue: 0,0:13:19.62,0:13:21.42,ri,,0,0,0,,Pasti bisa selamatkan sukuku.
+Dialogue: 0,0:13:22.78,0:13:23.98,ri,,0,0,0,,Perjalanan ini berbahaya.
+Dialogue: 0,0:13:24.26,0:13:25.10,ri,,0,0,0,,Berhati-hatilah.
+Dialogue: 0,0:13:25.70,0:13:26.58,ri,,0,0,0,,Pergi dan cepat kembali.
+Dialogue: 0,0:13:32.18,0:13:32.98,ri,,0,0,0,,Ini tempatnya.
+Dialogue: 0,0:13:33.22,0:13:33.78,ri,,0,0,0,,Bersabarlah.
+Dialogue: 0,0:13:33.78,0:13:34.70,ri,,0,0,0,,Tunggu sebentar lagi.
+Dialogue: 0,0:13:34.74,0:13:35.78,ri,,0,0,0,,Berapa lama lagi harus menunggu?
+Dialogue: 0,0:13:35.78,0:13:36.90,ri,,0,0,0,,Benar juga.
+Dialogue: 0,0:13:49.42,0:13:51.42,ri,,0,0,0,,Yunque Zi bisa masuk ke Gunung Spiritual.
+Dialogue: 0,0:13:51.54,0:13:52.38,ri,,0,0,0,,Tidak mungkin.
+Dialogue: 0,0:13:52.42,0:13:53.18,ri,,0,0,0,,Benar juga.
+Dialogue: 0,0:13:53.18,0:13:54.02,ri,,0,0,0,,Bagaimana caranya?
+Dialogue: 0,0:13:54.10,0:13:55.22,ri,,0,0,0,,Hormat pada Senior.
+Dialogue: 0,0:13:56.02,0:13:56.62,ri,,0,0,0,,Senior.
+Dialogue: 0,0:13:56.86,0:13:58.38,ri,,0,0,0,,Junior sudah menunggu lama di sini.
+Dialogue: 0,0:13:58.97,0:13:59.69,ri,,0,0,0,,Pintu ini...
+Dialogue: 0,0:13:59.94,0:14:01.10,ri,,0,0,0,,belum ada tanda-tanda dibuka.
+Dialogue: 0,0:14:01.74,0:14:02.94,ri,,0,0,0,,Jangan terburu-buru.
+Dialogue: 0,0:14:03.14,0:14:07.22,ri,,0,0,0,,Ini satu-satunya jalan masuk ke makam Vermillion generasi pertama.
+Dialogue: 0,0:14:07.38,0:14:08.98,ri,,0,0,0,,Tanpa Kristal Bintang,
+Dialogue: 0,0:14:08.98,0:14:10.42,ri,,0,0,0,,tidak bisa dibuka.
+Dialogue: 0,0:14:11.54,0:14:15.06,ri,,0,0,0,,Harus menunggu sampai Makam Vermillion runtuh sampai batas tertentu,
+Dialogue: 0,0:14:15.06,0:14:16.54,ri,,0,0,0,,untuk membuka pintunya.
+Dialogue: 0,0:14:16.54,0:14:18.66,ri,,0,0,0,,Baru ada kesempatan masuk.
+Dialogue: 0,0:14:28.58,0:14:30.98,ri,,0,0,0,,Orang ini bukan dari Planet Vermillion.
+Dialogue: 0,0:14:31.22,0:14:33.74,ri,,0,0,0,,Meski kultivasinya tahap akhir Soul Transformation,
+Dialogue: 0,0:14:33.78,0:14:36.78,ri,,0,0,0,,ada aura aneh padanya.
+Dialogue: 0,0:14:37.46,0:14:40.34,ri,,0,0,0,,Aku penasaran rekan mana yang merasuki tubuh ini.
+Dialogue: 0,0:14:40.42,0:14:42.54,ri,,0,0,0,,Mengapa tidak menunjukkan wujud asli?
+Dialogue: 0,0:14:46.18,0:14:48.18,ri,,0,0,0,,Kita tidak saling mengenal.
+Dialogue: 0,0:14:48.22,0:14:50.14,ri,,0,0,0,,Bahkan jika aku menunjukkan wujud asli,
+Dialogue: 0,0:14:50.46,0:14:52.94,ri,,0,0,0,,apakah kau akan tahu namaku?
+Dialogue: 0,0:14:55.70,0:14:56.42,ri,,0,0,0,,Mundur.
+Dialogue: 0,0:14:56.58,0:14:57.38,ri,,0,0,0,,Jauh-jauh.
+Dialogue: 0,0:14:57.38,0:14:58.54,ri,,0,0,0,,Retakan ruang.
+Dialogue: 0,0:14:58.70,0:14:59.77,ri,,0,0,0,,Kenapa mulai runtuh?
+Dialogue: 0,0:15:03.50,0:15:05.06,ri,,0,0,0,,Di luar Makam Vermillion,
+Dialogue: 0,0:15:05.54,0:15:07.22,ri,,0,0,0,,hampir runtuh sepenuhnya.
+Dialogue: 0,0:15:14.90,0:15:16.26,ri,,0,0,0,,Dasar Zixin brengsek.
+Dialogue: 0,0:15:23.82,0:15:25.74,ri,,0,0,0,,Dia belum juga sampai.
+Dialogue: 0,0:15:29.34,0:15:30.30,ri,,0,0,0,,Zeng Niu.
+Dialogue: 0,0:15:31.14,0:15:33.42,ri,,0,0,0,,Biarkan Jueqing mengantarmu ke liang kubur.
+Dialogue: 0,0:15:39.70,0:15:40.34,ri,,0,0,0,,Saudara Wang.
+Dialogue: 0,0:15:40.58,0:15:41.26,ri,,0,0,0,,Zeng Niu.
+Dialogue: 0,0:15:41.98,0:15:42.94,ri,,0,0,0,,Wang Lin.
+Dialogue: 0,0:16:01.46,0:16:03.74,ri,,0,0,0,,Puncak permainan ini,
+Dialogue: 0,0:16:04.14,0:16:06.42,ri,,0,0,0,,akhirnya dimulai.

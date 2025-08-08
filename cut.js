@@ -40,20 +40,20 @@ async function cutFast(inputFile, outputFile) {
 async function cut(inputFile, outputFile) {
   return new Promise((resolve, reject) => {
     const ffmpegArgs = [
-      '-y', // Overwrite file output jika ada
-      '-i', inputFile, // File input
-      // '-ss', '00:02:17', 
-      // '-to', '00:17:50',
-      // '-vf', 'scale=1920:-2', // Atur lebar menjadi 1920, tinggi mengikuti rasio aspek
-      '-r', '25', // Atur FPS menjadi 25
-      '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
-      '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
+      '-y', 
+      '-i', inputFile, 
+      '-ss', '00:02:38', 
+      '-to', '00:18:59',
+      '-vf', 'scale=1920:-2', 
+      // '-r', '25', 
+      '-c:v', 'h264_amf', 
+      '-cq:v', '18', 
       '-rc', 'cbr', 
-      '-b:v', '2M',
-      '-maxrate', '2M', 
-      '-bufsize', '4M', 
+      '-b:v', '5M',
+      '-maxrate', '5M',
+      '-bufsize', '10M',
       '-quality', 'quality',
-      '-preset', 'quality', // Gunakan preset kualitas GPU
+      '-preset', 'quality', 
       '-c:a', 'aac',
       outputFile
     ];
@@ -112,4 +112,4 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('JD_EP07.ts', 'JD_EP07d.mp4');
+cut('227_4K.mp4', 'PW_EP227.mp4');

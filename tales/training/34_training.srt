@@ -1,0 +1,628 @@
+﻿1
+00:02:38,970 --> 00:02:39,480
+这件衣裳 -> Pakaian ini
+
+2
+00:02:39,933 --> 00:02:40,999
+刀枪不入 -> kebal terhadap pedang dan tombak,
+
+3
+00:02:41,033 --> 00:02:42,199
+水火不侵 -> kebal terhadap air dan api,
+
+4
+00:02:42,233 --> 00:02:43,799
+百毒不近 -> serta tidak bisa diracuni.
+
+5
+00:02:43,800 --> 00:02:46,666
+当年神祇向延康国传下神谕时 -> Dulu ketika Dewa mewariskan Orakel pada Negara Yankang,
+
+6
+00:02:46,667 --> 00:02:50,166
+就是要阻止公子这般出生土长的大墟弃民出逃 -> untuk mencegah rakyat telantar asli seperti Tuan Muda melarikan diri.
+
+7
+00:02:50,567 --> 00:02:51,766
+国师遭到重创 -> Katanya Penasihat terluka parah
+
+8
+00:02:51,967 --> 00:02:52,966
+险些死了 -> dan hampir mati.
+
+9
+00:02:53,300 --> 00:02:55,299
+那些宗派定会伺机作乱 -> Para sekte itu pasti akan gunakan kesempatan bikin kerusuhan.
+
+10
+00:02:55,533 --> 00:02:56,599
+我们得做好准备 -> Kita harus bersiap-siap.
+
+11
+00:02:57,033 --> 00:02:58,499
+宗派生变 -> Sekte berubah,
+
+12
+00:02:58,600 --> 00:02:59,999
+天下将乱 -> dunia akan kacau.
+
+13
+00:03:00,000 --> 00:03:02,966
+当顺势求变而得新生 -> Beradaptasi dengan perubahan dan menyambut kehidupan baru.
+
+14
+00:03:02,967 --> 00:03:05,432
+听说大墟以前也能看到这么多星星 -> Katanya dulu Daxu bisa melihat begitu banyak bintang.
+
+15
+00:03:05,433 --> 00:03:07,366
+为什么黑暗只会侵袭大墟呢 -> Kenapa kegelapan hanya menyerang Daxu?
+
+16
+00:03:07,367 --> 00:03:09,232
+那是炉火 -> Itu... Api tungku?
+
+17
+00:03:29,033 --> 00:03:31,666
+用整个县城来做锻造炉 -> Menggunakan seluruh kota jadi tungku.
+
+18
+00:03:33,400 --> 00:03:36,266
+那里简直就是一座巨大的治炼厂 -> Di sana seperti tempat peleburan besar.
+
+19
+00:03:36,567 --> 00:03:39,099
+延康人打个铁都这么大阵仗 -> Orang Yankang mau menempa besi juga harus besar-besaran.
+
+20
+00:03:39,467 --> 00:03:41,299
+不可思议 -> Luar biasa.
+
+21
+00:03:43,033 --> 00:03:46,066
+肥七说延康国师变法后 -> Gendut Ketujuh bilang setelah Penasihat Yankang reformasi,
+
+22
+00:03:46,067 --> 00:03:48,099
+道法神通日新月异 -> Tao dan kekuatannya terus berubah.
+
+23
+00:03:48,800 --> 00:03:50,132
+果然如此 -> Ternyata memang begitu.
+
+24
+00:03:50,767 --> 00:03:51,332
+等等 -> Tunggu.
+
+25
+00:03:51,733 --> 00:03:53,732
+将神通应用于日常生活 -> Menerapkan kekuatan supernatural dalam kehidupan sehari-hari.
+
+26
+00:03:53,900 --> 00:03:56,466
+那不是大育天魔经中的圣人之道吗 -> Bukankah itu Tao Orang Suci dalam Kitab Ajaran Agung Iblis Langit?
+
+27
+00:03:57,067 --> 00:03:58,466
+圣人之道是什么 -> Tao Orang Suci itu apa?
+
+28
+00:03:59,567 --> 00:04:00,599
+圣人之道 -> Tao Orang Suci
+
+29
+00:04:00,667 --> 00:04:01,966
+无异于百姓日用 -> tak berbeda dengan penggunaan sehari-hari orang biasa.
+
+30
+00:04:02,433 --> 00:04:03,466
+凡有异者 -> Jika ada yang berbeda
+
+31
+00:04:03,630 --> 00:04:04,870
+皆是异端 -> semuanya adalah
+
+32
+00:04:04,870 --> 00:04:06,090
+率性所行 -> inovasi baru.
+
+33
+00:04:06,090 --> 00:04:07,200
+纯任自然 -> Sepenuhnya alami
+
+34
+00:04:07,400 --> 00:04:08,366
+便谓之道 -> adalah Tao-nya.
+
+35
+00:04:09,000 --> 00:04:09,732
+婆婆说 -> Nenek bilang,
+
+36
+00:04:09,833 --> 00:04:11,499
+这句话是圣典的总纲 -> kalimat ini adalah ringkasan dari Buku Suci,
+
+37
+00:04:11,867 --> 00:04:14,066
+也是圣教的立教之本 -> juga merupakan dasar Kultus Suci.
+
+38
+00:04:14,867 --> 00:04:16,466
+这是什么意思啊 -> Apa maksudnya?
+
+39
+00:04:18,167 --> 00:04:19,866
+不能为百姓所用的道法 -> Tao yang tidak dapat digunakan oleh manusia
+
+40
+00:04:20,167 --> 00:04:23,099
+无论神魔禅 -> baik itu Dewa, Iblis maupun Zen,
+
+41
+00:04:23,333 --> 00:04:24,466
+通通都是异端 -> semuanya adalah ajaran sesat.
+
+42
+00:04:25,000 --> 00:04:26,732
+只要能被天下人所有 -> Selama dapat dimiliki oleh semua orang di dunia
+
+43
+00:04:26,933 --> 00:04:28,666
+能让大家日常用到的 -> dan digunakan semua orang dalam kehidupan sehari-hari
+
+44
+00:04:28,900 --> 00:04:29,799
+便是正道 -> itulah Tao yang benar.
+
+45
+00:04:31,100 --> 00:04:33,532
+日常所用的道法是什么 -> Tao apa yang digunakan dalam kehidupan sehari-hari
+
+46
+00:04:33,533 --> 00:04:35,732
+居然都不把神魔放在眼里 -> bahkan menganggap sepele Dewa dan Iblis?
+
+47
+00:04:36,833 --> 00:04:39,666
+大概就像三百六十堂的神通 -> Mungkin kekuatan seperti 360 Aula.
+
+48
+00:04:40,233 --> 00:04:42,666
+干旱时雨堂为农民降雨 -> Aula Hujan menurunkan hujan bagi petani selama musim kemarau.
+
+49
+00:04:43,367 --> 00:04:45,932
+洪涝时工堂锻造堤坝 -> Saat banjir, Aula Kerja membangun bendungan.
+
+50
+00:04:46,433 --> 00:04:48,332
+这种寻常生活里驱使的 -> Yang bisa dipakai dalam kehidupan biasa inilah
+
+51
+00:04:48,567 --> 00:04:50,499
+才是大多数人需要的功法 -> yang dibutuhkan kebanyakan orang,
+
+52
+00:04:51,600 --> 00:04:55,499
+而非只是让少数人修炼变强 成神成魔 -> bukan sekadar cara kultivasi kikir yang memungkinkan segelintir orang
+
+53
+00:04:55,900 --> 00:04:57,699
+这般狭隘的修行之道 -> menjadi kuat seperti Dewa dan Iblis.
+
+54
+00:04:58,067 --> 00:05:00,432
+满足大家日常需求的 -> Apa yang memenuhi kebutuhan harian setiap orang
+
+55
+00:05:00,567 --> 00:05:02,299
+才是正道吗 -> baru disebut Tao yang benar?
+
+56
+00:05:03,000 --> 00:05:06,066
+圣人之道竟被延康国师做到了 -> Penasihat Yankang bisa melakukan Tao Orang Suci.
+
+57
+00:05:06,600 --> 00:05:08,966
+难不成他也是圣教的 -> Apa mungkin dia juga dari Kultus Suci?
+
+58
+00:05:19,067 --> 00:05:22,099
+尸体堆积太久会引发瘟疫 -> Jika mayat ditumpuk terlalu lama akan menimbulkan wabah.
+
+59
+00:05:22,600 --> 00:05:23,732
+调集一队人马 -> Kumpulkan sekelompok orang
+
+60
+00:05:24,067 --> 00:05:26,532
+随我将尸体运到对岸的百岁山安葬 -> dan ikut aku bawa jenazah ke sisi lain Gunung Baisui untuk dimakamkan.
+
+61
+00:05:26,967 --> 00:05:27,432
+是 -> Baik.
+
+62
+00:06:06,100 --> 00:06:07,499
+堤江县出了什么事 -> Kabupaten Dijiang terjadi masalah apa?
+
+63
+00:06:07,767 --> 00:06:09,332
+怎么一下子死了上百人 -> Kenapa ada lebih dari seratus orang mati sekaligus?
+
+64
+00:06:09,900 --> 00:06:11,999
+这些尸体都是上游漂过来的 -> Mayat-mayat ini dibawa arus dari hulu ke hilir.
+
+65
+00:06:12,433 --> 00:06:13,866
+估计是发洪水淹死的 -> Mungkin tenggelam karena banjir,
+
+66
+00:06:14,300 --> 00:06:15,532
+冲到我们堤江县 -> lalu terbawa arus ke Dijiang
+
+67
+00:06:16,033 --> 00:06:16,999
+被大坝拦住了 -> dan tertahan oleh bendungan.
+
+68
+00:06:26,600 --> 00:06:28,266
+溺水死亡的尸体 -> Mayat orang yang tenggelam
+
+69
+00:06:28,467 --> 00:06:30,066
+应当会膨胀才是 -> seharusnya akan membengkak.
+
+70
+00:06:30,800 --> 00:06:33,999
+这些尸体却十分紧实 -> Mayat-mayat ini malah sangat kaku.
+
+71
+00:06:35,333 --> 00:06:36,266
+奇怪 -> Aneh.
+
+72
+00:06:36,267 --> 00:06:37,599
+这么多尸体 -> Ada begitu banyak mayat,
+
+73
+00:06:37,700 --> 00:06:39,966
+居然连一点尸臭味也没有 -> tapi malah tidak ada bau mayat sedikit pun.
+
+74
+00:07:32,033 --> 00:07:33,266
+炼尸成僵 -> Membuat mayat jadi Mayat Kaku.
+
+75
+00:07:33,767 --> 00:07:34,632
+是尸仙教 -> Kultus Mayat Abadi.
+
+76
+00:07:35,667 --> 00:07:36,732
+快去禀报县令 -> Cepat lapor Bupati.
+
+77
+00:07:36,733 --> 00:07:37,866
+尸仙教来袭 -> Kultus Mayat Abadi datang menyerang.
+
+78
+00:07:38,133 --> 00:07:39,566
+县令在此 -> Bupati ada di sini.
+
+79
+00:07:41,567 --> 00:07:45,066
+延康国师挟天子以令诸派 -> Penasihat Yankang menyandera Kaisar untuk memerintah berbagai sekte.
+
+80
+00:07:45,267 --> 00:07:47,132
+屡次违背神谕 -> Berulang kali melanggar Orakel.
+
+81
+00:07:47,533 --> 00:07:50,199
+堤江县县令为虎作伥 -> Bupati Dijiang membantu orang jahat melakukan kejahatan.
+
+82
+00:07:50,200 --> 00:07:52,484
+甘为延康国师耳目 -> Rela menjadi kaki tangan Penasihat Yankang.
+
+83
+00:07:53,400 --> 00:07:54,499
+当诛 -> Harus dibunuh.
+
+84
+00:08:18,767 --> 00:08:20,266
+尸仙教 -> Kultus Mayat Abadi.
+
+85
+00:08:20,633 --> 00:08:22,266
+又一个反叛的宗门 -> Sekte pemberontak lainnya.
+
+86
+00:08:22,933 --> 00:08:24,132
+他只是造反 -> Dia hanya memberontak.
+
+87
+00:08:24,367 --> 00:08:26,666
+不至于要杀县城里的普通人吧 -> Tidak perlu membunuh orang biasa di kabupaten, 'kan?
+
+88
+00:08:27,567 --> 00:08:28,732
+这个尸仙教 -> Kultus Mayat Abadi
+
+89
+00:08:29,167 --> 00:08:30,732
+是用尸体练功的 -> berlatih menggunakan mayat.
+
+90
+00:08:30,833 --> 00:08:32,166
+尸体 -> Mayat?
+
+91
+00:08:33,633 --> 00:08:36,566
+公子怀疑尸仙教会屠城 -> Tuan muda curiga Kultus Mayat Abadi membantai kota
+
+92
+00:08:36,667 --> 00:08:38,832
+再操控所有人的尺体 -> dan memanipulasi mayat semua orang?
+
+93
+00:08:40,367 --> 00:08:41,499
+婆婆说过 -> Nenek pernah bilang,
+
+94
+00:08:41,967 --> 00:08:43,399
+外面的人凶残得多 -> orang-orang di luar jauh lebih brutal.
+
+95
+00:08:43,733 --> 00:08:45,299
+不比我们大墟的人纯良 -> Tidak sebaik orang-orang di Daxu.
+
+96
+00:08:49,233 --> 00:08:51,432
+封锁堤江县 -> Blokade Kabupaten Dijiang.
+
+97
+00:08:52,333 --> 00:08:54,266
+不得放走任何一人 -> Jangan biarkan siapa pun pergi.
+
+98
+00:08:55,000 --> 00:08:56,632
+谨遵掌教法旨 -> Ikuti perintah pemimpin.
+
+99
+00:09:49,567 --> 00:09:50,399
+是你 -> Ternyata kau.
+
+100
+00:09:50,600 --> 00:09:51,332
+快走 -> Cepat pergi.
+
+101
+00:09:52,067 --> 00:09:53,699
+这些尸体像灵兵一般坚硬 -> Mayat-mayat ini sekeras Prajurit Spiritual.
+
+102
+00:09:54,100 --> 00:09:55,832
+寻常武器根本伤不到他们 -> Senjata biasa sama sekali tidak bisa melukai mereka.
+
+103
+00:09:56,467 --> 00:09:57,666
+堤江县守不住了 -> Kabupaten Dijiang tidak bisa dipertahankan lagi.
+
+104
+00:09:58,867 --> 00:10:00,232
+哪里冒出来的小子 -> Bocah dari mana ini?
+
+105
+00:10:00,400 --> 00:10:02,266
+居然从我手下救人 -> Berani sekali selamatkan orang dari tanganku.
+
+106
+00:10:05,967 --> 00:10:07,999
+需要等待丽州府派兵驰援 -> Perlu menunggu Prefektur Lizhou mengirim pasukan bala bantuan.
+
+107
+00:10:12,167 --> 00:10:13,499
+多谢秦兄弟施救 -> Terima kasih atas pertolongan Saudara Qin.
+
+108
+00:10:13,667 --> 00:10:14,966
+若有再见之日 -> Jika lain hari bertemu,
+
+109
+00:10:15,100 --> 00:10:16,366
+锦娘必当重报 -> Jin Niang pasti akan membalas budimu.
+
+110
+00:10:19,400 --> 00:10:20,932
+真元炮 准备 -> Meriam Esensi Sejati, bersiap!
+
+111
+00:10:21,433 --> 00:10:22,866
+真元炮 准备 -> Meriam Esensi Sejati, bersiap!
+
+112
+00:10:42,767 --> 00:10:43,766
+我们赶紧离开 -> Kita harus segera pergi.
+
+113
+00:10:44,200 --> 00:10:44,832
+狐灵儿 -> Hu Ling'er.
+
+114
+00:10:45,000 --> 00:10:45,532
+御风 -> Kendarai angin.
+
+115
+00:11:17,467 --> 00:11:19,266
+这个半路杀出的小子 -> Bocah yang muncul di tengah jalan ini.
+
+116
+00:11:19,733 --> 00:11:21,866
+可不能让你成为漏网之鱼 -> Tidak bisa biarkan kau lolos.
+
+117
+00:12:30,333 --> 00:12:31,199
+劈开了 -> Terpotong.
+
+118
+00:12:31,700 --> 00:12:33,566
+杀猪刀可以对付他们 -> Pisau Pembunuh Babi bisa menghadapi mereka.
+
+119
+00:12:45,133 --> 00:12:47,299
+飞僵身上的符篆被破了 -> Jimat pada Mayat Terbang itu rusak.
+
+120
+00:12:53,300 --> 00:12:55,666
+这些飞僵身体强度极高 -> Kekuatan fisik Mayat Terbang ini sangat hebat.
+
+121
+00:12:55,667 --> 00:12:57,932
+堪比肉身不坏的战技强者 -> Setara dengan ahli tempur yang tubuhnya kebal.
+
+122
+00:12:58,433 --> 00:13:01,799
+难道这个少年是延康朝廷的高手 -> Apa mungkin pemuda ini ahli dari Pengadilan Yankang?
+
+123
+00:13:02,067 --> 00:13:03,232
+若他脱逃 -> Jika dia kabur
+
+124
+00:13:03,233 --> 00:13:04,766
+恐坏我教大计 -> mungkin akan merusak rencana kultus.
+
+125
+00:13:14,567 --> 00:13:15,832
+公子好厉害 -> Tuan Muda hebat sekali.
+
+126
+00:13:26,667 --> 00:13:27,866
+好雄浑的元气 -> Energi yang sangat kuat.
+
+127
+00:13:28,700 --> 00:13:30,132
+简直可与仙清儿相比 -> Setara dengan Xian Qing'er.
+
+128
+00:13:34,900 --> 00:13:36,866
+他至少是七星境神通者 -> Dia setidaknya ahli supernatural Alam Tujuh Bintang.
+
+129
+00:13:37,467 --> 00:13:38,832
+比我高出三个境界 -> Tiga alam lebih tinggi dariku.
+
+130
+00:14:12,467 --> 00:14:14,232
+这是尸毒 -> Ini Racun Mayat.
+
+131
+00:14:23,500 --> 00:14:25,899
+你与我的飞僵近身作战 -> Kau melawan Mayat Terbang-ku dalam pertarungan jarak dekat
+
+132
+00:14:26,067 --> 00:14:27,532
+竟毫发无伤 -> dan bisa tidak cedera.
+
+133
+00:14:27,900 --> 00:14:30,332
+可惜若你负伤 -> Sayangnya, jika kau terluka...
+
+134
+00:14:30,633 --> 00:14:33,199
+尸毒由伤口入体 -> Racun Mayat bisa masuk ke dalam tubuh melalui luka.
+
+135
+00:14:33,567 --> 00:14:34,999
+你就能感受 -> Kau akan bisa merasakan
+
+136
+00:14:35,000 --> 00:14:37,799
+血液凝固 肌肉僵硬 -> perasaan darah membeku, otot menegang,
+
+137
+00:14:38,467 --> 00:14:42,499
+神智消失 魂魄消融的滋味 -> mental rusak, jiwa hancur.
+
+138
+00:14:46,300 --> 00:14:48,799
+然后变成跟他们一样的行尸走肉 -> Kemudian menjadi mayat berjalan seperti mereka.
+
+139
+00:14:54,200 --> 00:14:56,566
+能够为我尸仙教效力 -> Bisa melayani Kultus Mayat Abadi,
+
+140
+00:14:57,033 --> 00:14:58,499
+你该感到荣幸 -> kau harusnya merasa terhormat.
+
+141
+00:16:16,833 --> 00:16:19,566
+他是以控剑术催动黄表纸进攻的 -> Dia menyerang dengan Teknik Pengontrol Pedang, menggerakkan kertas kuning.
+
+142
+00:16:19,967 --> 00:16:21,466
+尺仙教神通者 -> Ahli supernatural Kultus Mayat Abadi
+
+143
+00:16:21,467 --> 00:16:22,866
+竟能让这些薄薄的纸 -> bisa membuat kertas tipis ini
+
+144
+00:16:22,867 --> 00:16:24,566
+变得像利刃一样切金断玉 -> menjadi setajam pisau untuk memotong emas dan giok.
+
+145
+00:16:25,267 --> 00:16:26,366
+我近不了他的身 -> Aku tidak bisa mendekatinya.
+
+146
+00:16:26,767 --> 00:16:28,199
+必须想办法出其不意 -> Harus mencari cara untuk membuatnya lengah.
+
+147
+00:16:56,400 --> 00:16:58,632
+浓重的硫黄味里夹杂看血腥味 -> Bau belerang yang kuat bercampur dengan bau darah.
+
+148
+00:16:58,933 --> 00:16:59,799
+公子小心 -> Tuan Muda, hati-hati.
+
+149
+00:16:59,800 --> 00:17:01,666
+这些黄表纸跟刚才的不一样 -> Kertas kuning ini berbeda dengan yang tadi.
+
+150
+00:17:19,067 --> 00:17:20,932
+尸仙教不仅炼尸成僵 -> Kultus Mayat Abadi tak hanya olah mayat jadi Mayat Kaku,
+
+151
+00:17:21,267 --> 00:17:23,132
+还以人血绘制符箓 -> juga bisa membuat jimat dengan darah manusia.
+
+152
+00:17:47,933 --> 00:17:50,299
+他能控制飞僵以战技攻击 -> Dia bisa gunakan Mayat Terbang untuk bertarung
+
+153
+00:17:50,500 --> 00:17:52,132
+以控剑术催动黄表纸 -> pakai Teknik Pengontrol Pedang gerakkan kertas kuning
+
+154
+00:17:52,733 --> 00:17:54,099
+还能以法术画符 -> dan menggambar jimat dengan mantra.
+
+155
+00:17:54,600 --> 00:17:56,599
+他竟同时掌握了三种流派 -> Dia menguasai tiga aliran sekaligus.
+
+156
+00:18:03,333 --> 00:18:03,966
+定 -> Membeku!
+
+157
+00:18:10,167 --> 00:18:10,766
+爆 -> Meledak!
+
