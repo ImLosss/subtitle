@@ -1,0 +1,171 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:17:15.72,0:17:19.82,komen,,0,0,0,,{\pos(1657,371)\fad(500,250)}[Naga Kecil]
+Dialogue: 0,0:00:00.00,0:00:20.00,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:30.09,0:00:30.76,tomb,,0,0,0,,Kakak.
+Dialogue: 0,0:00:47.90,0:00:48.77,tomb,,0,0,0,,Kakak.
+Dialogue: 0,0:00:49.40,0:00:51.64,tomb,,0,0,0,,Jangan tinggalkan aku.
+Dialogue: 0,0:00:54.36,0:00:55.00,tomb,,0,0,0,,Kau pernah bilang,
+Dialogue: 0,0:00:55.48,0:00:58.60,tomb,,0,0,0,,akan menjagaku seumur hidup.
+Dialogue: 0,0:01:04.44,0:01:05.16,tomb,,0,0,0,,Kakak.
+Dialogue: 0,0:01:19.48,0:01:20.56,tomb,,0,0,0,,Kakak tidak apa-apa.
+Dialogue: 0,0:01:27.96,0:01:28.36,tomb,,0,0,0,,Bahaya!
+Dialogue: 0,0:01:28.76,0:01:29.64,tomb,,0,0,0,,Itu orang-orang Tao Ran.
+Dialogue: 0,0:01:30.13,0:01:31.17,tomb,,0,0,0,,Tubuh sekarat,
+Dialogue: 0,0:01:31.68,0:01:33.00,tomb,,0,0,0,,nyawaku terancam.
+Dialogue: 0,0:01:33.80,0:01:36.36,tomb,,0,0,0,,Pak tua itu sudah setengah langkah masuk tingkat 5.
+Dialogue: 0,0:01:37.56,0:01:38.88,tomb,,0,0,0,,Dalam jaring yang sudah terpasang ini,
+Dialogue: 0,0:01:39.88,0:01:40.76,tomb,,0,0,0,,tak ada jalan keluar.
+Dialogue: 0,0:01:41.68,0:01:42.64,tomb,,0,0,0,,Kalau begitu,
+Dialogue: 0,0:01:43.56,0:01:44.96,tomb,,0,0,0,,lebih baik bertarung habis-habisan.
+Dialogue: 0,0:01:47.44,0:01:49.04,tomb,,0,0,0,,Kau sudah terluka parah,
+Dialogue: 0,0:01:50.00,0:01:53.16,tomb,,0,0,0,,masih berpikir bisa lolos hidup-hidup?
+Dialogue: 0,0:01:57.08,0:01:58.64,tomb,,0,0,0,,Aku sudah tak punya pilihan,
+Dialogue: 0,0:01:59.40,0:02:01.34,tomb,,0,0,0,,hanya bisa bertarung mati-matian.
+Dialogue: 0,0:02:02.96,0:02:04.40,tomb,,0,0,0,,Ayah pernah berkata padaku,
+Dialogue: 0,0:02:05.44,0:02:06.76,tomb,,0,0,0,,Membalikan aliran energi
+Dialogue: 0,0:02:07.96,0:02:10.76,tomb,,0,0,0,,akan mengubah sifatku secara permanen.
+Dialogue: 0,0:02:11.36,0:02:12.56,tomb,,0,0,0,,Dan jurus ini,
+Dialogue: 0,0:02:13.20,0:02:14.36,tomb,,0,0,0,,sekali digunakan,
+Dialogue: 0,0:02:14.80,0:02:16.64,tomb,,0,0,0,,energi hidup akan terkuras habis.
+Dialogue: 0,0:02:17.16,0:02:19.01,tomb,,0,0,0,,Tak pernah ada yang selamat.
+Dialogue: 0,0:02:21.28,0:02:21.96,tomb,,0,0,0,,Wakil Dekan.
+Dialogue: 0,0:02:55.40,0:02:57.16,tomb,,0,0,0,,Aura yang dilepaskan bocah ini
+Dialogue: 0,0:02:57.64,0:02:59.44,tomb,,0,0,0,,bisa menyamai kekuatanku.
+Dialogue: 0,0:03:06.76,0:03:09.08,tomb,,0,0,0,,Konon, petarung Timur yang mencapai puncak
+Dialogue: 0,0:03:09.08,0:03:10.36,tomb,,0,0,0,,bisa menciptakan avatar.
+Dialogue: 0,0:03:13.96,0:03:15.40,tomb,,0,0,0,,Dia baru sekitar 20 tahun,
+Dialogue: 0,0:03:15.80,0:03:17.24,tomb,,0,0,0,,tapi bisa ciptakan 7 avatar.
+Dialogue: 0,0:03:18.88,0:03:19.32,tomb,,0,0,0,,Ini...
+Dialogue: 0,0:03:25.84,0:03:26.40,tomb,,0,0,0,,Kakak.
+Dialogue: 0,0:04:09.16,0:04:09.88,tomb,,0,0,0,,Jaga dia baik-baik.
+Dialogue: 0,0:04:10.27,0:04:11.15,tomb,,0,0,0,,Baik.
+Dialogue: 0,0:04:13.88,0:04:16.54,tomb,,0,0,0,,Kakak.
+Dialogue: 0,0:04:16.76,0:04:17.88,tomb,,0,0,0,,Apakah dia benar-benar dirimu atau bukan,
+Dialogue: 0,0:04:19.04,0:04:20.76,tomb,,0,0,0,,dulu aku gagal melindungimu,
+Dialogue: 0,0:04:21.48,0:04:23.28,tomb,,0,0,0,,itu penyesalan terbesarku.
+Dialogue: 0,0:04:23.96,0:04:25.36,tomb,,0,0,0,,Tapi penyesalan yang sama,
+Dialogue: 0,0:04:26.08,0:04:28.00,tomb,,0,0,0,,tak ingin kualami lagi.
+Dialogue: 0,0:04:28.80,0:04:29.60,tomb,,0,0,0,,Yu Xin.
+Dialogue: 0,0:04:31.16,0:04:32.57,tomb,,0,0,0,,Hukum yang melawan langit,
+Dialogue: 0,0:04:33.00,0:04:34.16,tomb,,0,0,0,,mengubah takdir langit.
+Dialogue: 0,0:04:34.96,0:04:35.88,tomb,,0,0,0,,Melawan langit!
+Dialogue: 0,0:04:36.55,0:04:38.16,tomb,,0,0,0,,Tujuh Pedang Iblis!
+Dialogue: 0,0:05:10.96,0:05:12.60,tomb,,0,0,0,,Jika kita bisa bertemu lagi,
+Dialogue: 0,0:05:13.44,0:05:14.56,tomb,,0,0,0,,akan kusebutkan namaku.
+Dialogue: 0,0:05:22.96,0:05:25.90,tomb,,0,0,0,,Teknik pedangnya semakin kuat setiap tebasan.
+Dialogue: 0,0:05:50.48,0:05:51.24,tomb,,0,0,0,,Namaku Yu Xin.
+Dialogue: 0,0:05:52.16,0:05:53.24,tomb,,0,0,0,,Di suatu malam hujan,
+Dialogue: 0,0:05:53.56,0:05:55.36,tomb,,0,0,0,,aku ditemukan Guru di antara semak bunga.
+Dialogue: 0,0:06:13.64,0:06:15.24,tomb,,0,0,0,,Dia sedang menguras energi hidupnya.
+Dialogue: 0,0:06:45.24,0:06:46.20,tomb,,0,0,0,,Langit yang kejam!
+Dialogue: 0,0:06:47.08,0:06:50.08,tomb,,0,0,0,,Kembalikan nyawa Yu Xin!
+Dialogue: 0,0:07:15.01,0:07:15.77,tomb,,0,0,0,,Tidak mungkin!
+Dialogue: 0,0:07:16.06,0:07:16.80,tomb,,0,0,0,,Ini tidak mungkin!
+Dialogue: 0,0:07:42.04,0:07:44.36,tomb,,0,0,0,,Energi hidupnya sedang memudar.
+Dialogue: 0,0:08:30.16,0:08:32.39,tomb,,0,0,0,,Jika kau menebaskan pedang ini, nyawamu akan habis terbakar,
+Dialogue: 0,0:08:32.48,0:08:33.96,tomb,,0,0,0,,pasti tewas.
+Dialogue: 0,0:08:40.88,0:08:44.98,tomb,,0,0,0,,TEBASAN KETUJUH!
+Dialogue: 0,0:08:45.98,0:09:00.98,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:50.88,0:11:51.56,tomb,,0,0,0,,Kakak.
+Dialogue: 0,0:11:58.94,0:11:59.94,tomb,,0,0,0,,Kakak.
+Dialogue: 0,0:12:06.68,0:12:08.80,tomb,,0,0,0,,Hahaha!
+Dialogue: 0,0:12:30.56,0:12:32.62,tomb,,0,0,0,,- Tujuh tebasan sudah lewat.
+Dialogue: 0,0:12:31.45,0:12:32.36,tomb,,0,0,0,,- Kakak.
+Dialogue: 0,0:12:33.56,0:12:34.36,tomb,,0,0,0,,Pada akhirnya,
+Dialogue: 0,0:12:35.36,0:12:38.16,tomb,,0,0,0,,aku lebih unggul.
+Dialogue: 0,0:12:39.36,0:12:39.99,tomb,,0,0,0,,Tunggu!
+Dialogue: 0,0:12:47.28,0:12:48.28,tomb,,0,0,0,,Bocah,
+Dialogue: 0,0:12:48.80,0:12:51.64,tomb,,0,0,0,,jangan kira mati bisa menyelesaikan masalah.
+Dialogue: 0,0:12:52.28,0:12:54.56,tomb,,0,0,0,,Utang darah pada Negara Yangjin,
+Dialogue: 0,0:12:55.24,0:12:56.00,tomb,,0,0,0,,akan kuambil
+Dialogue: 0,0:12:56.44,0:12:58.36,tomb,,0,0,0,,dari mayatmu.
+Dialogue: 0,0:12:58.80,0:13:00.08,tomb,,0,0,0,,Jangan sentuh kakak!
+Dialogue: 0,0:13:02.20,0:13:02.76,tomb,,0,0,0,,Minggir!
+Dialogue: 0,0:13:03.28,0:13:03.96,tomb,,0,0,0,,Dia sudah mati.
+Dialogue: 0,0:13:04.44,0:13:06.16,tomb,,0,0,0,,Pejuang puncak tingkat 4,
+Dialogue: 0,0:13:06.76,0:13:08.76,tomb,,0,0,0,,masa tega menyakiti anak kecil?
+Dialogue: 0,0:13:09.80,0:13:11.04,tomb,,0,0,0,,Mohon pertimbangkan lagi, Senior.
+Dialogue: 0,0:13:12.16,0:13:13.00,tomb,,0,0,0,,Benar juga.
+Dialogue: 0,0:13:13.40,0:13:15.36,tomb,,0,0,0,,Ahli puncak tingkat 4 menyerang anak,
+Dialogue: 0,0:13:15.80,0:13:16.56,tomb,,0,0,0,,tidak enak didengar.
+Dialogue: 0,0:13:16.56,0:13:17.76,tomb,,0,0,0,,Lepaskan saja anak ini.
+Dialogue: 0,0:13:17.88,0:13:19.16,tomb,,0,0,0,,Dia tidak berbahaya.
+Dialogue: 0,0:13:35.76,0:13:36.56,tomb,,0,0,0,,Aku mengantuk.
+Dialogue: 0,0:13:37.36,0:13:38.16,tomb,,0,0,0,,Biarkan aku tidur.
+Dialogue: 0,0:13:41.84,0:13:42.60,tomb,,0,0,0,,Jika lelah,
+Dialogue: 0,0:13:43.20,0:13:44.08,tomb,,0,0,0,,beristirahatlah.
+Dialogue: 0,0:13:45.08,0:14:00.08,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:14:12.16,0:14:12.84,tomb,,0,0,0,,Kakak.
+Dialogue: 0,0:14:27.27,0:14:29.44,tomb,,0,0,0,,Chen... Chen Xi.
+Dialogue: 0,0:14:36.16,0:14:37.28,tomb,,0,0,0,,Jangan sentuh kakak!
+Dialogue: 0,0:14:44.04,0:14:44.36,tomb,,0,0,0,,Maaf.
+Dialogue: 0,0:14:45.16,0:14:45.69,tomb,,0,0,0,,Yu Xin.
+Dialogue: 0,0:14:46.40,0:14:47.16,tomb,,0,0,0,,Aku harus pergi.
+Dialogue: 0,0:14:50.24,0:14:50.76,tomb,,0,0,0,,Chen Nan.
+Dialogue: 0,0:14:51.75,0:14:53.31,tomb,,0,0,0,,Ingat kata-kataku?
+Dialogue: 0,0:14:54.64,0:14:55.36,tomb,,0,0,0,,Sampai jumpa.
+Dialogue: 0,0:14:55.89,0:14:56.88,tomb,,0,0,0,,Sampai jumpa lagi.
+Dialogue: 0,0:14:57.88,0:14:58.40,tomb,,0,0,0,,Sekarang
+Dialogue: 0,0:14:59.08,0:15:00.40,tomb,,0,0,0,,bukan saatnya bertemu.
+Dialogue: 0,0:15:02.24,0:15:03.00,tomb,,0,0,0,,Pergilah.
+Dialogue: 0,0:15:04.00,0:15:05.48,tomb,,0,0,0,,Kembalilah ke tempat-mu.
+Dialogue: 0,0:15:08.04,0:15:09.08,tomb,,0,0,0,,Selamat tinggal, Chen Nan.
+Dialogue: 0,0:15:10.60,0:15:11.56,tomb,,0,0,0,,Suatu hari nanti,
+Dialogue: 0,0:15:12.06,0:15:14.65,tomb,,0,0,0,,kita akan bertemu kembali setelah terpisah sepuluh ribu tahun.
+Dialogue: 0,0:15:31.36,0:15:32.36,tomb,,0,0,0,,Sampai jumpa lagi.
+Dialogue: 0,0:15:39.04,0:15:39.76,tomb,,0,0,0,,Aku...
+Dialogue: 0,0:15:40.85,0:15:41.63,tomb,,0,0,0,,...sudah kembali.
+Dialogue: 0,0:15:56.08,0:15:56.76,tomb,,0,0,0,,- Bukankah dia sudah mati?
+Dialogue: 0,0:15:57.20,0:15:58.44,tomb,,0,0,0,,- Kenapa bisa hidup kembali?
+Dialogue: 0,0:15:58.48,0:15:59.24,tomb,,0,0,0,,- Hidup kembali!
+Dialogue: 0,0:16:21.00,0:16:21.60,tomb,,0,0,0,,Kakak!
+Dialogue: 0,0:16:28.60,0:16:31.08,tomb,,0,0,0,,Kau benar-benar bisa bangkit dari kematian!
+Dialogue: 0,0:16:32.24,0:16:33.56,tomb,,0,0,0,,Luka lamanya belum sembuh,
+Dialogue: 0,0:16:33.80,0:16:35.04,tomb,,0,0,0,,dia hanya memaksakan diri.
+Dialogue: 0,0:16:35.64,0:16:38.56,tomb,,0,0,0,,Serang!
+Dialogue: 0,0:16:39.56,0:16:54.56,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:17:15.84,0:17:17.56,tomb,,0,0,0,,Chen Nan, aku datang!
+Dialogue: 0,0:17:19.64,0:17:20.24,tomb,,0,0,0,,Chen Nan!
+Dialogue: 0,0:17:23.08,0:17:23.84,tomb,,0,0,0,,Naga kecil!
+Dialogue: 0,0:17:24.36,0:17:25.64,tomb,,0,0,0,,Siapa yang melukaimu?
+Dialogue: 0,0:17:26.04,0:17:27.28,tomb,,0,0,0,,Aku akan membalas untukmu!
+Dialogue: 0,0:17:31.00,0:17:32.00,tomb,,0,0,0,,Naga Suci tingkat 5!
+Dialogue: 0,0:17:34.44,0:17:34.84,tomb,,0,0,0,,Naga kecil!
+Dialogue: 0,0:17:35.24,0:17:35.68,tomb,,0,0,0,,Kejar dia!
+Dialogue: 0,0:17:36.24,0:17:37.20,tomb,,0,0,0,,Aku akan membunuhnya!
+Dialogue: 0,0:17:39.76,0:17:40.60,tomb,,0,0,0,,Siap!
+Dialogue: 0,0:17:42.64,0:17:43.36,tomb,,0,0,0,,Sialan!
+Dialogue: 0,0:17:43.96,0:17:46.24,tomb,,0,0,0,,Kenapa Naga Suci tingkat 5 ada di sini?
+Dialogue: 0,0:17:50.97,0:17:52.40,tomb,,0,0,0,,Pak tua bangka!
+Dialogue: 0,0:17:52.84,0:17:53.96,tomb,,0,0,0,,Matilah kau!
+Dialogue: 0,0:18:08.80,0:18:10.40,tomb,,0,0,0,,Naga kecil, kau sangat keren!
+Dialogue: 0,0:18:11.08,0:18:12.08,tomb,,0,0,0,,Aku tadi tidak keren?
+Dialogue: 0,0:18:12.60,0:18:13.40,tomb,,0,0,0,,Kakak juga keren.
+Dialogue: 0,0:18:14.40,0:18:29.40,Default,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.

@@ -42,8 +42,8 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', 
       '-i', inputFile, 
-      '-ss', '00:02:38', 
-      '-to', '00:18:59',
+      '-ss', '00:02:29', 
+      '-to', '00:17:49',
       '-vf', 'scale=1920:-2', 
       // '-r', '25', 
       '-c:v', 'h264_amf', 
@@ -97,6 +97,30 @@ async function cut(inputFile, outputFile) {
     });
   });
 }
+
+async function extractSubtitle(inputFile, subtitleStreamIndex, outputFile, forceSrt = false) {
+  return new Promise((resolve, reject) => {
+    const mapSpecifier = `0:s:${subtitleStreamIndex}`;
+    const args = [
+      '-y',
+      '-i', inputFile,
+      '-map', mapSpecifier
+    ];
+    if (forceSrt) {
+      args.push('-c:s', 'srt');
+    } else {
+      args.push('-c:s', 'copy');
+    }
+    args.push(outputFile);
+    const proc = spawn(ffmpegStatic, args);
+    proc.stderr.on('data', d => console.log(`Process: ${d}`));
+    proc.on('close', code => {
+      if (code === 0) resolve(`Subtitle diekstrak ke ${outputFile}`);
+      else reject(new Error(`ffmpeg exit code ${code}`));
+    });
+  });
+}
+
 //  const ffmpegArgs = [
 //       '-y',
 //       '-i', inputFile,
@@ -112,4 +136,5 @@ async function cut(inputFile, outputFile) {
 //       outputFile
 //     ];
 
-cut('227_4K.mp4', 'PW_EP227.mp4');
+cut('229_4K.mp4', 'PW_EP229.mp4');
+// extractSubtitle('tomb/TOMB_EP2.mkv', 0, 'tomb/TOMB_EP2_INDO.ass', false);

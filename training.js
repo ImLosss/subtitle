@@ -39,7 +39,7 @@ function parseSRT(content) {
 }
 
 // Fungsi untuk mencari kecocokan berdasarkan timestamp dengan toleransi
-function findMatchWithIndex(chSub, idSubs, tolerance = 3) {
+function findMatchWithIndex(chSub, idSubs, tolerance = 0.5) {
     let bestMatch = null;
     let bestIndex = -1;
     let minDiff = tolerance + 1;
@@ -61,8 +61,8 @@ function findMatchWithIndex(chSub, idSubs, tolerance = 3) {
 function createTrainingFile() {
     try {
         // Baca file subtitle Mandarin dan Indonesia
-        const chContent = fs.readFileSync('d:/Dokumenku/Pemrograman/Node/subtitle/tales/EP2_CH.srt', 'utf8');
-        const idContent = fs.readFileSync('d:/Dokumenku/Pemrograman/Node/subtitle/tales/EP2_ID.srt', 'utf8');
+        const chContent = fs.readFileSync('d:/Dokumenku/Pemrograman/Node/subtitle/tomb/TOMB_EP2_CH.srt', 'utf8');
+        const idContent = fs.readFileSync('d:/Dokumenku/Pemrograman/Node/subtitle/tomb/TOMB_EP2_INDO.srt', 'utf8');
         
         // Parse subtitle
         const chSubs = parseSRT(chContent);
@@ -125,7 +125,7 @@ function createTrainingFile() {
         console.log(unmatchedIndonesian);
         
         // Simpan file training
-        const outputPath = 'd:/Dokumenku/Pemrograman/Node/subtitle/tales/training/2_training.srt';
+        const outputPath = 'd:/Dokumenku/Pemrograman/Node/subtitle/tomb/training/EP2_training.srt';
         fs.writeFileSync(outputPath, trainingContent, 'utf8');
         
         console.log(`File training berhasil dibuat: ${outputPath}`);

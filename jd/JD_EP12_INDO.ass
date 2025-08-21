@@ -1,0 +1,228 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:04:36.41,0:04:39.59,komen,,0,0,0,,{\pos(1594,413)\fad(500,250)}[Fei Yi]
+Dialogue: 0,0:00:00.00,0:00:10.00,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh DongWorld.
+Dialogue: 0,0:00:12.57,0:00:14.28,jd,,0,0,0,,Gunakan formasi untuk menekan kultivasiku.
+Dialogue: 0,0:00:37.18,0:00:38.86,jd,,0,0,0,,Sungguh hebat si Pemakan Jiwa.
+Dialogue: 0,0:00:44.06,0:00:44.98,jd,,0,0,0,,Ini adalah...
+Dialogue: 0,0:00:58.30,0:00:59.74,jd,,0,0,0,,Ternyata karena Lonceng Tulang itu.
+Dialogue: 0,0:01:00.74,0:01:14.74,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh DongWorld.
+Dialogue: 0,0:01:14.90,0:01:15.64,jd,,0,0,0,,Hancur!
+Dialogue: 0,0:01:28.14,0:01:29.73,jd,,0,0,0,,Formasi masih aktif!
+Dialogue: 0,0:01:34.74,0:01:35.66,jd,,0,0,0,,Bayangan Darah!
+Dialogue: 0,0:01:35.66,0:01:36.35,jd,,0,0,0,,Penjinak Jiwa!
+Dialogue: 0,0:01:44.50,0:01:45.98,jd,,0,0,0,,Ternyata itu adalah pengganti tubuh boneka.
+Dialogue: 0,0:01:47.98,0:01:50.02,jd,,0,0,0,,Wakil Ketua Sekte memang luar biasa.
+Dialogue: 0,0:01:50.14,0:01:52.38,jd,,0,0,0,,Bisa menghancurkan dua tubuhku.
+Dialogue: 0,0:01:52.46,0:01:54.17,jd,,0,0,0,,Berapa kali lagi kau bisa mati?
+Dialogue: 0,0:01:55.86,0:01:59.19,jd,,0,0,0,,Tapi aku tahu kau hanya bisa mati sekali.
+Dialogue: 0,0:02:07.42,0:02:09.06,jd,,0,0,0,,Suara Hantu Pengikat Jiwa!
+Dialogue: 0,0:02:11.46,0:02:13.22,jd,,0,0,0,,Tipu muslihat iblis!
+Dialogue: 0,0:02:15.74,0:02:17.06,jd,,0,0,0,,Apa?
+Dialogue: 0,0:02:23.62,0:02:26.26,jd,,0,0,0,,Tak kusangka kau bisa bertahan lama dalam segel ini.
+Dialogue: 0,0:02:27.30,0:02:30.86,jd,,0,0,0,,Tak sia-sia aku bersusah payah memancingmu ke sini.
+Dialogue: 0,0:02:33.22,0:02:35.58,jd,,0,0,0,,Kultivasimu dan tubuh ini...
+Dialogue: 0,0:02:35.58,0:02:36.86,jd,,0,0,0,,Aku terima.
+Dialogue: 0,0:02:37.86,0:02:39.34,jd,,0,0,0,,Semuanya tergantung kemampuanmu!
+Dialogue: 0,0:02:41.18,0:02:41.90,jd,,0,0,0,,Hancurkan!
+Dialogue: 0,0:02:41.90,0:02:43.58,jd,,0,0,0,,Sudah terlambat.
+Dialogue: 0,0:02:43.62,0:02:44.95,jd,,0,0,0,,Aku tak peduli apapun...
+Dialogue: 0,0:02:44.98,0:02:46.92,jd,,0,0,0,,untuk momen ini.
+Dialogue: 0,0:02:47.30,0:02:48.66,jd,,0,0,0,,Segel diperkuat berkali lipat.
+Dialogue: 0,0:02:48.83,0:02:49.80,jd,,0,0,0,,Jangan berlama-lama.
+Dialogue: 0,0:02:55.20,0:02:56.75,jd,,0,0,0,,Hancurkan artefak ini!
+Dialogue: 0,0:02:57.40,0:02:58.42,jd,,0,0,0,,Apa?
+Dialogue: 0,0:02:58.96,0:03:03.51,jd,,0,0,0,,Ingin menghancurkan artefak-ku, tidak semudah itu!
+Dialogue: 0,0:03:07.96,0:03:09.52,jd,,0,0,0,,Dalam segel ini...
+Dialogue: 0,0:03:09.64,0:03:10.88,jd,,0,0,0,,jangan adu kekuatan.
+Dialogue: 0,0:03:13.56,0:03:14.78,jd,,0,0,0,,Cara yang bagus!
+Dialogue: 0,0:03:14.96,0:03:15.56,jd,,0,0,0,,Bangkit!
+Dialogue: 0,0:03:15.56,0:03:16.84,jd,,0,0,0,,Sekarang!
+Dialogue: 0,0:03:17.48,0:03:17.92,jd,,0,0,0,,Apa?
+Dialogue: 0,0:03:17.92,0:03:18.80,jd,,0,0,0,,Paku Penusuk Jiwa!
+Dialogue: 0,0:03:24.72,0:03:27.28,jd,,0,0,0,,Pertarungan selesai.
+Dialogue: 0,0:03:32.82,0:03:36.42,jd,,0,0,0,,Sayang tubuh ini rusak.
+Dialogue: 0,0:03:38.46,0:03:39.34,jd,,0,0,0,,Benarkah?
+Dialogue: 0,0:03:39.68,0:03:40.44,jd,,0,0,0,,Tidak mungkin!
+Dialogue: 0,0:03:40.76,0:03:43.08,jd,,0,0,0,,Darah dalam formasi jelas asli.
+Dialogue: 0,0:03:45.92,0:03:47.09,jd,,0,0,0,,Tentu asli.
+Dialogue: 0,0:03:47.68,0:03:50.09,jd,,0,0,0,,Menggunakan darah murni sebagai umpan.
+Dialogue: 0,0:03:51.68,0:03:52.88,jd,,0,0,0,,Begitu rupanya.
+Dialogue: 0,0:03:53.60,0:03:56.60,jd,,0,0,0,,Lanjutkan juga percuma.
+Dialogue: 0,0:03:56.60,0:03:59.88,jd,,0,0,0,,Lebih baik kita berhenti hari ini.
+Dialogue: 0,0:04:00.36,0:04:01.84,jd,,0,0,0,,Seandainya kultivasiku lebih rendah...
+Dialogue: 0,0:04:01.84,0:04:04.12,jd,,0,0,0,,aku sudah mati berkali-kali.
+Dialogue: 0,0:04:04.37,0:04:05.69,jd,,0,0,0,,Dia menyembunyikan kekuatannya.
+Dialogue: 0,0:04:06.06,0:04:07.66,jd,,0,0,0,,Sulit ditebak niatnya.
+Dialogue: 0,0:04:08.10,0:04:10.71,jd,,0,0,0,,Apa tujuanmu datang ke Gunung Qingyun?
+Dialogue: 0,0:04:13.66,0:04:15.78,jd,,0,0,0,,Aku hanya ingin melihat keramaian.
+Dialogue: 0,0:04:19.46,0:04:20.54,jd,,0,0,0,,Kitab mencatat,
+Dialogue: 0,0:04:20.86,0:04:21.86,jd,,0,0,0,,ada serangga ajaib kuno,
+Dialogue: 0,0:04:21.86,0:04:23.02,jd,,0,0,0,,bersayap keras dan berkaki tajam,
+Dialogue: 0,0:04:23.42,0:04:24.46,jd,,0,0,0,,memakan segalanya,
+Dialogue: 0,0:04:24.46,0:04:25.70,jd,,0,0,0,,terbang ke langit,
+Dialogue: 0,0:04:26.22,0:04:27.22,jd,,0,0,0,,menyelam ke bumi,
+Dialogue: 0,0:04:27.22,0:04:28.46,jd,,0,0,0,,satu atau ribuan,
+Dialogue: 0,0:04:28.90,0:04:30.02,jd,,0,0,0,,tak bisa dibedakan.
+Dialogue: 0,0:04:36.62,0:04:38.74,jd,,0,0,0,,Inilah Raja Siluman Fei Yi!
+Dialogue: 0,0:04:39.38,0:04:40.38,jd,,0,0,0,,Saudara Zeng,
+Dialogue: 0,0:04:40.38,0:04:41.66,jd,,0,0,0,,bawa orang untuk mengalihkan kawanan serangga,
+Dialogue: 0,0:04:41.66,0:04:42.86,jd,,0,0,0,,gunakan formasi untuk menahan.
+Dialogue: 0,0:05:07.78,0:05:09.18,jd,,0,0,0,,Binatang ini sangat sulit diatasi!
+Dialogue: 0,0:05:10.00,0:05:11.93,jd,,0,0,0,,Tadi dia mengendalikan aliran balik energi larva,
+Dialogue: 0,0:05:11.96,0:05:13.24,jd,,0,0,0,,menyebabkan ledakan energi.
+Dialogue: 0,0:05:20.06,0:05:21.81,jd,,0,0,0,,Amitabha.
+Dialogue: 0,0:05:28.21,0:05:29.82,jd,,0,0,0,,Jangan berurusan dengan larva ini,
+Dialogue: 0,0:05:30.12,0:05:30.82,jd,,0,0,0,,satu kali serangan,
+Dialogue: 0,0:05:30.86,0:05:31.73,jd,,0,0,0,,langsung ke jantung.
+Dialogue: 0,0:06:29.46,0:06:30.54,jd,,0,0,0,,Aku sudah tidak apa-apa,
+Dialogue: 0,0:06:30.64,0:06:32.19,jd,,0,0,0,,tolong bantu aku, Saudara.
+Dialogue: 0,0:06:32.56,0:06:33.92,jd,,0,0,0,,Tiga Konstelasi Empat Simbol,
+Dialogue: 0,0:06:34.08,0:06:35.20,jd,,0,0,0,,Bintang Jatuh.
+Dialogue: 0,0:06:37.32,0:06:39.28,jd,,0,0,0,,Sepuluh Macan Menghancurkan Gunung,
+Dialogue: 0,0:06:39.84,0:06:40.96,jd,,0,0,0,,Sembilan Matahari.
+Dialogue: 0,0:06:41.21,0:06:42.04,jd,,0,0,0,,Musnah!
+Dialogue: 0,0:06:45.28,0:06:47.40,jd,,0,0,0,,Dia bisa berubah menjadi kawanan serangga dan melarikan diri!
+Dialogue: 0,0:06:52.48,0:06:55.00,jd,,0,0,0,,Tiga sekte Aliran Iblis hanya menghadapi sebagian siluman,
+Dialogue: 0,0:06:55.00,0:06:56.80,jd,,0,0,0,,tapi sudah hampir hancur.
+Dialogue: 0,0:06:57.12,0:06:58.72,jd,,0,0,0,,Kini pasukan siluman berkumpul,
+Dialogue: 0,0:06:59.04,0:07:00.28,jd,,0,0,0,,menurutmu Sekte Keadilan
+Dialogue: 0,0:07:00.52,0:07:01.64,jd,,0,0,0,,masih punya peluang menang?
+Dialogue: 0,0:07:01.80,0:07:04.64,jd,,0,0,0,,Kekuatan siluman belum pernah terlihat sebelumnya,
+Dialogue: 0,0:07:04.64,0:07:06.12,jd,,0,0,0,,peluang menang?
+Dialogue: 0,0:07:06.12,0:07:07.72,jd,,0,0,0,,Mungkin tujuh puluh persen.
+Dialogue: 0,0:07:08.02,0:07:11.22,jd,,0,0,0,,Meski Sekte Keadilan menderita kerugian di Gerbang Luoshen,
+Dialogue: 0,0:07:11.62,0:07:14.94,jd,,0,0,0,,tapi perlahan memahami kekuatan siluman.
+Dialogue: 0,0:07:16.26,0:07:17.42,jd,,0,0,0,,Sekarang,
+Dialogue: 0,0:07:17.42,0:07:19.54,jd,,0,0,0,,sembilan Raja Siluman masih hidup,
+Dialogue: 0,0:07:20.18,0:07:22.54,jd,,0,0,0,,setelah menyerap aura Raja Siluman yang gugur,
+Dialogue: 0,0:07:22.54,0:07:24.20,jd,,0,0,0,,kekuatan siluman mereka lebih kuat.
+Dialogue: 0,0:07:24.36,0:07:26.56,jd,,0,0,0,,Lalu darimana Sekte Keadilan punya tiga puluh persen peluang?
+Dialogue: 0,0:07:26.96,0:07:28.56,jd,,0,0,0,,Formasi Pedang Zhuxian.
+Dialogue: 0,0:07:29.36,0:07:31.52,jd,,0,0,0,,Formasi pedang itu memang mematikan,
+Dialogue: 0,0:07:32.16,0:07:34.73,jd,,0,0,0,,tapi mungkin tak sanggup melawan gelombang monster tak berujung.
+Dialogue: 0,0:07:35.00,0:07:38.72,jd,,0,0,0,,Kebanyakan siluman itu binatang tak berakal,
+Dialogue: 0,0:07:38.92,0:07:42.16,jd,,0,0,0,,Sekte Keadilan bisa mengandalkan lokasi strategis untuk menahan,
+Dialogue: 0,0:07:42.16,0:07:44.44,jd,,0,0,0,,asal mengalahkan semua pemimpin,
+Dialogue: 0,0:07:44.44,0:07:47.56,jd,,0,0,0,,pasukan siluman akan tercerai-berai.
+Dialogue: 0,0:07:47.56,0:07:49.88,jd,,0,0,0,,Tak akan lagi menjadi ancaman.
+Dialogue: 0,0:07:49.92,0:07:51.76,jd,,0,0,0,,Raja Siluman saja sudah sekuat itu.
+Dialogue: 0,0:07:51.76,0:07:54.16,jd,,0,0,0,,Bagaimana dengan pemimpin mereka yang lebih kuat?
+Dialogue: 0,0:07:54.28,0:07:55.60,jd,,0,0,0,,Formasi Pedang Zhuxian...
+Dialogue: 0,0:07:55.60,0:07:57.16,jd,,0,0,0,,mungkin juga bukan lawannya.
+Dialogue: 0,0:07:58.16,0:08:00.76,jd,,0,0,0,,Sekte Qingyun yang berusia ribuan tahun...
+Dialogue: 0,0:08:00.76,0:08:03.36,jd,,0,0,0,,pernahkah menunjukkan kekuatan sebenarnya?
+Dialogue: 0,0:08:03.36,0:08:05.80,jd,,0,0,0,,Dengan persiapan matang saat ini...
+Dialogue: 0,0:08:06.00,0:08:09.12,jd,,0,0,0,,pasti ada banyak trik mematikan yang tersembunyi.
+Dialogue: 0,0:08:13.28,0:08:15.16,jd,,0,0,0,,Sayangnya akhirnya gagal.
+Dialogue: 0,0:08:16.36,0:08:18.68,jd,,0,0,0,,Sepertinya semua serangga harus dimusnahkan sekaligus.
+Dialogue: 0,0:08:19.56,0:08:21.52,jd,,0,0,0,,Tapi kawanan serangga ini menyebar ke mana-mana.
+Dialogue: 0,0:08:21.88,0:08:23.08,jd,,0,0,0,,Bagaimana mengurung mereka?
+Dialogue: 0,0:08:23.76,0:08:25.48,jd,,0,0,0,,Bisakah kita memanfaatkan segel?
+Dialogue: 0,0:08:27.16,0:08:29.12,jd,,0,0,0,,Membuat segel sebesar itu...
+Dialogue: 0,0:08:29.24,0:08:30.76,jd,,0,0,0,,bukanlah kemampuan manusia biasa.
+Dialogue: 0,0:08:32.88,0:08:34.32,jd,,0,0,0,,Dua ratus li di barat daya...
+Dialogue: 0,0:08:34.32,0:08:35.76,jd,,0,0,0,,ada Hutan Merah Gelap.
+Dialogue: 0,0:08:35.76,0:08:37.76,jd,,0,0,0,,Pohon Suixin di hutan itu...
+Dialogue: 0,0:08:37.76,0:08:39.72,jd,,0,0,0,,konon terlahir dari api bumi.
+Dialogue: 0,0:08:39.76,0:08:41.50,jd,,0,0,0,,Bisa terbakar selama tujuh hari.
+Dialogue: 0,0:08:41.96,0:08:43.65,jd,,0,0,0,,Tapi api biasa...
+Dialogue: 0,0:08:44.20,0:08:45.40,jd,,0,0,0,,sulit menyalakannya.
+Dialogue: 0,0:08:46.20,0:08:47.16,jd,,0,0,0,,Kalau begitu...
+Dialogue: 0,0:08:47.16,0:08:49.80,jd,,0,0,0,,kita jadikan seluruh hutan sebagai formasi pengumpul api.
+Dialogue: 0,0:08:49.80,0:08:51.96,jd,,0,0,0,,Dengan teknik api rahasia Lembah Fenxiang sebagai pemicu...
+Dialogue: 0,0:08:51.96,0:08:54.04,jd,,0,0,0,,kita bakar habis siluman itu.
+Dialogue: 0,0:09:14.08,0:09:14.88,jd,,0,0,0,,Aktifkan formasi!
+Dialogue: 0,0:09:22.66,0:09:24.46,jd,,0,0,0,,Raja Siluman sudah terperangkap dalam formasi.
+Dialogue: 0,0:09:26.18,0:09:27.26,jd,,0,0,0,,Lakukan sesuai rencana.
+Dialogue: 0,0:09:50.86,0:09:51.86,jd,,0,0,0,,Api Pembakar!
+Dialogue: 0,0:09:51.86,0:09:52.66,jd,,0,0,0,,Mengurung!
+Dialogue: 0,0:09:56.38,0:09:58.01,jd,,0,0,0,,Auman Singa Buddha!
+Dialogue: 0,0:10:00.20,0:10:01.72,jd,,0,0,0,,Aliran Air yang Membeku!
+Dialogue: 0,0:10:01.84,0:10:03.05,jd,,0,0,0,,Ribuan Pedang Es!
+Dialogue: 0,0:10:03.76,0:10:04.52,jd,,0,0,0,,Tianya!
+Dialogue: 0,0:10:04.56,0:10:05.25,jd,,0,0,0,,Pembasmi Siluman!
+Dialogue: 0,0:10:23.84,0:10:25.32,jd,,0,0,0,,Bangkai siluman ini...
+Dialogue: 0,0:10:25.32,0:10:27.16,jd,,0,0,0,,kenapa masih ada aliran energi?
+Dialogue: 0,0:10:32.24,0:10:34.44,jd,,0,0,0,,Jangan-jangan siluman ini belum mati?
+Dialogue: 0,0:10:35.36,0:10:36.72,jd,,0,0,0,,Hidup atau mati...
+Dialogue: 0,0:10:36.96,0:10:38.16,jd,,0,0,0,,kita pastikan sendiri.
+Dialogue: 0,0:10:40.20,0:10:41.08,jd,,0,0,0,,Saudara senior!
+Dialogue: 0,0:10:45.16,0:10:46.52,jd,,0,0,0,,Terbelah menjadi empat...
+Dialogue: 0,0:10:46.88,0:10:47.96,jd,,0,0,0,,tapi energi tak hilang.
+Dialogue: 0,0:10:55.04,0:10:56.28,jd,,0,0,0,,Dibakar api dahsyat...
+Dialogue: 0,0:10:56.28,0:10:58.56,jd,,0,0,0,,aliran energi malah makin kuat.
+Dialogue: 0,0:10:59.98,0:11:00.98,jd,,0,0,0,,Saudara Li...
+Dialogue: 0,0:11:01.06,0:11:01.74,jd,,0,0,0,,cepat kembali!
+Dialogue: 0,0:11:01.74,0:11:02.54,jd,,0,0,0,,Apa?
+Dialogue: 0,0:11:11.06,0:11:11.98,jd,,0,0,0,,Cepat selamatkan mereka!
+Dialogue: 0,0:11:13.98,0:11:14.58,jd,,0,0,0,,Apa?
+Dialogue: 0,0:11:19.90,0:11:20.58,jd,,0,0,0,,Hati-hati!
+Dialogue: 0,0:11:21.58,0:11:36.58,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh DongWorld.
+Dialogue: 0,0:11:56.42,0:11:58.66,jd,,0,0,0,,Raja Siluman ini bisa berubah dengan begitu hebat.
+Dialogue: 0,0:11:58.78,0:12:00.58,jd,,0,0,0,,Tanah, air, api, angin.
+Dialogue: 0,0:12:00.58,0:12:01.98,jd,,0,0,0,,Ini wujud Empat Simbol.
+Dialogue: 0,0:12:02.86,0:12:04.26,jd,,0,0,0,,Empat siluman serangga saling memperkuat kekuatan.
+Dialogue: 0,0:12:04.26,0:12:05.30,jd,,0,0,0,,Pikiran mereka terhubung.
+Dialogue: 0,0:12:05.30,0:12:06.86,jd,,0,0,0,,Jika satu diserang,
+Dialogue: 0,0:12:06.90,0:12:08.42,jd,,0,0,0,,tiga lainnya akan membantu.
+Dialogue: 0,0:12:09.06,0:12:10.10,jd,,0,0,0,,Maka kita bagi menjadi empat tim,
+Dialogue: 0,0:12:10.10,0:12:11.02,jd,,0,0,0,,serang bersamaan,
+Dialogue: 0,0:12:11.02,0:12:12.51,jd,,0,0,0,,biarkan mereka kewalahan.
+Dialogue: 0,0:12:22.86,0:12:24.52,jd,,0,0,0,,Aku hubungkan kekuatan kalian dengan formasi.
+Dialogue: 0,0:12:24.82,0:12:25.99,jd,,0,0,0,,Kita lawan bersama!
+Dialogue: 0,0:12:29.92,0:12:31.44,jd,,0,0,0,,Kami yang menahan serangan terakhir.
+Dialogue: 0,0:12:31.44,0:12:33.00,jd,,0,0,0,,Kalian manfaatkan kesempatan ini.
+Dialogue: 0,0:12:54.32,0:12:56.00,jd,,0,0,0,,Sekarang saatnya!
+Dialogue: 0,0:12:57.00,0:13:12.00,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh DongWorld.
+Dialogue: 0,0:14:02.82,0:14:05.02,jd,,0,0,0,,Serakah menyerap energi langit dan bumi,
+Dialogue: 0,0:14:05.02,0:14:07.14,jd,,0,0,0,,hanya untuk kepentingan sendiri.
+Dialogue: 0,0:14:08.10,0:14:09.86,jd,,0,0,0,,Entah kapan tanah yang hancur ini
+Dialogue: 0,0:14:10.42,0:14:12.42,jd,,0,0,0,,bisa pulih kembali.
+Dialogue: 0,0:14:14.78,0:14:16.31,jd,,0,0,0,,Jika akar kejahatan tidak dihilangkan,
+Dialogue: 0,0:14:16.90,0:14:18.22,jd,,0,0,0,,bencana ini
+Dialogue: 0,0:14:18.86,0:14:20.18,jd,,0,0,0,,tak akan berakhir.
+Dialogue: 0,0:14:21.18,0:14:24.58,jd,,0,0,0,,Gunung Qingyun penuh bahaya baginya.
+Dialogue: 0,0:14:24.58,0:14:26.02,jd,,0,0,0,,Apakah dia benar-benar akan pergi?
+Dialogue: 0,0:14:26.02,0:14:28.30,jd,,0,0,0,,Ketua Sekte bisa membaca situasi dengan tepat.
+Dialogue: 0,0:14:28.30,0:14:31.18,jd,,0,0,0,,Bagaimana mungkin dia lepas dari kendali?
+Dialogue: 0,0:14:31.18,0:14:32.86,jd,,0,0,0,,Dia punya kekhawatiran.
+Dialogue: 0,0:14:33.06,0:14:35.34,jd,,0,0,0,,Meski tahu aku punya maksud lain,
+Dialogue: 0,0:14:35.44,0:14:38.92,jd,,0,0,0,,dia akan tetap mengambil risiko ini dengan sukarela.
+Dialogue: 0,0:14:45.42,0:14:49.26,jd,,0,0,0,,Pernahkah kau mendengar Gua Hanyue?
+Dialogue: 0,0:14:50.15,0:14:53.02,jd,,0,0,0,,Pendiri Sekte Qingyun, Qingyunzi,
+Dialogue: 0,0:14:53.02,0:14:57.26,jd,,0,0,0,,dan nenek moyang kebangkitan, Daoren Qingye, semuanya bermeditasi di sana.
+Dialogue: 0,0:14:57.68,0:14:59.88,jd,,0,0,0,,Harta pusaka Sekte Qingyun,
+Dialogue: 0,0:14:59.88,0:15:03.28,jd,,0,0,0,,Pedang Kuno Zhuxian, berasal dari sana.
+Dialogue: 0,0:15:03.76,0:15:07.51,jd,,0,0,0,,Hanya Ketua Sekte yang bisa masuk gua itu untuk berlatih.
+Dialogue: 0,0:15:07.68,0:15:09.28,jd,,0,0,0,,Apakah Gua Hanyue
+Dialogue: 0,0:15:09.68,0:15:12.48,jd,,0,0,0,,adalah tempat yang sangat bermanfaat untuk kultivasi?
+Dialogue: 0,0:15:13.92,0:15:15.09,jd,,0,0,0,,Mungkin.
+Dialogue: 0,0:15:15.32,0:15:16.76,jd,,0,0,0,,Apapun niatnya,
+Dialogue: 0,0:15:16.76,0:15:18.56,jd,,0,0,0,,aku harus pergi ke Gua Hanyue
+Dialogue: 0,0:15:18.64,0:15:19.96,jd,,0,0,0,,untuk mencari tahu.

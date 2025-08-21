@@ -1,0 +1,265 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.04,0:00:07.91,tales,,0,0,0,,Sekarang, gunakan semua kekuatan kalian dan ikuti aku menusuk dengan pedang.
+Dialogue: 0,0:00:11.32,0:00:13.52,tales,,0,0,0,,Qin Mu, ikut aku ke ruang samping.
+Dialogue: 0,0:00:18.52,0:00:20.52,tales,,0,0,0,,Apa ilmu pedang orang buangan lebih hebat dari kita?
+Dialogue: 0,0:00:20.88,0:00:22.92,tales,,0,0,0,,Bisa sampai mempengaruhi guru untuk mengajarinya secara khusus?
+Dialogue: 0,0:00:28.48,0:00:30.68,tales,,0,0,0,,Bagaimana menurut Tuan Muda tentang ajaranku?
+Dialogue: 0,0:00:30.92,0:00:32.88,tales,,0,0,0,,Jian Tang, kemajuanmu sangat besar.
+Dialogue: 0,0:00:33.72,0:00:34.92,tales,,0,0,0,,Tapi kau terlalu fokus pada pedang,
+Dialogue: 0,0:00:35.32,0:00:36.24,tales,,0,0,0,,mengabaikan yang lain.
+Dialogue: 0,0:00:36.64,0:00:38.68,tales,,0,0,0,,Belum bisa menyatukan semuanya.
+Dialogue: 0,0:00:40.24,0:00:41.80,tales,,0,0,0,,Mohon petunjuk Tuan Muda.
+Dialogue: 0,0:00:43.76,0:00:45.40,tales,,0,0,0,,Jika dia dapat bimbingan khusus dari guru,
+Dialogue: 0,0:00:46.00,0:00:47.44,tales,,0,0,0,,mana mungkin kita bisa mengalahkannya?
+Dialogue: 0,0:00:48.72,0:00:50.08,tales,,0,0,0,,Selagi dia belum menjadi pohon besar,
+Dialogue: 0,0:00:50.64,0:00:51.52,tales,,0,0,0,,kita harus usir dia.
+Dialogue: 0,0:00:52.48,0:00:54.96,tales,,0,0,0,,Kali ini, kita tutup pendengaran dulu,
+Dialogue: 0,0:00:55.52,0:00:57.04,tales,,0,0,0,,jangan terpancing suara iblisnya.
+Dialogue: 0,0:00:57.92,0:00:59.32,tales,,0,0,0,,Lalu serang bersama,
+Dialogue: 0,0:00:59.68,0:01:00.32,tales,,0,0,0,,habisi dia!
+Dialogue: 0,0:01:07.52,0:01:09.16,tales,,0,0,0,,Mereka datang lagi.
+Dialogue: 0,0:01:13.84,0:01:14.80,tales,,0,0,0,,Tutup pendengaran!
+Dialogue: 0,0:01:17.12,0:01:22.00,tales,,0,0,0,,Serang, maju!
+Dialogue: 0,0:01:38.12,0:01:39.88,tales,,0,0,0,,Murid Qin semakin hebat.
+Dialogue: 0,0:01:40.24,0:01:41.28,tales,,0,0,0,,Kalian tidak tahu,
+Dialogue: 0,0:01:41.28,0:01:42.92,tales,,0,0,0,,ini sudah kedua kalinya mereka dipukuli.
+Dialogue: 0,0:01:43.00,0:01:44.32,tales,,0,0,0,,Yang sebelumnya lebih parah.
+Dialogue: 0,0:01:46.52,0:01:46.84,tales,,0,0,0,,Oh ya,
+Dialogue: 0,0:01:47.00,0:01:49.56,tales,,0,0,0,,jangan bilang siapa-siapa kalau ini dari aku.
+Dialogue: 0,0:01:55.44,0:01:57.64,tales,,0,0,0,,Bagaimana kita kalah?
+Dialogue: 0,0:01:57.64,0:01:59.24,tales,,0,0,0,,Tentu saja dipukuli Tuan Muda.
+Dialogue: 0,0:02:00.40,0:02:02.92,tales,,0,0,0,,Sekali menantang tidak cukup, masih berani lagi.
+Dialogue: 0,0:02:04.12,0:02:06.48,tales,,0,0,0,,Kali ini tidak bisa dimaafkan lagi.
+Dialogue: 0,0:02:06.88,0:02:08.32,tales,,0,0,0,,Mau senjata spiritual kembali?
+Dialogue: 0,0:02:09.40,0:02:10.56,tales,,0,0,0,,Tebus dengan uang.
+Dialogue: 0,0:02:10.73,0:02:11.24,tales,,0,0,0,,Hu Ling'er,
+Dialogue: 0,0:02:11.40,0:02:12.72,tales,,0,0,0,,Pengawas Ilmu Pedang masih menunggu kita.
+Dialogue: 0,0:02:13.00,0:02:13.32,tales,,0,0,0,,Ayo.
+Dialogue: 0,0:02:15.80,0:02:17.24,tales,,0,0,0,,Jangan senang dulu, orang buangan!
+Dialogue: 0,0:02:17.52,0:02:20.04,tales,,0,0,0,,Tiga ahli terhebat Asrama Murid akan segera kembali dari latihan.
+Dialogue: 0,0:02:20.24,0:02:23.84,tales,,0,0,0,,Nanti Kakak Senior akan membela kami.
+Dialogue: 0,0:02:24.52,0:02:25.32,tales,,0,0,0,,Kakak Senior?
+Dialogue: 0,0:02:26.68,0:02:28.36,tales,,0,0,0,,Aturan tidak tertulis di Asrama Murid:
+Dialogue: 0,0:02:28.72,0:02:30.28,tales,,0,0,0,,Siapa yang terkuat di Alam Lima Cahaya,
+Dialogue: 0,0:02:30.72,0:02:32.52,tales,,0,0,0,,dialah yang jadi Kakak Senior Asrama Murid.
+Dialogue: 0,0:02:44.68,0:02:45.84,tales,,0,0,0,,Aura pembunuhannya kuat sekali.
+Dialogue: 0,0:02:48.52,0:02:51.48,tales,,0,0,0,,Seperti prajurit yang baru kembali dari medan perang.
+Dialogue: 0,0:03:14.92,0:03:16.92,tales,,0,0,0,,Pendiri dan Penasihat Negara mendirikan Menara Tianlu ini,
+Dialogue: 0,0:03:17.32,0:03:19.20,tales,,0,0,0,,untuk mengumpulkan kitab dan metode dari seluruh dunia.
+Dialogue: 0,0:03:19.92,0:03:21.92,tales,,0,0,0,,Murid biasa bisa masuk ke lantai pertama,
+Dialogue: 0,0:03:22.72,0:03:25.04,tales,,0,0,0,,membaca buku dan mempelajari prinsip-prinsip.
+Dialogue: 0,0:03:26.48,0:03:28.00,tales,,0,0,0,,Kenapa ada nama negara di atasnya?
+Dialogue: 0,0:03:29.60,0:03:30.40,tales,,0,0,0,,Apa mungkin...
+Dialogue: 0,0:03:31.08,0:03:33.28,tales,,0,0,0,,Ini semua negara yang ditaklukkan Negara Yankang.
+Dialogue: 0,0:03:33.64,0:03:36.32,tales,,0,0,0,,Buku-buku ini adalah pelajaran nasional mereka.
+Dialogue: 0,0:03:37.12,0:03:37.76,tales,,0,0,0,,Benar.
+Dialogue: 0,0:03:38.44,0:03:39.28,tales,,0,0,0,,Satu rak buku.
+Dialogue: 0,0:03:39.28,0:03:40.40,tales,,0,0,0,,Mewakili satu sekte,
+Dialogue: 0,0:03:41.12,0:03:42.12,tales,,0,0,0,,dan satu negara.
+Dialogue: 0,0:03:44.44,0:03:46.52,tales,,0,0,0,,Buku di lantai satu sudah sebanyak ini.
+Dialogue: 0,0:03:47.40,0:03:48.24,tales,,0,0,0,,Bagaimana lantai dua?
+Dialogue: 0,0:03:51.04,0:03:53.08,tales,,0,0,0,,Setelah Sarjana Qin mencapai Alam Enam Penjuru,
+Dialogue: 0,0:03:53.52,0:03:55.08,tales,,0,0,0,,menjadi Murid Kekuatan Spiritual.
+Dialogue: 0,0:03:56.00,0:03:57.88,tales,,0,0,0,,Baru bisa masuk lantai dua dengan kartu buku.
+Dialogue: 0,0:03:58.84,0:03:59.52,tales,,0,0,0,,Ikut aku.
+Dialogue: 0,0:04:13.32,0:04:14.68,tales,,0,0,0,,Gaya lukisan ini.
+Dialogue: 0,0:04:15.48,0:04:16.52,tales,,0,0,0,,Karya Kakek Tuli.
+Dialogue: 0,0:04:19.32,0:04:21.68,tales,,0,0,0,,Penasihat Negara mengumpulkan karya pelukis suci dari berbagai negara.
+Dialogue: 0,0:04:22.24,0:04:24.52,tales,,0,0,0,,Untuk dipelajari Murid istana tentang seni lukis dan penciptaan.
+Dialogue: 0,0:04:25.72,0:04:28.32,tales,,0,0,0,,Digunakan untuk membantu departemen pekerjaan dalam konstruksi.
+Dialogue: 0,0:04:39.36,0:04:40.32,tales,,0,0,0,,Tuan Muda, lihat.
+Dialogue: 0,0:04:42.76,0:04:45.12,tales,,0,0,0,,Bintang-bintang dikurung di ruangan.
+Dialogue: 0,0:04:46.20,0:04:48.32,tales,,0,0,0,,Penasihat Negara mengumpulkan cahaya bintang di sini.
+Dialogue: 0,0:04:48.88,0:04:51.36,tales,,0,0,0,,Membantu Murid istana mempelajari formasi permainan bintang.
+Dialogue: 0,0:04:52.36,0:04:55.00,tales,,0,0,0,,Menggunakan bidak untuk mensimulasikan formasi militer.
+Dialogue: 0,0:04:55.76,0:04:58.80,tales,,0,0,0,,Metode berubah sesuai waktu, beradaptasi dengan perubahan.
+Dialogue: 0,0:04:59.52,0:05:02.92,tales,,0,0,0,,Lantai dua adalah strategi perubahan Penasihat Negara.
+Dialogue: 0,0:05:04.56,0:05:06.92,tales,,0,0,0,,Lalu apa isi lantai tiga?
+Dialogue: 0,0:05:07.64,0:05:11.12,tales,,0,0,0,,Lantai tiga hanya terbuka untuk keluarga kerajaan dan pejabat militer.
+Dialogue: 0,0:05:11.40,0:05:12.96,tales,,0,0,0,,Berisi catatan sejarah dan kitab kuno berbagai negara.
+Dialogue: 0,0:05:13.16,0:05:14.40,tales,,0,0,0,,Kondisi geografis tiap wilayah.
+Dialogue: 0,0:05:14.72,0:05:15.96,tales,,0,0,0,,Laporan perdagangan tiap provinsi.
+Dialogue: 0,0:05:16.48,0:05:18.11,tales,,0,0,0,,Untuk waspada di tengah kedamaian.
+Dialogue: 0,0:05:18.56,0:05:20.32,tales,,0,0,0,,Belajar, berubah, waspada.
+Dialogue: 0,0:05:21.56,0:05:24.12,tales,,0,0,0,,Menara Tianlu ini benar-benar harta karun besar.
+Dialogue: 0,0:05:24.80,0:05:26.00,tales,,0,0,0,,Hu Ling'er, ayo.
+Dialogue: 0,0:05:26.12,0:05:27.56,tales,,0,0,0,,Kita mulai baca dari lantai satu.
+Dialogue: 0,0:05:33.76,0:05:37.52,tales,,0,0,0,,Saudara Qin langsung menyerbu.
+Dialogue: 0,0:05:37.96,0:05:40.00,tales,,0,0,0,,Asrama Murid dihajar habis-habisan.
+Dialogue: 0,0:05:48.76,0:05:51.20,tales,,0,0,0,,Murid-Murid berbakat Asrama Murid akhirnya dapat pelajaran.
+Dialogue: 0,0:05:51.72,0:05:54.88,tales,,0,0,0,,Dulu siapa yang bilang punya bakat sejati.
+Dialogue: 0,0:05:54.88,0:05:58.60,tales,,0,0,0,,Meremehkan kami Murid istana yang masuk tanpa tes.
+Dialogue: 0,0:05:59.00,0:06:00.00,tales,,0,0,0,,Sekarang lihat.
+Dialogue: 0,0:06:00.44,0:06:01.60,tales,,0,0,0,,Ternyata biasa saja.
+Dialogue: 0,0:06:04.20,0:06:05.44,tales,,0,0,0,,Siapa berani memukul kalian?
+Dialogue: 0,0:06:09.40,0:06:11.16,tales,,0,0,0,,Kakak Senior.
+Dialogue: 0,0:06:12.00,0:06:14.72,tales,,0,0,0,,Kakak Senior, bela kami.
+Dialogue: 0,0:06:14.92,0:06:16.28,tales,,0,0,0,,Kakak Senior.
+Dialogue: 0,0:06:16.32,0:06:18.24,tales,,0,0,0,,Asrama Murid kedatangan orang buangan dari Daxu.
+Dialogue: 0,0:06:18.32,0:06:19.80,tales,,0,0,0,,Bawa rubah merampok kami.
+Dialogue: 0,0:06:19.80,0:06:21.24,tales,,0,0,0,,Memukul kami dua kali.
+Dialogue: 0,0:06:21.52,0:06:23.72,tales,,0,0,0,,Dan sengaja menyebarkan ke seluruh Akademi Istana.
+Dialogue: 0,0:06:23.92,0:06:25.44,tales,,0,0,0,,Kita dibuat tak bisa angkat kepala.
+Dialogue: 0,0:06:27.56,0:06:28.32,tales,,0,0,0,,Sial.
+Dialogue: 0,0:06:28.76,0:06:30.60,tales,,0,0,0,,Dipukul dua kali?
+Dialogue: 0,0:06:35.92,0:06:37.32,tales,,0,0,0,,Kurasa kalian yang memulai.
+Dialogue: 0,0:06:37.96,0:06:39.40,tales,,0,0,0,,Kalah tak terima lalu balas dendam.
+Dialogue: 0,0:06:40.48,0:06:41.72,tales,,0,0,0,,Makanya dipukul dua kali.
+Dialogue: 0,0:06:42.64,0:06:44.12,tales,,0,0,0,,Adik buangan itu sangat hebat.
+Dialogue: 0,0:06:44.64,0:06:45.72,tales,,0,0,0,,Baru saja bertemu dengannya.
+Dialogue: 0,0:06:46.04,0:06:48.68,tales,,0,0,0,,Aku membawa aura pembunuhan dari medan perang.
+Dialogue: 0,0:06:48.92,0:06:51.20,tales,,0,0,0,,Tapi belum sampai di depannya sudah terdeteksi.
+Dialogue: 0,0:06:51.44,0:06:53.20,tales,,0,0,0,,Energinya berubah mengikuti langkah.
+Dialogue: 0,0:06:53.20,0:06:55.16,tales,,0,0,0,,Menyembunyikan seni serangan dalam gerakan.
+Dialogue: 0,0:06:55.44,0:06:57.20,tales,,0,0,0,,Memaksaku saling memberi hormat.
+Dialogue: 0,0:06:57.40,0:06:58.88,tales,,0,0,0,,Meredakan permusuhan.
+Dialogue: 0,0:06:59.40,0:07:01.64,tales,,0,0,0,,Ini adalah kunci energi dalam tata krama persilatan.
+Dialogue: 0,0:07:02.56,0:07:05.08,tales,,0,0,0,,Pertarungan tersembunyi dalam kedamaian.
+Dialogue: 0,0:07:05.88,0:07:06.88,tales,,0,0,0,,Terakhir melihat ini.
+Dialogue: 0,0:07:07.00,0:07:08.88,tales,,0,0,0,,Saat mengikuti Guru Ba Shan mengembara.
+Dialogue: 0,0:07:09.12,0:07:10.48,tales,,0,0,0,,Bertemu pemimpin Gerbang Tian Qi.
+Dialogue: 0,0:07:12.20,0:07:13.72,tales,,0,0,0,,Mereka berdua semakin dekat.
+Dialogue: 0,0:07:16.32,0:07:17.52,tales,,0,0,0,,Akhirnya berhenti.
+Dialogue: 0,0:07:17.80,0:07:19.08,tales,,0,0,0,,Saling memberi hormat.
+Dialogue: 0,0:07:19.80,0:07:20.96,tales,,0,0,0,,Lalu berpisah.
+Dialogue: 0,0:07:23.04,0:07:24.44,tales,,0,0,0,,Aku tak pernah mengerti mengapa.
+Dialogue: 0,0:07:25.20,0:07:26.68,tales,,0,0,0,,Hingga tadi.
+Dialogue: 0,0:07:28.16,0:07:29.35,tales,,0,0,0,,Kalian tidak pergi mengembara.
+Dialogue: 0,0:07:29.44,0:07:30.56,tales,,0,0,0,,Hanya mengurung diri di Asrama Murid.
+Dialogue: 0,0:07:30.72,0:07:32.12,tales,,0,0,0,,Tak bisa melihat pertarungan itu.
+Dialogue: 0,0:07:32.60,0:07:33.48,tales,,0,0,0,,Pasti kalah.
+Dialogue: 0,0:07:34.40,0:07:35.84,tales,,0,0,0,,Ka-Kakak Senior.
+Dialogue: 0,0:07:36.32,0:07:38.12,tales,,0,0,0,,Orang buangan itu pasang papan di pintu.
+Dialogue: 0,0:07:38.40,0:07:39.44,tales,,0,0,0,,Mengaku tak terkalahkan di Alam Lima Cahaya.
+Dialogue: 0,0:07:39.76,0:07:41.92,tales,,0,0,0,,Jelas meremehkan Kakak Senior.
+Dialogue: 0,0:07:42.92,0:07:57.92,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:08:08.04,0:08:10.16,tales,,0,0,0,,Kakak Senior kembali dari medan perang.
+Dialogue: 0,0:08:10.52,0:08:12.52,tales,,0,0,0,,Hanya untuk menasihati adik-adik?
+Dialogue: 0,0:08:18.32,0:08:20.20,tales,,0,0,0,,Bahaya, ada lagi ahli yang datang.
+Dialogue: 0,0:08:27.52,0:08:28.52,tales,,0,0,0,,Budak Serigala, katakan.
+Dialogue: 0,0:08:29.24,0:08:34.16,tales,,0,0,0,,Asrama Murid butuh kakak senior baru, bukan?
+Dialogue: 0,0:08:54.20,0:08:55.60,tales,,0,0,0,,Senior Shen.
+Dialogue: 0,0:08:55.96,0:08:57.76,tales,,0,0,0,,Budak Serigala yang ditaklukkan Adik Yue.
+Dialogue: 0,0:08:58.24,0:08:58.72,tales,,0,0,0,,Tidak lemah.
+Dialogue: 0,0:08:59.40,0:09:00.12,tales,,0,0,0,,Kau lebih kuat.
+Dialogue: 0,0:09:00.76,0:09:01.92,tales,,0,0,0,,Kau juga.
+Dialogue: 0,0:09:07.96,0:09:09.44,tales,,0,0,0,,Tenangkan hati.
+Dialogue: 0,0:09:10.04,0:09:11.84,tales,,0,0,0,,Jangan sombong dan gegabah.
+Dialogue: 0,0:09:13.76,0:09:15.32,tales,,0,0,0,,Hanya datang adik baru.
+Dialogue: 0,0:09:16.88,0:09:17.92,tales,,0,0,0,,Senior Shen.
+Dialogue: 0,0:09:18.24,0:09:19.08,tales,,0,0,0,,Senior Yue.
+Dialogue: 0,0:09:19.72,0:09:22.72,tales,,0,0,0,,Kenapa masih berebut gelar kosong kakak senior?
+Dialogue: 0,0:09:25.12,0:09:26.08,tales,,0,0,0,,Adik Yun Que.
+Dialogue: 0,0:09:26.60,0:09:27.88,tales,,0,0,0,,Kau bukan master Zen.
+Dialogue: 0,0:09:28.52,0:09:30.16,tales,,0,0,0,,Selalu berlagak sok suci.
+Dialogue: 0,0:09:31.40,0:09:32.72,tales,,0,0,0,,Agar terlihat lebih hebat.
+Dialogue: 0,0:09:34.72,0:09:36.16,tales,,0,0,0,,Setelah Sekte Lijiang dimusnahkan.
+Dialogue: 0,0:09:36.52,0:09:38.64,tales,,0,0,0,,Sekte-sekte lain di sana memberontak.
+Dialogue: 0,0:09:39.04,0:09:41.12,tales,,0,0,0,,Aku ikut pasukan menumpas pemberontakan.
+Dialogue: 0,0:09:41.80,0:09:44.32,tales,,0,0,0,,Belakangan ini, aku dapat banyak pelajaran.
+Dialogue: 0,0:09:45.12,0:09:48.52,tales,,0,0,0,,Ingin minta bimbingan Senior Shen dan Senior Yue.
+Dialogue: 0,0:09:48.52,0:09:49.52,tales,,0,0,0,,Aku terlalu penuh aura pembunuhan.
+Dialogue: 0,0:09:49.76,0:09:51.40,tales,,0,0,0,,Khawatir akan ada korban jika bertarung.
+Dialogue: 0,0:09:52.08,0:09:54.72,tales,,0,0,0,,Adik buangan baru ini sangat ganas.
+Dialogue: 0,0:09:54.72,0:09:57.12,tales,,0,0,0,,Hampir semua Murid Asrama Murid dipukulinya.
+Dialogue: 0,0:09:57.68,0:09:59.56,tales,,0,0,0,,Siapa pun yang bisa mengalahkannya.
+Dialogue: 0,0:09:59.92,0:10:03.08,tales,,0,0,0,,Aku akan menyerahkan gelar kakak senior.
+Dialogue: 0,0:10:07.00,0:10:08.24,tales,,0,0,0,,Sepakat.
+Dialogue: 0,0:10:08.60,0:10:09.60,tales,,0,0,0,,Aku akan menuntunnya.
+Dialogue: 0,0:10:09.88,0:10:11.52,tales,,0,0,0,,Cicipi dulu jadi kakak senior.
+Dialogue: 0,0:10:21.08,0:10:22.08,tales,,0,0,0,,Masalahnya jadi besar.
+Dialogue: 0,0:10:22.20,0:10:23.40,tales,,0,0,0,,Aku harus beri tahu Saudara Qin.
+Dialogue: 0,0:10:37.52,0:10:38.88,tales,,0,0,0,,Tuan Muda, Tuan Muda.
+Dialogue: 0,0:10:39.68,0:10:40.92,tales,,0,0,0,,Di dinding sana ada lukisan.
+Dialogue: 0,0:10:41.12,0:10:42.72,tales,,0,0,0,,Mirip dengan yang di tempat Kera Iblis.
+Dialogue: 0,0:10:46.40,0:10:47.56,tales,,0,0,0,,Ini Tubuh Hegemonik Teknik Tiga Inti.
+Dialogue: 0,0:10:48.32,0:10:50.16,tales,,0,0,0,,Tapi sepertinya diagram Alam Enam Penjuru.
+Dialogue: 0,0:10:51.20,0:10:52.76,tales,,0,0,0,,Sekarang aku masih di Alam Lima Cahaya.
+Dialogue: 0,0:10:52.76,0:10:53.92,tales,,0,0,0,,Tak bisa digunakan.
+Dialogue: 0,0:10:54.72,0:10:57.68,tales,,0,0,0,,Untung sebelumnya aku hafal diagram tidak lengkap Alam Lima Cahaya di Istana Zhenyang.
+Dialogue: 0,0:10:58.84,0:11:00.32,tales,,0,0,0,,Bisa dipelajari dan dibandingkan.
+Dialogue: 0,0:11:01.44,0:11:03.92,tales,,0,0,0,,Nanti tanya ke Aula Pedang siapa pelukisnya.
+Dialogue: 0,0:11:04.32,0:11:06.32,tales,,0,0,0,,Mungkin dia punya diagram lengkap Alam Lima Cahaya.
+Dialogue: 0,0:11:14.44,0:11:15.72,tales,,0,0,0,,Bagaimana ini.
+Dialogue: 0,0:11:15.84,0:11:16.52,tales,,0,0,0,,Wei Gendut.
+Dialogue: 0,0:11:20.04,0:11:21.48,tales,,0,0,0,,Saudara Qin, bahaya.
+Dialogue: 0,0:11:24.12,0:11:25.60,tales,,0,0,0,,Tiga pendekar Asrama Murid.
+Dialogue: 0,0:11:25.60,0:11:27.72,tales,,0,0,0,,Tiga Murid Alam Lima Cahaya terkuat di Akademi Istana.
+Dialogue: 0,0:11:27.72,0:11:28.60,tales,,0,0,0,,Baru kembali dari pengembaraan.
+Dialogue: 0,0:11:28.60,0:11:29.68,tales,,0,0,0,,Mau menghajarmu.
+Dialogue: 0,0:11:30.28,0:11:31.04,tales,,0,0,0,,Siapa saja mereka?
+Dialogue: 0,0:11:31.16,0:11:32.68,tales,,0,0,0,,Nomor satu Alam Lima Cahaya, Shen Wanyun.
+Dialogue: 0,0:11:32.92,0:11:34.48,tales,,0,0,0,,Dijuluki kakak senior oleh Asrama Murid.
+Dialogue: 0,0:11:34.72,0:11:36.68,tales,,0,0,0,,Nomor dua, Senior Yue Qinghong.
+Dialogue: 0,0:11:36.88,0:11:38.32,tales,,0,0,0,,Sangat ganas saat bertarung.
+Dialogue: 0,0:11:38.44,0:11:39.96,tales,,0,0,0,,Baru-baru ini menaklukkan Budak Serigala.
+Dialogue: 0,0:11:39.96,0:11:42.40,tales,,0,0,0,,Nomor tiga, Yun Que si Singa Berhati Zen.
+Dialogue: 0,0:11:42.48,0:11:43.88,tales,,0,0,0,,Suka berkelahi dan pamer.
+Dialogue: 0,0:11:43.88,0:11:46.76,tales,,0,0,0,,Adik sedang membicarakanku, ya?
+Dialogue: 0,0:11:52.12,0:11:55.20,tales,,0,0,0,,Orang buangan, kudengar kau liar tak terkendali.
+Dialogue: 0,0:11:55.52,0:11:58.00,tales,,0,0,0,,Dengan welas asih, aku datang menuntunmu.
+Dialogue: 0,0:12:00.12,0:12:01.48,tales,,0,0,0,,Keluarkan senjatamu.
+Dialogue: 0,0:12:06.12,0:12:07.00,tales,,0,0,0,,Senior Yun Que.
+Dialogue: 0,0:12:07.36,0:12:09.60,tales,,0,0,0,,Aku baru belajar banyak hal di Menara Tianlu.
+Dialogue: 0,0:12:10.16,0:12:11.60,tales,,0,0,0,,Sempurna untuk berlatih denganmu.
+Dialogue: 0,0:12:34.16,0:12:35.32,tales,,0,0,0,,Segel Naga dan Gajah Penakluk Iblis?!
+Dialogue: 0,0:12:36.32,0:12:51.32,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:13:01.68,0:13:03.32,tales,,0,0,0,,Akhirnya bertemu ahli sejati.
+Dialogue: 0,0:13:04.32,0:13:19.32,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:13:38.80,0:13:39.92,tales,,0,0,0,,Segel Guci Suci.
+Dialogue: 0,0:13:47.00,0:13:47.88,tales,,0,0,0,,Apa yang terjadi?
+Dialogue: 0,0:13:48.12,0:13:48.92,tales,,0,0,0,,Teknikku.
+Dialogue: 0,0:13:49.08,0:13:49.76,tales,,0,0,0,,Bagaimana bisa?
+Dialogue: 0,0:13:52.89,0:13:54.16,tales,,0,0,0,,Semuanya adalah teknik yang hebat.
+Dialogue: 0,0:13:54.60,0:13:56.12,tales,,0,0,0,,Sayang kau belum menguasainya dengan baik.
+Dialogue: 0,0:13:56.48,0:13:57.44,tales,,0,0,0,,Indah tapi tak berisi.
+Dialogue: 0,0:13:57.84,0:13:58.96,tales,,0,0,0,,Makanya kukalahkan dengan mudah.
+Dialogue: 0,0:14:09.12,0:14:10.76,tales,,0,0,0,,Tak ada satu pun Senjata Spiritual.
+Dialogue: 0,0:14:11.12,0:14:12.68,tales,,0,0,0,,Tapi bajunya lumayan bagus.
+Dialogue: 0,0:14:15.20,0:14:16.80,tales,,0,0,0,,Aku akan menunggunya menebusnya.
+Dialogue: 0,0:14:20.12,0:14:21.52,tales,,0,0,0,,Saudara Qin, lari cepat!
+Dialogue: 0,0:14:21.84,0:14:24.20,tales,,0,0,0,,Yue Qinghong dan Shen Wanyun akan segera tiba.
+Dialogue: 0,0:14:24.52,0:14:26.04,tales,,0,0,0,,Mereka takkan membiarkanmu pergi.
+Dialogue: 0,0:14:26.52,0:14:27.36,tales,,0,0,0,,Tenang.
+Dialogue: 0,0:14:28.32,0:14:29.32,tales,,0,0,0,,Aku takkan kalah.
+Dialogue: 0,0:14:30.88,0:14:31.92,tales,,0,0,0,,Yun Que terlalu lemah.
+Dialogue: 0,0:14:32.96,0:14:34.64,tales,,0,0,0,,Kudengar Qin Mu menggunakan.
+Dialogue: 0,0:14:34.64,0:14:37.36,tales,,0,0,0,,Ilmu pedang, mantra, tinju, dan pedang dalam ujian.
+Dialogue: 0,0:14:37.72,0:14:38.72,tales,,0,0,0,,Menguasai banyak seni.
+Dialogue: 0,0:14:39.32,0:14:40.72,tales,,0,0,0,,Tapi saat melawan Yun Que.
+Dialogue: 0,0:14:41.32,0:14:42.48,tales,,0,0,0,,Hanya menggunakan tinju.
+Dialogue: 0,0:14:42.75,0:14:43.88,tales,,0,0,0,,Bahkan tak mengeluarkan semua kemampuannya.
+Dialogue: 0,0:14:44.68,0:14:45.33,tales,,0,0,0,,Tuan.
+Dialogue: 0,0:14:46.16,0:14:48.88,tales,,0,0,0,,Pedang iblisku adalah pedang pembunuh di medan perang.
+Dialogue: 0,0:14:51.16,0:14:52.48,tales,,0,0,0,,Setiap serangan pasti tepat sasaran.
+Dialogue: 0,0:14:52.92,0:14:54.68,tales,,0,0,0,,Bisa memaksanya mengeluarkan semua kemampuannya.
+Dialogue: 0,0:14:55.92,0:14:56.52,tales,,0,0,0,,Bagus.
+Dialogue: 0,0:14:57.72,0:14:59.72,tales,,0,0,0,,Dulu kau adalah pembunuh dari Kerajaan Langjuxu.
+Dialogue: 0,0:14:59.96,0:15:01.12,tales,,0,0,0,,Berasal dari medan perang.
+Dialogue: 0,0:15:03.32,0:15:05.68,tales,,0,0,0,,Tunjukkan padaku kemampuanmu.
