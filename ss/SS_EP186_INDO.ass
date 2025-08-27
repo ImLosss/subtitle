@@ -1,0 +1,175 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.86,0:00:35.57,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:00:01.86,0:00:04.14,ss,,0,0,0,,Pangkalan Kerajaan Dewa Sembilan Puncak milikku.
+Dialogue: 0,0:00:04.14,0:00:05.82,ss,,0,0,0,,Token ku.
+Dialogue: 0,0:00:06.90,0:00:07.60,ss,,0,0,0,,Raja Xinghuan.
+Dialogue: 0,0:00:08.14,0:00:09.10,ss,,0,0,0,,Terima kasih atas bantuanmu.
+Dialogue: 0,0:00:09.42,0:00:10.34,ss,,0,0,0,,Sama-sama.
+Dialogue: 0,0:00:11.06,0:00:13.70,ss,,0,0,0,,Perasaan lama yang hilang ini saat bertemu Zirah Prajurit dan Zirah Jenderal.
+Dialogue: 0,0:00:14.62,0:00:15.58,ss,,0,0,0,,Kembali lagi.
+Dialogue: 0,0:00:16.54,0:00:17.22,ss,,0,0,0,,Terima kasih, Tuan.
+Dialogue: 0,0:00:17.82,0:00:18.98,ss,,0,0,0,,Membantuku mencapai level Undying.
+Dialogue: 0,0:00:19.02,0:00:20.82,ss,,0,0,0,,Membangun Kerajaan Dewa milikku sendiri.
+Dialogue: 0,0:00:22.62,0:00:23.86,ss,,0,0,0,,Target yang dicurigai telah ditemukan.
+Dialogue: 0,0:00:24.34,0:00:26.18,ss,,0,0,0,,Mereka berasal dari Ras Nashi di wilayah terpencil.
+Dialogue: 0,0:00:26.50,0:00:27.34,ss,,0,0,0,,Bersekutu dengan Ras Iblis.
+Dialogue: 0,0:00:28.22,0:00:29.50,ss,,0,0,0,,Satu juta pasukan level Undying King.
+Dialogue: 0,0:00:31.22,0:00:32.34,ss,,0,0,0,,Serang!
+Dialogue: 0,0:00:35.70,0:00:46.70,ss,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:46.70,0:00:47.74,ss,,0,0,0,,Raja Sayap Perak.
+Dialogue: 0,0:00:48.02,0:00:49.42,ss,,0,0,0,,Setelah melihatmu membantai Ras Manusia.
+Dialogue: 0,0:00:50.22,0:00:51.94,ss,,0,0,0,,Aku tidak akan membiarkanmu pergi hidup-hidup.
+Dialogue: 0,0:00:52.66,0:00:54.50,ss,,0,0,0,,Kau benar-benar ingin membalas dendam untuk mereka?
+Dialogue: 0,0:00:55.06,0:00:57.30,ss,,0,0,0,,Kau seharusnya bisa menjadi pejuang kuat yang tidak bergantung pada ras lain.
+Dialogue: 0,0:00:58.02,0:01:00.30,ss,,0,0,0,,Sekarang malah rela menjadi anjing manusia.
+Dialogue: 0,0:01:00.98,0:01:02.06,ss,,0,0,0,,Sungguh tidak bisa diselamatkan.
+Dialogue: 0,0:01:02.34,0:01:03.58,ss,,0,0,0,,Kalau begitu tidak perlu bicara lagi.
+Dialogue: 0,0:01:03.86,0:01:04.22,ss,,0,0,0,,Bertarunglah!
+Dialogue: 0,0:01:21.52,0:01:22.76,ss,,0,0,0,,Seranganku tiba-tiba melambat.
+Dialogue: 0,0:01:33.72,0:01:36.24,ss,,0,0,0,,Tidak, itu ulah Ras Nashi,
+Dialogue: 0,0:01:36.32,0:01:38.00,ss,,0,0,0,,mengendalikan kecepatan waktu di sekitar.
+Dialogue: 0,0:01:38.32,0:01:40.12,ss,,0,0,0,,Di bawah kendali Hukum Waktuku.
+Dialogue: 0,0:01:40.12,0:01:41.44,ss,,0,0,0,,Kau tidak bisa melancarkan serangan efektif.
+Dialogue: 0,0:01:41.84,0:01:42.52,ss,,0,0,0,,Jebak dia!
+Dialogue: 0,0:01:51.52,0:01:53.36,ss,,0,0,0,,Teknik Rahasia: Tiga Serangan Menembus Alam Semesta.
+Dialogue: 0,0:01:53.36,0:01:53.80,ss,,0,0,0,,Cepat sekali!
+Dialogue: 0,0:02:19.52,0:02:21.45,ss,,0,0,0,,Luosha, mati.
+Dialogue: 0,0:02:22.12,0:02:23.29,ss,,0,0,0,,Raja Sayap Perak!
+Dialogue: 0,0:02:34.96,0:02:35.72,ss,,0,0,0,,Terjebak.
+Dialogue: 0,0:02:38.00,0:02:38.40,ss,,0,0,0,,Ini...
+Dialogue: 0,0:02:47.00,0:02:48.20,ss,,0,0,0,,Penghentian Waktu.
+Dialogue: 0,0:02:59.56,0:03:01.12,ss,,0,0,0,,Aku tidak ahli dalam Hukum Waktu.
+Dialogue: 0,0:03:01.84,0:03:03.92,ss,,0,0,0,,Hanya bisa menerobos dengan paksa mengandalkan kekuatan.
+Dialogue: 0,0:03:21.78,0:03:23.86,ss,,0,0,0,,Mau kabur? Bisakah kau lolos?
+Dialogue: 0,0:03:24.22,0:03:26.50,ss,,0,0,0,,Aku bisa langsung merasakan posisi tepat harta itu.
+Dialogue: 0,0:03:27.14,0:03:29.42,ss,,0,0,0,,Tapi dia bisa menggunakan Penghentian Waktu.
+Dialogue: 0,0:03:30.34,0:03:32.50,ss,,0,0,0,,Ingin membunuhnya, sepertinya tidak semudah itu.
+Dialogue: 0,0:03:34.70,0:03:35.90,ss,,0,0,0,,Aku juga akan menipunya.
+Dialogue: 0,0:03:40.26,0:03:41.62,ss,,0,0,0,,Sudah terbang selama sembilan hari.
+Dialogue: 0,0:03:42.04,0:03:43.52,ss,,0,0,0,,Beberapa kali mengubah arah.
+Dialogue: 0,0:03:44.00,0:03:46.00,ss,,0,0,0,,Raja Sayap Perak juga tidak mengaktifkan sinyal deteksi lagi.
+Dialogue: 0,0:03:46.40,0:03:47.72,ss,,0,0,0,,Seharusnya tidak mungkin menemukanku lagi.
+Dialogue: 0,0:03:48.04,0:03:49.80,ss,,0,0,0,,Untungnya aku masih punya satu Kapal Antariksa.
+Dialogue: 0,0:03:49.92,0:03:51.92,ss,,0,0,0,,Selain itu, kabin pelindung level G di dalam Kapal Antariksa.
+Dialogue: 0,0:03:52.32,0:03:54.72,ss,,0,0,0,,Cukup untuk menahan serangan penuh level Undying King.
+Dialogue: 0,0:03:55.42,0:03:57.02,ss,,0,0,0,,Bahkan jika dia datang, aku tidak takut.
+Dialogue: 0,0:04:09.94,0:04:11.70,ss,,0,0,0,,Setelah kabur begitu lama, akhirnya berhenti.
+Dialogue: 0,0:04:12.22,0:04:13.42,ss,,0,0,0,,Cukup hati-hati.
+Dialogue: 0,0:04:14.42,0:04:15.66,ss,,0,0,0,,Tapi kau tidak akan menyangka,
+Dialogue: 0,0:04:16.02,0:04:17.62,ss,,0,0,0,,aku masih bisa menemukanmu dengan mudah.
+Dialogue: 0,0:04:21.66,0:04:22.26,ss,,0,0,0,,Irina.
+Dialogue: 0,0:04:22.98,0:04:24.38,ss,,0,0,0,,Peintahkan satu juta pasukan level Undying King.
+Dialogue: 0,0:04:24.98,0:04:25.94,ss,,0,0,0,,Bersiap untuk memberi lawan kita,
+Dialogue: 0,0:04:26.34,0:04:27.50,ss,,0,0,0,,satu lagi kembang api.
+Dialogue: 0,0:04:27.76,0:04:28.90,ss,,0,0,0,,Baik, Tuan.
+Dialogue: 0,0:06:00.72,0:06:02.64,ss,,0,0,0,,Menghancurkan 3% tubuh undying-ku.
+Dialogue: 0,0:06:03.32,0:06:05.72,ss,,0,0,0,,Jika bukan karena kabin level G menahan 90% serangan.
+Dialogue: 0,0:06:06.20,0:06:08.92,ss,,0,0,0,,Tadi aku mungkin langsung lenyap.
+Dialogue: 0,0:06:15.96,0:06:17.84,ss,,0,0,0,,Pecahan ruang ini sangat menakutkan.
+Dialogue: 0,0:06:19.52,0:06:20.20,ss,,0,0,0,,Raja Sayap Perak!
+Dialogue: 0,0:06:21.68,0:06:24.44,ss,,0,0,0,,Sial, bagaimana dia bisa mengejarku?
+Dialogue: 0,0:06:33.50,0:06:35.38,ss,,0,0,0,,Bagaimana dia tidak terpengaruh arus ruang sama sekali?
+Dialogue: 0,0:06:35.78,0:06:36.90,ss,,0,0,0,,Kecepatannya masih begitu cepat.
+Dialogue: 0,0:06:47.20,0:06:48.68,ss,,0,0,0,,Tahu kau bisa menghentikan waktu,
+Dialogue: 0,0:06:48.80,0:06:49.96,ss,,0,0,0,,mana mungkin aku memberimu kesempatan lagi.
+Dialogue: 0,0:07:27.71,0:07:28.71,ss,,0,0,0,,Kunci!
+Dialogue: 0,0:07:33.91,0:07:34.88,ss,,0,0,0,,Kurung!
+Dialogue: 0,0:07:36.04,0:07:36.72,ss,,0,0,0,,Berhasil.
+Dialogue: 0,0:07:43.76,0:07:44.40,ss,,0,0,0,,Bagaimana mungkin?
+Dialogue: 0,0:08:00.83,0:08:01.83,ss,,0,0,0,,Kunci!
+Dialogue: 0,0:08:07.67,0:08:10.29,ss,,0,0,0,,Kunci!
+Dialogue: 0,0:08:10.92,0:08:12.72,ss,,0,0,0,,Kunci apa, meledaklah!
+Dialogue: 0,0:08:18.38,0:08:19.86,ss,,0,0,0,,Kristal Api Dewa!
+Dialogue: 0,0:08:45.70,0:08:47.74,ss,,0,0,0,,Kekuatan yang setara dengan ledakan level Undying King tinggi.
+Dialogue: 0,0:09:10.78,0:09:15.08,ss,,0,0,0,,Raja Sayap Perak, aku mati pun akan menyeretmu.
+Dialogue: 0,0:09:15.16,0:09:28.86,ss,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:10:06.90,0:10:07.68,ss,,0,0,0,,Ketemu.
+Dialogue: 0,0:10:09.42,0:10:12.38,ss,,0,0,0,,Perasaan panggilan yang jutaan kali lebih kuat dari Zirah Jenderal.
+Dialogue: 0,0:10:12.78,0:10:13.86,ss,,0,0,0,,Apa sebenarnya?
+Dialogue: 0,0:10:23.86,0:10:25.34,ss,,0,0,0,,Reaksi energi yang sangat kuat.
+Dialogue: 0,0:10:26.02,0:10:27.98,ss,,0,0,0,,Di sini baru saja terjadi pertempuran besar.
+Dialogue: 0,0:10:29.22,0:10:32.10,ss,,0,0,0,,Dari Ras Iblis itu menerima koordinat dan menjualnya padaku,
+Dialogue: 0,0:10:32.26,0:10:33.34,ss,,0,0,0,,kurang dari tiga puluh detik.
+Dialogue: 0,0:10:33.82,0:10:35.18,ss,,0,0,0,,Raja Sayap Perak pasti belum jauh.
+Dialogue: 0,0:10:37.86,0:10:39.46,ss,,0,0,0,,Aku akan menyusun Penjara Enam Arah.
+Dialogue: 0,0:10:40.54,0:10:42.38,ss,,0,0,0,,Itu Ras Robot yang mengejarku.
+Dialogue: 0,0:10:42.78,0:10:44.02,ss,,0,0,0,,Aku mematikan sinyal deteksi.
+Dialogue: 0,0:10:44.22,0:10:46.14,ss,,0,0,0,,Asal tidak terbang terlalu cepat memicu gelombang ruang.
+Dialogue: 0,0:10:46.54,0:10:47.62,ss,,0,0,0,,Tidak mudah ditemukan.
+Dialogue: 0,0:10:47.86,0:10:49.62,ss,,0,0,0,,Ngomong-ngomong, aku harus berterima kasih padamu.
+Dialogue: 0,0:10:49.86,0:10:51.19,ss,,0,0,0,,Jika bukan karena begitu banyak sumber daya.
+Dialogue: 0,0:10:51.38,0:10:53.40,ss,,0,0,0,,Cloud Vine tidak bisa mencapai level Undying dalam waktu singkat.
+Dialogue: 0,0:10:53.44,0:10:55.52,ss,,0,0,0,,Aku juga sulit membunuh Ras Nashi dan merebut harta.
+Dialogue: 0,0:10:56.52,0:11:11.52,ss,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:22.60,0:11:24.52,ss,,0,0,0,,Begitu Penjara Enam Arah diaktifkan.
+Dialogue: 0,0:11:24.72,0:11:26.28,ss,,0,0,0,,Dalam radius ratusan juta kilometer.
+Dialogue: 0,0:11:26.28,0:11:27.72,ss,,0,0,0,,Bisa sepenuhnya mengisolasi eksternal.
+Dialogue: 0,0:11:28.24,0:11:30.16,ss,,0,0,0,,Bahkan lalat pun tidak bisa lolos.
+Dialogue: 0,0:11:30.20,0:11:33.56,ss,,0,0,0,,Memang layak ciptaan master Ras Robot level Universe Venerable.
+Dialogue: 0,0:11:36.84,0:11:39.68,ss,,0,0,0,,Delapan puluh dua koordinat objek mencurigakan telah dikunci.
+Dialogue: 0,0:11:40.08,0:11:42.20,ss,,0,0,0,,Minta bantuan Raja Zizhong untuk menyelidiki bersamaku.
+Dialogue: 0,0:11:42.58,0:11:44.42,ss,,0,0,0,,Karena sudah menerima bayaranmu yang mahal.
+Dialogue: 0,0:11:44.70,0:11:45.94,ss,,0,0,0,,Aku pasti akan berusaha maksimal.
+Dialogue: 0,0:11:46.94,0:12:01.94,ss,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:14.78,0:12:16.22,ss,,0,0,0,,Tidak ada, tidak ada.
+Dialogue: 0,0:12:17.02,0:12:18.10,ss,,0,0,0,,Bukan, bukan.
+Dialogue: 0,0:12:18.98,0:12:21.14,ss,,0,0,0,,Di mana, di mana sebenarnya?
+Dialogue: 0,0:12:21.86,0:12:23.22,ss,,0,0,0,,Output energi maksimum.
+Dialogue: 0,0:12:23.62,0:12:25.82,ss,,0,0,0,,Hancurkan semua materi dalam Penjara Enam Arah.
+Dialogue: 0,0:12:26.42,0:12:28.46,ss,,0,0,0,,Raja Sayap Perak, lihat kau mau kabur ke mana.
+Dialogue: 0,0:12:40.68,0:12:43.96,ss,,0,0,0,,Berani menghabiskan energi setara ledakan level Undying King tinggi untuk menangkapku.
+Dialogue: 0,0:12:44.44,0:12:46.88,ss,,0,0,0,,Ini mungkin bernilai puluhan juta Hunyuan.
+Dialogue: 0,0:12:47.24,0:12:48.68,ss,,0,0,0,,Kenapa masih belum ada?
+Dialogue: 0,0:12:49.36,0:12:50.96,ss,,0,0,0,,Aku tidak percaya dia bisa lolos.
+Dialogue: 0,0:12:51.72,0:12:55.11,ss,,0,0,0,,Serang, serang semua materi yang belum hancur.
+Dialogue: 0,0:12:58.36,0:13:00.07,ss,,0,0,0,,Gawat, hampir tidak bisa bersembunyi.
+Dialogue: 0,0:13:22.76,0:13:25.52,ss,,0,0,0,,Menurut informasi sistem pasukan medan perang Luar Wilayah.
+Dialogue: 0,0:13:25.56,0:13:27.28,ss,,0,0,0,,Seorang World Master manusia.
+Dialogue: 0,0:13:28.40,0:13:31.92,ss,,0,0,0,,Berhasil membunuh satu level Undying King tingkat awal.
+Dialogue: 0,0:13:31.92,0:13:33.16,ss,,0,0,0,,Sudah memenuhi syarat,
+Dialogue: 0,0:13:33.44,0:13:35.16,ss,,0,0,0,,direkrut sebagai anggota Aliansi Hong.
+Dialogue: 0,0:13:36.92,0:13:38.36,ss,,0,0,0,,Bagaimana mungkin seorang World Master sekuat ini?
+Dialogue: 0,0:13:38.36,0:13:40.80,ss,,0,0,0,,Mungkin pembantu atau tanaman hidupnya yang membantu.
+Dialogue: 0,0:13:40.96,0:13:42.20,ss,,0,0,0,,Tercatat di jasa militernya.
+Dialogue: 0,0:13:43.00,0:13:44.92,ss,,0,0,0,,Kalau begitu lihat video pertarungannya.
+Dialogue: 0,0:14:04.91,0:14:05.57,ss,,0,0,0,,Akhirnya keluar.
+Dialogue: 0,0:14:05.92,0:14:06.96,ss,,0,0,0,,Di dalam Penjara Enam Arah.
+Dialogue: 0,0:14:07.32,0:14:08.12,ss,,0,0,0,,Dia tidak bisa terbang cepat.
+Dialogue: 0,0:14:08.43,0:14:09.15,ss,,0,0,0,,Kejar!
+Dialogue: 0,0:14:30.42,0:14:31.62,ss,,0,0,0,,Raja Sayap Perak.
+Dialogue: 0,0:14:32.06,0:14:33.62,ss,,0,0,0,,Kau tidak bisa kabur.
+Dialogue: 0,0:14:36.90,0:14:37.94,ss,,0,0,0,,Sinar putih ini.
+Dialogue: 0,0:14:38.10,0:14:40.82,ss,,0,0,0,,Memang punya sepersepuluh ribu kekuatan sinar ungu dulu.
+Dialogue: 0,0:14:42.26,0:14:43.22,ss,,0,0,0,,Sayangnya tidak bisa menjebakku.
+Dialogue: 0,0:14:44.94,0:14:46.70,ss,,0,0,0,,Tiga Serangan Menembus Alam Semesta.
+Dialogue: 0,0:14:54.62,0:14:56.66,ss,,0,0,0,,Penjara Enam Arah ternyata tidak mempengaruhinya.
+Dialogue: 0,0:15:10.22,0:15:12.02,ss,,0,0,0,,Raja Xinghuan, bantu aku!
+Dialogue: 0,0:15:18.95,0:15:20.96,ss,,0,0,0,,Bajingan.
+Dialogue: 0,0:15:23.14,0:15:24.06,ss,,0,0,0,,Hebat sekali!

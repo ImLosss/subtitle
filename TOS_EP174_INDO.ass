@@ -1,0 +1,287 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.92,0:00:41.20,tos,,0,0,0,,[PREVIEW EPISODE SEBELUMNYA]
+Dialogue: 0,0:00:42.20,0:00:51.80,tos,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:51.83,0:00:52.46,tos,,0,0,0,,Haoyue,
+Dialogue: 0,0:00:52.93,0:00:54.33,tos,,0,0,0,,Karena evolusinya sudah selesai,
+Dialogue: 0,0:00:54.40,0:00:55.70,tos,,0,0,0,,ayo kita segera pulang.
+Dialogue: 0,0:01:03.47,0:01:05.40,tos,,0,0,0,,Austin Griffin
+Dialogue: 0,0:01:06.40,0:01:07.96,tos,,0,0,0,,{\b1}harus mati!
+Dialogue: 0,0:01:11.77,0:01:14.30,tos,,0,0,0,,Berapa pun harganya,
+Dialogue: 0,0:01:14.30,0:01:15.67,tos,,0,0,0,,aku pasti akan
+Dialogue: 0,0:01:16.47,0:01:17.23,tos,,0,0,0,,membunuhmu!
+Dialogue: 0,0:01:20.50,0:01:23.17,tos,,0,0,0,,Aku akan dengan api asal
+Dialogue: 0,0:01:23.90,0:01:27.20,tos,,0,0,0,,memanggil semua Roh kembali!
+Dialogue: 0,0:01:32.10,0:01:32.90,tos,,0,0,0,,Hati-hati!
+Dialogue: 0,0:01:33.00,0:01:34.30,tos,,0,0,0,,Semua arwah telah bangkit!
+Dialogue: 0,0:01:35.83,0:01:37.43,tos,,0,0,0,,Semua arwah dengarkan perintahku!
+Dialogue: 0,0:01:38.30,0:01:40.86,tos,,0,0,0,,Austin Griffin telah berevolusi menjadi delapan kepala.
+Dialogue: 0,0:01:41.20,0:01:44.43,tos,,0,0,0,,Ini adalah kesempatan terakhir kita untuk membunuhnya.
+Dialogue: 0,0:01:45.30,0:01:47.20,tos,,0,0,0,,Serahkan segalanya!
+Dialogue: 0,0:01:47.40,0:01:54.80,tos,,0,0,0,,Bunuh Austin Griffin!
+Dialogue: 0,0:01:54.80,0:01:56.03,tos,,0,0,0,,Arwah-arwah ini ingin meledakkan diri!
+Dialogue: 0,0:01:56.97,0:02:00.23,tos,,0,0,0,,Bunuh Austin Griffin!
+Dialogue: 0,0:02:01.83,0:02:02.70,tos,,0,0,0,,Mereka ini...
+Dialogue: 0,0:02:02.80,0:02:04.97,tos,,0,0,0,,secara kolektif memberi kekuatan kepada Ksatria Penghakiman Arwah!
+Dialogue: 0,0:02:05.37,0:02:06.40,tos,,0,0,0,,Haochen dalam bahaya!
+Dialogue: 0,0:02:08.80,0:02:10.57,tos,,0,0,0,,Setelah menyerap semua energi Arwah,
+Dialogue: 0,0:02:11.20,0:02:12.30,tos,,0,0,0,,kekuatannya sekarang
+Dialogue: 0,0:02:12.50,0:02:13.86,tos,,0,0,0,,telah mendekati tingkat delapan dari peringkat sembilan!
+Dialogue: 0,0:02:16.43,0:02:17.60,tos,,0,0,0,,Delapan ratus ribu kekuatan spiritual!
+Dialogue: 0,0:02:17.77,0:02:19.63,tos,,0,0,0,,Kita semua tidak akan bisa menahannya!
+Dialogue: 0,0:02:24.10,0:02:25.77,tos,,0,0,0,,Kita tidak bisa membiarkannya terus melepaskan serangan!
+Dialogue: 0,0:02:33.03,0:02:33.70,tos,,0,0,0,,Haoyue!
+Dialogue: 0,0:02:44.53,0:02:45.90,tos,,0,0,0,,Ada apa ini?
+Dialogue: 0,0:02:46.60,0:02:47.43,tos,,0,0,0,,Kekuatanku
+Dialogue: 0,0:02:47.90,0:02:49.53,tos,,0,0,0,,sedang dilucuti!
+Dialogue: 0,0:02:49.80,0:02:50.40,tos,,0,0,0,,Ini adalah...
+Dialogue: 0,0:02:51.00,0:02:52.83,tos,,0,0,0,,pengupasan elemen kacau delapan atribut!
+Dialogue: 0,0:02:53.20,0:02:55.06,tos,,0,0,0,,Aku tidak menyangka kekuatan Haoyue
+Dialogue: 0,0:02:55.10,0:02:57.06,tos,,0,0,0,,bisa sepenuhnya menahan Ksatria Penghakiman Arwah!
+Dialogue: 0,0:03:12.10,0:03:12.63,tos,,0,0,0,,Tidak!
+Dialogue: 0,0:03:13.50,0:03:14.63,tos,,0,0,0,,Kondisi Haoyue tidak benar!
+Dialogue: 0,0:03:21.23,0:03:21.70,tos,,0,0,0,,Haoyue!
+Dialogue: 0,0:03:21.97,0:03:22.63,tos,,0,0,0,,Cepat hentikan!
+Dialogue: 0,0:03:23.50,0:03:26.10,tos,,0,0,0,,Bunuh Austin Griffin!
+Dialogue: 0,0:03:39.03,0:03:40.63,tos,,0,0,0,,Aku tidak rela!
+Dialogue: 0,0:03:56.80,0:03:58.10,tos,,0,0,0,,Tekanan yang sangat kuat!
+Dialogue: 0,0:03:58.50,0:03:59.67,tos,,0,0,0,,Kenapa dia tidak membedakan teman atau musuh?
+Dialogue: 0,0:04:01.80,0:04:02.77,tos,,0,0,0,,Haoyue ingin...
+Dialogue: 0,0:04:02.83,0:04:03.86,tos,,0,0,0,,menghancurkan alam ini!
+Dialogue: 0,0:04:04.43,0:04:05.30,tos,,0,0,0,,Kita harus menghentikannya!
+Dialogue: 0,0:04:05.67,0:04:06.17,tos,,0,0,0,,Haoyue!
+Dialogue: 0,0:04:06.77,0:04:07.43,tos,,0,0,0,,Cepat hentikan!
+Dialogue: 0,0:04:16.10,0:04:18.33,tos,,0,0,0,,Sialan, kutukan surga!
+Dialogue: 0,0:04:18.77,0:04:20.90,tos,,0,0,0,,Kita pada akhirnya sia-sia.
+Dialogue: 0,0:04:21.37,0:04:22.73,tos,,0,0,0,,Memang tidak ada yang
+Dialogue: 0,0:04:23.20,0:04:25.63,tos,,0,0,0,,bisa menghalangi kehancuranmu.
+Dialogue: 0,0:04:51.00,0:04:52.40,tos,,0,0,0,,Kesadaran diri Haoyue
+Dialogue: 0,0:04:52.83,0:04:54.60,tos,,0,0,0,,kini telah sepenuhnya diliputi oleh amarah dan rasa sakit.
+Dialogue: 0,0:04:54.60,0:04:55.36,tos,,0,0,0,,kini telah sepenuhnya diliputi oleh amarah dan rasa sakit.
+Dialogue: 0,0:04:56.23,0:04:57.36,tos,,0,0,0,,Aku harus mencari cara untuk membangkitkannya.
+Dialogue: 0,0:05:02.27,0:05:02.86,tos,,0,0,0,,Ketua, Haochen!
+Dialogue: 0,0:05:03.00,0:05:03.50,tos,,0,0,0,,Adik Ketua!
+Dialogue: 0,0:05:03.57,0:05:04.10,tos,,0,0,0,,Haoyue!
+Dialogue: 0,0:05:04.23,0:05:04.83,tos,,0,0,0,,Ini aku.
+Dialogue: 0,0:05:11.63,0:05:13.33,tos,,0,0,0,,Bunuh kutukan langit!
+Dialogue: 0,0:05:13.57,0:05:16.03,tos,,0,0,0,,Bunuh Austin Griffin!
+Dialogue: 0,0:05:16.57,0:05:18.20,tos,,0,0,0,,Bunuh kutukan langit!
+Dialogue: 0,0:05:18.60,0:05:21.47,tos,,0,0,0,,Bunuh Austin Griffin!
+Dialogue: 0,0:05:29.00,0:05:29.90,tos,,0,0,0,,Kenapa?
+Dialogue: 0,0:05:30.37,0:05:32.47,tos,,0,0,0,,Kenapa kalian semua ingin membunuhku?
+Dialogue: 0,0:05:33.47,0:05:34.00,tos,,0,0,0,,Haoyue!
+Dialogue: 0,0:05:34.27,0:05:34.86,tos,,0,0,0,,Bangun!
+Dialogue: 0,0:05:38.40,0:05:39.17,tos,,0,0,0,,Jangan takut.
+Dialogue: 0,0:05:39.27,0:05:40.17,tos,,0,0,0,,Kakak ada di sini.
+Dialogue: 0,0:05:42.00,0:05:44.47,tos,,0,0,0,,Ini kakak.
+Dialogue: 0,0:05:45.23,0:05:46.17,tos,,0,0,0,,Selama kakak ada,
+Dialogue: 0,0:05:46.57,0:05:48.80,tos,,0,0,0,,rasa sakit ini tidak akan terulang.
+Dialogue: 0,0:05:49.97,0:05:50.90,tos,,0,0,0,,Bagaimanapun,
+Dialogue: 0,0:05:51.30,0:05:52.90,tos,,0,0,0,,kami tidak akan menyakiti kakak.
+Dialogue: 0,0:06:02.73,0:06:03.30,tos,,0,0,0,,Haoyue!
+Dialogue: 0,0:06:04.30,0:06:05.60,tos,,0,0,0,,Tidak ada yang akan menyakitimu lagi.
+Dialogue: 0,0:06:06.30,0:06:07.56,tos,,0,0,0,,Aku akan selalu melindungimu.
+Dialogue: 0,0:06:08.33,0:06:09.76,tos,,0,0,0,,Seperti saat kita kecil dulu.
+Dialogue: 0,0:06:14.43,0:06:14.97,tos,,0,0,0,,Haochen!
+Dialogue: 0,0:06:15.40,0:06:16.43,tos,,0,0,0,,Bagaimana kau dan Haoyue?
+Dialogue: 0,0:06:17.20,0:06:18.10,tos,,0,0,0,,Kami baik-baik saja.
+Dialogue: 0,0:06:19.10,0:06:20.23,tos,,0,0,0,,Semua orang datang menjemputmu.
+Dialogue: 0,0:06:20.97,0:06:22.47,tos,,0,0,0,,Kita kembali bersama ke Benua Suci Iblis,
+Dialogue: 0,0:06:23.00,0:06:24.86,tos,,0,0,0,,untuk menciptakan masa depan yang lebih baik.
+Dialogue: 0,0:06:34.17,0:06:35.86,tos,,0,0,0,,Haoyue tidak akan menghancurkan dunia kalian,
+Dialogue: 0,0:06:36.70,0:06:38.30,tos,,0,0,0,,dan tidak akan kembali ke sini lagi.
+Dialogue: 0,0:06:44.57,0:06:45.06,tos,,0,0,0,,Haoyue!
+Dialogue: 0,0:06:45.80,0:06:46.53,tos,,0,0,0,,Ayo kita pergi.
+Dialogue: 0,0:06:57.13,0:06:58.56,tos,,0,0,0,,Austin Griffin,
+Dialogue: 0,0:06:58.77,0:07:00.80,tos,,0,0,0,,ternyata mendengarkan perintah seorang manusia.
+Dialogue: 0,0:07:01.83,0:07:02.63,tos,,0,0,0,,Dia benar-benar...
+Dialogue: 0,0:07:02.80,0:07:04.30,tos,,0,0,0,,pergi begitu saja?
+Dialogue: 0,0:07:06.03,0:07:08.23,tos,,0,0,0,,Kini dia sudah berevolusi menjadi delapan kepala.
+Dialogue: 0,0:07:09.10,0:07:11.83,tos,,0,0,0,,Kita tidak punya cara lagi untuk menghentikannya.
+Dialogue: 0,0:07:15.93,0:07:17.90,tos,,0,0,0,,Ternyata ada seorang manusia
+Dialogue: 0,0:07:18.53,0:07:21.13,tos,,0,0,0,,yang bisa mempengaruhi pilihan kutukan langit.
+Dialogue: 0,0:07:22.13,0:07:37.13,tos,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:07:53.33,0:07:54.83,tos,,0,0,0,,Sepertinya berjalan lancar ya.
+Dialogue: 0,0:07:55.37,0:07:56.93,tos,,0,0,0,,Si kecil begitu gembira.
+Dialogue: 0,0:08:00.33,0:08:01.73,tos,,0,0,0,,Sekarang kau tidak perlu kembali ke dunia itu lagi,
+Dialogue: 0,0:08:01.73,0:08:02.83,tos,,0,0,0,,pasti senang sekali.
+Dialogue: 0,0:08:03.37,0:08:04.17,tos,,0,0,0,,Apalagi sekarang,
+Dialogue: 0,0:08:04.17,0:08:06.33,tos,,0,0,0,,Haoyue memiliki dua atribut tambahan,
+Dialogue: 0,0:08:06.33,0:08:07.33,tos,,0,0,0,,yaitu atribut emas dan atribut petir.
+Dialogue: 0,0:08:08.40,0:08:10.36,tos,,0,0,0,,Di seluruh dunia ini, tidak akan ada lagi makhluk iblis
+Dialogue: 0,0:08:10.37,0:08:11.97,tos,,0,0,0,,Monster sihir dengan semua atribut!
+Dialogue: 0,0:08:13.40,0:08:14.93,tos,,0,0,0,,Dua bayi yang baru lahir ini,
+Dialogue: 0,0:08:15.20,0:08:16.03,tos,,0,0,0,,kita akan menamai mereka
+Dialogue: 0,0:08:16.37,0:08:17.80,tos,,0,0,0,,Xiao Lei dan Xiao Jin sesuai atribut mereka.
+Dialogue: 0,0:08:21.77,0:08:23.63,tos,,0,0,0,,Xiao Jin benar-benar bisa memuntahkan emas!
+Dialogue: 0,0:08:27.07,0:08:29.06,tos,,0,0,0,,Emas dengan kualitas setinggi ini,
+Dialogue: 0,0:08:29.30,0:08:30.63,tos,,0,0,0,,harganya tidak murah.
+Dialogue: 0,0:08:31.13,0:08:32.20,tos,,0,0,0,,Ini bisa menjadi bahan sintesis
+Dialogue: 0,0:08:32.20,0:08:34.03,tos,,0,0,0,,untuk berbagai senjata tingkat tinggi.
+Dialogue: 0,0:08:35.60,0:08:38.43,tos,,0,0,0,,Sekarang Haoyue juga menjadi dewa kekayaan kecil kita!
+Dialogue: 0,0:08:38.63,0:08:39.70,tos,,0,0,0,,Xiao Jin,
+Dialogue: 0,0:08:39.80,0:08:41.50,tos,,0,0,0,,aku juga mau!
+Dialogue: 0,0:08:41.97,0:08:43.33,tos,,0,0,0,,Jangan terlalu genit,
+Dialogue: 0,0:08:43.33,0:08:44.53,tos,,0,0,0,,nanti Xiao Jin takut.
+Dialogue: 0,0:08:44.63,0:08:47.17,tos,,0,0,0,,Aku dan Xiao Jin pasti saling menyukai.
+Dialogue: 0,0:08:47.60,0:08:48.17,tos,,0,0,0,,Ayo,
+Dialogue: 0,0:08:48.17,0:08:48.93,tos,,0,0,0,,Xiao Jin,
+Dialogue: 0,0:08:49.37,0:08:50.17,tos,,0,0,0,,satu ciuman!
+Dialogue: 0,0:08:55.97,0:08:57.53,tos,,0,0,0,,Xiao Lei, aku salah!
+Dialogue: 0,0:09:06.70,0:09:07.40,tos,,0,0,0,,Xiao Lei berkata,
+Dialogue: 0,0:09:07.70,0:09:09.03,tos,,0,0,0,,tidak ada yang boleh menindas Xiao Jin!
+Dialogue: 0,0:09:11.40,0:09:13.06,tos,,0,0,0,,Tuan Xiao Lei, tenangkan amarahmu.
+Dialogue: 0,0:09:13.53,0:09:15.63,tos,,0,0,0,,Aku tadi terlalu menyukai Xiao Jin.
+Dialogue: 0,0:09:15.63,0:09:16.40,tos,,0,0,0,,Sini, sini,
+Dialogue: 0,0:09:16.40,0:09:17.27,tos,,0,0,0,,aku beri makanan enak.
+Dialogue: 0,0:09:21.23,0:09:23.27,tos,,0,0,0,,Sepertinya Xiao Lei, meskipun lahir paling akhir,
+Dialogue: 0,0:09:23.30,0:09:24.87,tos,,0,0,0,,sangat menjaga saudara-saudaranya.
+Dialogue: 0,0:09:25.13,0:09:26.37,tos,,0,0,0,,Dia punya jiwa kakak yang kuat!
+Dialogue: 0,0:09:26.77,0:09:29.23,tos,,0,0,0,,Senang sekali!
+Dialogue: 0,0:09:30.23,0:09:45.23,tos,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:51.33,0:09:51.70,tos,,0,0,0,,Haoyue,
+Dialogue: 0,0:09:51.70,0:09:53.17,tos,,0,0,0,,setelah melewati evolusi terakhir,
+Dialogue: 0,0:09:53.93,0:09:55.40,tos,,0,0,0,,kita akan selalu bersama.
+Dialogue: 0,0:09:56.30,0:10:01.93,tos,,0,0,0,,Selamat datang di rumah!
+Dialogue: 0,0:10:04.43,0:10:05.00,tos,,0,0,0,,Bagus, bagus!
+Dialogue: 0,0:10:05.00,0:10:05.33,tos,,0,0,0,,Gunung.
+Dialogue: 0,0:10:19.63,0:10:20.43,tos,,0,0,0,,Ngomong-ngomong,
+Dialogue: 0,0:10:20.77,0:10:23.83,tos,,0,0,0,,kali ini kau kembali, kekuatanmu sepertinya meningkat lagi.
+Dialogue: 0,0:10:28.37,0:10:29.77,tos,,0,0,0,,Setelah Haoyue menyelesaikan evolusinya,
+Dialogue: 0,0:10:30.23,0:10:31.90,tos,,0,0,0,,dia memberiku umpan balik melalui kontrak darah,
+Dialogue: 0,0:10:32.40,0:10:34.17,tos,,0,0,0,,langsung membuatku naik ke tingkat sembilan level enam.
+Dialogue: 0,0:10:35.00,0:10:36.17,tos,,0,0,0,,Tingkat sembilan level enam!
+Dialogue: 0,0:10:36.93,0:10:37.83,tos,,0,0,0,,Di atas tingkat sembilan,
+Dialogue: 0,0:10:38.10,0:10:40.23,tos,,0,0,0,,setiap kenaikan level sangat sulit,
+Dialogue: 0,0:10:40.70,0:10:42.03,tos,,0,0,0,,dan setiap kenaikan level
+Dialogue: 0,0:10:42.10,0:10:43.90,tos,,0,0,0,,akan membuat perbedaan kekuatan yang sangat besar.
+Dialogue: 0,0:10:44.77,0:10:47.33,tos,,0,0,0,,Haoyue benar-benar memberimu hadiah besar!
+Dialogue: 0,0:10:48.07,0:10:50.23,tos,,0,0,0,,Dengan kembalinya Haoyue dan bergabungnya Yating,
+Dialogue: 0,0:10:50.83,0:10:52.43,tos,,0,0,0,,pembagian tugas di Kelompok Pemburu Iblis Cahaya Fajar
+Dialogue: 0,0:10:52.60,0:10:54.06,tos,,0,0,0,,menjadi lebih komprehensif dan sempurna.
+Dialogue: 0,0:10:55.60,0:10:57.03,tos,,0,0,0,,Di masa depan, dalam pertempuran melawan iblis,
+Dialogue: 0,0:10:57.57,0:10:59.03,tos,,0,0,0,,aku dan Caier akan tetap menjadi satu kesatuan penyerang,
+Dialogue: 0,0:10:59.03,0:11:00.13,tos,,0,0,0,,sebagai penyerang garis depan.
+Dialogue: 0,0:11:05.73,0:11:07.77,tos,,0,0,0,,Yinger akan membuka Gerbang Kehidupan untuk melancarkan serangan area.
+Dialogue: 0,0:11:11.13,0:11:13.10,tos,,0,0,0,,Lin Xin akan melancarkan serangan kuat dengan sihir serangan,
+Dialogue: 0,0:11:13.73,0:11:15.27,tos,,0,0,0,,menerobos penghalang pertahanan iblis.
+Dialogue: 0,0:11:16.60,0:11:18.37,tos,,0,0,0,,Han Yu, setelah mendapatkan Takhta Segel Dewa,
+Dialogue: 0,0:11:18.37,0:11:19.53,tos,,0,0,0,,kekuatan serangannya meningkat pesat
+Dialogue: 0,0:11:19.97,0:11:21.73,tos,,0,0,0,,dan juga dapat memberikan efek negatif pada iblis.
+Dialogue: 0,0:11:22.30,0:11:23.60,tos,,0,0,0,,Dia akan bergabung dengan Yang Wenzhao
+Dialogue: 0,0:11:24.00,0:11:25.10,tos,,0,0,0,,dalam barisan penyerang kuat.
+Dialogue: 0,0:11:26.57,0:11:27.73,tos,,0,0,0,,Yuanyuan dan Sima Xian
+Dialogue: 0,0:11:27.93,0:11:29.17,tos,,0,0,0,,akan tetap berpartisipasi dalam serangan dari sayap,
+Dialogue: 0,0:11:30.20,0:11:32.17,tos,,0,0,0,,sambil melindungi Yinger dan Lin Xin,
+Dialogue: 0,0:11:32.60,0:11:33.70,tos,,0,0,0,,mereka juga akan membantu serangan dari arah lain.
+Dialogue: 0,0:11:34.40,0:11:35.70,tos,,0,0,0,,Rekan-rekan monster iblis kita
+Dialogue: 0,0:11:35.77,0:11:37.93,tos,,0,0,0,,sekarang juga merupakan kekuatan serangan yang kuat bagi tim kita.
+Dialogue: 0,0:11:39.03,0:11:40.03,tos,,0,0,0,,Maidou dan Mata Jahat sekarang sudah bisa
+Dialogue: 0,0:11:40.13,0:11:41.40,tos,,0,0,0,,berdiri sendiri,
+Dialogue: 0,0:11:41.67,0:11:42.83,tos,,0,0,0,,siap mengisi posisi serangan kapan saja.
+Dialogue: 0,0:11:45.23,0:11:47.30,tos,,0,0,0,,Haoyue adalah kartu truf kita yang paling kuat,
+Dialogue: 0,0:11:47.87,0:11:49.43,tos,,0,0,0,,mampu menekan iblis secara menyeluruh.
+Dialogue: 0,0:11:54.23,0:11:55.03,tos,,0,0,0,,Tidak hanya itu,
+Dialogue: 0,0:11:55.80,0:11:57.93,tos,,0,0,0,,kekurangan kita sebelumnya dalam dukungan dan penyembuhan
+Dialogue: 0,0:11:58.00,0:11:58.83,tos,,0,0,0,,juga telah teratasi.
+Dialogue: 0,0:12:00.33,0:12:02.30,tos,,0,0,0,,Takhta Zhang Fangfang dapat memberi kita
+Dialogue: 0,0:12:02.30,0:12:03.33,tos,,0,0,0,,peningkatan kekuatan tempur tambahan,
+Dialogue: 0,0:12:03.83,0:12:05.03,tos,,0,0,0,,menciptakan peluang untuk menang.
+Dialogue: 0,0:12:10.13,0:12:12.17,tos,,0,0,0,,Dan Yating dapat memberikan penyembuhan untuk tim kita
+Dialogue: 0,0:12:12.53,0:12:13.96,tos,,0,0,0,,sambil bertanggung jawab atas serangan.
+Dialogue: 0,0:12:20.23,0:12:20.73,tos,,0,0,0,,Di masa depan,
+Dialogue: 0,0:12:21.10,0:12:22.67,tos,,0,0,0,,tidak peduli seberapa kuat iblis dewa,
+Dialogue: 0,0:12:23.30,0:12:24.70,tos,,0,0,0,,kita semua memiliki kekuatan untuk bertarung.
+Dialogue: 0,0:12:26.63,0:12:28.40,tos,,0,0,0,,Perang manusia-iblis empat tahun lalu
+Dialogue: 0,0:12:29.20,0:12:31.46,tos,,0,0,0,,menyebabkan kerusakan parah pada berbagai perbatasan,
+Dialogue: 0,0:12:31.83,0:12:34.00,tos,,0,0,0,,sumber daya perang hampir habis,
+Dialogue: 0,0:12:34.13,0:12:35.96,tos,,0,0,0,,dan tentara menderita banyak korban.
+Dialogue: 0,0:12:37.00,0:12:38.33,tos,,0,0,0,,Ini juga menunjukkan kepada kita masalah
+Dialogue: 0,0:12:38.33,0:12:40.73,tos,,0,0,0,,enam gerbang utama yang bertindak sendiri sebelumnya.
+Dialogue: 0,0:12:41.43,0:12:43.06,tos,,0,0,0,,Selama empat tahun gencatan senjata dan istirahat ini,
+Dialogue: 0,0:12:43.47,0:12:45.80,tos,,0,0,0,,aliansi telah memperkuat pembangunan perbatasan dan pasukan,
+Dialogue: 0,0:12:46.23,0:12:47.73,tos,,0,0,0,,melengkapi dan mengintegrasikan sumber daya tempur,
+Dialogue: 0,0:12:48.13,0:12:49.80,tos,,0,0,0,,dan mengirimkannya ke enam celah sesuai kebutuhan.
+Dialogue: 0,0:12:51.10,0:12:52.20,tos,,0,0,0,,Saat ini, aliansi,
+Dialogue: 0,0:12:52.30,0:12:54.70,tos,,0,0,0,,termasuk dua kelompok pemburu iblis tingkat gelar lainnya,
+Dialogue: 0,0:12:54.80,0:12:56.40,tos,,0,0,0,,Termasuk para pemimpin aula,
+Dialogue: 0,0:12:56.87,0:12:59.10,tos,,0,0,0,,total ada enam puluh tiga ahli tingkat sembilan,
+Dialogue: 0,0:12:59.33,0:13:01.06,tos,,0,0,0,,dan lebih dari dua ratus ahli tingkat delapan.
+Dialogue: 0,0:13:02.27,0:13:04.87,tos,,0,0,0,,Tiga puluh enam kursi dasar emas di Aula Ksatria
+Dialogue: 0,0:13:05.10,0:13:06.40,tos,,0,0,0,,telah sepenuhnya memilih pemiliknya.
+Dialogue: 0,0:13:07.70,0:13:09.13,tos,,0,0,0,,Pasukan di bawah tingkat delapan
+Dialogue: 0,0:13:09.20,0:13:11.10,tos,,0,0,0,,telah sepenuhnya digabungkan ke dalam
+Dialogue: 0,0:13:11.10,0:13:12.46,tos,,0,0,0,,enam legiun aliansi yang sebelumnya dibentuk.
+Dialogue: 0,0:13:12.90,0:13:14.00,tos,,0,0,0,,Mereka telah menyelesaikan pelatihan
+Dialogue: 0,0:13:14.10,0:13:15.46,tos,,0,0,0,,dan telah dikerahkan ke enam gerbang utama.
+Dialogue: 0,0:13:16.57,0:13:18.17,tos,,0,0,0,,Sistem pertahanan baru aliansi
+Dialogue: 0,0:13:18.53,0:13:20.00,tos,,0,0,0,,telah selesai dibangun.
+Dialogue: 0,0:13:21.80,0:13:23.56,tos,,0,0,0,,Seluruh aliansi bersatu padu,
+Dialogue: 0,0:13:24.23,0:13:26.56,tos,,0,0,0,,dan telah menyelesaikan semua persiapan perang.
+Dialogue: 0,0:13:27.73,0:13:28.43,tos,,0,0,0,,Bagus sekali!
+Dialogue: 0,0:13:28.87,0:13:29.70,tos,,0,0,0,,Dengan begini,
+Dialogue: 0,0:13:30.00,0:13:31.27,tos,,0,0,0,,kita bisa secara resmi melancarkan
+Dialogue: 0,0:13:31.33,0:13:32.20,tos,,0,0,0,,serangan balik terhadap Ras Iblis!
+Dialogue: 0,0:13:35.10,0:13:36.43,tos,,0,0,0,,Kekuatan kita saat ini
+Dialogue: 0,0:13:36.60,0:13:38.90,tos,,0,0,0,,telah mencapai puncaknya dalam enam ribu tahun terakhir!
+Dialogue: 0,0:13:40.10,0:13:41.20,tos,,0,0,0,,Mungkin kali ini,
+Dialogue: 0,0:13:41.97,0:13:43.80,tos,,0,0,0,,kita benar-benar bisa memusnahkan
+Dialogue: 0,0:13:43.80,0:13:44.80,tos,,0,0,0,,Ras Iblis sepenuhnya!
+Dialogue: 0,0:13:45.47,0:13:47.27,tos,,0,0,0,,Apakah ada pergerakan dari Ras Iblis baru-baru ini?
+Dialogue: 0,0:13:47.70,0:13:49.30,tos,,0,0,0,,Saat ini tidak ada pergerakan yang tidak biasa.
+Dialogue: 0,0:13:50.20,0:13:51.60,tos,,0,0,0,,Bagaimanapun, selama perang,
+Dialogue: 0,0:13:52.10,0:13:53.80,tos,,0,0,0,,Ras Iblis juga menderita kerugian besar.
+Dialogue: 0,0:13:55.83,0:13:57.60,tos,,0,0,0,,Lebih dari tiga puluh Dewa Iblis tewas,
+Dialogue: 0,0:13:58.30,0:14:00.23,tos,,0,0,0,,dan dua pilar Dewa Iblis dihancurkan olehmu.
+Dialogue: 0,0:14:00.67,0:14:02.70,tos,,0,0,0,,Seharusnya mereka tidak pulih secepat itu.
+Dialogue: 0,0:14:05.20,0:14:07.43,tos,,0,0,0,,Menara Pemburu Iblis baru saja menerima
+Dialogue: 0,0:14:07.43,0:14:08.37,tos,,0,0,0,,pesan darurat dari Kejatuhan Dewa Iblis.
+Dialogue: 0,0:14:08.73,0:14:10.53,tos,,0,0,0,,Kaisar Dewa Iblis Feng Xiu telah melewati
+Dialogue: 0,0:14:10.53,0:14:12.23,tos,,0,0,0,,pengawasan dua tim pemburu iblis tingkat gelar,
+Dialogue: 0,0:14:12.23,0:14:13.13,tos,,0,0,0,,dan memimpin Dewa Iblis Pilar Kedelapan
+Dialogue: 0,0:14:13.27,0:14:15.53,tos,,0,0,0,,dan Kesepuluh menyerbu Surga Fantasi.
+Dialogue: 0,0:14:15.53,0:14:16.77,tos,,0,0,0,,Mereka merebut Divine Spark!
+Dialogue: 0,0:14:16.77,0:14:17.20,tos,,0,0,0,,Apa?!
+Dialogue: 0,0:14:18.20,0:14:20.30,tos,,0,0,0,,Mungkinkah tujuan Kaisar Dewa Iblis adalah menjadi dewa?
+Dialogue: 0,0:14:21.03,0:14:22.00,tos,,0,0,0,,Begitu dia menjadi dewa,
+Dialogue: 0,0:14:22.40,0:14:23.53,tos,,0,0,0,,kita tidak akan memiliki keuntungan lagi!
+Dialogue: 0,0:14:24.07,0:14:25.00,tos,,0,0,0,,Kita harus menghentikannya!
+Dialogue: 0,0:14:32.33,0:14:34.20,tos,,0,0,0,,Blokir Surga Fantasi!
+Dialogue: 0,0:14:34.50,0:14:36.06,tos,,0,0,0,,Temukan Divine Spark!
+Dialogue: 0,0:14:37.33,0:14:37.90,tos,,0,0,0,,Yang Mulia,
+Dialogue: 0,0:14:56.97,0:14:59.80,tos,,0,0,0,,Surga Fantasi belum waktunya untuk dibuka.
+Dialogue: 0,0:15:00.17,0:15:02.43,tos,,0,0,0,,Kaisar Dewa Iblis bahkan menerobos secara paksa
+Dialogue: 0,0:15:02.43,0:15:05.03,tos,,0,0,0,,penghalang yang ditinggalkan oleh Dewi Alam untuk masuk!
+Dialogue: 0,0:15:05.83,0:15:07.27,tos,,0,0,0,,Mungkinkah kekuatannya
+Dialogue: 0,0:15:07.27,0:15:09.60,tos,,0,0,0,,telah mencapai di atas dewa?
+Dialogue: 0,0:15:10.70,0:15:12.53,tos,,0,0,0,,Jika dia mendapatkan Keilahian lagi,
+Dialogue: 0,0:15:12.87,0:15:14.83,tos,,0,0,0,,dia akan menjadi satu-satunya dewa di benua ini.
+Dialogue: 0,0:15:15.53,0:15:17.87,tos,,0,0,0,,Maka perang terakhir antara manusia dan iblis juga akan dimulai.
+Dialogue: 0,0:15:19.83,0:15:20.67,tos,,0,0,0,,Long Haochen!
+Dialogue: 0,0:15:21.13,0:15:22.00,tos,,0,0,0,,Cepatlah!

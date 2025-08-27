@@ -42,9 +42,9 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', 
       '-i', inputFile, 
-      '-ss', '00:02:29', 
-      '-to', '00:17:49',
-      '-vf', 'scale=1920:-2', 
+      '-ss', '00:02:26', 
+      '-to', '00:18:01',
+      // '-vf', 'scale=1920:-2', 
       // '-r', '25', 
       '-c:v', 'h264_amf', 
       '-cq:v', '18', 
@@ -136,5 +136,5 @@ async function extractSubtitle(inputFile, subtitleStreamIndex, outputFile, force
 //       outputFile
 //     ];
 
-cut('229_4K.mp4', 'PW_EP229.mp4');
+cut('TOS_EP174.mp4', 'TOS_EP174d.mp4');
 // extractSubtitle('tomb/TOMB_EP2.mkv', 0, 'tomb/TOMB_EP2_INDO.ass', false);

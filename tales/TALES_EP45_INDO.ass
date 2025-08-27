@@ -1,0 +1,262 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:09.00,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:09.72,0:00:10.76,tales,,0,0,0,,Kekuatan kalian seimbang.
+Dialogue: 0,0:00:11.16,0:00:12.28,tales,,0,0,0,,Kenapa kau belum naik?
+Dialogue: 0,0:00:13.76,0:00:14.44,tales,,0,0,0,,Kenapa aku harus naik?
+Dialogue: 0,0:00:16.52,0:00:18.56,tales,,0,0,0,,Aku hanya ikut satu kelas di Aula Hanguang.
+Dialogue: 0,0:00:19.12,0:00:20.76,tales,,0,0,0,,Tidak belajar kemampuan Akademi Agung.
+Dialogue: 0,0:00:21.48,0:00:23.92,tales,,0,0,0,,Bahkan jika menang, itu tidak membuktikan kehebatan Akademi Agung.
+Dialogue: 0,0:00:25.60,0:00:26.08,tales,,0,0,0,,Kau!
+Dialogue: 0,0:00:27.28,0:00:28.56,tales,,0,0,0,,Aku adalah rakyat telantar Daxu.
+Dialogue: 0,0:00:28.96,0:00:30.28,tales,,0,0,0,,Kalian memang ingin mengusirku.
+Dialogue: 0,0:00:31.64,0:00:33.88,tales,,0,0,0,,Mengapa sekarang malah mau aku yang membela Akademi Agung?
+Dialogue: 0,0:00:35.28,0:00:37.16,tales,,0,0,0,,Apa Akademi Agung tidak punya satu pun
+Dialogue: 0,0:00:37.84,0:00:39.88,tales,,0,0,0,,jenius yang bisa menyaingi Murid Tao Lin Xuan?
+Dialogue: 0,0:00:48.88,0:00:49.60,tales,,0,0,0,,Kakak kedua.
+Dialogue: 0,0:00:49.96,0:00:50.92,tales,,0,0,0,,Apa yang kau lakukan?
+Dialogue: 0,0:00:51.76,0:00:52.24,tales,,0,0,0,,Adik ketujuh.
+Dialogue: 0,0:00:53.00,0:00:53.76,tales,,0,0,0,,Di Yankang,
+Dialogue: 0,0:00:54.12,0:00:55.56,tales,,0,0,0,,aku adalah Jenderal Kavaleri Tingkat Lima.
+Dialogue: 0,0:00:56.28,0:00:57.20,tales,,0,0,0,,Di Akademi Agung,
+Dialogue: 0,0:00:57.68,0:00:58.92,tales,,0,0,0,,aku juga mewakili Asrama Pangeran.
+Dialogue: 0,0:01:00.08,0:01:01.28,tales,,0,0,0,,Aku harus memenangkan ini.
+Dialogue: 0,0:01:02.00,0:01:03.08,tales,,0,0,0,,Agar seluruh dunia tahu,
+Dialogue: 0,0:01:03.88,0:01:05.68,tales,,0,0,0,,keluarga Ling adalah kaisar yang diperjuangkan.
+Dialogue: 0,0:01:06.28,0:01:08.84,tales,,0,0,0,,Bukan kaisar yang diangkat oleh pejabat sipil dan militer.
+Dialogue: 0,0:01:17.84,0:01:19.44,tales,,0,0,0,,Pangeran Kedua Yankang.
+Dialogue: 0,0:01:23.04,0:01:24.68,tales,,0,0,0,,Murid Asrama Pangeran, Ling Yushu.
+Dialogue: 0,0:01:26.56,0:01:27.76,tales,,0,0,0,,Mohon bimbingan Murid Tao.
+Dialogue: 0,0:01:34.60,0:01:36.76,tales,,0,0,0,,Teknik Kaisar Sembilan Naga.
+Dialogue: 0,0:01:42.72,0:01:43.64,tales,,0,0,0,,Lima Naga Mencekik.
+Dialogue: 0,0:01:48.36,0:01:49.92,tales,,0,0,0,,Teknik keluarga kekaisaran kalian sangat hebat.
+Dialogue: 0,0:01:51.60,0:01:52.80,tales,,0,0,0,,Tentu saja.
+Dialogue: 0,0:01:53.28,0:01:57.52,tales,,0,0,0,,Kakak keduaku benar-benar mendapatkan jabatan Tingkat Lima di medan perang.
+Dialogue: 0,0:01:58.52,0:02:13.52,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:02:23.32,0:02:24.08,tales,,0,0,0,,Adik Yuxiu.
+Dialogue: 0,0:02:24.28,0:02:25.12,tales,,0,0,0,,Kakak keduamu akan kalah.
+Dialogue: 0,0:02:38.12,0:02:39.72,tales,,0,0,0,,Teknik Bawaan Tao Tai Xuan,
+Dialogue: 0,0:02:41.08,0:02:41.88,tales,,0,0,0,,benar-benar misterius.
+Dialogue: 0,0:02:44.24,0:02:45.08,tales,,0,0,0,,Aku kalah.
+Dialogue: 0,0:02:50.44,0:02:53.68,tales,,0,0,0,,Pangeran Kedua punya sumber daya terbaik di Yankang.
+Dialogue: 0,0:02:53.76,0:02:55.12,tales,,0,0,0,,Masih kalah dari Murid Tao.
+Dialogue: 0,0:02:56.28,0:02:59.84,tales,,0,0,0,,Teknik Pedang, Teknik Mata, Mantra Energi.
+Dialogue: 0,0:03:00.24,0:03:01.68,tales,,0,0,0,,Murid Tao tidak memiliki celah.
+Dialogue: 0,0:03:02.48,0:03:03.80,tales,,0,0,0,,Bagaimana caranya mengalahkannya?
+Dialogue: 0,0:03:11.28,0:03:12.88,tales,,0,0,0,,Kalian di Menara Tianlu ngapain aja?
+Dialogue: 0,0:03:13.04,0:03:15.08,tales,,0,0,0,,Bertahun-tahun tidak bisa memecahkan teknik Tao?
+Dialogue: 0,0:03:15.72,0:03:17.96,tales,,0,0,0,,Itu masih lebih baik dari Paviliun Suara Langit dan Paviliun Pelukis Suci.
+Dialogue: 0,0:03:18.08,0:03:19.04,tales,,0,0,0,,Tidak mengerjakan hal penting.
+Dialogue: 0,0:03:19.08,0:03:21.08,tales,,0,0,0,,Setiap hari hanya ajari murid bermusik dan melukis.
+Dialogue: 0,0:03:21.83,0:03:22.54,tales,,0,0,0,,Lapor!
+Dialogue: 0,0:03:22.84,0:03:23.88,tales,,0,0,0,,Murid Asrama, para murid.
+Dialogue: 0,0:03:23.88,0:03:26.56,tales,,0,0,0,,Semua murid dan ahli supernatural dikalahkan Murid Tao.
+Dialogue: 0,0:03:27.56,0:03:29.36,tales,,0,0,0,,Ini semua salah kalian, orang-orang kolot!
+Dialogue: 0,0:03:29.64,0:03:31.44,tales,,0,0,0,,Tao dan kekuatan magis tidak mengikuti zaman.
+Dialogue: 0,0:03:31.52,0:03:33.40,tales,,0,0,0,,Bibit-bibit bagus dirusak oleh kalian.
+Dialogue: 0,0:03:33.88,0:03:36.04,tales,,0,0,0,,Ini semua karena kalian, pengawas seni bela diri yang tidak mampu.
+Dialogue: 0,0:03:36.72,0:03:37.88,tales,,0,0,0,,Tidak bisa mendidik murid yang baik.
+Dialogue: 0,0:03:38.08,0:03:39.00,tales,,0,0,0,,Pak tua!
+Dialogue: 0,0:03:39.20,0:03:41.08,tales,,0,0,0,,Jelas-jelas kalian bahkan tidak bisa menyembuhkan Ibu Suri.
+Dialogue: 0,0:03:41.28,0:03:42.76,tales,,0,0,0,,Harus mengandalkan anak muda untuk mengobati.
+Dialogue: 0,0:03:43.20,0:03:44.12,tales,,0,0,0,,Tenanglah semuanya.
+Dialogue: 0,0:03:44.64,0:03:46.56,tales,,0,0,0,,Yang terpenting sekarang adalah mengalahkan Murid Tao.
+Dialogue: 0,0:03:47.04,0:03:49.28,tales,,0,0,0,,Orang-orang Aula Tabib Kekaisaran benar-benar bicara tanpa merasakan sakitnya.
+Dialogue: 0,0:03:49.88,0:03:51.48,tales,,0,0,0,,Kenapa tidak kalian yang kirim murid untuk bertarung?
+Dialogue: 0,0:03:52.12,0:03:54.20,tales,,0,0,0,,Setiap tahun mengambil gaji besar dengan alasan meracik obat.
+Dialogue: 0,0:03:54.40,0:03:56.60,tales,,0,0,0,,Tidak melihat kalian mencetak orang hebat apa pun.
+Dialogue: 0,0:03:56.76,0:03:57.40,tales,,0,0,0,,Lapor!
+Dialogue: 0,0:03:59.28,0:04:02.16,tales,,0,0,0,,Pangeran Kedua... Pangeran Kedua juga kalah.
+Dialogue: 0,0:04:06.56,0:04:07.84,tales,,0,0,0,,Atur napas.
+Dialogue: 0,0:04:08.08,0:04:10.72,tales,,0,0,0,,Untuk sementara tidak ada yang berani datang lagi.
+Dialogue: 0,0:04:11.28,0:04:13.92,tales,,0,0,0,,Paman Guru, Akademi Agung sangat menakutkan.
+Dialogue: 0,0:04:14.80,0:04:15.88,tales,,0,0,0,,Murid-murid Akademi Agung ini,
+Dialogue: 0,0:04:16.32,0:04:19.28,tales,,0,0,0,,setiap orang adalah petarung terbaik di tingkat mereka.
+Dialogue: 0,0:04:21.44,0:04:24.52,tales,,0,0,0,,Dan petarung seperti ini ada di mana-mana di Akademi Agung.
+Dialogue: 0,0:04:25.80,0:04:27.56,tales,,0,0,0,,Sehebat sekte kami.
+Dialogue: 0,0:04:27.68,0:04:32.43,tales,,0,0,0,,Hanya bisa mencurahkan tenaga untuk menghasilkan beberapa murid luar biasa sepertimu.
+Dialogue: 0,0:04:33.24,0:04:34.48,tales,,0,0,0,,Diberi waktu.
+Dialogue: 0,0:04:34.48,0:04:36.88,tales,,0,0,0,,Murid-murid Akademi Agung ini akan tumbuh.
+Dialogue: 0,0:04:37.08,0:04:40.16,tales,,0,0,0,,Tidak ada sekte yang bisa menandingi mereka.
+Dialogue: 0,0:04:41.76,0:04:43.40,tales,,0,0,0,,Jadi sebelum itu,
+Dialogue: 0,0:04:43.68,0:04:46.64,tales,,0,0,0,,kita harus hancurkan keyakinan mereka.
+Dialogue: 0,0:04:58.92,0:04:59.96,tales,,0,0,0,,Lapor, Pemimpin Besar.
+Dialogue: 0,0:05:00.44,0:05:01.60,tales,,0,0,0,,Setengah hari berlalu.
+Dialogue: 0,0:05:01.72,0:05:03.28,tales,,0,0,0,,Tidak ada yang berani menantang lagi.
+Dialogue: 0,0:05:03.99,0:05:08.02,tales,,0,0,0,,Sepertinya murid Akademi Agung sudah dibuat kehilangan semangat juangnya oleh Murid Tao.
+Dialogue: 0,0:05:08.12,0:05:09.72,tales,,0,0,0,,Lebih baik segera laporkan ke Penasihat.
+Dialogue: 0,0:05:10.92,0:05:12.40,tales,,0,0,0,,Suruh murid Penasihat datang.
+Dialogue: 0,0:05:12.48,0:05:14.24,tales,,0,0,0,,Mungkin bisa kalahkan Murid Tao.
+Dialogue: 0,0:05:14.56,0:05:15.36,tales,,0,0,0,,Keterlaluan!
+Dialogue: 0,0:05:16.28,0:05:17.52,tales,,0,0,0,,Pemimpin Bashan.
+Dialogue: 0,0:05:18.36,0:05:22.28,tales,,0,0,0,,Murid Penasihat adalah hasil didikan mandiri Penasihat sesuai tradisi lama.
+Dialogue: 0,0:05:24.64,0:05:26.28,tales,,0,0,0,,Tidak berbeda dengan sekte-sekte itu.
+Dialogue: 0,0:05:27.48,0:05:29.04,tales,,0,0,0,,Apa gunanya mengalahkan Murid Tao?
+Dialogue: 0,0:05:29.64,0:05:31.48,tales,,0,0,0,,Hanya membuktikan Akademi Agung tidak mampu.
+Dialogue: 0,0:05:32.72,0:05:34.00,tales,,0,0,0,,Jika ini tersebar.
+Dialogue: 0,0:05:34.52,0:05:35.92,tales,,0,0,0,,Sekte Tao pasti akan memberontak.
+Dialogue: 0,0:05:36.44,0:05:37.48,tales,,0,0,0,,Jika Sekte Tao memberontak,
+Dialogue: 0,0:05:37.64,0:05:39.36,tales,,0,0,0,,seluruh Tao yang benar akan ikut memberontak.
+Dialogue: 0,0:05:40.36,0:05:55.36,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:06:08.88,0:06:09.80,tales,,0,0,0,,Kau ini pemimpin.
+Dialogue: 0,0:06:10.20,0:06:11.48,tales,,0,0,0,,Lalu apa yang harus dilakukan?
+Dialogue: 0,0:06:12.64,0:06:13.52,tales,,0,0,0,,Apa yang harus dilakukan?
+Dialogue: 0,0:06:15.48,0:06:17.28,tales,,0,0,0,,Apa pun lebih baik daripada kau bawa murid.
+Dialogue: 0,0:06:17.28,0:06:20.48,tales,,0,0,0,,Setiap hari bersembunyi di Aula Qingyang membaca kitab dan bermeditasi.
+Dialogue: 0,0:06:21.08,0:06:24.00,tales,,0,0,0,,Jika kau membaca semua Tao dan kekuatan magis di Menara Tianlu.
+Dialogue: 0,0:06:24.84,0:06:26.40,tales,,0,0,0,,Mungkin sudah meneliti.
+Dialogue: 0,0:06:26.56,0:06:29.04,tales,,0,0,0,,Cara mengatasi Teknik Bawaan Tai Xuan.
+Dialogue: 0,0:06:29.68,0:06:30.64,tales,,0,0,0,,Undang Penasihat mengajar.
+Dialogue: 0,0:06:33.12,0:06:36.52,tales,,0,0,0,,Penasihat sudah lama tidak mengajar di Akademi Agung kita.
+Dialogue: 0,0:06:36.72,0:06:39.68,tales,,0,0,0,,Maksudmu suruh Penasihat datang ajarkan teknik pedang dan kekuatan magis.
+Dialogue: 0,0:06:40.08,0:06:42.68,tales,,0,0,0,,Lalu biarkan murid Akademi Agung kalahkan Murid Tao.
+Dialogue: 0,0:06:45.04,0:06:46.00,tales,,0,0,0,,Tiga hari.
+Dialogue: 0,0:06:46.13,0:06:47.64,tales,,0,0,0,,Hanya tiga hari, Pak.
+Dialogue: 0,0:06:48.24,0:06:51.36,tales,,0,0,0,,Apa Penasihat bisa ajari seorang jenius untuk kalahkan Murid Tao dalam tiga hari?
+Dialogue: 0,0:06:52.24,0:06:53.08,tales,,0,0,0,,Kau percaya?
+Dialogue: 0,0:06:54.12,0:06:54.48,tales,,0,0,0,,Percaya.
+Dialogue: 0,0:06:55.09,0:06:55.76,tales,,0,0,0,,Bashan.
+Dialogue: 0,0:06:56.20,0:06:58.28,tales,,0,0,0,,Jangan meremehkan kemampuan Penasihat.
+Dialogue: 0,0:06:58.72,0:07:00.88,tales,,0,0,0,,Dia tetap orang nomor satu di bawah Dewa.
+Dialogue: 0,0:07:14.92,0:07:16.28,tales,,0,0,0,,Kau sudah lihat lukaku.
+Dialogue: 0,0:07:17.36,0:07:19.12,tales,,0,0,0,,Sekarang perlihatkan lukanya.
+Dialogue: 0,0:07:22.08,0:07:24.72,tales,,0,0,0,,Penasihat curiga ada pemberontak di Akademi Agung.
+Dialogue: 0,0:07:25.32,0:07:27.08,tales,,0,0,0,,Kenapa tidak bawa lebih banyak ahli?
+Dialogue: 0,0:07:27.28,0:07:29.20,tales,,0,0,0,,Baru terlihat tidak percaya diri.
+Dialogue: 0,0:07:29.76,0:07:31.08,tales,,0,0,0,,Akademi Agung sangat besar.
+Dialogue: 0,0:07:31.64,0:07:33.88,tales,,0,0,0,,Tentu akan ada beberapa pemberontak bersembunyi di sini.
+Dialogue: 0,0:07:35.16,0:07:36.80,tales,,0,0,0,,Tapi ini ibu kota.
+Dialogue: 0,0:07:37.08,0:07:38.48,tales,,0,0,0,,Siapa yang berani membunuhku di sini?
+Dialogue: 0,0:07:39.56,0:07:41.40,tales,,0,0,0,,Hanya menipu mata pemberontak.
+Dialogue: 0,0:07:42.88,0:07:44.24,tales,,0,0,0,,Kau juga ikut denganku.
+Dialogue: 0,0:07:45.04,0:07:46.32,tales,,0,0,0,,Temui adikmu itu.
+Dialogue: 0,0:07:47.32,0:08:02.32,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:08:27.32,0:08:28.72,tales,,0,0,0,,Dua ratus tahun lalu.
+Dialogue: 0,0:08:28.72,0:08:31.32,tales,,0,0,0,,Penasihat Yankang menyapu seluruh dunia.
+Dialogue: 0,0:08:31.68,0:08:33.72,tales,,0,0,0,,Tapi dua ratus tahun berlalu.
+Dialogue: 0,0:08:34.04,0:08:37.08,tales,,0,0,0,,Baik Penasihat sendiri maupun Akademi Agung.
+Dialogue: 0,0:08:37.12,0:08:39.88,tales,,0,0,0,,Tidak bisa mendidik Penasihat kedua.
+Dialogue: 0,0:08:41.16,0:08:43.84,tales,,0,0,0,,Reformasi dimulai dari Akademi Agung.
+Dialogue: 0,0:08:44.48,0:08:47.32,tales,,0,0,0,,Juga akan berakhir dari Akademi Agung.
+Dialogue: 0,0:08:57.88,0:08:59.56,tales,,0,0,0,,Sulit menolak sambutan hangat Pemimpin Besar.
+Dialogue: 0,0:09:00.32,0:09:02.76,tales,,0,0,0,,Aku hanya akan mengajar pedang selama dua hari.
+Dialogue: 0,0:09:04.00,0:09:04.88,tales,,0,0,0,,Tidak bahas lainnya.
+Dialogue: 0,0:09:11.88,0:09:13.00,tales,,0,0,0,,Bukannya tiga hari?
+Dialogue: 0,0:09:14.24,0:09:15.28,tales,,0,0,0,,Memblokir pintu tiga hari.
+Dialogue: 0,0:09:15.72,0:09:16.84,tales,,0,0,0,,Sekarang sudah setengah hari.
+Dialogue: 0,0:09:17.72,0:09:19.44,tales,,0,0,0,,Jika mengajar juga tiga hari.
+Dialogue: 0,0:09:19.84,0:09:21.44,tales,,0,0,0,,Semuanya sudah terlambat.
+Dialogue: 0,0:09:23.28,0:09:25.24,tales,,0,0,0,,Penasihat, silakan.
+Dialogue: 0,0:09:29.48,0:09:30.24,tales,,0,0,0,,Aneh.
+Dialogue: 0,0:09:31.28,0:09:32.56,tales,,0,0,0,,Wajah Penasihat agak kemerahan.
+Dialogue: 0,0:09:33.68,0:09:34.56,tales,,0,0,0,,Dibanding sakit.
+Dialogue: 0,0:09:35.04,0:09:37.68,tales,,0,0,0,,Lebih mirip memakai perona pipi yang sering dibeli nenek.
+Dialogue: 0,0:09:41.16,0:09:43.64,tales,,0,0,0,,Tubuhnya juga ada bau darah samar-samar.
+Dialogue: 0,0:09:46.32,0:09:48.20,tales,,0,0,0,,Lukanya belum sembuh setelah sekian lama?
+Dialogue: 0,0:09:49.16,0:09:50.52,tales,,0,0,0,,Ataukah.
+Dialogue: 0,0:09:51.04,0:09:51.92,tales,,0,0,0,,Dia pura-pura sakit?
+Dialogue: 0,0:10:01.88,0:10:02.84,tales,,0,0,0,,Apa itu pedang?
+Dialogue: 0,0:10:04.56,0:10:07.04,tales,,0,0,0,,Ada yang bilang pedang punya ribuan jurus.
+Dialogue: 0,0:10:07.28,0:10:09.40,tales,,0,0,0,,Ada juga yang bilang pedang hanya punya empat belas jurus.
+Dialogue: 0,0:10:10.08,0:10:11.20,tales,,0,0,0,,Omong kosong.
+Dialogue: 0,0:10:13.68,0:10:16.80,tales,,0,0,0,,Jika pedang dibatasi, itu bukan lagi Tao.
+Dialogue: 0,0:10:17.40,0:10:18.88,tales,,0,0,0,,Jika lebih dari empat belas jurus.
+Dialogue: 0,0:10:19.60,0:10:20.12,tales,,0,0,0,,Maka,
+Dialogue: 0,0:10:20.40,0:10:23.20,tales,,0,0,0,,semua ilmu pedang di dunia akan punya kemungkinan baru.
+Dialogue: 0,0:10:23.36,0:10:24.60,tales,,0,0,0,,Harus ditulis ulang dan dibentuk kembali.
+Dialogue: 0,0:10:25.40,0:10:28.04,tales,,0,0,0,,Kalau tidak akan penuh celah.
+Dialogue: 0,0:10:28.76,0:10:30.04,tales,,0,0,0,,Mungkinkah Penasihat Yankang...
+Dialogue: 0,0:10:33.08,0:10:35.48,tales,,0,0,0,,Aku, berdasarkan empat belas jurus pedang.
+Dialogue: 0,0:10:36.32,0:10:38.32,tales,,0,0,0,,Membuka tiga jurus pedang baru.
+Dialogue: 0,0:10:38.76,0:10:40.80,tales,,0,0,0,,Menciptakan Ilmu Pedang Enam Penjuru Agung.
+Dialogue: 0,0:10:42.12,0:10:43.08,tales,,0,0,0,,Dua hari ini.
+Dialogue: 0,0:10:43.92,0:10:46.60,tales,,0,0,0,,Aku akan ajarkan kalian tiga jurus dasar baru ini.
+Dialogue: 0,0:10:52.12,0:10:53.52,tales,,0,0,0,,Tapi sebelum itu,
+Dialogue: 0,0:10:54.56,0:10:56.56,tales,,0,0,0,,aku mau kalian lupakan bentuk pedang.
+Dialogue: 0,0:10:58.28,0:10:59.68,tales,,0,0,0,,Pedang bisa jadi suara.
+Dialogue: 0,0:11:00.28,0:11:01.32,tales,,0,0,0,,Bisa jadi cahaya.
+Dialogue: 0,0:11:01.92,0:11:03.28,tales,,0,0,0,,Bisa jadi energi vital.
+Dialogue: 0,0:11:03.48,0:11:04.84,tales,,0,0,0,,Bisa jadi tatapan mata.
+Dialogue: 0,0:11:05.12,0:11:07.84,tales,,0,0,0,,Bisa panjang bisa pendek.
+Dialogue: 0,0:11:10.36,0:11:13.08,tales,,0,0,0,,Bisa lembut bisa keras.
+Dialogue: 0,0:11:13.68,0:11:15.96,tales,,0,0,0,,Bisa menyerang dari sudut mana pun.
+Dialogue: 0,0:11:18.12,0:11:19.96,tales,,0,0,0,,Jika kalian bisa lupakan bentuk pedang.
+Dialogue: 0,0:11:20.52,0:11:22.56,tales,,0,0,0,,Baru bisa pelajari jurus pedangku.
+Dialogue: 0,0:11:27.72,0:11:29.48,tales,,0,0,0,,Jurus kelima belas.
+Dialogue: 0,0:11:37.40,0:11:39.32,tales,,0,0,0,,Energi Pedang Tak Terbatas.
+Dialogue: 0,0:11:41.64,0:11:43.48,tales,,0,0,0,,Jurus Mengelilingi Pedang.
+Dialogue: 0,0:11:59.08,0:12:01.12,tales,,0,0,0,,Jurus pedang sebelumnya semua serangan linear.
+Dialogue: 0,0:12:01.48,0:12:02.68,tales,,0,0,0,,Tapi Jurus Mengelilingi Pedang berbentuk bidang.
+Dialogue: 0,0:12:03.28,0:12:06.08,tales,,0,0,0,,Jadikan langit, bumi, empat penjuru sebagai pedang.
+Dialogue: 0,0:12:06.48,0:12:07.84,tales,,0,0,0,,Inilah Ilmu Pedang Enam Penjuru Agung.
+Dialogue: 0,0:12:08.56,0:12:09.80,tales,,0,0,0,,Ide yang sangat menakjubkan.
+Dialogue: 0,0:12:10.16,0:12:11.80,tales,,0,0,0,,Pantasan jadi orang nomor satu di bawah Dewa.
+Dialogue: 0,0:12:12.60,0:12:13.88,tales,,0,0,0,,Para murid.
+Dialogue: 0,0:12:14.08,0:12:15.88,tales,,0,0,0,,Kalian bisa ubah energi jadi pedang.
+Dialogue: 0,0:12:16.28,0:12:17.56,tales,,0,0,0,,Coba praktikkan sekali.
+Dialogue: 0,0:12:30.20,0:12:31.16,tales,,0,0,0,,Praktikkan?
+Dialogue: 0,0:12:31.36,0:12:32.72,tales,,0,0,0,,Aku bahkan tidak lihat dengan jelas,
+Dialogue: 0,0:12:32.84,0:12:34.36,tales,,0,0,0,,apalagi mempelajarinya.
+Dialogue: 0,0:12:34.88,0:12:37.00,tales,,0,0,0,,Sudahlah, catat dulu perkataan Penasihat.
+Dialogue: 0,0:12:40.88,0:12:41.64,tales,,0,0,0,,Penggembala.
+Dialogue: 0,0:12:42.00,0:12:43.08,tales,,0,0,0,,Kau sudah bisa?
+Dialogue: 0,0:12:44.08,0:12:46.08,tales,,0,0,0,,Benang energi mereka semua sangat halus.
+Dialogue: 0,0:12:46.84,0:12:48.92,tales,,0,0,0,,Energi pedang yang terbentuk juga setipis rambut.
+Dialogue: 0,0:12:49.80,0:12:51.40,tales,,0,0,0,,Tapi benang energiku...
+Dialogue: 0,0:12:57.84,0:12:58.48,tales,,0,0,0,,Tidak bisa.
+Dialogue: 0,0:12:59.08,0:13:00.92,tales,,0,0,0,,Energi pedang sebesar ini terlalu kaku.
+Dialogue: 0,0:13:01.08,0:13:02.12,tales,,0,0,0,,Tidak mudah digunakan.
+Dialogue: 0,0:13:03.32,0:13:04.32,tales,,0,0,0,,Mungkin,
+Dialogue: 0,0:13:04.52,0:13:08.16,tales,,0,0,0,,aku bisa coba gunakan Jurus Mengelilingi Pedang untuk uraikan benang energiku.
+Dialogue: 0,0:13:09.04,0:13:11.20,tales,,0,0,0,,Apa yang dilakukan bocah ini dengan sebuah tongkat?
+Dialogue: 0,0:13:21.52,0:13:22.88,tales,,0,0,0,,Energi orang telantar sangat tebal.
+Dialogue: 0,0:13:23.40,0:13:24.60,tales,,0,0,0,,Tapi pemahamannya biasa saja.
+Dialogue: 0,0:13:32.28,0:13:33.00,tales,,0,0,0,,Berhasil.
+Dialogue: 0,0:13:33.88,0:13:34.52,tales,,0,0,0,,Akhirnya berhasil.
+Dialogue: 0,0:13:35.48,0:13:37.08,tales,,0,0,0,,Aku akhirnya berhasil membuat benang energi.
+Dialogue: 0,0:13:39.68,0:13:41.93,tales,,0,0,0,,Aku akhirnya berhasil membentuk Benang Energi.
+Dialogue: 0,0:13:44.56,0:13:45.60,tales,,0,0,0,,Apa yang dia berhasil buat?
+Dialogue: 0,0:13:46.48,0:13:48.04,tales,,0,0,0,,Apa aku salah dengar?
+Dialogue: 0,0:13:48.76,0:13:51.00,tales,,0,0,0,,Inilah adik seperguruanku itu.
+Dialogue: 0,0:13:52.72,0:13:55.72,tales,,0,0,0,,Mengubah energi menjadi benang adalah dasar Teknik Pengontrol Pedang.
+Dialogue: 0,0:13:56.28,0:13:58.96,tales,,0,0,0,,Bocah itu bahkan belum berhasil membuat benang energi.
+Dialogue: 0,0:13:59.24,0:14:00.36,tales,,0,0,0,,Bagaimana dia masuk Akademi Agung?
+Dialogue: 0,0:14:01.72,0:14:03.48,tales,,0,0,0,,Menyuap penguji mana?
+Dialogue: 0,0:14:05.16,0:14:07.08,tales,,0,0,0,,Pemimpin Bashan baru kembali dari garis depan.
+Dialogue: 0,0:14:07.72,0:14:08.68,tales,,0,0,0,,Jadi tidak tahu.
+Dialogue: 0,0:14:09.68,0:14:10.76,tales,,0,0,0,,Namanya Qin Mu.
+Dialogue: 0,0:14:11.12,0:14:12.32,tales,,0,0,0,,Dia orang telantar dari Daxu.
+Dialogue: 0,0:14:13.64,0:14:14.88,tales,,0,0,0,,Setelah dia kalahkan Pendeta Lingyun.
+Dialogue: 0,0:14:15.96,0:14:18.40,tales,,0,0,0,,Dia ditunjuk Kaisar sebagai murid kekaisaran.
+Dialogue: 0,0:14:19.20,0:14:21.04,tales,,0,0,0,,Lingyun, kau sengaja kalah?
+Dialogue: 0,0:14:24.40,0:14:25.96,tales,,0,0,0,,Kaisar juga disuap?
+Dialogue: 0,0:14:28.28,0:14:30.00,tales,,0,0,0,,Dasar si mulut besar.
+Dialogue: 0,0:14:31.68,0:14:33.96,tales,,0,0,0,,Guru juga terlalu tidak mampu.
+Dialogue: 0,0:14:34.24,0:14:36.04,tales,,0,0,0,,Bisa-bisanya cari orang bodoh.
+Dialogue: 0,0:14:36.48,0:14:38.68,tales,,0,0,0,,Sekilas terlihat mudah ditindas.
