@@ -1,0 +1,296 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:14.00,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:14.17,0:00:15.10,jd,,0,0,0,,Kau suka?
+Dialogue: 0,0:00:15.10,0:00:17.27,jd,,0,0,0,,Ini buatan ayahmu sendiri.
+Dialogue: 0,0:00:18.07,0:00:19.97,jd,,0,0,0,,Keluarga seperti kita,
+Dialogue: 0,0:00:19.97,0:00:23.47,jd,,0,0,0,,tidak mengharapkannya kaya raya atau pencapaian luar biasa,
+Dialogue: 0,0:00:23.63,0:00:25.70,jd,,0,0,0,,hanya berharap dia selamat sepanjang hidup.
+Dialogue: 0,0:00:26.20,0:00:27.60,jd,,0,0,0,,Kita beri nama...
+Dialogue: 0,0:00:27.89,0:00:29.66,jd,,0,0,0,,Zhang Xiaofan.
+Dialogue: 0,0:00:47.47,0:00:48.90,jd,,0,0,0,,Xiao Fan.
+Dialogue: 0,0:00:50.00,0:00:51.40,jd,,0,0,0,,Kau sudah besar,
+Dialogue: 0,0:00:51.40,0:00:54.20,jd,,0,0,0,,pasti lebih sukses daripada ayah.
+Dialogue: 0,0:00:55.50,0:00:56.80,jd,,0,0,0,,Ibu hanya berharap,
+Dialogue: 0,0:00:56.80,0:00:58.60,jd,,0,0,0,,kau sedikit menderita,
+Dialogue: 0,0:00:58.60,0:01:00.57,jd,,0,0,0,,tumbuh dengan bahagia.
+Dialogue: 0,0:01:10.60,0:01:11.63,jd,,0,0,0,,Xiao Fan,
+Dialogue: 0,0:01:11.63,0:01:13.57,jd,,0,0,0,,di luar akan hujan, jangan keluar.
+Dialogue: 0,0:01:13.90,0:01:15.00,jd,,0,0,0,,Aku akan segera kembali.
+Dialogue: 0,0:01:15.00,0:01:15.93,jd,,0,0,0,,Jangan!
+Dialogue: 0,0:01:15.93,0:01:17.18,jd,,0,0,0,,Jangan pergi!
+Dialogue: 0,0:01:17.40,0:01:21.40,jd,,0,0,0,,Jangan!
+Dialogue: 0,0:01:22.21,0:01:23.60,jd,,0,0,0,,Jangan pergi!
+Dialogue: 0,0:01:26.37,0:01:28.53,jd,,0,0,0,,Jangan!
+Dialogue: 0,0:01:31.87,0:01:33.47,jd,,0,0,0,,Kenapa?
+Dialogue: 0,0:01:33.47,0:01:36.63,jd,,0,0,0,,Kenapa ini terjadi?
+Dialogue: 0,0:01:47.19,0:01:49.23,jd,,0,0,0,,Kenapa?
+Dialogue: 0,0:01:49.66,0:01:52.03,jd,,0,0,0,,Kenapa ini terjadi?
+Dialogue: 0,0:01:52.03,0:01:54.23,jd,,0,0,0,,Semua penduduk desa,
+Dialogue: 0,0:01:54.83,0:01:56.70,jd,,0,0,0,,karena kau,
+Dialogue: 0,0:01:57.90,0:02:00.10,jd,,0,0,0,,Aku minta kau bayar dengan nyawa!
+Dialogue: 0,0:02:08.80,0:02:10.57,jd,,0,0,0,,Aku bunuh dia!
+Dialogue: 0,0:02:12.10,0:02:14.00,jd,,0,0,0,,Desa Caomiao,
+Dialogue: 0,0:02:14.47,0:02:15.77,jd,,0,0,0,,rumahku,
+Dialogue: 0,0:02:16.87,0:02:19.97,jd,,0,0,0,,aku bisa bersama ayah ibu lagi.
+Dialogue: 0,0:02:26.70,0:02:27.99,jd,,0,0,0,,Apa yang kulakukan?
+Dialogue: 0,0:02:30.15,0:02:31.80,jd,,0,0,0,,Apa yang bisa kulakukan?
+Dialogue: 0,0:02:33.80,0:02:35.77,jd,,0,0,0,,Apa yang seharusnya kulakukan,
+Dialogue: 0,0:02:36.97,0:02:38.77,jd,,0,0,0,,yang benar?
+Dialogue: 0,0:02:41.37,0:02:42.10,jd,,0,0,0,,Shixiong,
+Dialogue: 0,0:02:42.20,0:02:42.67,jd,,0,0,0,,cepat lihat!
+Dialogue: 0,0:02:43.23,0:02:44.07,jd,,0,0,0,,Penderma Zhang,
+Dialogue: 0,0:02:44.07,0:02:45.20,jd,,0,0,0,,kau sadar.
+Dialogue: 0,0:02:46.03,0:02:47.30,jd,,0,0,0,,Aku tidak bermarga Zhang,
+Dialogue: 0,0:02:47.50,0:02:49.17,jd,,0,0,0,,nama itu sudah kulupakan.
+Dialogue: 0,0:02:52.17,0:02:53.57,jd,,0,0,0,,Amitabha.
+Dialogue: 0,0:02:53.80,0:02:56.03,jd,,0,0,0,,Nama apa yang digunakan terserah keinginanmu,
+Dialogue: 0,0:02:56.03,0:02:57.83,jd,,0,0,0,,tapi jika kau bahkan tidak mau memakai marga,
+Dialogue: 0,0:02:57.83,0:03:00.27,jd,,0,0,0,,bagaimana menghadapi orang tua yang melahirkan dan membesarkanmu?
+Dialogue: 0,0:03:00.27,0:03:03.10,jd,,0,0,0,,Kuil Tianyin berani menyebut orang tuaku?
+Dialogue: 0,0:03:07.37,0:03:08.57,jd,,0,0,0,,Kenapa kalian menyelamatkanku?
+Dialogue: 0,0:03:09.87,0:03:10.50,jd,,0,0,0,,Penderma Zhang,
+Dialogue: 0,0:03:10.97,0:03:12.47,jd,,0,0,0,,kini kau terluka parah,
+Dialogue: 0,0:03:12.47,0:03:13.27,jd,,0,0,0,,kondisimu tidak stabil.
+Dialogue: 0,0:03:13.87,0:03:15.27,jd,,0,0,0,,Istirahatlah dengan tenang dulu.
+Dialogue: 0,0:03:16.30,0:03:18.57,jd,,0,0,0,,Kuil Tianyin dan Sekte Qingyun selalu bersahabat.
+Dialogue: 0,0:03:19.20,0:03:20.37,jd,,0,0,0,,Dengan melakukan ini,
+Dialogue: 0,0:03:20.50,0:03:22.10,jd,,0,0,0,,tidak takut Sekte Qingyun mengetahuinya?
+Dialogue: 0,0:03:22.23,0:03:23.47,jd,,0,0,0,,Setelah lukamu sembuh,
+Dialogue: 0,0:03:23.60,0:03:25.07,jd,,0,0,0,,guruku, Biksu Puhong,
+Dialogue: 0,0:03:25.47,0:03:27.23,jd,,0,0,0,,akan menjelaskan alasannya padamu.
+Dialogue: 0,0:03:39.67,0:03:42.00,jd,,0,0,0,,Kenapa kau selalu bersikap bermusuhan?
+Dialogue: 0,0:03:42.20,0:03:43.03,jd,,0,0,0,,Beberapa hari ini,
+Dialogue: 0,0:03:43.03,0:03:44.67,jd,,0,0,0,,akulah yang merawatmu.
+Dialogue: 0,0:03:45.77,0:03:46.43,jd,,0,0,0,,Sudahlah.
+Dialogue: 0,0:03:46.77,0:03:48.40,jd,,0,0,0,,Mengingat lukamu belum sembuh,
+Dialogue: 0,0:03:48.50,0:03:49.67,jd,,0,0,0,,aku tidak akan mempermasalahkannya.
+Dialogue: 0,0:03:50.00,0:03:50.83,jd,,0,0,0,,Cepat minum obatnya.
+Dialogue: 0,0:03:51.23,0:03:52.37,jd,,0,0,0,,Aku tambahkan madu,
+Dialogue: 0,0:03:52.37,0:03:53.17,jd,,0,0,0,,tidak pahit lagi.
+Dialogue: 0,0:03:53.70,0:03:54.80,jd,,0,0,0,,Namaku Faming.
+Dialogue: 0,0:03:55.10,0:03:56.07,jd,,0,0,0,,Siapa namamu?
+Dialogue: 0,0:03:57.30,0:03:58.70,jd,,0,0,0,,Kau tidak tahu siapa aku?
+Dialogue: 0,0:03:58.70,0:04:00.37,jd,,0,0,0,,Bukankah kau orang yang terluka,
+Dialogue: 0,0:04:00.37,0:04:02.63,jd,,0,0,0,,dan diselamatkan oleh paman guru dan senior mereka?
+Dialogue: 0,0:04:02.87,0:04:04.00,jd,,0,0,0,,Sebenarnya, aku juga.
+Dialogue: 0,0:04:04.50,0:04:05.23,jd,,0,0,0,,Jangan takut.
+Dialogue: 0,0:04:05.80,0:04:07.07,jd,,0,0,0,,Selama berada di Kuil Tianyin,
+Dialogue: 0,0:04:07.20,0:04:09.20,jd,,0,0,0,,tidak akan ada yang menyakiti kita.
+Dialogue: 0,0:04:10.03,0:04:12.37,jd,,0,0,0,,Apakah semua orang di Kuil Tianyin baik?
+Dialogue: 0,0:04:13.07,0:04:14.17,jd,,0,0,0,,Tentu saja.
+Dialogue: 0,0:04:14.17,0:04:17.17,jd,,0,0,0,,Paman guru dan senior adalah orang-orang terbaik.
+Dialogue: 0,0:04:17.37,0:04:18.50,jd,,0,0,0,,Mereka menyelamatkanku,
+Dialogue: 0,0:04:18.63,0:04:19.57,jd,,0,0,0,,menampungku,
+Dialogue: 0,0:04:19.83,0:04:21.17,jd,,0,0,0,,mengajariku membaca,
+Dialogue: 0,0:04:21.17,0:04:22.00,jd,,0,0,0,,dan melafalkan kitab suci.
+Dialogue: 0,0:04:23.70,0:04:27.03,jd,,0,0,0,,Kalau saja Paman Pufang tidak terlalu ketat sesekali.
+Dialogue: 0,0:04:27.40,0:04:29.03,jd,,0,0,0,,Senior Faxiang,
+Dialogue: 0,0:04:29.03,0:04:32.03,jd,,0,0,0,,kalau saja bisa mengajariku dua kalimat mantra Mahabrahma Prajna,
+Dialogue: 0,0:04:32.03,0:04:33.37,jd,,0,0,0,,itu akan lebih baik lagi.
+Dialogue: 0,0:04:33.83,0:04:36.57,jd,,0,0,0,,Senior Faxiang sangat peduli padamu.
+Dialogue: 0,0:04:36.67,0:04:38.07,jd,,0,0,0,,Sebelum kau sadar,
+Dialogue: 0,0:04:38.07,0:04:40.40,jd,,0,0,0,,dia mengunjungimu berkali-kali setiap hari.
+Dialogue: 0,0:04:41.36,0:04:42.40,jd,,0,0,0,,Aku pergi dulu.
+Dialogue: 0,0:04:42.50,0:04:43.30,jd,,0,0,0,,Akan kunjungi lagi besok.
+Dialogue: 0,0:04:55.80,0:04:56.77,jd,,0,0,0,,Bagaimana?
+Dialogue: 0,0:04:56.87,0:04:58.37,jd,,0,0,0,,Qingyun menang.
+Dialogue: 0,0:04:59.63,0:05:02.97,jd,,0,0,0,,Bahkan siluman monster bukanlah tandingan Formasi Pedang Zhuxian.
+Dialogue: 0,0:05:03.40,0:05:05.67,jd,,0,0,0,,Kali ini Daoxuan nekat,
+Dialogue: 0,0:05:05.70,0:05:07.60,jd,,0,0,0,,membuka tujuh segel langit,
+Dialogue: 0,0:05:07.60,0:05:10.20,jd,,0,0,0,,meningkatkan kekuatan formasi pedang beberapa kali lipat.
+Dialogue: 0,0:05:10.70,0:05:13.67,jd,,0,0,0,,Karena itu bisa memiliki kekuatan yang melawan langit.
+Dialogue: 0,0:05:14.20,0:05:16.10,jd,,0,0,0,,Daoxuan yang hebat.
+Dialogue: 0,0:05:16.40,0:05:18.03,jd,,0,0,0,,Ketua Sekte tidak perlu khawatir.
+Dialogue: 0,0:05:18.17,0:05:21.03,jd,,0,0,0,,Lokasi segel langit sebenarnya adalah rahasia masing-masing cabang.
+Dialogue: 0,0:05:21.37,0:05:22.87,jd,,0,0,0,,Tapi pada hari pembukaannya,
+Dialogue: 0,0:05:22.87,0:05:25.07,jd,,0,0,0,,aku telah menemukan semua lokasi segel langit.
+Dialogue: 0,0:05:25.20,0:05:27.37,jd,,0,0,0,,Di masa depan bisa diam-diam menghancurkannya.
+Dialogue: 0,0:05:28.03,0:05:29.37,jd,,0,0,0,,Maaf merepotkan Daochang.
+Dialogue: 0,0:05:29.57,0:05:31.80,jd,,0,0,0,,Sekte Keadilan kali ini menderita kerugian besar.
+Dialogue: 0,0:05:31.90,0:05:34.57,jd,,0,0,0,,Aku melihat langsung Daoxuan terluka parah dan sekarat.
+Dialogue: 0,0:05:34.80,0:05:37.47,jd,,0,0,0,,Banyak juga tetua tujuh cabang yang tewas atau terluka.
+Dialogue: 0,0:05:37.50,0:05:38.43,jd,,0,0,0,,Dan lagi,
+Dialogue: 0,0:05:38.50,0:05:40.07,jd,,0,0,0,,ada hasil tak terduga.
+Dialogue: 0,0:05:41.47,0:05:45.07,jd,,0,0,0,,Seorang ahli tersembunyi di gunung belakang Qingyun.
+Dialogue: 0,0:05:45.30,0:05:47.50,jd,,0,0,0,,Aku telah memanfaatkan kesempatan untuk menyingkirkannya.
+Dialogue: 0,0:05:48.03,0:05:49.23,jd,,0,0,0,,Orang ini adalah
+Dialogue: 0,0:05:49.70,0:05:52.90,jd,,0,0,0,,tokoh legendaris yang pernah mengguncang dunia.
+Dialogue: 0,0:05:53.03,0:05:56.57,jd,,0,0,0,,Wan Jianyi.
+Dialogue: 0,0:05:58.10,0:05:59.10,jd,,0,0,0,,Dia masih hidup?
+Dialogue: 0,0:05:59.43,0:06:00.87,jd,,0,0,0,,Sudah pasti.
+Dialogue: 0,0:06:01.47,0:06:04.07,jd,,0,0,0,,Aku pernah beberapa kali bertemu dengannya.
+Dialogue: 0,0:06:04.77,0:06:06.37,jd,,0,0,0,,Lebih baik dia mati.
+Dialogue: 0,0:06:06.60,0:06:07.37,jd,,0,0,0,,Kalau tidak,
+Dialogue: 0,0:06:07.77,0:06:09.57,jd,,0,0,0,,dia akan menghalangi rencana besar Ketua Sekte.
+Dialogue: 0,0:06:10.17,0:06:10.83,jd,,0,0,0,,Hmm.
+Dialogue: 0,0:06:10.83,0:06:14.43,jd,,0,0,0,,Tak disangka dia rela menyembunyikan identitasnya.
+Dialogue: 0,0:06:15.20,0:06:17.80,jd,,0,0,0,,Sayang sekali kultivasinya yang hebat...
+Dialogue: 0,0:06:17.90,0:06:19.80,jd,,0,0,0,,Nasib memang kejam.
+Dialogue: 0,0:06:20.03,0:06:22.30,jd,,0,0,0,,Daochang bersusah payah kali ini,
+Dialogue: 0,0:06:22.30,0:06:23.47,jd,,0,0,0,,masuk ke tempat berbahaya.
+Dialogue: 0,0:06:24.37,0:06:26.83,jd,,0,0,0,,Ketika Aliran Suci menyatukan dunia nanti,
+Dialogue: 0,0:06:26.83,0:06:30.60,jd,,0,0,0,,aku akan serahkan Sekte Qingyun kepada Daochang untuk ditangani.
+Dialogue: 0,0:06:31.63,0:06:33.27,jd,,0,0,0,,Terima kasih atas bantuan Ketua Sekte.
+Dialogue: 0,0:06:34.07,0:06:37.17,jd,,0,0,0,,Kemudian Wakil Ketua Sekte terluka entah kenapa,
+Dialogue: 0,0:06:37.17,0:06:38.43,jd,,0,0,0,,diselamatkan orang lain.
+Dialogue: 0,0:06:38.43,0:06:40.40,jd,,0,0,0,,Dikelilingi Sekte Keadilan,
+Dialogue: 0,0:06:40.40,0:06:42.37,jd,,0,0,0,,aku benar-benar tidak berdaya.
+Dialogue: 0,0:06:42.50,0:06:44.47,jd,,0,0,0,,Berhubung ada yang menyelamatkannya,
+Dialogue: 0,0:06:44.47,0:06:46.00,jd,,0,0,0,,mungkin dia tidak apa-apa.
+Dialogue: 0,0:06:47.10,0:06:50.60,jd,,0,0,0,,Tiga hari lagi kita akan tiba di reruntuhan kuil suci.
+Dialogue: 0,0:06:50.60,0:06:53.40,jd,,0,0,0,,Saat itu butuh bantuan penuh dari kalian berdua.
+Dialogue: 0,0:06:53.67,0:06:54.63,jd,,0,0,0,,Baik.
+Dialogue: 0,0:07:01.00,0:07:02.30,jd,,0,0,0,,Sudah berapa lama
+Dialogue: 0,0:07:03.30,0:07:05.63,jd,,0,0,0,,tidak menjalani hari-hari yang tenang seperti ini.
+Dialogue: 0,0:07:06.80,0:07:08.57,jd,,0,0,0,,Terlambat.
+Dialogue: 0,0:07:17.83,0:07:19.10,jd,,0,0,0,,Maaf.
+Dialogue: 0,0:07:19.10,0:07:20.97,jd,,0,0,0,,Para senior sedang berlatih di bawah,
+Dialogue: 0,0:07:20.97,0:07:22.30,jd,,0,0,0,,aku memperhatikan sebentar,
+Dialogue: 0,0:07:22.30,0:07:23.30,jd,,0,0,0,,jadi terlambat.
+Dialogue: 0,0:07:23.30,0:07:24.07,jd,,0,0,0,,Tidak apa-apa.
+Dialogue: 0,0:07:28.03,0:07:31.37,jd,,0,0,0,,Setiap kali aku minta senior mengajariku Mahabrahma Prajna,
+Dialogue: 0,0:07:31.37,0:07:33.80,jd,,0,0,0,,senior selalu bilang jodohku dengan Buddha belum tiba.
+Dialogue: 0,0:07:34.00,0:07:35.10,jd,,0,0,0,,Menurutmu,
+Dialogue: 0,0:07:35.27,0:07:37.27,jd,,0,0,0,,Apa sebenarnya jodoh dengan Buddha itu?
+Dialogue: 0,0:07:37.70,0:07:39.86,jd,,0,0,0,,Kenapa kau ingin belajar Mahabrahma Prajna?
+Dialogue: 0,0:07:39.88,0:07:41.90,jd,,0,0,0,,Karena setelah mempelajari Mahabrahma Prajna,
+Dialogue: 0,0:07:41.90,0:07:44.17,jd,,0,0,0,,aku bisa seperti senior yang menyelamatkanku,
+Dialogue: 0,0:07:44.17,0:07:45.77,jd,,0,0,0,,menyelamatkan orang yang menderita.
+Dialogue: 0,0:07:46.37,0:07:47.67,jd,,0,0,0,,Bersyukur dan berbuat baik.
+Dialogue: 0,0:07:48.00,0:07:49.03,jd,,0,0,0,,Dari diri sendiri hingga orang lain.
+Dialogue: 0,0:07:49.27,0:07:50.20,jd,,0,0,0,,Penderma Zhang.
+Dialogue: 0,0:07:50.70,0:07:52.00,jd,,0,0,0,,Apakah lukanya membaik?
+Dialogue: 0,0:07:52.60,0:07:53.67,jd,,0,0,0,,Senior Faxiang.
+Dialogue: 0,0:07:53.80,0:07:55.10,jd,,0,0,0,,Kau menanyakan ini setiap hari,
+Dialogue: 0,0:07:55.47,0:07:56.57,jd,,0,0,0,,tidakkah kau merasa bosan?
+Dialogue: 0,0:07:56.57,0:07:58.67,jd,,0,0,0,,Tampaknya Penderma Zhang pulih dengan baik.
+Dialogue: 0,0:07:59.07,0:08:00.63,jd,,0,0,0,,Guruku ingin bertemu denganmu.
+Dialogue: 0,0:08:01.70,0:08:03.17,jd,,0,0,0,,Aku sudah menunggu hari ini lama sekali.
+Dialogue: 0,0:08:10.90,0:08:12.00,jd,,0,0,0,,Agama Buddha percaya,
+Dialogue: 0,0:08:12.23,0:08:14.40,jd,,0,0,0,,semua makhluk hidup memiliki reinkarnasi.
+Dialogue: 0,0:08:15.07,0:08:16.10,jd,,0,0,0,,Menanam sebab di kehidupan sebelumnya,
+Dialogue: 0,0:08:16.50,0:08:17.73,jd,,0,0,0,,mendapatkan hasil di kehidupan ini.
+Dialogue: 0,0:08:18.32,0:08:19.67,jd,,0,0,0,,Menyelesaikan hasil kehidupan ini,
+Dialogue: 0,0:08:20.07,0:08:21.67,jd,,0,0,0,,baru ada jodoh kehidupan mendatang.
+Dialogue: 0,0:08:23.40,0:08:25.00,jd,,0,0,0,,Begitu terus berulang tanpa henti.
+Dialogue: 0,0:08:25.40,0:08:26.67,jd,,0,0,0,,Menghapus karma dan balasan.
+Dialogue: 0,0:08:26.97,0:08:27.63,jd,,0,0,0,,Suatu hari nanti,
+Dialogue: 0,0:08:27.97,0:08:29.17,jd,,0,0,0,,akhirnya mencapai pencerahan.
+Dialogue: 0,0:08:29.80,0:08:31.23,jd,,0,0,0,,Jika terperangkap di satu tempat.
+Dialogue: 0,0:08:31.23,0:08:32.23,jd,,0,0,0,,Terbenam dalam kesulitan.
+Dialogue: 0,0:08:32.70,0:08:34.47,jd,,0,0,0,,Pada akhirnya hanya menyakiti diri sendiri.
+Dialogue: 0,0:08:34.80,0:08:36.03,jd,,0,0,0,,Tidak membantu menyelesaikan masalah.
+Dialogue: 0,0:08:36.60,0:08:37.83,jd,,0,0,0,,Sebab baik.
+Dialogue: 0,0:08:38.20,0:08:39.20,jd,,0,0,0,,Hasil buruk.
+Dialogue: 0,0:08:39.90,0:08:40.87,jd,,0,0,0,,Sebab buruk.
+Dialogue: 0,0:08:40.87,0:08:41.83,jd,,0,0,0,,Hasil baik.
+Dialogue: 0,0:08:42.83,0:08:45.10,jd,,0,0,0,,Benarkah bisa dijelaskan dengan jelas?
+Dialogue: 0,0:08:45.10,0:09:00.10,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:26.57,0:09:28.10,jd,,0,0,0,,Hari ini kebetulan tanggal satu.
+Dialogue: 0,0:09:28.10,0:09:30.00,jd,,0,0,0,,Karena itu sangat ramai.
+Dialogue: 0,0:09:30.50,0:09:33.80,jd,,0,0,0,,Kuil Tianyin adalah sekte kultivasi besar yang setara dengan Sekte Qingyun.
+Dialogue: 0,0:09:34.17,0:09:36.37,jd,,0,0,0,,Kenapa membiarkan rakyat biasa masuk dengan bebas?
+Dialogue: 0,0:09:36.87,0:09:37.77,jd,,0,0,0,,Dulu,
+Dialogue: 0,0:09:37.77,0:09:40.10,jd,,0,0,0,,Kuil Tianyin sama seperti sekte kultivasi lainnya.
+Dialogue: 0,0:09:40.27,0:09:41.70,jd,,0,0,0,,Tidak terbuka untuk masyarakat umum.
+Dialogue: 0,0:09:42.50,0:09:44.60,jd,,0,0,0,,Hanya setelah guruku menjadi kepala kuil.
+Dialogue: 0,0:09:44.77,0:09:45.87,jd,,0,0,0,,Memahami ajaran Buddha.
+Dialogue: 0,0:09:46.17,0:09:47.00,jd,,0,0,0,,Berpendapat,
+Dialogue: 0,0:09:47.00,0:09:48.77,jd,,0,0,0,,Buddha adalah Buddha semua makhluk.
+Dialogue: 0,0:09:48.77,0:09:50.30,jd,,0,0,0,,Bukan Buddha satu orang.
+Dialogue: 0,0:09:50.30,0:09:52.10,jd,,0,0,0,,Seharusnya membuka pintu kuil.
+Dialogue: 0,0:09:52.10,0:09:54.10,jd,,0,0,0,,menerima seluruh umat.
+Dialogue: 0,0:10:09.77,0:10:11.27,jd,,0,0,0,,Suara berasal dari hati.
+Dialogue: 0,0:10:11.27,0:10:12.77,jd,,0,0,0,,Terdengar hingga ke langit.
+Dialogue: 0,0:10:12.77,0:10:14.27,jd,,0,0,0,,Itulah yang disebut suara langit.
+Dialogue: 0,0:10:16.07,0:10:17.83,jd,,0,0,0,,Jika langit menutup telinga dan tidak mendengar.
+Dialogue: 0,0:10:17.83,0:10:19.57,jd,,0,0,0,,Meski kau memohon dengan segala cara,
+Dialogue: 0,0:10:19.60,0:10:20.97,jd,,0,0,0,,apa gunanya?
+Dialogue: 0,0:10:22.70,0:10:24.03,jd,,0,0,0,,Bertahun-tahun lalu,
+Dialogue: 0,0:10:24.07,0:10:25.67,jd,,0,0,0,,Jalan gunung Kuil Tianyin terjal.
+Dialogue: 0,0:10:26.07,0:10:28.10,jd,,0,0,0,,Banyak rakyat meski berniat pada jalan Buddha.
+Dialogue: 0,0:10:28.10,0:10:29.70,jd,,0,0,0,,Sulit mendaki tempat berbahaya.
+Dialogue: 0,0:10:30.20,0:10:32.20,jd,,0,0,0,,Seorang paman guru menggunakan kekuatan besar.
+Dialogue: 0,0:10:32.20,0:10:33.57,jd,,0,0,0,,Dengan kekuatan satu orang,
+Dialogue: 0,0:10:33.67,0:10:35.17,jd,,0,0,0,,menghabiskan sepuluh tahun usaha,
+Dialogue: 0,0:10:35.43,0:10:36.67,jd,,0,0,0,,menghabiskan tenaga dan pikiran.
+Dialogue: 0,0:10:37.03,0:10:39.03,jd,,0,0,0,,Di tubuh gunung yang awalnya curam,
+Dialogue: 0,0:10:39.03,0:10:41.67,jd,,0,0,0,,dengan susah payah membuka tangga batu ini.
+Dialogue: 0,0:10:42.40,0:10:46.27,jd,,0,0,0,,Baru ada jalan mudah untuk ibadah bagi rakyat sekarang.
+Dialogue: 0,0:10:47.00,0:10:48.50,jd,,0,0,0,,Nama paman guru itu.
+Dialogue: 0,0:10:48.60,0:10:49.23,jd,,0,0,0,,Puzhi.
+Dialogue: 0,0:10:52.10,0:10:53.57,jd,,0,0,0,,Karena mencari tahu hati.
+Dialogue: 0,0:10:53.83,0:10:55.47,jd,,0,0,0,,Bukan mencari tahu langit.
+Dialogue: 0,0:11:04.10,0:11:04.94,jd,,0,0,0,,Guru.
+Dialogue: 0,0:11:05.23,0:11:06.63,jd,,0,0,0,,Zhang Xiaofan sudah datang.
+Dialogue: 0,0:11:15.47,0:11:17.87,jd,,0,0,0,,Amitabha.
+Dialogue: 0,0:11:19.00,0:11:22.40,jd,,0,0,0,,Kau pasti punya banyak pertanyaan untukku.
+Dialogue: 0,0:11:22.80,0:11:23.83,jd,,0,0,0,,Benar.
+Dialogue: 0,0:11:24.47,0:11:25.47,jd,,0,0,0,,Kenapa kalian,
+Dialogue: 0,0:11:25.47,0:11:26.57,jd,,0,0,0,,Penderma Zhang.
+Dialogue: 0,0:11:26.60,0:11:28.10,jd,,0,0,0,,Jawaban yang kau inginkan,
+Dialogue: 0,0:11:28.10,0:11:29.40,jd,,0,0,0,,ada di dalam.
+Dialogue: 0,0:11:41.50,0:11:44.60,jd,,0,0,0,,Orang ini ingin menemuimu sejak lama.
+Dialogue: 0,0:11:45.17,0:11:47.60,jd,,0,0,0,,Kau juga pasti sangat ingin menemuinya.
+Dialogue: 0,0:11:47.60,0:12:02.60,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:36.50,0:12:38.23,jd,,0,0,0,,Nak.
+Dialogue: 0,0:12:38.23,0:12:40.03,jd,,0,0,0,,Akhirnya kau datang.
+Dialogue: 0,0:12:46.77,0:12:48.70,jd,,0,0,0,,Puzhi.
+Dialogue: 0,0:12:49.40,0:12:51.07,jd,,0,0,0,,Kau ternyata masih hidup.
+Dialogue: 0,0:12:59.57,0:13:02.03,jd,,0,0,0,,Kenapa?
+Dialogue: 0,0:13:03.00,0:13:04.83,jd,,0,0,0,,Kenapa membuatku bertemu denganmu lagi.
+Dialogue: 0,0:13:05.23,0:13:06.63,jd,,0,0,0,,Kau menyelamatkan nyawaku.
+Dialogue: 0,0:13:06.70,0:13:08.00,jd,,0,0,0,,Mengajariku teknik.
+Dialogue: 0,0:13:08.70,0:13:10.63,jd,,0,0,0,,Tapi kau juga menyakitiku.
+Dialogue: 0,0:13:11.23,0:13:12.67,jd,,0,0,0,,Ayah ibuku.
+Dialogue: 0,0:13:12.87,0:13:14.60,jd,,0,0,0,,Penduduk Desa Caomiao.
+Dialogue: 0,0:13:14.70,0:13:17.07,jd,,0,0,0,,247 nyawa,
+Dialogue: 0,0:13:17.07,0:13:19.10,jd,,0,0,0,,apa sebenarnya artinya di matamu?!
+Dialogue: 0,0:13:19.70,0:13:21.50,jd,,0,0,0,,Aku memanggilmu guru.
+Dialogue: 0,0:13:21.50,0:13:24.37,jd,,0,0,0,,Bersedia mati untuk menjaga rahasiamu.
+Dialogue: 0,0:13:24.37,0:13:26.10,jd,,0,0,0,,Tapi pada akhirnya,
+Dialogue: 0,0:13:26.10,0:13:28.63,jd,,0,0,0,,Akulah orang yang lucu dan menyedihkan.
+Dialogue: 0,0:13:29.03,0:13:31.40,jd,,0,0,0,,Apa artiku di matamu?!
+Dialogue: 0,0:13:31.83,0:13:33.40,jd,,0,0,0,,Jawab aku!
+Dialogue: 0,0:13:33.58,0:13:35.30,jd,,0,0,0,,Jawab aku!
+Dialogue: 0,0:13:35.30,0:13:50.30,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:14:18.87,0:14:20.10,jd,,0,0,0,,Aura jahat tadi,
+Dialogue: 0,0:14:20.30,0:14:22.47,jd,,0,0,0,,kenapa sangat mirip dengan Pemakan Jiwa?
+Dialogue: 0,0:14:31.00,0:14:32.40,jd,,0,0,0,,Apa ini?
+Dialogue: 0,0:14:45.57,0:14:46.43,jd,,0,0,0,,Ini.
+Dialogue: 0,0:14:46.83,0:14:48.57,jd,,0,0,0,,Adalah pertempuran besar antara Sekte Keadilan dan Aliran Iblis.
+Dialogue: 0,0:14:50.63,0:14:52.47,jd,,0,0,0,,Mulai saat ini,
+Dialogue: 0,0:14:52.47,0:14:55.00,jd,,0,0,0,,Kuil Tianyin akan menjadi rumahmu.
+Dialogue: 0,0:14:55.43,0:14:57.23,jd,,0,0,0,,Gurumu memberimu nama Dharma.
+Dialogue: 0,0:14:57.57,0:14:58.87,jd,,0,0,0,,Puzhi.
+Dialogue: 0,0:15:00.98,0:15:01.97,jd,,0,0,0,,Baik Guru.
+Dialogue: 0,0:15:01.97,0:15:02.97,jd,,0,0,0,,Puzhi.
+Dialogue: 0,0:15:18.90,0:15:20.40,jd,,0,0,0,,Di sini adalah...
+Dialogue: 0,0:15:20.80,0:15:23.37,jd,,0,0,0,,ingatan Puzhi.
