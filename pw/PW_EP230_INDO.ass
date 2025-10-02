@@ -1,0 +1,234 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 818
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.46,0:00:24.32,pw,,0,0,0,,[PREVIEW EPISODE SEBELUMNYA]
+Dialogue: 0,0:00:36.42,0:00:39.13,komen,,0,0,0,,{\pos(439,424)\fad(500,250)}[Teknik memahami bahasa Asing]
+Dialogue: 0,0:01:16.05,0:01:18.76,komen,,0,0,0,,{\pos(462,368)\fad(500,250)}[Alam Ilusi Berlapis\Nmembuat orang tenggelam dalam ilusi.]
+Dialogue: 0,0:01:33.42,0:01:36.13,komen,,0,0,0,,{\pos(1794,580)\fad(500,250)}[Ilusi Ganda]
+Dialogue: 0,0:01:46.51,0:01:48.12,komen,,0,0,0,,{\pos(385,390)\fad(500,250)}[Tungku Samadhi\Nartefak milik Tetua Ketiga.]
+Dialogue: 0,0:02:44.01,0:02:46.88,komen,,0,0,0,,{\pos(335,560)\fad(500,250)}[Duguyun\NHeavenly Deity]
+Dialogue: 0,0:04:11.92,0:04:14.84,komen,,0,0,0,,{\pos(240,629)\fad(500,250)}[Ingatan Leluhur Para Penjaga]
+Dialogue: 0,0:06:37.79,0:06:40.40,komen,,0,0,0,,{\pos(322,622)\fad(500,250)}[Periode Perang Besar Era Immortal Kuno]
+Dialogue: 0,0:09:46.48,0:09:50.56,komen,,0,0,0,,{\pos(358,430)\fad(500,250)}[Alam Semesta\NTeknik Kaisar Petir]
+Dialogue: 0,0:11:06.99,0:11:10.45,komen,,0,0,0,,{\pos(1752,623)\fad(500,250)}[Utusan Akademi Suci]
+Dialogue: 0,0:12:14.43,0:12:17.89,komen,,0,0,0,,{\pos(171,574)\fad(500,250)}[Tambang Kuno Taichu]
+Dialogue: 0,0:12:29.88,0:12:33.34,komen,,0,0,0,,{\pos(309,635)\fad(500,250)}[Bagian Terdalam Tambang Kuno Taichu]
+Dialogue: 0,0:14:49.46,0:14:52.28,komen,,0,0,0,,{\pos(207,711)\fad(500,250)}[Roh Tempur Leluhur Kuno\NPenjaga Benih Jiwa]
+Dialogue: 0,0:00:25.32,0:00:32.32,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:32.37,0:00:36.90,pw,,0,0,0,,(Bahasa Kuno Dunia Asing)
+Dialogue: 0,0:00:39.83,0:00:42.97,pw,,0,0,0,,Dia bertanya siapa yang membunuh keturunannya.
+Dialogue: 0,0:00:52.30,0:00:53.66,pw,,0,0,0,,Jangan takut.
+Dialogue: 0,0:00:54.30,0:00:56.10,pw,,0,0,0,,Jika kalian menyerah pada duniaku,
+Dialogue: 0,0:00:56.63,0:00:58.10,pw,,0,0,0,,maka kami akan melupakan masa lalu.
+Dialogue: 0,0:01:05.20,0:01:06.93,pw,,0,0,0,,Menganjurkan kami untuk menyerah?
+Dialogue: 0,0:01:07.80,0:01:09.50,pw,,0,0,0,,Jangan mimpi!
+Dialogue: 0,0:01:10.37,0:01:12.63,pw,,0,0,0,,Aturan Dao di dunia kami lengkap,
+Dialogue: 0,0:01:13.17,0:01:14.90,pw,,0,0,0,,mana bisa dibandingkan dengan tanah rusak.
+Dialogue: 0,0:01:16.03,0:01:18.03,pw,,0,0,0,,Hahaha!
+Dialogue: 0,0:01:23.57,0:01:25.57,pw,,0,0,0,,Sudah lama dengar Dunia Asing penuh serangga dan siluman,
+Dialogue: 0,0:01:25.83,0:01:27.33,pw,,0,0,0,,tidak menyangka ada peri seperti ini.
+Dialogue: 0,0:01:27.50,0:01:29.13,pw,,0,0,0,,Menggoda orang dengan kecantikan,
+Dialogue: 0,0:01:29.50,0:01:30.73,pw,,0,0,0,,tidak tahu malu!
+Dialogue: 0,0:01:40.00,0:01:42.43,pw,,0,0,0,,Begitu banyak peluang, semuanya dipilihnya.
+Dialogue: 0,0:01:43.53,0:01:45.03,pw,,0,0,0,,Andai saja itu aku.
+Dialogue: 0,0:01:47.17,0:01:48.83,pw,,0,0,0,,Mengandalkan benda luar,
+Dialogue: 0,0:01:49.17,0:01:50.33,pw,,0,0,0,,tidak berharga.
+Dialogue: 0,0:01:56.23,0:01:58.37,pw,,0,0,0,,Kami bersedia mendirikan Kerajaan Ilahi.
+Dialogue: 0,0:01:58.97,0:02:00.23,pw,,0,0,0,,Tidak akan berbohong lagi,
+Dialogue: 0,0:02:00.40,0:02:01.53,pw,,0,0,0,,tidak menyimpan rahasia,
+Dialogue: 0,0:02:02.03,0:02:03.33,pw,,0,0,0,,setiap orang mencapai transendensi,
+Dialogue: 0,0:02:03.77,0:02:05.53,pw,,0,0,0,,setiap orang menjadi abadi.
+Dialogue: 0,0:02:05.80,0:02:06.93,pw,,0,0,0,,Hanya sebuah bayangan ilusi,
+Dialogue: 0,0:02:07.23,0:02:08.63,pw,,0,0,0,,berani berlagak misterius di sini.
+Dialogue: 0,0:02:09.47,0:02:11.40,pw,,0,0,0,,Altar itu adalah media proyeksinya.
+Dialogue: 0,0:02:15.40,0:02:17.37,pw,,0,0,0,,Kalau begitu, hadiahkan benda nyata.
+Dialogue: 0,0:02:17.93,0:02:21.26,pw,,0,0,0,,Biar kalian lihat apa itu keabadian.
+Dialogue: 0,0:02:42.23,0:02:43.86,pw,,0,0,0,,Utusan Dunia Asing.
+Dialogue: 0,0:02:56.53,0:03:00.46,pw,,0,0,0,,Benar-benar menghubungkan dua dunia dan mengirim makhluk fisik.
+Dialogue: 0,0:03:00.83,0:03:02.73,pw,,0,0,0,,Hanya seorang mata-mata.
+Dialogue: 0,0:03:03.67,0:03:05.40,pw,,0,0,0,,Hahaha!
+Dialogue: 0,0:03:06.33,0:03:07.86,pw,,0,0,0,,Sungguh menyedihkan.
+Dialogue: 0,0:03:08.37,0:03:10.83,pw,,0,0,0,,Klan yang pernah berperang untuk kalian,
+Dialogue: 0,0:03:11.33,0:03:13.57,pw,,0,0,0,,ternyata sudah tidak diketahui orang.
+Dialogue: 0,0:03:20.83,0:03:21.80,pw,,0,0,0,,Darah!
+Dialogue: 0,0:03:27.07,0:03:28.00,pw,,0,0,0,,Gila!
+Dialogue: 0,0:03:28.47,0:03:29.83,pw,,0,0,0,,Berani melukai teman sendiri.
+Dialogue: 0,0:03:34.20,0:03:36.23,pw,,0,0,0,,Ah, darah emas!
+Dialogue: 0,0:03:37.07,0:03:41.58,pw,,0,0,0,,Ini adalah darah dari pertempuran Ancient Immortal, Garis keturunan Klan Penjaga
+Dialogue: 0,0:03:42.47,0:03:43.83,pw,,0,0,0,,kenapa bisa sampai di Dunia Asing?
+Dialogue: 0,0:03:45.40,0:03:47.46,pw,,0,0,0,,Itu harus kalian tanya pada diri sendiri.
+Dialogue: 0,0:03:47.97,0:03:48.90,pw,,0,0,0,,Tapi,
+Dialogue: 0,0:03:49.10,0:03:51.26,pw,,0,0,0,,pelindung yang kalian hormati selama ini,
+Dialogue: 0,0:03:52.00,0:03:54.26,pw,,0,0,0,,juga bukan orang baik.
+Dialogue: 0,0:03:55.67,0:03:57.76,pw,,0,0,0,,Pahlawan yang membela Sembilan Langit dan Sepuluh Bumi,
+Dialogue: 0,0:03:57.91,0:03:59.40,pw,,0,0,0,,berani kau memfitnahnya!
+Dialogue: 0,0:04:15.97,0:04:18.46,pw,,0,0,0,,Darah suci keemasan ini,
+Dialogue: 0,0:04:20.07,0:04:22.50,pw,,0,0,0,,hanyalah ilusi yang menipu semua makhluk.
+Dialogue: 0,0:04:23.33,0:04:24.73,pw,,0,0,0,,Begitu terbongkar,
+Dialogue: 0,0:04:25.13,0:04:26.46,pw,,0,0,0,,darah hitam muncul.
+Dialogue: 0,0:04:27.00,0:04:28.83,pw,,0,0,0,,Akan menghancurkan langit dan bumi.
+Dialogue: 0,0:04:29.43,0:04:30.96,pw,,0,0,0,,Hahaha!
+Dialogue: 0,0:04:31.57,0:04:35.90,pw,,0,0,0,,Berapa banyak kebenaran yang masih kalian sembunyikan sampai sekarang?
+Dialogue: 0,0:04:36.23,0:04:37.67,pw,,0,0,0,,Jangan khawatir.
+Dialogue: 0,0:04:37.72,0:04:41.63,pw,,0,0,0,,Kami pasti akan menyebarkan kebenaran yang disembunyikan di tanah rusak ini.
+Dialogue: 0,0:04:42.10,0:04:43.87,pw,,0,0,0,,Setelah kalian tahu kebenarannya,
+Dialogue: 0,0:04:44.23,0:04:46.16,pw,,0,0,0,,kalian akan mengejar keabadian.
+Dialogue: 0,0:04:46.77,0:04:50.76,pw,,0,0,0,,Asal setiap hari bersujud dengan tulus kepada Tuan dunia kami,
+Dialogue: 0,0:04:51.23,0:04:53.53,pw,,0,0,0,,semua bisa masuk Kerajaan Ilahi.
+Dialogue: 0,0:05:02.67,0:05:04.73,pw,,0,0,0,,Mana boleh kau mengacaukan pikiran orang!
+Dialogue: 0,0:05:05.00,0:05:06.26,pw,,0,0,0,,Segera ditindak!
+Dialogue: 0,0:05:06.87,0:05:08.66,pw,,0,0,0,,Semut tanah rusak!
+Dialogue: 0,0:05:09.90,0:05:14.40,pw,,0,0,0,,Berserah pada Kerajaan Ilahi, semua orang abadi.
+Dialogue: 0,0:05:15.73,0:05:17.80,pw,,0,0,0,,Ini adalah hadiah pertemuan dari dunia kami.
+Dialogue: 0,0:05:18.07,0:05:20.07,pw,,0,0,0,,Membongkar rahasia darah hitam.
+Dialogue: 0,0:05:20.23,0:05:24.07,pw,,0,0,0,,Kebenaran pasti akan meruntuhkan keyakinan kalian.
+Dialogue: 0,0:05:24.50,0:05:26.03,pw,,0,0,0,,Hahaha!
+Dialogue: 0,0:05:55.83,0:05:56.83,pw,,0,0,0,,Modao.
+Dialogue: 0,0:05:57.13,0:05:58.76,pw,,0,0,0,,Pernah lihat orang ini?
+Dialogue: 0,0:06:03.40,0:06:05.73,pw,,0,0,0,,Aku selalu mengikuti keluarga kerajaan Dunia Asing.
+Dialogue: 0,0:06:06.40,0:06:08.23,pw,,0,0,0,,Hanya jenius luar biasa yang bisa bertemu.
+Dialogue: 0,0:06:09.53,0:06:11.46,pw,,0,0,0,,Moxian adalah talenta langka.
+Dialogue: 0,0:06:12.07,0:06:12.70,pw,,0,0,0,,Dan kau,
+Dialogue: 0,0:06:13.63,0:06:15.10,pw,,0,0,0,,tidak memenuhi syarat.
+Dialogue: 0,0:06:15.53,0:06:15.96,pw,,0,0,0,,Kau...
+Dialogue: 0,0:06:16.90,0:06:18.20,pw,,0,0,0,,Kau pernah lihat kakak perempuanku?
+Dialogue: 0,0:06:26.73,0:06:29.53,pw,,0,0,0,,Aku adalah Dugu Yun, keturunan sang Penjaga.
+Dialogue: 0,0:06:29.93,0:06:31.43,pw,,0,0,0,,Kedatanganku hanya untuk satu hal.
+Dialogue: 0,0:06:31.93,0:06:34.07,pw,,0,0,0,,Membunuh pengkhianat leluhur.
+Dialogue: 0,0:06:34.43,0:06:35.90,pw,,0,0,0,,Darah dibayar darah.
+Dialogue: 0,0:06:38.43,0:06:39.73,pw,,0,0,0,,Klan Penjaga,
+Dialogue: 0,0:06:40.33,0:06:42.16,pw,,0,0,0,,berperang untuk Sembilan Langit dan Sepuluh Bumi,
+Dialogue: 0,0:06:42.53,0:06:45.16,pw,,0,0,0,,akhirnya malah dikhianati dan dibunuh.
+Dialogue: 0,0:06:47.57,0:06:50.07,pw,,0,0,0,,Jika bukan karena Dunia Asing yang menampung kami,
+Dialogue: 0,0:06:50.73,0:06:51.90,pw,,0,0,0,,mungkin...
+Dialogue: 0,0:06:52.93,0:06:54.37,pw,,0,0,0,,Perkataan Dunia Asing,
+Dialogue: 0,0:06:54.77,0:06:56.53,pw,,0,0,0,,mungkin memecah belah.
+Dialogue: 0,0:06:56.83,0:06:58.73,pw,,0,0,0,,Ingatan klanku diwariskan melalui darah emas.
+Dialogue: 0,0:06:59.03,0:07:00.16,pw,,0,0,0,,Turun-temurun.
+Dialogue: 0,0:07:00.80,0:07:02.23,pw,,0,0,0,,Aku pernah melihat kebenaran masa lalu,
+Dialogue: 0,0:07:02.63,0:07:04.03,pw,,0,0,0,,dalam ingatan leluhur:
+Dialogue: 0,0:07:12.17,0:07:15.26,pw,,0,0,0,,Dulu memang ada sampah yang melakukan kejahatan tak terampuni.
+Dialogue: 0,0:07:16.07,0:07:17.93,pw,,0,0,0,,Tapi mereka semua sudah mati.
+Dialogue: 0,0:07:18.50,0:07:20.23,pw,,0,0,0,,Kau adalah keturunan pahlawan.
+Dialogue: 0,0:07:20.73,0:07:22.70,pw,,0,0,0,,Maukah kau membersihkan jejak Dunia Asing?
+Dialogue: 0,0:07:23.27,0:07:24.96,pw,,0,0,0,,Dan berperang bersama kami?
+Dialogue: 0,0:07:25.70,0:07:27.53,pw,,0,0,0,,Aku tidak berniat ikut campur perselisihan dua dunia.
+Dialogue: 0,0:07:27.80,0:07:29.00,pw,,0,0,0,,Kali ini menyeberang,
+Dialogue: 0,0:07:29.53,0:07:31.70,pw,,0,0,0,,hanya untuk membalas dendam pada keturunan musuh.
+Dialogue: 0,0:07:32.23,0:07:32.96,pw,,0,0,0,,Apalagi,
+Dialogue: 0,0:07:33.57,0:07:36.33,pw,,0,0,0,,Kalian tidak mungkin menang.
+Dialogue: 0,0:07:40.60,0:07:42.03,pw,,0,0,0,,Perkataanmu salah.
+Dialogue: 0,0:07:43.30,0:07:45.03,pw,,0,0,0,,Era ini penuh dengan talenta langka.
+Dialogue: 0,0:07:45.53,0:07:47.53,pw,,0,0,0,,Kau akan tahu setelah mencobanya sendiri.
+Dialogue: 0,0:07:58.33,0:08:00.20,pw,,0,0,0,,Hanya orang yang dibohongi Dunia Asing.
+Dialogue: 0,0:08:00.50,0:08:02.03,pw,,0,0,0,,Mana boleh kami diremehkan orang lain.
+Dialogue: 0,0:08:03.03,0:08:18.03,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:08:33.13,0:08:34.13,pw,,0,0,0,,Jangan terlalu keras!
+Dialogue: 0,0:08:45.23,0:08:46.46,pw,,0,0,0,,Kau bukan keturunan musuh.
+Dialogue: 0,0:08:46.73,0:08:47.73,pw,,0,0,0,,Kubiarkan kau hidup.
+Dialogue: 0,0:08:48.53,0:08:49.57,pw,,0,0,0,,Tanah Dao rusak.
+Dialogue: 0,0:08:50.23,0:08:51.30,pw,,0,0,0,,Orang biasa seperti semut.
+Dialogue: 0,0:08:52.13,0:08:54.50,pw,,0,0,0,,Jauh berbeda dengan keluarga kerajaan Dunia Asing.
+Dialogue: 0,0:08:55.87,0:08:57.23,pw,,0,0,0,,Aku yang akan menjadi lawanmu.
+Dialogue: 0,0:08:58.23,0:09:13.23,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:34.57,0:09:35.86,pw,,0,0,0,,Kau kuat.
+Dialogue: 0,0:09:36.37,0:09:37.70,pw,,0,0,0,,Berbeda dengan mereka.
+Dialogue: 0,0:09:38.83,0:09:39.77,pw,,0,0,0,,Kau juga tidak buruk.
+Dialogue: 0,0:09:40.77,0:09:55.77,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:10:08.40,0:10:09.57,pw,,0,0,0,,Kekuatanmu bagus.
+Dialogue: 0,0:10:10.13,0:10:11.93,pw,,0,0,0,,Berani bertarung dengan keluarga kerajaan Dunia Asing?
+Dialogue: 0,0:10:27.83,0:10:28.70,pw,,0,0,0,,Menarik.
+Dialogue: 0,0:10:29.97,0:10:31.23,pw,,0,0,0,,Bawa mereka ke hadapanku.
+Dialogue: 0,0:10:31.73,0:10:33.07,pw,,0,0,0,,Semua ditindak.
+Dialogue: 0,0:10:36.17,0:10:39.83,pw,,0,0,0,,Dunia ini masih punya orang yang layak.
+Dialogue: 0,0:10:40.57,0:10:42.33,pw,,0,0,0,,Apakah kau layak mengatakan itu?
+Dialogue: 0,0:10:43.17,0:10:44.63,pw,,0,0,0,,Sepertinya tidak.
+Dialogue: 0,0:11:01.10,0:11:03.00,pw,,0,0,0,,Utusan Akademi Suci tiba.
+Dialogue: 0,0:11:07.40,0:11:08.36,pw,,0,0,0,,Di mana Huang?
+Dialogue: 0,0:11:08.67,0:11:09.77,pw,,0,0,0,,Segera keluar!
+Dialogue: 0,0:11:13.77,0:11:14.67,pw,,0,0,0,,Masih berani datang?
+Dialogue: 0,0:11:14.90,0:11:15.70,pw,,0,0,0,,Huang.
+Dialogue: 0,0:11:16.18,0:11:17.83,pw,,0,0,0,,Utusan Akademi Suci memanggilmu.
+Dialogue: 0,0:11:23.17,0:11:23.70,pw,,0,0,0,,Terima...
+Dialogue: 0,0:11:32.83,0:11:34.15,pw,,0,0,0,,Aku adalah Utusan Akademi Suci.
+Dialogue: 0,0:11:34.70,0:11:35.63,pw,,0,0,0,,Jangan lancang.
+Dialogue: 0,0:11:51.43,0:11:52.36,pw,,0,0,0,,Kau keluar batas.
+Dialogue: 0,0:11:52.90,0:11:53.93,pw,,0,0,0,,Mau lanjut?
+Dialogue: 0,0:11:58.50,0:12:00.36,pw,,0,0,0,,Kekuatan kita berdua setara.
+Dialogue: 0,0:12:00.67,0:12:02.57,pw,,0,0,0,,Berkelahi sepuluh ribu tahun juga sulit menentukan pemenang.
+Dialogue: 0,0:12:03.30,0:12:04.10,pw,,0,0,0,,Sampai jumpa.
+Dialogue: 0,0:12:05.52,0:12:05.89,pw,,0,0,0,,Eh.
+Dialogue: 0,0:12:06.35,0:12:07.29,pw,,0,0,0,,Kau tidak boleh meninggalkan akademi.
+Dialogue: 0,0:12:07.63,0:12:09.50,pw,,0,0,0,,Aku akan pergi ke kedalaman Tambang Kuno Taichu.
+Dialogue: 0,0:12:10.03,0:12:11.03,pw,,0,0,0,,Sampai jumpa.
+Dialogue: 0,0:12:11.70,0:12:14.10,pw,,0,0,0,,Tidak apa, serahkan pada kami.
+Dialogue: 0,0:12:15.43,0:12:17.27,pw,,0,0,0,,Tambang Kuno Taichu sangat berbahaya.
+Dialogue: 0,0:12:17.83,0:12:20.43,pw,,0,0,0,,Dengan sendiri menyelami, mungkin sulit.
+Dialogue: 0,0:12:21.77,0:12:24.23,pw,,0,0,0,,Karena kau datang, pasti ada yang diinginkan.
+Dialogue: 0,0:12:25.03,0:12:27.57,pw,,0,0,0,,Jika bisa bertransaksi dengan Akademi Tianshen.
+Dialogue: 0,0:12:27.90,0:12:29.57,pw,,0,0,0,,Kami bersedia melindungimu.
+Dialogue: 0,0:12:36.13,0:12:37.70,pw,,0,0,0,,Menurut keluarga kerajaan Dunia Asing,
+Dialogue: 0,0:12:38.23,0:12:40.03,pw,,0,0,0,,kebenaran klanku ada di sini.
+Dialogue: 0,0:12:43.33,0:12:44.93,pw,,0,0,0,,Darah keturunanku,
+Dialogue: 0,0:12:45.23,0:12:49.00,pw,,0,0,0,,sepertinya beresonansi dengan kekuatan misterius di kedalaman.
+Dialogue: 0,0:12:52.17,0:12:55.36,pw,,0,0,0,,Darah hitam, rupanya keluarga kerajaan Dunia Asing tidak membohongiku.
+Dialogue: 0,0:12:56.20,0:12:58.60,pw,,0,0,0,,Kelompokku memang pernah menjadi makhluk kegelapan.
+Dialogue: 0,0:13:00.73,0:13:02.80,pw,,0,0,0,,Tapi aku juga tidak ingin membantu Dunia Asing.
+Dialogue: 0,0:13:03.57,0:13:06.27,pw,,0,0,0,,Sudahlah, satu hal terakhir.
+Dialogue: 0,0:13:06.70,0:13:10.63,pw,,0,0,0,,Setelah kembali ke tanah leluhur, putuskan dendam dua dunia selamanya.
+Dialogue: 0,0:13:12.23,0:13:13.36,pw,,0,0,0,,Keinginanku sudah terpenuhi.
+Dialogue: 0,0:13:13.73,0:13:14.83,pw,,0,0,0,,Sesuai perjanjian.
+Dialogue: 0,0:13:15.43,0:13:17.63,pw,,0,0,0,,Aku akan menunjukkan jalan untuk kalian di Makam Dunia.
+Dialogue: 0,0:13:21.97,0:13:24.30,pw,,0,0,0,,Makam Dunia adalah dunia lain yang tersisa dari Ancient Immortal.
+Dialogue: 0,0:13:25.03,0:13:27.77,pw,,0,0,0,,Penuh dengan kekacauan dan bahaya.
+Dialogue: 0,0:13:28.67,0:13:30.67,pw,,0,0,0,,Tapi menyimpan Benih Immortal yang tak tertandingi.
+Dialogue: 0,0:13:31.43,0:13:32.53,pw,,0,0,0,,Pada zaman Ancient Immortal.
+Dialogue: 0,0:13:32.83,0:13:35.40,pw,,0,0,0,,Makam Dunia adalah medan perang utama Klan Penjaga.
+Dialogue: 0,0:13:36.40,0:13:38.77,pw,,0,0,0,,Perjalanan ini dengan panduan Dugu Yun,
+Dialogue: 0,0:13:39.43,0:13:40.93,pw,,0,0,0,,mungkin bisa membantu para murid,
+Dialogue: 0,0:13:41.13,0:13:43.17,pw,,0,0,0,,menemukan Benih Immortal yang tak tertandingi.
+Dialogue: 0,0:13:43.67,0:13:44.96,pw,,0,0,0,,Dulu leluhur sendiri yang memasang formasi.
+Dialogue: 0,0:13:46.00,0:13:47.86,pw,,0,0,0,,Mengurung pasukan elit keluarga kerajaan Dunia Asing di sini.
+Dialogue: 0,0:13:48.47,0:13:49.57,pw,,0,0,0,,Ikuti rute ini.
+Dialogue: 0,0:13:50.07,0:13:50.73,pw,,0,0,0,,Bisa menghindari mereka.
+Dialogue: 0,0:13:55.43,0:13:57.40,pw,,0,0,0,,Apa yang sebenarnya terjadi di Tambang Kuno Taichu?
+Dialogue: 0,0:13:57.90,0:13:59.57,pw,,0,0,0,,Darah hitam yang disemburkan dari sana.
+Dialogue: 0,0:13:59.73,0:14:00.93,pw,,0,0,0,,Pasti ada hubungannya denganmu.
+Dialogue: 0,0:14:01.43,0:14:02.53,pw,,0,0,0,,Daripada memikirkan ini,
+Dialogue: 0,0:14:03.03,0:14:04.53,pw,,0,0,0,,Aku sarankan kau menyimpan tenaga.
+Dialogue: 0,0:14:05.37,0:14:07.20,pw,,0,0,0,,Fokus menghadapi bahaya di Makam Dunia.
+Dialogue: 0,0:14:14.80,0:14:16.23,pw,,0,0,0,,Bersiap bertempur!
+Dialogue: 0,0:14:16.73,0:14:19.40,pw,,0,0,0,,Ini adalah para master yang tewas di masa lalu.
+Dialogue: 0,0:14:19.83,0:14:21.86,pw,,0,0,0,,Kesadaran mereka berubah menjadi roh perang.
+Dialogue: 0,0:14:22.73,0:14:24.30,pw,,0,0,0,,Mereka memakan energi ilahi.
+Dialogue: 0,0:14:24.63,0:14:25.86,pw,,0,0,0,,Semakin Bertarung, Semakin Kuat.
+Dialogue: 0,0:14:40.47,0:14:41.90,pw,,0,0,0,,Mereka bisa menggoyahkan roh primordial.
+Dialogue: 0,0:14:46.47,0:14:49.17,pw,,0,0,0,,Bertahanlah, lewati malapetaka ini.
+Dialogue: 0,0:14:55.80,0:14:56.93,pw,,0,0,0,,Terima kasih.
+Dialogue: 0,0:15:10.93,0:15:13.30,pw,,0,0,0,,Dewa roh perang bisa memelihara jiwa.
+Dialogue: 0,0:15:14.27,0:15:16.33,pw,,0,0,0,,Ternyata semua adalah suplemen yang datang sendiri untuk dimanfaatkan.

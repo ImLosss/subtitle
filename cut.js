@@ -42,16 +42,16 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', 
       '-i', inputFile, 
-      '-ss', '00:02:26', 
-      '-to', '00:18:01',
-      // '-vf', 'scale=1920:-2', 
-      // '-r', '25', 
+      // '-ss', '00:02:21', 
+      // '-to', '00:16:22',
+      '-vf', 'scale=1280:-2', 
+      '-r', '25', 
       '-c:v', 'h264_amf', 
       '-cq:v', '18', 
       '-rc', 'cbr', 
-      '-b:v', '5M',
-      '-maxrate', '5M',
-      '-bufsize', '10M',
+      '-b:v', '2M',
+      '-maxrate', '2M',
+      '-bufsize', '4M',
       '-quality', 'quality',
       '-preset', 'quality', 
       '-c:a', 'aac',
@@ -136,5 +136,5 @@ async function extractSubtitle(inputFile, subtitleStreamIndex, outputFile, force
 //       outputFile
 //     ];
 
-cut('TOS_EP174.mp4', 'TOS_EP174d.mp4');
-// extractSubtitle('tomb/TOMB_EP2.mkv', 0, 'tomb/TOMB_EP2_INDO.ass', false);
+cut('JD_EP26.mp4', 'JD_EP26d.mp4');
+// extractSubtitle('06V2_4K.mp4', 0, 'TOMB_EP6_INDO.srt', true);

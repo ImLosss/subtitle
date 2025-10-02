@@ -1,0 +1,177 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.04,0:00:07.88,jd,,0,0,0,,Gui Li.
+Dialogue: 0,0:00:10.40,0:00:12.20,jd,,0,0,0,,Aku ulangi sekali lagi.
+Dialogue: 0,0:00:12.28,0:00:13.08,jd,,0,0,0,,Minggir!
+Dialogue: 0,0:00:24.32,0:00:26.48,jd,,0,0,0,,Kalau begitu, jangan salahkan aku.
+Dialogue: 0,0:00:32.36,0:00:34.08,jd,,0,0,0,,Aku berlatih siang dan malam,
+Dialogue: 0,0:00:36.12,0:00:38.24,jd,,0,0,0,,hanya untuk membasmi kejahatan dan membela kebenaran.
+Dialogue: 0,0:00:42.80,0:00:44.04,jd,,0,0,0,,Tapi kenapa?
+Dialogue: 0,0:00:44.48,0:00:47.04,jd,,0,0,0,,Kenapa harus kamu?
+Dialogue: 0,0:01:02.16,0:01:03.88,jd,,0,0,0,,Kamu yang lambat seperti ini,
+Dialogue: 0,0:01:04.04,0:01:05.64,jd,,0,0,0,,bukanlah lawanku.
+Dialogue: 0,0:01:06.28,0:01:08.56,jd,,0,0,0,,Lebih baik aku mengalahkanmu beberapa jurus.
+Dialogue: 0,0:01:08.56,0:01:09.32,jd,,0,0,0,,Tidak perlu!
+Dialogue: 0,0:01:09.60,0:01:10.64,jd,,0,0,0,,Aku pasti akan mengalahkanmu.
+Dialogue: 0,0:01:13.12,0:01:13.80,jd,,0,0,0,,Xiao Fan.
+Dialogue: 0,0:01:14.32,0:01:15.28,jd,,0,0,0,,Kamu berlatih sangat lambat.
+Dialogue: 0,0:01:15.64,0:01:17.20,jd,,0,0,0,,Apa gurumu yang pendek dan gemuk itu,
+Dialogue: 0,0:01:17.48,0:01:18.80,jd,,0,0,0,,tidak mengajarimu dengan baik?
+Dialogue: 0,0:01:19.36,0:01:19.88,jd,,0,0,0,,Jangan asal bicara.
+Dialogue: 0,0:01:20.32,0:01:21.16,jd,,0,0,0,,Guru pernah berkata,
+Dialogue: 0,0:01:21.64,0:01:22.96,jd,,0,0,0,,Lautan Tao tak bertepi, ketekunan adalah perahunya.
+Dialogue: 0,0:01:23.56,0:01:24.76,jd,,0,0,0,,Meskipun bakatku kurang,
+Dialogue: 0,0:01:25.32,0:01:26.36,jd,,0,0,0,,asalkan tekun dan ulet,
+Dialogue: 0,0:01:26.80,0:01:28.04,jd,,0,0,0,,belum tentu kalah dengan orang lain.
+Dialogue: 0,0:01:28.48,0:01:29.68,jd,,0,0,0,,Kurasa dia hanya membohongimu.
+Dialogue: 0,0:01:29.68,0:01:30.52,jd,,0,0,0,,Guru bilang bisa.
+Dialogue: 0,0:01:30.80,0:01:32.04,jd,,0,0,0,,Maka aku pasti bisa.
+Dialogue: 0,0:01:38.48,0:01:39.04,jd,,0,0,0,,Untuk mengalahkanku,
+Dialogue: 0,0:01:39.04,0:01:40.08,jd,,0,0,0,,cobalah lain hari.
+Dialogue: 0,0:02:07.08,0:02:08.88,jd,,0,0,0,,Lahir dan lenyap, bertambah dan berkurang.
+Dialogue: 0,0:02:09.24,0:02:11.24,jd,,0,0,0,,Tak ternoda dan tak suci.
+Dialogue: 0,0:02:23.60,0:02:24.68,jd,,0,0,0,,Api Pembakar.
+Dialogue: 0,0:02:25.40,0:02:26.88,jd,,0,0,0,,Penjara Api.
+Dialogue: 0,0:02:35.68,0:02:37.24,jd,,0,0,0,,Waktunya telah tiba.
+Dialogue: 0,0:02:37.92,0:02:39.52,jd,,0,0,0,,Pedang suci anugerah langit.
+Dialogue: 0,0:02:39.88,0:02:41.68,jd,,0,0,0,,Bunuh siluman jahat.
+Dialogue: 0,0:02:50.24,0:02:51.20,jd,,0,0,0,,Formasi Pedang Zhuxian,
+Dialogue: 0,0:02:51.72,0:02:52.80,jd,,0,0,0,,benar-benar tak tertandingi.
+Dialogue: 0,0:03:08.49,0:03:09.04,jd,,0,0,0,,Tebas.
+Dialogue: 0,0:03:24.56,0:03:25.44,jd,,0,0,0,,Siluman monster.
+Dialogue: 0,0:03:25.87,0:03:26.68,jd,,0,0,0,,Di mana siluman monsternya?
+Dialogue: 0,0:03:27.28,0:03:28.28,jd,,0,0,0,,Apakah siluman monsternya mati?
+Dialogue: 0,0:03:32.84,0:03:35.84,jd,,0,0,0,,Biar kuperlihatkan padamu kekuatan sihirku.
+Dialogue: 0,0:03:39.08,0:03:39.68,jd,,0,0,0,,Hati-hati.
+Dialogue: 0,0:03:50.80,0:03:51.58,jd,,0,0,0,,Pedang.
+Dialogue: 0,0:03:53.04,0:03:53.48,jd,,0,0,0,,Datang.
+Dialogue: 0,0:04:08.72,0:04:09.32,jd,,0,0,0,,Pergi!
+Dialogue: 0,0:04:14.80,0:04:17.40,jd,,0,0,0,,Inikah andalan terakhirmu?
+Dialogue: 0,0:04:18.60,0:04:19.80,jd,,0,0,0,,Kekuatan siluman monster ini,
+Dialogue: 0,0:04:20.36,0:04:21.84,jd,,0,0,0,,apakah tak terbatas?
+Dialogue: 0,0:04:26.96,0:04:28.36,jd,,0,0,0,,Jangan lancang!
+Dialogue: 0,0:04:41.52,0:04:44.12,jd,,0,0,0,,Senjata pusaka yang sungguh tiada tara.
+Dialogue: 0,0:04:44.72,0:04:46.04,jd,,0,0,0,,Sayangnya,
+Dialogue: 0,0:04:46.96,0:04:49.12,jd,,0,0,0,,tidak bisa digunakan sepenuhnya.
+Dialogue: 0,0:05:01.00,0:05:02.24,jd,,0,0,0,,Berlagak sombong.
+Dialogue: 0,0:05:20.48,0:05:23.08,jd,,0,0,0,,Uasaha yang sia-sia.
+Dialogue: 0,0:05:45.76,0:05:47.04,jd,,0,0,0,,Dengan satu tebasan pedang ini,
+Dialogue: 0,0:05:48.08,0:05:49.36,jd,,0,0,0,,mari kita akhiri.
+Dialogue: 0,0:05:52.80,0:05:54.88,jd,,0,0,0,,Jurus Pedang Qingyun.
+Dialogue: 0,0:05:56.08,0:05:58.88,jd,,0,0,0,,Zhan Gui Shen.
+Dialogue: 0,0:06:01.64,0:06:04.08,jd,,0,0,0,,Tebas khayalan makhluk hidup.
+Dialogue: 0,0:06:05.48,0:06:08.20,jd,,0,0,0,,Tebas ketidakadilan langit dan bumi.
+Dialogue: 0,0:06:11.16,0:06:11.88,jd,,0,0,0,,Itu jurusnya.
+Dialogue: 0,0:06:31.04,0:06:32.12,jd,,0,0,0,,Sayangnya,
+Dialogue: 0,0:06:32.72,0:06:34.08,jd,,0,0,0,,hanya bentuk luarnya saja.
+Dialogue: 0,0:06:35.44,0:06:37.04,jd,,0,0,0,,Mengendalikan Pedang Naga,
+Dialogue: 0,0:06:37.04,0:06:38.88,jd,,0,0,0,,harus menantang langit dan bumi
+Dialogue: 0,0:06:38.88,0:06:40.08,jd,,0,0,0,,maju tanpa ragu.
+Dialogue: 0,0:06:40.88,0:06:42.52,jd,,0,0,0,,Kau berlatih dengan tekun.
+Dialogue: 0,0:06:42.56,0:06:44.32,jd,,0,0,0,,Memang kemajuannya sangat cepat,
+Dialogue: 0,0:06:44.92,0:06:46.16,jd,,0,0,0,,tapi hanya mengikuti aturan.
+Dialogue: 0,0:06:46.16,0:06:47.96,jd,,0,0,0,,Dan bertahap.
+Dialogue: 0,0:06:48.36,0:06:50.48,jd,,0,0,0,,Itu bukanlah makna sejati Pedang Naga.
+Dialogue: 0,0:06:50.48,0:06:51.28,jd,,0,0,0,,Senior.
+Dialogue: 0,0:06:51.88,0:06:53.80,jd,,0,0,0,,Hari ini murid baru mengerti.
+Dialogue: 0,0:06:54.28,0:06:56.40,jd,,0,0,0,,Apa makna sejati Pedang Naga.
+Dialogue: 0,0:06:59.20,0:07:01.20,jd,,0,0,0,,Berdiri di antara langit dan bumi.
+Dialogue: 0,0:07:01.92,0:07:03.72,jd,,0,0,0,,Menantang pedang ke tempat yang lebih tinggi.
+Dialogue: 0,0:07:10.28,0:07:13.48,jd,,0,0,0,,Hancur!
+Dialogue: 0,0:07:28.32,0:07:31.36,jd,,0,0,0,,Jika yang terbunuh adalah orang yang kau pedulikan,
+Dialogue: 0,0:07:32.14,0:07:34.18,jd,,0,0,0,,apa yang akan kau pikirkan?
+Dialogue: 0,0:07:39.88,0:07:42.34,jd,,0,0,0,,apa yang akan kau pikirkan?
+Dialogue: 0,0:07:43.62,0:07:45.62,jd,,0,0,0,,Apakah kau benar-benar tidak tahu?
+Dialogue: 0,0:08:02.14,0:08:03.78,jd,,0,0,0,,Xiao Fan.
+Dialogue: 0,0:08:05.02,0:08:06.34,jd,,0,0,0,,Aku.
+Dialogue: 0,0:08:06.62,0:08:07.98,jd,,0,0,0,,Selalu.
+Dialogue: 0,0:08:10.14,0:08:12.42,jd,,0,0,0,,Menganggapnya sebagai saudaraku.
+Dialogue: 0,0:08:15.62,0:08:17.42,jd,,0,0,0,,Jika,
+Dialogue: 0,0:08:17.94,0:08:20.38,jd,,0,0,0,,bahkan aku tidak berpihak padanya.
+Dialogue: 0,0:08:22.10,0:08:25.10,jd,,0,0,0,,Maka tidak akan ada yang berpihak padanya.
+Dialogue: 0,0:08:34.50,0:08:36.58,jd,,0,0,0,,Dasar iblis.
+Dialogue: 0,0:08:38.42,0:08:40.34,jd,,0,0,0,,Kembalikan guruku!
+Dialogue: 0,0:08:44.94,0:08:46.10,jd,,0,0,0,,Berhentilah!
+Dialogue: 0,0:08:46.50,0:08:47.19,jd,,0,0,0,,Jingyu!
+Dialogue: 0,0:08:49.10,0:08:50.86,jd,,0,0,0,,Kembalikan saudaraku.
+Dialogue: 0,0:08:54.30,0:08:55.82,jd,,0,0,0,,Kembalikan.
+Dialogue: 0,0:08:56.14,0:08:59.22,jd,,0,0,0,,Kembalikan saudaraku Xiao Fan.
+Dialogue: 0,0:09:05.02,0:09:05.94,jd,,0,0,0,,Menyerah?
+Dialogue: 0,0:09:06.32,0:09:08.30,jd,,0,0,0,,Kau menyerah atau tidak?
+Dialogue: 0,0:09:12.26,0:09:13.58,jd,,0,0,0,,Kau memang punya nyali.
+Dialogue: 0,0:09:23.03,0:09:23.72,jd,,0,0,0,,Maaf.
+Dialogue: 0,0:09:24.10,0:09:25.74,jd,,0,0,0,,Aku akan melindungimu mulai sekarang.
+Dialogue: 0,0:09:26.39,0:09:27.68,jd,,0,0,0,,Kamu menang kali ini.
+Dialogue: 0,0:09:27.78,0:09:28.98,jd,,0,0,0,,Lain kali belum tentu.
+Dialogue: 0,0:09:31.50,0:09:32.90,jd,,0,0,0,,Lakukan saja.
+Dialogue: 0,0:09:33.58,0:09:35.10,jd,,0,0,0,,Di dunia ini,
+Dialogue: 0,0:09:35.78,0:09:39.62,jd,,0,0,0,,sudah tidak ada lagi orang yang kusayangi.
+Dialogue: 0,0:09:54.90,0:09:57.74,jd,,0,0,0,,Tak kusangka teknik kultivasi Zhongtu,
+Dialogue: 0,0:09:57.98,0:10:00.50,jd,,0,0,0,,memiliki kekuatan yang begitu dahsyat.
+Dialogue: 0,0:10:02.38,0:10:05.74,jd,,0,0,0,,Luar biasa.
+Dialogue: 0,0:10:06.74,0:10:21.74,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:18.82,0:11:19.98,jd,,0,0,0,,Paman Guru Daoxuan.
+Dialogue: 0,0:11:19.98,0:11:21.50,jd,,0,0,0,,Ketua Sekte.
+Dialogue: 0,0:11:21.70,0:11:23.22,jd,,0,0,0,,Paman Guru Daoxuan.
+Dialogue: 0,0:11:24.34,0:11:26.22,jd,,0,0,0,,Kalian semua.
+Dialogue: 0,0:11:26.22,0:11:28.74,jd,,0,0,0,,Bertemu di alam baka saja.
+Dialogue: 0,0:11:29.74,0:11:44.74,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:59.85,0:12:01.45,jd,,0,0,0,,Hunus Pedang!
+Dialogue: 0,0:12:17.82,0:12:19.94,jd,,0,0,0,,Aku hanya bisa bertahan sebentar.
+Dialogue: 0,0:12:20.06,0:12:21.02,jd,,0,0,0,,Cepat pergi.
+Dialogue: 0,0:12:21.66,0:12:23.38,jd,,0,0,0,,Pertarungan semut,
+Dialogue: 0,0:12:23.66,0:12:25.78,jd,,0,0,0,,sama sekali tidak berarti.
+Dialogue: 0,0:12:37.78,0:12:40.02,jd,,0,0,0,,Apa yang masih kau ragukan?
+Dialogue: 0,0:12:40.30,0:12:41.10,jd,,0,0,0,,Aku...
+Dialogue: 0,0:12:45.22,0:12:48.10,jd,,0,0,0,,Bukankah kau bersumpah membela Qingyun sampai mati?
+Dialogue: 0,0:12:48.10,0:12:50.06,jd,,0,0,0,,Membela makhluk hidup?
+Dialogue: 0,0:12:52.98,0:12:55.46,jd,,0,0,0,,Apakah kau menyesal?
+Dialogue: 0,0:13:04.74,0:13:06.94,jd,,0,0,0,,Apa yang diinginkan hati.
+Dialogue: 0,0:13:07.50,0:13:09.74,jd,,0,0,0,,Tak akan kusesali meski mati sembilan kali.
+Dialogue: 0,0:13:14.50,0:13:17.18,jd,,0,0,0,,Leluhur Sekte Qingyun dari generasi ke generasi.
+Dialogue: 0,0:13:17.94,0:13:19.90,jd,,0,0,0,,Murid Daoxuan tidak berbakat.
+Dialogue: 0,0:13:20.42,0:13:22.86,jd,,0,0,0,,Tidak mampu menaklukkan iblis dari aliran sesat.
+Dialogue: 0,0:13:23.54,0:13:25.22,jd,,0,0,0,,Memalukan perguruan.
+Dialogue: 0,0:13:25.46,0:13:26.86,jd,,0,0,0,,Membebani makhluk hidup.
+Dialogue: 0,0:13:27.38,0:13:29.58,jd,,0,0,0,,Kini melanggar larangan,
+Dialogue: 0,0:13:29.98,0:13:31.82,jd,,0,0,0,,hanya demi membasmi iblis dan siluman.
+Dialogue: 0,0:13:32.22,0:13:33.54,jd,,0,0,0,,Di kemudian hari,
+Dialogue: 0,0:13:34.10,0:13:36.18,jd,,0,0,0,,meskipun murid menderita siksaan abadi,
+Dialogue: 0,0:13:36.74,0:13:39.02,jd,,0,0,0,,akan kutanggung sendiri.
+Dialogue: 0,0:13:43.14,0:13:44.57,jd,,0,0,0,,Segel Tianji.
+Dialogue: 0,0:13:46.22,0:13:47.26,jd,,0,0,0,,Hancur.
+Dialogue: 0,0:13:54.78,0:13:56.58,jd,,0,0,0,,Akhirnya...
+Dialogue: 0,0:14:00.86,0:14:04.02,jd,,0,0,0,,Puncak Dazhu menyembunyikan giok di dalam kuali.
+Dialogue: 0,0:14:04.82,0:14:07.38,jd,,0,0,0,,Puncak Xiaozhu, Gua Wangyue yang menjulang.
+Dialogue: 0,0:14:08.10,0:14:11.26,jd,,0,0,0,,Angin berputar di kepala naga menelan matahari laut.
+Dialogue: 0,0:14:11.82,0:14:16.42,jd,,0,0,0,,Mentari pagi dan cahaya senja, Jalan menuju langit.
+Dialogue: 0,0:14:26.82,0:14:28.14,jd,,0,0,0,,Kekuatan yang sangat dahsyat.
+Dialogue: 0,0:14:28.78,0:14:29.82,jd,,0,0,0,,Guru.
+Dialogue: 0,0:14:30.82,0:14:45.82,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:14:55.38,0:14:57.66,jd,,0,0,0,,Ternyata adalah aura jahat.

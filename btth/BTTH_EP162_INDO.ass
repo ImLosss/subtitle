@@ -1,0 +1,267 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:04:10.90,0:04:13.30,komen,,0,0,0,,{\pos(701,336)\fad(500,250)}[Di Xiezi]
+Dialogue: 0,0:04:50.35,0:04:52.82,komen,,0,0,0,,{\pos(880,505)\fad(500,250)}[Tian Xiezi]
+Dialogue: 0,0:02:35.38,0:02:37.78,btth,,0,0,0,,Seiring Aula Jiwa mempercepat pengumpulan jiwa.
+Dialogue: 0,0:02:37.82,0:02:40.38,btth,,0,0,0,,Konspirasi Klan Hun sepertinya semakin cepat.
+Dialogue: 0,0:02:40.98,0:02:45.62,btth,,0,0,0,,Dan kabar tentang peta Purified Lotus Demon Flame yang akan muncul di Ajang Dagang.
+Dialogue: 0,0:02:45.62,0:02:48.42,btth,,0,0,0,,Membuat situasi Dataran Tengah semakin kacau.
+Dialogue: 0,0:02:49.26,0:02:51.82,btth,,0,0,0,,Xiao Yan dan rombongan yang datang ke Ajang Dagang,
+Dialogue: 0,0:02:51.86,0:02:55.82,btth,,0,0,0,,tiba di kota kecil yang dibuat khusus untuk Ajang Dagang.
+Dialogue: 0,0:02:56.14,0:02:57.22,btth,,0,0,0,,Tak disangka,
+Dialogue: 0,0:02:57.22,0:02:59.02,btth,,0,0,0,,Xiao Yan justru menemukan barang langka.
+Dialogue: 0,0:02:59.02,0:03:01.70,btth,,0,0,0,,Untuk Medusa di lapak dagang.
+Dialogue: 0,0:03:02.82,0:03:05.10,btth,,0,0,0,,Api Surgawi seperti Purified Lotus Demon Flame.
+Dialogue: 0,0:03:05.14,0:03:06.42,btth,,0,0,0,,Ditakuti oleh langit dan bumi.
+Dialogue: 0,0:03:06.42,0:03:09.82,btth,,0,0,0,,Tapi semua orang tetap berebut mendapatkannya.
+Dialogue: 0,0:03:10.10,0:03:10.82,btth,,0,0,0,,Terakhir,
+Dialogue: 0,0:03:10.82,0:03:13.42,btth,,0,0,0,,Yao Lao berhasil memenangkan lelang untuk peta terakhir,
+Dialogue: 0,0:03:13.42,0:03:16.10,btth,,0,0,0,,dengan pil Petir Pil Sembilan Warna.
+Dialogue: 0,0:03:16.26,0:03:20.22,btth,,0,0,0,,Tapi justru menarik perhatian ahli misterius.
+Dialogue: 0,0:03:31.82,0:03:34.50,btth,,0,0,0,,Awalnya kukira memperebutkan peta Purified Lotus Demon Flame akan sulit.
+Dialogue: 0,0:03:34.78,0:03:36.22,btth,,0,0,0,,Tak disangka berjalan lancar.
+Dialogue: 0,0:03:41.18,0:03:43.46,btth,,0,0,0,,Orang yang mengintai kita saat lelang,
+Dialogue: 0,0:03:43.82,0:03:45.22,btth,,0,0,0,,bukan orang baik.
+Dialogue: 0,0:03:45.74,0:03:47.46,btth,,0,0,0,,Siapa latar belakang orang itu?
+Dialogue: 0,0:03:50.86,0:03:51.66,btth,,0,0,0,,Semuanya,
+Dialogue: 0,0:03:51.94,0:03:53.66,btth,,0,0,0,,mengapa terburu-buru pergi?
+Dialogue: 0,0:04:02.46,0:04:04.06,btth,,0,0,0,,Yao Chen,
+Dialogue: 0,0:04:04.18,0:04:06.10,btth,,0,0,0,,tak kusangka kau hidup kembali.
+Dialogue: 0,0:04:11.26,0:04:16.58,btth,,0,0,0,,Tak disangka bisa bertemu dua wanita cantik luar biasa.
+Dialogue: 0,0:04:17.78,0:04:18.62,btth,,0,0,0,,Tian Xiezi.
+Dialogue: 0,0:04:18.65,0:04:19.73,btth,,0,0,0,,Di Xiezi.
+Dialogue: 0,0:04:21.70,0:04:24.82,btth,,0,0,0,,Kakak Beradik Iblis Kalajengking berasal dari sekte aneh cabul.
+Dialogue: 0,0:04:24.94,0:04:25.94,btth,,0,0,0,,Sekte Yunyu.
+Dialogue: 0,0:04:26.78,0:04:28.58,btth,,0,0,0,,Selain Kakak Beradik Iblis Kalajengking, Sekte Yunyu.
+Dialogue: 0,0:04:28.72,0:04:30.20,btth,,0,0,0,,Hanya punya murid perempuan.
+Dialogue: 0,0:04:30.80,0:04:33.92,btth,,0,0,0,,Mereka hanya dijadikan wadah energi oleh dua iblis tua ini.
+Dialogue: 0,0:04:34.32,0:04:35.40,btth,,0,0,0,,Disedot kultivasinya.
+Dialogue: 0,0:04:35.40,0:04:37.60,btth,,0,0,0,,Menjadi alat meningkatkan kekuatan mereka.
+Dialogue: 0,0:04:38.66,0:04:39.57,btth,,0,0,0,,Yao Chen,
+Dialogue: 0,0:04:40.00,0:04:41.72,btth,,0,0,0,,Peta Purified Lotus Demon Flame,
+Dialogue: 0,0:04:42.04,0:04:43.84,btth,,0,0,0,,hari ini pasti kuambil.
+Dialogue: 0,0:04:44.32,0:04:45.52,btth,,0,0,0,,Ingin merampas peta?
+Dialogue: 0,0:04:46.00,0:04:47.20,btth,,0,0,0,,Meski kau mendapatkannya.
+Dialogue: 0,0:04:47.24,0:04:48.32,btth,,0,0,0,,Takkan bisa kau simpan.
+Dialogue: 0,0:04:49.12,0:04:50.67,btth,,0,0,0,,Kau terlalu naif.
+Dialogue: 0,0:04:51.28,0:04:52.52,btth,,0,0,0,,Membunuh kalian,
+Dialogue: 0,0:04:52.76,0:04:56.48,btth,,0,0,0,,Siapa yang akan tahu peta Purified Lotus Demon Flame ada pada kami?
+Dialogue: 0,0:05:02.48,0:05:03.68,btth,,0,0,0,,Silakan coba.
+Dialogue: 0,0:05:04.12,0:05:04.92,btth,,0,0,0,,Yao Chen.
+Dialogue: 0,0:05:05.12,0:05:07.90,btth,,0,0,0,,Jangan kira kami takut hanya karena kau mencapai Ban Sheng.
+Dialogue: 0,0:05:07.96,0:05:11.72,btth,,0,0,0,,Dulu kau gabung dengan berbagai sekte mengusir kami dari Dataran Tengah.
+Dialogue: 0,0:05:12.04,0:05:13.32,btth,,0,0,0,,Masalah ini,
+Dialogue: 0,0:05:13.64,0:05:15.24,btth,,0,0,0,,sudah waktunya diselesaikan.
+Dialogue: 0,0:05:48.76,0:05:49.56,btth,,0,0,0,,Guru.
+Dialogue: 0,0:05:54.08,0:05:56.56,btth,,0,0,0,,Kakak, tahan Yao Chen sebentar.
+Dialogue: 0,0:05:56.56,0:05:58.16,btth,,0,0,0,,Aku akan menangani ketiga orang itu.
+Dialogue: 0,0:05:58.40,0:05:59.72,btth,,0,0,0,,Cepatlah.
+Dialogue: 0,0:06:00.20,0:06:01.68,btth,,0,0,0,,Tenang saja.
+Dialogue: 0,0:06:02.24,0:06:05.68,btth,,0,0,0,,Tadi kalian berdua baru bisa melawanku dengan susah payah.
+Dialogue: 0,0:06:06.08,0:06:08.88,btth,,0,0,0,,Sekarang kau berani menahanku sendirian?
+Dialogue: 0,0:06:08.88,0:06:10.52,btth,,0,0,0,,Sungguh cari mati.
+Dialogue: 0,0:06:10.88,0:06:11.68,btth,,0,0,0,,Yao Chen.
+Dialogue: 0,0:06:12.12,0:06:14.52,btth,,0,0,0,,Kau masih begitu sombong.
+Dialogue: 0,0:06:15.00,0:06:15.84,btth,,0,0,0,,Ketua Sekte.
+Dialogue: 0,0:06:31.34,0:06:32.49,btth,,0,0,0,,Hari ini,
+Dialogue: 0,0:06:32.92,0:06:34.96,btth,,0,0,0,,biarkan aku menemanimu bermain.
+Dialogue: 0,0:06:35.72,0:06:38.96,btth,,0,0,0,,Keduanya ternyata menyembunyikan kekuatan saat menyerang bersama tadi.
+Dialogue: 0,0:06:39.52,0:06:40.52,btth,,0,0,0,,Xiao Yan dan yang lain.
+Dialogue: 0,0:06:44.92,0:06:46.32,btth,,0,0,0,,Gadis-gadis cantik.
+Dialogue: 0,0:06:46.92,0:06:48.60,btth,,0,0,0,,Mau ke mana kalian?
+Dialogue: 0,0:06:50.40,0:06:51.84,btth,,0,0,0,,Puncak Dou Zun Tingkat 6.
+Dialogue: 0,0:06:52.60,0:06:55.12,btth,,0,0,0,,Apa bagusnya si anak muda itu?
+Dialogue: 0,0:06:55.12,0:06:58.32,btth,,0,0,0,,Ikut aku, pasti kalian akan sangat menikmati.
+Dialogue: 0,0:06:58.32,0:06:59.32,btth,,0,0,0,,Kau mencari mati!
+Dialogue: 0,0:06:59.80,0:07:01.20,btth,,0,0,0,,Gadis cantik tetap di sini,
+Dialogue: 0,0:07:01.40,0:07:03.24,btth,,0,0,0,,kau boleh mati!
+Dialogue: 0,0:07:05.16,0:07:06.04,btth,,0,0,0,,Kekuatannya sangat kuat.
+Dialogue: 0,0:07:07.04,0:07:22.04,btth,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:07:37.72,0:07:39.64,btth,,0,0,0,,Begitu cepat sudah melemparkan diri ke pelukan.
+Dialogue: 0,0:07:39.76,0:07:41.32,btth,,0,0,0,,Aku suka.
+Dialogue: 0,0:07:49.50,0:07:50.70,btth,,0,0,0,,Perbedaan kekuatan terlalu besar.
+Dialogue: 0,0:07:51.92,0:07:54.68,btth,,0,0,0,,Guru sepertinya belum bisa menyelesaikan dengan cepat.
+Dialogue: 0,0:07:55.20,0:07:56.16,btth,,0,0,0,,Jika terus begini,
+Dialogue: 0,0:07:56.40,0:07:57.56,btth,,0,0,0,,hanya bisa mencoba.
+Dialogue: 0,0:08:13.00,0:08:14.24,btth,,0,0,0,,Agak menarik.
+Dialogue: 0,0:08:14.56,0:08:17.20,btth,,0,0,0,,Kelihatannya mirip teknik rahasia Burning Flame Valley.
+Dialogue: 0,0:08:20.96,0:08:24.88,btth,,0,0,0,,Bisa meningkat dari Dou Zun Bintang 8 ke puncak Dou Zun Tingkat 3.
+Dialogue: 0,0:08:27.20,0:08:28.04,btth,,0,0,0,,Tapi,
+Dialogue: 0,0:08:28.12,0:08:29.44,btth,,0,0,0,,masih belum cukup.
+Dialogue: 0,0:08:40.24,0:08:42.24,btth,,0,0,0,,Meski meningkat ke puncak Dou Zun Tingkat 3.
+Dialogue: 0,0:08:42.52,0:08:44.72,btth,,0,0,0,,Melawan puncak Dou Zun Tingkat 6 masih sulit.
+Dialogue: 0,0:08:47.56,0:08:48.28,btth,,0,0,0,,Xiao Yan.
+Dialogue: 0,0:08:48.28,0:08:49.08,btth,,0,0,0,,Kau baik-baik saja?
+Dialogue: 0,0:08:49.52,0:08:50.72,btth,,0,0,0,,Bantu tahan sebentar.
+Dialogue: 0,0:08:51.08,0:08:52.12,btth,,0,0,0,,Gadis cantik,
+Dialogue: 0,0:08:52.56,0:08:55.32,btth,,0,0,0,,apa bagusnya si sampah itu?
+Dialogue: 0,0:08:55.52,0:08:56.96,btth,,0,0,0,,Datanglah ke sini.
+Dialogue: 0,0:08:57.12,0:09:00.68,btth,,0,0,0,,Aku akan membuat kalian ketagihan menjadi wanita.
+Dialogue: 0,0:09:01.88,0:09:03.00,btth,,0,0,0,,Bajingan tak tahu malu!
+Dialogue: 0,0:09:03.62,0:09:04.98,btth,,0,0,0,,Sayangku.
+Dialogue: 0,0:09:05.02,0:09:07.50,btth,,0,0,0,,sudah tidak sabar menyerah.
+Dialogue: 0,0:09:12.50,0:09:13.42,btth,,0,0,0,,Orang ini terlalu kuat.
+Dialogue: 0,0:09:13.82,0:09:16.42,btth,,0,0,0,,Tidak tahu apakah Python Penelan Langit Tujuh Warna bisa bertahan.
+Dialogue: 0,0:09:32.10,0:09:33.94,btth,,0,0,0,,Dua gadis cantik ini unik.
+Dialogue: 0,0:09:34.34,0:09:36.34,btth,,0,0,0,,Satu adalah Python Penelan Langit Tujuh Warna,
+Dialogue: 0,0:09:36.34,0:09:37.90,btth,,0,0,0,,satu lagi adalah Tubuh Racun.
+Dialogue: 0,0:09:38.42,0:09:39.54,btth,,0,0,0,,Keduanya bekerja sama,
+Dialogue: 0,0:09:39.66,0:09:42.66,btth,,0,0,0,,Ahli puncak Dou Zun biasa memang tidak bisa menanganinya.
+Dialogue: 0,0:09:42.90,0:09:44.18,btth,,0,0,0,,Tapi sayangnya,
+Dialogue: 0,0:09:44.26,0:09:46.34,btth,,0,0,0,,kalian bertemu dengan aku.
+Dialogue: 0,0:09:58.62,0:09:59.42,btth,,0,0,0,,Serang bersama!
+Dialogue: 0,0:10:02.22,0:10:03.70,btth,,0,0,0,,Aku suka.
+Dialogue: 0,0:10:06.54,0:10:07.66,btth,,0,0,0,,Empat Api Surgawi.
+Dialogue: 0,0:10:12.18,0:10:12.98,btth,,0,0,0,,Bajingan tua!
+Dialogue: 0,0:10:13.42,0:10:16.74,btth,,0,0,0,,Hari ini akan kucoba kekuatan Api Teratai Lima Warnaku padamu!
+Dialogue: 0,0:10:25.02,0:10:26.22,btth,,0,0,0,,Dia gila!
+Dialogue: 0,0:10:26.22,0:10:27.50,btth,,0,0,0,,Bahkan menyatukan Api Surgawi!
+Dialogue: 0,0:10:30.54,0:10:31.98,btth,,0,0,0,,Jangan biarkan dia mempengaruhi Xiao Yan!
+Dialogue: 0,0:10:44.54,0:10:45.34,btth,,0,0,0,,Gadis cantik.
+Dialogue: 0,0:10:45.78,0:10:47.22,btth,,0,0,0,,Karena kalian ingin bertarung.
+Dialogue: 0,0:10:47.50,0:10:50.06,btth,,0,0,0,,Aku juga tidak akan mengasihani kalian.
+Dialogue: 0,0:10:55.28,0:10:55.87,btth,,0,0,0,,Lao'er,
+Dialogue: 0,0:10:55.98,0:10:57.22,btth,,0,0,0,,Kenapa masih belum selesai?
+Dialogue: 0,0:11:02.50,0:11:03.22,btth,,0,0,0,,Kakak!
+Dialogue: 0,0:11:05.42,0:11:07.42,btth,,0,0,0,,Kalau tidak bisa menangkap si anak itu,
+Dialogue: 0,0:11:07.78,0:11:10.82,btth,,0,0,0,,tangkap satu gadis cantik sebagai sandera dulu!
+Dialogue: 0,0:11:18.06,0:11:18.90,btth,,0,0,0,,Gadis cantik.
+Dialogue: 0,0:11:19.42,0:11:21.10,btth,,0,0,0,,Mau lari kemana kalian!
+Dialogue: 0,0:11:35.34,0:11:36.74,btth,,0,0,0,,Mau lari?
+Dialogue: 0,0:11:48.78,0:11:49.66,btth,,0,0,0,,Bajingan!
+Dialogue: 0,0:11:53.78,0:11:54.94,btth,,0,0,0,,Mati kau!
+Dialogue: 0,0:12:02.14,0:12:03.14,Jurus btth,,0,0,0,,{\c&H6FCF6C&}Bell of Thick Earth
+Dialogue: 0,0:12:04.14,0:12:19.14,btth,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:43.82,0:12:44.62,btth,,0,0,0,,Kau baik-baik saja?
+Dialogue: 0,0:12:46.34,0:12:47.22,btth,,0,0,0,,Aku baik-baik saja.
+Dialogue: 0,0:13:09.18,0:13:10.06,btth,,0,0,0,,Apa ini?
+Dialogue: 0,0:13:11.30,0:13:12.45,btth,,0,0,0,,Vajra Glass Body.
+Dialogue: 0,0:13:13.46,0:13:15.02,btth,,0,0,0,,Tak disangka ada di tangan mereka.
+Dialogue: 0,0:13:21.82,0:13:22.62,btth,,0,0,0,,Guru.
+Dialogue: 0,0:13:23.54,0:13:24.98,btth,,0,0,0,,Pertarungan yang terjadi di sini,
+Dialogue: 0,0:13:24.98,0:13:27.42,btth,,0,0,0,,akan segera menarik perhatian para ahli.
+Dialogue: 0,0:13:27.42,0:13:28.58,btth,,0,0,0,,Kita cepat pergi.
+Dialogue: 0,0:13:28.82,0:13:30.18,btth,,0,0,0,,Hindari masalah.
+Dialogue: 0,0:13:38.46,0:13:39.42,btth,,0,0,0,,Kelihatannya,
+Dialogue: 0,0:13:39.62,0:13:41.74,btth,,0,0,0,,ini hanya peta yang digambar sembarangan.
+Dialogue: 0,0:13:42.62,0:13:44.18,btth,,0,0,0,,Peta kuno ini tidak seperti dibuat-buat.
+Dialogue: 0,0:13:44.58,0:13:46.38,btth,,0,0,0,,Tidak mungkin untuk menipu orang.
+Dialogue: 0,0:13:47.06,0:13:49.38,btth,,0,0,0,,Pasti ada misterinya.
+Dialogue: 0,0:13:54.18,0:13:55.42,btth,,0,0,0,,Coba teteskan darah.
+Dialogue: 0,0:14:08.46,0:14:09.74,btth,,0,0,0,,Purified Lotus Demon Flame!
+Dialogue: 0,0:14:10.82,0:14:11.82,btth,,0,0,0,,Api Iblis!
+Dialogue: 0,0:14:19.62,0:14:20.42,btth,,0,0,0,,Peta kuno ini.
+Dialogue: 0,0:14:20.42,0:14:21.28,btth,,0,0,0,,Tahan Api Surgawi.
+Dialogue: 0,0:14:23.78,0:14:24.58,btth,,0,0,0,,Berhasil.
+Dialogue: 0,0:14:24.58,0:14:25.35,btth,,0,0,0,,Tambah kekuatan api!
+Dialogue: 0,0:14:39.98,0:14:41.30,btth,,0,0,0,,Dua bulan muncul bersamaan.
+Dialogue: 0,0:14:41.46,0:14:42.66,btth,,0,0,0,,Sembilan bintang menyatu.
+Dialogue: 0,0:14:42.98,0:14:44.38,btth,,0,0,0,,Pasang surut langit dan bumi.
+Dialogue: 0,0:14:44.38,0:14:45.62,btth,,0,0,0,,Api Iblis turun ke dunia.
+Dialogue: 0,0:14:46.54,0:14:47.38,btth,,0,0,0,,Guru.
+Dialogue: 0,0:14:47.38,0:14:48.26,btth,,0,0,0,,Apa artinya ini?
+Dialogue: 0,0:14:48.96,0:14:50.36,btth,,0,0,0,,Yang dimaksud dua bulan muncul bersamaan.
+Dialogue: 0,0:14:50.36,0:14:51.36,btth,,0,0,0,,Sembilan bintang menyatu.
+Dialogue: 0,0:14:51.60,0:14:53.88,btth,,0,0,0,,Menggambarkan fenomena langit dan bumi yang khusus.
+Dialogue: 0,0:14:54.56,0:14:55.68,btth,,0,0,0,,Tapi fenomena ini,
+Dialogue: 0,0:14:55.80,0:14:57.76,btth,,0,0,0,,setiap seribu tahun baru muncul sekali.
+Dialogue: 0,0:14:58.84,0:15:00.00,btth,,0,0,0,,Saat fenomena muncul,
+Dialogue: 0,0:15:00.28,0:15:01.92,btth,,0,0,0,,memicu pasang surut langit dan bumi.
+Dialogue: 0,0:15:02.28,0:15:04.32,btth,,0,0,0,,Purified Lotus Demon Flame akan turun ke dunia.
+Dialogue: 0,0:15:05.68,0:15:07.00,btth,,0,0,0,,Muncul sekali setiap seribu tahun.
+Dialogue: 0,0:15:07.08,0:15:08.88,btth,,0,0,0,,Bukankah itu berarti tidak ada kesempatan?
+Dialogue: 0,0:15:09.96,0:15:10.92,btth,,0,0,0,,Hitung waktunya.
+Dialogue: 0,0:15:11.08,0:15:12.96,btth,,0,0,0,,Sejak terakhir kali fenomena ini muncul.
+Dialogue: 0,0:15:13.16,0:15:15.08,btth,,0,0,0,,Sudah lewat 997 tahun.
+Dialogue: 0,0:15:15.96,0:15:17.48,btth,,0,0,0,,Artinya tiga tahun lagi,
+Dialogue: 0,0:15:17.56,0:15:19.40,btth,,0,0,0,,akan muncul lagi dua bulan bersamaan.
+Dialogue: 0,0:15:19.40,0:15:20.60,btth,,0,0,0,,Sembilan bintang menyatu.
+Dialogue: 0,0:15:23.56,0:15:24.44,btth,,0,0,0,,Tiga tahun lagi...
+Dialogue: 0,0:15:24.76,0:15:26.12,btth,,0,0,0,,gerakan Api Iblis yang muncul,
+Dialogue: 0,0:15:26.12,0:15:27.68,btth,,0,0,0,,pasti akan menarik banyak ahli.
+Dialogue: 0,0:15:28.16,0:15:30.04,btth,,0,0,0,,Saat itu semua orang punya kesempatan menemukan Api Iblis.
+Dialogue: 0,0:15:31.04,0:15:46.04,btth,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:16:01.72,0:16:02.52,btth,,0,0,0,,Xiao Yan dia...
+Dialogue: 0,0:16:03.20,0:16:04.00,btth,,0,0,0,,Tadi,
+Dialogue: 0,0:16:04.08,0:16:06.96,btth,,0,0,0,,ada energi jiwa dari peta kuno yang masuk ke dahi Xiao Yan.
+Dialogue: 0,0:16:09.64,0:16:10.60,btth,,0,0,0,,Jangan sentuh dia dulu.
+Dialogue: 0,0:16:12.44,0:16:13.24,btth,,0,0,0,,Ada apa?
+Dialogue: 0,0:16:15.40,0:16:16.52,btth,,0,0,0,,Jawab satu pertanyaanku.
+Dialogue: 0,0:16:17.28,0:16:18.72,btth,,0,0,0,,Saat pertama kali kita bertemu.
+Dialogue: 0,0:16:18.72,0:16:19.68,btth,,0,0,0,,Berapa usiamu?
+Dialogue: 0,0:16:20.84,0:16:21.58,btth,,0,0,0,,Lima Belas.
+Dialogue: 0,0:16:21.60,0:16:22.36,btth,,0,0,0,,Guru.
+Dialogue: 0,0:16:24.16,0:16:27.64,btth,,0,0,0,,Guru takut tubuhmu diduduki jiwa ahli kuno.
+Dialogue: 0,0:16:29.32,0:16:32.20,btth,,0,0,0,,Memang ada sekumpulan energi jiwa yang tertinggal di otakku.
+Dialogue: 0,0:16:34.00,0:16:35.88,btth,,0,0,0,,Aku sudah coba dengan kekuatan jiwa.
+Dialogue: 0,0:16:36.04,0:16:37.32,btth,,0,0,0,,Tidak bisa menggerakkan benda itu.
+Dialogue: 0,0:16:37.84,0:16:39.48,btth,,0,0,0,,Untungnya tidak ada tindakan lebih lanjut.
+Dialogue: 0,0:16:40.32,0:16:41.12,btth,,0,0,0,,Tapi,
+Dialogue: 0,0:16:41.52,0:16:44.00,btth,,0,0,0,,Aku sepertinya merasakan informasi tentang Purified Lotus Saint.
+Dialogue: 0,0:16:46.68,0:16:47.84,btth,,0,0,0,,Jika tidak salah tebak,
+Dialogue: 0,0:16:48.20,0:16:51.08,btth,,0,0,0,,Purified Lotus Saint ini adalah pemilik Purified Lotus Demon Flame.
+Dialogue: 0,0:16:52.48,0:16:54.12,btth,,0,0,0,,Aku pernah melihat di buku kuno.
+Dialogue: 0,0:16:54.64,0:16:57.00,btth,,0,0,0,,Orang ini pernah yang paling dekat dengan Dou Di.
+Dialogue: 0,0:16:57.48,0:16:59.72,btth,,0,0,0,,Tapi tentang kejatuhannya tidak ada catatan.
+Dialogue: 0,0:17:00.40,0:17:01.20,btth,,0,0,0,,Sepertinya,
+Dialogue: 0,0:17:01.28,0:17:04.20,btth,,0,0,0,,benda di dahiku itu adalah peninggalan ahli ini.
+Dialogue: 0,0:17:04.40,0:17:05.40,btth,,0,0,0,,Buku kuno mencatat,
+Dialogue: 0,0:17:05.64,0:17:07.64,btth,,0,0,0,,Purified Lotus Saint ini jujur.
+Dialogue: 0,0:17:07.84,0:17:09.52,btth,,0,0,0,,Tidak pernah menggunakan cara hina.
+Dialogue: 0,0:17:10.00,0:17:11.96,btth,,0,0,0,,Benda itu seharusnya tidak akan menyakitimu.
+Dialogue: 0,0:17:12.48,0:17:13.28,btth,,0,0,0,,Mungkin,
+Dialogue: 0,0:17:13.32,0:17:16.08,btth,,0,0,0,,ini akan menjadi kunci untuk menaklukkan Purified Lotus Demon Flame di masa depan.
+Dialogue: 0,0:17:18.44,0:17:19.44,btth,,0,0,0,,Semoga saja.
+Dialogue: 0,0:17:20.28,0:17:21.08,btth,,0,0,0,,Tapi,
+Dialogue: 0,0:17:21.12,0:17:22.72,btth,,0,0,0,,Purified Lotus Demon Flame terlalu kuat.
+Dialogue: 0,0:17:22.80,0:17:24.24,btth,,0,0,0,,Meskipun ada bantuan dari luar,
+Dialogue: 0,0:17:24.40,0:17:27.00,btth,,0,0,0,,kau tidak bisa mencapai tingkat Dou Sheng dalam tiga tahun.
+Dialogue: 0,0:17:27.12,0:17:28.72,btth,,0,0,0,,Bahkan jika Api Iblis turun ke dunia,
+Dialogue: 0,0:17:28.88,0:17:30.20,btth,,0,0,0,,kau hanya bisa menonton.
+Dialogue: 0,0:17:30.52,0:17:31.80,btth,,0,0,0,,Dengan kekuatanku sekarang,
+Dialogue: 0,0:17:31.96,0:17:33.44,btth,,0,0,0,,untuk mencapai Dou Sheng dalam tiga tahun,
+Dialogue: 0,0:17:33.60,0:17:34.92,btth,,0,0,0,,sama sulitnya dengan memanjat ke langit.
+Dialogue: 0,0:17:35.68,0:17:38.40,btth,,0,0,0,,Aku ingat kau menyimpan sebuah biji bodhi.
+Dialogue: 0,0:17:40.60,0:17:42.28,btth,,0,0,0,,Asalkan kau bisa menemukan pohon bodhi,
+Dialogue: 0,0:17:42.68,0:17:44.24,btth,,0,0,0,,dengan bantuan kekuatan jantung bodhi.
+Dialogue: 0,0:17:44.52,0:17:45.72,btth,,0,0,0,,Kau bisa dalam tiga tahun,
+Dialogue: 0,0:17:45.72,0:17:47.28,btth,,0,0,0,,mencapai tingkat Dou Sheng.
+Dialogue: 0,0:17:47.88,0:17:49.44,btth,,0,0,0,,Wilayah Kuno luas.
+Dialogue: 0,0:17:49.84,0:17:51.28,btth,,0,0,0,,Dan selalu menjadi daerah terlarang bagi manusia.
+Dialogue: 0,0:17:52.08,0:17:53.52,btth,,0,0,0,,Ingin menemukan pohon bodhi kuno,
+Dialogue: 0,0:17:54.00,0:17:55.12,btth,,0,0,0,,tidak semudah itu.
+Dialogue: 0,0:17:55.44,0:17:57.24,btth,,0,0,0,,Kau memiliki sebutir biji bodhi.
+Dialogue: 0,0:17:57.68,0:17:59.00,btth,,0,0,0,,Meskipun kemurniannya tidak tinggi.
+Dialogue: 0,0:17:59.32,0:18:02.28,btth,,0,0,0,,Tapi bisa membuatmu merasakan pohon bodhi kuno.
+Dialogue: 0,0:18:03.04,0:18:05.00,btth,,0,0,0,,Ini adalah keunggulanmu.
+Dialogue: 0,0:18:06.00,0:18:07.00,btth,,0,0,0,,Sepertinya kali ini,
+Dialogue: 0,0:18:07.48,0:18:09.60,btth,,0,0,0,,harus pergi ke Wilayah Kuno.
+Dialogue: 0,0:18:10.28,0:18:11.32,btth,,0,0,0,,Tiga tahun.
+Dialogue: 0,0:18:11.44,0:18:12.48,btth,,0,0,0,,Mencapai Dou Sheng.
+Dialogue: 0,0:18:13.00,0:18:14.44,btth,,0,0,0,,Jantung bodhi harus didapatkan.

@@ -1,0 +1,256 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.52,0:00:04.24,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:00:04.44,0:00:06.00,pw,,0,0,0,,Harus menemukan benih yang luar biasa.
+Dialogue: 0,0:00:06.36,0:00:07.24,pw,,0,0,0,,Dengki sekali.
+Dialogue: 0,0:00:07.24,0:00:08.84,pw,,0,0,0,,Ranah Heavenly Deity tidak bisa dibunuh dengan panah.
+Dialogue: 0,0:00:08.92,0:00:10.40,pw,,0,0,0,,Aku akan mengajarimu jadi manusia.
+Dialogue: 0,0:00:10.52,0:00:12.12,pw,,0,0,0,,Cepat kembalikan zirahnya.
+Dialogue: 0,0:00:12.24,0:00:14.04,pw,,0,0,0,,Xiao Tianwang tidak akan memaafkanmu.
+Dialogue: 0,0:00:14.28,0:00:16.32,pw,,0,0,0,,Tianwang pun tidak bisa menyelamatkanmu.
+Dialogue: 0,0:00:16.44,0:00:17.88,pw,,0,0,0,,Menurut perhitungan tulisan kuno.
+Dialogue: 0,0:00:17.88,0:00:19.28,pw,,0,0,0,,Benih Langit telah terbentuk.
+Dialogue: 0,0:00:19.28,0:00:20.64,pw,,0,0,0,,Lima Iblis Penyegel Benih Langit...
+Dialogue: 0,0:00:21.12,0:00:21.92,pw,,0,0,0,,Ada di sana.
+Dialogue: 0,0:00:33.16,0:00:34.92,pw,,0,0,0,,Untuk mengambil Lima Iblis Penyegel Benih Langit.
+Dialogue: 0,0:00:35.96,0:00:37.32,pw,,0,0,0,,Harus melewati jalan Gunung Batu.
+Dialogue: 0,0:00:38.44,0:00:39.40,pw,,0,0,0,,Kau mengenal tulisan Jiling?
+Dialogue: 0,0:00:39.96,0:00:40.72,pw,,0,0,0,,Tidak sepenuhnya.
+Dialogue: 0,0:00:41.24,0:00:42.16,pw,,0,0,0,,Tapi kurang lebih seperti itu.
+Dialogue: 0,0:00:44.20,0:00:45.04,pw,,0,0,0,,Hancurkan gerbang batu.
+Dialogue: 0,0:00:45.40,0:00:46.68,pw,,0,0,0,,Benih Langit pasti ada di dalam.
+Dialogue: 0,0:00:58.68,0:00:59.76,pw,,0,0,0,,Benar ada jalan.
+Dialogue: 0,0:01:00.36,0:01:00.92,pw,,0,0,0,,Lanjutkan.
+Dialogue: 0,0:01:01.92,0:01:16.92,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:01:22.20,0:01:23.12,pw,,0,0,0,,Di sini.
+Dialogue: 0,0:01:27.16,0:01:28.00,pw,,0,0,0,,Jalannya tidak di dalam gerbang.
+Dialogue: 0,0:01:28.24,0:01:29.08,pw,,0,0,0,,Tapi di atas gerbang.
+Dialogue: 0,0:01:31.76,0:01:32.44,pw,,0,0,0,,Dugu Yun.
+Dialogue: 0,0:01:32.86,0:01:33.92,pw,,0,0,0,,Apa yang kau lakukan?
+Dialogue: 0,0:01:34.92,0:01:38.16,pw,,0,0,0,,(Bahasa Dunia Asing)
+Dialogue: 0,0:01:41.13,0:01:42.80,pw,,0,0,0,,(Bahasa Kaisar Kuno Dunia Asing)
+Dialogue: 0,0:01:50.12,0:01:51.08,pw,,0,0,0,,Tahu apa yang dia katakan?
+Dialogue: 0,0:01:54.68,0:01:55.28,pw,,0,0,0,,Sepertinya.
+Dialogue: 0,0:01:55.68,0:01:56.48,pw,,0,0,0,,Bahasa Kaisar Kuno Dunia Asing.
+Dialogue: 0,0:02:01.52,0:02:02.08,pw,,0,0,0,,Dugu Yun.
+Dialogue: 0,0:02:02.40,0:02:02.92,pw,,0,0,0,,Berhenti!
+Dialogue: 0,0:02:26.28,0:02:27.40,pw,,0,0,0,,Dari awal.
+Dialogue: 0,0:02:28.20,0:02:29.96,pw,,0,0,0,,Tujuan Dugu Yun memasuki Makam Dunia.
+Dialogue: 0,0:02:30.80,0:02:33.60,pw,,0,0,0,,Mungkin untuk membebaskan makhluk Dunia Asing ini.
+Dialogue: 0,0:02:33.96,0:02:36.96,pw,,0,0,0,,(Bahasa Dunia Asing)
+Dialogue: 0,0:02:45.80,0:02:46.24,pw,,0,0,0,,Hati-hati.
+Dialogue: 0,0:02:47.08,0:02:48.56,pw,,0,0,0,,Dia pernah dimandikan dengan zat khusus.
+Dialogue: 0,0:02:49.24,0:02:51.12,pw,,0,0,0,,Dia monster yang selamat dari era sebelumnya.
+Dialogue: 0,0:02:52.72,0:02:54.72,pw,,0,0,0,,Dilihat dari momentumnya, mungkin sudah mencapai Ranah Supreme.
+Dialogue: 0,0:02:57.48,0:02:58.00,pw,,0,0,0,,(Bahasa Kaisar Kuno Dunia Asing)
+Dialogue: 0,0:03:00.24,0:03:01.36,pw,,0,0,0,,Dugu Yun sedang menanyakan jalan.
+Dialogue: 0,0:03:01.96,0:03:04.64,pw,,0,0,0,,Dia ingin tahu cara kembali ke Tanah Leluhur Penjaga.
+Dialogue: 0,0:03:06.20,0:03:06.96,pw,,0,0,0,,Dia bilang,
+Dialogue: 0,0:03:08.24,0:03:10.12,pw,,0,0,0,,Dugu Yun sama seperti leluhurnya.
+Dialogue: 0,0:03:10.64,0:03:11.80,pw,,0,0,0,,Sudah ternodai aura duniawi.
+Dialogue: 0,0:03:12.48,0:03:14.76,pw,,0,0,0,,Dunia di balik Gerbang Dunia tidak akan mengizinkannya kembali.
+Dialogue: 0,0:03:15.28,0:03:16.56,pw,,0,0,0,,Ada dunia lain?
+Dialogue: 0,0:03:17.16,0:03:18.16,pw,,0,0,0,,Kau berbohong.
+Dialogue: 0,0:03:19.48,0:03:21.16,pw,,0,0,0,,Keluarga Kerajaan Dunia Asing berjanji padaku.
+Dialogue: 0,0:03:21.80,0:03:22.92,pw,,0,0,0,,Selama bisa menemukan kalian,
+Dialogue: 0,0:03:23.16,0:03:24.64,pw,,0,0,0,,bisa menemukan jalan pulang.
+Dialogue: 0,0:03:24.80,0:03:27.24,pw,,0,0,0,,Makanan kecil yang dipelihara keluarga kerajaan.
+Dialogue: 0,0:03:27.56,0:03:29.04,pw,,0,0,0,,Berani menggeram?
+Dialogue: 0,0:03:29.52,0:03:30.84,pw,,0,0,0,,Hahaha.
+Dialogue: 0,0:03:32.64,0:03:35.52,pw,,0,0,0,,Aku membawa darah kuno keluarga kerajaan.
+Dialogue: 0,0:03:36.00,0:03:38.60,pw,,0,0,0,,Membuktikan Dao dan merasakan Supreme dalam perang besar.
+Dialogue: 0,0:03:38.96,0:03:40.48,pw,,0,0,0,,Orang biasa,
+Dialogue: 0,0:03:40.76,0:03:44.60,pw,,0,0,0,,bahkan tidak layak membuatku serius.
+Dialogue: 0,0:03:46.20,0:03:48.36,pw,,0,0,0,,Makhluk di era ini,
+Dialogue: 0,0:03:48.72,0:03:51.68,pw,,0,0,0,,daging dan darahnya cukup manis.
+Dialogue: 0,0:03:52.12,0:03:52.92,pw,,0,0,0,,Kemari.
+Dialogue: 0,0:03:56.08,0:03:56.80,pw,,0,0,0,,Lepaskan dia.
+Dialogue: 0,0:03:58.44,0:04:00.16,pw,,0,0,0,,Tiga Energi Abadi.
+Dialogue: 0,0:04:00.52,0:04:03.92,pw,,0,0,0,,Sayangnya tidak sepenuhnya terkondensasi dari buah Dao sendiri.
+Dialogue: 0,0:04:04.12,0:04:06.44,pw,,0,0,0,,Pada akhirnya hanya setengh Supreme.
+Dialogue: 0,0:04:07.08,0:04:08.68,pw,,0,0,0,,Hahaha.
+Dialogue: 0,0:04:18.64,0:04:20.96,pw,,0,0,0,,Penerus Teknik Penakluk Kekacauan.
+Dialogue: 0,0:04:21.56,0:04:24.56,pw,,0,0,0,,Dan gadis berbakat yang memahami bahasa kaisar kuno.
+Dialogue: 0,0:04:25.00,0:04:30.28,pw,,0,0,0,,Layak menjadi makanan pertamaku setelah kembali ke dunia.
+Dialogue: 0,0:04:31.60,0:04:33.24,pw,,0,0,0,,Kau mengincar siapa?
+Dialogue: 0,0:04:41.56,0:04:43.04,pw,,0,0,0,,Kalian adalah jenius sejati.
+Dialogue: 0,0:04:43.24,0:04:44.36,pw,,0,0,0,,Aku menghargai bakat,
+Dialogue: 0,0:04:44.40,0:04:45.72,pw,,0,0,0,,tidak ingin bertindak.
+Dialogue: 0,0:04:46.48,0:04:49.00,pw,,0,0,0,,Mengingat kau berjasa membuka segel.
+Dialogue: 0,0:04:49.40,0:04:51.12,pw,,0,0,0,,Lepaskan segel penjaga.
+Dialogue: 0,0:04:51.64,0:04:54.84,pw,,0,0,0,,Aku akan memberitahumu jalan pulang yang sebenarnya.
+Dialogue: 0,0:05:02.68,0:05:03.72,pw,,0,0,0,,Sangat sederhana.
+Dialogue: 0,0:05:04.20,0:05:06.28,pw,,0,0,0,,Cukup ambil darah murni mereka berdua.
+Dialogue: 0,0:05:06.32,0:05:08.04,pw,,0,0,0,,Isi Botol Harta Karun Great Dao.
+Dialogue: 0,0:05:08.20,0:05:11.12,pw,,0,0,0,,Maka bisa mengambil Benih Langit yang menyegel bangsaku.
+Dialogue: 0,0:05:11.60,0:05:12.88,pw,,0,0,0,,Benih Langit untuk kalian,
+Dialogue: 0,0:05:13.12,0:05:15.04,pw,,0,0,0,,bangsaku melihat kembali dunia.
+Dialogue: 0,0:05:15.52,0:05:17.56,pw,,0,0,0,,Kau juga bisa kembali ke tanah leluhur.
+Dialogue: 0,0:05:17.76,0:05:18.96,pw,,0,0,0,,Tiga pihak diuntungkan.
+Dialogue: 0,0:05:19.20,0:05:20.88,pw,,0,0,0,,Mengapa tidak?
+Dialogue: 0,0:05:21.60,0:05:22.60,pw,,0,0,0,,Dalam legenda,
+Dialogue: 0,0:05:22.96,0:05:25.72,pw,,0,0,0,,Benih Langit sempurna yang bahkan raksasa Immortal King tidak pernah dapatkan.
+Dialogue: 0,0:05:26.12,0:05:27.20,pw,,0,0,0,,Jika bisa mendapatkannya,
+Dialogue: 0,0:05:27.28,0:05:28.48,pw,,0,0,0,,pasti mencapai puncak Jalan Immortal.
+Dialogue: 0,0:05:31.56,0:05:33.08,pw,,0,0,0,,Kau benar-benar mau membantu kejahatan?
+Dialogue: 0,0:05:33.20,0:05:35.04,pw,,0,0,0,,Permusuhan dua dunia tidak ada hubungannya denganku.
+Dialogue: 0,0:05:35.40,0:05:36.76,pw,,0,0,0,,Aku hanya ingin kembali ke tanah leluhur.
+Dialogue: 0,0:05:37.68,0:05:38.32,pw,,0,0,0,,Maaf.
+Dialogue: 0,0:05:54.40,0:05:56.64,pw,,0,0,0,,Bertarunglah!
+Dialogue: 0,0:06:09.20,0:06:10.84,pw,,0,0,0,,Semakin kuat darahnya.
+Dialogue: 0,0:06:11.52,0:06:14.40,pw,,0,0,0,,Semakin manis rasanya.
+Dialogue: 0,0:06:16.36,0:06:18.68,pw,,0,0,0,,Awalnya ingin bertanya tentang Tuan Immortal Dunia Asing.
+Dialogue: 0,0:06:19.44,0:06:20.04,pw,,0,0,0,,Siapa?
+Dialogue: 0,0:06:27.88,0:06:29.68,pw,,0,0,0,,Sekarang tampaknya tidak perlu lagi.
+Dialogue: 0,0:06:39.04,0:06:40.80,pw,,0,0,0,,Berani menyergapku.
+Dialogue: 0,0:06:48.24,0:06:50.00,pw,,0,0,0,,Di dalam ranahku.
+Dialogue: 0,0:06:50.44,0:06:53.84,pw,,0,0,0,,Semuanya akan berubah menjadi makanan darah.
+Dialogue: 0,0:06:54.56,0:06:58.40,pw,,0,0,0,,Tunduk pada kekuatan Supreme.
+Dialogue: 0,0:06:59.44,0:07:01.04,pw,,0,0,0,,Kau hanyalah seorang Supreme sampah!
+Dialogue: 0,0:07:01.06,0:07:16.06,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:07:17.36,0:07:17.80,pw,,0,0,0,,Tidak benar.
+Dialogue: 0,0:07:18.20,0:07:20.36,pw,,0,0,0,,Ini adalah Penghancur Segala Hukum.
+Dialogue: 0,0:07:21.40,0:07:23.04,pw,,0,0,0,,Tuan Wushang Immortal King.
+Dialogue: 0,0:07:23.04,0:07:24.96,pw,,0,0,0,,Ilmu andalan yang mendominasi seluruh langit.
+Dialogue: 0,0:07:25.64,0:07:27.16,pw,,0,0,0,,Bagaimana kau bisa menguasainya?
+Dialogue: 0,0:07:40.60,0:07:42.36,pw,,0,0,0,,Dia hanya puncak Ranah Heavenly Deity.
+Dialogue: 0,0:07:42.76,0:07:44.12,pw,,0,0,0,,Melihat momentummu kuat,
+Dialogue: 0,0:07:44.60,0:07:46.04,pw,,0,0,0,,Tapi tak ada darah dan energi.
+Dialogue: 0,0:07:46.68,0:07:47.68,pw,,0,0,0,,Ternyata semua ilusi.
+Dialogue: 0,0:07:55.36,0:07:57.16,pw,,0,0,0,,Teknikku.
+Dialogue: 0,0:07:57.56,0:07:59.80,pw,,0,0,0,,Ah!
+Dialogue: 0,0:08:00.92,0:08:02.80,pw,,0,0,0,,Bisa muncul di dalam Ranah Heavenly Deity ini.
+Dialogue: 0,0:08:03.68,0:08:05.04,pw,,0,0,0,,Tampaknya di antara yang disegel.
+Dialogue: 0,0:08:06.72,0:08:08.40,pw,,0,0,0,,Kau hanyalah yang terlemah.
+Dialogue: 0,0:08:20.80,0:08:22.24,pw,,0,0,0,,Dari mana dasar kepercayaan dirimu.
+Dialogue: 0,0:08:23.00,0:08:24.44,pw,,0,0,0,,Berpura-pura di sini?
+Dialogue: 0,0:08:27.32,0:08:30.04,pw,,0,0,0,,Aku akan memakan dagingmu mentah-mentah.
+Dialogue: 0,0:08:30.40,0:08:31.76,pw,,0,0,0,,Kau pikir bisa memakanku?
+Dialogue: 0,0:08:32.64,0:08:33.20,pw,,0,0,0,,Minta dipukul?
+Dialogue: 0,0:08:33.84,0:08:34.96,pw,,0,0,0,,Ini terlalu kuat!
+Dialogue: 0,0:08:36.20,0:08:37.68,pw,,0,0,0,,Taktik yang sangat familiar.
+Dialogue: 0,0:08:39.28,0:08:40.40,pw,,0,0,0,,Sudah waktunya berakhir.
+Dialogue: 0,0:09:01.96,0:09:02.92,pw,,0,0,0,,Mau kabur?
+Dialogue: 0,0:09:06.04,0:09:07.48,pw,,0,0,0,,Matipun tak tenang.
+Dialogue: 0,0:09:07.72,0:09:08.96,pw,,0,0,0,,Kau memang suka menderita.
+Dialogue: 0,0:09:09.08,0:09:10.64,pw,,0,0,0,,(Bahasa Dunia Asing)
+Dialogue: 0,0:09:24.52,0:09:26.40,pw,,0,0,0,,Serangga busuk yang selalu menghantui!
+Dialogue: 0,0:09:26.60,0:09:27.96,pw,,0,0,0,,Tunggu bangsaku dibebaskan.
+Dialogue: 0,0:09:28.04,0:09:29.28,pw,,0,0,0,,Akan kusiksa jiwamu.
+Dialogue: 0,0:09:29.60,0:09:31.28,pw,,0,0,0,,Menyiksamu selama seratus tahun.
+Dialogue: 0,0:09:48.44,0:09:50.56,pw,,0,0,0,,Beri kami darah berharga.
+Dialogue: 0,0:09:51.16,0:09:53.96,pw,,0,0,0,,Kami akan memberimu segalanya.
+Dialogue: 0,0:09:54.56,0:09:59.44,pw,,0,0,0,,Jalan kembali ke tanah leluhur ada di depan mata.
+Dialogue: 0,0:09:59.92,0:10:02.64,pw,,0,0,0,,Inilah botol harta yang terukir di gambar itu.
+Dialogue: 0,0:10:03.08,0:10:03.56,pw,,0,0,0,,Dugu Yun.
+Dialogue: 0,0:10:05.24,0:10:06.00,pw,,0,0,0,,Bekerja sama dengan harimau,
+Dialogue: 0,0:10:06.84,0:10:08.08,pw,,0,0,0,,akan berakhir tanpa sisa.
+Dialogue: 0,0:10:19.08,0:10:19.76,pw,,0,0,0,,Yun'er.
+Dialogue: 0,0:10:21.36,0:10:22.36,pw,,0,0,0,,Pulanglah.
+Dialogue: 0,0:10:25.76,0:10:27.16,pw,,0,0,0,,Bangsaku.
+Dialogue: 0,0:10:36.40,0:10:38.36,pw,,0,0,0,,Darah berharga.
+Dialogue: 0,0:10:38.78,0:10:40.76,pw,,0,0,0,,Ini darah berharga.
+Dialogue: 0,0:10:41.36,0:10:45.28,pw,,0,0,0,,Lebih banyak.
+Dialogue: 0,0:10:45.52,0:10:46.32,pw,,0,0,0,,Aku hanya ingin,
+Dialogue: 0,0:10:47.84,0:10:49.72,pw,,0,0,0,,meminta satu jawaban.
+Dialogue: 0,0:10:50.72,0:11:05.72,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:23.72,0:11:25.08,pw,,0,0,0,,Ini adalah bekas luka masa lalu.
+Dialogue: 0,0:11:25.60,0:11:26.88,pw,,0,0,0,,Menggunakan ini untuk membunuh.
+Dialogue: 0,0:11:27.12,0:11:28.52,pw,,0,0,0,,Masa lalu dan sekarang bertemu di sini.
+Dialogue: 0,0:11:29.12,0:11:29.68,pw,,0,0,0,,Hati-hati.
+Dialogue: 0,0:11:30.16,0:11:32.04,pw,,0,0,0,,Terjebak di dalamnya akan lenyap.
+Dialogue: 0,0:11:36.60,0:11:38.32,pw,,0,0,0,,Hahaha.
+Dialogue: 0,0:11:38.56,0:11:40.04,pw,,0,0,0,,Leluhur yang di atas,
+Dialogue: 0,0:11:40.24,0:11:42.20,pw,,0,0,0,,hari ini kuberikan darah berharga.
+Dialogue: 0,0:11:42.44,0:11:44.20,pw,,0,0,0,,Kelak kembali ke duniaku,
+Dialogue: 0,0:11:44.36,0:11:47.08,pw,,0,0,0,,pastikan anugerahi kehormatan tertinggi.
+Dialogue: 0,0:11:47.16,0:11:50.12,pw,,0,0,0,,Semuanya, basahi sarang induk dengan darah berharga.
+Dialogue: 0,0:11:50.24,0:11:54.40,pw,,0,0,0,,Kelak pasti menganugerahi kalian keabadian.
+Dialogue: 0,0:11:56.76,0:11:58.20,pw,,0,0,0,,Bangun semuanya!
+Dialogue: 0,0:12:05.32,0:12:07.00,pw,,0,0,0,,Semua orang mabuk,
+Dialogue: 0,0:12:07.76,0:12:09.40,pw,,0,0,0,,mengapa kau sendirian sadar?
+Dialogue: 0,0:12:10.00,0:12:12.64,pw,,0,0,0,,Bergabunglah dalam keabadian.
+Dialogue: 0,0:12:24.20,0:12:26.24,pw,,0,0,0,,Mengapa bersikeras?
+Dialogue: 0,0:12:29.40,0:12:30.92,pw,,0,0,0,,Mengganggu tidur nyenyak.
+Dialogue: 0,0:12:32.04,0:12:32.80,pw,,0,0,0,,Kau masih,
+Dialogue: 0,0:12:33.20,0:12:34.48,pw,,0,0,0,,meninggalkan satu tubuh bayangan.
+Dialogue: 0,0:12:35.44,0:12:36.64,pw,,0,0,0,,Kau bukan makhluk dunia ini,
+Dialogue: 0,0:12:37.00,0:12:38.52,pw,,0,0,0,,jangan ikut campur!
+Dialogue: 0,0:12:39.44,0:12:41.20,pw,,0,0,0,,Tidak boleh, tidak boleh.
+Dialogue: 0,0:12:41.48,0:12:42.08,pw,,0,0,0,,Keluar.
+Dialogue: 0,0:12:42.22,0:12:43.20,pw,,0,0,0,,Semua keluar.
+Dialogue: 0,0:12:43.60,0:12:45.04,pw,,0,0,0,,Anugerahi aku keabadian.
+Dialogue: 0,0:12:45.04,0:12:47.36,pw,,0,0,0,,Anugerahi aku keabadian!
+Dialogue: 0,0:12:47.68,0:12:50.20,pw,,0,0,0,,Dulu menghancurkan pasukan tak terhitung di sini.
+Dialogue: 0,0:12:50.60,0:12:52.88,pw,,0,0,0,,Tak kusangka kau meninggalkan akar.
+Dialogue: 0,0:12:55.56,0:12:58.08,pw,,0,0,0,,Jika bukan karena sisa kesadaranku,
+Dialogue: 0,0:12:58.36,0:13:00.12,pw,,0,0,0,,benar-benar akan kau jungkirbalikkan langit.
+Dialogue: 0,0:13:00.68,0:13:01.84,pw,,0,0,0,,Niat pedang yang sangat kuat.
+Dialogue: 0,0:13:02.40,0:13:03.44,pw,,0,0,0,,Siapa orang tua itu?
+Dialogue: 0,0:13:08.28,0:13:09.88,pw,,0,0,0,,Mati saja lah.
+Dialogue: 0,0:13:11.76,0:13:13.48,pw,,0,0,0,,Jadilah pupuk,
+Dialogue: 0,0:13:13.80,0:13:16.28,pw,,0,0,0,,bantu Benih Langit mencapai kesempurnaan tertinggi.
+Dialogue: 0,0:13:16.76,0:13:18.28,pw,,0,0,0,,Saat panen tiba,
+Dialogue: 0,0:13:18.56,0:13:20.84,pw,,0,0,0,,aku juga dapat kembali ke kehancuran.
+Dialogue: 0,0:13:22.92,0:13:23.80,pw,,0,0,0,,Tidak.
+Dialogue: 0,0:13:24.36,0:13:26.16,pw,,0,0,0,,Keluarkan kami.
+Dialogue: 0,0:13:26.36,0:13:27.88,pw,,0,0,0,,Anugerahi kau keabadian.
+Dialogue: 0,0:13:28.08,0:13:28.48,pw,,0,0,0,,Leluhur.
+Dialogue: 0,0:13:28.76,0:13:29.32,pw,,0,0,0,,Benih Langit itu.
+Dialogue: 0,0:13:31.40,0:13:33.40,pw,,0,0,0,,Tidak ada hubungannya dengan orang biasa seperti kalian.
+Dialogue: 0,0:13:33.56,0:13:35.48,pw,,0,0,0,,Benih Langit sudah memiliki pemiliknya.
+Dialogue: 0,0:13:35.92,0:13:37.40,pw,,0,0,0,,Jangan berkhayal,
+Dialogue: 0,0:13:37.76,0:13:39.68,pw,,0,0,0,,mencemari peluang tertinggi.
+Dialogue: 0,0:13:40.16,0:13:41.20,pw,,0,0,0,,Aku adalah keturunan penjaga.
+Dialogue: 0,0:13:41.44,0:13:42.36,pw,,0,0,0,,Mohon beri tahu saya, Senior.
+Dialogue: 0,0:13:42.48,0:13:45.08,pw,,0,0,0,,Peran apa sebenarnya yang dimainkan leluhurku?
+Dialogue: 0,0:13:45.80,0:13:49.24,pw,,0,0,0,,Seperti diriku yang jatuh dalam dunia fana,
+Dialogue: 0,0:13:50.28,0:13:52.96,pw,,0,0,0,,tunggulah kedatangan malapetaka.
+Dialogue: 0,0:14:06.80,0:14:08.04,pw,,0,0,0,,Demi mencari satu jawaban,
+Dialogue: 0,0:14:08.60,0:14:10.24,pw,,0,0,0,,tidak segan membunuh banyak murid.
+Dialogue: 0,0:14:11.48,0:14:12.64,pw,,0,0,0,,Bagaimanapun dia keturunan penjaga.
+Dialogue: 0,0:14:13.40,0:14:14.28,pw,,0,0,0,,Lebih baik dibawa kembali,
+Dialogue: 0,0:14:14.64,0:14:15.48,pw,,0,0,0,,serahkan pada Tetua untuk dihukum.
+Dialogue: 0,0:14:37.36,0:14:39.92,pw,,0,0,0,,Siapa yang bisa mendapat peluang Benih Langit?
+Dialogue: 0,0:14:40.28,0:14:43.24,pw,,0,0,0,,Dari mana orang suci itu berasal?
+Dialogue: 0,0:14:46.08,0:14:47.48,pw,,0,0,0,,Perjalanan ini pulang dengan tangan kosong.
+Dialogue: 0,0:14:47.88,0:14:49.60,pw,,0,0,0,,Bahkan satu benih tingkat atas pun tidak didapat.
+Dialogue: 0,0:14:50.08,0:14:51.44,pw,,0,0,0,,Tanpa benih luar biasa di tubuh,
+Dialogue: 0,0:14:51.72,0:14:53.04,pw,,0,0,0,,bagaimana bisa menguasai jalan immortal?
+Dialogue: 0,0:14:53.60,0:14:55.04,pw,,0,0,0,,Meskipun kau jenius luar biasa,
+Dialogue: 0,0:14:55.32,0:14:56.36,pw,,0,0,0,,tanpa benih yang bagus.
+Dialogue: 0,0:14:56.68,0:14:57.88,pw,,0,0,0,,sulit menjadi hebat,
+Dialogue: 0,0:14:58.52,0:15:00.04,pw,,0,0,0,,Mempertaruhkan seluruh kultivasi pada benda luar.
+Dialogue: 0,0:15:00.44,0:15:01.60,pw,,0,0,0,,Bukankah ini terbalik?
+Dialogue: 0,0:15:02.54,0:15:04.12,pw,,0,0,0,,Jangan-jangan tidak ada benih tingkat atas?
+Dialogue: 0,0:15:04.52,0:15:05.89,pw,,0,0,0,,Apakah benar-benar mustahil mendaki ke puncak?
+Dialogue: 0,0:15:06.24,0:15:08.20,pw,,0,0,0,,Aku pernah mendengar jalan alternatif.
+Dialogue: 0,0:15:08.72,0:15:10.96,pw,,0,0,0,,Perlu menggunakan tubuh sendiri sebagai fondasi.
+Dialogue: 0,0:15:12.56,0:15:14.88,pw,,0,0,0,,Tetua Agung cukup berpengalaman dalam jalan ini.
+Dialogue: 0,0:15:15.36,0:15:17.04,pw,,0,0,0,,Kau bisa mencoba bertanya padanya.

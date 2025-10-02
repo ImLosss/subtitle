@@ -1,0 +1,171 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.76,0:00:13.64,jd,,0,0,0,,Penyatuan tiga aliran.
+Dialogue: 0,0:00:13.64,0:00:15.48,jd,,0,0,0,,Kitab Langit menyertaimu.
+Dialogue: 0,0:00:15.48,0:00:16.76,jd,,0,0,0,,Mungkin,
+Dialogue: 0,0:00:16.96,0:00:18.44,jd,,0,0,0,,kau bisa melangkah lebih jauh.
+Dialogue: 0,0:00:19.56,0:00:20.60,jd,,0,0,0,,Tak tahu Qing...
+Dialogue: 0,0:00:21.28,0:00:22.68,jd,,0,0,0,,Senior, masih ada petunjuk apa lagi?
+Dialogue: 0,0:00:23.56,0:00:24.52,jd,,0,0,0,,Dulu,
+Dialogue: 0,0:00:24.84,0:00:27.96,jd,,0,0,0,,aku meninggalkan Segel Rahasia di Tujuh Aliran Qingyun.
+Dialogue: 0,0:00:28.52,0:00:29.52,jd,,0,0,0,,Segel Rahasia?
+Dialogue: 0,0:00:30.12,0:00:32.88,jd,,0,0,0,,Ini adalah formasi rahasia Qingyun.
+Dialogue: 0,0:00:33.52,0:00:34.80,jd,,0,0,0,,Begitu diaktifkan,
+Dialogue: 0,0:00:35.28,0:00:36.44,jd,,0,0,0,,Pedang Kuno Zhuxian
+Dialogue: 0,0:00:36.64,0:00:38.48,jd,,0,0,0,,akan dipenuhi aura jahat.
+Dialogue: 0,0:00:39.16,0:00:40.92,jd,,0,0,0,,Meskipun orang yang mengaktifkan formasi
+Dialogue: 0,0:00:41.24,0:00:42.72,jd,,0,0,0,,tekniknya luar biasa,
+Dialogue: 0,0:00:43.20,0:00:46.00,jd,,0,0,0,,kekuatan balikannya tak tertahankan.
+Dialogue: 0,0:00:47.00,0:00:48.24,jd,,0,0,0,,Saat itu,
+Dialogue: 0,0:00:48.24,0:00:50.84,jd,,0,0,0,,mungkin akan terjadi bencana lagi.
+Dialogue: 0,0:00:57.68,0:00:59.60,jd,,0,0,0,,Mengapa kau memberitahuku ini?
+Dialogue: 0,0:01:01.64,0:01:04.48,jd,,0,0,0,,Puncak Tongtian adalah mata formasi pedang.
+Dialogue: 0,0:01:05.20,0:01:07.00,jd,,0,0,0,,Aku awalnya ingin di sini,
+Dialogue: 0,0:01:07.20,0:01:09.64,jd,,0,0,0,,menggunakan Metode Taiji Xuanqing untuk membentuk formasi,
+Dialogue: 0,0:01:10.08,0:01:12.44,jd,,0,0,0,,menghilangkan masalah Segel Rahasia.
+Dialogue: 0,0:01:13.24,0:01:15.84,jd,,0,0,0,,Tapi akhirnya kurang selangkah,
+Dialogue: 0,0:01:16.32,0:01:17.64,jd,,0,0,0,,tidak berhasil.
+Dialogue: 0,0:01:19.00,0:01:19.92,jd,,0,0,0,,Sedangkan kau,
+Dialogue: 0,0:01:20.16,0:01:22.88,jd,,0,0,0,,memiliki tiga teknik,
+Dialogue: 0,0:01:23.04,0:01:24.32,jd,,0,0,0,,mungkin...
+Dialogue: 0,0:01:32.44,0:01:33.92,jd,,0,0,0,,Cepat obati yang terluka!
+Dialogue: 0,0:01:33.92,0:01:35.20,jd,,0,0,0,,Perbaiki formasi pertahanan!
+Dialogue: 0,0:01:43.44,0:01:44.88,jd,,0,0,0,,Semua Raja Iblis telah dikalahkan.
+Dialogue: 0,0:01:44.88,0:01:46.64,jd,,0,0,0,,Kita kembali untuk melapor.
+Dialogue: 0,0:01:52.04,0:01:53.28,jd,,0,0,0,,Raja Iblis sudah mati.
+Dialogue: 0,0:01:53.28,0:01:54.84,jd,,0,0,0,,Kalian mundur ke Puncak Tongtian.
+Dialogue: 0,0:01:54.84,0:01:56.76,jd,,0,0,0,,Aku akan kembali melapor ke Ketua Sekte.
+Dialogue: 0,0:02:03.96,0:02:06.20,jd,,0,0,0,,Semua Raja Iblis telah dihukum mati.
+Dialogue: 0,0:02:06.32,0:02:07.48,jd,,0,0,0,,Terima kasih atas kerja keras kalian.
+Dialogue: 0,0:02:08.28,0:02:09.52,jd,,0,0,0,,Kakak Ketua,
+Dialogue: 0,0:02:09.52,0:02:12.20,jd,,0,0,0,,dalam pertempuran ini, murid Sekte Keadilan banyak yang korban.
+Dialogue: 0,0:02:12.20,0:02:13.64,jd,,0,0,0,,Tapi untungnya misi berhasil.
+Dialogue: 0,0:02:14.04,0:02:16.20,jd,,0,0,0,,Amitabha.
+Dialogue: 0,0:02:16.44,0:02:19.20,jd,,0,0,0,,Hanya saja, Dewa Monster sama sekali tidak bereaksi.
+Dialogue: 0,0:02:19.20,0:02:20.84,jd,,0,0,0,,Mungkin kultivasinya
+Dialogue: 0,0:02:20.84,0:02:22.28,jd,,0,0,0,,luar biasa.
+Dialogue: 0,0:02:22.32,0:02:23.60,jd,,0,0,0,,Sudah begini,
+Dialogue: 0,0:02:23.60,0:02:24.84,jd,,0,0,0,,kita tidak punya jalan mundur.
+Dialogue: 0,0:02:25.00,0:02:26.24,jd,,0,0,0,,Jika gagal,
+Dialogue: 0,0:02:26.24,0:02:28.60,jd,,0,0,0,,aku siap mengikuti Rekan Dao untuk mati dengan gagah.
+Dialogue: 0,0:02:30.36,0:02:31.96,jd,,0,0,0,,Para Ketua Puncak,
+Dialogue: 0,0:02:32.08,0:02:33.24,jd,,0,0,0,,hal itu...
+Dialogue: 0,0:02:33.24,0:02:34.72,jd,,0,0,0,,Aku percayakan pada kalian.
+Dialogue: 0,0:02:35.16,0:02:35.73,jd,,0,0,0,,Baik.
+Dialogue: 0,0:02:41.40,0:02:41.92,jd,,0,0,0,,Kakak seperguruan.
+Dialogue: 0,0:02:41.92,0:02:42.92,jd,,0,0,0,,Aku datang menjemput kalian.
+Dialogue: 0,0:02:42.92,0:02:43.64,jd,,0,0,0,,Mundur ke puncak utama.
+Dialogue: 0,0:02:43.64,0:02:44.76,jd,,0,0,0,,Terima kasih, Kakak Xiao.
+Dialogue: 0,0:02:44.80,0:02:59.80,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:03:00.12,0:03:01.88,jd,,0,0,0,,Tidak bisa bergerak.
+Dialogue: 0,0:03:07.60,0:03:09.20,jd,,0,0,0,,Apa yang akan dia lakukan?
+Dialogue: 0,0:03:09.56,0:03:12.20,jd,,0,0,0,,Kalian masih bisa bertahan sampai sejauh ini.
+Dialogue: 0,0:03:12.56,0:03:15.20,jd,,0,0,0,,Ini di luar perkiraanku.
+Dialogue: 0,0:03:25.68,0:03:27.72,jd,,0,0,0,,Kultivasi makhluk ini sangat dalam dan tak terduga.
+Dialogue: 0,0:03:27.72,0:03:29.76,jd,,0,0,0,,Kita memikul tanggung jawab atas makhluk hidup di dunia.
+Dialogue: 0,0:03:29.80,0:03:30.92,jd,,0,0,0,,Tidak boleh ada kegagalan.
+Dialogue: 0,0:03:31.44,0:03:33.40,jd,,0,0,0,,Biarkan kami habiskan dulu tenaganya.
+Dialogue: 0,0:03:33.40,0:03:34.96,jd,,0,0,0,,Lalu, Rekan Dao,
+Dialogue: 0,0:03:34.96,0:03:36.64,jd,,0,0,0,,tentukan hasilnya dengan satu serangan.
+Dialogue: 0,0:03:45.60,0:03:47.32,jd,,0,0,0,,Cepat bawa yang terluka pergi!
+Dialogue: 0,0:04:04.28,0:04:05.96,jd,,0,0,0,,Keluarlah.
+Dialogue: 0,0:04:11.68,0:04:12.44,jd,,0,0,0,,Ini...
+Dialogue: 0,0:04:18.68,0:04:20.56,jd,,0,0,0,,Menggabungkan lima Raja Iblis
+Dialogue: 0,0:04:21.12,0:04:23.80,jd,,0,0,0,,menjadi satu.
+Dialogue: 0,0:04:31.24,0:04:32.56,jd,,0,0,0,,Gempanya besar.
+Dialogue: 0,0:04:32.56,0:04:34.68,jd,,0,0,0,,Biarkan aku hadapimu dulu.
+Dialogue: 0,0:04:41.08,0:04:43.00,jd,,0,0,0,,Kita tidak bisa ikut campur.
+Dialogue: 0,0:04:43.00,0:04:44.12,jd,,0,0,0,,Cepat mundur!
+Dialogue: 0,0:04:54.32,0:04:55.92,jd,,0,0,0,,Api Neraka Pembakar Langit!
+Dialogue: 0,0:05:10.04,0:05:11.08,jd,,0,0,0,,Menangkah?
+Dialogue: 0,0:05:26.60,0:05:28.12,jd,,0,0,0,,Iblis brengsek!
+Dialogue: 0,0:06:00.44,0:06:01.52,jd,,0,0,0,,Jingyu.
+Dialogue: 0,0:06:05.44,0:06:07.92,jd,,0,0,0,,Orang tua di Aula Leluhur itu,
+Dialogue: 0,0:06:07.92,0:06:10.00,jd,,0,0,0,,apakah dia mati karena kau?
+Dialogue: 0,0:06:11.88,0:06:13.08,jd,,0,0,0,,Mengakulah!
+Dialogue: 0,0:06:15.08,0:06:15.92,jd,,0,0,0,,Ya.
+Dialogue: 0,0:06:27.48,0:06:30.08,jd,,0,0,0,,Mengapa?
+Dialogue: 0,0:06:33.60,0:06:36.60,jd,,0,0,0,,Mengapa kau membunuhnya?
+Dialogue: 0,0:06:36.72,0:06:38.04,jd,,0,0,0,,Dia menghalangi jalanku.
+Dialogue: 0,0:06:39.72,0:06:42.76,jd,,0,0,0,,Dia hanya orang tua yang renta!
+Dialogue: 0,0:07:00.60,0:07:01.24,jd,,0,0,0,,Cukup!
+Dialogue: 0,0:07:01.24,0:07:02.08,jd,,0,0,0,,Jingyu.
+Dialogue: 0,0:07:03.32,0:07:05.04,jd,,0,0,0,,Zhang Xiaofan.
+Dialogue: 0,0:07:10.20,0:07:12.88,jd,,0,0,0,,Ini terakhir kalinya aku memanggilmu seperti ini.
+Dialogue: 0,0:07:14.44,0:07:15.88,jd,,0,0,0,,Kau ingin membalaskan dendam untuknya?
+Dialogue: 0,0:07:16.28,0:07:17.56,jd,,0,0,0,,Silakan serang.
+Dialogue: 0,0:07:18.32,0:07:19.60,jd,,0,0,0,,Tapi saat ini,
+Dialogue: 0,0:07:19.96,0:07:21.92,jd,,0,0,0,,aku tidak boleh berhenti di sini.
+Dialogue: 0,0:07:21.92,0:07:24.88,jd,,0,0,0,,Konyolnya aku masih berkhayal,
+Dialogue: 0,0:07:25.28,0:07:28.16,jd,,0,0,0,,suatu hari kau akan sadar dan kembali.
+Dialogue: 0,0:07:28.16,0:07:30.12,jd,,0,0,0,,Kembali ke jalan yang benar.
+Dialogue: 0,0:07:31.12,0:07:33.20,jd,,0,0,0,,Jalan apa yang benar?
+Dialogue: 0,0:07:33.64,0:07:34.88,jd,,0,0,0,,Jalanmu?
+Dialogue: 0,0:07:34.96,0:07:35.80,jd,,0,0,0,,Benar.
+Dialogue: 0,0:07:36.32,0:07:37.32,jd,,0,0,0,,Sekte Keadilan.
+Dialogue: 0,0:07:37.76,0:07:38.76,jd,,0,0,0,,Itulah jalan yang benar.
+Dialogue: 0,0:07:45.08,0:07:47.32,jd,,0,0,0,,Saat kecil main pedang dan bercanda.
+Dialogue: 0,0:07:47.32,0:07:50.04,jd,,0,0,0,,Kau bilang ingin menjadi pahlawan pembasmi siluman.
+Dialogue: 0,0:07:51.04,0:07:53.88,jd,,0,0,0,,Tapi lihat dirimu sekarang!
+Dialogue: 0,0:08:08.64,0:08:10.24,jd,,0,0,0,,Tianya.
+Dialogue: 0,0:08:15.28,0:08:17.08,jd,,0,0,0,,Mungkinkah.
+Dialogue: 0,0:08:36.76,0:08:38.72,jd,,0,0,0,,Buddha Maha Pengasih.
+Dialogue: 0,0:08:58.92,0:09:01.52,jd,,0,0,0,,Amitabha.
+Dialogue: 0,0:09:12.92,0:09:13.40,jd,,0,0,0,,Bersatu.
+Dialogue: 0,0:10:10.52,0:10:12.80,jd,,0,0,0,,Weituo Menurunkan Murka!
+Dialogue: 0,0:10:56.40,0:10:57.56,jd,,0,0,0,,Bisa dipulihkan?!
+Dialogue: 0,0:10:57.56,0:10:58.68,jd,,0,0,0,,Sepuluh arah.
+Dialogue: 0,0:10:58.68,0:11:00.00,jd,,0,0,0,,Teknik Membekukan Roh.
+Dialogue: 0,0:11:15.56,0:11:17.56,jd,,0,0,0,,Inikah kekuatan besar Buddha?
+Dialogue: 0,0:11:18.56,0:11:33.56,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:57.88,0:11:59.56,jd,,0,0,0,,Sungguh merepotkan.
+Dialogue: 0,0:12:11.48,0:12:12.92,jd,,0,0,0,,Teknik ini dipenuhi aura jahat.
+Dialogue: 0,0:12:13.20,0:12:14.36,jd,,0,0,0,,Jangan sampai terkontaminasi.
+Dialogue: 0,0:12:20.04,0:12:21.36,jd,,0,0,0,,Ternyata,
+Dialogue: 0,0:12:21.68,0:12:23.28,jd,,0,0,0,,hujan jahat ini menekan kultivasi.
+Dialogue: 0,0:12:24.28,0:12:39.28,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:51.52,0:12:53.84,jd,,0,0,0,,Aku meremehkanmu.
+Dialogue: 0,0:13:46.84,0:13:48.20,jd,,0,0,0,,Tidak bisa terbang.
+Dialogue: 0,0:13:48.20,0:13:50.36,jd,,0,0,0,,Cepat lari!
+Dialogue: 0,0:13:51.52,0:13:53.48,jd,,0,0,0,,Nyawa semut hina.
+Dialogue: 0,0:13:53.76,0:13:57.88,jd,,0,0,0,,Apa bedanya mati cepat atau lambat.
+Dialogue: 0,0:13:58.64,0:14:00.28,jd,,0,0,0,,Sekte Keadilan.
+Dialogue: 0,0:14:00.80,0:14:03.16,jd,,0,0,0,,Tidak akan kalah begitu mudah.
+Dialogue: 0,0:14:03.80,0:14:06.80,jd,,0,0,0,,Amitabha.
+Dialogue: 0,0:14:12.24,0:14:14.68,jd,,0,0,0,,Kalau begitu, tunjukkan caramu.
+Dialogue: 0,0:14:15.68,0:14:30.68,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:15:01.84,0:15:03.72,jd,,0,0,0,,Segala perjuangan.
+Dialogue: 0,0:15:04.20,0:15:06.16,jd,,0,0,0,,Pada akhirnya, apa artinya semua ini?
+Dialogue: 0,0:15:10.92,0:15:13.48,jd,,0,0,0,,Ikatan kita di masa lalu.
+Dialogue: 0,0:15:13.48,0:15:16.08,jd,,0,0,0,,Hari ini diputuskan.
+Dialogue: 0,0:15:17.68,0:15:19.12,jd,,0,0,0,,Kalau begitu, bertarunglah.
+Dialogue: 0,0:15:25.60,0:15:27.36,jd,,0,0,0,,Hati yang baik.
+Dialogue: 0,0:15:28.08,0:15:29.80,jd,,0,0,0,,Tak menyesal meski mati sembilan kali.
+Dialogue: 0,0:15:33.12,0:15:34.84,jd,,0,0,0,,Sungguh hebat, Zhuxian.
+Dialogue: 0,0:15:35.96,0:15:38.00,jd,,0,0,0,,Jangan mengecewakanku.

@@ -11,14 +11,14 @@ YCbCr Matrix: TV.601
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: ../BTTH_EP161.mp4
-Video File: ../BTTH_EP161.mp4
+Audio File: ../BTTH_EP166.mp4
+Video File: ../BTTH_EP166.mp4
 Video AR Mode: 4
 Video AR Value: 2.388060
 Video Zoom Percent: 0.500000
-Scroll Position: 71
-Active Line: 72
-Video Position: 3710
+Scroll Position: 72
+Active Line: 73
+Video Position: 3850
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -36,7 +36,7 @@ Style: Default,LibbyScript,56,&H00FFFFFF,&H0000DEFF,&H000096FF,&H00000000,-1,0,0
 Style: Default - Copier,LibbyScript,39,&H00FFFFFF,&H0000DEFF,&H000096FF,&H00000000,-1,0,0,0,100,100,0,0,1,2.23334,0,9,15,15,11,1
 Style: op btth,Forte,44,&H00FFFFFF,&H836E6E6E,&H00FFD437,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,79,1
 Style: op btth karaoke,Forte,44,&H00FFFFFF,&H836E6E6E,&H00FFD437,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,10,10,10,1
-Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
 Style: Preview,Gloucester MT Extra Condensed,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0.5,0,1,0.985294,0,8,10,10,8,1
 Style: channel,Arial Rounded MT Bold,30,&H32FFFFFF,&H000000FF,&H64000000,&H00000000,0,-1,0,0,100,100,0,0,1,0,0,8,10,10,5,1
 Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
@@ -118,3 +118,4 @@ Dialogue: 0,0:02:12.23,0:02:14.91,op btth,,0,0,0,,{\fad(250,250)}♪Bakti memben
 Dialogue: 0,0:02:14.91,0:02:21.93,op btth,,0,0,0,,{\fad(250,250)}♪Hanya dalam sekejap mata dan ayunan tangan♪
 Comment: 0,0:02:56.00,0:02:56.00,Jurus btth,,0,0,0,,tess
 Dialogue: 0,0:02:28.40,0:02:34.00,btth,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh DongWorld.
+Dialogue: 0,0:02:34.00,0:02:37.00,btth,,0,0,0,,

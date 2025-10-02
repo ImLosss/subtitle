@@ -1,0 +1,372 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.79,0:00:15.00,komen,,0,0,0,,{\pos(1575,514)\fad(500,250)}[Planet Tianyun\NWilayah Bintang Kunxu]
+Dialogue: 0,0:01:19.18,0:01:21.20,komen,,0,0,0,,{\pos(369,427)\fad(500,250)}[Sekte Tianyun]
+Dialogue: 0,0:01:28.83,0:01:32.48,komen,,0,0,0,,{\pos(1668,596)\fad(500,250)}[Zhao Xingsha\NMurid Cabang Ungu Sekte Tianyun\NTahap Tengah Soul Transformation]
+Dialogue: 0,0:01:59.69,0:02:02.98,komen,,0,0,0,,{\pos(342,600)\fad(500,250)}[Zhou Wan\NMurid Cabang Ungu Sekte Tianyun\NTahap Tengah Soul Transformation]
+Dialogue: 0,0:02:36.00,0:02:39.29,komen,,0,0,0,,{\pos(249,433)\fad(500,250)}[Ujian Manusia]
+Dialogue: 0,0:07:00.32,0:07:03.61,komen,,0,0,0,,{\pos(385,430)\fad(500,250)}[Ujian Bumi]
+Dialogue: 0,0:07:56.38,0:07:59.67,komen,,0,0,0,,{\pos(385,430)\fad(500,250)}[Ujian Langit]
+Dialogue: 0,0:10:09.01,0:10:11.69,komen,,0,0,0,,{\pos(269,597)\fad(500,250)}[Jin Ye\NMurid Cabang Ungu Sekte Tianyun\NTahap Awal Soul Transformation]
+Dialogue: 0,0:11:07.02,0:11:09.19,komen,,0,0,0,,{\pos(1704,629)\fad(500,250)}Tiga hari kemudian...
+Dialogue: 0,0:14:02.84,0:14:04.96,komen,,0,0,0,,{\pos(215,514)\fad(500,250)}[Paviliun Hutan Ungu\NCabang Ungu Sekte Tianyun]
+Dialogue: 0,0:14:21.95,0:14:23.66,komen,,0,0,0,,{\pos(355,607)\fad(500,250)}[Zhao Xinmeng\NMurid Cabang Ungu Sekte Tianyun\NTahap Akhir Soul Transformation]
+Dialogue: 0,0:00:11.97,0:00:13.20,ri,,0,0,0,,Kekuatan spiritual Planet Tianyun ini,
+Dialogue: 0,0:00:14.10,0:00:15.36,ri,,0,0,0,,sangat pekat sampai meluap ke luar.
+Dialogue: 0,0:00:16.70,0:00:18.60,ri,,0,0,0,,Planet Vermillion tak bisa dibandingkan sama sekali.
+Dialogue: 0,0:00:19.43,0:00:21.63,ri,,0,0,0,,Pasti telah melahirkan banyak master di atasnya.
+Dialogue: 0,0:00:22.10,0:00:24.00,ri,,0,0,0,,Untuk mencegah tubuh Dewa Kuno-ku terlihat,
+Dialogue: 0,0:00:24.80,0:00:26.33,ri,,0,0,0,,Tubuh Asli sebaiknya bersembunyi.
+Dialogue: 0,0:00:36.53,0:00:37.37,ri,,0,0,0,,Dalam kabut spiritual ini,
+Dialogue: 0,0:00:37.80,0:00:39.96,ri,,0,0,0,,sepertinya mengandung gelombang penghancur.
+Dialogue: 0,0:00:40.90,0:00:41.70,ri,,0,0,0,,Jika nekat masuk,
+Dialogue: 0,0:00:42.13,0:00:43.67,ri,,0,0,0,,pasti akan terkena serangan berantai.
+Dialogue: 0,0:00:50.90,0:00:52.23,ri,,0,0,0,,Aku mencari Senior Tian Yunzi.
+Dialogue: 0,0:00:57.63,0:00:58.96,ri,,0,0,0,,Rekan Dao, silakan maju.
+Dialogue: 0,0:00:59.37,0:01:00.76,ri,,0,0,0,,Leluhur sudah menunggumu lama.
+Dialogue: 0,0:01:08.17,0:01:10.53,ri,,0,0,0,,Kedatanganku ke Planet Tianyun tak kusampaikan pada siapa pun.
+Dialogue: 0,0:01:11.27,0:01:12.73,ri,,0,0,0,,Jangan-jangan Senior Tian Yunzi ini,
+Dialogue: 0,0:01:13.03,0:01:15.17,ri,,0,0,0,,benar-benar memiliki kekuatan besar yang tahu segalanya,
+Dialogue: 0,0:01:15.53,0:01:17.23,ri,,0,0,0,,dan memperhitungkan kedatanganku hari ini?
+Dialogue: 0,0:01:22.77,0:01:23.80,ri,,0,0,0,,Wang Lin dari Planet Vermillion,
+Dialogue: 0,0:01:24.37,0:01:26.17,ri,,0,0,0,,datang untuk memberi penghormatan pada Senior Tian Yunzi.
+Dialogue: 0,0:01:28.97,0:01:29.43,ri,,0,0,0,,Guru Agung.
+Dialogue: 0,0:01:29.93,0:01:31.23,ri,,0,0,0,,Orang ini hanya murid tercatat,
+Dialogue: 0,0:01:31.50,0:01:32.50,ri,,0,0,0,,juga perlu melewati tiga ujian masuk.
+Dialogue: 0,0:01:34.70,0:01:36.60,ri,,0,0,0,,Guru saat itu tanpa sengaja,
+Dialogue: 0,0:01:36.93,0:01:38.83,ri,,0,0,0,,meninggalkan sedikit niat menerima murid.
+Dialogue: 0,0:01:39.77,0:01:41.90,ri,,0,0,0,,Tak disangka dalam hanya beberapa ratus tahun,
+Dialogue: 0,0:01:42.13,0:01:44.10,ri,,0,0,0,,dia mencapai kultivasi seperti ini.
+Dialogue: 0,0:01:45.93,0:01:47.30,ri,,0,0,0,,Tidak sederhana.
+Dialogue: 0,0:01:49.33,0:01:50.37,ri,,0,0,0,,Bisa dihargai oleh Guru Agung,
+Dialogue: 0,0:01:51.10,0:01:52.17,ri,,0,0,0,,adalah takdirnya.
+Dialogue: 0,0:01:52.83,0:01:54.50,ri,,0,0,0,,Jika dia melewati tiga ujian,
+Dialogue: 0,0:01:55.17,0:01:56.80,ri,,0,0,0,,bawa dia ke Paviliun Awan Ungu.
+Dialogue: 0,0:01:59.30,0:02:01.17,ri,,0,0,0,,Penduduk asli dari planet terlantar,
+Dialogue: 0,0:02:01.33,0:02:03.00,ri,,0,0,0,,pantas mendapat warisan asli Guru Agung?
+Dialogue: 0,0:02:03.90,0:02:04.96,ri,,0,0,0,,Guru Agung menyukai bakat,
+Dialogue: 0,0:02:05.43,0:02:06.70,ri,,0,0,0,,jika Wang Lin ini luar biasa,
+Dialogue: 0,0:02:07.17,0:02:08.30,ri,,0,0,0,,dan timbul niat menerima murid,
+Dialogue: 0,0:02:08.57,0:02:09.56,ri,,0,0,0,,juga wajar.
+Dialogue: 0,0:02:11.33,0:02:12.16,ri,,0,0,0,,Saudara Sun Yun,
+Dialogue: 0,0:02:12.80,0:02:15.06,ri,,0,0,0,,sepertinya Paviliun Awan Ungu-mu akan berganti pemilik.
+Dialogue: 0,0:02:16.53,0:02:16.96,ri,,0,0,0,,Wang Lin,
+Dialogue: 0,0:02:17.93,0:02:19.03,ri,,0,0,0,,ingin memberi penghormatan pada Guru Agung,
+Dialogue: 0,0:02:19.53,0:02:20.83,ri,,0,0,0,,harus melalui tiga ujian.
+Dialogue: 0,0:02:21.77,0:02:22.90,ri,,0,0,0,,Bersediakah kau menerima?
+Dialogue: 0,0:02:23.90,0:02:24.73,ri,,0,0,0,,Apa yang tidak berani?
+Dialogue: 0,0:02:30.20,0:02:31.03,ri,,0,0,0,,Ujian Manusia,
+Dialogue: 0,0:02:31.97,0:02:33.13,ri,,0,0,0,,menguji Hati Dao.
+Dialogue: 0,0:02:36.33,0:02:36.96,ri,,0,0,0,,Hati Dao?
+Dialogue: 0,0:02:38.20,0:02:39.56,ri,,0,0,0,,Bagaimana cara mengujinya?
+Dialogue: 0,0:02:46.80,0:02:47.63,ri,,0,0,0,,Wan'er.
+Dialogue: 0,0:02:50.23,0:02:51.90,ri,,0,0,0,,Ternyata menguji ke mana arah Hati Dao.
+Dialogue: 0,0:02:52.33,0:02:54.20,ri,,0,0,0,,Memunculkan orang yang paling dirindukan.
+Dialogue: 0,0:02:54.93,0:02:56.96,ri,,0,0,0,,Tapi bagaimana cara melewati Ujian Manusia?
+Dialogue: 0,0:02:57.53,0:02:58.60,ri,,0,0,0,,Ujian ini sebenarnya tidak sulit.
+Dialogue: 0,0:02:58.80,0:02:59.96,ri,,0,0,0,,Entah dengan menenangkan hati menghindari ilusi,
+Dialogue: 0,0:03:00.23,0:03:01.30,ri,,0,0,0,,atau dengan menghancurkan ilusi untuk keluar,
+Dialogue: 0,0:03:01.83,0:03:02.70,ri,,0,0,0,,semuanya bisa lolos ujian.
+Dialogue: 0,0:03:03.40,0:03:04.16,ri,,0,0,0,,Tapi, Kakak Senior,
+Dialogue: 0,0:03:04.93,0:03:07.00,ri,,0,0,0,,kau tahu pilihan Sun Yun waktu itu apa?
+Dialogue: 0,0:03:10.20,0:03:11.60,ri,,0,0,0,,Dia memilih untuk Bertanya pada Dao.
+Dialogue: 0,0:03:12.30,0:03:15.06,ri,,0,0,0,,Tapi Sun Yun dulu adalah salah satu dari Tujuh Putra Tianyun cabang Ungu kita.
+Dialogue: 0,0:03:15.57,0:03:17.16,ri,,0,0,0,,Seorang jenius yang muncul tiba-tiba.
+Dialogue: 0,0:03:17.87,0:03:18.90,ri,,0,0,0,,Di dunia ini,
+Dialogue: 0,0:03:19.27,0:03:20.53,ri,,0,0,0,,ada berapa banyak Sun Yun?
+Dialogue: 0,0:03:34.87,0:03:35.53,ri,,0,0,0,,Tiezhu.
+Dialogue: 0,0:03:37.09,0:03:37.43,ri,,0,0,0,,Ayah.
+Dialogue: 0,0:03:37.67,0:03:38.18,ri,,0,0,0,,Ibu.
+Dialogue: 0,0:03:39.27,0:03:41.40,ri,,0,0,0,,Ayah dan Ibu besok mau pergi ke gunung.
+Dialogue: 0,0:03:42.00,0:03:43.00,ri,,0,0,0,,Hanya kalian berdua yang naik gunung?
+Dialogue: 0,0:03:43.80,0:03:44.37,ri,,0,0,0,,Tidak aman, kan?
+Dialogue: 0,0:03:45.33,0:03:45.93,ri,,0,0,0,,Tidak apa-apa.
+Dialogue: 0,0:03:46.27,0:03:47.90,ri,,0,0,0,,Banyak orang desa pergi bersama.
+Dialogue: 0,0:03:49.37,0:03:49.89,ri,,0,0,0,,Betul
+Dialogue: 0,0:03:50.70,0:03:51.73,ri,,0,0,0,,Kalau beruntung,
+Dialogue: 0,0:03:51.93,0:03:53.16,ri,,0,0,0,,bisa dapat kulit anjing hutan,
+Dialogue: 0,0:03:53.40,0:03:54.11,ri,,0,0,0,,untuk buat jubah.
+Dialogue: 0,0:03:56.13,0:03:56.60,ri,,0,0,0,,Tiezhu.
+Dialogue: 0,0:03:57.33,0:03:58.70,ri,,0,0,0,,Kau lagi mengukir apa?
+Dialogue: 0,0:04:02.20,0:04:02.80,ri,,0,0,0,,Ya.
+Dialogue: 0,0:04:03.90,0:04:05.06,ri,,0,0,0,,Aku mengukir apa?
+Dialogue: 0,0:04:06.37,0:04:07.93,ri,,0,0,0,,Kenapa aku tidak ingat?
+Dialogue: 0,0:04:09.67,0:04:10.50,ri,,0,0,0,,Aku hanya ingat,
+Dialogue: 0,0:04:11.07,0:04:12.40,ri,,0,0,0,,yang ku-ukir sangat penting,
+Dialogue: 0,0:04:13.13,0:04:14.53,ri,,0,0,0,,obsesi yang tidak ingin dilupakan.
+Dialogue: 0,0:04:14.57,0:04:15.60,ri,,0,0,0,,Ada masalah!
+Dialogue: 0,0:04:16.17,0:04:17.93,ri,,0,0,0,,Harimau membunuh orang!
+Dialogue: 0,0:04:23.60,0:04:24.48,ri,,0,0,0,,Mati.
+Dialogue: 0,0:04:24.48,0:04:25.46,ri,,0,0,0,,Semuanya mati.
+Dialogue: 0,0:04:25.60,0:04:27.13,ri,,0,0,0,,Waktu pergi baik-baik saja.
+Dialogue: 0,0:04:28.84,0:04:29.34,ri,,0,0,0,,Ayah.
+Dialogue: 0,0:04:29.37,0:04:30.27,ri,,0,0,0,,Kenapa bisa begini?
+Dialogue: 0,0:04:30.93,0:04:31.50,ri,,0,0,0,,Ibu.
+Dialogue: 0,0:04:42.40,0:04:43.36,ri,,0,0,0,,Ujian Manusia.
+Dialogue: 0,0:04:43.87,0:04:45.07,ri,,0,0,0,,Ternyata begitu.
+Dialogue: 0,0:04:45.73,0:04:46.13,ri,,0,0,0,,Tiezhu.
+Dialogue: 0,0:04:46.13,0:04:47.33,ri,,0,0,0,,Ukiran kayu patah sekali,
+Dialogue: 0,0:04:47.70,0:04:49.07,ri,,0,0,0,,berarti satu siklus kehidupan.
+Dialogue: 0,0:04:49.63,0:04:50.96,ri,,0,0,0,,Dan siklusnya tak terhitung,
+Dialogue: 0,0:04:51.53,0:04:52.27,ri,,0,0,0,,setiap kehidupan,
+Dialogue: 0,0:04:52.80,0:04:55.16,ri,,0,0,0,,mereka selalu meninggalkanku dengan cara yang sama.
+Dialogue: 0,0:04:55.90,0:04:57.33,ri,,0,0,0,,Kau sudah melihat melalui ini,
+Dialogue: 0,0:04:58.13,0:05:01.10,ri,,0,0,0,,kenapa masih belum menghancurkan ilusi dan keluar?
+Dialogue: 0,0:05:02.53,0:05:03.80,ri,,0,0,0,,Tanpa hancur, tiada yang lahir.
+Dialogue: 0,0:05:04.20,0:05:05.40,ri,,0,0,0,,Hancur dulu, baru berdiri kembali.
+Dialogue: 0,0:05:06.07,0:05:07.60,ri,,0,0,0,,Hancur besar, bangkit besar.
+Dialogue: 0,0:05:08.13,0:05:10.23,ri,,0,0,0,,Itu pertanda kelahiran baru.
+Dialogue: 0,0:05:12.80,0:05:13.77,ri,,0,0,0,,Kelahiran kembali.
+Dialogue: 0,0:05:14.27,0:05:14.93,ri,,0,0,0,,Apa itu yang lama?
+Dialogue: 0,0:05:15.80,0:05:16.77,ri,,0,0,0,,Apa itu yang baru?
+Dialogue: 0,0:05:17.87,0:05:20.66,ri,,0,0,0,,Percobaan ke-84 akan segera dimulai.
+Dialogue: 0,0:05:21.70,0:05:24.10,ri,,0,0,0,,Apakah kau benar-benar akan melanjutkan?
+Dialogue: 0,0:05:26.13,0:05:26.66,ri,,0,0,0,,Tentu.
+Dialogue: 0,0:05:28.93,0:05:30.27,ri,,0,0,0,,Anak ini,
+Dialogue: 0,0:05:30.50,0:05:31.77,ri,,0,0,0,,sangat bagus.
+Dialogue: 0,0:05:32.77,0:05:35.16,ri,,0,0,0,,Aku dulu bersusah payah menciptakan.
+Dialogue: 0,0:05:35.90,0:05:37.57,ri,,0,0,0,,Ujian Manusia dikatakan sebagai ujian,
+Dialogue: 0,0:05:37.93,0:05:39.93,ri,,0,0,0,,tapi sebenarnya adalah peluang.
+Dialogue: 0,0:05:40.37,0:05:43.16,ri,,0,0,0,,Jika dia bisa bertanya pada Dao dalam siklus di sini.
+Dialogue: 0,0:05:43.77,0:05:46.46,ri,,0,0,0,,Hati Daonya akan tak tergoyahkan.
+Dialogue: 0,0:05:49.20,0:05:52.40,ri,,0,0,0,,Bahkan Sun Yun dulu hanya Bertanya pada Dao selama 67 hari.
+Dialogue: 0,0:05:52.67,0:05:53.16,ri,,0,0,0,,Senior.
+Dialogue: 0,0:05:53.80,0:05:55.10,ri,,0,0,0,,Anak ini tidak boleh dibiarkan.
+Dialogue: 0,0:05:55.47,0:05:56.27,ri,,0,0,0,,Bagaimana kalau...
+Dialogue: 0,0:06:10.37,0:06:11.16,ri,,0,0,0,,Siapapun kau.
+Dialogue: 0,0:06:11.60,0:06:12.36,ri,,0,0,0,,Keluarlah!
+Dialogue: 0,0:06:13.36,0:06:28.36,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:06:36.87,0:06:37.93,ri,,0,0,0,,Bertanya pada Dao dengan hati,
+Dialogue: 0,0:06:38.57,0:06:40.60,ri,,0,0,0,,adalah makna sebenarnya dari Ujian Manusia.
+Dialogue: 0,0:06:46.77,0:06:47.57,ri,,0,0,0,,Tidak takut pada hati nurani,
+Dialogue: 0,0:06:47.97,0:06:49.23,ri,,0,0,0,,barulah diri sendiri.
+Dialogue: 0,0:06:51.57,0:06:52.57,ri,,0,0,0,,Tidak menolak hati nurani,
+Dialogue: 0,0:06:53.37,0:06:54.66,ri,,0,0,0,,disebut kebebasan.
+Dialogue: 0,0:07:02.50,0:07:05.40,ri,,0,0,0,,Aku adalah Penjaga Immortal ke-10 Ujian Bumi.
+Dialogue: 0,0:07:05.87,0:07:07.03,ri,,0,0,0,,Kalahkan aku,
+Dialogue: 0,0:07:07.67,0:07:09.63,ri,,0,0,0,,baru kau bisa melanjutkan.
+Dialogue: 0,0:07:17.37,0:07:18.93,ri,,0,0,0,,Tampaknya mengalahkan beberapa Penjaga Immortal.
+Dialogue: 0,0:07:19.47,0:07:21.13,ri,,0,0,0,,bisa menunjukkan tingkat kultivasi.
+Dialogue: 0,0:07:22.53,0:07:24.00,ri,,0,0,0,,Tapi dua ujian Langit dan Bumi yang tersisa.
+Dialogue: 0,0:07:24.53,0:07:26.00,ri,,0,0,0,,jika ada yang menghalangi lagi,
+Dialogue: 0,0:07:26.73,0:07:28.33,ri,,0,0,0,,aku pasti akan dalam bahaya.
+Dialogue: 0,0:07:29.37,0:07:29.96,ri,,0,0,0,,Ujian Bumi.
+Dialogue: 0,0:07:30.40,0:07:31.16,ri,,0,0,0,,Aku menyerah.
+Dialogue: 0,0:07:33.07,0:07:34.50,ri,,0,0,0,,Cukup pintar.
+Dialogue: 0,0:07:35.17,0:07:36.86,ri,,0,0,0,,Jika kau berani menerobos lebih jauh,
+Dialogue: 0,0:07:37.33,0:07:39.77,ri,,0,0,0,,aku punya banyak cara untuk membuatmu mati.
+Dialogue: 0,0:07:41.80,0:07:43.36,ri,,0,0,0,,Hanya saja dengan begini,
+Dialogue: 0,0:07:44.17,0:07:46.80,ri,,0,0,0,,kau juga kehilangan kualifikasi sebagai murid inti.
+Dialogue: 0,0:07:47.03,0:07:47.66,ri,,0,0,0,,Hentikan!
+Dialogue: 0,0:07:51.17,0:07:52.23,ri,,0,0,0,,Guru Agung memerintahkan.
+Dialogue: 0,0:07:54.80,0:07:55.43,ri,,0,0,0,,Apa?
+Dialogue: 0,0:08:02.13,0:08:03.13,ri,,0,0,0,,Ujian Langit.
+Dialogue: 0,0:08:03.93,0:08:05.00,ri,,0,0,0,,Menguji Konsepsi.
+Dialogue: 0,0:08:10.13,0:08:11.13,ri,,0,0,0,,Berdiri di sini,
+Dialogue: 0,0:08:11.87,0:08:14.46,ri,,0,0,0,,Konsepsiku dan Hukum Langit yang awalnya tak terjangkau.
+Dialogue: 0,0:08:15.73,0:08:17.93,ri,,0,0,0,,seolah hanya terpisah sejengkal.
+Dialogue: 0,0:08:19.00,0:08:21.86,ri,,0,0,0,,Senior Tian Yunzi bahkan bisa memvisualisasikan Hukum Langit.
+Dialogue: 0,0:08:22.77,0:08:24.33,ri,,0,0,0,,Seberapa besar kekuatannya sebenarnya?
+Dialogue: 0,0:08:26.97,0:08:29.53,ri,,0,0,0,,Tapi jika disabotase saat memahami Konsepsi.
+Dialogue: 0,0:08:30.37,0:08:31.72,ri,,0,0,0,,Kerugiannya lebih besar daripada keuntungannya.
+Dialogue: 0,0:08:40.40,0:08:41.16,ri,,0,0,0,,Ujian Langit,
+Dialogue: 0,0:08:41.90,0:08:42.70,ri,,0,0,0,,aku menyerah.
+Dialogue: 0,0:08:54.47,0:08:55.30,ri,,0,0,0,,Saudara seperguruan Wang Lin.
+Dialogue: 0,0:08:55.60,0:08:56.50,ri,,0,0,0,,Namaku Zhao Xingsha.
+Dialogue: 0,0:08:57.37,0:08:58.40,ri,,0,0,0,,Aku masuk sedikit lebih awal.
+Dialogue: 0,0:08:59.00,0:09:00.10,ri,,0,0,0,,Kau bisa memanggilku Kakak Senior.
+Dialogue: 0,0:09:00.80,0:09:01.66,ri,,0,0,0,,Hormat pada Kakak Senior.
+Dialogue: 0,0:09:03.67,0:09:04.47,ri,,0,0,0,,Saudara, ikut aku.
+Dialogue: 0,0:09:05.00,0:09:05.97,ri,,0,0,0,,Guru Agung sudah memerintahkan.
+Dialogue: 0,0:09:06.67,0:09:08.00,ri,,0,0,0,,Kau akan tinggal sementara di Paviliun Awan Ungu.
+Dialogue: 0,0:09:15.07,0:09:15.50,ri,,0,0,0,,Kakak Senior.
+Dialogue: 0,0:09:16.37,0:09:17.37,ri,,0,0,0,,Boleh tahu Senior Tian Yunzi,
+Dialogue: 0,0:09:17.87,0:09:18.83,ri,,0,0,0,,punya berapa murid?
+Dialogue: 0,0:09:19.80,0:09:20.97,ri,,0,0,0,,Murid-murid Guru Agung,
+Dialogue: 0,0:09:21.30,0:09:22.37,ri,,0,0,0,,dikelompokkan berdasarkan tujuh warna.
+Dialogue: 0,0:09:23.47,0:09:24.77,ri,,0,0,0,,Hanya dari cabang Ungu kami,
+Dialogue: 0,0:09:25.17,0:09:26.47,ri,,0,0,0,,ada lebih dari satu juta murid.
+Dialogue: 0,0:09:31.17,0:09:31.66,ri,,0,0,0,,Di sini,
+Dialogue: 0,0:09:32.23,0:09:34.40,ri,,0,0,0,,adalah gerbang sekte cabang Ungu Sekte Tianyun.
+Dialogue: 0,0:09:37.80,0:09:38.93,ri,,0,0,0,,Dari tujuh cabang murid ini,
+Dialogue: 0,0:09:39.40,0:09:40.80,ri,,0,0,0,,hanya cabang Ungu kami yang paling lemah.
+Dialogue: 0,0:09:42.63,0:09:43.56,ri,,0,0,0,,Alasannya,
+Dialogue: 0,0:09:44.13,0:09:45.47,ri,,0,0,0,,kau akan tahu sendiri seiring waktu.
+Dialogue: 0,0:09:46.53,0:09:47.30,ri,,0,0,0,,Saudara Wang Lin.
+Dialogue: 0,0:09:47.73,0:09:48.66,ri,,0,0,0,,Pergi ke barat,
+Dialogue: 0,0:09:49.17,0:09:50.30,ri,,0,0,0,,adalah lokasi Paviliun Awan Ungu.
+Dialogue: 0,0:09:51.00,0:09:51.93,ri,,0,0,0,,Kau bisa pergi sendiri.
+Dialogue: 0,0:09:53.00,0:09:54.10,ri,,0,0,0,,Senior masih ada urusan penting,
+Dialogue: 0,0:09:54.67,0:09:55.93,ri,,0,0,0,,tidak akan menemanimu lebih lanjut.
+Dialogue: 0,0:09:56.01,0:10:09.01,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:10:09.23,0:10:09.97,ri,,0,0,0,,Siapa kau?
+Dialogue: 0,0:10:10.57,0:10:10.97,ri,,0,0,0,,Keluar!
+Dialogue: 0,0:10:11.47,0:10:13.06,ri,,0,0,0,,Aku murid baru cabang Ungu, Wang Lin.
+Dialogue: 0,0:10:13.97,0:10:15.60,ri,,0,0,0,,Guru Agung memerintahkan aku tinggal sementara di Paviliun Awan Ungu.
+Dialogue: 0,0:10:16.47,0:10:16.83,ri,,0,0,0,,Pergi!
+Dialogue: 0,0:10:16.97,0:10:17.97,ri,,0,0,0,,Dalam radius seratus li dari Paviliun Awan Ungu.
+Dialogue: 0,0:10:18.50,0:10:19.47,ri,,0,0,0,,Kau tidak boleh melangkah setengah langkah pun.
+Dialogue: 0,0:10:22.63,0:10:23.66,ri,,0,0,0,,Perintah Tian Yunzi,
+Dialogue: 0,0:10:24.20,0:10:26.16,ri,,0,0,0,,tapi dihalangi orang ini.
+Dialogue: 0,0:10:32.57,0:10:34.00,ri,,0,0,0,,Senior, kau lama tidak kembali.
+Dialogue: 0,0:10:34.73,0:10:36.73,ri,,0,0,0,,Bahkan Paviliun Awan Ungu-mu ada yang mau merebut.
+Dialogue: 0,0:10:37.97,0:10:39.16,ri,,0,0,0,,Tapi selama adik masih ada,
+Dialogue: 0,0:10:40.33,0:10:41.50,ri,,0,0,0,,pasti tidak akan membiarkannya berhasil.
+Dialogue: 0,0:10:44.37,0:10:46.40,ri,,0,0,0,,Di dalam tiga ujian ada yang mencoba menyabotase.
+Dialogue: 0,0:10:47.27,0:10:48.37,ri,,0,0,0,,Tapi tiga ujian tidak dilewati,
+Dialogue: 0,0:10:48.97,0:10:50.77,ri,,0,0,0,,tapi tetap mempersilakanku masuk sekte.
+Dialogue: 0,0:10:52.33,0:10:54.56,ri,,0,0,0,,Sekarang Paviliun Awan Ungu malah dijaga orang.
+Dialogue: 0,0:10:56.43,0:10:57.80,ri,,0,0,0,,Dengan kekuatan Tian Yunzi.
+Dialogue: 0,0:10:58.30,0:10:59.90,ri,,0,0,0,,Dia pasti tahu semua ini.
+Dialogue: 0,0:11:00.70,0:11:02.16,ri,,0,0,0,,Dia memilih untuk hanya menonton,
+Dialogue: 0,0:11:02.83,0:11:04.97,ri,,0,0,0,,berarti sengaja menguji kekuatanku.
+Dialogue: 0,0:11:08.80,0:11:09.40,ri,,0,0,0,,Dua Tetua,
+Dialogue: 0,0:11:09.77,0:11:10.56,ri,,0,0,0,,di sinilah tempatnya.
+Dialogue: 0,0:11:12.17,0:11:13.80,ri,,0,0,0,,Tanpa izin Tetua,
+Dialogue: 0,0:11:14.20,0:11:16.33,ri,,0,0,0,,siapa yang membangun kediaman di sini?
+Dialogue: 0,0:11:16.97,0:11:18.00,ri,,0,0,0,,Keluarlah!
+Dialogue: 0,0:11:25.80,0:11:27.83,ri,,0,0,0,,Kami adalah Tetua Penegak Hukum cabang Ungu.
+Dialogue: 0,0:11:28.57,0:11:29.97,ri,,0,0,0,,Kami beri waktu satu batang dupa.
+Dialogue: 0,0:11:30.43,0:11:32.16,ri,,0,0,0,,Hancurkan kediaman ini.
+Dialogue: 0,0:11:32.73,0:11:33.87,ri,,0,0,0,,Jika tidak,
+Dialogue: 0,0:11:34.50,0:11:35.93,ri,,0,0,0,,akan dihukum menurut peraturan sekte.
+Dialogue: 0,0:11:45.80,0:11:47.27,ri,,0,0,0,,Meski kediaman sudah hancur,
+Dialogue: 0,0:11:47.60,0:11:49.33,ri,,0,0,0,,tapi kau melanggar peraturan sekte duluan.
+Dialogue: 0,0:11:50.13,0:11:51.87,ri,,0,0,0,,Ikut kami kembali ke sekte!
+Dialogue: 0,0:11:52.83,0:11:54.53,ri,,0,0,0,,Akan ada yang menghukummu.
+Dialogue: 0,0:12:01.47,0:12:02.73,ri,,0,0,0,,Kau salah orang.
+Dialogue: 0,0:12:06.07,0:12:08.06,ri,,0,0,0,,Wang Lin hanya ingin berlatih dengan tenang.
+Dialogue: 0,0:12:08.67,0:12:11.00,ri,,0,0,0,,Tapi tidak tahan diganggu terus-menerus.
+Dialogue: 0,0:12:11.37,0:12:12.06,ri,,0,0,0,,Wang Lin!
+Dialogue: 0,0:12:13.00,0:12:14.73,ri,,0,0,0,,Berani menyerang Tetua Penegak Hukum?
+Dialogue: 0,0:12:20.50,0:12:21.80,ri,,0,0,0,,Tujuh Pecahan Bintang!
+Dialogue: 0,0:12:28.27,0:12:30.87,ri,,0,0,0,,Cucu, berdiri tegaklah untuk kakekmu!
+Dialogue: 0,0:12:31.07,0:12:32.30,ri,,0,0,0,,Jika kau berani bergerak,
+Dialogue: 0,0:12:32.50,0:12:34.00,ri,,0,0,0,,aku akan memenggal kepalamu!
+Dialogue: 0,0:12:36.27,0:12:38.23,ri,,0,0,0,,Gila!
+Dialogue: 0,0:12:50.10,0:12:52.00,ri,,0,0,0,,Siapa yang tinggal di Paviliun Awan Ungu sebelumnya?
+Dialogue: 0,0:12:53.87,0:12:54.80,ri,,0,0,0,,Seribu tahun lalu,
+Dialogue: 0,0:12:55.20,0:12:57.27,ri,,0,0,0,,cabang Ungu punya seorang jenius langka.
+Dialogue: 0,0:12:57.87,0:12:59.06,ri,,0,0,0,,Namanya Sun Yun.
+Dialogue: 0,0:12:59.30,0:13:01.27,ri,,0,0,0,,Tempat tinggalnya adalah Paviliun Awan Ungu.
+Dialogue: 0,0:13:02.10,0:13:03.77,ri,,0,0,0,,Seratus tahun lalu setelah dia mengkhianati sekte.
+Dialogue: 0,0:13:04.50,0:13:06.06,ri,,0,0,0,,Paviliun Awan Ungu menjadi kosong.
+Dialogue: 0,0:13:06.60,0:13:08.80,ri,,0,0,0,,Apa hubungan Sun Yun denganku?
+Dialogue: 0,0:13:09.27,0:13:10.10,ri,,0,0,0,,Awalnya tidak ada.
+Dialogue: 0,0:13:10.50,0:13:12.46,ri,,0,0,0,,Tapi Guru Agung punya tujuh cabang murid.
+Dialogue: 0,0:13:13.27,0:13:15.06,ri,,0,0,0,,Dari tujuh murid inti setiap cabang.
+Dialogue: 0,0:13:15.53,0:13:18.33,ri,,0,0,0,,hanya satu yang bisa mendapat warisan sejati Leluhur Venerable.
+Dialogue: 0,0:13:19.07,0:13:21.20,ri,,0,0,0,,Mereka disebut Tujuh Putra Tianyun.
+Dialogue: 0,0:13:21.93,0:13:23.46,ri,,0,0,0,,Guru Agung pernah berkata.
+Dialogue: 0,0:13:24.07,0:13:26.10,ri,,0,0,0,,Orang berikutnya yang tinggal di Paviliun Awan Ungu,
+Dialogue: 0,0:13:27.00,0:13:28.96,ri,,0,0,0,,akan menjadi Tujuh Putra Tianyun baru.
+Dialogue: 0,0:13:30.17,0:13:33.87,ri,,0,0,0,,Rupanya inilah alasan sebenarnya mereka memusuhiku.
+Dialogue: 0,0:13:35.07,0:13:36.00,ri,,0,0,0,,Sudah kukatakan semuanya.
+Dialogue: 0,0:13:36.37,0:13:38.06,ri,,0,0,0,,Biarkan aku hidup.
+Dialogue: 0,0:13:42.57,0:13:44.10,ri,,0,0,0,,Jika bersembunyi tidak membawa kedamaian,
+Dialogue: 0,0:13:45.13,0:13:46.96,ri,,0,0,0,,maka biarkan kekacauan terjadi.
+Dialogue: 0,0:13:48.70,0:13:50.13,ri,,0,0,0,,Buat semua orang tahu.
+Dialogue: 0,0:13:51.57,0:13:53.87,ri,,0,0,0,,Aku bukan orang yang bisa diremehkan.
+Dialogue: 0,0:13:58.27,0:13:59.33,ri,,0,0,0,,Mulai hari ini.
+Dialogue: 0,0:13:59.87,0:14:00.60,ri,,0,0,0,,Paviliun ini.
+Dialogue: 0,0:14:01.30,0:14:02.87,ri,,0,0,0,,Berganti nama menjadi Paviliun Hutan Ungu.
+Dialogue: 0,0:14:04.80,0:14:05.70,ri,,0,0,0,,Wang Lin.
+Dialogue: 0,0:14:06.00,0:14:07.10,ri,,0,0,0,,Bahkan jika aku mati,
+Dialogue: 0,0:14:07.67,0:14:09.00,ri,,0,0,0,,aku akan melawanmu.
+Dialogue: 0,0:14:11.50,0:14:13.96,ri,,0,0,0,,Dungu yang dikendalikan orang lain tapi tidak menyadarinya.
+Dialogue: 0,0:14:14.47,0:14:15.06,ri,,0,0,0,,Hentikan!
+Dialogue: 0,0:14:16.17,0:14:17.46,ri,,0,0,0,,Seperti yang diduga.
+Dialogue: 0,0:14:19.07,0:14:20.67,ri,,0,0,0,,Tiga Soul Transformation tahap menengah.
+Dialogue: 0,0:14:21.30,0:14:23.21,ri,,0,0,0,,Satu Soul Transformation tahap akhir.
+Dialogue: 0,0:14:23.97,0:14:24.70,ri,,0,0,0,,Saudara Wang Lin.
+Dialogue: 0,0:14:25.50,0:14:26.50,ri,,0,0,0,,Kau baru saja masuk sekte.
+Dialogue: 0,0:14:26.97,0:14:28.23,ri,,0,0,0,,Bagaimana bisa memaksa kakak kelima mati?
+Dialogue: 0,0:14:28.50,0:14:29.96,ri,,0,0,0,,Melakukan pembunuhan sesama murid.
+Dialogue: 0,0:14:30.17,0:14:30.63,ri,,0,0,0,,Kakak Senior.
+Dialogue: 0,0:14:30.87,0:14:31.77,ri,,0,0,0,,Jangan buang waktu dengannya.
+Dialogue: 0,0:14:32.20,0:14:33.90,ri,,0,0,0,,Aku akan membersihkan sekte untuk Guru Agung.
+Dialogue: 0,0:14:35.60,0:14:37.20,ri,,0,0,0,,Orang yang merusak peluangku,
+Dialogue: 0,0:14:37.77,0:14:38.73,ri,,0,0,0,,adalah kau.
+Dialogue: 0,0:14:38.97,0:14:40.67,ri,,0,0,0,,Pribumi dari planet terbelakang.
+Dialogue: 0,0:14:41.37,0:14:42.80,ri,,0,0,0,,Sebelum mati, biar kau tahu.
+Dialogue: 0,0:14:43.17,0:14:44.58,ri,,0,0,0,,Apa itu kekuatan sebenarnya.
+Dialogue: 0,0:14:44.87,0:14:45.56,ri,,0,0,0,,Teknik Terlarang.
+Dialogue: 0,0:14:46.00,0:14:47.30,ri,,0,0,0,,Tubuh Immortal-Iblis.
+Dialogue: 0,0:14:52.00,0:14:53.27,ri,,0,0,0,,Matilah!
+Dialogue: 0,0:15:00.93,0:15:02.20,ri,,0,0,0,,Jari Transformasi Iblis.
+Dialogue: 0,0:15:07.73,0:15:09.06,ri,,0,0,0,,Kultivator pribumi.
+Dialogue: 0,0:15:09.47,0:15:11.46,ri,,0,0,0,,Bagaimana mungkin punya kekuatan seperti ini?
+Dialogue: 0,0:15:13.57,0:15:14.90,ri,,0,0,0,,Satu jari yang sangat perkasa.
+Dialogue: 0,0:15:15.17,0:15:17.50,ri,,0,0,0,,Anak muda sombong yang tidak menghormati senior.
+Dialogue: 0,0:15:23.07,0:15:24.00,ri,,0,0,0,,Kereta Dewa Penembak.
+Dialogue: 0,0:15:26.10,0:15:27.37,ri,,0,0,0,,Aku baru saja masuk,
+Dialogue: 0,0:15:27.80,0:15:29.46,ri,,0,0,0,,tapi mengalami banyak masalah.
+Dialogue: 0,0:15:30.17,0:15:31.80,ri,,0,0,0,,Kebetulan yang berlebihan.
+Dialogue: 0,0:15:32.50,0:15:35.00,ri,,0,0,0,,Yang bisa menyuruh murid dan adik seperguruan bersekongkol dengan tetua.
+Dialogue: 0,0:15:35.27,0:15:36.50,ri,,0,0,0,,Hanya kau, Kakak Senior.
+Dialogue: 0,0:15:36.87,0:15:39.03,ri,,0,0,0,,Yang bisa melakukannya dengan sempurna.
+Dialogue: 0,0:15:40.40,0:15:43.77,ri,,0,0,0,,Apakah Kakak Senior khawatir posisi Tujuh Putra jatuh ke tanganku?
+Dialogue: 0,0:15:44.20,0:15:46.46,ri,,0,0,0,,Lalu berniat membunuhku?
+Dialogue: 0,0:15:47.77,0:15:49.43,ri,,0,0,0,,Omong kosong!
+Dialogue: 0,0:15:59.60,0:16:00.70,ri,,0,0,0,,Apa sebenarnya benda ini?
+Dialogue: 0,0:16:03.13,0:16:05.33,ri,,0,0,0,,Sungguh Binatang Langit yang perkasa.
+Dialogue: 0,0:16:21.10,0:16:22.83,ri,,0,0,0,,Hormat pada Guru Agung.
+Dialogue: 0,0:16:23.00,0:16:25.87,ri,,0,0,0,,Dulu saat aku melihatmu di Planet Vermillion,
+Dialogue: 0,0:16:26.80,0:16:30.03,ri,,0,0,0,,awalnya hanya berencana menerimamu sebagai murid catatan selama seratus tahun.
+Dialogue: 0,0:16:30.80,0:16:33.00,ri,,0,0,0,,Sekarang aku mengubah keputusan.
+Dialogue: 0,0:16:34.20,0:16:35.87,ri,,0,0,0,,Bersediakah kau menjadi muridku?
+Dialogue: 0,0:16:36.47,0:16:38.27,ri,,0,0,0,,Mempelajari Jalan Langit.
+Dialogue: 0,0:16:38.87,0:16:42.80,ri,,0,0,0,,Menjadi murid inti cabang Ungu Tian Yunzi.
+Dialogue: 0,0:16:46.40,0:16:47.10,ri,,0,0,0,,Murid Wang Lin.
+Dialogue: 0,0:16:47.60,0:16:48.70,ri,,0,0,0,,Memberi hormat pada Guru Agung.
+Dialogue: 0,0:16:49.70,0:17:04.70,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:17:08.90,0:17:09.96,ri,,0,0,0,,Tulisan yang bagus.
+Dialogue: 0,0:17:11.77,0:17:14.20,ri,,0,0,0,,Pasti ada kultivator iblis di sampingmu.
+Dialogue: 0,0:17:15.20,0:17:18.17,ri,,0,0,0,,Hingga kau terkena aura jalan iblis.
+Dialogue: 0,0:17:19.47,0:17:20.67,ri,,0,0,0,,Memang ada seseorang di samping murid.
+Dialogue: 0,0:17:21.77,0:17:23.26,ri,,0,0,0,,Tapi sudah berpisah dalam perjalanan.
+Dialogue: 0,0:17:26.00,0:17:26.80,ri,,0,0,0,,Tidak apa.
+Dialogue: 0,0:17:27.80,0:17:29.07,ri,,0,0,0,,Di mata gurumu.
+Dialogue: 0,0:17:29.80,0:17:32.20,ri,,0,0,0,,Tidak ada perbedaan antara baik dan jahat, immortal dan iblis.
+Dialogue: 0,0:17:32.47,0:17:33.20,ri,,0,0,0,,Yang ada,
+Dialogue: 0,0:17:33.67,0:17:35.80,ri,,0,0,0,,hanyalah bertindak sesuai keinginan.
+Dialogue: 0,0:17:36.77,0:17:38.43,ri,,0,0,0,,Tianyun, Tianyun.
+Dialogue: 0,0:17:39.30,0:17:42.53,ri,,0,0,0,,Segala sesuatu di dunia ini ditentukan oleh Takdir Langit.
+Dialogue: 0,0:17:43.53,0:17:45.23,ri,,0,0,0,,Selama memiliki hati yang teguh pada Dao.
+Dialogue: 0,0:17:45.70,0:17:48.60,ri,,0,0,0,,Semua Dao bisa dipelajari.
+Dialogue: 0,0:17:49.67,0:17:51.00,ri,,0,0,0,,Murid akan mengingat ajaran ini.
+Dialogue: 0,0:17:51.60,0:17:54.63,ri,,0,0,0,,Tiga bulan lagi adalah ulang tahun gurumu.
+Dialogue: 0,0:17:55.10,0:17:59.17,ri,,0,0,0,,Aku akan gunakan kesempatan itu untuk umumkan penerimaanmu sebagai murid.
+Dialogue: 0,0:17:59.90,0:18:01.70,ri,,0,0,0,,Bersiaplah.
+Dialogue: 0,0:18:03.57,0:18:05.63,ri,,0,0,0,,Teknik kultivator Planet Tianyun sangat misterius.
+Dialogue: 0,0:18:06.30,0:18:07.96,ri,,0,0,0,,Hubungan dalam sekte sangat rumit.
+Dialogue: 0,0:18:09.07,0:18:11.26,ri,,0,0,0,,Jauh lebih berbahaya daripada Planet Vermillion.
+Dialogue: 0,0:18:12.27,0:18:14.03,ri,,0,0,0,,Meski Tian Yunzi sudah menerimaku sebagai murid.
+Dialogue: 0,0:18:15.10,0:18:16.76,ri,,0,0,0,,Tapi untuk internal dan eksternal cabang Ungu,
+Dialogue: 0,0:18:17.47,0:18:19.17,ri,,0,0,0,,masih tidak boleh lengah.

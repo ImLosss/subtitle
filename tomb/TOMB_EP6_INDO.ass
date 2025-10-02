@@ -1,0 +1,295 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 820
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.9,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:35.00,0:00:40.32,komen,,0,0,0,,{\pos(252,505)\fad(500,250)}[Dewa-Iblis\NTanpa Nama]
+Dialogue: 0,0:02:17.07,0:02:22.39,komen,,0,0,0,,{\pos(245,411)\fad(500,250)}[Ilusi Langit Kosong]
+Dialogue: 0,0:03:16.60,0:03:21.22,komen,,0,0,0,,{\pos(1593,408)\fad(500,250)}[Ilusi Langit Kosong\NIngatan Mengke'er]
+Dialogue: 0,0:03:31.50,0:03:34.04,komen,,0,0,0,,{\pos(1657,467)\fad(500,250)}Meng Ke’er Kecil]
+Dialogue: 0,0:05:19.12,0:05:23.74,komen,,0,0,0,,{\pos(207,545)\fad(500,250)}[Dojo Cabang Sekte Tantai\NKenangan Meng Ke’er]
+Dialogue: 0,0:05:27.37,0:05:32.76,komen,,0,0,0,,{\pos(261,578)\fad(500,250)}[Paviliun Rahasia Cabang Sekte Tantai\NKenangan Meng Ke’er]
+Dialogue: 0,0:09:47.01,0:09:51.60,komen,,0,0,0,,{\pos(1720,451)\fad(500,250)}[Ketua Sekte Tantai]
+Dialogue: 0,0:09:52.05,0:09:56.00,komen,,0,0,0,,{\pos(207,550)\fad(500,250)}[Paviliun Utama Sekte Tantai\NKenangan Meng Ke’er]
+Dialogue: 0,0:12:43.81,0:12:47.00,komen,,0,0,0,,{\pos(299,482)\fad(500,250)}[Ilusi Leluhur Jahat]
+Dialogue: 0,0:15:19.85,0:15:21.88,komen,,0,0,0,,{\pos(1516,308)\fad(500,250)}[Ilusi Chen Nan]
+Dialogue: 0,0:15:19.85,0:15:21.88,komen,,0,0,0,,{\pos(1639,613)\fad(500,250)}[Ilusi Chen Xi]
+Dialogue: 0,0:00:14.08,0:00:15.64,tomb,,0,0,0,,Ratusan tahun telah berlalu.
+Dialogue: 0,0:00:16.52,0:00:19.08,tomb,,0,0,0,,Hanya sepuluh manusia lemah yang datang.
+Dialogue: 0,0:00:19.72,0:00:22.32,tomb,,0,0,0,,Bahkan tidak ada satu pun sosok tingkat dewa atau iblis.
+Dialogue: 0,0:00:31.27,0:00:32.52,tomb,,0,0,0,,Ratusan tahun itu berlalu dengan cepat.
+Dialogue: 0,0:00:33.20,0:00:34.27,tomb,,0,0,0,,Apa sebenarnya yang kau tunggu?
+Dialogue: 0,0:00:37.72,0:00:39.00,tomb,,0,0,0,,Sulit dipercaya.
+Dialogue: 0,0:00:39.92,0:00:42.68,tomb,,0,0,0,,Masih ada yang memahami bahasa kuno ini.
+Dialogue: 0,0:00:44.56,0:00:45.40,tomb,,0,0,0,,Tolong beritahu aku.
+Dialogue: 0,0:00:46.20,0:00:46.76,tomb,,0,0,0,,10.000 tahun yang lalu,
+Dialogue: 0,0:00:47.68,0:00:49.28,tomb,,0,0,0,,mengapa dewa dan iblis yang disebut abadi bisa mati?
+Dialogue: 0,0:00:49.84,0:00:51.56,tomb,,0,0,0,,Dewa dari Benua Xianhuan dan Benua Mohuan,
+Dialogue: 0,0:00:52.00,0:00:52.80,tomb,,0,0,0,,mengapa dikubur bersama?
+Dialogue: 0,0:00:53.56,0:00:54.40,tomb,,0,0,0,,Makam Dewa dan Iblis,
+Dialogue: 0,0:00:55.08,0:00:55.92,tomb,,0,0,0,,siapa yang membangunnya?
+Dialogue: 0,0:00:58.00,0:01:01.44,tomb,,0,0,0,,Jangan tanyakan padaku tentang 10.000 tahun yang lalu.
+Dialogue: 0,0:01:01.96,0:01:03.40,tomb,,0,0,0,,Aku tidak bisa mengingatnya.
+Dialogue: 0,0:01:06.32,0:01:11.00,tomb,,0,0,0,,Apa yang sebenarnya terjadi 10.000 tahun yang lalu?
+Dialogue: 0,0:01:11.52,0:01:13.24,tomb,,0,0,0,,Siapa yang bisa memberitahuku?
+Dialogue: 0,0:01:13.60,0:01:16.68,tomb,,0,0,0,,Siapakah aku?
+Dialogue: 0,0:01:30.28,0:01:33.24,tomb,,0,0,0,,Aku telah memaksa diriku melupakan apa yang kau katakan sebelumnya.
+Dialogue: 0,0:01:33.72,0:01:35.72,tomb,,0,0,0,,Jangan pernah kau singgung lagi.
+Dialogue: 0,0:01:36.24,0:01:36.88,tomb,,0,0,0,,Jika tidak,
+Dialogue: 0,0:01:37.36,0:01:39.44,tomb,,0,0,0,,aku akan kehilangan kendali lagi.
+Dialogue: 0,0:01:40.00,0:01:41.44,tomb,,0,0,0,,Menghancurkan segalanya.
+Dialogue: 0,0:01:42.72,0:01:45.04,tomb,,0,0,0,,Waktu sadarku semakin sedikit.
+Dialogue: 0,0:01:45.64,0:01:47.92,tomb,,0,0,0,,Waktu tersesatku semakin panjang.
+Dialogue: 0,0:01:48.56,0:01:49.68,tomb,,0,0,0,,Kalian sangat beruntung.
+Dialogue: 0,0:01:50.20,0:01:53.00,tomb,,0,0,0,,Tidak memasuki saat aku kehilangan jati diri.
+Dialogue: 0,0:01:53.80,0:01:55.56,tomb,,0,0,0,,Tapi tidak peduli siapa kalian,
+Dialogue: 0,0:01:56.28,0:01:58.00,tomb,,0,0,0,,selama datang ke tempat ini,
+Dialogue: 0,0:01:58.40,0:02:00.52,tomb,,0,0,0,,harus mengikuti aturan.
+Dialogue: 0,0:02:01.28,0:02:02.76,tomb,,0,0,0,,Ilusi Langit Kosong,
+Dialogue: 0,0:02:03.68,0:02:04.28,tomb,,0,0,0,,buka!
+Dialogue: 0,0:02:10.32,0:02:12.40,tomb,,0,0,0,,Siapa yang bisa mengalahkan hatinya sendiri,
+Dialogue: 0,0:02:13.28,0:02:15.36,tomb,,0,0,0,,dia bisa pergi dengan selamat.
+Dialogue: 0,0:02:17.76,0:02:21.44,tomb,,0,0,0,,Ilusi Langit Kosong hanyalah ujian kecil.
+Dialogue: 0,0:02:22.32,0:02:24.52,tomb,,0,0,0,,Apa yang kau lihat dan dengar belum tentu nyata.
+Dialogue: 0,0:02:25.12,0:02:28.48,tomb,,0,0,0,,Apa yang tidak kau lihat dan dengar belum tentu palsu.
+Dialogue: 0,0:02:29.88,0:02:31.64,tomb,,0,0,0,,Semuanya berasal dari hatimu.
+Dialogue: 0,0:02:32.36,0:02:33.68,tomb,,0,0,0,,Apa yang kau takuti,
+Dialogue: 0,0:02:34.24,0:02:35.44,tomb,,0,0,0,,itu yang akan muncul.
+Dialogue: 0,0:02:39.16,0:02:41.24,tomb,,0,0,0,,Mengamati kekosongan juga kosong, tidak ada yang kosong.
+Dialogue: 0,0:02:41.88,0:02:43.12,tomb,,0,0,0,,Yang kosong sudah tiada,
+Dialogue: 0,0:02:43.12,0:02:43.96,tomb,,0,0,0,,ketiadaan juga tiada.
+Dialogue: 0,0:02:45.44,0:02:46.92,tomb,,0,0,0,,Sebilah cahaya menyinari alam semesta.
+Dialogue: 0,0:02:47.32,0:02:48.92,tomb,,0,0,0,,Kekosongan jernih, langit dan bumi bersinar.
+Dialogue: 0,0:02:49.44,0:02:51.44,tomb,,0,0,0,,Lupa ganda, keheningan paling spiritual.
+Dialogue: 0,0:02:54.16,0:02:55.52,tomb,,0,0,0,,Tidak menyangka seni bela diri keluarga,
+Dialogue: 0,0:02:55.84,0:02:56.80,tomb,,0,0,0,,memiliki efek seperti ini.
+Dialogue: 0,0:02:58.16,0:02:59.08,tomb,,0,0,0,,Luar biasa!
+Dialogue: 0,0:02:59.28,0:03:00.68,tomb,,0,0,0,,Walaupun kultivasimu rendah,
+Dialogue: 0,0:03:01.08,0:03:03.36,tomb,,0,0,0,,tapi bisa memahami tingkat pemahaman seperti ini.
+Dialogue: 0,0:03:04.08,0:03:04.84,tomb,,0,0,0,,Menarik.
+Dialogue: 0,0:03:17.88,0:03:20.44,tomb,,0,0,0,,Dengan kultivasimu seperti ini berani menyelamatkan orang di danau?
+Dialogue: 0,0:03:20.88,0:03:22.52,tomb,,0,0,0,,Tidak takut nyawamu sendiri terancam?
+Dialogue: 0,0:03:23.28,0:03:23.88,tomb,,0,0,0,,Ambil.
+Dialogue: 0,0:03:32.72,0:03:35.36,tomb,,0,0,0,,Kalau aku tidak menyelamatkannya, dia akan tenggelam di danau.
+Dialogue: 0,0:03:39.64,0:03:40.72,tomb,,0,0,0,,Jalan Tanpa Emosi.
+Dialogue: 0,0:03:41.52,0:03:42.60,tomb,,0,0,0,,Tidak ada apa pun di dalam hati.
+Dialogue: 0,0:03:43.72,0:03:46.44,tomb,,0,0,0,,Tanpa orang, tanpa diri, tanpa emosi.
+Dialogue: 0,0:03:50.56,0:03:53.04,tomb,,0,0,0,,Hanya dengan hati seperti batu, emosi tidak bisa digoyahkan.
+Dialogue: 0,0:03:53.84,0:03:55.32,tomb,,0,0,0,,Barulah pedang seperti batu.
+Dialogue: 0,0:03:56.32,0:03:57.88,tomb,,0,0,0,,Menebas segala kejahatan.
+Dialogue: 0,0:04:01.72,0:04:02.76,tomb,,0,0,0,,Kau belum mahir dalam ilmu.
+Dialogue: 0,0:04:03.28,0:04:04.72,tomb,,0,0,0,,Orang lain tidak akan sempat menyelamatkanmu.
+Dialogue: 0,0:04:15.16,0:04:16.40,tomb,,0,0,0,,Yang lain boleh pergi.
+Dialogue: 0,0:04:16.40,0:04:17.20,tomb,,0,0,0,,Baik.
+Dialogue: 0,0:04:17.40,0:04:18.60,tomb,,0,0,0,,Kau tinggal di sini dan lanjutkan.
+Dialogue: 0,0:04:19.80,0:04:22.24,tomb,,0,0,0,,Jika bisa memotong bambu itu,
+Dialogue: 0,0:04:22.44,0:04:24.04,tomb,,0,0,0,,baru boleh meninggalkan tempat latihan.
+Dialogue: 0,0:04:24.88,0:04:25.32,tomb,,0,0,0,,Bubar.
+Dialogue: 0,0:04:33.56,0:04:36.24,tomb,,0,0,0,,Hanya sebatang bambu jelek, apa yang hebat?
+Dialogue: 0,0:04:36.80,0:04:39.44,tomb,,0,0,0,,Aku tidak kultivasi Jalan Tanpa Emosi juga bisa memotongnya.
+Dialogue: 0,0:04:40.44,0:04:55.44,tomb,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:05:06.44,0:05:07.20,tomb,,0,0,0,,Cepat bangun.
+Dialogue: 0,0:05:08.24,0:05:09.36,tomb,,0,0,0,,Kultivator jahat menyerbu gerbang gunung.
+Dialogue: 0,0:05:14.96,0:05:15.72,tomb,,0,0,0,,Pergi ke paviliun rahasia.
+Dialogue: 0,0:05:23.72,0:05:24.96,tomb,,0,0,0,,Kalian pergi ke sana.
+Dialogue: 0,0:05:25.44,0:05:26.44,tomb,,0,0,0,,Jangan tinggalkan satu pun.
+Dialogue: 0,0:05:27.44,0:05:42.44,tomb,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:05:53.76,0:05:54.76,tomb,,0,0,0,,Nona cantik.
+Dialogue: 0,0:05:54.92,0:05:56.88,tomb,,0,0,0,,Apa enaknya kultivasi Jalan Tanpa Emosi ini?
+Dialogue: 0,0:05:57.20,0:05:59.60,tomb,,0,0,0,,Patuhlah ikut aku kembali untuk bersenang-senang.
+Dialogue: 0,0:06:16.36,0:06:16.84,tomb,,0,0,0,,Buruk.
+Dialogue: 0,0:06:17.16,0:06:18.68,tomb,,0,0,0,,Kakak senior terluka parah.
+Dialogue: 0,0:06:18.88,0:06:19.64,tomb,,0,0,0,,Selesai.
+Dialogue: 0,0:06:19.92,0:06:21.28,tomb,,0,0,0,,Guru sedang dalam kultivasi tertutup.
+Dialogue: 0,0:06:21.56,0:06:23.48,tomb,,0,0,0,,Kultivator jahat akan menemukan tempat ini cepat atau lambat.
+Dialogue: 0,0:06:23.80,0:06:25.68,tomb,,0,0,0,,Bagaimana kalau kita lari?
+Dialogue: 0,0:06:26.20,0:06:27.88,tomb,,0,0,0,,Kakak senior akan ditangkap.
+Dialogue: 0,0:06:30.92,0:06:31.52,tomb,,0,0,0,,Meng Ke'er.
+Dialogue: 0,0:06:31.68,0:06:32.44,tomb,,0,0,0,,Apa yang mau kau lakukan?
+Dialogue: 0,0:06:34.80,0:06:35.84,tomb,,0,0,0,,Tentu saja membantu dia.
+Dialogue: 0,0:06:36.60,0:06:38.80,tomb,,0,0,0,,Tapi bukankah kakak senior baru saja...
+Dialogue: 0,0:06:38.96,0:06:41.08,tomb,,0,0,0,,Satu aliran, mana bisa berdiam diri?
+Dialogue: 0,0:06:41.28,0:06:42.40,tomb,,0,0,0,,Jika takut mati,
+Dialogue: 0,0:06:42.96,0:06:44.00,tomb,,0,0,0,,lebih baik tidak usah kultivasi.
+Dialogue: 0,0:06:49.92,0:06:51.96,tomb,,0,0,0,,Cabang Tanah Suci Kuno yang terhormat.
+Dialogue: 0,0:06:52.24,0:06:54.40,tomb,,0,0,0,,Bisa dengan mudah dibantai.
+Dialogue: 0,0:06:54.76,0:06:57.88,tomb,,0,0,0,,Ternyata sekte Tantai juga biasa saja.
+Dialogue: 0,0:06:58.16,0:07:01.56,tomb,,0,0,0,,Nona cantik, selanjutnya serahkan pada ku.
+Dialogue: 0,0:07:04.08,0:07:06.00,tomb,,0,0,0,,Tidak bisa bertarung lagi, lebih baik pergi.
+Dialogue: 0,0:07:06.44,0:07:07.64,tomb,,0,0,0,,Kultivator jahat, mati!
+Dialogue: 0,0:07:15.20,0:07:17.12,tomb,,0,0,0,,Kakak senior, kami datang membantumu.
+Dialogue: 0,0:07:21.08,0:07:22.64,tomb,,0,0,0,,Masih ada yang lolos.
+Dialogue: 0,0:07:30.16,0:07:31.20,tomb,,0,0,0,,Kakak Senior!
+Dialogue: 0,0:07:33.20,0:07:35.00,tomb,,0,0,0,,Kalau bicara soal tanpa perasaan dan tanpa loyalitas.
+Dialogue: 0,0:07:35.32,0:07:37.56,tomb,,0,0,0,,tetap kalian sekte Tantai yang paling hebat.
+Dialogue: 0,0:07:59.72,0:08:00.76,tomb,,0,0,0,,Berhenti!
+Dialogue: 0,0:08:03.60,0:08:04.96,tomb,,0,0,0,,Guru akan segera keluar dari meditasi.
+Dialogue: 0,0:08:05.80,0:08:07.08,tomb,,0,0,0,,Pasti akan membalas dendam untuk kita.
+Dialogue: 0,0:08:08.32,0:08:11.04,tomb,,0,0,0,,Orang-orang tua itu kultivasi Jalan Tanpa Emosi.
+Dialogue: 0,0:08:11.32,0:08:13.20,tomb,,0,0,0,,Mana mungkin peduli dengan hidup mati kalian.
+Dialogue: 0,0:08:13.68,0:08:15.52,tomb,,0,0,0,,Kau sebagai murid sekte Tantai.
+Dialogue: 0,0:08:15.68,0:08:17.00,tomb,,0,0,0,,Masa tidak tahu?
+Dialogue: 0,0:08:27.28,0:08:27.96,tomb,,0,0,0,,Kakak Senior!
+Dialogue: 0,0:08:29.00,0:08:29.76,tomb,,0,0,0,,Cepat lari!
+Dialogue: 0,0:08:34.28,0:08:37.04,tomb,,0,0,0,,Ternyata Jalan Tanpa Emosimu juga belum matang.
+Dialogue: 0,0:08:39.64,0:08:42.08,tomb,,0,0,0,,Bunuh diri sia-sia demi beberapa anak kecil.
+Dialogue: 0,0:08:46.52,0:08:47.28,tomb,,0,0,0,,Jalanku.
+Dialogue: 0,0:08:47.76,0:08:49.36,tomb,,0,0,0,,pasti akan ada yang meneruskannya untukku.
+Dialogue: 0,0:09:03.00,0:09:05.20,tomb,,0,0,0,,Ternyata Jalan Tanpa Emosi ini.
+Dialogue: 0,0:09:06.24,0:09:08.08,tomb,,0,0,0,,- Aku juga tidak bisa\N- Kakak Senior,
+Dialogue: 0,0:09:08.52,0:09:10.56,tomb,,0,0,0,,Kenapa kau kembali menyelamatkanku?
+Dialogue: 0,0:09:10.88,0:09:12.08,tomb,,0,0,0,,Bukankah kau bilang.
+Dialogue: 0,0:09:12.56,0:09:13.84,tomb,,0,0,0,,Manusia hidup sekali.
+Dialogue: 0,0:09:14.96,0:09:16.64,tomb,,0,0,0,,bagaimana bisa tanpa ikatan?
+Dialogue: 0,0:09:18.48,0:09:19.32,tomb,,0,0,0,,Kau ingat.
+Dialogue: 0,0:09:20.60,0:09:21.28,tomb,,0,0,0,,Inilah,
+Dialogue: 0,0:09:21.88,0:09:25.00,tomb,,0,0,0,,akhir dari memiliki perasaan.
+Dialogue: 0,0:09:26.00,0:09:41.00,tomb,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:53.04,0:09:54.02,tomb,,0,0,0,,Wanglin.
+Dialogue: 0,0:09:54.16,0:09:57.44,tomb,,0,0,0,,Di usia mudamu sudah memahami esensi Jalan Tanpa Emosi.
+Dialogue: 0,0:09:57.88,0:09:58.46,tomb,,0,0,0,,Bagus.
+Dialogue: 0,0:09:59.20,0:10:00.20,tomb,,0,0,0,,Mulai sekarang,
+Dialogue: 0,0:10:00.44,0:10:02.16,tomb,,0,0,0,,kau pindah ke halaman dalam dan kultivasi bersamaku.
+Dialogue: 0,0:10:02.90,0:10:03.37,tomb,,0,0,0,,Pergilah.
+Dialogue: 0,0:10:04.12,0:10:05.08,tomb,,0,0,0,,Terima kasih, Guru.
+Dialogue: 0,0:10:07.16,0:10:07.56,tomb,,0,0,0,,Hmph.
+Dialogue: 0,0:10:18.92,0:10:19.96,tomb,,0,0,0,,Meng Ke'er.
+Dialogue: 0,0:10:22.20,0:10:24.01,tomb,,0,0,0,,Wang Lin pernah bilang saat minta bantuan.
+Dialogue: 0,0:10:24.68,0:10:26.44,tomb,,0,0,0,,Cabang sekte Tantai harus diselamatkan.
+Dialogue: 0,0:10:26.96,0:10:29.20,tomb,,0,0,0,,Karena bendera jalan benar tidak boleh ternoda.
+Dialogue: 0,0:10:29.56,0:10:32.56,tomb,,0,0,0,,Kalau tidak, pasti banyak kejahatan muncul.
+Dialogue: 0,0:10:32.83,0:10:34.51,tomb,,0,0,0,,Tapi kalian tidak pantas untuk diselamatkan.
+Dialogue: 0,0:10:35.04,0:10:36.88,tomb,,0,0,0,,Terjebak oleh tujuh emosi dan enam nafsu.
+Dialogue: 0,0:10:37.08,0:10:38.92,tomb,,0,0,0,,Berdampak buruk bagi sekte.
+Dialogue: 0,0:10:39.59,0:10:42.48,tomb,,0,0,0,,Kau benci Wang Lin?
+Dialogue: 0,0:10:43.64,0:10:44.32,tomb,,0,0,0,,Tidak benci.
+Dialogue: 0,0:10:45.08,0:10:45.76,tomb,,0,0,0,,Oh?
+Dialogue: 0,0:10:46.68,0:10:47.36,tomb,,0,0,0,,Kenapa?
+Dialogue: 0,0:10:48.12,0:10:50.08,tomb,,0,0,0,,Aku hanya benci ketidakmampuanku sendiri.
+Dialogue: 0,0:10:54.64,0:10:55.48,tomb,,0,0,0,,Sebenarnya,
+Dialogue: 0,0:10:56.00,0:10:57.68,tomb,,0,0,0,,Kakak Senior-mu bisa melarikan diri.
+Dialogue: 0,0:11:00.28,0:11:01.28,tomb,,0,0,0,,Kau menyelamatkannya.
+Dialogue: 0,0:11:01.48,0:11:03.52,tomb,,0,0,0,,malah memutuskan jalan hidupnya.
+Dialogue: 0,0:11:04.00,0:11:06.12,tomb,,0,0,0,,Sebenarnya anak-anak itu juga bisa selamat.
+Dialogue: 0,0:11:06.60,0:11:09.60,tomb,,0,0,0,,Formasi paviliun rahasia bisa menunda sampai kami tiba.
+Dialogue: 0,0:11:10.88,0:11:14.08,tomb,,0,0,0,,Jika bisa mengulang, apa pilihanmu?
+Dialogue: 0,0:11:20.56,0:11:21.92,tomb,,0,0,0,,Aku tetap akan menyelamatkan.
+Dialogue: 0,0:11:25.72,0:11:26.88,tomb,,0,0,0,,Tapi penyelamatan itu palsu.
+Dialogue: 0,0:11:27.76,0:11:28.68,tomb,,0,0,0,,Penundaan itu nyata.
+Dialogue: 0,0:11:29.60,0:11:31.12,tomb,,0,0,0,,Jadikan yang lemah sebagai umpan,
+Dialogue: 0,0:11:31.76,0:11:33.04,tomb,,0,0,0,,untuk menahan kekuatan utama kultivator jahat.
+Dialogue: 0,0:11:33.60,0:11:35.92,tomb,,0,0,0,,Lalu pasukan elit sekte menyerbu sarang musuh.
+Dialogue: 0,0:11:36.48,0:11:38.04,tomb,,0,0,0,,Memusnahkan kultivator jahat sampai ke akarnya.
+Dialogue: 0,0:11:38.64,0:11:40.88,tomb,,0,0,0,,Bahkan jika kau adalah pion yang dikorbankan?
+Dialogue: 0,0:11:41.64,0:11:42.56,tomb,,0,0,0,,Tetap saja begitu.
+Dialogue: 0,0:11:46.36,0:11:47.56,tomb,,0,0,0,,Bagus, bagus, bagus.
+Dialogue: 0,0:11:48.00,0:11:49.12,tomb,,0,0,0,,Mulai hari ini.
+Dialogue: 0,0:11:49.48,0:11:52.04,tomb,,0,0,0,,Kau juga pindah ke halaman dalam dan kultivasi bersamaku.
+Dialogue: 0,0:11:53.04,0:11:53.60,tomb,,0,0,0,,Baik.
+Dialogue: 0,0:11:53.92,0:11:54.56,tomb,,0,0,0,,Guru.
+Dialogue: 0,0:11:55.24,0:11:56.24,tomb,,0,0,0,,Sepuluh tahun kemudian,
+Dialogue: 0,0:11:56.57,0:11:58.47,tomb,,0,0,0,,Halaman dalam sekte akan dipilih seorang Gadis Suci.
+Dialogue: 0,0:11:59.00,0:12:01.68,tomb,,0,0,0,,Jalankan misi sekte Tantai selama sepuluh ribu tahun.
+Dialogue: 0,0:12:02.47,0:12:03.70,tomb,,0,0,0,,Menyegel Leluhur Jahat.
+Dialogue: 0,0:12:04.72,0:12:06.68,tomb,,0,0,0,,Orang ini berasal dari keluarga Chen.
+Dialogue: 0,0:12:07.08,0:12:10.28,tomb,,0,0,0,,Pernah menyatukan enam Jalan Jahat kuno, terkenal di Alam Surgawi.
+Dialogue: 0,0:12:11.12,0:12:15.36,tomb,,0,0,0,,Kemudian ditekan oleh leluhur Tantai bersama kekuatan baik dan jahat.
+Dialogue: 0,0:12:16.36,0:12:17.52,tomb,,0,0,0,,Jika leluhur jahat muncul,
+Dialogue: 0,0:12:18.08,0:12:19.16,tomb,,0,0,0,,sekte pasti hancur.
+Dialogue: 0,0:12:19.64,0:12:21.00,tomb,,0,0,0,,Rakyat menderita.
+Dialogue: 0,0:12:25.36,0:12:28.24,tomb,,0,0,0,,Kau pergilah ke ilusi orang lain dan jadi penonton.
+Dialogue: 0,0:12:37.76,0:12:40.08,tomb,,0,0,0,,Tak disangka ilusi ini begitu berbahaya.
+Dialogue: 0,0:12:40.60,0:12:42.64,tomb,,0,0,0,,Bahkan bisa menciptakan ilusi di atas tingkat enam.
+Dialogue: 0,0:12:44.40,0:12:45.84,tomb,,0,0,0,,Setelah turun gunung untuk berlatih,
+Dialogue: 0,0:12:46.24,0:12:47.60,tomb,,0,0,0,,ternyata tidak maju malah mundur.
+Dialogue: 0,0:12:48.48,0:12:49.40,tomb,,0,0,0,,Dulu kau,
+Dialogue: 0,0:12:49.88,0:12:53.04,tomb,,0,0,0,,Tidak akan terperangkap oleh sihir pengembalian ingatan ini.
+Dialogue: 0,0:13:01.12,0:13:01.84,tomb,,0,0,0,,Leluhur jahat.
+Dialogue: 0,0:13:02.76,0:13:03.28,tomb,,0,0,0,,Ini.
+Dialogue: 0,0:13:04.16,0:13:05.24,tomb,,0,0,0,,Semua perbuatanmu?
+Dialogue: 0,0:13:06.76,0:13:08.36,tomb,,0,0,0,,Orang tua itu tidak memperingatkanmu?
+Dialogue: 0,0:13:09.00,0:13:10.88,tomb,,0,0,0,,Segel ini harus dijaga dengan hati tanpa emosi.
+Dialogue: 0,0:13:11.12,0:13:11.80,tomb,,0,0,0,,Tanpa ikatan.
+Dialogue: 0,0:13:12.04,0:13:13.36,tomb,,0,0,0,,Tanpa ego.
+Dialogue: 0,0:13:14.48,0:13:16.00,tomb,,0,0,0,,Jika hatimu tidak sempurna,
+Dialogue: 0,0:13:16.28,0:13:17.40,tomb,,0,0,0,,kultivasimu merosot.
+Dialogue: 0,0:13:17.96,0:13:20.28,tomb,,0,0,0,,Aku bisa keluar dari segel kapan saja.
+Dialogue: 0,0:13:20.68,0:13:21.56,tomb,,0,0,0,,Guru.
+Dialogue: 0,0:13:21.88,0:13:23.20,tomb,,0,0,0,,Meng Ke'er.
+Dialogue: 0,0:13:24.36,0:13:25.48,tomb,,0,0,0,,Mengapa?
+Dialogue: 0,0:13:26.44,0:13:29.24,tomb,,0,0,0,,Kau masih tidak ingat pelajaran.
+Dialogue: 0,0:13:38.40,0:13:39.52,tomb,,0,0,0,,Guru.
+Dialogue: 0,0:13:40.40,0:13:42.20,tomb,,0,0,0,,Menyimpan orang ini sampai sekarang,
+Dialogue: 0,0:13:42.64,0:13:44.76,tomb,,0,0,0,,adalah untuk memberimu hadiah besar.
+Dialogue: 0,0:13:48.36,0:13:49.68,tomb,,0,0,0,,Saat kau turun gunung,
+Dialogue: 0,0:13:50.40,0:13:52.52,tomb,,0,0,0,,Aku bilang kau tidak bisa melepaskan tujuh emosi dan enam nafsu.
+Dialogue: 0,0:13:53.16,0:13:54.08,tomb,,0,0,0,,Tapi kau bilang.
+Dialogue: 0,0:13:54.88,0:13:56.36,tomb,,0,0,0,,Kali ini memurnikan hati dalam dunia fana.
+Dialogue: 0,0:13:56.52,0:13:57.88,tomb,,0,0,0,,Pasti bisa menembus kabut kebingungan.
+Dialogue: 0,0:13:58.24,0:13:59.44,tomb,,0,0,0,,Melihat jati diri sejati.
+Dialogue: 0,0:14:00.08,0:14:01.40,tomb,,0,0,0,,Hasilnya bagaimana?
+Dialogue: 0,0:14:02.24,0:14:03.76,tomb,,0,0,0,,Jalan Tanpa Emosi yang sesungguhnya.
+Dialogue: 0,0:14:04.12,0:14:05.72,tomb,,0,0,0,,Adalah bisa mengambil dan bisa melepaskan.
+Dialogue: 0,0:14:06.36,0:14:07.00,tomb,,0,0,0,,Tapi kau,
+Dialogue: 0,0:14:07.64,0:14:08.52,tomb,,0,0,0,,bisa mengambil,
+Dialogue: 0,0:14:09.04,0:14:10.04,tomb,,0,0,0,,tapi tidak bisa melepaskan.
+Dialogue: 0,0:14:14.72,0:14:16.28,tomb,,0,0,0,,Leluhur jahat muncul.
+Dialogue: 0,0:14:16.72,0:14:18.24,tomb,,0,0,0,,Rakyat menderita.
+Dialogue: 0,0:14:19.16,0:14:20.12,tomb,,0,0,0,,Meng Ke'er.
+Dialogue: 0,0:14:20.76,0:14:23.24,tomb,,0,0,0,,Hanya kau yang bisa memperbaiki semua ini.
+Dialogue: 0,0:14:24.12,0:14:26.24,tomb,,0,0,0,,Kau hanya perlu kembali menjadi,
+Dialogue: 0,0:14:27.16,0:14:29.12,tomb,,0,0,0,,dirimu yang paling sejati saat itu.
+Dialogue: 0,0:14:35.32,0:14:36.00,tomb,,0,0,0,,Benar.
+Dialogue: 0,0:14:36.96,0:14:38.12,tomb,,0,0,0,,Tidak ada yang tidak bisa diambil.
+Dialogue: 0,0:14:43.24,0:14:44.92,tomb,,0,0,0,,Dan tidak ada yang tidak bisa dilepaskan.
+Dialogue: 0,0:14:46.44,0:14:47.72,tomb,,0,0,0,,Hahaha.
+Dialogue: 0,0:14:48.20,0:14:49.64,tomb,,0,0,0,,Orang yang berhati bersih dan sedikit keinginan.
+Dialogue: 0,0:14:49.88,0:14:51.08,tomb,,0,0,0,,Selama memiliki ikatan,
+Dialogue: 0,0:14:51.88,0:14:53.32,tomb,,0,0,0,,Bbgaimana bisa melepaskannya?
+Dialogue: 0,0:15:06.20,0:15:07.16,tomb,,0,0,0,,Segala peristiwa masa lalu,
+Dialogue: 0,0:15:08.28,0:15:09.40,tomb,,0,0,0,,hancurkan semuanya.
+Dialogue: 0,0:15:10.40,0:15:25.40,tomb,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:15:36.44,0:15:37.00,tomb,,0,0,0,,Bajingan.
+Dialogue: 0,0:15:39.84,0:15:41.04,tomb,,0,0,0,,Jangan gegabah.
+Dialogue: 0,0:15:46.16,0:15:47.72,tomb,,0,0,0,,Inikah yang kau anggap sebagai melepaskan?
+Dialogue: 0,0:15:48.24,0:15:49.64,tomb,,0,0,0,,Cinta, benci, emosi, dendam.
+Dialogue: 0,0:15:50.44,0:15:51.84,tomb,,0,0,0,,Hanya bisa dihancurkan dengan satu pedang.
+Dialogue: 0,0:15:52.28,0:15:53.04,tomb,,0,0,0,,Konyol.
+Dialogue: 0,0:15:53.88,0:15:55.68,tomb,,0,0,0,,Masa lalu sudah meninggalkan bekas.
+Dialogue: 0,0:15:56.40,0:15:57.48,tomb,,0,0,0,,Bagaimana menghapusnya?
+Dialogue: 0,0:15:58.32,0:15:59.00,tomb,,0,0,0,,Hari ini,
+Dialogue: 0,0:15:59.68,0:16:01.96,tomb,,0,0,0,,Aku akan menggunakan trik kecil Jalan Hasrat.
+Dialogue: 0,0:16:02.44,0:16:04.44,tomb,,0,0,0,,Untuk menghancurkan Jalan Tanpa Emosimu.
+Dialogue: 0,0:16:19.60,0:16:20.04,tomb,,0,0,0,,Meng Ke'er.
+Dialogue: 0,0:16:20.36,0:16:20.88,tomb,,0,0,0,,Ada apa denganmu?
+Dialogue: 0,0:16:21.28,0:16:21.84,tomb,,0,0,0,,Sadarlah.
+Dialogue: 0,0:16:22.80,0:16:23.20,tomb,,0,0,0,,Ada apa?
+Dialogue: 0,0:16:24.92,0:16:28.80,tomb,,0,0,0,,Ternyata kesadaranmu juga terperangkap dalam tubuh yang mati.
+Dialogue: 0,0:16:29.24,0:16:32.84,tomb,,0,0,0,,Siapa yang berani jamin dia bukan hantu penasaran yang dipelihara dewa dan iblis?
+Dialogue: 0,0:16:34.12,0:16:35.00,tomb,,0,0,0,,Selain kau.
+Dialogue: 0,0:16:35.44,0:16:37.92,tomb,,0,0,0,,Yang tidak lulus ilusi langit kosong,
+Dialogue: 0,0:16:38.60,0:16:39.96,tomb,,0,0,0,,harus mati.
+Dialogue: 0,0:16:45.92,0:16:47.48,tomb,,0,0,0,,Darah persembahan mantra teleportasi!

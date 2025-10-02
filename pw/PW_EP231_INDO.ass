@@ -1,0 +1,260 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 818
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.40,0:00:28.04,Preview,,0,0,0,,Preview Episode Sebelumnya:
+Dialogue: 0,0:00:07.56,0:00:08.56,pw,,0,0,0,,Utusan Dunia Asing.
+Dialogue: 0,0:00:08.64,0:00:09.64,pw,,0,0,0,,Hanya sebuah ilusi.
+Dialogue: 0,0:00:09.64,0:00:11.02,pw,,0,0,0,,Malah berlagak misterius di sini.
+Dialogue: 0,0:00:11.20,0:00:12.20,pw,,0,0,0,,Kau sangat kuat.
+Dialogue: 0,0:00:12.40,0:00:13.52,pw,,0,0,0,,Tidak seperti mereka.
+Dialogue: 0,0:00:13.84,0:00:15.60,pw,,0,0,0,,Meski bertarung puluhan ribu tahun, sulit menentukan pemenang.
+Dialogue: 0,0:00:15.76,0:00:16.56,pw,,0,0,0,,Permisi.
+Dialogue: 0,0:00:17.08,0:00:18.24,pw,,0,0,0,,Keinginanku sudah tercapai.
+Dialogue: 0,0:00:18.40,0:00:20.32,pw,,0,0,0,,Aku akan menunjukkan jalan untuk kalian di Makam Dunia.
+Dialogue: 0,0:00:20.60,0:00:22.60,pw,,0,0,0,,Bertahanlah, lewati malapetaka ini.
+Dialogue: 0,0:00:22.88,0:00:25.00,pw,,0,0,0,,Dewa Roh Tempur dapat menutrisi jiwa.
+Dialogue: 0,0:00:25.08,0:00:27.08,pw,,0,0,0,,Ternyata semuanya adalah suplemen yang datang sendiri.
+Dialogue: 0,0:00:34.32,0:00:36.04,pw,,0,0,0,,Dewa Roh Tempur sedang menutrisi jiwa Primordial Huang.
+Dialogue: 0,0:00:37.04,0:00:52.04,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:01:39.20,0:01:41.52,pw,,0,0,0,,Ini adalah benih yang mengandung kekuatan Roh Primordial.
+Dialogue: 0,0:01:52.64,0:01:53.20,pw,,0,0,0,,Mengikat!
+Dialogue: 0,0:01:57.68,0:01:59.00,pw,,0,0,0,,Bagaimana bisa membiarkannya mendahului?
+Dialogue: 0,0:02:12.76,0:02:14.44,pw,,0,0,0,,Perebutan sampai di sini saja.
+Dialogue: 0,0:02:15.04,0:02:17.00,pw,,0,0,0,,Di depan masih ada banyak peluang.
+Dialogue: 0,0:02:19.24,0:02:20.71,pw,,0,0,0,,Tetua terlalu memihak Huang.
+Dialogue: 0,0:02:20.96,0:02:22.38,pw,,0,0,0,,Atas dasar apa dia hanya melindungi satu orang itu?
+Dialogue: 0,0:02:23.60,0:02:26.72,pw,,0,0,0,,Tidak bisakah kau melihat, Tetua sedang melindungi kalian?
+Dialogue: 0,0:02:33.24,0:02:36.76,pw,,0,0,0,,Meski tidak sebanding dengan bibit Pohon Dunia atau prototipe alam semesta,
+Dialogue: 0,0:02:37.12,0:02:39.76,pw,,0,0,0,,tapi juga merupakan benih tingkat tinggi yang jarang terlihat.
+Dialogue: 0,0:02:42.56,0:02:45.92,pw,,0,0,0,,Berapa banyak jenius yang gugur hanya demi sebutir Benih Immortal.
+Dialogue: 0,0:02:46.32,0:02:48.28,pw,,0,0,0,,Sayang sekali, perebutan Great Dao,
+Dialogue: 0,0:02:49.52,0:02:51.72,pw,,0,0,0,,Dari sepuluh, tak satupun tersisa.
+Dialogue: 0,0:02:52.32,0:02:53.00,pw,,0,0,0,,Itu masih jauh dari cukup.
+Dialogue: 0,0:02:53.80,0:02:55.48,pw,,0,0,0,,Jika ingin mencapai puncak tertinggi di jalur Metode Kuno,
+Dialogue: 0,0:02:56.12,0:02:57.68,pw,,0,0,0,,harus menemukan benih yang tak tertandingi.
+Dialogue: 0,0:03:01.60,0:03:04.48,pw,,0,0,0,,Makhluk hidup seperti semut.
+Dialogue: 0,0:03:04.64,0:03:07.84,pw,,0,0,0,,Beraninya menyusup ke tempat terlarang.
+Dialogue: 0,0:03:08.20,0:03:12.08,pw,,0,0,0,,Peluang di sini bukan untuk kalian sentuh.
+Dialogue: 0,0:03:12.08,0:03:14.52,pw,,0,0,0,,Cepat mundur!
+Dialogue: 0,0:03:15.20,0:03:17.56,pw,,0,0,0,,Itu adalah keluarga kerajaan Dunia Asing yang terperangkap di sini oleh leluhur.
+Dialogue: 0,0:03:17.92,0:03:19.16,pw,,0,0,0,,Hanya kalian berempat.
+Dialogue: 0,0:03:19.28,0:03:20.40,pw,,0,0,0,,Beraninya kalian sombong?
+Dialogue: 0,0:03:21.28,0:03:23.00,pw,,0,0,0,,Hanya sebuah proyeksi.
+Dialogue: 0,0:03:23.40,0:03:24.56,pw,,0,0,0,,Tidak perlu panik.
+Dialogue: 0,0:03:25.56,0:03:40.56,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:03:53.80,0:03:55.52,pw,,0,0,0,,Apakah ini Pohon Dunia?
+Dialogue: 0,0:03:55.88,0:03:57.68,pw,,0,0,0,,Proyeksi ini hanya untuk menghalangi kita mencarinya.
+Dialogue: 0,0:04:04.40,0:04:06.08,pw,,0,0,0,,Itu adalah Pohon Emas yang dulu.
+Dialogue: 0,0:04:11.28,0:04:13.68,pw,,0,0,0,,Semua pohon kuno yang ingin menjadi Pohon Dunia,
+Dialogue: 0,0:04:14.04,0:04:17.24,pw,,0,0,0,,akan datang ke Makam Dunia untuk menyerap segel peleburan alam kuno,
+Dialogue: 0,0:04:17.40,0:04:18.76,pw,,0,0,0,,demi transformasi.
+Dialogue: 0,0:04:19.64,0:04:22.00,pw,,0,0,0,,Dia masih di jalur evolusi.
+Dialogue: 0,0:04:22.88,0:04:24.68,pw,,0,0,0,,Kecuali ada makhluk tingkat tinggi yang tiba,
+Dialogue: 0,0:04:25.36,0:04:26.92,pw,,0,0,0,,membantunya melawan malapetaka,
+Dialogue: 0,0:04:27.20,0:04:29.64,pw,,0,0,0,,baru bisa mencapai posisi Pohon Dunia.
+Dialogue: 0,0:04:31.24,0:04:31.64,pw,,0,0,0,,Ah!
+Dialogue: 0,0:04:32.80,0:04:33.76,pw,,0,0,0,,Ada seorang wanita.
+Dialogue: 0,0:04:46.36,0:04:47.20,pw,,0,0,0,,Apakah kalian tidak merasa?
+Dialogue: 0,0:04:47.60,0:04:48.76,pw,,0,0,0,,Dia seolah-olah sedang melihat Huang.
+Dialogue: 0,0:05:00.88,0:05:01.36,pw,,0,0,0,,Kejar!
+Dialogue: 0,0:05:01.96,0:05:03.56,pw,,0,0,0,,Meskipun pohon ini tidak bisa menjadi Benih Immortal,
+Dialogue: 0,0:05:03.80,0:05:05.28,pw,,0,0,0,,tapi sedang dalam proses evolusi.
+Dialogue: 0,0:05:05.52,0:05:07.24,pw,,0,0,0,,Pasti akan menuju ke tempat keberuntungan tingkat tinggi.
+Dialogue: 0,0:05:20.20,0:05:21.16,pw,,0,0,0,,Hahaha.
+Dialogue: 0,0:05:21.92,0:05:23.04,pw,,0,0,0,,Sepertinya,
+Dialogue: 0,0:05:23.76,0:05:26.08,pw,,0,0,0,,ada yang sudah mendahului.
+Dialogue: 0,0:05:29.28,0:05:30.40,pw,,0,0,0,,Konon,
+Dialogue: 0,0:05:30.76,0:05:32.88,pw,,0,0,0,,pernah ada yang menggunakan kekuatan lima iblis,
+Dialogue: 0,0:05:33.16,0:05:36.64,pw,,0,0,0,,menyegel Benih Langit yang sempurna dan tak tertandingi di sini.
+Dialogue: 0,0:05:37.64,0:05:38.96,pw,,0,0,0,,Jika mendapatkan benih ini,
+Dialogue: 0,0:05:39.36,0:05:40.92,pw,,0,0,0,,pasti akan mencapai puncak tertinggi.
+Dialogue: 0,0:05:41.40,0:05:45.40,pw,,0,0,0,,Pohon Dunia semu berakar di Mata Yin Yang di Tanah Lima Elemen.
+Dialogue: 0,0:05:46.00,0:05:47.88,pw,,0,0,0,,Dan yang disebut lima iblis,
+Dialogue: 0,0:05:48.04,0:05:51.28,pw,,0,0,0,,mungkin merujuk pada tempat yang berlawanan dengan Yin Yang di sini.
+Dialogue: 0,0:05:52.16,0:05:54.76,pw,,0,0,0,,Yaitu formasi besar Lima Elemen Terbalik.
+Dialogue: 0,0:05:58.96,0:06:00.64,pw,,0,0,0,,Boneka perang sudah mendeteksi dengan jelas,
+Dialogue: 0,0:06:00.92,0:06:03.12,pw,,0,0,0,,formasi besar Lima Elemen Terbalik tidak lagi beroperasi.
+Dialogue: 0,0:06:03.32,0:06:05.32,pw,,0,0,0,,Sekarang bisa masuk.
+Dialogue: 0,0:06:10.36,0:06:11.80,pw,,0,0,0,,Menurut tulisan kuno,
+Dialogue: 0,0:06:12.08,0:06:13.64,pw,,0,0,0,,Benih Langit sudah terbentuk,
+Dialogue: 0,0:06:13.76,0:06:15.60,pw,,0,0,0,,dan mengandung banyak Benih Harta Karun.
+Dialogue: 0,0:06:15.84,0:06:16.64,pw,,0,0,0,,Obat Dewa.
+Dialogue: 0,0:06:17.40,0:06:18.88,pw,,0,0,0,,Cepat cari!
+Dialogue: 0,0:06:19.40,0:06:21.48,pw,,0,0,0,,Jangan lewatkan keberuntungan yang datang dari langit.
+Dialogue: 0,0:06:32.80,0:06:34.68,pw,,0,0,0,,Terjatuh tapi menemukan Benih Api Murni.
+Dialogue: 0,0:06:35.16,0:06:36.48,pw,,0,0,0,,Si Bodoh itu benar-benar beruntung.
+Dialogue: 0,0:06:40.48,0:06:41.60,pw,,0,0,0,,Esensi Inti Api.
+Dialogue: 0,0:06:42.16,0:06:43.20,pw,,0,0,0,,Tepat seperti yang kubutuhkan.
+Dialogue: 0,0:06:48.44,0:06:49.88,pw,,0,0,0,,Memang benar tempat keberuntungan.
+Dialogue: 0,0:06:51.32,0:06:52.92,pw,,0,0,0,,Didapat tanpa usaha.
+Dialogue: 0,0:06:54.76,0:06:56.60,pw,,0,0,0,,Sekarang kau tidak perlu lagi membantu Wangxi.
+Dialogue: 0,0:06:56.72,0:06:58.32,pw,,0,0,0,,Maukah bergabung dengan klanku?
+Dialogue: 0,0:07:01.52,0:07:03.00,pw,,0,0,0,,Meskipun kau mendapat Benih Air,
+Dialogue: 0,0:07:03.68,0:07:05.88,pw,,0,0,0,,tapi sekarang sedang bermain api.
+Dialogue: 0,0:07:14.04,0:07:15.56,pw,,0,0,0,,Dia sudah memiliki Api Qingyue.
+Dialogue: 0,0:07:15.96,0:07:17.84,pw,,0,0,0,,Tidak boleh membiarkannya mendapatkan lebih banyak peluang.
+Dialogue: 0,0:07:23.96,0:07:24.48,pw,,0,0,0,,Qing Yi.
+Dialogue: 0,0:07:25.16,0:07:25.84,pw,,0,0,0,,Mari kita pergi bersama.
+Dialogue: 0,0:07:32.52,0:07:34.32,pw,,0,0,0,,Kau berkali-kali mengganggu rencananya.
+Dialogue: 0,0:07:34.56,0:07:36.32,pw,,0,0,0,,Takutnya dia akan marah padamu karena itu.
+Dialogue: 0,0:07:36.88,0:07:37.64,pw,,0,0,0,,Tenang saja.
+Dialogue: 0,0:07:38.64,0:07:39.72,pw,,0,0,0,,Suatu hari nanti,
+Dialogue: 0,0:07:40.16,0:07:41.56,pw,,0,0,0,,aku akan membantu kalian menyatu sempurna,
+Dialogue: 0,0:07:42.36,0:07:43.52,pw,,0,0,0,,dengan kehendakmu sebagai yang utama.
+Dialogue: 0,0:07:54.76,0:07:56.12,pw,,0,0,0,,Qi pedang yang sangat tajam.
+Dialogue: 0,0:07:57.04,0:07:58.32,pw,,0,0,0,,Mungkinkah ada Pedang Immortal di danau?
+Dialogue: 0,0:08:02.56,0:08:03.08,pw,,0,0,0,,Ini...
+Dialogue: 0,0:08:04.28,0:08:05.40,pw,,0,0,0,,Sebuah danau cairan logam.
+Dialogue: 0,0:08:06.12,0:08:06.92,pw,,0,0,0,,Suhu yang mengejutkan.
+Dialogue: 0,0:08:07.44,0:08:10.04,pw,,0,0,0,,Jika ada Benih Elemen Logam yang dipupuk di sini selama jutaan tahun,
+Dialogue: 0,0:08:10.64,0:08:11.76,pw,,0,0,0,,pasti akan luar biasa.
+Dialogue: 0,0:08:15.52,0:08:16.04,pw,,0,0,0,,Ikuti aku.
+Dialogue: 0,0:08:25.48,0:08:26.56,pw,,0,0,0,,Ada juga pengawal.
+Dialogue: 0,0:08:26.84,0:08:27.44,pw,,0,0,0,,Hati-hati.
+Dialogue: 0,0:08:28.40,0:08:29.32,pw,,0,0,0,,Semakin berharga benihnya,
+Dialogue: 0,0:08:29.64,0:08:31.12,pw,,0,0,0,,semakin kuat penjaga rohnya.
+Dialogue: 0,0:08:39.44,0:08:39.80,pw,,0,0,0,,Sangat panas!
+Dialogue: 0,0:08:39.84,0:08:41.84,pw,,0,0,0,,Penjaga roh ini adalah manifestasi dari Esensi Inti Logam.
+Dialogue: 0,0:08:42.36,0:08:43.56,pw,,0,0,0,,Tidak bisa dihancurkan sepenuhnya.
+Dialogue: 0,0:08:45.32,0:08:46.08,pw,,0,0,0,,Tidak bisa mendekat.
+Dialogue: 0,0:08:47.48,0:08:48.76,pw,,0,0,0,,Maka tangkap saja benihnya.
+Dialogue: 0,0:08:49.76,0:09:04.76,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:10.40,0:09:11.64,pw,,0,0,0,,Ini adalah benih ekstrim.
+Dialogue: 0,0:09:13.08,0:09:14.20,pw,,0,0,0,,Sayang sekali atributnya tidak cocok.
+Dialogue: 0,0:09:14.68,0:09:15.36,pw,,0,0,0,,Maukah kau mencobanya?
+Dialogue: 0,0:09:20.52,0:09:23.92,pw,,0,0,0,,Qingyue bahkan bisa menelan benih dan mengubahnya menjadi vitalitas.
+Dialogue: 0,0:09:24.92,0:09:26.96,pw,,0,0,0,,Dia bisa menelan berbagai esensi Benih Immortal.
+Dialogue: 0,0:09:27.72,0:09:29.24,pw,,0,0,0,,Mungkin tidak lebih buruk dari bibit Pohon Dunia,
+Dialogue: 0,0:09:29.64,0:09:30.52,pw,,0,0,0,,atau Benih Lima Elemen.
+Dialogue: 0,0:09:31.24,0:09:33.72,pw,,0,0,0,,Dia tidak mungkin reinkarnasi Peri Qingyue, kan?
+Dialogue: 0,0:09:33.96,0:09:34.64,pw,,0,0,0,,Apa yang kau lihat?
+Dialogue: 0,0:09:35.56,0:09:36.16,pw,,0,0,0,,Jangan macam-macam.
+Dialogue: 0,0:09:38.16,0:09:40.08,pw,,0,0,0,,Peri sangat cantik.
+Dialogue: 0,0:09:40.56,0:09:42.52,pw,,0,0,0,,Apa gunanya bermain dengan binatang buas?
+Dialogue: 0,0:09:43.12,0:09:44.52,pw,,0,0,0,,Bagaimana kalau naik ke kapal untuk berbincang?
+Dialogue: 0,0:09:46.24,0:09:47.32,pw,,0,0,0,,Matamu yang buta!
+Dialogue: 0,0:09:51.20,0:09:52.72,pw,,0,0,0,,Ternyata hanya teknik.
+Dialogue: 0,0:09:53.08,0:09:54.32,pw,,0,0,0,,Tidak menarik.
+Dialogue: 0,0:09:56.84,0:09:58.36,pw,,0,0,0,,Aura Akademi Immortal.
+Dialogue: 0,0:10:01.28,0:10:02.16,pw,,0,0,0,,Sangat picik.
+Dialogue: 0,0:10:02.56,0:10:04.08,pw,,0,0,0,,Ranah Heavenly Deity juga tidak bisa mati tertembak.
+Dialogue: 0,0:10:04.24,0:10:06.16,pw,,0,0,0,,Bisa menemani murid Akademi Immortal bersenang-senang,
+Dialogue: 0,0:10:06.56,0:10:08.00,pw,,0,0,0,,itu adalah kehormatan kalian.
+Dialogue: 0,0:10:09.40,0:10:10.52,pw,,0,0,0,,Aku akan mengajarimu cara bersikap.
+Dialogue: 0,0:10:19.48,0:10:20.04,pw,,0,0,0,,Tidak!
+Dialogue: 0,0:10:26.88,0:10:27.76,pw,,0,0,0,,Melihat tubuhmu yang lemah,
+Dialogue: 0,0:10:28.12,0:10:30.04,pw,,0,0,0,,ternyata itu adalah penipuan Energi Abadi.
+Dialogue: 0,0:10:33.80,0:10:34.32,pw,,0,0,0,,Cepat!
+Dialogue: 0,0:10:34.64,0:10:36.48,pw,,0,0,0,,Cepat kembalikan baju zirah itu!
+Dialogue: 0,0:10:36.64,0:10:39.04,pw,,0,0,0,,Kalau tidak, Raja Langit Kecil tidak akan mengampunimu.
+Dialogue: 0,0:10:41.68,0:10:43.72,pw,,0,0,0,,Bahkan Raja Langit Tua datang pun tidak bisa menyelamatkanmu.
+Dialogue: 0,0:10:44.36,0:10:45.72,pw,,0,0,0,,Ah, Wu Tai!
+Dialogue: 0,0:10:46.00,0:10:46.88,pw,,0,0,0,,Orang yang sombong.
+Dialogue: 0,0:10:47.48,0:10:49.06,pw,,0,0,0,,Beraninya melukai murid Akademi Immortal.
+Dialogue: 0,0:10:50.60,0:10:52.12,pw,,0,0,0,,Jangan-jangan ingin terkenal lewat pertempuran ini,
+Dialogue: 0,0:10:52.36,0:10:53.48,pw,,0,0,0,,agar terpilih masuk Akademi Immortal?
+Dialogue: 0,0:10:54.20,0:10:55.80,pw,,0,0,0,,Cepat kembalikan baju zirah Raja Langit Kecil!
+Dialogue: 0,0:10:58.76,0:10:59.72,pw,,0,0,0,,Akademi Immortal?
+Dialogue: 0,0:11:00.32,0:11:00.92,pw,,0,0,0,,Siapa yang peduli?
+Dialogue: 0,0:11:05.52,0:11:06.24,pw,,0,0,0,,Tetua.
+Dialogue: 0,0:11:07.04,0:11:07.88,pw,,0,0,0,,Jangan buru-buru.
+Dialogue: 0,0:11:08.28,0:11:10.28,pw,,0,0,0,,Tunggu sebentar lagi.
+Dialogue: 0,0:11:17.04,0:11:18.68,pw,,0,0,0,,Itu adalah Teknik Penakluk Kekacauan Keluarga Wang.
+Dialogue: 0,0:11:19.24,0:11:19.80,pw,,0,0,0,,Aduh!
+Dialogue: 0,0:11:20.64,0:11:23.16,pw,,0,0,0,,Ternyata adikku sudah diam-diam mengajarkan Teknik Penakluk Kekacauan.
+Dialogue: 0,0:11:23.40,0:11:25.20,pw,,0,0,0,,Pantas saja dia terus mengingatnya.
+Dialogue: 0,0:11:27.40,0:11:28.28,pw,,0,0,0,,Hanya dengan melihatnya,
+Dialogue: 0,0:11:28.28,0:11:30.16,pw,,0,0,0,,dia sudah bisa menirunya sedikit.
+Dialogue: 0,0:11:31.08,0:11:32.56,pw,,0,0,0,,Sungguh bakat yang luar biasa.
+Dialogue: 0,0:11:46.32,0:11:48.40,pw,,0,0,0,,Siapa yang menyerang kapal perang Akademi Immortal-ku?
+Dialogue: 0,0:11:53.00,0:11:54.84,pw,,0,0,0,,Bocah sialan!
+Dialogue: 0,0:11:55.24,0:11:58.04,pw,,0,0,0,,Rekan Dao, mengapa kau menekan murid akademi kami?
+Dialogue: 0,0:11:58.48,0:11:59.76,pw,,0,0,0,,Hahaha.
+Dialogue: 0,0:12:00.28,0:12:02.05,pw,,0,0,0,,Ternyata Akademi Tianshen.
+Dialogue: 0,0:12:06.12,0:12:08.96,pw,,0,0,0,,Raja Langit Kecil adalah murid inti akademi kami,
+Dialogue: 0,0:12:09.40,0:12:10.68,pw,,0,0,0,,sudah mencapai Ranah Void Dao.
+Dialogue: 0,0:12:11.08,0:12:12.20,pw,,0,0,0,,Kekuatannya tak terkalahkan.
+Dialogue: 0,0:12:13.20,0:12:14.72,pw,,0,0,0,,Kau kembalikan baju zirah itu,
+Dialogue: 0,0:12:15.12,0:12:16.40,pw,,0,0,0,,maka akan dianggap tidak ada apa-apa.
+Dialogue: 0,0:12:17.12,0:12:17.84,pw,,0,0,0,,Bagaimana?
+Dialogue: 0,0:12:18.24,0:12:19.48,pw,,0,0,0,,Wu Tai yang menyerangku duluan.
+Dialogue: 0,0:12:20.08,0:12:21.20,pw,,0,0,0,,Ini adalah rampasan pertempuranku.
+Dialogue: 0,0:12:22.52,0:12:23.64,pw,,0,0,0,,Raja Langit Kecil apanya?
+Dialogue: 0,0:12:24.60,0:12:25.12,pw,,0,0,0,,Aku tidak mengenalnya.
+Dialogue: 0,0:12:27.40,0:12:29.40,pw,,0,0,0,,Tiga orang ini bukan ancaman,
+Dialogue: 0,0:12:29.92,0:12:30.96,pw,,0,0,0,,yang merepotkan adalah Tetua Agung itu.
+Dialogue: 0,0:12:33.56,0:12:35.04,pw,,0,0,0,,Kalau begitu, biarkan dulu itu padamu.
+Dialogue: 0,0:12:36.20,0:12:37.76,pw,,0,0,0,,Tunggu Raja Langit Kecil memutuskan.
+Dialogue: 0,0:12:38.00,0:12:39.72,pw,,0,0,0,,Sepertinya Akademi Tianshen
+Dialogue: 0,0:12:39.96,0:12:42.04,pw,,0,0,0,,juga datang untuk Benih Langit yang disegel lima iblis.
+Dialogue: 0,0:12:42.64,0:12:44.40,pw,,0,0,0,,Inti formasi besar Anti-Lima Elemen
+Dialogue: 0,0:12:44.48,0:12:45.92,pw,,0,0,0,,tersembunyi di kedalaman alam rahasia.
+Dialogue: 0,0:12:46.16,0:12:47.80,pw,,0,0,0,,Hanya Ranah Heavenly Deity yang bisa masuk.
+Dialogue: 0,0:12:48.28,0:12:50.84,pw,,0,0,0,,Biarlah para murid bersaing sesuai kemampuan masing-masing.
+Dialogue: 0,0:12:51.32,0:12:52.00,pw,,0,0,0,,Bagaimana?
+Dialogue: 0,0:12:52.64,0:12:53.72,pw,,0,0,0,,Baiklah!
+Dialogue: 0,0:12:54.24,0:12:55.28,pw,,0,0,0,,Ada Huang di sini.
+Dialogue: 0,0:12:55.48,0:12:57.52,pw,,0,0,0,,Siapa yang akan untung, itu belum pasti.
+Dialogue: 0,0:13:08.04,0:13:08.96,pw,,0,0,0,,Letakkan Teratai Penarik Jiwa,
+Dialogue: 0,0:13:08.96,0:13:09.88,pw,,0,0,0,,aku akan mengampunimu.
+Dialogue: 0,0:13:10.32,0:13:11.60,pw,,0,0,0,,Mengandalkan kalian?
+Dialogue: 0,0:13:15.60,0:13:17.04,pw,,0,0,0,,Akademi Tianshen.
+Dialogue: 0,0:13:17.56,0:13:18.48,pw,,0,0,0,,Huang menang.
+Dialogue: 0,0:13:20.56,0:13:21.52,pw,,0,0,0,,Akademi Immortal.
+Dialogue: 0,0:13:22.12,0:13:23.36,pw,,0,0,0,,Luo Feng menang.
+Dialogue: 0,0:13:33.12,0:13:33.92,pw,,0,0,0,,Raja Sepuluh Mahkota.
+Dialogue: 0,0:13:34.56,0:13:35.80,pw,,0,0,0,,Kudengar kekuatanmu luar biasa.
+Dialogue: 0,0:13:36.20,0:13:37.52,pw,,0,0,0,,Beranikah bertarung dengan kami?
+Dialogue: 0,0:13:38.32,0:13:39.24,pw,,0,0,0,,Kau tidak pantas.
+Dialogue: 0,0:13:50.12,0:13:50.64,pw,,0,0,0,,Terima kasih.
+Dialogue: 0,0:13:52.08,0:13:53.36,pw,,0,0,0,,Aku tidak tahan dengan orang rendahan.
+Dialogue: 0,0:13:53.64,0:13:54.84,pw,,0,0,0,,Akademi Tianshen.
+Dialogue: 0,0:13:55.28,0:13:56.68,pw,,0,0,0,,Tianzi menang.
+Dialogue: 0,0:14:03.36,0:14:05.32,pw,,0,0,0,,Akademi Tianshen telah mendapatkan dua harta.
+Dialogue: 0,0:14:05.76,0:14:07.44,pw,,0,0,0,,Kita tidak boleh membiarkan mereka mendapatkannya lagi.
+Dialogue: 0,0:14:10.36,0:14:11.84,pw,,0,0,0,,Tangkap wanita itu!
+Dialogue: 0,0:14:12.24,0:14:14.28,pw,,0,0,0,,Lihat saja Huang masih berani sombong!
+Dialogue: 0,0:14:25.00,0:14:26.56,pw,,0,0,0,,Api Qingyue yang tercatat dalam kitab kuno,
+Dialogue: 0,0:14:26.92,0:14:28.52,pw,,0,0,0,,kenapa bisa bersamanya?
+Dialogue: 0,0:14:29.00,0:14:31.16,pw,,0,0,0,,Sudah sepakat bersaing dengan adil untuk obat ilahi,
+Dialogue: 0,0:14:31.48,0:14:32.68,pw,,0,0,0,,tapi kau tidak menjunjung tinggi etika.
+Dialogue: 0,0:14:33.12,0:14:33.60,pw,,0,0,0,,Qing Yi!
+Dialogue: 0,0:14:33.81,0:14:34.58,pw,,0,0,0,,Kau baik-baik saja?
+Dialogue: 0,0:14:36.64,0:14:37.88,pw,,0,0,0,,Qingyue.
+Dialogue: 0,0:14:39.20,0:14:39.84,pw,,0,0,0,,Qing Yi.
+Dialogue: 0,0:14:45.64,0:14:47.44,pw,,0,0,0,,Kau benar-benar reinkarnasi Peri Qingyue?
+Dialogue: 0,0:14:48.04,0:14:49.12,pw,,0,0,0,,Para Supreme Being sudah memverifikasinya.
+Dialogue: 0,0:14:50.68,0:14:52.24,pw,,0,0,0,,Tidak ada reinkarnasi sejati di dunia ini.
+Dialogue: 0,0:14:53.24,0:14:54.76,pw,,0,0,0,,Ini seharusnya semacam warisan.
+Dialogue: 0,0:15:01.92,0:15:03.16,pw,,0,0,0,,Jika aku tidak bisa mendapatkannya,
+Dialogue: 0,0:15:03.76,0:15:05.92,pw,,0,0,0,,maka tidak ada yang akan mendapatkannya.
+Dialogue: 0,0:15:07.84,0:15:08.28,pw,,0,0,0,,Meng Du!
+Dialogue: 0,0:15:08.44,0:15:09.08,pw,,0,0,0,,Kau gila?
+Dialogue: 0,0:15:18.56,0:15:19.48,pw,,0,0,0,,Itu adalah Aksara Roh Persembahan.
+Dialogue: 0,0:15:22.40,0:15:23.68,pw,,0,0,0,,Benih Langit yang disegel lima iblis,
+Dialogue: 0,0:15:25.48,0:15:26.28,pw,,0,0,0,,ada di sana.
