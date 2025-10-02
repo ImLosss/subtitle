@@ -1,0 +1,222 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.83,0:00:07.27,jd,,0,0,0,,Siklus karma.
+Dialogue: 0,0:00:07.30,0:00:08.47,jd,,0,0,0,,Balasan pasti datang.
+Dialogue: 0,0:00:08.70,0:00:09.97,jd,,0,0,0,,Balasan bagi kebaikan dan kejahatan,
+Dialogue: 0,0:00:09.97,0:00:11.10,jd,,0,0,0,,seperti bayangan yang mengikuti tubuh.
+Dialogue: 0,0:00:12.47,0:00:13.30,jd,,0,0,0,,Hari ini,
+Dialogue: 0,0:00:13.70,0:00:14.83,jd,,0,0,0,,murid ini menetapkan tekad besar.
+Dialogue: 0,0:00:15.67,0:00:16.70,jd,,0,0,0,,Segala karma,
+Dialogue: 0,0:00:17.07,0:00:18.27,jd,,0,0,0,,ribuan balasan,
+Dialogue: 0,0:00:18.70,0:00:20.60,jd,,0,0,0,,murid bersedia memikulnya sendirian.
+Dialogue: 0,0:00:21.47,0:00:22.80,jd,,0,0,0,,Berusaha sekuat tenaga agar makhluk hidup
+Dialogue: 0,0:00:23.17,0:00:25.40,jd,,0,0,0,,terbebas dari penderitaan tujuh bencana dan delapan malapetaka.
+Dialogue: 0,0:00:31.30,0:00:33.83,jd,,0,0,0,,Meskipun Mutiara Penghisap Darah adalah benda iblis,
+Dialogue: 0,0:00:34.37,0:00:36.47,jd,,0,0,0,,tapi bisa memisahkan dosa makhluk hidup.
+Dialogue: 0,0:00:37.07,0:00:38.70,jd,,0,0,0,,Aku menggunakan tubuhku sendiri sebagai dasar
+Dialogue: 0,0:00:39.07,0:00:40.47,jd,,0,0,0,,untuk membangun Kota Segala Dosa,
+Dialogue: 0,0:00:40.80,0:00:42.57,jd,,0,0,0,,menampung segala dosa di dalamnya,
+Dialogue: 0,0:00:42.90,0:00:44.27,jd,,0,0,0,,meninggalkan kebaikan di dunia,
+Dialogue: 0,0:00:44.27,0:00:45.47,jd,,0,0,0,,menahan kejahatan dalam tubuh.
+Dialogue: 0,0:00:45.80,0:00:49.20,jd,,0,0,0,,Dengan begitu, bisa memberi manfaat bagi makhluk hidup.
+Dialogue: 0,0:00:55.27,0:00:56.37,jd,,0,0,0,,Jangan-jangan
+Dialogue: 0,0:00:56.50,0:00:58.43,jd,,0,0,0,,benar seperti yang dikatakan orang itu,
+Dialogue: 0,0:00:58.70,0:01:00.63,jd,,0,0,0,,dosa sulit ditekan,
+Dialogue: 0,0:01:00.77,0:01:03.47,jd,,0,0,0,,hanya dengan teknik sejati tertinggi Buddha dan Tao
+Dialogue: 0,0:01:03.70,0:01:04.90,jd,,0,0,0,,saling bertarung,
+Dialogue: 0,0:01:05.43,0:01:07.17,jd,,0,0,0,,baru bisa diatasi.
+Dialogue: 0,0:01:08.77,0:01:10.60,jd,,0,0,0,,Hal ini tidak perlu dibicarakan lagi,
+Dialogue: 0,0:01:10.60,0:01:12.03,jd,,0,0,0,,mohon dimaklumi, Master.
+Dialogue: 0,0:01:20.67,0:01:22.20,jd,,0,0,0,,Setelah aku mati,
+Dialogue: 0,0:01:22.63,0:01:24.40,jd,,0,0,0,,tekad yang belum tercapai itu
+Dialogue: 0,0:01:24.70,0:01:27.50,jd,,0,0,0,,mungkin akan sia-sia.
+Dialogue: 0,0:01:28.90,0:01:29.60,jd,,0,0,0,,Benar,
+Dialogue: 0,0:01:29.87,0:01:31.67,jd,,0,0,0,,ada cara.
+Dialogue: 0,0:01:32.07,0:01:33.47,jd,,0,0,0,,Tidak,
+Dialogue: 0,0:01:33.50,0:01:35.17,jd,,0,0,0,,kenapa tidak bisa?
+Dialogue: 0,0:01:35.17,0:01:36.17,jd,,0,0,0,,Tidak boleh,
+Dialogue: 0,0:01:36.20,0:01:37.43,jd,,0,0,0,,apa yang kupikirkan?
+Dialogue: 0,0:01:37.43,0:01:38.20,jd,,0,0,0,,Bunuh!
+Dialogue: 0,0:01:39.60,0:01:41.47,jd,,0,0,0,,Pasti masih ada cara lain.
+Dialogue: 0,0:01:41.50,0:01:42.80,jd,,0,0,0,,Bunuh!
+Dialogue: 0,0:01:43.20,0:01:52.40,jd,,0,0,0,,Hanya cara ini yang tersisa.
+Dialogue: 0,0:01:53.37,0:01:56.67,jd,,0,0,0,,Berhenti!
+Dialogue: 0,0:02:09.80,0:02:12.87,jd,,0,0,0,,Apa yang sebenarnya kulakukan?
+Dialogue: 0,0:02:56.70,0:02:59.20,jd,,0,0,0,,Semua ini adalah wujud dari dosa.
+Dialogue: 0,0:03:00.27,0:03:03.23,jd,,0,0,0,,Jangan-jangan ini adalah Kota Segala Dosa?
+Dialogue: 0,0:03:30.97,0:03:32.43,jd,,0,0,0,,Entah di kehidupan mendatang,
+Dialogue: 0,0:03:32.90,0:03:35.67,jd,,0,0,0,,bisakah kita bertemu lagi?
+Dialogue: 0,0:03:42.47,0:03:45.37,jd,,0,0,0,,Aku mengejar dunia tanpa kejahatan,
+Dialogue: 0,0:03:46.17,0:03:48.27,jd,,0,0,0,,ingin menabur benih kebaikan,
+Dialogue: 0,0:03:48.27,0:03:50.63,jd,,0,0,0,,tapi justru menuai buah kejahatan.
+Dialogue: 0,0:03:51.03,0:03:52.67,jd,,0,0,0,,Bencana Desa Caomiao.
+Dialogue: 0,0:03:52.67,0:03:54.50,jd,,0,0,0,,Akulah yang menciptakan utang dosa ini.
+Dialogue: 0,0:03:54.77,0:03:57.97,jd,,0,0,0,,Aku harus menerima balasan dan menebus dosa di sini.
+Dialogue: 0,0:03:58.07,0:03:59.97,jd,,0,0,0,,Kejahatan yang kulakukan,
+Dialogue: 0,0:04:00.03,0:04:01.97,jd,,0,0,0,,meski dihukum dengan ribuan pedang,
+Dialogue: 0,0:04:02.03,0:04:04.40,jd,,0,0,0,,tidak akan bisa menebus sedikit pun.
+Dialogue: 0,0:04:05.07,0:04:06.77,jd,,0,0,0,,Tindakanmu seperti ini,
+Dialogue: 0,0:04:07.47,0:04:09.10,jd,,0,0,0,,apa bedanya dengan menipu diri sendiri?
+Dialogue: 0,0:04:09.97,0:04:11.77,jd,,0,0,0,,Karena kau datang ke sini,
+Dialogue: 0,0:04:11.77,0:04:14.03,jd,,0,0,0,,tubuh penuh dosa ini,
+Dialogue: 0,0:04:14.30,0:04:16.73,jd,,0,0,0,,serahkan saja kepadamu.
+Dialogue: 0,0:04:18.51,0:04:21.03,jd,,0,0,0,,"serahkan saja kepadamu" ?
+Dialogue: 0,0:04:23.23,0:04:25.43,jd,,0,0,0,,Bisakah ini membuat hidupku yang hancur ini dimulai ulang?
+Dialogue: 0,0:04:25.67,0:04:27.77,jd,,0,0,0,,Bisakah ini menghidupkan kembali semua orang yang mati sia-sia?
+Dialogue: 0,0:04:28.43,0:04:30.50,jd,,0,0,0,,Seluruh 247 penduduk Desa Caomiao,
+Dialogue: 0,0:04:30.77,0:04:33.07,jd,,0,0,0,,tulang-belulang mereka sudah lama berubah menjadi lumpur.
+Dialogue: 0,0:04:35.67,0:04:37.30,jd,,0,0,0,,Kau pikir dengan mengurung diri di sini,
+Dialogue: 0,0:04:37.30,0:04:38.37,jd,,0,0,0,,menderita siksaan tak berujung,
+Dialogue: 0,0:04:38.37,0:04:40.03,jd,,0,0,0,,maka semuanya akan selesai?
+Dialogue: 0,0:04:40.50,0:04:41.30,jd,,0,0,0,,Aku,
+Dialogue: 0,0:04:42.03,0:04:43.67,jd,,0,0,0,,aku tidak tahu.
+Dialogue: 0,0:04:44.70,0:04:47.90,jd,,0,0,0,,Di hatiku, aku sudah tidak tahu berapa kali membunuhmu.
+Dialogue: 0,0:04:48.17,0:04:51.00,jd,,0,0,0,,Tapi selain membunuh, apa lagi yang bisa kulakukan?
+Dialogue: 0,0:04:52.67,0:04:55.37,jd,,0,0,0,,Jika tidak bisa membuat orang yang pantas mati, mati
+Dialogue: 0,0:04:55.90,0:04:57.63,jd,,0,0,0,,dan orang yang tidak pantas mati, hidup
+Dialogue: 0,0:05:00.67,0:05:03.20,jd,,0,0,0,,meski kucincang tubuhmu berkeping-keping,
+Dialogue: 0,0:05:04.10,0:05:05.87,jd,,0,0,0,,apa gunanya?
+Dialogue: 0,0:05:06.20,0:05:10.50,jd,,0,0,0,,Apa artinya semua ini?
+Dialogue: 0,0:05:18.83,0:05:22.60,jd,,0,0,0,,Akulah yang melakukan kejahatan mengerikan ini.
+Dialogue: 0,0:05:22.83,0:05:24.98,jd,,0,0,0,,Maaf.
+Dialogue: 0,0:05:25.62,0:05:28.27,jd,,0,0,0,,Aku menyesal padamu.
+Dialogue: 0,0:05:28.67,0:05:31.97,jd,,0,0,0,,Menyesal pada semua makhluk di Desa Caomiao.
+Dialogue: 0,0:06:05.47,0:06:07.17,jd,,0,0,0,,Cepat pergi!
+Dialogue: 0,0:06:07.20,0:06:08.70,jd,,0,0,0,,Segala dosa membalik,
+Dialogue: 0,0:06:08.70,0:06:11.50,jd,,0,0,0,,aku tidak bisa menahannya lagi.
+Dialogue: 0,0:06:15.47,0:06:18.07,jd,,0,0,0,,Segala dosa menimpa tubuh,
+Dialogue: 0,0:06:18.23,0:06:21.67,jd,,0,0,0,,semua kejahatan muncul ke dunia.
+Dialogue: 0,0:06:33.37,0:06:35.57,jd,,0,0,0,,Lautan penderitaan tak bertepi,
+Dialogue: 0,0:06:35.57,0:06:38.43,jd,,0,0,0,,tapi ada orang bodoh yang ingin menyelamatkan dunia dengan tubuhnya.
+Dialogue: 0,0:06:38.70,0:06:41.87,jd,,0,0,0,,Dengan kekuatan sendiri menghilangkan dosa dunia.
+Dialogue: 0,0:06:41.87,0:06:44.87,jd,,0,0,0,,Pada akhirnya hanya khayalan belaka.
+Dialogue: 0,0:06:50.20,0:06:51.90,jd,,0,0,0,,Segala dosa menimpa tubuh,
+Dialogue: 0,0:06:51.90,0:06:54.27,jd,,0,0,0,,ini semua dosa yang dia tekan.
+Dialogue: 0,0:07:04.10,0:07:06.67,jd,,0,0,0,,Jika kejahatan lahir dari hati manusia,
+Dialogue: 0,0:07:06.67,0:07:09.80,jd,,0,0,0,,mengapa manusia masih takut padanya?
+Dialogue: 0,0:07:10.03,0:07:11.87,jd,,0,0,0,,Sifat manusia pada dasarnya jahat,
+Dialogue: 0,0:07:11.87,0:07:13.97,jd,,0,0,0,,dewa dan Buddha pun sulit menyelamatkan.
+Dialogue: 0,0:07:14.27,0:07:16.23,jd,,0,0,0,,Pura-pura tidak melihat,
+Dialogue: 0,0:07:16.27,0:07:18.77,jd,,0,0,0,,menipu diri sendiri.
+Dialogue: 0,0:07:19.76,0:07:34.76,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:08:36.30,0:08:37.87,jd,,0,0,0,,Kejahatan sifat manusia,
+Dialogue: 0,0:08:38.43,0:08:39.67,jd,,0,0,0,,konspirasi dan intrik,
+Dialogue: 0,0:08:40.07,0:08:41.20,jd,,0,0,0,,saling menipu dan mengelabui.
+Dialogue: 0,0:08:41.67,0:08:43.10,jd,,0,0,0,,Pembunuhan balas dendam.
+Dialogue: 0,0:08:44.00,0:08:45.40,jd,,0,0,0,,Selama lebih dari sepuluh tahun ini,
+Dialogue: 0,0:08:45.50,0:08:46.90,jd,,0,0,0,,aku sudah menyaksikan
+Dialogue: 0,0:08:47.20,0:08:48.50,jd,,0,0,0,,terlalu banyak.
+Dialogue: 0,0:09:05.63,0:09:09.17,jd,,0,0,0,,Segala sesuatu hidup dan mati tanpa kepastian,
+Dialogue: 0,0:09:09.50,0:09:12.23,jd,,0,0,0,,hanya kejahatan yang abadi.
+Dialogue: 0,0:09:20.60,0:09:21.30,jd,,0,0,0,,Guru,
+Dialogue: 0,0:09:21.30,0:09:23.17,jd,,0,0,0,,sudah tepat satu hari satu malam.
+Dialogue: 0,0:09:23.83,0:09:26.03,jd,,0,0,0,,Penderma Zhang sampai sekarang belum keluar.
+Dialogue: 0,0:09:27.83,0:09:29.87,jd,,0,0,0,,Jodoh buruk sepanjang hidup,
+Dialogue: 0,0:09:29.87,0:09:32.17,jd,,0,0,0,,kebencian seumur hidup,
+Dialogue: 0,0:09:32.17,0:09:36.63,jd,,0,0,0,,mana mungkin mudah untuk melepaskannya.
+Dialogue: 0,0:09:44.20,0:09:46.30,jd,,0,0,0,,Murid memohon Guru menggunakan kekuatan besar,
+Dialogue: 0,0:09:46.30,0:09:48.03,jd,,0,0,0,,dengan kekuatan Buddha tak terbatas,
+Dialogue: 0,0:09:48.03,0:09:49.77,jd,,0,0,0,,menuntun dan mencerahkannya.
+Dialogue: 0,0:09:50.57,0:09:53.17,jd,,0,0,0,,Dengan welas asih Buddha menghilangkan kekerasan hatinya,
+Dialogue: 0,0:09:53.60,0:09:55.23,jd,,0,0,0,,membantunya terbebas dari lautan penderitaan iblis hati.
+Dialogue: 0,0:09:56.63,0:09:59.70,jd,,0,0,0,,Bukan Gurumu tidak mau menuntun orang ini,
+Dialogue: 0,0:10:00.23,0:10:02.23,jd,,0,0,0,,tapi dia telah melalui banyak kesulitan,
+Dialogue: 0,0:10:02.37,0:10:03.83,jd,,0,0,0,,seumur hidup penuh lika-liku,
+Dialogue: 0,0:10:04.20,0:10:05.77,jd,,0,0,0,,sampai hari ini,
+Dialogue: 0,0:10:05.97,0:10:09.00,jd,,0,0,0,,hatinya sudah kokoh seperti batu karang.
+Dialogue: 0,0:10:09.17,0:10:13.50,jd,,0,0,0,,Orang luar sudah tidak bisa mempengaruhinya lagi.
+Dialogue: 0,0:10:13.80,0:10:14.87,jd,,0,0,0,,Baik itu kamu,
+Dialogue: 0,0:10:15.17,0:10:18.00,jd,,0,0,0,,atau Puzhi, semuanya salah.
+Dialogue: 0,0:10:18.00,0:10:19.30,jd,,0,0,0,,Adik Seperguruan,
+Dialogue: 0,0:10:19.30,0:10:21.27,jd,,0,0,0,,meski kau berniat baik,
+Dialogue: 0,0:10:21.27,0:10:23.10,jd,,0,0,0,,tapi justru menciptakan buah kejahatan.
+Dialogue: 0,0:10:23.63,0:10:25.97,jd,,0,0,0,,Kau sendiri masih sulit mencapai kebaikan tertinggi,
+Dialogue: 0,0:10:25.97,0:10:28.37,jd,,0,0,0,,mengapa memaksa orang lain?
+Dialogue: 0,0:10:29.43,0:10:34.00,jd,,0,0,0,,Dosa manusia juga adalah jalan kultivasi masing-masing.
+Dialogue: 0,0:10:35.00,0:10:37.43,jd,,0,0,0,,Puzhi bertekad mengejar dunia tanpa kejahatan,
+Dialogue: 0,0:10:37.70,0:10:39.57,jd,,0,0,0,,ini adalah sebab kebaikan besar,
+Dialogue: 0,0:10:40.10,0:10:42.00,jd,,0,0,0,,tapi justru menimbulkan tragedi Desa Caomiao,
+Dialogue: 0,0:10:42.03,0:10:43.80,jd,,0,0,0,,menuai buah kejahatan besar.
+Dialogue: 0,0:10:45.17,0:10:46.20,jd,,0,0,0,,Dan buah kejahatan ini,
+Dialogue: 0,0:10:46.63,0:10:49.17,jd,,0,0,0,,justru menjadi sebab segala hal dalam hidupku.
+Dialogue: 0,0:10:52.50,0:10:55.50,jd,,0,0,0,,Melihat kembali hidupku yang penuh lika-liku,
+Dialogue: 0,0:10:56.40,0:10:57.83,jd,,0,0,0,,tapi justru setiap peristiwa,
+Dialogue: 0,0:10:58.00,0:10:59.00,jd,,0,0,0,,setiap orang,
+Dialogue: 0,0:10:59.27,0:11:01.20,jd,,0,0,0,,yang menciptakan diriku hari ini.
+Dialogue: 0,0:11:01.40,0:11:04.03,jd,,0,0,0,,Karena segala sebab dan akibat berkumpul padaku,
+Dialogue: 0,0:11:04.40,0:11:06.07,jd,,0,0,0,,apakah sebab ini baik atau jahat,
+Dialogue: 0,0:11:06.57,0:11:08.37,jd,,0,0,0,,buah yang dihasilkan benar atau sesat,
+Dialogue: 0,0:11:09.00,0:11:10.67,jd,,0,0,0,,semua ditentukan oleh pikiranku.
+Dialogue: 0,0:11:12.10,0:11:13.97,jd,,0,0,0,,Maka biarkan aku memikul karma ini,
+Dialogue: 0,0:11:14.63,0:11:15.80,jd,,0,0,0,,memikul segalanya,
+Dialogue: 0,0:11:16.63,0:11:18.77,jd,,0,0,0,,dan melangkah di jalanku sendiri.
+Dialogue: 0,0:11:19.76,0:11:34.76,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:02.20,0:12:04.30,jd,,0,0,0,,Kau berhasil.
+Dialogue: 0,0:12:36.17,0:12:38.23,jd,,0,0,0,,Segala balasan dosa dalam tubuh Adik Seperguruan.
+Dialogue: 0,0:12:38.27,0:12:39.80,jd,,0,0,0,,Ternyata sudah sirna.
+Dialogue: 0,0:12:45.27,0:12:47.47,jd,,0,0,0,,Penderma dengan hati penuh welas asih,
+Dialogue: 0,0:12:47.47,0:12:49.50,jd,,0,0,0,,menghapus ribuan balasan dosa.
+Dialogue: 0,0:12:49.77,0:12:52.47,jd,,0,0,0,,Baik terhadap Puzhi maupun semua makhluk,
+Dialogue: 0,0:12:52.83,0:12:54.80,jd,,0,0,0,,ini adalah berkah tak terhingga.
+Dialogue: 0,0:12:55.67,0:12:58.07,jd,,0,0,0,,Mencapai buah pencerahan Buddha.
+Dialogue: 0,0:12:59.40,0:13:00.40,jd,,0,0,0,,Biksu,
+Dialogue: 0,0:13:01.07,0:13:03.00,jd,,0,0,0,,Penderma ada keperluan apa?
+Dialogue: 0,0:13:04.87,0:13:06.30,jd,,0,0,0,,Yang telah wafat sebaiknya dimakamkan.
+Dialogue: 0,0:13:06.97,0:13:08.03,jd,,0,0,0,,Kau,
+Dialogue: 0,0:13:08.63,0:13:10.07,jd,,0,0,0,,jasad Guru Puzhi ini,
+Dialogue: 0,0:13:11.23,0:13:12.43,jd,,0,0,0,,kremasikan dan makamkanlah.
+Dialogue: 0,0:13:17.10,0:13:20.90,jd,,0,0,0,,Penderma sudah melepaskan keterikatan dalam hati.
+Dialogue: 0,0:13:36.07,0:13:37.67,jd,,0,0,0,,Aku dengan biksu ini,
+Dialogue: 0,0:13:38.30,0:13:39.97,jd,,0,0,0,,dulu hanya bertemu sekali,
+Dialogue: 0,0:13:41.47,0:13:43.60,jd,,0,0,0,,tapi pernah bersujud di depannya,
+Dialogue: 0,0:13:44.20,0:13:46.20,jd,,0,0,0,,dengan rela hati memberi hormat padanya.
+Dialogue: 0,0:13:49.17,0:13:50.37,jd,,0,0,0,,Memanggilnya Guru.
+Dialogue: 0,0:13:51.77,0:13:53.03,jd,,0,0,0,,Dia pernah menolongku,
+Dialogue: 0,0:13:53.60,0:13:54.67,jd,,0,0,0,,juga mencelakakanku.
+Dialogue: 0,0:13:57.63,0:13:58.70,jd,,0,0,0,,Tapi tanpanya,
+Dialogue: 0,0:13:58.97,0:13:59.83,jd,,0,0,0,,tidak akan ada aku.
+Dialogue: 0,0:14:01.67,0:14:03.00,jd,,0,0,0,,Yang telah pergi biarlah pergi.
+Dialogue: 0,0:14:03.90,0:14:05.57,jd,,0,0,0,,Meski aku bukan murid Buddha,
+Dialogue: 0,0:14:05.87,0:14:07.87,jd,,0,0,0,,aku tahu agama Buddha paling mementingkan reinkarnasi.
+Dialogue: 0,0:14:10.27,0:14:12.77,jd,,0,0,0,,Sampai mati pun dia tidak mau dimakamkan,
+Dialogue: 0,0:14:15.90,0:14:18.50,jd,,0,0,0,,bisa diketahui penyesalan dalam hatinya.
+Dialogue: 0,0:14:18.50,0:14:33.50,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:14:37.40,0:14:37.70,jd,,0,0,0,,Kau,
+Dialogue: 0,0:14:39.00,0:14:40.30,jd,,0,0,0,,beristirahatlah dengan tenang.
+Dialogue: 0,0:14:54.07,0:14:55.20,jd,,0,0,0,,Adik Seperguruan,
+Dialogue: 0,0:14:55.90,0:14:57.77,jd,,0,0,0,,akhirnya kau bisa beristirahat.
+Dialogue: 0,0:15:05.47,0:15:07.90,jd,,0,0,0,,Adik Seperguruan,
+Dialogue: 0,0:15:08.70,0:15:10.63,jd,,0,0,0,,dosamu telah ditebus,
+Dialogue: 0,0:15:10.63,0:15:12.40,jd,,0,0,0,,keinginanmu telah terpenuhi.
+Dialogue: 0,0:15:12.87,0:15:13.97,jd,,0,0,0,,Kakak seperguruan,
+Dialogue: 0,0:15:14.37,0:15:16.20,jd,,0,0,0,,juga turut senang untukmu.
+Dialogue: 0,0:15:16.97,0:15:19.10,jd,,0,0,0,,Mengakhiri jodoh kehidupan lampau,
+Dialogue: 0,0:15:19.27,0:15:21.63,jd,,0,0,0,,melunasi utang kehidupan ini.
+Dialogue: 0,0:15:22.30,0:15:24.23,jd,,0,0,0,,Kita pernah satu perguruan,
+Dialogue: 0,0:15:24.83,0:15:29.43,jd,,0,0,0,,semoga bertemu lagi di samudera Buddha.
