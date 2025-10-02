@@ -76,7 +76,7 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       // '-ss', '01:18:40',
       // '-to', '01:19:25',
       // scale=-1:1080
-      '-vf', "subtitles=JD_EP23_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=25:fontcolor=white@0.5:x=15:y=15",
+      '-vf', "subtitles=JD_EP24_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
       '-c:v', 'libx264',
       '-crf', '25',
       // '-b:v', '2M', // Bitrate target rata-rata
@@ -210,4 +210,4 @@ async function extractSrt(inputFile) {
 //   outputFile // File output
 // ];
 
-burnSubtitleGPU('JD_EP23.mp4', 'JD_EP23_INDO.mp4')
+burnSubtitleGPU('JD_EP24.mp4', 'JD_EP23_INDO.mp4')

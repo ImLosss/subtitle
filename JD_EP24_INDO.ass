@@ -1,0 +1,208 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Calibri,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:13:41.41,0:13:46.03,komen,,0,0,0,,{\pos(642,427)\fad(500,250)}[Naga Lilin]
+Dialogue: 0,0:00:15.56,0:00:16.92,jd,,0,0,0,,Aneh.
+Dialogue: 0,0:00:20.76,0:00:23.84,jd,,0,0,0,,Murid penjaga roh yang merawat dupa dan api semuanya pergi ke mana?
+Dialogue: 0,0:00:26.28,0:00:27.28,jd,,0,0,0,,Hormat pada Guru.
+Dialogue: 0,0:00:28.68,0:00:30.24,jd,,0,0,0,,Guru memerintahkanku datang sendirian,
+Dialogue: 0,0:00:30.56,0:00:32.08,jd,,0,0,0,,ada urusan penting apa yang perlu diperintahkan?
+Dialogue: 0,0:00:33.28,0:00:34.44,jd,,0,0,0,,Perintah?
+Dialogue: 0,0:00:34.96,0:00:37.56,jd,,0,0,0,,Sekarang ini aku masih berani memerintahmu?
+Dialogue: 0,0:00:37.58,0:00:39.10,jd,,0,0,0,,Guru?
+Dialogue: 0,0:00:40.16,0:00:42.32,jd,,0,0,0,,Serangan terakhir siluman itu sebelum mati
+Dialogue: 0,0:00:42.52,0:00:44.68,jd,,0,0,0,,pada akhirnya tidak bisa mengambil nyawaku.
+Dialogue: 0,0:00:44.76,0:00:46.20,jd,,0,0,0,,Kau sangat kecewa, 'kan?
+Dialogue: 0,0:00:49.04,0:00:50.52,jd,,0,0,0,,Guru, kenapa berkata begitu?
+Dialogue: 0,0:00:51.28,0:00:53.36,jd,,0,0,0,,Aku menderita luka parah dari siluman itu,
+Dialogue: 0,0:00:53.76,0:00:56.16,jd,,0,0,0,,sebenarnya juga tidak bisa bertahan lama lagi.
+Dialogue: 0,0:00:56.56,0:00:58.84,jd,,0,0,0,,Posisi ini cepat atau lambat akan menjadi milikmu,
+Dialogue: 0,0:00:59.28,0:01:02.24,jd,,0,0,0,,untuk apa terburu-buru dalam waktu sesaat ini?
+Dialogue: 0,0:01:03.04,0:01:04.48,jd,,0,0,0,,Murid tidak pernah punya pemikiran seperti itu.
+Dialogue: 0,0:01:05.36,0:01:06.96,jd,,0,0,0,,Guru telah berusaha keras untuk Qingyun,
+Dialogue: 0,0:01:07.08,0:01:08.04,jd,,0,0,0,,mencurahkan seluruh tenaga,
+Dialogue: 0,0:01:08.36,0:01:09.96,jd,,0,0,0,,kami murid Qingyun semuanya mengagumi.
+Dialogue: 0,0:01:10.12,0:01:10.68,jd,,0,0,0,,Bagaimana mungkin...
+Dialogue: 0,0:01:10.68,0:01:12.76,jd,,0,0,0,,Dalam malapetaka siluman monster kali ini, kau banyak berjasa.
+Dialogue: 0,0:01:13.28,0:01:14.64,jd,,0,0,0,,Baik di dalam maupun di luar sekte,
+Dialogue: 0,0:01:14.64,0:01:16.68,jd,,0,0,0,,semua sangat memujimu,
+Dialogue: 0,0:01:16.68,0:01:18.52,jd,,0,0,0,,seolah-olah sudah menganggapmu sebagai penerus Ketua Sekte Qingyun.
+Dialogue: 0,0:01:18.88,0:01:20.24,jd,,0,0,0,,Kau terhadap gurumu ini,
+Dialogue: 0,0:01:20.24,0:01:22.04,jd,,0,0,0,,mungkin juga sudah lama meremehkanku, 'kan?
+Dialogue: 0,0:01:22.12,0:01:23.28,jd,,0,0,0,,Kebaikan guru setinggi gunung,
+Dialogue: 0,0:01:23.76,0:01:25.96,jd,,0,0,0,,bagaimana mungkin murid punya pemikiran durhaka seperti itu?
+Dialogue: 0,0:01:27.64,0:01:28.92,jd,,0,0,0,,Hanya saja, aku bertanya padamu,
+Dialogue: 0,0:01:29.12,0:01:31.36,jd,,0,0,0,,suatu hari nanti jika siluman monster datang menyerang kembali,
+Dialogue: 0,0:01:31.48,0:01:33.48,jd,,0,0,0,,bagaimana kau akan menghadapinya?
+Dialogue: 0,0:01:33.84,0:01:35.48,jd,,0,0,0,,Jangan setelah membereskan kekacauan,
+Dialogue: 0,0:01:35.48,0:01:37.04,jd,,0,0,0,,lalu menjadi lupa diri,
+Dialogue: 0,0:01:37.36,0:01:40.52,jd,,0,0,0,,dan merasa dirimu bisa menanggung warisan Qingyun selama ribuan tahun.
+Dialogue: 0,0:01:41.08,0:01:43.48,jd,,0,0,0,,Dengan kemampuanmu yang sedikit ini,
+Dialogue: 0,0:01:43.64,0:01:46.04,jd,,0,0,0,,berkhayal bisa mengendalikan Zhuxian?
+Dialogue: 0,0:01:48.48,0:01:50.28,jd,,0,0,0,,Para leluhur Qingyun di atas,
+Dialogue: 0,0:01:50.64,0:01:53.84,jd,,0,0,0,,jika Xiao Yicai punya sedikit pun niat menipu guru dan menghancurkan leluhur,
+Dialogue: 0,0:01:54.16,0:01:55.52,jd,,0,0,0,,rela menerima hukuman disambar petir,
+Dialogue: 0,0:01:55.84,0:01:57.56,jd,,0,0,0,,ditusuk ribuan pedang.
+Dialogue: 0,0:02:06.56,0:02:07.52,jd,,0,0,0,,Guru.
+Dialogue: 0,0:02:16.44,0:02:19.16,jd,,0,0,0,,Gurumu bukan bermaksud menyulitkanmu,
+Dialogue: 0,0:02:19.36,0:02:21.28,jd,,0,0,0,,hanya berharap kau selalu waspada,
+Dialogue: 0,0:02:21.56,0:02:23.16,jd,,0,0,0,,suatu hari nanti,
+Dialogue: 0,0:02:23.28,0:02:25.36,jd,,0,0,0,,bisa memikul tanggung jawab besar di pundak.
+Dialogue: 0,0:02:26.28,0:02:27.68,jd,,0,0,0,,Jika suatu hari...
+Dialogue: 0,0:02:30.48,0:02:32.12,jd,,0,0,0,,Hari ini, pergilah dulu.
+Dialogue: 0,0:02:32.56,0:02:36.00,jd,,0,0,0,,Beberapa hal masih perlu kupikirkan lagi.
+Dialogue: 0,0:02:50.19,0:02:53.73,jd,,0,0,0,,Masih harus dipikirkan lagi.
+Dialogue: 0,0:03:19.32,0:03:23.32,jd,,0,0,0,,Apakah ini tempat Jurang Kematian Aliran Suci?
+Dialogue: 0,0:03:23.68,0:03:24.24,jd,,0,0,0,,Benar.
+Dialogue: 0,0:03:25.04,0:03:26.48,jd,,0,0,0,,Saat Jurang Kematian terbuka kala itu,
+Dialogue: 0,0:03:26.88,0:03:28.04,jd,,0,0,0,,langit dan bumi berubah,
+Dialogue: 0,0:03:28.04,0:03:28.96,jd,,0,0,0,,siang dan malam berganti,
+Dialogue: 0,0:03:29.28,0:03:30.36,jd,,0,0,0,,bahkan angin dan guntur tak henti-hentinya.
+Dialogue: 0,0:03:30.64,0:03:31.88,jd,,0,0,0,,Sayangnya, peristiwa itu
+Dialogue: 0,0:03:31.96,0:03:33.32,jd,,0,0,0,,menyebabkan tempat suci hancur,
+Dialogue: 0,0:03:33.52,0:03:36.24,jd,,0,0,0,,harapan membuka kembali Jurang Kematian semakin pudar.
+Dialogue: 0,0:03:39.44,0:03:41.04,jd,,0,0,0,,Matahari dan bintang menghilang,
+Dialogue: 0,0:03:41.04,0:03:42.56,jd,,0,0,0,,angin dan guntur tiba-tiba bangkit,
+Dialogue: 0,0:03:43.04,0:03:44.92,jd,,0,0,0,,gelap tanpa siang,
+Dialogue: 0,0:03:45.08,0:03:46.68,jd,,0,0,0,,lilin menyinari sembilan kegelapan.
+Dialogue: 0,0:03:47.56,0:03:50.04,jd,,0,0,0,,Fenomena aneh saat Jurang Kematian terbuka
+Dialogue: 0,0:03:50.04,0:03:52.44,jd,,0,0,0,,adalah pertanda kemunculan Naga Lilin.
+Dialogue: 0,0:03:54.72,0:03:55.88,jd,,0,0,0,,Benar.
+Dialogue: 0,0:03:55.88,0:04:00.76,jd,,0,0,0,,Pergerakan angin dan pasir di tempat ini sangat berbeda dengan luar,
+Dialogue: 0,0:04:01.28,0:04:03.28,jd,,0,0,0,,sesuai dengan jalan kematian,
+Dialogue: 0,0:04:03.28,0:04:06.48,jd,,0,0,0,,terlihat kekuatan Jurang Kematian masih tersisa.
+Dialogue: 0,0:04:06.88,0:04:09.24,jd,,0,0,0,,Saat berbagai fenomena aneh berkumpul,
+Dialogue: 0,0:04:09.44,0:04:10.84,jd,,0,0,0,,siang dan malam saling berganti,
+Dialogue: 0,0:04:13.64,0:04:15.48,jd,,0,0,0,,dengan meminjam kekuatan Jurang Kematian di tempat ini,
+Dialogue: 0,0:04:15.48,0:04:18.88,jd,,0,0,0,,dan menggunakan kekuatan dua roh peliharaan dalam Kuali Penakluk Naga sebagai perantara,
+Dialogue: 0,0:04:19.08,0:04:21.56,jd,,0,0,0,,pasti bisa menemukan lokasi Naga Lilin.
+Dialogue: 0,0:04:39.12,0:04:40.36,jd,,0,0,0,,Penderma Zhang.
+Dialogue: 0,0:04:45.44,0:04:47.24,jd,,0,0,0,,Tubuh menerima metode hati,
+Dialogue: 0,0:04:47.64,0:04:49.32,jd,,0,0,0,,empat pandangan sebagai cermin,
+Dialogue: 0,0:04:49.76,0:04:51.44,jd,,0,0,0,,menerangi dan menghancurkan khayalan tanpa pencerahan,
+Dialogue: 0,0:04:51.76,0:04:53.88,jd,,0,0,0,,baru ada kebebasan yang tenang.
+Dialogue: 0,0:04:54.24,0:04:57.08,jd,,0,0,0,,Bisa melihat langit, bumi, dan semua makhluk.
+Dialogue: 0,0:04:59.32,0:05:00.36,jd,,0,0,0,,Langkah terbatas,
+Dialogue: 0,0:05:00.76,0:05:02.12,jd,,0,0,0,,maka kokohkan tumit,
+Dialogue: 0,0:05:02.44,0:05:03.52,jd,,0,0,0,,berdiri di langit tinggi,
+Dialogue: 0,0:05:03.88,0:05:05.32,jd,,0,0,0,,lebih baik jaga hati tetap tenang.
+Dialogue: 0,0:05:05.68,0:05:07.08,jd,,0,0,0,,Putuskan semua ketakutan,
+Dialogue: 0,0:05:07.08,0:05:08.12,jd,,0,0,0,,hunus pedang pahami jalan sejati.
+Dialogue: 0,0:05:31.12,0:05:32.28,jd,,0,0,0,,Ajaran Dao penuh kemunafikan.
+Dialogue: 0,0:05:32.56,0:05:33.84,jd,,0,0,0,,Ajaran Buddha tak lebih dari ilusi.
+Dialogue: 0,0:05:33.92,0:05:36.16,jd,,0,0,0,,Kultivasi pada dasarnya adalah mengintip jalan langit,
+Dialogue: 0,0:05:36.16,0:05:37.28,jd,,0,0,0,,merampas penciptaan,
+Dialogue: 0,0:05:37.48,0:05:38.96,jd,,0,0,0,,membuktikan dao dengan kekuatan,
+Dialogue: 0,0:05:39.44,0:05:40.96,jd,,0,0,0,,api iblis membakar langit,
+Dialogue: 0,0:05:41.08,0:05:42.84,jd,,0,0,0,,barulah dao agung.
+Dialogue: 0,0:05:45.48,0:05:46.56,jd,,0,0,0,,Jangan panik.
+Dialogue: 0,0:05:47.08,0:05:49.48,jd,,0,0,0,,Perkuat Formasi Penakluk Iblis Vajra.
+Dialogue: 0,0:06:03.08,0:06:03.68,jd,,0,0,0,,Buruk.
+Dialogue: 0,0:06:04.08,0:06:05.92,jd,,0,0,0,,Penderma Zhang kehilangan kendali hati dan pikiran.
+Dialogue: 0,0:06:19.68,0:06:21.12,jd,,0,0,0,,Menjaga inti, pegang kesatuan,
+Dialogue: 0,0:06:21.24,0:06:23.16,jd,,0,0,0,,rasakan sifat diri.
+Dialogue: 0,0:06:38.64,0:06:40.68,jd,,0,0,0,,Pedang iblis membelah langit,
+Dialogue: 0,0:06:40.96,0:06:42.48,jd,,0,0,0,,Dao mengikuti alam,
+Dialogue: 0,0:06:43.12,0:06:45.28,jd,,0,0,0,,semua fenomena kosong.
+Dialogue: 0,0:07:10.76,0:07:12.88,jd,,0,0,0,,Ajaran Buddha, Tao, Iblis, dan kebenaran saling bertarung tak henti-hentinya.
+Dialogue: 0,0:07:13.08,0:07:14.76,jd,,0,0,0,,Tubuh manusia biasa mana bisa menahannya?
+Dialogue: 0,0:07:32.88,0:07:33.92,jd,,0,0,0,,Ini...
+Dialogue: 0,0:07:34.96,0:07:36.72,jd,,0,0,0,,Kitab Langit jilid keempat.
+Dialogue: 0,0:07:37.56,0:07:41.24,jd,,0,0,0,,Kitab Langit ternyata muncul di tempat suci agama Buddha kami.
+Dialogue: 0,0:07:47.76,0:07:49.48,jd,,0,0,0,,Kait ketidakkekalan,
+Dialogue: 0,0:07:49.64,0:07:51.48,jd,,0,0,0,,tak ada yang bisa menghalangi.
+Dialogue: 0,0:07:52.08,0:07:53.92,jd,,0,0,0,,Orang hidup jangan ganggu,
+Dialogue: 0,0:07:54.52,0:07:56.72,jd,,0,0,0,,orang mati sulit lolos.
+Dialogue: 0,0:07:57.36,0:07:59.88,jd,,0,0,0,,Saat waktunya tiba, langit dan bumi semua memberi kekuatan.
+Dialogue: 0,0:08:00.08,0:08:03.88,jd,,0,0,0,,Kali ini memang Aliran Suci kami yang akan bangkit.
+Dialogue: 0,0:08:20.36,0:08:21.72,jd,,0,0,0,,Kekuatan agung langit dan bumi,
+Dialogue: 0,0:08:21.72,0:08:23.48,jd,,0,0,0,,bunuh dewa, hancurkan suci.
+Dialogue: 0,0:08:24.04,0:08:25.72,jd,,0,0,0,,Aku percaya pada yang kulakukan,
+Dialogue: 0,0:08:25.72,0:08:27.88,jd,,0,0,0,,tak ada serangan yang tak terkalahkan.
+Dialogue: 0,0:08:33.84,0:08:36.64,jd,,0,0,0,,Kekuatan Kuali Penakluk Naga lebih hebat dari sebelumnya.
+Dialogue: 0,0:08:41.84,0:08:43.08,jd,,0,0,0,,Kui Niu,
+Dialogue: 0,0:08:43.08,0:08:44.32,jd,,0,0,0,,Huang Niao,
+Dialogue: 0,0:08:44.68,0:08:46.44,jd,,0,0,0,,ternyata begitu.
+Dialogue: 0,0:08:46.88,0:08:49.28,jd,,0,0,0,,Hanya berdiri di sini saja sudah merasa jiwa dan roh bergetar.
+Dialogue: 0,0:08:49.56,0:08:51.28,jd,,0,0,0,,Jika sudah mencapai kesempurnaan,
+Dialogue: 0,0:08:51.64,0:08:52.76,jd,,0,0,0,,mungkin akan lebih parah.
+Dialogue: 0,0:08:52.96,0:08:54.68,jd,,0,0,0,,Gemetar dan berkilau,
+Dialogue: 0,0:08:54.68,0:08:56.28,jd,,0,0,0,,berjalan tanpa pilih putih.
+Dialogue: 0,0:08:56.64,0:08:58.68,jd,,0,0,0,,Mengikuti arah biduk,
+Dialogue: 0,0:08:59.12,0:09:01.52,jd,,0,0,0,,keluar bersama dewa.
+Dialogue: 0,0:09:15.44,0:09:17.44,jd,,0,0,0,,Bagaimana sebenarnya caranya menemukan Naga Lilin?
+Dialogue: 0,0:09:17.64,0:09:19.44,jd,,0,0,0,,Yang mau, silakan menggigit umpan.
+Dialogue: 0,0:09:19.44,0:09:19.84,jd,,0,0,0,,Apa?
+Dialogue: 0,0:09:37.24,0:09:40.08,jd,,0,0,0,,Buddha memintaku melepaskan segalanya.
+Dialogue: 0,0:09:42.68,0:09:45.64,jd,,0,0,0,,Tao memintaku menuruti takdir langit.
+Dialogue: 0,0:09:47.28,0:09:50.28,jd,,0,0,0,,Iblis memintaku bertindak sesuai sifat.
+Dialogue: 0,0:09:52.88,0:09:55.04,jd,,0,0,0,,Di dunia ini, semua metode berbeda jalan,
+Dialogue: 0,0:09:55.88,0:09:57.48,jd,,0,0,0,,semuanya bukan jalanku.
+Dialogue: 0,0:10:06.76,0:10:08.28,jd,,0,0,0,,Yang telah kulalui,
+Dialogue: 0,0:10:09.28,0:10:10.92,jd,,0,0,0,,itulah jalanku.
+Dialogue: 0,0:10:12.68,0:10:15.56,jd,,0,0,0,,Hari ini dengan tubuh daging dan darahku,
+Dialogue: 0,0:10:17.72,0:10:19.16,jd,,0,0,0,,tidak kultivasi Buddha,
+Dialogue: 0,0:10:19.72,0:10:21.08,jd,,0,0,0,,tidak menyembah dewa,
+Dialogue: 0,0:10:21.36,0:10:22.52,jd,,0,0,0,,tidak masuk iblis.
+Dialogue: 0,0:10:24.48,0:10:26.68,jd,,0,0,0,,Hanya menjadi
+Dialogue: 0,0:10:27.28,0:10:29.24,jd,,0,0,0,,diriku.
+Dialogue: 0,0:10:30.24,0:10:45.24,jd,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:11.16,0:11:12.08,jd,,0,0,0,,Ada apa?
+Dialogue: 0,0:11:12.32,0:11:13.36,jd,,0,0,0,,Apa yang terjadi?
+Dialogue: 0,0:11:24.16,0:11:25.23,jd,,0,0,0,,Ini...
+Dialogue: 0,0:11:45.78,0:11:47.09,jd,,0,0,0,,Apa ini?
+Dialogue: 0,0:11:47.32,0:11:48.88,jd,,0,0,0,,Jangan-jangan ini larangan yang ditinggalkan orang dulu?
+Dialogue: 0,0:11:49.24,0:11:52.96,jd,,0,0,0,,Entah siapa yang meninggalkan karya misterius seperti ini.
+Dialogue: 0,0:12:01.08,0:12:02.88,jd,,0,0,0,,Siapa pun itu,
+Dialogue: 0,0:12:03.12,0:12:04.88,jd,,0,0,0,,jangan harap bisa menghalangiku.
+Dialogue: 0,0:12:14.08,0:12:15.72,jd,,0,0,0,,Sembilan kegelapan yang misterius.
+Dialogue: 0,0:12:15.72,0:12:17.08,jd,,0,0,0,,Langit dan bumi terbuka.
+Dialogue: 0,0:12:17.48,0:12:18.68,jd,,0,0,0,,Makhluk hidup sebagai perahu.
+Dialogue: 0,0:12:18.68,0:12:19.92,jd,,0,0,0,,Kehendak dewa sebagai dayung.
+Dialogue: 0,0:12:20.28,0:12:21.32,jd,,0,0,0,,Lima elemen dan empat lambang.
+Dialogue: 0,0:12:21.32,0:12:22.52,jd,,0,0,0,,Berenang melawan arus mengikutinya.
+Dialogue: 0,0:12:22.84,0:12:24.32,jd,,0,0,0,,Obsesi masuk ke sungai.
+Dialogue: 0,0:12:24.36,0:12:26.04,jd,,0,0,0,,Sembilan puluh sembilan tanpa kembali.
+Dialogue: 0,0:12:27.04,0:12:42.04,jd,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:52.56,0:12:55.16,jd,,0,0,0,,Amitabha.
+Dialogue: 0,0:12:58.28,0:12:59.52,jd,,0,0,0,,Penderma Zhang sudah baik-baik saja.
+Dialogue: 0,0:13:00.04,0:13:01.04,jd,,0,0,0,,Bagus sekali.
+Dialogue: 0,0:13:15.08,0:13:16.84,jd,,0,0,0,,Siklus reinkarnasi berulang.
+Dialogue: 0,0:13:16.84,0:13:18.72,jd,,0,0,0,,Malapetaka menggenggam hati.
+Dialogue: 0,0:13:19.04,0:13:21.04,jd,,0,0,0,,Cahaya merah menembus matahari.
+Dialogue: 0,0:13:24.76,0:13:26.44,jd,,0,0,0,,Saatnya telah tiba.
+Dialogue: 0,0:13:27.44,0:13:42.44,jd,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:13:53.08,0:13:55.04,jd,,0,0,0,,Bintang biduk menunjuk ke timur.
+Dialogue: 0,0:13:55.04,0:13:56.88,jd,,0,0,0,,Bintang Ziwei memancarkan cahaya.
+Dialogue: 0,0:13:57.64,0:14:00.08,jd,,0,0,0,,Lahir menanggung malapetaka.
+Dialogue: 0,0:14:04.64,0:14:05.92,jd,,0,0,0,,Apa yang terjadi?
+Dialogue: 0,0:14:08.32,0:14:09.24,jd,,0,0,0,,Apa?
+Dialogue: 0,0:14:11.04,0:14:12.04,jd,,0,0,0,,Jangan-jangan...
+Dialogue: 0,0:14:12.84,0:14:14.48,jd,,0,0,0,,Seluruh kultivasinya.
+Dialogue: 0,0:14:14.48,0:14:16.08,jd,,0,0,0,,Merampas penciptaan langit dan bumi.
+Dialogue: 0,0:14:16.88,0:14:19.76,jd,,0,0,0,,Bahkan memicu hukum langit dan bencana petir.
