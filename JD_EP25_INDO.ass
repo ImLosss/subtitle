@@ -27,7 +27,7 @@ Style: tomb,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:29.16,0:00:29.74,jd,,0,0,0,,Ini...
-Dialogue: 0,0:00:30.32,0:00:33.96,jd,,0,0,0,,Apakah ini petir penghukuman legendaris?
+Dialogue: 0,0:00:30.32,0:00:33.96,jd,,0,0,0,,Apakah ini hukum petir legendaris?
 Dialogue: 0,0:00:35.60,0:00:36.96,jd,,0,0,0,,Begitu dahsyat...
 Dialogue: 0,0:00:37.32,0:00:39.48,jd,,0,0,0,,Aku khawatir akan membahayakan sekitarnya.
 Dialogue: 0,0:00:42.16,0:00:44.60,jd,,0,0,0,,Dia adalah penerus Adik Seperguruan Puzhi,
@@ -46,10 +46,10 @@ Dialogue: 0,0:01:45.48,0:01:46.60,jd,,0,0,0,,Penderma Zhang,
 Dialogue: 0,0:01:47.12,0:01:47.96,jd,,0,0,0,,kau...
 Dialogue: 0,0:01:47.96,0:01:48.72,jd,,0,0,0,,Adik Zhang,
 Dialogue: 0,0:01:49.00,0:01:49.28,jd,,0,0,0,,kau...
-Dialogue: 0,0:01:49.48,0:01:50.16,jd,,0,0,0,,tidak apa-apa.
+Dialogue: 0,0:01:49.48,0:01:50.16,jd,,0,0,0,,tidak apa-apa?
 Dialogue: 0,0:01:50.52,0:01:52.16,jd,,0,0,0,,Terima kasih atas kebaikan para Biksu.
 Dialogue: 0,0:01:52.16,0:01:52.92,jd,,0,0,0,,Penderma Zhang,
-Dialogue: 0,0:01:53.36,0:01:54.96,jd,,0,0,0,,malapetaka langit tidak boleh dianggap remeh.
+Dialogue: 0,0:01:53.36,0:01:54.96,jd,,0,0,0,,petaka langit tidak boleh dianggap remeh.
 Dialogue: 0,0:01:56.08,0:01:57.28,jd,,0,0,0,,Langit tidak berperasaan,
 Dialogue: 0,0:01:58.56,0:02:00.80,jd,,0,0,0,,tidak ada satu pun di dunia ini yang bisa diandalkan.
 Dialogue: 0,0:02:01.96,0:02:03.40,jd,,0,0,0,,Dan yang bisa diandalkan,
@@ -100,7 +100,7 @@ Dialogue: 0,0:07:20.56,0:07:21.92,jd,,0,0,0,,Aku merasa gelisah,
 Dialogue: 0,0:07:22.76,0:07:24.20,jd,,0,0,0,,seperti ada sesuatu yang terjadi.
 Dialogue: 0,0:07:24.88,0:07:26.08,jd,,0,0,0,,Mungkin karena lukamu baru sembuh,
 Dialogue: 0,0:07:26.28,0:07:27.52,jd,,0,0,0,,jadi perasaanmu tidak tenang.
-Dialogue: 0,0:07:49.40,0:07:51.92,jd,,0,0,0,,Malapetaka petir langit yang hebat,
+Dialogue: 0,0:07:49.40,0:07:51.92,jd,,0,0,0,,Petaka petir langit yang hebat,
 Dialogue: 0,0:07:52.76,0:07:55.28,jd,,0,0,0,,menghancurkan seluruh kultivasiku.
 Dialogue: 0,0:07:57.72,0:07:59.52,jd,,0,0,0,,Mau mengambil nyawaku?
 Dialogue: 0,0:08:00.16,0:08:01.12,jd,,0,0,0,,Kalau begitu datanglah!
@@ -108,7 +108,7 @@ Dialogue: 0,0:08:01.76,0:08:02.56,jd,,0,0,0,,Adik Zhang.
 Dialogue: 0,0:08:04.20,0:08:07.56,jd,,0,0,0,,Sekarang dia sudah tidak punya setitik pun kekuatan, hanya tubuh manusia biasa.
 Dialogue: 0,0:08:08.08,0:08:10.36,jd,,0,0,0,,Bagaimana bisa menahan kekuatan langit yang tak terbatas?
 Dialogue: 0,0:08:15.92,0:08:16.72,jd,,0,0,0,,Penderma Zhang.
-Dialogue: 0,0:08:16.92,0:08:18.72,jd,,0,0,0,,Malapetaka langit yang dahsyat bukanlah sesuatu yang bisa dilawan manusia.
+Dialogue: 0,0:08:16.92,0:08:18.72,jd,,0,0,0,,Petaka langit yang dahsyat bukanlah sesuatu yang bisa dilawan manusia.
 Dialogue: 0,0:08:18.96,0:08:19.76,jd,,0,0,0,,Cepat lari!
 Dialogue: 0,0:08:21.76,0:08:22.72,jd,,0,0,0,,Lari?
 Dialogue: 0,0:08:24.08,0:08:26.20,jd,,0,0,0,,Setengah hidupku aku selalu melarikan diri.
@@ -123,14 +123,14 @@ Dialogue: 0,0:09:33.56,0:09:35.68,jd,,0,0,0,,Guncang jiwa dan gentarkan roh.
 Dialogue: 0,0:10:32.32,0:10:33.56,jd,,0,0,0,,Enam Jia sembilan bab,
 Dialogue: 0,0:10:33.68,0:10:34.88,jd,,0,0,0,,Langit bulat bumi persegi,
 Dialogue: 0,0:10:35.28,0:10:36.40,jd,,0,0,0,,Taiyi sebagai guru,
-Dialogue: 0,0:10:36.68,0:10:37.68,jd,,0,0,0,,Matahari dan bulan sebagai cahaya.
-Dialogue: 0,0:10:38.20,0:10:38.56,jd,,0,0,0,,Tarik!
-Dialogue: 0,0:10:39.56,0:10:54.56,jd,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:10:36.58,0:10:37.68,jd,,0,0,0,,Matahari dan bulan sebagai cahaya.
+Dialogue: 0,0:10:38.20,0:10:38.87,jd,,0,0,0,,Tarik!
+Dialogue: 0,0:10:39.56,0:10:54.56,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
 Dialogue: 0,0:11:36.48,0:11:37.60,jd,,0,0,0,,Mana Penderma Zhang?
 Dialogue: 0,0:11:40.80,0:11:41.96,jd,,0,0,0,,Jangan-jangan dia...
 Dialogue: 0,0:11:48.08,0:11:51.08,jd,,0,0,0,,Sembilan lapis langit tinggi angin kencang berhenti.
 Dialogue: 0,0:11:51.60,0:11:54.48,jd,,0,0,0,,Delapan meridian bumi menyimpan energi naga terpendam.
-Dialogue: 0,0:11:56.60,0:12:00.48,jd,,0,0,0,,Daging dan tulang manusia biasa meski lahir di antara langit dan bumi.
+Dialogue: 0,0:11:56.60,0:12:00.48,jd,,0,0,0,,Daging dan tulang manusia biasa, meski lahir di antara langit dan bumi.
 Dialogue: 0,0:12:01.20,0:12:03.68,jd,,0,0,0,,Sesungguhnya semuanya mengikuti hukum langit.
 Dialogue: 0,0:12:04.36,0:12:06.00,jd,,0,0,0,,Jalan langit begitu jelas.
 Dialogue: 0,0:12:06.00,0:12:09.08,jd,,0,0,0,,Kau hendak mengubahnya dengan kekuatan sendiri.
@@ -139,14 +139,15 @@ Dialogue: 0,0:12:10.85,0:12:12.40,jd,,0,0,0,,Tidak bisakah?
 Dialogue: 0,0:12:12.60,0:12:13.12,jd,,0,0,0,,Kakek.
 Dialogue: 0,0:12:13.36,0:12:14.32,jd,,0,0,0,,Jangan berlagak spiritual terus.
 Dialogue: 0,0:12:14.72,0:12:15.48,jd,,0,0,0,,Lihatlah ramalan ini.
+Dialogue: 0,0:12:19.43,0:12:20.43,jd,,0,0,0,,Apa?!
 Dialogue: 0,0:12:27.88,0:12:29.32,jd,,0,0,0,,Bagaimana bisa begini?
 Dialogue: 0,0:12:30.16,0:12:30.92,jd,,0,0,0,,Jangan-jangan...
 Dialogue: 0,0:12:40.88,0:12:44.16,jd,,0,0,0,,Kenapa fenomena langit dan bumi masih belum berakhir?
 Dialogue: 0,0:12:47.92,0:12:48.80,jd,,0,0,0,,Mungkin...
 Dialogue: 0,0:12:49.40,0:12:51.80,jd,,0,0,0,,ada misteri lain di tempat lain.
-Dialogue: 0,0:12:52.80,0:13:07.80,jd,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:52.80,0:13:07.80,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
 Dialogue: 0,0:13:23.48,0:13:23.76,jd,,0,0,0,,Ini...
-Dialogue: 0,0:13:24.68,0:13:25.20,jd,,0,0,0,,Tidak baik.
+Dialogue: 0,0:13:24.68,0:13:25.20,jd,,0,0,0,,Gawat.
 Dialogue: 0,0:13:28.00,0:13:32.56,jd,,0,0,0,,Amitabha.
-Dialogue: 0,0:13:33.56,0:13:48.56,jd,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
-Dialogue: 0,0:14:01.92,0:14:03.60,jd,,0,0,0,,Malapetaka langit.
+Dialogue: 0,0:13:33.56,0:13:48.56,jd,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:14:01.92,0:14:03.60,jd,,0,0,0,,Petaka langit.
