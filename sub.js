@@ -78,7 +78,7 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       // scale=-1:1080
       '-vf', "subtitles=JD_EP21_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=25:fontcolor=white@0.5:x=15:y=15",
       '-c:v', 'libx264',
-      '-crf', '30',
+      '-crf', '25',
       // '-b:v', '2M', // Bitrate target rata-rata
       '-maxrate', '4M', // Batasi bitrate maksimum hingga 5 Mbps
       '-bufsize', '8M', // Buffer size dua kali maksimum bitrate
