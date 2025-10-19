@@ -1,0 +1,263 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1916
+PlayResY: 818
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Calibri,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:52.64,0:02:56.24,komen,,0,0,0,,{\pos(183,563)\fad(500,250)}[Aula Jinyun\NSekte Lanyue]
+Dialogue: 0,0:03:36.61,0:03:42.00,komen,,0,0,0,,{\pos(1675,600)\fad(500,250)}[Jalan rahasia menuju Aula Jinyun]
+Dialogue: 0,0:04:22.27,0:04:27.66,komen,,0,0,0,,{\pos(1741,532)\fad(500,250)}[Panggung Aula Jinyun]
+Dialogue: 0,0:04:49.88,0:04:54.20,komen,,0,0,0,,{\pos(1682,530)\fad(500,250)}[Roh dendam Murid Aula Jinyun]
+Dialogue: 0,0:05:04.44,0:05:09.64,komen,,0,0,0,,{\pos(181,473)\fad(500,250)}[Panggilan Roh Anak]
+Dialogue: 0,0:06:43.89,0:06:48.11,komen,,0,0,0,,{\pos(1528,553)\fad(500,250)}[Yun Yi\NMantan Pemimpin Sekte Jinlan]
+Dialogue: 0,0:07:15.10,0:07:17.72,komen,,0,0,0,,{\pos(322,551)\fad(500,250)}[Lin Feng\NMurid Utama Aula Jinyun]
+Dialogue: 0,0:08:46.59,0:08:49.21,komen,,0,0,0,,{\pos(317,538)\fad(500,250)}[Sima Jue\NTetua Aula Jinyun]
+Dialogue: 0,0:12:23.94,0:12:29.48,komen,,0,0,0,,{\pos(340,637)\fad(500,250)}[Sima Jue\NPemimpin Sekte Lanyue\NTahap Akhir Nascent Soul]
+Dialogue: 0,0:00:00.00,0:00:25.00,ec,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:01:51.76,0:01:52.76,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:01:51.96,0:01:52.76,ec,,0,0,0,,Sima Jue
+Dialogue: 0,0:01:53.40,0:01:54.88,ec,,0,0,0,,Demi awet muda abadi,
+Dialogue: 0,0:01:55.36,0:01:56.72,ec,,0,0,0,,kau menyedot kehidupan murid-murid.
+Dialogue: 0,0:01:57.52,0:01:58.88,ec,,0,0,0,,Kilatan Cahaya Bayangan Terbang.
+Dialogue: 0,0:01:59.43,0:02:01.05,ec,,0,0,0,,Kesedihan Agung dan Ribuan Harapan.
+Dialogue: 0,0:02:10.20,0:02:11.04,ec,,0,0,0,,Beristirahatlah dengan tenang.
+Dialogue: 0,0:02:11.26,0:02:12.62,ec,,0,0,0,,Adik seperguruan.
+Dialogue: 0,0:02:14.16,0:02:15.36,ec,,0,0,0,,Xi He.
+Dialogue: 0,0:02:15.72,0:02:16.96,ec,,0,0,0,,Karena sudah datang,
+Dialogue: 0,0:02:17.60,0:02:19.84,ec,,0,0,0,,jangan pernah pergi lagi
+Dialogue: 0,0:02:28.92,0:02:29.68,ec,,0,0,0,,Tuan.
+Dialogue: 0,0:02:30.28,0:02:31.24,ec,,0,0,0,,Lu Qichao ini,
+Dialogue: 0,0:02:31.92,0:02:33.44,ec,,0,0,0,,kekuatannya ternyata sangat mendalam.
+Dialogue: 0,0:02:34.76,0:02:35.80,ec,,0,0,0,,Kembali ke Alam Rahasia Roh Hampa,
+Dialogue: 0,0:02:36.48,0:02:37.76,ec,,0,0,0,,aku perlu menekan bekas luka petir dulu
+Dialogue: 0,0:02:38.84,0:02:40.12,ec,,0,0,0,,Xi He itu,
+Dialogue: 0,0:02:40.60,0:02:42.68,ec,,0,0,0,,teknik rahasia panjang umur Sima Jue,
+Dialogue: 0,0:02:43.28,0:02:44.44,ec,,0,0,0,,cukup ditangani olehnya.
+Dialogue: 0,0:02:46.44,0:02:47.84,ec,,0,0,0,,Membunuh rekan seperguruan,
+Dialogue: 0,0:02:48.48,0:02:49.96,ec,,0,0,0,,menggunakan mayat untuk memurnikan aura tercemar,
+Dialogue: 0,0:02:50.40,0:02:51.76,ec,,0,0,0,,mengurung jiwa-jiwa.
+Dialogue: 0,0:02:52.52,0:02:55.40,ec,,0,0,0,,Leluhur Sekte Jinlan dari generasi ke generasi selalu menjunjung kejujuran dan kebenaran.
+Dialogue: 0,0:02:56.28,0:02:57.60,ec,,0,0,0,,Sima Jue...
+Dialogue: 0,0:02:58.20,0:03:00.08,ec,,0,0,0,,dasar binatang yang menodai nama sekte.
+Dialogue: 0,0:03:01.04,0:03:02.72,ec,,0,0,0,,Aku takkan membiarkanmu lolos.
+Dialogue: 0,0:03:15.00,0:03:16.88,ec,,0,0,0,,Mengapa mereka melayang ke Aula Jinyun?
+Dialogue: 0,0:03:19.16,0:03:20.48,ec,,0,0,0,,Seluruh sekte ini,
+Dialogue: 0,0:03:20.96,0:03:22.92,ec,,0,0,0,,hanya Aula Jinyun yang memiliki formasi penghalang.
+Dialogue: 0,0:03:23.56,0:03:24.04,ec,,0,0,0,,Kakak.
+Dialogue: 0,0:03:24.48,0:03:26.32,ec,,0,0,0,,Barusan menghancurkan ruang rahasia Sima Jue,
+Dialogue: 0,0:03:26.56,0:03:27.76,ec,,0,0,0,,dia sudah menyadarinya.
+Dialogue: 0,0:03:28.24,0:03:29.72,ec,,0,0,0,,Jika kita terus mendalami...
+Dialogue: 0,0:03:29.76,0:03:30.44,ec,,0,0,0,,Aku tahu.
+Dialogue: 0,0:03:30.88,0:03:32.96,ec,,0,0,0,,Tapi aku khawatir jiwa-jiwa yang dikurung Sima Jue,
+Dialogue: 0,0:03:33.36,0:03:34.12,ec,,0,0,0,,bukan cuma adik seperguruan.
+Dialogue: 0,0:03:34.44,0:03:35.92,ec,,0,0,0,,Karena sudah membuatnya waspada,
+Dialogue: 0,0:03:36.44,0:03:37.88,ec,,0,0,0,,mari kita selesaikan dengan cepat.
+Dialogue: 0,0:03:40.60,0:03:41.60,ec,,0,0,0,,Ini adalah...
+Dialogue: 0,0:03:42.12,0:03:43.68,ec,,0,0,0,,jalan rahasia menuju Aula Jinyun.
+Dialogue: 0,0:03:44.24,0:03:45.00,ec,,0,0,0,,Tempat ini,
+Dialogue: 0,0:03:45.52,0:03:47.48,ec,,0,0,0,,aku menemukannya bersama Adik Seperguruan Shanhai.
+Dialogue: 0,0:03:47.88,0:03:49.44,ec,,0,0,0,,Tak disangka kan, Kakak Seperguruan?
+Dialogue: 0,0:03:49.76,0:03:53.07,ec,,0,0,0,,Di gunung belakang ada gua rahasia yang bisa memindahkan secara alami.
+Dialogue: 0,0:03:53.44,0:03:55.48,ec,,0,0,0,,Menurutku bahkan Guru pun tak tahu.
+Dialogue: 0,0:03:56.68,0:03:57.48,ec,,0,0,0,,Shanhai...
+Dialogue: 0,0:04:39.84,0:04:40.44,ec,,0,0,0,,Ini...
+Dialogue: 0,0:04:41.28,0:04:42.32,ec,,0,0,0,,Sandiwara Kendali Jiwa.
+Dialogue: 0,0:04:43.44,0:04:45.40,ec,,0,0,0,,Apa Sima Jue ini sudah gila total?
+Dialogue: 0,0:04:50.88,0:04:51.56,ec,,0,0,0,,Adik seperguruan.
+Dialogue: 0,0:04:51.96,0:04:52.68,ec,,0,0,0,,Adik seperguruan.
+Dialogue: 0,0:04:53.64,0:04:54.40,ec,,0,0,0,,Kalian...
+Dialogue: 0,0:05:10.12,0:05:12.24,ec,,0,0,0,,{\pos(954,674)}- Ini\N- Pengantin Baru.
+Dialogue: 0,0:05:12.28,0:05:15.08,ec,,0,0,0,,Di balik tudung, air mata mengalir.
+Dialogue: 0,0:05:15.20,0:05:17.28,ec,,0,0,0,,Pengantin Baru.
+Dialogue: 0,0:05:17.32,0:05:19.92,ec,,0,0,0,,Dijahit dengan benang, melihat mempelai pria.
+Dialogue: 0,0:05:19.96,0:05:22.32,ec,,0,0,0,,Pengantin Baru.
+Dialogue: 0,0:05:22.36,0:05:24.80,ec,,0,0,0,,Palu dan paku denting-denting.
+Dialogue: 0,0:05:24.80,0:05:26.24,ec,,0,0,0,,Pengantin Baru.
+Dialogue: 0,0:05:26.24,0:05:27.64,ec,,0,0,0,,{\pos(962,669)}- Pemimpin Sekte Jinlan menikahkan putri,\N- Pengantin Baru.
+Dialogue: 0,0:05:28.10,0:05:30.04,ec,,0,0,0,,{\pos(970,674)}- Rakyat Biasa mohon minggir!\N- Kotak persegi sebagai kamar pengantin.
+Dialogue: 0,0:05:30.24,0:05:32.56,ec,,0,0,0,,{\pos(956,675)}- Ilusi ini...\N- Pengantin Baru.
+Dialogue: 0,0:05:32.92,0:05:35.16,ec,,0,0,0,,{\pos(946,661)}- Sukacita dan duka bersama.\N- Di balik tudung, air mata mengalir.
+Dialogue: 0,0:05:35.36,0:05:37.88,ec,,0,0,0,,Pengantin Baru,
+Dialogue: 0,0:05:38.88,0:05:53.88,ec,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:06:10.60,0:06:13.32,ec,,0,0,0,,Waktu baik telah tiba.
+Dialogue: 0,0:06:15.60,0:06:17.28,ec,,0,0,0,,Aku ingin lihat apa yang akan kau lakukan.
+Dialogue: 0,0:06:24.32,0:06:25.40,ec,,0,0,0,,Hati Linglong bangkit.
+Dialogue: 0,0:06:26.16,0:06:27.24,ec,,0,0,0,,Awan Mengalir Menghancurkan Kegelapan.
+Dialogue: 0,0:06:35.72,0:06:36.64,ec,,0,0,0,,Aula Jinyun.
+Dialogue: 0,0:06:40.92,0:06:41.64,ec,,0,0,0,,Itu...
+Dialogue: 0,0:06:42.64,0:06:43.32,ec,,0,0,0,,Ayah.
+Dialogue: 0,0:06:59.92,0:07:00.44,ec,,0,0,0,,Guru.
+Dialogue: 0,0:07:02.32,0:07:02.92,ec,,0,0,0,,Lin Feng.
+Dialogue: 0,0:07:04.04,0:07:04.72,ec,,0,0,0,,Dia ingin...
+Dialogue: 0,0:07:12.48,0:07:13.08,ec,,0,0,0,,Guru.
+Dialogue: 0,0:07:13.52,0:07:14.56,ec,,0,0,0,,Hari ini adik seperguruan menikah.
+Dialogue: 0,0:07:15.40,0:07:16.08,ec,,0,0,0,,Luka lamamu...
+Dialogue: 0,0:07:16.08,0:07:17.32,ec,,0,0,0,,Belum pulih juga?
+Dialogue: 0,0:07:17.59,0:07:18.53,ec,,0,0,0,,Ah.
+Dialogue: 0,0:07:19.35,0:07:20.96,ec,,0,0,0,,Pernikahan Wangshu,
+Dialogue: 0,0:07:22.92,0:07:24.08,ec,,0,0,0,,Aku sebagai ayahnya...
+Dialogue: 0,0:07:25.20,0:07:26.40,ec,,0,0,0,,Sungguh memalukan.
+Dialogue: 0,0:07:27.80,0:07:28.88,ec,,0,0,0,,Sepertinya...
+Dialogue: 0,0:07:29.16,0:07:30.16,ec,,0,0,0,,tidak bisa hadir.
+Dialogue: 0,0:07:30.96,0:07:32.60,ec,,0,0,0,,Kau adalah kakak seperguruan Wangshu.
+Dialogue: 0,0:07:33.24,0:07:34.40,ec,,0,0,0,,Pergilah lebih awal.
+Dialogue: 0,0:07:34.76,0:07:36.12,ec,,0,0,0,,Bicarakan hal baik untukku.
+Dialogue: 0,0:07:36.84,0:07:37.76,ec,,0,0,0,,Temani adik seperguruanmu pergi.
+Dialogue: 0,0:07:40.36,0:07:40.92,ec,,0,0,0,,Guru.
+Dialogue: 0,0:07:41.60,0:07:43.36,ec,,0,0,0,,Ini Getah Giok yang baru dikirim Aula Qingyu.
+Dialogue: 0,0:07:43.72,0:07:44.48,ec,,0,0,0,,Bisa menstabilkan luka.
+Dialogue: 0,0:07:45.04,0:07:45.72,ec,,0,0,0,,Ambillah.
+Dialogue: 0,0:07:46.68,0:07:47.72,ec,,0,0,0,,Semoga membantu Guru,
+Dialogue: 0,0:07:48.28,0:07:49.16,ec,,0,0,0,,cepat keluar dari pemulihan.
+Dialogue: 0,0:07:50.80,0:07:51.92,ec,,0,0,0,,Kau baik hati.
+Dialogue: 0,0:07:58.28,0:07:59.08,ec,,0,0,0,,Jangan!
+Dialogue: 0,0:08:10.16,0:08:10.96,ec,,0,0,0,,Ini...
+Dialogue: 0,0:08:19.84,0:08:20.12,ec,,0,0,0,,Kau...
+Dialogue: 0,0:08:26.17,0:08:27.09,ec,,0,0,0,,Murid durhaka!
+Dialogue: 0,0:08:27.60,0:08:28.56,ec,,0,0,0,,Mengapa?
+Dialogue: 0,0:08:33.64,0:08:34.16,ec,,0,0,0,,Guru.
+Dialogue: 0,0:08:34.28,0:08:35.76,ec,,0,0,0,,Aku... aku tidak tahu.
+Dialogue: 0,0:08:44.20,0:08:45.00,ec,,0,0,0,,Yun Yi.
+Dialogue: 0,0:08:50.52,0:08:52.12,ec,,0,0,0,,Sima Jue.
+Dialogue: 0,0:08:56.76,0:08:59.96,ec,,0,0,0,,Mengapa ada Aura Tercemar di sini?
+Dialogue: 0,0:09:04.52,0:09:06.44,ec,,0,0,0,,Biar aku lindungi roh-mu dulu.
+Dialogue: 0,0:09:19.64,0:09:21.48,ec,,0,0,0,,Jurus Roh Mengembara Jingyun.
+Dialogue: 0,0:09:26.48,0:09:28.80,ec,,0,0,0,,Rupanya kau yang menyuruh dari belakang.
+Dialogue: 0,0:09:29.40,0:09:30.32,ec,,0,0,0,,Selama bertahun-tahun.
+Dialogue: 0,0:09:30.52,0:09:32.72,ec,,0,0,0,,Aku tahu kau punya niat buruk terhadap posisi pemimpin sekte.
+Dialogue: 0,0:09:33.60,0:09:35.48,ec,,0,0,0,,Tapi tak kusangka kau menghalalkan segala cara.
+Dialogue: 0,0:09:37.24,0:09:38.60,ec,,0,0,0,,Hari ini pernikahan Wangshu.
+Dialogue: 0,0:09:39.28,0:09:40.64,ec,,0,0,0,,Kalian juga kerabat dan temannya.
+Dialogue: 0,0:09:41.04,0:09:42.64,ec,,0,0,0,,Aku beri kalian satu kesempatan.
+Dialogue: 0,0:09:42.88,0:09:44.00,ec,,0,0,0,,Segel sendiri jalur energimu.
+Dialogue: 0,0:09:44.08,0:09:45.44,ec,,0,0,0,,Jelaskan asal usul Aura Tercemar.
+Dialogue: 0,0:09:45.60,0:09:46.80,ec,,0,0,0,,Hukuman seratus tahun.
+Dialogue: 0,0:09:49.00,0:09:50.60,ec,,0,0,0,,Aku bersumpah atas nama pemimpin sekte,
+Dialogue: 0,0:09:51.00,0:09:53.08,ec,,0,0,0,,takkan menghitung kesalahan pemberontakanmu.
+Dialogue: 0,0:09:54.24,0:09:56.48,ec,,0,0,0,,Hanya menyebut kata "pemberontakan".
+Dialogue: 0,0:09:56.80,0:09:58.08,ec,,0,0,0,,Mengurangi yang berat, menonjolkan yang ringan.
+Dialogue: 0,0:09:58.53,0:10:00.16,ec,,0,0,0,,Kira aku akan tertipu?
+Dialogue: 0,0:10:01.04,0:10:01.92,ec,,0,0,0,,Adik seperguruan.
+Dialogue: 0,0:10:02.21,0:10:03.60,ec,,0,0,0,,Yun Yi.
+Dialogue: 0,0:10:03.92,0:10:05.16,ec,,0,0,0,,Demi putrimu,
+Dialogue: 0,0:10:07.28,0:10:09.52,ec,,0,0,0,,kau bisa jadi licik juga.
+Dialogue: 0,0:10:26.21,0:10:27.21,ec,,0,0,0,,Tidak!
+Dialogue: 0,0:10:27.88,0:10:28.36,ec,,0,0,0,,Tidak!
+Dialogue: 0,0:10:36.04,0:10:37.84,ec,,0,0,0,,Adik seperguruan, oh adik seperguruan.
+Dialogue: 0,0:10:39.00,0:10:41.96,ec,,0,0,0,,Akhirnya kau jatuh ke tanganku juga.
+Dialogue: 0,0:10:43.20,0:10:46.52,ec,,0,0,0,,Padahal akulah satu-satunya murid langsung Guru,
+Dialogue: 0,0:10:46.80,0:10:49.92,ec,,0,0,0,,siapa yang mengizinkan bakatmu melebihiku?
+Dialogue: 0,0:10:50.36,0:10:54.92,ec,,0,0,0,,Dan siapa yang mengizinkanmu punya putri dengan bakat lebih tinggi lagi?
+Dialogue: 0,0:10:56.40,0:10:57.80,ec,,0,0,0,,Yun Yi.
+Dialogue: 0,0:10:58.36,0:10:59.76,ec,,0,0,0,,Hahaha.
+Dialogue: 0,0:11:01.40,0:11:03.56,ec,,0,0,0,,Tapi kau akhirnya mati.
+Dialogue: 0,0:11:04.20,0:11:05.88,ec,,0,0,0,,Kemegahanmu sirna.
+Dialogue: 0,0:11:06.24,0:11:08.92,ec,,0,0,0,,Tapi aku justru meraih harapan baru.
+Dialogue: 0,0:11:09.20,0:11:11.08,ec,,0,0,0,,Hahaha.
+Dialogue: 0,0:11:12.04,0:11:13.52,ec,,0,0,0,,Pada akhirnya,
+Dialogue: 0,0:11:14.16,0:11:16.68,ec,,0,0,0,,akulah yang menang.
+Dialogue: 0,0:11:19.60,0:11:20.72,ec,,0,0,0,,Ayah tak perlu khawatir.
+Dialogue: 0,0:11:21.64,0:11:22.52,ec,,0,0,0,,Serahkan saja Wangshu,
+Dialogue: 0,0:11:23.16,0:11:24.52,ec,,0,0,0,,kepadaku dengan tenang.
+Dialogue: 0,0:11:27.04,0:11:31.64,ec,,0,0,0,,Kalian...
+Dialogue: 0,0:11:32.83,0:11:33.92,ec,,0,0,0,,Satu per satu...
+Dialogue: 0,0:11:35.44,0:11:38.08,ec,,0,0,0,,Wangshu.
+Dialogue: 0,0:11:40.60,0:11:43.44,ec,,0,0,0,,Aku di sini.
+Dialogue: 0,0:11:47.68,0:11:49.12,ec,,0,0,0,,Sima Jue.
+Dialogue: 0,0:11:50.12,0:12:05.12,ec,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:12.37,0:12:13.37,ec,,0,0,0,,Ini...
+Dialogue: 0,0:12:24.52,0:12:26.12,ec,,0,0,0,,Peri Xi He.
+Dialogue: 0,0:12:26.36,0:12:27.24,ec,,0,0,0,,Sudah lama menunggu.
+Dialogue: 0,0:12:27.72,0:12:29.16,ec,,0,0,0,,Bagaimana pertunjukan ini?
+Dialogue: 0,0:12:29.76,0:12:31.12,ec,,0,0,0,,Aku tonton setiap hari,
+Dialogue: 0,0:12:31.44,0:12:32.64,ec,,0,0,0,,tak pernah bosan.
+Dialogue: 0,0:12:33.12,0:12:35.08,ec,,0,0,0,,Kau pantas mati.
+Dialogue: 0,0:12:35.64,0:12:36.72,ec,,0,0,0,,Bersemangat sekali.
+Dialogue: 0,0:12:37.64,0:12:39.00,ec,,0,0,0,,Kau kenal Yun Yi?
+Dialogue: 0,0:12:40.16,0:12:42.96,ec,,0,0,0,,Apakah kau murid yang selamat dari garis keturunan Jingyun?
+Dialogue: 0,0:12:45.64,0:12:46.24,ec,,0,0,0,,Bagaimana?
+Dialogue: 0,0:12:46.92,0:12:48.24,ec,,0,0,0,,Jubah pemimpin sekte ini,
+Dialogue: 0,0:12:48.96,0:12:52.48,ec,,0,0,0,,apakah lebih pas kupakai daripada adik seperguruan Yun Yi?
+Dialogue: 0,0:12:54.92,0:12:55.85,ec,,0,0,0,,Jangan...
+Dialogue: 0,0:12:56.60,0:12:57.84,ec,,0,0,0,,Sentuh dia!
+Dialogue: 0,0:13:11.94,0:13:13.67,ec,,0,0,0,,Sima Jue.
+Dialogue: 0,0:13:14.28,0:13:15.88,ec,,0,0,0,,Peri Xi He.
+Dialogue: 0,0:13:17.04,0:13:19.52,ec,,0,0,0,,Kau sangat memuaskanku.
+Dialogue: 0,0:13:20.88,0:13:22.48,ec,,0,0,0,,Serahkan Mutiara Qingshui.
+Dialogue: 0,0:13:22.80,0:13:23.84,ec,,0,0,0,,Masuk sekteku,
+Dialogue: 0,0:13:24.28,0:13:25.68,ec,,0,0,0,,Jadi roh senjataku,
+Dialogue: 0,0:13:25.68,0:13:27.40,ec,,0,0,0,,panggil aku Guru.
+Dialogue: 0,0:13:27.96,0:13:29.20,ec,,0,0,0,,Bagaimana?
+Dialogue: 0,0:13:41.20,0:13:42.00,ec,,0,0,0,,Bangsat!
+Dialogue: 0,0:13:42.92,0:13:44.08,ec,,0,0,0,,Jangan mimpi!
+Dialogue: 0,0:13:48.16,0:13:49.60,ec,,0,0,0,,Api Penempaan Bagaikan Matahari.
+Dialogue: 0,0:13:58.44,0:14:00.32,ec,,0,0,0,,Formasi Sembilan Liku Naga Hijau.
+Dialogue: 0,0:14:00.88,0:14:01.84,ec,,0,0,0,,Tahan dia!
+Dialogue: 0,0:14:08.40,0:14:09.28,ec,,0,0,0,,Peri.
+Dialogue: 0,0:14:09.88,0:14:11.48,ec,,0,0,0,,Bagaimana pelajaran formasi?
+Dialogue: 0,0:14:12.32,0:14:14.28,ec,,0,0,0,,Aku juga bisa mengajarimu.
+Dialogue: 0,0:14:15.60,0:14:16.40,ec,,0,0,0,,Kau tidak layak!
+Dialogue: 0,0:14:21.92,0:14:23.76,ec,,0,0,0,,Ini bukan pilihanmu.
+Dialogue: 0,0:14:24.40,0:14:26.20,ec,,0,0,0,,Setelah kumurnikan jiwamu,
+Dialogue: 0,0:14:26.64,0:14:28.08,ec,,0,0,0,,akan kuajar dengan baik.
+Dialogue: 0,0:14:41.84,0:14:43.20,ec,,0,0,0,,Lukis Emas Bagaikan Langit.
+Dialogue: 0,0:14:56.12,0:14:57.78,ec,,0,0,0,,Sinar Tebing.
+Dialogue: 0,0:14:58.28,0:14:59.64,ec,,0,0,0,,Pisahkan Jurang.
+Dialogue: 0,0:15:21.92,0:15:23.84,ec,,0,0,0,,Hahahaha.
+Dialogue: 0,0:15:24.60,0:15:26.48,ec,,0,0,0,,Lukai aku, lalu apa?
+Dialogue: 0,0:15:32.20,0:15:33.36,ec,,0,0,0,,Bahkan bisa memperbaiki luka.
+Dialogue: 0,0:15:34.32,0:15:35.88,ec,,0,0,0,,Mengapa energi spiritualnya tak terbatas?
+Dialogue: 0,0:15:36.96,0:15:39.44,ec,,0,0,0,,Ilmu Pedang Awan Fajar ini memang misterius.
+Dialogue: 0,0:15:40.60,0:15:42.92,ec,,0,0,0,,Dulu Sekte Jinlan punya Yun Wangshu.
+Dialogue: 0,0:15:43.16,0:15:45.72,ec,,0,0,0,,Sekarang aku bisa punya Xi He.
+Dialogue: 0,0:15:46.58,0:15:47.58,ec,,0,0,0,,Murid.
+Dialogue: 0,0:15:48.04,0:15:49.44,ec,,0,0,0,,Panggil aku Guru!
+Dialogue: 0,0:15:49.68,0:15:51.32,ec,,0,0,0,,Aku tak percaya pemulihanmu tanpa batas.
+Dialogue: 0,0:15:52.12,0:15:52.72,ec,,0,0,0,,Linglong.
+Dialogue: 0,0:15:53.32,0:15:54.56,ec,,0,0,0,,Qingshui Seperti Ombak.
+Dialogue: 0,0:15:54.92,0:15:56.21,ec,,0,0,0,,Tempaan Menjadi Pelangi.
+Dialogue: 0,0:15:56.96,0:15:58.08,ec,,0,0,0,,Pelangi Mendidih Menghancurkan.
+Dialogue: 0,0:16:09.88,0:16:10.72,ec,,0,0,0,,Sima Jue.
+Dialogue: 0,0:16:11.40,0:16:12.48,ec,,0,0,0,,Matilah!
+Dialogue: 0,0:16:12.92,0:16:14.40,ec,,0,0,0,,Bagus.
+Dialogue: 0,0:16:14.96,0:16:16.56,ec,,0,0,0,,Biar gurumu lihat,
+Dialogue: 0,0:16:16.88,0:16:18.80,ec,,0,0,0,,apa lagi jurus yang kau punya.
+Dialogue: 0,0:16:19.80,0:16:34.80,ec,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:17:05.20,0:17:07.04,ec,,0,0,0,,Memang masih generasi muda.
+Dialogue: 0,0:17:07.52,0:17:09.84,ec,,0,0,0,,Bisa menahanku sampai sejauh ini,
+Dialogue: 0,0:17:10.32,0:17:12.20,ec,,0,0,0,,sudah termasuk luar biasa.
+Dialogue: 0,0:17:13.48,0:17:15.96,ec,,0,0,0,,Aku ingat Peri adalah kenalan lama Sekte Jinlan.
+Dialogue: 0,0:17:16.00,0:17:17.28,ec,,0,0,0,,Karena itu enggan membunuhmu.
+Dialogue: 0,0:17:19.64,0:17:21.76,ec,,0,0,0,,Ingin membunuhku di sini?
+Dialogue: 0,0:17:22.40,0:17:23.68,ec,,0,0,0,,Masih belum cukup.
+Dialogue: 0,0:17:24.56,0:17:26.60,ec,,0,0,0,,Aku telah mewarisi Sekte Jinlan.
+Dialogue: 0,0:17:27.16,0:17:30.40,ec,,0,0,0,,Jiwa para murid sekte juga semuanya ada di sini.
+Dialogue: 0,0:17:31.12,0:17:33.24,ec,,0,0,0,,Peri juga sama seperti mereka.
+Dialogue: 0,0:17:33.68,0:17:35.08,ec,,0,0,0,,Tinggallah di sini.
+Dialogue: 0,0:17:36.12,0:17:38.08,ec,,0,0,0,,Beberapa artefak suci milikmu itu,
+Dialogue: 0,0:17:38.40,0:17:40.60,ec,,0,0,0,,akan kujadikan hadiah penghormatan gurumu ini.
+Dialogue: 0,0:17:44.20,0:17:45.96,ec,,0,0,0,,Awan Giok Membelah Cahaya Langit.
+Dialogue: 0,0:17:52.96,0:17:53.68,ec,,0,0,0,,Ikuti aku!
+Dialogue: 0,0:18:08.52,0:18:11.36,ec,,0,0,0,,Kalian tak bisa lari dari tangan gurumu.

@@ -1,0 +1,252 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:11:47.77,0:11:51.73,komen,,0,0,0,,{\pos(1718,584)\fad(500,250)}[Ling Ziyan\NKeluarga Ling\NTingkat Lima Awal]
+Dialogue: 0,0:14:43.11,0:14:47.88,komen,,0,0,0,,{\pos(1701,462)\fad(500,250)}[Chu Yu\NPutri Muda Negara Dongchu]
+Dialogue: 0,0:00:21.84,0:00:22.36,tomb,,0,0,0,,Pak tua sialan!
+Dialogue: 0,0:00:22.72,0:00:23.40,tomb,,0,0,0,,Matilah!
+Dialogue: 0,0:00:36.64,0:00:37.56,tomb,,0,0,0,,Tingkat 4 puncak.
+Dialogue: 0,0:00:40.28,0:00:41.24,tomb,,0,0,0,,Hadang mereka!
+Dialogue: 0,0:00:41.64,0:00:43.00,tomb,,0,0,0,,Hanya butuh seperempat jam,
+Dialogue: 0,0:00:43.48,0:00:45.20,tomb,,0,0,0,,aku bisa mengeluarkan racunnya.
+Dialogue: 0,0:00:52.96,0:00:54.92,tomb,,0,0,0,,Begitu dia mengeluarkan racun, kita tak punya peluang menang.
+Dialogue: 0,0:00:55.28,0:00:55.92,tomb,,0,0,0,,Serang bersama!
+Dialogue: 0,0:01:15.60,0:01:16.76,tomb,,0,0,0,,Efek balik akan datang.
+Dialogue: 0,0:01:17.24,0:01:18.72,tomb,,0,0,0,,Cari tempat untuk pemulihan dulu.
+Dialogue: 0,0:01:22.20,0:01:23.32,tomb,,0,0,0,,Meng Ke'er sendirian.
+Dialogue: 0,0:01:24.00,0:01:24.84,tomb,,0,0,0,,Kesempatan tiba.
+Dialogue: 0,0:01:49.08,0:01:49.96,tomb,,0,0,0,,Chen Nan.
+Dialogue: 0,0:01:52.00,0:01:52.52,tomb,,0,0,0,,Minggir!
+Dialogue: 0,0:01:56.72,0:01:57.64,tomb,,0,0,0,,Apa yang mau kau lakukan padaku?
+Dialogue: 0,0:01:58.36,0:01:59.28,tomb,,0,0,0,,Mau apa?
+Dialogue: 0,0:01:59.60,0:02:00.88,tomb,,0,0,0,,Sebentar lagi kau akan tahu.
+Dialogue: 0,0:02:11.84,0:02:12.67,tomb,,0,0,0,,Kau...
+Dialogue: 0,0:02:13.48,0:02:15.52,tomb,,0,0,0,,Ternyata segelmu tidak bisa dibuka sembarangan.
+Dialogue: 0,0:02:16.20,0:02:18.04,tomb,,0,0,0,,Kalau tidak akan terkena efek balik.
+Dialogue: 0,0:02:19.64,0:02:20.16,tomb,,0,0,0,,Aduh.
+Dialogue: 0,0:02:20.36,0:02:21.36,tomb,,0,0,0,,Buat apa banyak bicara dengannya?
+Dialogue: 0,0:02:21.52,0:02:22.16,tomb,,0,0,0,,Cepat bertindak!
+Dialogue: 0,0:02:22.40,0:02:23.24,tomb,,0,0,0,,Aku ambil Giok Teratai,
+Dialogue: 0,0:02:23.44,0:02:24.04,tomb,,0,0,0,,kau lumpuhkan dia,
+Dialogue: 0,0:02:24.24,0:02:25.12,tomb,,0,0,0,,hilangkan ancaman selamanya.
+Dialogue: 0,0:02:25.76,0:02:26.32,tomb,,0,0,0,,Chen Nan.
+Dialogue: 0,0:02:27.60,0:02:28.96,tomb,,0,0,0,,Berikan aku alasan untuk tidak bertindak.
+Dialogue: 0,0:02:30.12,0:02:31.28,tomb,,0,0,0,,Aku bawa banyak orang.
+Dialogue: 0,0:02:32.16,0:02:33.20,tomb,,0,0,0,,Jika aku hilang tanpa sebab,
+Dialogue: 0,0:02:33.28,0:02:34.88,tomb,,0,0,0,,mereka pasti bisa selidiki siapa pelakunya.
+Dialogue: 0,0:02:36.24,0:02:37.12,tomb,,0,0,0,,Dunia ini luas.
+Dialogue: 0,0:02:37.80,0:02:39.40,tomb,,0,0,0,,Kau takkan punya tempat berpijak.
+Dialogue: 0,0:02:39.72,0:02:40.80,tomb,,0,0,0,,Tempat bernaung,
+Dialogue: 0,0:02:42.40,0:02:43.16,tomb,,0,0,0,,apa aku peduli?
+Dialogue: 0,0:02:46.60,0:02:47.68,tomb,,0,0,0,,Pertempuran disana sepertinya masih lama,
+Dialogue: 0,0:02:48.28,0:02:49.84,tomb,,0,0,0,,masih butuh kekuatan tempur Meng Ke'er.
+Dialogue: 0,0:02:55.04,0:02:55.80,tomb,,0,0,0,,Sekarang,
+Dialogue: 0,0:02:56.08,0:02:56.96,tomb,,0,0,0,,kau punya dua pilihan.
+Dialogue: 0,0:02:59.48,0:03:01.24,tomb,,0,0,0,,Pertama, aku obati lukamu.
+Dialogue: 0,0:03:01.48,0:03:02.68,tomb,,0,0,0,,Kau buka segel lagi,
+Dialogue: 0,0:03:02.92,0:03:04.72,tomb,,0,0,0,,bersama kita bunuh ahli tingkat 4 itu.
+Dialogue: 0,0:03:05.32,0:03:06.68,tomb,,0,0,0,,Kedua, aku lumpuhkan kau,
+Dialogue: 0,0:03:07.20,0:03:08.24,tomb,,0,0,0,,biarkan si loach membawamu pergi.
+Dialogue: 0,0:03:08.24,0:03:08.76,tomb,,0,0,0,,Hm.
+Dialogue: 0,0:03:10.16,0:03:10.76,tomb,,0,0,0,,Pilih sendiri.
+Dialogue: 0,0:03:23.48,0:03:24.04,tomb,,0,0,0,,Paman.
+Dialogue: 0,0:03:24.48,0:03:25.08,tomb,,0,0,0,,Tidak bisa.
+Dialogue: 0,0:03:25.48,0:03:27.28,tomb,,0,0,0,,Racun sisa dalam darah sulit dibersihkan.
+Dialogue: 0,0:03:27.36,0:03:28.36,tomb,,0,0,0,,Aku harus ganti darah.
+Dialogue: 0,0:03:31.96,0:03:32.76,tomb,,0,0,0,,Tuan.
+Dialogue: 0,0:03:38.80,0:03:40.64,tomb,,0,0,0,,Bertahan sebentar lagi aku bisa pulih.
+Dialogue: 0,0:03:43.76,0:03:44.68,tomb,,0,0,0,,Racunnya akan hilang efeknya.
+Dialogue: 0,0:03:45.48,0:03:46.88,tomb,,0,0,0,,Tinggal sedikit lagi.
+Dialogue: 0,0:03:47.88,0:04:02.88,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:04:22.68,0:04:23.84,tomb,,0,0,0,,Si Chen!
+Dialogue: 0,0:04:24.12,0:04:25.12,tomb,,0,0,0,,Jangan biarkan dia ganti darah.
+Dialogue: 0,0:04:33.88,0:04:34.56,tomb,,0,0,0,,Tidak!
+Dialogue: 0,0:04:37.44,0:04:38.88,tomb,,0,0,0,,Darah segar dalam tubuhnya tinggal kurang dari sepuluh persen,
+Dialogue: 0,0:04:39.20,0:04:40.04,tomb,,0,0,0,,dan tidak bisa diisi ulang.
+Dialogue: 0,0:04:56.60,0:04:57.24,tomb,,0,0,0,,Waktunya tiba.
+Dialogue: 0,0:04:57.56,0:04:58.16,tomb,,0,0,0,,Kau bawa dia pergi.
+Dialogue: 0,0:05:00.72,0:05:01.80,tomb,,0,0,0,,Serahkan padaku.
+Dialogue: 0,0:05:02.80,0:05:03.48,tomb,,0,0,0,,Paman.
+Dialogue: 0,0:05:04.16,0:05:04.92,tomb,,0,0,0,,Maaf.
+Dialogue: 0,0:05:08.96,0:05:10.20,tomb,,0,0,0,,Hampir saja aku melupakanmu.
+Dialogue: 0,0:05:14.72,0:05:15.84,tomb,,0,0,0,,Sudah cukup.
+Dialogue: 0,0:05:16.28,0:05:16.96,tomb,,0,0,0,,Ling Yun.
+Dialogue: 0,0:05:20.44,0:05:21.44,tomb,,0,0,0,,Kau telah membunuh Qian Long.
+Dialogue: 0,0:05:22.12,0:05:24.04,tomb,,0,0,0,,Hari ini, aku akan membuatmu bayar dengan darah.
+Dialogue: 0,0:05:26.68,0:05:27.60,tomb,,0,0,0,,Menurutmu,
+Dialogue: 0,0:05:27.80,0:05:28.80,tomb,,0,0,0,,dengan kemampuan kultivasiku,
+Dialogue: 0,0:05:29.48,0:05:30.88,tomb,,0,0,0,,bisakah aku mengancamnya?
+Dialogue: 0,0:05:31.80,0:05:32.60,tomb,,0,0,0,,Seseorang yang akan mati,
+Dialogue: 0,0:05:32.88,0:05:35.00,tomb,,0,0,0,,buat apa lagi banyak perhitungan.
+Dialogue: 0,0:05:35.24,0:05:36.12,tomb,,0,0,0,,Pada dasarnya,
+Dialogue: 0,0:05:36.44,0:05:38.08,tomb,,0,0,0,,kita semua hanya ingin bertahan hidup.
+Dialogue: 0,0:05:38.84,0:05:39.96,tomb,,0,0,0,,Apa sebenarnya kebenarannya?
+Dialogue: 0,0:05:41.56,0:05:42.96,tomb,,0,0,0,,Tidak ada kebenaran apa pun.
+Dialogue: 0,0:05:44.40,0:05:46.80,tomb,,0,0,0,,Kematian Qian Long tidak ada hubungannya dengan siapa pun.
+Dialogue: 0,0:05:47.48,0:05:48.56,tomb,,0,0,0,,Sudah begini keadaannya,
+Dialogue: 0,0:05:49.08,0:05:50.40,tomb,,0,0,0,,kita semua adalah pihak yang kalah.
+Dialogue: 0,0:05:51.28,0:05:52.40,tomb,,0,0,0,,Satu-satunya pemenang,
+Dialogue: 0,0:05:53.36,0:05:55.08,tomb,,0,0,0,,hanyalah Meng Ke'er.
+Dialogue: 0,0:05:55.48,0:05:57.44,tomb,,0,0,0,,Dia pertama-tama menyaksikan pertarungan harimau dari jauh,
+Dialogue: 0,0:05:58.08,0:06:00.16,tomb,,0,0,0,,membuatmu dan keluarga Ling saling melukai.
+Dialogue: 0,0:06:01.04,0:06:04.28,tomb,,0,0,0,,Sekarang dia bersatu dengan sekelompok pemuda ahli untuk memburu kami.
+Dialogue: 0,0:06:05.04,0:06:07.28,tomb,,0,0,0,,Kalian benar-benar mengira dia melakukannya untuk balas dendam?
+Dialogue: 0,0:06:07.80,0:06:08.80,tomb,,0,0,0,,Baginya,
+Dialogue: 0,0:06:09.40,0:06:10.52,tomb,,0,0,0,,kau dan aku tidak penting.
+Dialogue: 0,0:06:11.92,0:06:12.76,tomb,,0,0,0,,Yang penting,
+Dialogue: 0,0:06:13.12,0:06:15.28,tomb,,0,0,0,,adalah pamanku Ling Zixu.
+Dialogue: 0,0:06:17.76,0:06:18.80,tomb,,0,0,0,,Putranya,
+Dialogue: 0,0:06:19.12,0:06:20.96,tomb,,0,0,0,,adalah murid dari
+Dialogue: 0,0:06:21.28,0:06:22.84,tomb,,0,0,0,,Jalan Pemusnah di antara Enam Jalan Iblis Kuno.
+Dialogue: 0,0:06:23.12,0:06:24.12,tomb,,0,0,0,,Jalan Pemusnah?
+Dialogue: 0,0:06:25.44,0:06:27.88,tomb,,0,0,0,,Jalan agung tanpa perasaan, semua makhluk adalah bidak.
+Dialogue: 0,0:06:28.36,0:06:30.52,tomb,,0,0,0,,Sekte Tantai selalu seperti ini.
+Dialogue: 0,0:06:31.20,0:06:31.92,tomb,,0,0,0,,Chen Nan,
+Dialogue: 0,0:06:32.52,0:06:33.56,tomb,,0,0,0,,kau dan aku sama,
+Dialogue: 0,0:06:34.24,0:06:35.40,tomb,,0,0,0,,kita semua adalah bidak.
+Dialogue: 0,0:06:37.04,0:06:37.68,tomb,,0,0,0,,Lanjutkan.
+Dialogue: 0,0:06:38.40,0:06:38.76,tomb,,0,0,0,,Hmph.
+Dialogue: 0,0:06:41.12,0:06:42.08,tomb,,0,0,0,,Urusan kebaikan dan kejahatan,
+Dialogue: 0,0:06:42.60,0:06:44.20,tomb,,0,0,0,,juga bukan hitam dan putih semata.
+Dialogue: 0,0:06:45.96,0:06:48.84,tomb,,0,0,0,,Hanya karena keluargaku bekerja sama dengan Jalan Pemusnah,
+Dialogue: 0,0:06:49.84,0:06:51.56,tomb,,0,0,0,,menghalangi jalan Sekte Tantai-nya,
+Dialogue: 0,0:06:51.96,0:06:54.32,tomb,,0,0,0,,dia pun merencanakan seluruh perangkap pembunuhan.
+Dialogue: 0,0:06:56.28,0:06:59.28,tomb,,0,0,0,,Menjebakku dan pamanku sekaligus.
+Dialogue: 0,0:07:03.20,0:07:05.68,tomb,,0,0,0,,Melakukan hal licik atas nama kebenaran.
+Dialogue: 0,0:07:06.12,0:07:08.20,tomb,,0,0,0,,Meng Ke'er benar-benar licik.
+Dialogue: 0,0:07:10.44,0:07:12.00,tomb,,0,0,0,,Masalah Tanah Kematian,
+Dialogue: 0,0:07:12.80,0:07:13.68,tomb,,0,0,0,,untuk mencari jalan hidup,
+Dialogue: 0,0:07:14.16,0:07:15.28,tomb,,0,0,0,,aku tidak punya pilihan lain.
+Dialogue: 0,0:07:17.48,0:07:18.44,tomb,,0,0,0,,Kata-kata terakhirmu sudah selesai?
+Dialogue: 0,0:07:19.80,0:07:20.24,tomb,,0,0,0,,Ayo!
+Dialogue: 0,0:07:21.24,0:07:36.24,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:07:46.44,0:07:47.88,tomb,,0,0,0,,Sudah selesaikah aksi licikmu?
+Dialogue: 0,0:07:57.48,0:07:58.92,tomb,,0,0,0,,Aku sudah lama melihat orang sepertimu.
+Dialogue: 0,0:07:59.64,0:08:00.84,tomb,,0,0,0,,Bagaimana mungkin tidak waspada?
+Dialogue: 0,0:08:02.48,0:08:03.60,tomb,,0,0,0,,Kau tidak bisa membunuhku!
+Dialogue: 0,0:08:04.04,0:08:05.32,tomb,,0,0,0,,Aku hanya ingin bertahan hidup!
+Dialogue: 0,0:08:06.08,0:08:07.64,tomb,,0,0,0,,Aku tidak salah, aku tidak salah!
+Dialogue: 0,0:08:08.00,0:08:09.44,tomb,,0,0,0,,Kalianlah yang salah!
+Dialogue: 0,0:08:10.12,0:08:11.60,tomb,,0,0,0,,Kalian yang membawaku ke tempat sialan itu!
+Dialogue: 0,0:08:12.24,0:08:13.04,tomb,,0,0,0,,Berani-beraninya kau sentuh aku!
+Dialogue: 0,0:08:13.28,0:08:15.04,tomb,,0,0,0,,Keluarga Ling tidak akan membiarkan kalian!
+Dialogue: 0,0:08:15.32,0:08:16.36,tomb,,0,0,0,,Keluarga Ling punya banyak ahli!
+Dialogue: 0,0:08:16.48,0:08:17.52,tomb,,0,0,0,,Kalian tidak ada satu pun yang...
+Dialogue: 0,0:08:22.20,0:08:25.52,tomb,,0,0,0,,...bisa hidup!
+Dialogue: 0,0:08:29.08,0:08:30.08,tomb,,0,0,0,,Banyak bicara!
+Dialogue: 0,0:08:41.04,0:08:42.56,tomb,,0,0,0,,Darah monster tua itu hampir habis.
+Dialogue: 0,0:08:42.72,0:08:43.40,tomb,,0,0,0,,Ada kesempatan.
+Dialogue: 0,0:08:56.68,0:08:58.48,tomb,,0,0,0,,Lihat, siapa ini.
+Dialogue: 0,0:09:00.08,0:09:01.00,tomb,,0,0,0,,Yun'er!
+Dialogue: 0,0:09:05.76,0:09:06.96,tomb,,0,0,0,,Jalan Pemusnah...
+Dialogue: 0,0:09:07.84,0:09:08.56,tomb,,0,0,0,,Keluarga Ling.
+Dialogue: 0,0:09:09.80,0:09:13.40,tomb,,0,0,0,,Kalian semua harus ikut mati!
+Dialogue: 0,0:09:18.60,0:09:19.88,tomb,,0,0,0,,Jalankan teknik dengan kekuatan penuh,
+Dialogue: 0,0:09:20.20,0:09:21.32,tomb,,0,0,0,,biarkan racun menyebar.
+Dialogue: 0,0:09:21.60,0:09:22.36,tomb,,0,0,0,,Dia tidak peduli nyawanya!
+Dialogue: 0,0:09:22.56,0:09:23.60,tomb,,0,0,0,,Jalan menuju alam baka jauh,
+Dialogue: 0,0:09:24.20,0:09:25.96,tomb,,0,0,0,,maka antarkan kau dan Ling Yun bersama-sama.
+Dialogue: 0,0:09:26.96,0:09:41.96,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:10:59.85,0:11:00.47,tomb,,0,0,0,,Darah...
+Dialogue: 0,0:11:00.92,0:11:01.68,tomb,,0,0,0,,Darahku.
+Dialogue: 0,0:11:02.55,0:11:04.45,tomb,,0,0,0,,Ah!
+Dialogue: 0,0:11:12.32,0:11:14.12,tomb,,0,0,0,,Ah!
+Dialogue: 0,0:11:37.20,0:11:38.04,tomb,,0,0,0,,Berhenti!
+Dialogue: 0,0:11:46.36,0:11:46.76,tomb,,0,0,0,,Hmph.
+Dialogue: 0,0:11:52.24,0:11:52.96,tomb,,0,0,0,,Ling Ziyan.
+Dialogue: 0,0:11:53.32,0:11:54.60,tomb,,0,0,0,,Lagi-lagi ahli tingkat 5.
+Dialogue: 0,0:11:55.40,0:11:57.40,tomb,,0,0,0,,Memakai segala cara, tapi baru bisa menumbangkan satu ahli tingkat lima.
+Dialogue: 0,0:11:57.72,0:11:58.88,tomb,,0,0,0,,Sekarang datang lagi satu.
+Dialogue: 0,0:12:00.08,0:12:00.40,tomb,,0,0,0,,Darah.
+Dialogue: 0,0:12:02.48,0:12:04.24,tomb,,0,0,0,,Aku butuh darah.
+Dialogue: 0,0:12:04.48,0:12:05.40,tomb,,0,0,0,,Kakak Kedua.
+Dialogue: 0,0:12:31.77,0:12:32.77,tomb,,0,0,0,,Kakak kedua.
+Dialogue: 0,0:12:45.30,0:12:46.88,tomb,,0,0,0,,Argh!
+Dialogue: 0,0:12:55.96,0:12:57.12,tomb,,0,0,0,,Siapa?
+Dialogue: 0,0:12:57.32,0:12:58.64,tomb,,0,0,0,,Yang membunuh Yun'er?
+Dialogue: 0,0:12:59.08,0:13:00.52,tomb,,0,0,0,,Dan melukai Kakak Kedua-ku?
+Dialogue: 0,0:13:01.28,0:13:01.88,tomb,,0,0,0,,Siapa?!
+Dialogue: 0,0:13:03.28,0:13:06.48,tomb,,0,0,0,,Aku.
+Dialogue: 0,0:13:08.08,0:13:08.92,tomb,,0,0,0,,Kau.
+Dialogue: 0,0:13:09.64,0:13:10.24,tomb,,0,0,0,,Dan juga aku.
+Dialogue: 0,0:13:11.04,0:13:12.12,tomb,,0,0,0,,Akademi Shenlan-lah
+Dialogue: 0,0:13:12.36,0:13:13.84,tomb,,0,0,0,,yang menghakimi pendosa Ling Yun ini.
+Dialogue: 0,0:13:33.76,0:13:35.04,tomb,,0,0,0,,Baiklah.
+Dialogue: 0,0:13:40.04,0:13:41.16,tomb,,0,0,0,,Kalau begitu kalian...
+Dialogue: 0,0:13:41.52,0:13:43.36,tomb,,0,0,0,,semua mati saja!
+Dialogue: 0,0:13:50.24,0:13:50.80,tomb,,0,0,0,,Berhenti!
+Dialogue: 0,0:14:03.32,0:14:03.84,tomb,,0,0,0,,Apa?!
+Dialogue: 0,0:14:12.44,0:14:13.28,tomb,,0,0,0,,Mereka adalah...
+Dialogue: 0,0:14:30.32,0:14:31.76,tomb,,0,0,0,,beberapa dekan Akademi Shenlan.
+Dialogue: 0,0:14:32.28,0:14:33.96,tomb,,0,0,0,,Dan banyak murid yang sudah lama lulus.
+Dialogue: 0,0:14:44.21,0:14:45.04,tomb,,0,0,0,,Sampah,
+Dialogue: 0,0:14:46.16,0:14:47.72,tomb,,0,0,0,,tak kusangka saat aku tidak ada,
+Dialogue: 0,0:14:47.84,0:14:49.48,tomb,,0,0,0,,kau malah membuat masalah sebesar ini.
+Dialogue: 0,0:14:53.64,0:14:56.48,tomb,,0,0,0,,Siapa yang berani menganggap Akademi Shenlan-ku tak berdaya?!
+Dialogue: 0,0:14:57.12,0:14:58.32,tomb,,0,0,0,,Aku ini Ling Ziyan.
+Dialogue: 0,0:14:59.00,0:15:00.08,tomb,,0,0,0,,Tadi terlalu terburu-buru,
+Dialogue: 0,0:15:00.44,0:15:02.04,tomb,,0,0,0,,jika ada ketidaksopanan,
+Dialogue: 0,0:15:02.28,0:15:03.36,tomb,,0,0,0,,mohon dimaafkan.
+Dialogue: 0,0:15:04.88,0:15:06.96,tomb,,0,0,0,,Oh, ternyata ahli dari Keluarga Ling.
+Dialogue: 0,0:15:07.16,0:15:09.76,tomb,,0,0,0,,Mengapa menyerang junior Akademi Shenlan kami?
+Dialogue: 0,0:15:12.68,0:15:14.52,tomb,,0,0,0,,Keponakanku dibunuh orang,
+Dialogue: 0,0:15:14.76,0:15:16.76,tomb,,0,0,0,,kakakku juga dilukai sampai begini keadaannya.
+Dialogue: 0,0:15:16.92,0:15:18.36,tomb,,0,0,0,,Aku menuntut keadilan untuk mereka,
+Dialogue: 0,0:15:18.88,0:15:19.60,tomb,,0,0,0,,berlebihan kah?
+Dialogue: 0,0:15:37.84,0:15:38.88,tomb,,0,0,0,,Tidak berlebihan.
+Dialogue: 0,0:15:40.28,0:15:41.32,tomb,,0,0,0,,Tapi aku ingin berkata,
+Dialogue: 0,0:15:42.08,0:15:43.20,tomb,,0,0,0,,mereka dibunuh...
+Dialogue: 0,0:15:44.48,0:15:45.40,tomb,,0,0,0,,memang pantas!
+Dialogue: 0,0:15:48.40,0:15:51.32,tomb,,0,0,0,,Siapa yang berani melukai satu helai rambut anak-anak akademi kami,
+Dialogue: 0,0:15:51.96,0:15:54.48,tomb,,0,0,0,,berarti melawan seluruh Akademi Shenlan.
+Dialogue: 0,0:16:05.24,0:16:06.76,tomb,,0,0,0,,Ah!
+Dialogue: 0,0:16:10.92,0:16:12.68,tomb,,0,0,0,,Memang ahli tingkat 5.
+Dialogue: 0,0:16:13.60,0:16:15.28,tomb,,0,0,0,,Ini kehendakmu?
+Dialogue: 0,0:16:16.60,0:16:17.92,tomb,,0,0,0,,Kehendak Yang Lin,
+Dialogue: 0,0:16:18.40,0:16:20.04,tomb,,0,0,0,,adalah kehendakku juga.
+Dialogue: 0,0:16:20.80,0:16:24.00,tomb,,0,0,0,,Hahaha!
+Dialogue: 0,0:16:24.48,0:16:27.40,tomb,,0,0,0,,Bagus, sangat bagus.
+Dialogue: 0,0:16:28.44,0:16:30.04,tomb,,0,0,0,,Akademi Shenlan,
+Dialogue: 0,0:16:30.96,0:16:32.28,tomb,,0,0,0,,suatu hari nanti,
+Dialogue: 0,0:16:32.76,0:16:34.88,tomb,,0,0,0,,aku pasti akan berkunjung sendiri,
+Dialogue: 0,0:16:35.52,0:16:37.76,tomb,,0,0,0,,untuk membalas perlakuan kalian hari ini.
+Dialogue: 0,0:16:55.28,0:16:57.00,tomb,,0,0,0,,Bagus.
+Dialogue: 0,0:16:58.88,0:17:00.32,tomb,,0,0,0,,Masih ada satu masalah yang harus ditangani.
+Dialogue: 0,0:17:04.72,0:17:05.88,tomb,,0,0,0,,Meng Ke'er sudah tertangkap.
+Dialogue: 0,0:17:06.72,0:17:07.28,tomb,,0,0,0,,Tapi,
+Dialogue: 0,0:17:08.08,0:17:08.92,tomb,,0,0,0,,haruskah kita benar-benar membunuhnya?
+Dialogue: 0,0:17:09.92,0:17:11.24,tomb,,0,0,0,,Jangan biarkan aku menangkapnya lagi.
+Dialogue: 0,0:17:11.88,0:17:15.20,tomb,,0,0,0,,Pasti akan kuhancurkan dia seratus kali lipat!
+Dialogue: 0,0:17:16.68,0:17:17.48,tomb,,0,0,0,,Kau terjebak!
+Dialogue: 0,0:17:17.68,0:17:18.12,tomb,,0,0,0,,Chen Nan.
+Dialogue: 0,0:17:18.81,0:17:19.65,tomb,,0,0,0,,Hari ini,
+Dialogue: 0,0:17:20.04,0:17:21.64,tomb,,0,0,0,,tempat ini akan menjadi kuburanmu.
+Dialogue: 0,0:17:22.32,0:17:23.72,tomb,,0,0,0,,Kekuatanmu akan segera menghilang.
+Dialogue: 0,0:17:24.00,0:17:26.57,tomb,,0,0,0,,Asal aku bisa bertahan sebentar, aku bisa menyelesaikan ini dengan cepat.
+Dialogue: 0,0:17:27.04,0:17:28.80,tomb,,0,0,0,,Rasakan jurusku,
+Dialogue: 0,0:17:29.28,0:17:31.84,tomb,,0,0,0,,Teknik Transformasi Naga Darah!

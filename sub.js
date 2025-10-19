@@ -51,7 +51,7 @@ async function burnSubtitleGPU(inputFile, outputFile) {
     //   '-y', // Overwrite file output jika ada
     //   '-i', inputFile, // File input
     //   // '-ss', '00:05:00',
-    //   // '-to', '00:01:00',
+    //   // '-to', '00:18:15',
     //   '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
     //   '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
     //   '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
@@ -62,7 +62,7 @@ async function burnSubtitleGPU(inputFile, outputFile) {
     //   '-preset', 'quality', // Gunakan preset kualitas GPU
     //   // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
     //   // scale=1920:-1
-    //   '-vf', "subtitles=PW_EP235_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
+    //   '-vf', "subtitles=TALES_EP53_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
     //   '-c:a', 'copy', 
     //   outputFile // File output
     // ];
@@ -74,21 +74,22 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       '-y', // Overwrite file output jika ada
       '-i', inputFile, // File input
       // '-ss', '01:18:40',
-      // '-to', '01:19:25',
+      // '-to', '00:00:10',
       // scale=-1:1080
-      '-vf', "subtitles=JD_EP26_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
+      '-vf', "subtitles=pv.ass,drawtext=text='DongWorld':font=Verdana:fontsize=25:fontcolor=white@0.5:x=15:y=15",
+      // '-pix_fmt', 'yuv420p',
       '-c:v', 'libx264',
-      '-crf', '25',
+      '-crf', '22',
       // '-b:v', '2M', // Bitrate target rata-rata
-      '-maxrate', '4M', // Batasi bitrate maksimum hingga 5 Mbps
-      '-bufsize', '8M', // Buffer size dua kali maksimum bitrate
+      '-maxrate', '5M', // Batasi bitrate maksimum hingga 4 Mbps
+      '-bufsize', '10M', // Buffer size dua kali maksimum bitrate
       '-preset', 'fast',
       '-c:a', 'copy', 
       outputFile // File output
     ];
 
     // Jalankan ffmpeg dengan argumen yang telah ditentukan
-    const ffmpegProcess = spawn(ffmpegStatic, ffmpegArgs);
+    const ffmpegProcess = spawn('ffmpeg', ffmpegArgs);
 
     ffmpegProcess.stdout.on('data', (data) => {
       console.log(`stdout: ${data}`);
@@ -118,7 +119,7 @@ async function embedSubtitle(inputFile, outputFile) {
       const ffmpegArgs = [
         '-y',
         '-i', inputFile,          // Input video (yang sudah ada subtitle Chinese)
-        '-i', 'JD_EP4_INDO.ass',   // Subtitle baru (format SRT)
+        '-i', '181.ass',   // Subtitle baru (format SRT)
         '-map', '0:v',            // Ambil video dari input pertama
         '-map', '0:a',            // Ambil audio dari input pertama
         '-map', '1:s',            // Ambil subtitle dari input kedua (file SRT)
@@ -210,4 +211,4 @@ async function extractSrt(inputFile) {
 //   outputFile // File output
 // ];
 
-burnSubtitleGPU('JD_EP26.mp4', 'JD_EP26_INDO.mp4')
+burnSubtitleGPU('pv.mp4', 'pv_INDO.mp4')

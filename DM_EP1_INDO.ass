@@ -1,0 +1,338 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:19.87,0:00:22.09,komen,,0,0,0,,{\pos(981,319)\fad(500,250)}Festival Lentera di Kota Nanlin
+Dialogue: 0,0:00:25.93,0:00:30.10,komen,,0,0,0,,{\pos(1546,705)\fad(500,250)}Ding Xiao\NDivisi Penunduk Roh
+Dialogue: 0,0:00:49.43,0:00:52.10,komen,,0,0,0,,{\pos(339,579)\fad(500,250)}Ding Ling
+Dialogue: 0,0:01:37.00,0:01:39.13,komen,,0,0,0,,{\pos(422,655)\fad(500,250)}Wujud Roh Ding Ling
+Dialogue: 0,0:03:12.00,0:03:14.93,komen,,0,0,0,,{\pos(440,704)\fad(500,250)}Naga Pemakan Langit
+Dialogue: 0,0:03:12.00,0:03:14.93,komen,,0,0,0,,{\pos(1473,697)\fad(500,250)}Wujud Roh Ding Xiao
+Dialogue: 0,0:05:57.70,0:06:02.89,komen,,0,0,0,,{\pos(964,272)\fad(500,250)}Lima Tahun Kemudian...
+Dialogue: 0,0:06:02.93,0:06:06.53,komen,,0,0,0,,{\pos(1748,741)\fad(500,250)}Petugas Penjaga Peti\NMu Biaoxing
+Dialogue: 0,0:06:02.93,0:06:06.53,komen,,0,0,0,,{\pos(246,528)\fad(500,250)}Petugas Penjaga Peti\NZhang Shu
+Dialogue: 0,0:06:19.24,0:06:23.73,komen,,0,0,0,,{\pos(1688,535)\fad(500,250)}Ding Xiao\NPembawa Peti Mati.
+Dialogue: 0,0:08:53.09,0:08:57.58,komen,,0,0,0,,{\pos(312,591)\fad(500,250)}Alam Roh Ding Xiao
+Dialogue: 0,0:16:05.25,0:16:08.54,komen,,0,0,0,,{\pos(392,594)\fad(500,250)}Baixi\NInstitusi Penghubung Roh Ibu Kota
+Dialogue: 0,0:11:23.60,0:11:26.73,komen,,0,0,0,,{\fad(500,250)}{\pos(979,570)}Roh Jahat bintang empat, Laba-laba Beracun Bermata Enam.
+Dialogue: 0,0:11:57.61,0:11:59.87,komen,,0,0,0,,{\pos(488,783)\fad(500,250)}Memakan Manusia
+Dialogue: 0,0:11:57.61,0:11:59.87,komen,,0,0,0,,{\pos(1413,645)\fad(500,250)}Roh Jahat Naik Tingkat
+Dialogue: 0,0:16:29.10,0:16:31.73,komen,,0,0,0,,{\pos(965,599)\fad(500,250)}Roh Jahat Tingkat Enam, Laba-laba Beracun Bermata Enam
+Dialogue: 0,0:17:10.90,0:17:13.97,komen,,0,0,0,,{\pos(951,579)\fad(500,250)}Wujud Roh Tingkat Tujuh, Merak Ilahi Tujuh Warna
+Dialogue: 0,0:00:20.63,0:00:21.60,dm,,0,0,0,,Namaku Ding Xiao.
+Dialogue: 0,0:00:21.70,0:00:23.13,dm,,0,0,0,,Aku adalah Master Roh dari Divisi Penunduk Roh.
+Dialogue: 0,0:00:23.83,0:00:26.13,dm,,0,0,0,,Aku juga punya adik perempuan, Ling'er, yang tidak biasa.
+Dialogue: 0,0:00:26.27,0:00:27.90,dm,,0,0,0,,Hari ini adalah malam Festival Lentera.
+Dialogue: 0,0:00:28.23,0:00:29.20,dm,,0,0,0,,Aku seharusnya membawanya keluar untuk bermain.
+Dialogue: 0,0:00:29.80,0:00:31.27,dm,,0,0,0,,Tapi dia menghilang dalam keramaian sekejap mata.
+Dialogue: 0,0:00:32.00,0:00:32.80,dm,,0,0,0,,Ini tidak bagus.
+Dialogue: 0,0:00:34.13,0:00:36.27,dm,,0,0,0,,Ling'er!
+Dialogue: 0,0:00:36.60,0:00:37.77,dm,,0,0,0,,Roh Jahat, ada Roh Jahat!
+Dialogue: 0,0:00:38.50,0:00:39.40,dm,,0,0,0,,Gadis itu berubah menjadi Roh Jahat!
+Dialogue: 0,0:00:39.80,0:00:40.40,dm,,0,0,0,,Roh Jahat memakan orang!
+Dialogue: 0,0:00:40.73,0:00:41.83,dm,,0,0,0,,Apakah Ling'er kambuh lagi?
+Dialogue: 0,0:00:42.33,0:00:43.10,dm,,0,0,0,,Aku harus segera menemukannya.
+Dialogue: 0,0:00:43.60,0:00:45.07,dm,,0,0,0,,Tidak boleh membiarkan kekuatan aneh itu melukai orang.
+Dialogue: 0,0:00:49.73,0:00:50.80,dm,,0,0,0,,Benar-benar Ling'er!
+Dialogue: 0,0:00:52.43,0:00:53.33,dm,,0,0,0,,Ling'er!
+Dialogue: 0,0:00:57.60,0:00:58.43,dm,,0,0,0,,Enyah kau!
+Dialogue: 0,0:01:01.73,0:01:02.80,dm,,0,0,0,,Pedang Suci Tajam, Hancurkan!
+Dialogue: 0,0:01:15.97,0:01:18.03,dm,,0,0,0,,Akhirnya segelnya pecah.
+Dialogue: 0,0:01:18.73,0:01:20.87,dm,,0,0,0,,Terjebak dalam tubuh ini,
+Dialogue: 0,0:01:21.47,0:01:23.47,dm,,0,0,0,,membuatku sangat sesak.
+Dialogue: 0,0:01:27.60,0:01:28.83,dm,,0,0,0,,Pedang Api Li, Bunuh!
+Dialogue: 0,0:01:30.87,0:01:31.80,dm,,0,0,0,,Monster!
+Dialogue: 0,0:01:32.17,0:01:33.23,dm,,0,0,0,,Kembalikan adikku!
+Dialogue: 0,0:01:47.97,0:01:49.30,dm,,0,0,0,,Jangan mimpi!
+Dialogue: 0,0:01:50.23,0:01:52.97,dm,,0,0,0,,Takdir kalian berdua sudah ditentukan sejak lama.
+Dialogue: 0,0:01:53.83,0:01:56.27,dm,,0,0,0,,Setelah aku menyerap tubuh ini,
+Dialogue: 0,0:01:56.73,0:01:58.57,dm,,0,0,0,,Kak, bunuh aku!
+Dialogue: 0,0:02:01.43,0:02:03.03,dm,,0,0,0,,Lakukan!
+Dialogue: 0,0:02:03.47,0:02:05.30,dm,,0,0,0,,Bunuh adikmu!
+Dialogue: 0,0:02:05.47,0:02:06.83,dm,,0,0,0,,Siapa pun kau,
+Dialogue: 0,0:02:07.43,0:02:09.67,dm,,0,0,0,,jika kau berani melukai Ling'er, aku tidak akan memaafkanmu!
+Dialogue: 0,0:02:10.10,0:02:11.80,dm,,0,0,0,,Empat Arah Pengikat Roh, Kunci!
+Dialogue: 0,0:02:27.43,0:02:29.43,dm,,0,0,0,,Janin Rohmu belum terbentuk.
+Dialogue: 0,0:02:29.60,0:02:33.13,dm,,0,0,0,,Memaksa kebangkitan, lihat berapa lama kau bisa bertahan!
+Dialogue: 0,0:02:49.23,0:02:51.60,dm,,0,0,0,,Menekan Roh Jahat dan Memusnahkan Kejahatan, Segel!
+Dialogue: 0,0:03:17.90,0:03:21.33,dm,,0,0,0,,Mengorbankan Janin Roh, kau tidak akan pernah bisa menetaskan Roh!
+Dialogue: 0,0:03:21.87,0:03:23.93,dm,,0,0,0,,Meskipun Janin Roh-ku mati,
+Dialogue: 0,0:03:24.87,0:03:27.83,dm,,0,0,0,,aku tetap akan mengirimmu ke neraka!
+Dialogue: 0,0:03:34.73,0:03:37.17,dm,,0,0,0,,Saat aku bangkit kembali,
+Dialogue: 0,0:03:37.60,0:03:40.20,dm,,0,0,0,,itulah saat kalian berdua mati!
+Dialogue: 0,0:03:43.03,0:03:43.63,dm,,0,0,0,,Ling'er!
+Dialogue: 0,0:03:47.87,0:03:51.50,dm,,0,0,0,,Ada Kakak, jangan takut.
+Dialogue: 0,0:05:53.67,0:05:55.27,dm,,0,0,0,,Aku Ding Xiao.
+Dialogue: 0,0:05:55.67,0:05:58.73,dm,,0,0,0,,Karena menghancurkan Janin Roh-ku, akibatnya menjadi wujud rusak.
+Dialogue: 0,0:05:59.07,0:06:01.27,dm,,0,0,0,,Jadi sekarang aku adalah salah satu dari Divisi Penunduk Roh,
+Dialogue: 0,0:06:01.63,0:06:02.91,dm,,0,0,0,,pembawa Peti Mati.
+Dialogue: 0,0:06:07.37,0:06:07.97,dm,,0,0,0,,Pengawal.
+Dialogue: 0,0:06:08.47,0:06:10.47,dm,,0,0,0,,Masih ada satu jam sebelum tengah malam.
+Dialogue: 0,0:06:11.23,0:06:12.67,dm,,0,0,0,,Perjalanan ini jauh.
+Dialogue: 0,0:06:12.83,0:06:14.27,dm,,0,0,0,,Kita harus berjalan lebih jauh lagi.
+Dialogue: 0,0:06:14.93,0:06:16.27,dm,,0,0,0,,Senior benar.
+Dialogue: 0,0:06:16.37,0:06:18.37,dm,,0,0,0,,Hanya saja beban di belakang itu.
+Dialogue: 0,0:06:27.63,0:06:29.77,dm,,0,0,0,,Jika tidak kuat, untuk apa menjadi Penggendong Peti Mati?
+Dialogue: 0,0:06:30.03,0:06:31.00,dm,,0,0,0,,Sampah.
+Dialogue: 0,0:06:38.67,0:06:41.30,dm,,0,0,0,,Ding Xiao, kau harus berdiri tegak.
+Dialogue: 0,0:06:41.43,0:06:43.40,dm,,0,0,0,,Jika kau mengganggu yang di dalam.
+Dialogue: 0,0:06:43.43,0:06:44.70,dm,,0,0,0,,Jangan bicara soal upah.
+Dialogue: 0,0:06:44.73,0:06:46.47,dm,,0,0,0,,Menurut peraturan Divisi Penunduk Roh,
+Dialogue: 0,0:06:46.47,0:06:48.83,dm,,0,0,0,,kau bisa diusir dari Divisi.
+Dialogue: 0,0:06:49.13,0:06:51.20,dm,,0,0,0,,Sudah, perjalanan lebih penting.
+Dialogue: 0,0:06:51.83,0:06:54.33,dm,,0,0,0,,Jangan sampai bertemu Roh Jahat yang bangkit tengah malam.
+Dialogue: 0,0:06:54.33,0:06:55.90,dm,,0,0,0,,Baik, Senior.
+Dialogue: 0,0:06:56.23,0:06:58.13,dm,,0,0,0,,Jika bukan karena Ling'er,
+Dialogue: 0,0:06:58.53,0:07:00.40,dm,,0,0,0,,aku akan membuatmu berbaring di dalamnya.
+Dialogue: 0,0:07:12.33,0:07:15.20,dm,,0,0,0,,Meskipun kuil tua ini rusak, masih memiliki sedikit spiritualitas.
+Dialogue: 0,0:07:15.33,0:07:16.87,dm,,0,0,0,,Bisa menekan aura roh jahat.
+Dialogue: 0,0:07:17.23,0:07:18.60,dm,,0,0,0,,Tengah malam sudah dekat,
+Dialogue: 0,0:07:18.70,0:07:20.53,dm,,0,0,0,,mari kita beristirahat semalam di sini.
+Dialogue: 0,0:07:20.87,0:07:22.30,dm,,0,0,0,,Ikuti kata Senior.
+Dialogue: 0,0:07:26.83,0:07:30.30,dm,,0,0,0,,Lima belas tahun yang lalu, setelah Kota Luofeng dihancurkan oleh roh jahat.
+Dialogue: 0,0:07:30.37,0:07:32.70,dm,,0,0,0,,Kebangkitan roh jahat ini menjadi hal yang biasa.
+Dialogue: 0,0:07:32.77,0:07:34.53,dm,,0,0,0,,Bisa dibilang sembilan dari sepuluh mayat menjadi Roh Jahat.
+Dialogue: 0,0:07:35.03,0:07:38.83,dm,,0,0,0,,Junior, orang yang mati tidak wajar seperti ini paling mudah menjadi Roh Jahat.
+Dialogue: 0,0:07:38.93,0:07:40.77,dm,,0,0,0,,Jangan lengah.
+Dialogue: 0,0:07:40.77,0:07:41.70,dm,,0,0,0,,Baik, Senior.
+Dialogue: 0,0:07:43.77,0:07:44.70,dm,,0,0,0,,Minggir.
+Dialogue: 0,0:07:45.53,0:07:47.97,dm,,0,0,0,,Wujud lahir dari hati, mengumpulkan roh menjadi wujud.
+Dialogue: 0,0:07:48.33,0:07:50.73,dm,,0,0,0,,Tuan telah pergi, roh harus tersebar.
+Dialogue: 0,0:07:50.93,0:07:53.40,dm,,0,0,0,,Jimat Penenang Roh, menekan semua roh, tekan!
+Dialogue: 0,0:07:56.13,0:07:57.23,dm,,0,0,0,,Tengah malam sudah lewat.
+Dialogue: 0,0:07:59.03,0:07:59.90,dm,,0,0,0,,Pembawa Peti Mati.
+Dialogue: 0,0:07:59.93,0:08:02.60,dm,,0,0,0,,Malam ini kau yang berjaga, meskipun sudah lewat,
+Dialogue: 0,0:08:02.73,0:08:05.23,dm,,0,0,0,,jika ada sedikit saja kesalahan, aku akan mematahkan kakimu.
+Dialogue: 0,0:08:07.33,0:08:08.17,dm,,0,0,0,,Baik.
+Dialogue: 0,0:08:09.07,0:08:11.80,dm,,0,0,0,,Yun Niang, hidup di dunia ini sulit.
+Dialogue: 0,0:08:11.83,0:08:15.13,dm,,0,0,0,,Mati lebih sulit. Beristirahatlah dengan tenang.
+Dialogue: 0,0:08:15.73,0:08:17.63,dm,,0,0,0,,Apa itu jenius yang langka dalam seratus tahun?
+Dialogue: 0,0:08:17.87,0:08:21.30,dm,,0,0,0,,Dulu dia membentuk Janin Roh pada usia tujuh tahun, Divisi Penunduk Roh merekrutnya secara khusus.
+Dialogue: 0,0:08:21.37,0:08:22.50,dm,,0,0,0,,Dibina dengan hati-hati.
+Dialogue: 0,0:08:22.53,0:08:24.57,dm,,0,0,0,,Kita berdua hanya bisa iri.
+Dialogue: 0,0:08:25.47,0:08:27.10,dm,,0,0,0,,Dan lihatlah dia sekarang,
+Dialogue: 0,0:08:27.13,0:08:29.17,dm,,0,0,0,,apa bedanya dengan anjing yang kehilangan rumah?
+Dialogue: 0,0:08:29.73,0:08:30.67,dm,,0,0,0,,Ngomong-ngomong,
+Dialogue: 0,0:08:30.93,0:08:33.57,dm,,0,0,0,,dia awalnya adalah janin mati dengan wujud yang rusak, ditambah tubuhnya yang lemah ini,
+Dialogue: 0,0:08:33.77,0:08:35.73,dm,,0,0,0,,setidaknya harus menggunakan tiga Jimat Bulu Ringan,
+Dialogue: 0,0:08:35.87,0:08:38.50,dm,,0,0,0,,dia malah menggunakan satu Jimat Bulu Ringan.
+Dialogue: 0,0:08:44.63,0:08:46.10,dm,,0,0,0,,Wujud lahir dari hati.
+Dialogue: 0,0:08:46.13,0:08:47.20,dm,,0,0,0,,Mengumpulkan roh menjadi wujud.
+Dialogue: 0,0:08:47.23,0:08:50.63,dm,,0,0,0,,Wujud dan aku menyatu, itulah Master Roh.
+Dialogue: 0,0:08:53.73,0:08:55.63,dm,,0,0,0,,Mungkinkah itu benar-benar janin mati dengan wujud yang rusak?
+Dialogue: 0,0:08:56.47,0:08:58.13,dm,,0,0,0,,Apakah ini ada hubungannya dengan kabut hitam ini?
+Dialogue: 0,0:08:59.53,0:09:01.80,dm,,0,0,0,,Lima tahun, genap lima tahun.
+Dialogue: 0,0:09:01.87,0:09:03.57,dm,,0,0,0,,Aku masih belum bisa mengeluarkan wujud roh.
+Dialogue: 0,0:09:03.57,0:09:04.80,dm,,0,0,0,,Bagaimanapun juga,
+Dialogue: 0,0:09:04.83,0:09:08.30,dm,,0,0,0,,Aku, Ding Xiao, tidak menyerah, kau juga tidak boleh menyerah.
+Dialogue: 0,0:09:08.73,0:09:09.67,dm,,0,0,0,,Anakku.
+Dialogue: 0,0:09:10.43,0:09:15.10,dm,,0,0,0,,Anakku.
+Dialogue: 0,0:09:17.23,0:09:18.93,dm,,0,0,0,,Sangat lapar.
+Dialogue: 0,0:09:22.33,0:09:24.47,dm,,0,0,0,,Sangat lapar.
+Dialogue: 0,0:09:26.27,0:09:30.93,dm,,0,0,0,,Ding Xiao, kau berani menggerakkan Jimat Penenang Roh tanpa izin, ini adalah kejahatan mati.
+Dialogue: 0,0:09:31.63,0:09:32.97,dm,,0,0,0,,Bukan aku.
+Dialogue: 0,0:09:32.97,0:09:33.83,dm,,0,0,0,,Senior.
+Dialogue: 0,0:09:33.83,0:09:35.33,dm,,0,0,0,,Jam berapa sekarang?
+Dialogue: 0,0:09:35.33,0:09:38.07,dm,,0,0,0,,Bintang Kutub, kenapa berada di utara?
+Dialogue: 0,0:09:38.87,0:09:42.43,dm,,0,0,0,,Sekarang tepat tengah malam.
+Dialogue: 0,0:09:42.77,0:09:44.67,dm,,0,0,0,,Roh Jahat ini sudah lama memasang penghalang iblis.
+Dialogue: 0,0:09:44.67,0:09:46.90,dm,,0,0,0,,Membuat kami salah menilai waktu.
+Dialogue: 0,0:09:52.63,0:09:55.40,dm,,0,0,0,,Biao Xing, Roh Jahat muncul pada waktu tengah malam.
+Dialogue: 0,0:09:55.53,0:09:56.50,dm,,0,0,0,,Cepat panggil Rohmu!
+Dialogue: 0,0:09:56.83,0:09:58.93,dm,,0,0,0,,Roh lahir dari hati, kumpulkan energi menjadi Roh.
+Dialogue: 0,0:09:58.97,0:10:01.80,dm,,0,0,0,,- Serigala Perak Pengundang Bulan, muncul!\N- Rubah Api Bermata Ungu, muncul!
+Dialogue: 0,0:10:02.67,0:10:04.00,dm,,0,0,0,,Penghalang iblis ini terlalu kuat.
+Dialogue: 0,0:10:04.03,0:10:06.00,dm,,0,0,0,,Kita berdua, Murid Roh bintang dua, tidak bisa lagi memanggil Wujud Roh.
+Dialogue: 0,0:10:06.03,0:10:07.70,dm,,0,0,0,,Jangan lengah.
+Dialogue: 0,0:10:11.07,0:10:13.13,dm,,0,0,0,,Kudengar wanita yang dikawal kali ini bernama Yun Niang.
+Dialogue: 0,0:10:13.73,0:10:14.93,dm,,0,0,0,,Anaknya baru berusia sebulan.
+Dialogue: 0,0:10:14.97,0:10:16.60,dm,,0,0,0,,Dia sudah direbut untuk dijadikan selir.
+Dialogue: 0,0:10:18.33,0:10:20.27,dm,,0,0,0,,Pada akhirnya, dia tetap berumur pendek.
+Dialogue: 0,0:10:20.27,0:10:22.97,dm,,0,0,0,,Dan suaminya juga dibunuh.
+Dialogue: 0,0:10:32.23,0:10:34.77,dm,,0,0,0,,Sepertinya kalian semua sudah siap.
+Dialogue: 0,0:10:39.47,0:10:41.60,dm,,0,0,0,,Hanya seorang pembawa peti mati?
+Dialogue: 0,0:10:41.73,0:10:43.63,dm,,0,0,0,,Tunggu sampai Kakak memakan mereka berdua,
+Dialogue: 0,0:10:43.67,0:10:45.43,dm,,0,0,0,,baru akan memanjakanmu dengan baik.
+Dialogue: 0,0:10:45.97,0:10:47.23,dm,,0,0,0,,Beraninya kau, Roh Jahat!
+Dialogue: 0,0:10:47.33,0:10:48.93,dm,,0,0,0,,Berani lancang di hadapan Divisi Penunduk Roh kami!
+Dialogue: 0,0:10:52.03,0:10:52.90,dm,,0,0,0,,Junior!
+Dialogue: 0,0:10:53.03,0:10:55.63,dm,,0,0,0,,Pengikat Roh Empat Arah, kunci!
+Dialogue: 0,0:10:57.07,0:10:59.20,dm,,0,0,0,,Pengikat Roh Empat Arah, kunci!
+Dialogue: 0,0:11:02.77,0:11:05.10,dm,,0,0,0,,Apa gunanya kau muncul pada waktu tengah malam?
+Dialogue: 0,0:11:05.13,0:11:06.83,dm,,0,0,0,,Kau tetap akan menyerah dan dihukum mati.
+Dialogue: 0,0:11:07.53,0:11:09.70,dm,,0,0,0,,Adik kecil ini pandai bermain, ya.
+Dialogue: 0,0:11:26.87,0:11:27.77,dm,,0,0,0,,Junior!
+Dialogue: 0,0:11:29.17,0:11:29.87,dm,,0,0,0,,Pedang Api Suci.
+Dialogue: 0,0:11:30.19,0:11:30.90,dm,,0,0,0,,Bunuh!
+Dialogue: 0,0:11:42.63,0:11:44.33,dm,,0,0,0,,Hanya segitu.
+Dialogue: 0,0:11:49.37,0:11:52.13,dm,,0,0,0,,Junior, tolong aku!
+Dialogue: 0,0:12:00.17,0:12:03.33,dm,,0,0,0,,Tidak, aku tidak ingin mati, jangan!
+Dialogue: 0,0:12:04.57,0:12:07.67,dm,,0,0,0,,Lepaskan aku, lepaskan aku, aku mohon padamu!
+Dialogue: 0,0:12:08.67,0:12:10.63,dm,,0,0,0,,Aku, aku punya Jimat Roh,
+Dialogue: 0,0:12:10.67,0:12:13.37,dm,,0,0,0,,Ini semua untukmu, semua untukmu.
+Dialogue: 0,0:12:14.77,0:12:17.23,dm,,0,0,0,,Kakak hanya menginginkanmu.
+Dialogue: 0,0:12:36.63,0:12:41.07,dm,,0,0,0,,Pemuda, Kakak sudah lama menginginkanmu.
+Dialogue: 0,0:12:41.63,0:12:43.23,dm,,0,0,0,,Yun Niang, aku pernah melihat anakmu.
+Dialogue: 0,0:12:46.17,0:12:50.07,dm,,0,0,0,,Anak? Aku, aku punya anak?
+Dialogue: 0,0:12:50.63,0:12:52.23,dm,,0,0,0,,Benar, setelah kau diculik,
+Dialogue: 0,0:12:52.33,0:12:54.00,dm,,0,0,0,,suamimu juga dibunuh.
+Dialogue: 0,0:12:55.07,0:12:56.47,dm,,0,0,0,,Anak kalian dititipkan pada orang lain.
+Dialogue: 0,0:12:57.87,0:13:01.80,dm,,0,0,0,,Orang mati bangkit menjadi Roh Jahat, roh akan memakan jiwa orang mati.
+Dialogue: 0,0:13:01.83,0:13:03.40,dm,,0,0,0,,Gunakan obsesi orang mati saat hidup,
+Dialogue: 0,0:13:03.43,0:13:05.00,dm,,0,0,0,,mungkin bisa membangkitkan kesadarannya.
+Dialogue: 0,0:13:08.13,0:13:09.10,dm,,0,0,0,,Anak itu sangat pintar.
+Dialogue: 0,0:13:09.67,0:13:10.77,dm,,0,0,0,,Dia sudah bisa memanggil ibu.
+Dialogue: 0,0:13:11.33,0:13:14.27,dm,,0,0,0,,Aku akan membawamu ke Desa Li untuk menemuinya, mau?
+Dialogue: 0,0:13:14.43,0:13:15.47,dm,,0,0,0,,Baik.
+Dialogue: 0,0:13:17.63,0:13:19.37,dm,,0,0,0,,Baik.
+Dialogue: 0,0:13:20.77,0:13:24.53,dm,,0,0,0,,Anak nakal, diam kau!
+Dialogue: 0,0:13:41.50,0:13:45.03,dm,,0,0,0,,Jangan melawan lagi, kau bahkan tidak punya Wujud Roh.
+Dialogue: 0,0:13:45.13,0:13:47.20,dm,,0,0,0,,Apakah kau bisa menggunakan Jimat Roh?
+Dialogue: 0,0:13:47.83,0:13:49.40,dm,,0,0,0,,Kau bisa mencobanya.
+Dialogue: 0,0:14:01.37,0:14:03.13,dm,,0,0,0,,Api pembakar roh, Bakar!
+Dialogue: 0,0:14:06.93,0:14:09.17,dm,,0,0,0,,Siapa bilang tidak punya Wujud Roh tidak bisa menggunakan jimat?
+Dialogue: 0,0:14:09.17,0:14:10.87,dm,,0,0,0,,Teknik jimat tingkat rendah ini,
+Dialogue: 0,0:14:10.87,0:14:12.90,dm,,0,0,0,,aku sudah melatihnya puluhan ribu kali.
+Dialogue: 0,0:14:14.87,0:14:15.87,dm,,0,0,0,,Pergerakan Kilat!
+Dialogue: 0,0:14:22.03,0:14:23.80,dm,,0,0,0,,Lihat kau mau lari ke mana!
+Dialogue: 0,0:14:30.87,0:14:31.40,dm,,0,0,0,,Meledak!
+Dialogue: 0,0:14:49.00,0:14:50.13,dm,,0,0,0,,Pelindung Roh, halang!
+Dialogue: 0,0:15:05.73,0:15:06.87,dm,,0,0,0,,Tidak!
+Dialogue: 0,0:15:07.73,0:15:09.30,dm,,0,0,0,,Aku tidak bisa mati di sini.
+Dialogue: 0,0:15:09.83,0:15:11.77,dm,,0,0,0,,Penyakit Ling'er belum sembuh.
+Dialogue: 0,0:15:12.13,0:15:13.57,dm,,0,0,0,,Dia menungguku pulang.
+Dialogue: 0,0:15:14.07,0:15:16.93,dm,,0,0,0,,Kak, hati-hati di jalan.
+Dialogue: 0,0:15:17.43,0:15:18.97,dm,,0,0,0,,Pastikan kau kembali dengan selamat.
+Dialogue: 0,0:15:19.97,0:15:21.07,dm,,0,0,0,,Tenang saja.
+Dialogue: 0,0:15:21.07,0:15:22.93,dm,,0,0,0,,Kakakmu berumur panjang.
+Dialogue: 0,0:15:22.93,0:15:37.93,dm,,0,0,0,,Join Channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh dongworld.
+Dialogue: 0,0:16:13.23,0:16:16.53,dm,,0,0,0,,Aku Ding Xiao, pembawa peti mati dari Divisi Kota Nanlin.
+Dialogue: 0,0:16:16.93,0:16:18.30,dm,,0,0,0,,Terima kasih Nona telah menyelamatkanku.
+Dialogue: 0,0:16:19.73,0:16:21.33,dm,,0,0,0,,Aku mendeteksi ada tanda-tanda kebangkitan Roh Jahat di sini.
+Dialogue: 0,0:16:21.37,0:16:22.67,dm,,0,0,0,,Tapi aku tetap terlambat satu langkah.
+Dialogue: 0,0:16:24.23,0:16:25.80,dm,,0,0,0,,Dunia tidak adil.
+Dialogue: 0,0:16:26.33,0:16:27.83,dm,,0,0,0,,Suami meninggal, anak tercerai-berai.
+Dialogue: 0,0:16:28.43,0:16:29.83,dm,,0,0,0,,Berubah menjadi Roh Jahat.
+Dialogue: 0,0:16:30.25,0:16:32.30,dm,,0,0,0,,Akan kubalaskan dendam ini!
+Dialogue: 0,0:16:58.37,0:16:59.00,dm,,0,0,0,,Hati-hati!
+Dialogue: 0,0:17:03.13,0:17:04.37,dm,,0,0,0,,Roh lahir dari hati.
+Dialogue: 0,0:17:04.57,0:17:05.57,dm,,0,0,0,,Kumpulkan roh menjadi wujud.
+Dialogue: 0,0:17:06.00,0:17:06.43,dm,,0,0,0,,Keluar!
+Dialogue: 0,0:17:17.13,0:17:18.77,dm,,0,0,0,,Teknik Pedang Api Berkobar
+Dialogue: 0,0:17:26.47,0:17:28.60,dm,,0,0,0,,Wujud roh-ku, kembali!
+Dialogue: 0,0:17:39.07,0:17:42.27,dm,,0,0,0,,Nona, tunggu sebentar. Jika Roh Jahat ini dibunuh
+Dialogue: 0,0:17:42.57,0:17:45.47,dm,,0,0,0,,Dendam orang yang meninggal tidak akan bisa dihilangkan, dan jiwanya tidak akan tenang
+Dialogue: 0,0:17:46.57,0:17:47.67,dm,,0,0,0,,Kau ingin menyelamatkannya?
+Dialogue: 0,0:17:48.63,0:17:50.77,dm,,0,0,0,,Karena aku adalah murid Departemen Gui, kumohon
+Dialogue: 0,0:17:54.23,0:17:56.97,dm,,0,0,0,,Tidak, aku tidak bisa mati
+Dialogue: 0,0:17:57.73,0:17:59.87,dm,,0,0,0,,Ling'er masih menungguku pulang
+Dialogue: 0,0:18:01.23,0:18:03.13,dm,,0,0,0,,Berteriak selama lima tahun tanpa menyerah
+Dialogue: 0,0:18:03.27,0:18:04.17,dm,,0,0,0,,Aku hampir percaya
+Dialogue: 0,0:18:04.27,0:18:05.50,dm,,0,0,0,,Siapa yang bicara?
+Dialogue: 0,0:18:05.93,0:18:06.77,dm,,0,0,0,,Apakah aku sudah mati?
+Dialogue: 0,0:18:07.47,0:18:08.30,dm,,0,0,0,,Ini adalah
+Dialogue: 0,0:18:08.43,0:18:09.43,dm,,0,0,0,,Istana Rohku
+Dialogue: 0,0:18:09.87,0:18:11.50,dm,,0,0,0,,Wujud Roh macam apa kau sebenarnya?
+Dialogue: 0,0:18:16.37,0:18:20.47,dm,,0,0,0,,Kabut hitam ini, mengapa selalu menghalangi Embrio Roh untuk menetas?
+Dialogue: 0,0:18:22.43,0:18:24.13,dm,,0,0,0,,Dari mana datangnya jimat emas ini?
+Dialogue: 0,0:18:25.10,0:18:26.63,dm,,0,0,0,,Sepertinya sedang mengusir kabut hitam itu
+Dialogue: 0,0:18:29.97,0:18:31.37,dm,,0,0,0,,Embrio Roh
+Dialogue: 0,0:18:32.03,0:18:33.93,dm,,0,0,0,,Akhirnya menetas
+Dialogue: 0,0:18:37.50,0:18:38.63,dm,,0,0,0,,Lima tahun
+Dialogue: 0,0:18:39.37,0:18:41.37,dm,,0,0,0,,Aku hampir mati kebosanan
+Dialogue: 0,0:18:41.63,0:18:44.43,dm,,0,0,0,,Ayo, regangkan otot-ototmu
+Dialogue: 0,0:18:51.03,0:18:51.67,dm,,0,0,0,,Paku
+Dialogue: 0,0:18:52.33,0:18:53.37,dm,,0,0,0,,Serahkan laba-laba kecil ini padaku
+Dialogue: 0,0:18:54.10,0:18:55.07,dm,,0,0,0,,Kau belajar baik-baik
+Dialogue: 0,0:19:23.13,0:19:26.57,dm,,0,0,0,,Ini saja tidak cukup untuk membangkitkan seleraku
+Dialogue: 0,0:19:27.33,0:19:28.57,dm,,0,0,0,,Wujud Roh membalas
+Dialogue: 0,0:19:28.97,0:19:31.60,dm,,0,0,0,,Tidak, itu Wujud Rohnya
+Dialogue: 0,0:19:31.63,0:19:33.53,dm,,0,0,0,,Sedang melahap Roh Jahat
+Dialogue: 0,0:19:37.37,0:19:41.40,dm,,0,0,0,,Ah, lepaskan aku! Cepat lepaskan aku!
+Dialogue: 0,0:19:42.63,0:19:47.93,dm,,0,0,0,,Mengapa? Aku tidak rela! Tidak rela!
+Dialogue: 0,0:20:08.33,0:20:11.03,dm,,0,0,0,,Fenomena aneh. Menurut peraturan Departemen Penjaga Roh
+Dialogue: 0,0:20:11.23,0:20:14.07,dm,,0,0,0,,Di masa kekacauan Roh Jahat, mereka yang memiliki fenomena aneh harus dihukum mati
+Dialogue: 0,0:20:14.57,0:20:16.80,dm,,0,0,0,,Aku... bukan
+Dialogue: 0,0:20:17.83,0:20:20.23,dm,,0,0,0,,Apakah kau benar-benar pernah melihat anakku?
+Dialogue: 0,0:20:21.23,0:20:23.47,dm,,0,0,0,,Belum pernah
+Dialogue: 0,0:20:24.23,0:20:26.03,dm,,0,0,0,,Saat aku meninggalkan anakku
+Dialogue: 0,0:20:26.27,0:20:27.77,dm,,0,0,0,,Dia belum genap seratus hari
+Dialogue: 0,0:20:29.53,0:20:31.80,dm,,0,0,0,,Sekarang dia pasti sudah bisa memanggil 'ibu', kan?
+Dialogue: 0,0:20:32.73,0:20:35.10,dm,,0,0,0,,Kumohon, bawa aku menemuinya
+Dialogue: 0,0:20:35.13,0:20:38.30,dm,,0,0,0,,Hanya melihatnya sebentar, kumohon pada kalian
+Dialogue: 0,0:20:39.63,0:20:40.57,dm,,0,0,0,,Nona ini
+Dialogue: 0,0:20:40.87,0:20:42.87,dm,,0,0,0,,Bisakah kau menunggu sampai aku menyelesaikan keinginan terakhirnya?
+Dialogue: 0,0:20:43.47,0:20:45.97,dm,,0,0,0,,Lalu kau bisa melakukan apa pun yang kau inginkan padaku, bagaimana?
+Dialogue: 0,0:20:51.17,0:20:52.63,dm,,0,0,0,,Jiwa telah terlepas dari tubuh
+Dialogue: 0,0:20:53.17,0:20:54.70,dm,,0,0,0,,Jika tidak diselamatkan dalam waktu satu seperempat jam
+Dialogue: 0,0:20:55.03,0:20:56.27,dm,,0,0,0,,Maka jiwamu akan hancur.
+Dialogue: 0,0:20:57.23,0:20:58.97,dm,,0,0,0,,Aku akan menggunakan Jimat Penenang Roh untuk melindungi sisa jiwamu.
+Dialogue: 0,0:20:59.53,0:21:00.80,dm,,0,0,0,,Dan membawamu menemui anakmu.
+Dialogue: 0,0:21:02.17,0:21:03.77,dm,,0,0,0,,Terima kasih banyak, Penyelamat.
+Dialogue: 0,0:21:16.93,0:21:20.00,dm,,0,0,0,,Sayang, jangan menangis. Anak baik, jangan menangis.
+Dialogue: 0,0:21:20.53,0:21:21.70,dm,,0,0,0,,Apakah kamu lapar?
+Dialogue: 0,0:21:21.93,0:21:23.90,dm,,0,0,0,,Yun Niang, itu anakmu.
+Dialogue: 0,0:21:51.53,0:21:52.60,dm,,0,0,0,,Yun Niang.
+Dialogue: 0,0:21:52.77,0:21:54.97,dm,,0,0,0,,Kita terpisah oleh dunia, dan anak kita masih kecil.
+Dialogue: 0,0:21:57.67,0:22:00.43,dm,,0,0,0,,Anakku, maafkan ibumu.
+Dialogue: 0,0:22:00.53,0:22:02.23,dm,,0,0,0,,Yang tidak bisa menemanimu tumbuh dewasa.
+Dialogue: 0,0:22:03.23,0:22:05.60,dm,,0,0,0,,Ibu akan melindungimu dari penyakit.
+Dialogue: 0,0:22:05.73,0:22:07.23,dm,,0,0,0,,Kelaparan dan kedinginan.
+Dialogue: 0,0:22:08.13,0:22:09.73,dm,,0,0,0,,Aku tidak meminta kamu menjadi kaya dan mulia.
+Dialogue: 0,0:22:10.47,0:22:13.60,dm,,0,0,0,,Aku hanya meminta kamu hidup damai dan aman.
+Dialogue: 0,0:22:17.93,0:22:19.67,dm,,0,0,0,,Yun Niang, waktunya sudah tiba.
+Dialogue: 0,0:22:19.67,0:22:20.83,dm,,0,0,0,,Aku akan mengantarmu pergi.
+Dialogue: 0,0:22:23.77,0:22:25.00,dm,,0,0,0,,Terima kasih atas bantuanmu, Tuan.
+Dialogue: 0,0:22:30.60,0:22:32.00,dm,,0,0,0,,Yang hidup adalah pengembara.
+Dialogue: 0,0:22:33.83,0:22:35.30,dm,,0,0,0,,Yang meninggal adalah yang kembali.
+Dialogue: 0,0:22:37.67,0:22:38.93,dm,,0,0,0,,Langit dan bumi adalah penginapan.
+Dialogue: 0,0:22:40.07,0:22:43.40,dm,,0,0,0,,Bersama meratapi debu abadi.
+Dialogue: 0,0:23:24.93,0:23:26.30,dm,,0,0,0,,Nona.
+Dialogue: 0,0:23:26.63,0:23:27.80,dm,,0,0,0,,Urusan sudah selesai!
+Dialogue: 0,0:23:29.07,0:23:30.40,dm,,0,0,0,,Kamu bisa bertindak sekarang.
+Dialogue: 0,0:23:32.83,0:23:34.30,dm,,0,0,0,,Aku tidak berminat hari ini.
+Dialogue: 0,0:23:34.67,0:23:36.23,dm,,0,0,0,,Nyawamu akan kusimpan dulu.
+Dialogue: 0,0:23:36.97,0:23:38.53,dm,,0,0,0,,Jika suatu hari kamu membuat kekacauan dengan wujud anehmu,
+Dialogue: 0,0:23:39.57,0:23:40.97,dm,,0,0,0,,Aku sendiri yang akan mengambilnya.
+Dialogue: 0,0:23:50.47,0:23:53.03,dm,,0,0,0,,Cepat berkemas, segera pergi ke Li Zhuang.
+Dialogue: 0,0:23:54.13,0:23:56.03,dm,,0,0,0,,Ini tidak seperti Jimat Spiritual dari Departemen Penjaga Roh.
+Dialogue: 0,0:23:56.33,0:23:58.53,dm,,0,0,0,,Mungkinkah ini ada hubungannya dengan kebangkitan roh jahat Yun Niang?
+Dialogue: 0,0:24:12.73,0:24:14.40,dm,,0,0,0,,Departemen Gui mengeluarkan perintah.
+Dialogue: 0,0:24:14.43,0:24:17.47,dm,,0,0,0,,Lampu kehidupan kedua penjaga padam saat mengawal peti mati.
+Dialogue: 0,0:24:17.53,0:24:20.20,dm,,0,0,0,,Pembawa peti mati, Ding Xiao, yang ikut serta, memiliki kecurigaan besar.
+Dialogue: 0,0:24:20.73,0:24:22.30,dm,,0,0,0,,Segera bawa kembali ke Departemen Gui untuk diinterogasi.
+Dialogue: 0,0:24:24.13,0:24:27.10,dm,,0,0,0,,Satu masalah belum selesai, masalah lain muncul.
+Dialogue: 0,0:24:32.23,0:24:34.53,dm,,0,0,0,,Departemen Gui benar-benar sekelompok pengecut.
+Dialogue: 0,0:24:35.23,0:24:36.83,dm,,0,0,0,,Mengirim seorang pejabat yang tidak berguna untuk mempermalukan diri sendiri.
+Dialogue: 0,0:24:38.60,0:24:39.80,dm,,0,0,0,,Akhirnya aku bisa meningkatkan Ranahku.
+Dialogue: 0,0:24:40.53,0:24:41.67,dm,,0,0,0,,Kunci selanjutnya adalah...
+Dialogue: 0,0:24:42.47,0:24:43.67,dm,,0,0,0,,Menerobos titik akupunktur Shen Ting.
+Dialogue: 0,0:24:45.73,0:24:46.90,dm,,0,0,0,,Berani mengolok-olok Ling'er?
+Dialogue: 0,0:24:47.23,0:24:48.77,dm,,0,0,0,,Aku akan mencabut gigi anjingmu.
+Dialogue: 0,0:24:53.10,0:24:54.40,dm,,0,0,0,,Lima belas tahun sudah berlalu.
+Dialogue: 0,0:24:55.50,0:24:57.30,dm,,0,0,0,,Akhirnya aku menemukanmu.

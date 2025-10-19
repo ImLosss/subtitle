@@ -1,0 +1,220 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.60,0:00:13.63,tales,,0,0,0,,Selama bertahun-tahun, kami para jagoan padang rumput menunggumu untuk membunuhmu.
+Dialogue: 0,0:00:13.83,0:00:15.43,tales,,0,0,0,,Merebut gelar Penguasa Perang.
+Dialogue: 0,0:00:29.90,0:00:31.90,tales,,0,0,0,,Aku memang bukan orang padang rumput.
+Dialogue: 0,0:00:32.20,0:00:34.27,tales,,0,0,0,,Aku hanya mengikuti guruku berkunjung ke sini,
+Dialogue: 0,0:00:34.33,0:00:36.30,tales,,0,0,0,,lalu mengalahkan semua jagoan padang rumput.
+Dialogue: 0,0:00:36.93,0:00:38.60,tales,,0,0,0,,Seratus pertempuran tanpa satu kekalahan.
+Dialogue: 0,0:00:38.73,0:00:41.07,tales,,0,0,0,,Hingga kalian memujaku sebagai Penguasa Perang.
+Dialogue: 0,0:00:42.50,0:00:43.90,tales,,0,0,0,,Bolehkah aku bertanya, Penguasa Perang?
+Dialogue: 0,0:00:44.07,0:00:46.67,tales,,0,0,0,,Urusan penting apa yang membawamu ke padang rumput kami kali ini?
+Dialogue: 0,0:00:46.73,0:00:50.37,tales,,0,0,0,,Murid-murid Akademi Agungku ingin mengulangi perjalananku dulu.
+Dialogue: 0,0:00:50.77,0:00:53.73,tales,,0,0,0,,Memblokir gerbang Istana Emas Loulan.
+Dialogue: 0,0:00:53.85,0:00:54.98,tales,,0,0,0,,Memblokir gerbang?
+Dialogue: 0,0:00:57.10,0:00:58.83,tales,,0,0,0,,Para jagoan dari tempat suci nomor satu di luar tembok.
+Dialogue: 0,0:00:59.00,0:01:00.43,tales,,0,0,0,,Memang layak untuk ditemui.
+Dialogue: 0,0:01:02.07,0:01:03.80,tales,,0,0,0,,Hanya dengan mereka?
+Dialogue: 0,0:01:04.50,0:01:06.10,tales,,0,0,0,,Dulu ada Penguasa Langit,
+Dialogue: 0,0:01:06.23,0:01:08.03,tales,,0,0,0,,Penguasa Perang baru bisa memblokir gerbang dengan sukses.
+Dialogue: 0,0:01:08.33,0:01:11.57,tales,,0,0,0,,Sekarang, seberapa kuatkah kekuatanmu dibandingkan Penguasa Langit?
+Dialogue: 0,0:01:14.90,0:01:18.60,tales,,0,0,0,,Meski tidak sebanding, jaraknya tidak jauh.
+Dialogue: 0,0:01:19.40,0:01:20.47,tales,,0,0,0,,Kami menyembah elang dan serigala.
+Dialogue: 0,0:01:20.70,0:01:22.17,tales,,0,0,0,,Cepat laporkan ke Istana Emas.
+Dialogue: 0,0:01:22.17,0:01:37.17,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:01:43.05,0:01:43.84,tales,,0,0,0,,Tuan Penyihir Agung.
+Dialogue: 0,0:01:44.40,0:01:45.87,tales,,0,0,0,,Penguasa Perang telah kembali.
+Dialogue: 0,0:02:11.22,0:02:13.22,tales,,0,0,0,,Sampaikan perintah!
+Dialogue: 0,0:02:13.22,0:02:15.15,tales,,0,0,0,,Izinkan mereka lewat.
+Dialogue: 0,0:03:00.20,0:03:02.03,tales,,0,0,0,,Guru Bashan adalah Penguasa Perang.
+Dialogue: 0,0:03:02.40,0:03:03.63,tales,,0,0,0,,Lalu siapa Penguasa Langit?
+Dialogue: 0,0:03:05.27,0:03:07.23,tales,,0,0,0,,Guruku, Pedang Langit.
+Dialogue: 0,0:03:12.33,0:03:14.40,tales,,0,0,0,,Kakak Seperguruan sengaja menonjolkan urusan memblokir gerbang,
+Dialogue: 0,0:03:14.87,0:03:17.57,tales,,0,0,0,,rencananya untuk mengalihkan perhatian dan mencuri harta karun, kan?
+Dialogue: 0,0:03:18.14,0:03:19.07,tales,,0,0,0,,Benar.
+Dialogue: 0,0:03:19.07,0:03:20.00,tales,,0,0,0,,Kalian berdua blokir gerbang,
+Dialogue: 0,0:03:20.17,0:03:21.43,tales,,0,0,0,,aku yang masuk ke istana untuk mencuri.
+Dialogue: 0,0:03:21.77,0:03:23.67,tales,,0,0,0,,Setelah berhasil, kita langsung pergi.
+Dialogue: 0,0:03:24.33,0:03:26.20,tales,,0,0,0,,Mencuri harta karun tempat suci?
+Dialogue: 0,0:03:26.47,0:03:27.50,tales,,0,0,0,,Semenarik itu?
+Dialogue: 0,0:03:28.63,0:03:29.93,tales,,0,0,0,,Sepanjang perjalanan kita kemari,
+Dialogue: 0,0:03:30.40,0:03:32.17,tales,,0,0,0,,kita belum melihat satu pun bayangan Penyihir Agung.
+Dialogue: 0,0:03:32.70,0:03:35.27,tales,,0,0,0,,Pasti mereka sudah dipanggil kembali ke Istana Emas Loulan.
+Dialogue: 0,0:03:35.77,0:03:38.43,tales,,0,0,0,,Mempersiapkan jebakan menunggu untuk menyerang Kakak Seperguruan.
+Dialogue: 0,0:03:39.57,0:03:41.07,tales,,0,0,0,,Jika benar-benar sampai di dalam istana,
+Dialogue: 0,0:03:41.53,0:03:43.20,tales,,0,0,0,,Kakak Seperguruan mungkin kewalahan.
+Dialogue: 0,0:03:43.87,0:03:44.90,tales,,0,0,0,,Apa yang ingin kau lakukan?
+Dialogue: 0,0:03:45.23,0:03:48.10,tales,,0,0,0,,Aku pernah belajar teknik mencuri dari Kakek Pincang.
+Dialogue: 0,0:03:48.53,0:03:50.17,tales,,0,0,0,,Kakeknya sangat hebat.
+Dialogue: 0,0:03:50.80,0:03:51.87,tales,,0,0,0,,Kenapa dia pincang?
+Dialogue: 0,0:03:52.40,0:03:54.37,tales,,0,0,0,,Sepertinya saat sedang mencuri,
+Dialogue: 0,0:03:54.53,0:03:56.33,tales,,0,0,0,,seseorang memotong salah satu kakinya.
+Dialogue: 0,0:03:56.83,0:03:58.20,tales,,0,0,0,,Kakinya sampai dipotong dan menjadi pincang.
+Dialogue: 0,0:03:58.50,0:03:59.80,tales,,0,0,0,,Itu membuktikan kemampuannya tidak sempurna.
+Dialogue: 0,0:04:00.73,0:04:02.10,tales,,0,0,0,,Di dalam Istana Emas Loulan,
+Dialogue: 0,0:04:02.10,0:04:03.17,tales,,0,0,0,,banyak jebakan,
+Dialogue: 0,0:04:03.17,0:04:04.33,tales,,0,0,0,,segel tersebar di mana-mana.
+Dialogue: 0,0:04:04.70,0:04:06.93,tales,,0,0,0,,Teknik mencuri biasa sama sekali tidak berguna.
+Dialogue: 0,0:04:07.13,0:04:09.63,tales,,0,0,0,,Kalian cukup memblokir gerbang Istana Emas Loulan.
+Dialogue: 0,0:04:10.23,0:04:11.47,tales,,0,0,0,,Sisanya serahkan padaku.
+Dialogue: 0,0:04:24.10,0:04:25.20,tales,,0,0,0,,Semoga kau tidak perlu menggunakannya.
+Dialogue: 0,0:04:38.33,0:04:39.60,tales,,0,0,0,,Adik.
+Dialogue: 0,0:04:39.60,0:04:41.57,tales,,0,0,0,,Kulitmu sangat putih.
+Dialogue: 0,0:04:42.17,0:04:43.23,tales,,0,0,0,,Suka makan peony tidak?
+Dialogue: 0,0:04:44.20,0:04:46.40,tales,,0,0,0,,Tidak, kau jantan atau betina?
+Dialogue: 0,0:04:54.57,0:04:56.07,tales,,0,0,0,,Dia betina.
+Dialogue: 0,0:04:59.30,0:05:00.90,tales,,0,0,0,,Adik.
+Dialogue: 0,0:05:00.90,0:05:04.20,tales,,0,0,0,,Kau memang cantik sekali.
+Dialogue: 0,0:05:16.27,0:05:17.60,tales,,0,0,0,,Sudah sampai di tempat suci.
+Dialogue: 0,0:05:18.00,0:05:18.93,tales,,0,0,0,,Penguasa Perang.
+Dialogue: 0,0:05:19.27,0:05:20.87,tales,,0,0,0,,Jalan di depan penuh rintangan.
+Dialogue: 0,0:05:22.15,0:05:23.87,tales,,0,0,0,,Silakan.
+Dialogue: 0,0:05:32.50,0:05:34.70,tales,,0,0,0,,Danau ini disebut Danau Air Lemah.
+Dialogue: 0,0:05:35.00,0:05:37.43,tales,,0,0,0,,Ini adalah satu-satunya jalan menuju Istana Emas Loulan.
+Dialogue: 0,0:05:46.73,0:05:51.13,tales,,0,0,0,,Apakah ini semua budak yang diculik oleh Kultus Penyihir?
+Dialogue: 0,0:05:51.80,0:05:54.10,tales,,0,0,0,,Mereka adalah rakyat Yankang-ku.
+Dialogue: 0,0:05:55.33,0:05:57.30,tales,,0,0,0,,Yankang juga membunuh rakyat Daxu-ku.
+Dialogue: 0,0:05:58.03,0:05:59.37,tales,,0,0,0,,Menganggap mereka sebagai budak.
+Dialogue: 0,0:06:05.07,0:06:08.70,tales,,0,0,0,,Jiwa mereka sepertinya diambil untuk ritual sihir.
+Dialogue: 0,0:06:13.13,0:06:15.30,tales,,0,0,0,,"Kitab Tuan Penyihir Agung Loulan" dari Istana Emas Loulan.
+Dialogue: 0,0:06:15.53,0:06:17.27,tales,,0,0,0,,Menekankan pada pengambilan jiwa untuk kultivasi.
+Dialogue: 0,0:06:17.50,0:06:20.03,tales,,0,0,0,,Membuat struktur tubuh mendekati dewa dan iblis.
+Dialogue: 0,0:06:20.47,0:06:22.77,tales,,0,0,0,,Yang berhasil menguasai kekuatan magis disebut Penyihir Agung.
+Dialogue: 0,0:06:23.03,0:06:25.70,tales,,0,0,0,,Saat mencapai ranah Makhluk Surgawi, disebut Raja Penyihir.
+Dialogue: 0,0:06:29.59,0:06:30.59,tales,,0,0,0,,Sepertinya,
+Dialogue: 0,0:06:31.20,0:06:34.13,tales,,0,0,0,,Penyihir Agung itu seharusnya menyerap banyak jiwa siluman kambing.
+Dialogue: 0,0:06:42.80,0:06:43.93,tales,,0,0,0,,Penguasa Perang.
+Dialogue: 0,0:06:44.87,0:06:47.00,tales,,0,0,0,,Tuan Penyihir Agung telah menunggu lama.
+Dialogue: 0,0:06:48.67,0:06:50.07,tales,,0,0,0,,Silakan naik kapal.
+Dialogue: 0,0:06:54.30,0:06:56.20,tales,,0,0,0,,Tidak bisakah kita berjalan di air atau memutar?
+Dialogue: 0,0:06:56.77,0:06:59.97,tales,,0,0,0,,Atau biarkan Sapi Hijau terbangkan kita juga bisa.
+Dialogue: 0,0:07:01.47,0:07:03.87,tales,,0,0,0,,Air Lemah tempat suci tidak memiliki daya apung.
+Dialogue: 0,0:07:04.23,0:07:07.20,tales,,0,0,0,,Bulu pun akan tenggelam jika mengapung di atasnya.
+Dialogue: 0,0:07:07.87,0:07:10.70,tales,,0,0,0,,Memutarinya perlu melewati gunung salju.
+Dialogue: 0,0:07:13.07,0:07:15.30,tales,,0,0,0,,Tidak banyak yang bisa keluar dari gunung salju.
+Dialogue: 0,0:07:15.73,0:07:16.97,tales,,0,0,0,,Sedangkan untuk terbang,
+Dialogue: 0,0:07:20.63,0:07:23.27,tales,,0,0,0,,udara di sini mematikan.
+Dialogue: 0,0:07:28.10,0:07:28.57,tales,,0,0,0,,Naik kapal saja.
+Dialogue: 0,0:07:29.57,0:07:44.57,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:08:57.03,0:08:59.70,tales,,0,0,0,,Kultivasi Penguasa Perang sangat dalam.
+Dialogue: 0,0:08:59.70,0:09:01.37,tales,,0,0,0,,Lebih hebat dari sebelumnya.
+Dialogue: 0,0:09:01.76,0:09:04.59,tales,,0,0,0,,Silakan naik ke gunung sebentar.
+Dialogue: 0,0:09:07.00,0:09:08.20,tales,,0,0,0,,Tuan Penyihir Agung memberi perintah,
+Dialogue: 0,0:09:08.77,0:09:10.37,tales,,0,0,0,,Ba Shan tentu harus patuh.
+Dialogue: 0,0:09:10.95,0:09:11.73,tales,,0,0,0,,Tapi,
+Dialogue: 0,0:09:11.73,0:09:13.53,tales,,0,0,0,,kali ini aku datang untuk memblokir gerbang.
+Dialogue: 0,0:09:14.03,0:09:15.43,tales,,0,0,0,,Bukan untuk mengobrol.
+Dialogue: 0,0:09:15.69,0:09:16.21,tales,,0,0,0,,Niuniu.
+Dialogue: 0,0:09:16.81,0:09:18.65,tales,,0,0,0,,Antarkan gerbang ke atas gunung!
+Dialogue: 0,0:09:20.30,0:09:21.63,tales,,0,0,0,,Antarkan gerbang ke atas gunung?
+Dialogue: 0,0:09:22.63,0:09:37.63,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:10:50.00,0:10:51.90,tales,,0,0,0,,Tuan Penyihir Agung.
+Dialogue: 0,0:10:52.46,0:10:53.90,tales,,0,0,0,,Penguasa Perang.
+Dialogue: 0,0:10:53.90,0:10:56.23,tales,,0,0,0,,Kau sudah bebas begitu lama.
+Dialogue: 0,0:10:56.37,0:10:59.27,tales,,0,0,0,,Mengapa hari ini menyerahkan diri?
+Dialogue: 0,0:10:59.37,0:11:00.83,tales,,0,0,0,,Menyerahkan diri?
+Dialogue: 0,0:11:01.20,0:11:02.73,tales,,0,0,0,,Perkataan itu benar.
+Dialogue: 0,0:11:03.38,0:11:04.17,tales,,0,0,0,,Niuniu,
+Dialogue: 0,0:11:04.80,0:11:06.47,tales,,0,0,0,,turunkan gerbangnya!
+Dialogue: 0,0:11:20.03,0:11:22.73,tales,,0,0,0,,Dulu saat aku memblokir gerbang selama seratus hari.
+Dialogue: 0,0:11:22.87,0:11:24.67,tales,,0,0,0,,Tak bisa menahan diri saat menghadapi orang kuat,
+Dialogue: 0,0:11:26.00,0:11:27.40,tales,,0,0,0,,hanya bisa membunuhnya.
+Dialogue: 0,0:11:28.20,0:11:32.50,tales,,0,0,0,,Justru yang lemah-lah yang selamat di tanganku.
+Dialogue: 0,0:11:32.67,0:11:36.70,tales,,0,0,0,,Yaitu kalian semua yang hadir di sini hari ini.
+Dialogue: 0,0:11:42.23,0:11:44.10,tales,,0,0,0,,Luka kami sudah lama sembuh.
+Dialogue: 0,0:11:44.60,0:11:47.37,tales,,0,0,0,,Selama bertahun-tahun kami terus mengumpulkan kekuatan.
+Dialogue: 0,0:11:47.53,0:11:50.30,tales,,0,0,0,,Sangat ingin bertarung lagi dengan Penguasa Perang.
+Dialogue: 0,0:11:52.03,0:11:53.63,tales,,0,0,0,,Akan ada kesempatannya.
+Dialogue: 0,0:11:54.20,0:11:57.77,tales,,0,0,0,,Aku pernah membunuh banyak orang di bawah gerbang Tao ini bersama guruku.
+Dialogue: 0,0:11:58.43,0:12:01.43,tales,,0,0,0,,Sekarang gerbang ini kuserahkan pada kalian.
+Dialogue: 0,0:12:02.40,0:12:05.70,tales,,0,0,0,,Apa aturan memblokir gerbang di sini berbeda dengan di Yankang?
+Dialogue: 0,0:12:06.63,0:12:09.63,tales,,0,0,0,,Gerbang Tao dan Sekte Suara Guntur Agung memblokir gerbang Akademi Agung.
+Dialogue: 0,0:12:09.80,0:12:11.93,tales,,0,0,0,,Hanya menentukan kemenangan, bukan hidup mati.
+Dialogue: 0,0:12:12.33,0:12:14.13,tales,,0,0,0,,Setelah bertarung, tetap rukun.
+Dialogue: 0,0:12:15.00,0:12:18.03,tales,,0,0,0,,Tapi di sini semuanya bertarung sampai mati.
+Dialogue: 0,0:12:18.47,0:12:20.87,tales,,0,0,0,,Jika bertemu ahli yang setara denganmu,
+Dialogue: 0,0:12:21.00,0:12:22.47,tales,,0,0,0,,harus membunuhnya.
+Dialogue: 0,0:12:25.93,0:12:28.00,tales,,0,0,0,,Akhirnya sesuai aturan Daxu.
+Dialogue: 0,0:12:28.53,0:12:30.37,tales,,0,0,0,,Jika kalian kalah,
+Dialogue: 0,0:12:30.37,0:12:32.17,tales,,0,0,0,,selain nyawamu,
+Dialogue: 0,0:12:32.23,0:12:35.20,tales,,0,0,0,,gelar Penguasa Perang yang diberikan padamu,
+Dialogue: 0,0:12:35.20,0:12:37.50,tales,,0,0,0,,akan kucabut juga.
+Dialogue: 0,0:12:37.92,0:12:38.87,tales,,0,0,0,,Tuan Penyihir Agung.
+Dialogue: 0,0:12:38.87,0:12:40.53,tales,,0,0,0,,Mereka berada di tingkat Lima Cahaya.
+Dialogue: 0,0:12:41.30,0:12:44.23,tales,,0,0,0,,Murid Istana Emas Loulan, dengarkan perintah.
+Dialogue: 0,0:12:44.40,0:12:47.17,tales,,0,0,0,,Lawan mereka di tingkat Lima Cahaya.
+Dialogue: 0,0:12:47.20,0:12:49.23,tales,,0,0,0,,Hidup mati tidak diperhitungkan.
+Dialogue: 0,0:12:49.50,0:12:52.63,tales,,0,0,0,,Siapa yang berani melebihi tingkat Lima Cahaya,
+Dialogue: 0,0:12:52.90,0:12:55.13,tales,,0,0,0,,akan kurenggut nyawanya.
+Dialogue: 0,0:12:56.05,0:12:58.25,tales,,0,0,0,,Baik.
+Dialogue: 0,0:12:59.70,0:13:01.23,tales,,0,0,0,,Penguasa Perang.
+Dialogue: 0,0:13:01.27,0:13:05.10,tales,,0,0,0,,Dulu Penguasa Langit membawamu ke Istana Emas kami untuk memblokir gerbang.
+Dialogue: 0,0:13:05.20,0:13:07.60,tales,,0,0,0,,Kekuatan magis Penguasa Langit tak terbatas,
+Dialogue: 0,0:13:07.60,0:13:09.40,tales,,0,0,0,,tentu saja patut dikagumi.
+Dialogue: 0,0:13:09.63,0:13:12.20,tales,,0,0,0,,Tapi kau bukan Penguasa Langit.
+Dialogue: 0,0:13:13.60,0:13:15.40,tales,,0,0,0,,Selama kalian tidak bisa membunuhku.
+Dialogue: 0,0:13:15.50,0:13:18.27,tales,,0,0,0,,Harus menantang mereka sesuai aturan.
+Dialogue: 0,0:13:20.13,0:13:22.57,tales,,0,0,0,,Tuan, jangan sampai mereka terbunuh.
+Dialogue: 0,0:13:22.67,0:13:24.07,tales,,0,0,0,,Pulang nanti makan daging sapi!
+Dialogue: 0,0:13:28.03,0:13:30.20,tales,,0,0,0,,Dua bocah nekat.
+Dialogue: 0,0:13:30.43,0:13:33.27,tales,,0,0,0,,Kalian tahu kalian sedang memblokir gerbang tempat suci?
+Dialogue: 0,0:13:34.06,0:13:34.93,tales,,0,0,0,,Kakak Senior.
+Dialogue: 0,0:13:35.80,0:13:38.60,tales,,0,0,0,,Tata krama adalah milik Yankang kalian.
+Dialogue: 0,0:13:38.90,0:13:41.37,tales,,0,0,0,,Tempat suci kami tidak punya banyak aturan.
+Dialogue: 0,0:13:41.53,0:13:43.40,tales,,0,0,0,,Setelah membunuh kalian,
+Dialogue: 0,0:13:43.67,0:13:45.93,tales,,0,0,0,,akan kuhisap jiwa kalian.
+Dialogue: 0,0:13:46.07,0:13:48.20,tales,,0,0,0,,Menggunakan orang seperti kalian untuk kultivasi,
+Dialogue: 0,0:13:48.50,0:13:51.17,tales,,0,0,0,,jauh lebih kuat daripada menggunakan budak-budak itu.
+Dialogue: 0,0:13:53.50,0:13:54.57,tales,,0,0,0,,Adik Yuxiu,
+Dialogue: 0,0:13:55.13,0:13:56.40,tales,,0,0,0,,kali ini aku duluan.
+Dialogue: 0,0:14:04.77,0:14:06.33,tales,,0,0,0,,Lawan terlalu lemah.
+Dialogue: 0,0:14:06.40,0:14:08.53,tales,,0,0,0,,Tidak cukup membangkitkan semangat bertarung.
+Dialogue: 0,0:14:09.43,0:14:10.60,tales,,0,0,0,,Kau hanya penggembala sapi.
+Dialogue: 0,0:14:10.60,0:14:12.00,tales,,0,0,0,,Bahkan aku saja tidak bisa kalahkan.
+Dialogue: 0,0:14:12.03,0:14:13.57,tales,,0,0,0,,Bisa menang melawan mereka?
+Dialogue: 0,0:14:15.37,0:14:18.67,tales,,0,0,0,,Tuanku tidak pernah kalah di bawah gerbang Tao ini.
+Dialogue: 0,0:14:19.20,0:14:20.55,tales,,0,0,0,,Aku adalah Tubuh Hegemonik.
+Dialogue: 0,0:14:20.90,0:14:22.77,tales,,0,0,0,,Aku adalah Tubuh Hegemonik bawaan lahir.
+Dialogue: 0,0:14:22.87,0:14:24.07,tales,,0,0,0,,Di seluruh dunia,
+Dialogue: 0,0:14:24.07,0:14:25.63,tales,,0,0,0,,yang berada di tingkat yang sama,
+Dialogue: 0,0:14:25.63,0:14:27.40,tales,,0,0,0,,tidak ada yang bisa mengalahkanku!
+Dialogue: 0,0:14:29.93,0:14:31.40,tales,,0,0,0,,Tubuh Hegemonik apaan itu?
+Dialogue: 0,0:14:31.80,0:14:32.80,tales,,0,0,0,,Tidak pernah dengar.
+Dialogue: 0,0:14:32.83,0:14:34.30,tales,,0,0,0,,Lihat tubuh kecilnya itu.
+Dialogue: 0,0:14:34.30,0:14:36.07,tales,,0,0,0,,Lebih baik pulang ke kandang dombamu minum susu.
+Dialogue: 0,0:14:36.07,0:14:37.43,tales,,0,0,0,,Bahkan satu pukulan pun tidak tahan.
+Dialogue: 0,0:14:38.50,0:14:40.93,tales,,0,0,0,,Domba berkaki dua berani menyebut diri hebat?
+Dialogue: 0,0:14:42.85,0:14:44.37,tales,,0,0,0,,Aku.
+Dialogue: 0,0:14:44.51,0:14:45.68,tales,,0,0,0,,Tubuh Hegemonik.
+Dialogue: 0,0:14:47.43,0:14:49.37,tales,,0,0,0,,Tubuh Hegemonik tak tertandingi!
+Dialogue: 0,0:14:50.37,0:15:05.37,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:15:14.41,0:15:15.41,tales,,0,0,0,,Sapi hijau,
+Dialogue: 0,0:15:17.90,0:15:21.47,tales,,0,0,0,,Tuanmu butuh seratus hari untuk menaklukkan Istana Emas Loulan.
+Dialogue: 0,0:15:21.97,0:15:22.79,tales,,0,0,0,,Sedangkan aku,
+Dialogue: 0,0:15:22.97,0:15:24.50,tales,,0,0,0,,hanya butuh satu hari.

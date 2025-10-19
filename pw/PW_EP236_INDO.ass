@@ -1,0 +1,297 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 818
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.00,0:00:25.20,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:00:03.00,0:00:05.68,pw,,0,0,0,,Setelah pemurnian ganda dari Metode Penempaan Tulang dan Bambu Suci Penangkal Kejahatan,
+Dialogue: 0,0:00:05.84,0:00:07.76,pw,,0,0,0,,tubuhku seratus kali lebih tangguh dari sebelumnya.
+Dialogue: 0,0:00:08.12,0:00:09.36,pw,,0,0,0,,Ini adalah Buah Huangquan.
+Dialogue: 0,0:00:09.60,0:00:11.20,pw,,0,0,0,,Aku telah memiliki Pengetahuan Asli Primitif untuk waktu yang lama,
+Dialogue: 0,0:00:11.44,0:00:13.16,pw,,0,0,0,,baru hari ini aku tahu itu adalah fondasi Great Dao.
+Dialogue: 0,0:00:14.08,0:00:15.12,pw,,0,0,0,,Masih ada orang yang menungguku.
+Dialogue: 0,0:00:15.56,0:00:16.84,pw,,0,0,0,,Sebuah era besar menungguku.
+Dialogue: 0,0:00:17.60,0:00:18.84,pw,,0,0,0,,Bangun!
+Dialogue: 0,0:00:19.48,0:00:20.40,pw,,0,0,0,,Ini adalah Buah Huangquan.
+Dialogue: 0,0:00:20.76,0:00:22.16,pw,,0,0,0,,Buah immortal yang harum sekali.
+Dialogue: 0,0:00:22.68,0:00:23.24,pw,,0,0,0,,Tunggu!
+Dialogue: 0,0:00:27.60,0:00:30.36,pw,,0,0,0,,Eh, di mana kelinci kecil itu?
+Dialogue: 0,0:00:40.16,0:00:41.24,pw,,0,0,0,,Setelah aku menelannya,
+Dialogue: 0,0:00:41.60,0:00:42.96,pw,,0,0,0,,rohku memasuki empat lapis mimpi ilusi.
+Dialogue: 0,0:00:43.24,0:00:44.92,pw,,0,0,0,,Tapi tidak tahu tubuh fisikku juga ikut pergi.
+Dialogue: 0,0:00:45.76,0:00:47.60,pw,,0,0,0,,Efek buah ini benar-benar kuat.
+Dialogue: 0,0:00:48.16,0:00:49.52,pw,,0,0,0,,Kita tunggu saja dia di sini.
+Dialogue: 0,0:00:50.68,0:00:51.64,pw,,0,0,0,,Jika ini adalah peluangnya,
+Dialogue: 0,0:00:52.16,0:00:52.60,pw,,0,0,0,,bagus.
+Dialogue: 0,0:00:53.68,0:00:55.52,pw,,0,0,0,,Mimpiku berlalu dalam sekejap.
+Dialogue: 0,0:00:55.76,0:00:57.56,pw,,0,0,0,,Kenapa mimpi kelinci kecil begitu berbeda?
+Dialogue: 0,0:01:05.84,0:01:06.36,pw,,0,0,0,,Datang.
+Dialogue: 0,0:01:09.84,0:01:11.48,pw,,0,0,0,,Kelinci kecil, bangun.
+Dialogue: 0,0:01:18.84,0:01:19.68,pw,,0,0,0,,Aduh, si gendut!
+Dialogue: 0,0:01:20.28,0:01:21.64,pw,,0,0,0,,Bikin kaget!
+Dialogue: 0,0:01:22.08,0:01:23.48,pw,,0,0,0,,Aku baru saja makan buah immortal.
+Dialogue: 0,0:01:23.72,0:01:25.76,pw,,0,0,0,,Lalu ada piring sialan yang mau mengirimku untuk berpetualang.
+Dialogue: 0,0:01:26.40,0:01:27.12,pw,,0,0,0,,Dia juga bilang.
+Dialogue: 0,0:01:34.08,0:01:35.68,pw,,0,0,0,,Apa lagi yang dia katakan?
+Dialogue: 0,0:01:38.16,0:01:39.72,pw,,0,0,0,,Aneh sekali.
+Dialogue: 0,0:01:40.68,0:01:42.80,pw,,0,0,0,,Kenapa aku tidak bisa mengingatnya?
+Dialogue: 0,0:01:43.84,0:01:44.68,pw,,0,0,0,,Lihat telapak tanganmu.
+Dialogue: 0,0:01:44.88,0:01:45.72,pw,,0,0,0,,Apakah ada bekasnya?
+Dialogue: 0,0:01:46.32,0:01:46.72,pw,,0,0,0,,Hah?
+Dialogue: 0,0:01:47.00,0:01:48.80,pw,,0,0,0,,Telapak tanganku tidak ada apa-apa.
+Dialogue: 0,0:01:50.32,0:01:50.84,pw,,0,0,0,,Ah!
+Dialogue: 0,0:01:51.12,0:01:52.48,pw,,0,0,0,,Siapa yang begitu jahat?
+Dialogue: 0,0:01:52.64,0:01:54.00,pw,,0,0,0,,Ingin membuatku rusak wajah?
+Dialogue: 0,0:01:55.36,0:01:55.80,pw,,0,0,0,,Tidak.
+Dialogue: 0,0:01:57.28,0:01:59.56,pw,,0,0,0,,Kenapa bekasmu seperti terhapus dengan paksa?
+Dialogue: 0,0:02:00.28,0:02:02.16,pw,,0,0,0,,Tunjukkan pengalaman tadi dengan kesadaran rohani.
+Dialogue: 0,0:02:02.44,0:02:03.04,pw,,0,0,0,,Biarkan aku lihat.
+Dialogue: 0,0:02:14.36,0:02:17.40,pw,,0,0,0,,Aku ingat di jalan pengalaman,
+Dialogue: 0,0:02:18.00,0:02:19.28,pw,,0,0,0,,melihat sebuah kuali.
+Dialogue: 0,0:02:27.88,0:02:29.72,pw,,0,0,0,,Kuali itu penuh dengan darah.
+Dialogue: 0,0:02:34.40,0:02:37.00,pw,,0,0,0,,Melepaskan diri dari belenggu waktu dan langit-bumi.
+Dialogue: 0,0:02:37.52,0:02:39.36,pw,,0,0,0,,Lalu ada pertempuran yang tak terhitung jumlahnya.
+Dialogue: 0,0:02:39.36,0:02:54.36,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:02:59.20,0:03:00.44,pw,,0,0,0,,Itu wanita itu.
+Dialogue: 0,0:03:04.48,0:03:05.96,pw,,0,0,0,,Petualangan kelinci kecil.
+Dialogue: 0,0:03:06.64,0:03:08.16,pw,,0,0,0,,Kenapa begitu berbeda dengan milikku?
+Dialogue: 0,0:03:23.48,0:03:25.92,pw,,0,0,0,,Keempat orang ini sepertinya sedang melawan musuh tertentu.
+Dialogue: 0,0:03:27.00,0:03:28.68,pw,,0,0,0,,Si gendut yang mirip Cao Yusheng juga ada di sana.
+Dialogue: 0,0:03:30.64,0:03:31.04,pw,,0,0,0,,Oh ya.
+Dialogue: 0,0:03:31.40,0:03:32.72,pw,,0,0,0,,Di dalam kuali juga ada seseorang.
+Dialogue: 0,0:03:32.84,0:03:33.92,pw,,0,0,0,,Siluetnya sangat familiar.
+Dialogue: 0,0:03:35.36,0:03:35.76,pw,,0,0,0,,Ah!
+Dialogue: 0,0:03:42.36,0:03:42.72,pw,,0,0,0,,Tunggu.
+Dialogue: 0,0:03:43.48,0:03:47.00,pw,,0,0,0,,Sepertinya ada suara yang datang dari tempat yang sangat jauh.
+Dialogue: 0,0:03:48.92,0:03:51.80,pw,,0,0,0,,Ia sedang mencari seseorang.
+Dialogue: 0,0:03:56.68,0:03:58.92,pw,,0,0,0,,Orang itu akan melangkahi tulang belulang semua makhluk hidup.
+Dialogue: 0,0:03:59.68,0:04:01.92,pw,,0,0,0,,Menginjak reruntuhan semua dunia.
+Dialogue: 0,0:04:02.92,0:04:05.12,pw,,0,0,0,,Sendirian melintasi wilayah kegelapan.
+Dialogue: 0,0:04:05.96,0:04:07.72,pw,,0,0,0,,Hanyut melintasi Lautan Dunia.
+Dialogue: 0,0:04:08.36,0:04:10.68,pw,,0,0,0,,Menetralisir keanehan dan ketidakberuntungan sepanjang zaman.
+Dialogue: 0,0:04:11.52,0:04:13.96,pw,,0,0,0,,Itu adalah perjalanan sepi seseorang.
+Dialogue: 0,0:04:14.20,0:04:16.12,pw,,0,0,0,,Seseorang bertarung sendirian.
+Dialogue: 0,0:04:17.20,0:04:20.96,pw,,0,0,0,,Kami menanyakan kisah orang itu.
+Dialogue: 0,0:04:25.36,0:04:25.92,pw,,0,0,0,,Kelinci.
+Dialogue: 0,0:04:26.32,0:04:27.40,pw,,0,0,0,,Kenapa kau menangis?
+Dialogue: 0,0:04:27.56,0:04:29.08,pw,,0,0,0,,Kenapa menangis?
+Dialogue: 0,0:04:29.84,0:04:33.80,pw,,0,0,0,,Kenapa hatiku sedih sekali?
+Dialogue: 0,0:04:34.16,0:04:35.76,pw,,0,0,0,,Saat itu aku sangat sedih.
+Dialogue: 0,0:04:36.04,0:04:37.76,pw,,0,0,0,,Jelas mendengar hal penting.
+Dialogue: 0,0:04:38.44,0:04:39.16,pw,,0,0,0,,Tapi sekarang,
+Dialogue: 0,0:04:39.52,0:04:41.76,pw,,0,0,0,,bahkan tidak ada sedikitpun kesan.
+Dialogue: 0,0:04:42.24,0:04:43.20,pw,,0,0,0,,Pengalamanmu,
+Dialogue: 0,0:04:43.96,0:04:45.00,pw,,0,0,0,,sangat berbeda dengan milikku.
+Dialogue: 0,0:04:46.08,0:04:48.04,pw,,0,0,0,,Lebih mirip pesan yang melintasi waktu.
+Dialogue: 0,0:04:52.32,0:04:53.12,pw,,0,0,0,,Kekacauan.
+Dialogue: 0,0:04:53.84,0:04:55.20,pw,,0,0,0,,Bertentangan dengan Sungai Waktu.
+Dialogue: 0,0:04:55.84,0:04:56.80,pw,,0,0,0,,Berselisih dengan cahaya dan waktu.
+Dialogue: 0,0:04:57.44,0:04:59.04,pw,,0,0,0,,Karena itu bekas itu tidak ada lagi.
+Dialogue: 0,0:05:03.72,0:05:04.68,pw,,0,0,0,,Aku ingin makan yang vegetarian.
+Dialogue: 0,0:05:05.00,0:05:06.52,pw,,0,0,0,,Apa kau masih punya makanan enak?
+Dialogue: 0,0:05:07.00,0:05:07.96,pw,,0,0,0,,Cepat keluarkan.
+Dialogue: 0,0:05:08.36,0:05:09.68,pw,,0,0,0,,Menangis sampai aku mau pingsan kelaparan.
+Dialogue: 0,0:05:10.00,0:05:10.84,pw,,0,0,0,,Dasar.
+Dialogue: 0,0:05:11.12,0:05:12.60,pw,,0,0,0,,Bisakah kau makan sedikit?
+Dialogue: 0,0:05:13.24,0:05:15.28,pw,,0,0,0,,Tadi hampir mematahkan pinggangku.
+Dialogue: 0,0:05:17.04,0:05:17.88,pw,,0,0,0,,Si gendut!
+Dialogue: 0,0:05:18.08,0:05:18.68,pw,,0,0,0,,Mau kutonjok!
+Dialogue: 0,0:05:26.24,0:05:27.76,pw,,0,0,0,,Bekas misterius akan diselidiki nanti.
+Dialogue: 0,0:05:28.28,0:05:30.04,pw,,0,0,0,,Semua bahan yang ditugaskan Tetua Agung sudah terkumpul.
+Dialogue: 0,0:05:32.20,0:05:34.44,pw,,0,0,0,,Hal tentang menjadikan tubuh sebagai benih harus dimulai.
+Dialogue: 0,0:05:37.20,0:05:37.92,pw,,0,0,0,,Dengar tidak?
+Dialogue: 0,0:05:38.32,0:05:39.04,pw,,0,0,0,,Huang akan berlatih tertutup.
+Dialogue: 0,0:05:40.12,0:05:41.32,pw,,0,0,0,,Tanpa benih immortal yang hebat.
+Dialogue: 0,0:05:41.52,0:05:43.12,pw,,0,0,0,,Dia sudah tidak punya kualifikasi untuk bersaing dengan kita.
+Dialogue: 0,0:05:43.40,0:05:45.04,pw,,0,0,0,,Tidak bisa mencapai puncak jalan immortal.
+Dialogue: 0,0:05:45.28,0:05:47.24,pw,,0,0,0,,Pasti akan tenggelam di antara orang biasa.
+Dialogue: 0,0:05:47.24,0:06:02.24,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:06:06.96,0:06:12.16,pw,,0,0,0,,Kau sudah mendapatkan getah Bambu Suci Penangkal Kejahatan paling kuno dan Buah Huangquan.
+Dialogue: 0,0:06:12.64,0:06:13.76,pw,,0,0,0,,Kerja bagus.
+Dialogue: 0,0:06:14.00,0:06:15.12,pw,,0,0,0,,Ingin memberi kejutan untukmu.
+Dialogue: 0,0:06:15.56,0:06:17.20,pw,,0,0,0,,Tapi kabarnya menyebar lebih cepat dari kepulanganku.
+Dialogue: 0,0:06:19.04,0:06:21.24,pw,,0,0,0,,Dibandingkan sebelum seleksi dua akademi.
+Dialogue: 0,0:06:21.32,0:06:22.80,pw,,0,0,0,,Semuanya menjadi lebih lambat.
+Dialogue: 0,0:06:23.12,0:06:25.56,pw,,0,0,0,,Beberapa tetua juga sedang berlatih tertutup.
+Dialogue: 0,0:06:25.72,0:06:27.60,pw,,0,0,0,,Akademi menjadi sepi.
+Dialogue: 0,0:06:30.80,0:06:34.12,pw,,0,0,0,,Tapi orang luar masih memperhatikanmu.
+Dialogue: 0,0:06:34.36,0:06:36.52,pw,,0,0,0,,Melihat bagaimana kau menyatukan benih immortal.
+Dialogue: 0,0:06:36.80,0:06:38.60,pw,,0,0,0,,Dan sampai sejauh mana kau bisa melangkah.
+Dialogue: 0,0:06:39.60,0:06:43.40,pw,,0,0,0,,Selanjutnya aku akan mempersiapkanmu untuk menjadikan tubuh sebagai benih.
+Dialogue: 0,0:06:44.36,0:06:45.56,pw,,0,0,0,,Pendeknya beberapa bulan.
+Dialogue: 0,0:06:45.80,0:06:47.76,pw,,0,0,0,,Panjangnya puluhan tahun.
+Dialogue: 0,0:06:48.20,0:06:51.00,pw,,0,0,0,,Jika tidak ingin seperti orang dahulu yang tersaring ombak besar.
+Dialogue: 0,0:06:51.68,0:06:52.52,pw,,0,0,0,,Bertahanlah.
+Dialogue: 0,0:06:52.72,0:06:53.56,pw,,0,0,0,,Langkah pertama.
+Dialogue: 0,0:06:54.00,0:06:55.36,pw,,0,0,0,,Membentuk kembali tulang dan daging.
+Dialogue: 0,0:06:55.56,0:06:57.32,pw,,0,0,0,,Aktifkan Metode Penempaan Tulang.
+Dialogue: 0,0:06:57.84,0:06:58.32,pw,,0,0,0,,Ayo.
+Dialogue: 0,0:07:06.76,0:07:07.48,pw,,0,0,0,,Sedikit sekali.
+Dialogue: 0,0:07:08.28,0:07:10.32,pw,,0,0,0,,Semakin sedikit digunakan.
+Dialogue: 0,0:07:10.56,0:07:13.80,pw,,0,0,0,,Barang bagus ini sudah jarang di alam semesta.
+Dialogue: 0,0:07:15.56,0:07:16.24,pw,,0,0,0,,Tetua Agung.
+Dialogue: 0,0:07:16.72,0:07:18.28,pw,,0,0,0,,Bukankah ini mandi obat?
+Dialogue: 0,0:07:27.48,0:07:30.48,pw,,0,0,0,,Gunakan darah immortal sebagai palu untuk memotong sumsum dan merusak pembuluh.
+Dialogue: 0,0:07:30.80,0:07:32.32,pw,,0,0,0,,Hancurkan lalu tempa.
+Dialogue: 0,0:07:32.56,0:07:36.76,pw,,0,0,0,,Baru bisa menguji apakah hasilmu di Bukit Immortal cukup.
+Dialogue: 0,0:07:37.20,0:07:39.24,pw,,0,0,0,,Baru bisa memeriksa dan menambal kekurangan.
+Dialogue: 0,0:07:39.84,0:07:41.32,pw,,0,0,0,,Sampai sempurna.
+Dialogue: 0,0:07:41.32,0:07:56.32,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:08:01.20,0:08:01.88,pw,,0,0,0,,Langkah ketiga.
+Dialogue: 0,0:08:02.52,0:08:04.40,pw,,0,0,0,,Memanfaatkan darah sejati dengan racun serangga.
+Dialogue: 0,0:08:05.84,0:08:07.92,pw,,0,0,0,,Apakah perlu seperti ini?
+Dialogue: 0,0:08:10.80,0:08:12.88,pw,,0,0,0,,Kau memilih menjadikan tubuh sebagai benih.
+Dialogue: 0,0:08:13.16,0:08:15.32,pw,,0,0,0,,Pernahkah kau berpikir apa itu benih?
+Dialogue: 0,0:08:15.60,0:08:17.64,pw,,0,0,0,,Ada jutaan benih di dunia.
+Dialogue: 0,0:08:17.96,0:08:19.96,pw,,0,0,0,,Mengapa semuanya berbeda?
+Dialogue: 0,0:08:20.36,0:08:22.60,pw,,0,0,0,,Benih adalah pintu yang menghubungkan Great Dao langit dan bumi.
+Dialogue: 0,0:08:22.92,0:08:24.12,pw,,0,0,0,,Great Dao yang sesuai berbeda.
+Dialogue: 0,0:08:24.40,0:08:25.56,pw,,0,0,0,,Bentuknya tentu berbeda.
+Dialogue: 0,0:08:25.96,0:08:26.76,pw,,0,0,0,,Tidak.
+Dialogue: 0,0:08:27.48,0:08:28.84,pw,,0,0,0,,Semua benih dan fenomena.
+Dialogue: 0,0:08:29.04,0:08:31.56,pw,,0,0,0,,Karena dunia memegang benih sebagai wujud nyata.
+Dialogue: 0,0:08:31.80,0:08:34.60,pw,,0,0,0,,Menaruh harapan pada hal luar yang ilusi.
+Dialogue: 0,0:08:35.04,0:08:36.20,pw,,0,0,0,,Tidak disadari.
+Dialogue: 0,0:08:36.36,0:08:38.80,pw,,0,0,0,,Kekuatan perubahan tak terbatas yang sebenarnya.
+Dialogue: 0,0:08:38.92,0:08:41.04,pw,,0,0,0,,Sudah tersembunyi di dalam dirimu sendiri.
+Dialogue: 0,0:08:41.32,0:08:42.52,pw,,0,0,0,,Maksudmu potensi tubuh manusia.
+Dialogue: 0,0:08:42.88,0:08:44.16,pw,,0,0,0,,Bisa menyaingi benih kuno tak tertandingi?
+Dialogue: 0,0:08:44.40,0:08:45.88,pw,,0,0,0,,Lebih dari itu.
+Dialogue: 0,0:08:46.32,0:08:48.16,pw,,0,0,0,,Rahasia tubuh manusia tak terbatas.
+Dialogue: 0,0:08:48.36,0:08:49.56,pw,,0,0,0,,Bisa dikultivasi.
+Dialogue: 0,0:08:49.72,0:08:50.80,pw,,0,0,0,,Bisa bermetamorfosis.
+Dialogue: 0,0:08:50.92,0:08:52.16,pw,,0,0,0,,Bisa berevolusi.
+Dialogue: 0,0:08:52.68,0:08:55.24,pw,,0,0,0,,Sudah mengandung aturan Dao tertinggi.
+Dialogue: 0,0:08:57.96,0:09:00.08,pw,,0,0,0,,Membuktikan buah Dao yang kuraih sebelumnya.
+Dialogue: 0,0:09:01.64,0:09:02.24,pw,,0,0,0,,Tak ada batas.
+Dialogue: 0,0:09:02.52,0:09:04.00,pw,,0,0,0,,Bisa mengandung Dao tak terbatas.
+Dialogue: 0,0:09:05.20,0:09:06.80,pw,,0,0,0,,Menjadi dunia kecil sendiri.
+Dialogue: 0,0:09:08.20,0:09:09.60,pw,,0,0,0,,Dunia sebesar apapun.
+Dialogue: 0,0:09:09.92,0:09:11.40,pw,,0,0,0,,Akhirnya ada batasnya.
+Dialogue: 0,0:09:12.28,0:09:13.76,pw,,0,0,0,,Menjadikan tubuh sebagai benih.
+Dialogue: 0,0:09:14.12,0:09:16.28,pw,,0,0,0,,Targetnya harus lebih besar.
+Dialogue: 0,0:09:17.72,0:09:18.60,pw,,0,0,0,,Kalau begitu.
+Dialogue: 0,0:09:20.32,0:09:21.72,pw,,0,0,0,,Hancurkan dunia menjadi dunia.
+Dialogue: 0,0:09:22.84,0:09:24.20,pw,,0,0,0,,Berdampingan dengan dunia besar.
+Dialogue: 0,0:09:28.88,0:09:30.72,pw,,0,0,0,,Era sebelumnya runtuh.
+Dialogue: 0,0:09:31.08,0:09:34.44,pw,,0,0,0,,Karena Dao dunia asing berbeda dengan dunia kita.
+Dialogue: 0,0:09:34.72,0:09:36.60,pw,,0,0,0,,Menekan kekuatan benih immortal.
+Dialogue: 0,0:09:37.04,0:09:40.40,pw,,0,0,0,,Sekarang kau tidak perlu menghubungkan Dao langit dan bumi.
+Dialogue: 0,0:09:40.64,0:09:43.08,pw,,0,0,0,,Tapi mencari ke dalam dunia besar di tubuhmu.
+Dialogue: 0,0:09:43.60,0:09:45.28,pw,,0,0,0,,Lebih butuh ketahanan jiwa.
+Dialogue: 0,0:09:45.84,0:09:48.08,pw,,0,0,0,,Meski kau mengkultivasi roh primordial kedua.
+Dialogue: 0,0:09:48.36,0:09:50.44,pw,,0,0,0,,Tapi menjalankan Dao yang melawan langit.
+Dialogue: 0,0:09:50.80,0:09:52.56,pw,,0,0,0,,Jangan sekali-kali membagi perhatian.
+Dialogue: 0,0:09:53.04,0:09:55.00,pw,,0,0,0,,Jika tidak ingin ditumbangkan Dao langit.
+Dialogue: 0,0:09:55.28,0:09:57.24,pw,,0,0,0,,Selain memperkuat tubuh.
+Dialogue: 0,0:09:57.40,0:10:00.56,pw,,0,0,0,,Perlu menggunakan senjata jiwa dengan bagian Teknik Penakluk Kekacauan.
+Dialogue: 0,0:10:00.96,0:10:05.40,pw,,0,0,0,,Menyederhanakan dua roh primordial dan menyatukannya.
+Dialogue: 0,0:10:12.16,0:10:14.08,pw,,0,0,0,,Roh primordial sudah terbentuk.
+Dialogue: 0,0:10:14.28,0:10:16.36,pw,,0,0,0,,Masih butuh wadah.
+Dialogue: 0,0:10:33.24,0:10:36.84,pw,,0,0,0,,Benih kuno yang kau temukan ini sangat berbeda.
+Dialogue: 0,0:10:37.32,0:10:39.48,pw,,0,0,0,,Meski belum matang.
+Dialogue: 0,0:10:40.00,0:10:42.68,pw,,0,0,0,,Tapi setara dengan plasenta langit dan bumi.
+Dialogue: 0,0:10:42.92,0:10:47.28,pw,,0,0,0,,Bisa masuk berlatih untuk mencapai evolusi terkuat.
+Dialogue: 0,0:10:47.72,0:10:48.72,pw,,0,0,0,,Terima kasih Tetua Agung.
+Dialogue: 0,0:10:57.72,0:11:00.96,pw,,0,0,0,,Aku meminta obat Butian dari Dao Butian.
+Dialogue: 0,0:11:01.32,0:11:03.88,pw,,0,0,0,,Untuk memperbaiki plasenta langit dan bumi.
+Dialogue: 0,0:11:04.52,0:11:05.44,pw,,0,0,0,,Setelah itu.
+Dialogue: 0,0:11:05.56,0:11:07.72,pw,,0,0,0,,Aku akan pergi ke tempat penciptaan untuk menanam benih.
+Dialogue: 0,0:11:08.04,0:11:10.04,pw,,0,0,0,,Menunggumu keluar dari latihan tertutup.
+Dialogue: 0,0:11:19.96,0:11:22.24,pw,,0,0,0,,Semua benih kuno tak tertandingi muncul.
+Dialogue: 0,0:11:22.84,0:11:25.56,pw,,0,0,0,,Adalah zaman paling gemilang.
+Dialogue: 0,0:11:26.52,0:11:29.96,pw,,0,0,0,,Juga akhir era.
+Dialogue: 0,0:12:01.48,0:12:04.48,pw,,0,0,0,,Aku ingin menyaksikan bintang-bintang yang gemilang.
+Dialogue: 0,0:12:04.76,0:12:06.88,pw,,0,0,0,,Bintang-bintang bermunculan.
+Dialogue: 0,0:12:07.52,0:12:09.64,pw,,0,0,0,,Seperti matahari terbit.
+Dialogue: 0,0:12:10.12,0:12:13.12,pw,,0,0,0,,Benturan menghasilkan percikan paling cemerlang.
+Dialogue: 0,0:12:13.96,0:12:16.84,pw,,0,0,0,,Saat bencana besar yang sesungguhnya tiba.
+Dialogue: 0,0:12:17.52,0:12:20.28,pw,,0,0,0,,Baru bisa bersama-sama melawan musuh.
+Dialogue: 0,0:12:22.20,0:12:24.32,pw,,0,0,0,,Energi mata air langit dan bumi yang sangat melimpah.
+Dialogue: 0,0:12:25.20,0:12:27.40,pw,,0,0,0,,Tidak terlihat berada di dalam sebuah benih.
+Dialogue: 0,0:12:29.80,0:12:32.28,pw,,0,0,0,,Di dalam benih immortal ternyata mengandung makhluk hidup.
+Dialogue: 0,0:12:34.04,0:12:35.36,pw,,0,0,0,,Plasenta ini adalah tempat tinggalmu.
+Dialogue: 0,0:12:35.76,0:12:38.04,pw,,0,0,0,,Kau seenaknya merampas buah Dao orang lain.
+Dialogue: 0,0:12:38.64,0:12:39.48,pw,,0,0,0,,Harus dihukum mati.
+Dialogue: 0,0:12:42.52,0:12:43.36,pw,,0,0,0,,Maaf.
+Dialogue: 0,0:12:43.76,0:12:46.60,pw,,0,0,0,,Aku tidak tahu tempat ini sudah ada pemiliknya, tidak ada niat jahat.
+Dialogue: 0,0:12:52.04,0:12:54.80,pw,,0,0,0,,Ada niat jahat atau tidak, biar aku lihat ingatanmu.
+Dialogue: 0,0:12:55.28,0:12:56.24,pw,,0,0,0,,Akan jelas sendiri.
+Dialogue: 0,0:13:02.76,0:13:04.16,pw,,0,0,0,,Ini ingatanmu.
+Dialogue: 0,0:13:08.80,0:13:10.52,pw,,0,0,0,,Ternyata kehidupan ini begitu gelap.
+Dialogue: 0,0:13:10.88,0:13:12.36,pw,,0,0,0,,Ditakdirkan darah menciprat ke langit.
+Dialogue: 0,0:13:12.56,0:13:13.76,pw,,0,0,0,,Langit dan bumi hancur.
+Dialogue: 0,0:13:14.16,0:13:15.80,pw,,0,0,0,,Aku pernah mengamati aturan langit dan bumi.
+Dialogue: 0,0:13:16.00,0:13:17.56,pw,,0,0,0,,Samar-samar merasa akan ada bencana.
+Dialogue: 0,0:13:17.76,0:13:19.12,pw,,0,0,0,,Tidak kusangka datangnya begitu cepat.
+Dialogue: 0,0:13:19.40,0:13:20.40,pw,,0,0,0,,Jika aku lahir.
+Dialogue: 0,0:13:20.76,0:13:21.76,pw,,0,0,0,,Mungkin akan gugur.
+Dialogue: 0,0:13:22.76,0:13:25.00,pw,,0,0,0,,Makhluk langit dan bumi sepertimu begitu lahir langsung menjadi immortal.
+Dialogue: 0,0:13:25.28,0:13:26.20,pw,,0,0,0,,Juga bisa gugur.
+Dialogue: 0,0:13:30.40,0:13:31.96,pw,,0,0,0,,Aku sudah tahu tujuan kedatanganmu.
+Dialogue: 0,0:13:32.48,0:13:34.16,pw,,0,0,0,,Jika bisa memberikan sisa obat immortal padaku.
+Dialogue: 0,0:13:34.48,0:13:36.04,pw,,0,0,0,,Di kehidupan ini aku tidak akan lahir.
+Dialogue: 0,0:13:36.40,0:13:37.92,pw,,0,0,0,,Akan meminjamkan tempat ini untukmu berlatih.
+Dialogue: 0,0:13:38.56,0:13:39.60,pw,,0,0,0,,Kau gantikan aku menghadapi bencana.
+Dialogue: 0,0:13:39.88,0:13:41.12,pw,,0,0,0,,Jika kau bisa bertahan hidup.
+Dialogue: 0,0:13:41.88,0:13:45.80,pw,,0,0,0,,Sampai jumpa di era berikutnya.
+Dialogue: 0,0:13:58.28,0:13:59.64,pw,,0,0,0,,Jika memahami satu per satu.
+Dialogue: 0,0:14:00.00,0:14:01.44,pw,,0,0,0,,Tidak tahu kapan bisa selesai memahaminya.
+Dialogue: 0,0:14:09.68,0:14:10.64,pw,,0,0,0,,Kepompong Dao.
+Dialogue: 0,0:14:11.00,0:14:12.20,pw,,0,0,0,,Apa yang ingin dilakukannya?
+Dialogue: 0,0:14:13.36,0:14:14.48,pw,,0,0,0,,Langit melahirkan segalanya.
+Dialogue: 0,0:14:15.00,0:14:15.92,pw,,0,0,0,,Satu debu satu dunia.
+Dialogue: 0,0:14:16.76,0:14:18.28,pw,,0,0,0,,Tubuh manusia juga adalah sebuah alam semesta.
+Dialogue: 0,0:14:18.84,0:14:20.04,pw,,0,0,0,,Memahami ke luar tidak akan habis.
+Dialogue: 0,0:14:20.60,0:14:21.16,pw,,0,0,0,,Maka aku.
+Dialogue: 0,0:14:22.32,0:14:23.81,pw,,0,0,0,,Mencari ke dalam diri sendiri.
+Dialogue: 0,0:14:34.36,0:14:36.24,pw,,0,0,0,,Gerbang Dao terbuka dari dalam tubuhnya.
+Dialogue: 0,0:14:40.04,0:14:41.24,pw,,0,0,0,,Segala sesuatu berjalan mengikuti Dao.
+Dialogue: 0,0:14:41.88,0:14:42.20,pw,,0,0,0,,Dao.
+Dialogue: 0,0:14:43.36,0:14:44.92,pw,,0,0,0,,Menentukan bagaimana segala sesuatu beroperasi.
+Dialogue: 0,0:14:46.64,0:14:47.56,pw,,0,0,0,,Seperti matahari terbit di timur.
+Dialogue: 0,0:14:49.16,0:14:50.04,pw,,0,0,0,,Bulan terbenam di barat.
+Dialogue: 0,0:14:51.32,0:14:53.84,pw,,0,0,0,,Bagaimana jika aturannya berubah?
+Dialogue: 0,0:14:54.96,0:14:55.48,pw,,0,0,0,,Tidak boleh.
+Dialogue: 0,0:15:03.72,0:15:04.64,pw,,0,0,0,,Melawan langit.
+Dialogue: 0,0:15:04.88,0:15:06.04,pw,,0,0,0,,Dao langit tidak akan membiarkanmu.
+Dialogue: 0,0:15:11.44,0:15:12.84,pw,,0,0,0,,Siapa yang menetapkan aturan ini?
+Dialogue: 0,0:15:27.32,0:15:27.96,pw,,0,0,0,,Sudah kukatakan.
+Dialogue: 0,0:15:28.68,0:15:30.16,pw,,0,0,0,,Aku memiliki Dao-ku sendiri.
+Dialogue: 0,0:15:42.84,0:15:43.60,pw,,0,0,0,,Aturanmu.
+Dialogue: 0,0:15:44.36,0:15:45.16,pw,,0,0,0,,Tidak kuhiraukan lagi.
+Dialogue: 0,0:15:49.24,0:15:51.60,pw,,0,0,0,,Waktu terbuka terbatas.
+Dialogue: 0,0:15:52.48,0:15:54.56,pw,,0,0,0,,Karena kau belum.
+Dialogue: 0,0:15:55.04,0:15:57.40,pw,,0,0,0,,Berkembang sampai tahap itu.
+Dialogue: 0,0:16:02.60,0:16:03.04,pw,,0,0,0,,Dao.
+Dialogue: 0,0:16:03.92,0:16:06.12,pw,,0,0,0,,Adalah landasan operasi langit dan bumi.
+Dialogue: 0,0:16:06.56,0:16:08.96,pw,,0,0,0,,Jika aturan yang terkandung dalam segala sesuatu diputar.
+Dialogue: 0,0:16:09.36,0:16:10.92,pw,,0,0,0,,Maka bisa terbebas.
+Dialogue: 0,0:16:11.84,0:16:14.44,pw,,0,0,0,,Sebuah debu bisa mengisi lautan.
+Dialogue: 0,0:16:16.76,0:16:21.12,pw,,0,0,0,,Sebatang rumput memotong matahari, bulan, dan bintang-bintang.
+Dialogue: 0,0:16:23.80,0:16:25.60,pw,,0,0,0,,Inilah Dao-ku.
+Dialogue: 0,0:16:26.36,0:16:28.20,pw,,0,0,0,,Sebuah jalan yang belum pernah ada.
+Dialogue: 0,0:16:28.68,0:16:30.24,pw,,0,0,0,,Telah berhasil ditempuh.

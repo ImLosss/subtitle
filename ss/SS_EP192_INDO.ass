@@ -1,0 +1,218 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.78,0:00:33.40,ss,,0,0,0,,[PREVIEW EPISODE SEBELUMNYA]
+Dialogue: 0,0:00:33.40,0:00:45.40,ss,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:45.84,0:00:47.98,ss,,0,0,0,,Manusia yang mendapatkan harta karun Menara Persembahan sudah muncul.
+Dialogue: 0,0:00:48.38,0:00:49.81,ss,,0,0,0,,Raja Zizhong bahkan tewas.
+Dialogue: 0,0:00:50.21,0:00:52.44,ss,,0,0,0,,Pasti dia juga membayar harga yang tidak kecil.
+Dialogue: 0,0:00:52.71,0:00:53.68,ss,,0,0,0,,Maka itu tidak perlu ditakuti.
+Dialogue: 0,0:00:53.68,0:00:54.81,ss,,0,0,0,,Kita jumlahnya banyak,
+Dialogue: 0,0:00:55.18,0:00:56.21,ss,,0,0,0,,kebetulan bisa mengambil keuntungan.
+Dialogue: 0,0:00:56.68,0:00:59.31,ss,,0,0,0,,Teleportasi ke tempat yang lebih jauh dulu, untuk berjaga-jaga.
+Dialogue: 0,0:01:00.78,0:01:01.58,ss,,0,0,0,,Ayo!
+Dialogue: 0,0:01:01.84,0:01:03.31,ss,,0,0,0,,Nanti terlambat, tidak kebagian.
+Dialogue: 0,0:01:25.31,0:01:29.01,ss,,0,0,0,,Kerusakan Tubuh Undying-ku ternyata mencapai 42%.
+Dialogue: 0,0:01:29.84,0:01:32.38,ss,,0,0,0,,Butuh berapa lama untuk memulihkannya?
+Dialogue: 0,0:01:32.38,0:01:34.74,ss,,0,0,0,,Tubuh Undying-ku rusak 59%.
+Dialogue: 0,0:01:35.08,0:01:37.04,ss,,0,0,0,,Kekuatan tempur yang tersisa kurang dari 10%.
+Dialogue: 0,0:01:37.91,0:01:39.21,ss,,0,0,0,,Sangat mengantuk.
+Dialogue: 0,0:01:39.48,0:01:43.38,ss,,0,0,0,,Jika memburuk lagi, khawatir akan tertidur lelap.
+Dialogue: 0,0:01:59.73,0:02:00.68,ss,,0,0,0,,Lari!
+Dialogue: 0,0:02:01.08,0:02:02.84,ss,,0,0,0,,Dia tidak bisa mengejar dua orang sekaligus.
+Dialogue: 0,0:02:03.08,0:02:04.34,ss,,0,0,0,,Asalkan dia sedikit ragu-ragu,
+Dialogue: 0,0:02:05.14,0:02:06.44,ss,,0,0,0,,itu adalah kesempatan untuk hidup.
+Dialogue: 0,0:02:22.54,0:02:24.04,ss,,0,0,0,,Sisa energinya sangat mengejutkan.
+Dialogue: 0,0:02:24.51,0:02:25.68,ss,,0,0,0,,Hanya dengan gelombang sisa yang bergema.
+Dialogue: 0,0:02:25.68,0:02:26.91,ss,,0,0,0,,Sudah membuat orang ketakutan.
+Dialogue: 0,0:02:28.31,0:02:28.98,ss,,0,0,0,,Ada apa?
+Dialogue: 0,0:02:29.41,0:02:31.71,ss,,0,0,0,,Raja Binatang Darah dan Raja Panah Berat dari pihak kita yang sangat kuat,
+Dialogue: 0,0:02:32.08,0:02:33.44,ss,,0,0,0,,ternyata sedang melarikan diri dengan gila-gilaan.
+Dialogue: 0,0:02:48.68,0:02:49.54,ss,,0,0,0,,Manusia!
+Dialogue: 0,0:02:49.84,0:02:50.91,ss,,0,0,0,,Jangan keterlaluan!
+Dialogue: 0,0:02:56.14,0:02:56.84,ss,,0,0,0,,Sial!
+Dialogue: 0,0:02:57.51,0:02:58.48,ss,,0,0,0,,Bocah Ras Manusia!
+Dialogue: 0,0:03:02.38,0:03:04.54,ss,,0,0,0,,Panah gandaku,
+Dialogue: 0,0:03:07.74,0:03:09.68,ss,,0,0,0,,juga bukan hal yang bisa diremehkan!
+Dialogue: 0,0:03:21.44,0:03:22.58,ss,,0,0,0,,Kehilangan 90% kekuatan tempur,
+Dialogue: 0,0:03:23.21,0:03:25.61,ss,,0,0,0,,masih bisa mengumpulkan sisa tenaga untuk menembakkan panah berat.
+Dialogue: 0,0:03:27.38,0:03:28.54,ss,,0,0,0,,Kau memang sangat hebat.
+Dialogue: 0,0:03:30.11,0:03:32.28,ss,,0,0,0,,Sayangnya kau hanya punya satu kesempatan.
+Dialogue: 0,0:03:54.88,0:03:56.94,ss,,0,0,0,,Galaksi Membentang di Langit!
+Dialogue: 0,0:04:56.01,0:04:56.64,ss,,0,0,0,,Cloud Vine!
+Dialogue: 0,0:04:57.38,0:04:57.68,ss,,0,0,0,,Ya!
+Dialogue: 0,0:04:58.68,0:05:13.68,ss,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:06:07.61,0:06:08.54,ss,,0,0,0,,Aku merasa tidak enak,
+Dialogue: 0,0:06:08.74,0:06:09.41,ss,,0,0,0,,aku pergi dulu.
+Dialogue: 0,0:06:15.54,0:06:16.48,ss,,0,0,0,,Manusia itu dikepung.
+Dialogue: 0,0:06:16.71,0:06:17.31,ss,,0,0,0,,Serang!
+Dialogue: 0,0:06:19.84,0:06:21.34,ss,,0,0,0,,Bodoh-bodoh ini.
+Dialogue: 0,0:06:21.51,0:06:22.48,ss,,0,0,0,,Bukan mereka yang bodoh.
+Dialogue: 0,0:06:23.31,0:06:24.98,ss,,0,0,0,,Jika kita tidak melihat Raja Binatang Darah kabur,
+Dialogue: 0,0:06:25.18,0:06:25.98,ss,,0,0,0,,Raja Panah Berat terluka parah,
+Dialogue: 0,0:06:26.61,0:06:27.91,ss,,0,0,0,,hanya melihat seorang manusia,
+Dialogue: 0,0:06:28.01,0:06:29.38,ss,,0,0,0,,mungkin juga akan menyerang.
+Dialogue: 0,0:06:32.61,0:06:34.28,ss,,0,0,0,,Dua puncak level Undying King.
+Dialogue: 0,0:06:34.88,0:06:36.31,ss,,0,0,0,,Enam level Undying King tinggi.
+Dialogue: 0,0:06:36.91,0:06:38.58,ss,,0,0,0,,Sepuluh level Undying King rendah.
+Dialogue: 0,0:06:39.18,0:06:40.21,ss,,0,0,0,,Total delapan belas orang.
+Dialogue: 0,0:06:40.98,0:06:43.04,ss,,0,0,0,,Ras asing yang tidak tahu tinggi rendahnya langit.
+Dialogue: 0,0:06:43.81,0:06:45.41,ss,,0,0,0,,Aku akan menjadikan kalian sebagai peringatan.
+Dialogue: 0,0:06:46.98,0:06:50.91,ss,,0,0,0,,Itu adalah ingatan yang tidak akan bisa kulupakan seumur hidup.
+Dialogue: 0,0:06:51.84,0:06:54.48,ss,,0,0,0,,Fakta yang kusaksikan sendiri.
+Dialogue: 0,0:07:15.08,0:07:17.64,ss,,0,0,0,,Sosok pemuda berbaju zirah perak sangat elegan.
+Dialogue: 0,0:07:18.51,0:07:21.04,ss,,0,0,0,,Dia adalah kunang-kunang di malam yang gelap.
+Dialogue: 0,0:07:22.01,0:07:23.28,ss,,0,0,0,,Terbang dengan bebas.
+Dialogue: 0,0:07:27.51,0:07:27.78,ss,,0,0,0,,Racun!
+Dialogue: 0,0:07:28.01,0:07:28.94,ss,,0,0,0,,Ada racun!
+Dialogue: 0,0:07:30.01,0:07:32.11,ss,,0,0,0,,Cahaya pedang ini bagai sungai panjang.
+Dialogue: 0,0:07:32.64,0:07:34.14,ss,,0,0,0,,Sangat indah.
+Dialogue: 0,0:07:34.58,0:07:35.74,ss,,0,0,0,,Membuat pusing.
+Dialogue: 0,0:07:37.01,0:07:38.91,ss,,0,0,0,,Satu tebasan membelah bumi.
+Dialogue: 0,0:07:49.54,0:07:50.58,ss,,0,0,0,,Satu tebasan.
+Dialogue: 0,0:07:52.01,0:07:53.51,ss,,0,0,0,,Menghancurkan lautan.
+Dialogue: 0,0:07:56.51,0:07:57.28,ss,,0,0,0,,Satu tebasan.
+Dialogue: 0,0:07:58.94,0:08:00.51,ss,,0,0,0,,Memecahkan langit.
+Dialogue: 0,0:08:01.54,0:08:04.71,ss,,0,0,0,,Dunia yang luasnya puluhan juta kilometer dihancurkan seluruhnya,
+Dialogue: 0,0:08:05.21,0:08:06.84,ss,,0,0,0,,menjadi kehampaan.
+Dialogue: 0,0:08:07.64,0:08:10.48,ss,,0,0,0,,Di kedalaman alam semesta yang berubah-ubah dan indah ini,
+Dialogue: 0,0:08:10.98,0:08:13.11,ss,,0,0,0,,sungai cahaya pedang ini bahkan lebih,
+Dialogue: 0,0:08:14.74,0:08:16.11,ss,,0,0,0,,menakjubkan.
+Dialogue: 0,0:08:17.11,0:08:32.11,ss,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:34.24,0:09:37.34,ss,,0,0,0,,Bunuh dia!
+Dialogue: 0,0:09:51.01,0:09:52.44,ss,,0,0,0,,Strategi Bulan Terang!
+Dialogue: 0,0:10:03.51,0:10:04.41,ss,,0,0,0,,Han.
+Dialogue: 0,0:10:08.48,0:10:09.18,ss,,0,0,0,,Cepat lari!
+Dialogue: 0,0:10:13.38,0:10:15.11,ss,,0,0,0,,Pedang manusia ini terlalu menakutkan.
+Dialogue: 0,0:10:16.14,0:10:17.88,ss,,0,0,0,,Delapan belas level Undying King mengepungnya,
+Dialogue: 0,0:10:18.18,0:10:19.38,ss,,0,0,0,,hanya lima yang selamat.
+Dialogue: 0,0:10:25.21,0:10:26.41,ss,,0,0,0,,Raja Zizhong sialan,
+Dialogue: 0,0:10:26.88,0:10:28.54,ss,,0,0,0,,mengajak kita datang dengan niat buruk.
+Dialogue: 0,0:10:30.28,0:10:31.54,ss,,0,0,0,,Pertempuran sedahsyat ini terakhir kali,
+Dialogue: 0,0:10:31.71,0:10:32.98,ss,,0,0,0,,adalah enam ribu tahun lalu.
+Dialogue: 0,0:10:33.38,0:10:34.41,ss,,0,0,0,,Raja Tujuh Pedang Ras Manusia,
+Dialogue: 0,0:10:34.58,0:10:36.58,ss,,0,0,0,,di Menara Bintang menggunakan harta Genggaman Kekosongan,
+Dialogue: 0,0:10:36.88,0:10:38.78,ss,,0,0,0,,secara bersamaan menghancurkan banyak level Undying King.
+Dialogue: 0,0:10:39.24,0:10:41.08,ss,,0,0,0,,Merebut Bintang Segel milik kita.
+Dialogue: 0,0:10:41.88,0:10:43.54,ss,,0,0,0,,Dua ratus lebih level Undying King,
+Dialogue: 0,0:10:43.94,0:10:45.78,ss,,0,0,0,,diteror oleh seorang manusia sampai tidak berani bertindak.
+Dialogue: 0,0:10:46.54,0:10:48.14,ss,,0,0,0,,Manusia itu seharusnya belum mencapai level Undying King tertinggi.
+Dialogue: 0,0:10:48.71,0:10:51.01,ss,,0,0,0,,Pasti menggunakan metode dengan harga yang sangat mahal.
+Dialogue: 0,0:10:51.38,0:10:52.18,ss,,0,0,0,,Tidak akan bertahan lama.
+Dialogue: 0,0:10:53.64,0:10:54.78,ss,,0,0,0,,Kau yang duluan kalau mau.
+Dialogue: 0,0:10:55.51,0:10:56.04,ss,,0,0,0,,Semuanya,
+Dialogue: 0,0:10:57.94,0:10:59.51,ss,,0,0,0,,Level Undying King tertinggi sangat hebat.
+Dialogue: 0,0:10:59.74,0:11:00.68,ss,,0,0,0,,Untuk membunuhnya,
+Dialogue: 0,0:11:00.78,0:11:02.31,ss,,0,0,0,,tentu perlu membayar harga.
+Dialogue: 0,0:11:02.54,0:11:02.98,ss,,0,0,0,,Tapi,
+Dialogue: 0,0:11:03.31,0:11:04.01,ss,,0,0,0,,Harga ini,
+Dialogue: 0,0:11:04.14,0:11:05.04,ss,,0,0,0,,bisa kubayar.
+Dialogue: 0,0:11:08.54,0:11:09.74,ss,,0,0,0,,Kristal Api Dewa terkuat.
+Dialogue: 0,0:11:10.24,0:11:11.68,ss,,0,0,0,,Seratus miliar Yulan per butir.
+Dialogue: 0,0:11:13.98,0:11:14.78,ss,,0,0,0,,Jika meledak,
+Dialogue: 0,0:11:15.24,0:11:16.84,ss,,0,0,0,,puncak level Undying King pasti mati.
+Dialogue: 0,0:11:17.31,0:11:18.61,ss,,0,0,0,,Level Undying King tertinggi juga.
+Dialogue: 0,0:11:38.04,0:11:39.31,ss,,0,0,0,,Kekuatan manusia ini,
+Dialogue: 0,0:11:39.48,0:11:41.41,ss,,0,0,0,,sama sekali tidak kalah dari level Undying King tertinggi.
+Dialogue: 0,0:11:42.18,0:11:44.54,ss,,0,0,0,,Apakah kalian tahu gelar manusia ini?
+Dialogue: 0,0:11:44.88,0:11:46.24,ss,,0,0,0,,Kami hanya tahu dia bernama Yang,
+Dialogue: 0,0:11:46.68,0:11:47.84,ss,,0,0,0,,tidak pernah dengar dia punya gelar.
+Dialogue: 0,0:11:48.51,0:11:50.48,ss,,0,0,0,,Jurus pedangnya bisa dibilang sangat indah.
+Dialogue: 0,0:11:50.88,0:11:51.58,ss,,0,0,0,,Satu tebasan keluar,
+Dialogue: 0,0:11:51.81,0:11:53.08,ss,,0,0,0,,cahaya pedang membeku menjadi sungai,
+Dialogue: 0,0:11:53.24,0:11:54.14,ss,,0,0,0,,bahkan membekas lama.
+Dialogue: 0,0:11:55.24,0:11:57.41,ss,,0,0,0,,Tiga belas sungai cahaya pedang yang gemerlap tergantung di langit,
+Dialogue: 0,0:11:57.74,0:11:59.41,ss,,0,0,0,,berarti tiga belas level Undying King tewas.
+Dialogue: 0,0:12:00.11,0:12:01.21,ss,,0,0,0,,Menurutku panggil saja dia,
+Dialogue: 0,0:12:01.98,0:12:05.78,ss,,0,0,0,,Raja Sungai Pedang.
+Dialogue: 0,0:12:21.94,0:12:22.84,ss,,0,0,0,,Tidak mungkin.
+Dialogue: 0,0:12:23.18,0:12:24.64,ss,,0,0,0,,Raja Panah Berat adalah level Undying King tertinggi.
+Dialogue: 0,0:12:25.24,0:12:26.68,ss,,0,0,0,,Bisa dikalahkan sedemikian buruk oleh Raja Sungai Pedang.
+Dialogue: 0,0:12:26.91,0:12:27.64,ss,,0,0,0,,Tertidur lelap.
+Dialogue: 0,0:12:28.31,0:12:30.64,ss,,0,0,0,,Kudengar Raja Binatang Darah bahkan ketakutan sampai kabur.
+Dialogue: 0,0:12:31.84,0:12:32.78,ss,,0,0,0,,Bangsat.
+Dialogue: 0,0:12:32.81,0:12:34.04,ss,,0,0,0,,Bangsat sialan.
+Dialogue: 0,0:12:34.18,0:12:36.71,ss,,0,0,0,,Aku malah jadi batu loncatan ketenarannya.
+Dialogue: 0,0:12:37.31,0:12:38.08,ss,,0,0,0,,Tapi,
+Dialogue: 0,0:12:38.28,0:12:40.44,ss,,0,0,0,,dia bisa menahan Kristal Api Dewa terkuat,
+Dialogue: 0,0:12:40.74,0:12:42.04,ss,,0,0,0,,masa depannya pasti tidak bisa diremehkan.
+Dialogue: 0,0:12:43.28,0:12:44.88,ss,,0,0,0,,Sudah waktunya aku menyepi dan berlatih.
+Dialogue: 0,0:12:45.64,0:12:46.54,ss,,0,0,0,,Seratus juta tahun lagi,
+Dialogue: 0,0:12:46.64,0:12:48.64,ss,,0,0,0,,aku pasti akan mencapai Universe Venerable,
+Dialogue: 0,0:12:48.74,0:12:49.71,ss,,0,0,0,,lalu muncul kembali!
+Dialogue: 0,0:12:50.38,0:12:52.14,ss,,0,0,0,,Membunuh empat belas level Undying King.
+Dialogue: 0,0:12:53.01,0:12:53.88,ss,,0,0,0,,Sangat menakutkan.
+Dialogue: 0,0:12:54.01,0:12:55.54,ss,,0,0,0,,Semoga tidak bertemu dengannya di masa depan.
+Dialogue: 0,0:13:01.91,0:13:02.81,ss,,0,0,0,,Manusia.
+Dialogue: 0,0:13:03.41,0:13:04.88,ss,,0,0,0,,Raja Sungai Pedang.
+Dialogue: 0,0:13:07.71,0:13:08.08,ss,,0,0,0,,Yang.
+Dialogue: 0,0:13:08.68,0:13:09.31,ss,,0,0,0,,Aku sudah dengar semuanya.
+Dialogue: 0,0:13:09.78,0:13:10.58,ss,,0,0,0,,Kau terlalu kuat.
+Dialogue: 0,0:13:10.91,0:13:11.71,ss,,0,0,0,,Hanya keberuntungan saja.
+Dialogue: 0,0:13:12.34,0:13:13.64,ss,,0,0,0,,Raja Sungai Pedang hebat sekali.
+Dialogue: 0,0:13:14.11,0:13:15.34,ss,,0,0,0,,Sungguh membanggakan Ras Manusia.
+Dialogue: 0,0:13:17.74,0:13:18.68,ss,,0,0,0,,Ditambah Raja Formasi Langit,
+Dialogue: 0,0:13:19.11,0:13:21.31,ss,,0,0,0,,sudah ada 108 level Undying King yang menghubungimu.
+Dialogue: 0,0:13:21.97,0:13:27.81,ss,,0,0,0,,Raja Sungai Pedang.
+Dialogue: 0,0:13:29.08,0:13:30.21,ss,,0,0,0,,Raja Sungai Pedang?
+Dialogue: 0,0:13:32.24,0:13:34.30,ss,,0,0,0,,Memang pantas jadi muridku, Raja Zhenyan.
+Dialogue: 0,0:13:34.32,0:13:35.68,ss,,0,0,0,,Zhenyan.
+Dialogue: 0,0:13:36.48,0:13:38.51,ss,,0,0,0,,Berita bahwa Luo Feng adalah Raja Sungai Pedang,
+Dialogue: 0,0:13:38.98,0:13:40.08,ss,,0,0,0,,adalah rahasia tertutup.
+Dialogue: 0,0:13:40.81,0:13:42.11,ss,,0,0,0,,Jangan sampai bocor!
+Dialogue: 0,0:13:42.91,0:13:43.34,ss,,0,0,0,,Baik.
+Dialogue: 0,0:13:49.91,0:13:50.91,ss,,0,0,0,,Raja Sungai Pedang.
+Dialogue: 0,0:13:51.44,0:13:53.78,ss,,0,0,0,,Level World Master sudah bisa dapat gelar Undying King.
+Dialogue: 0,0:13:53.98,0:13:55.58,ss,,0,0,0,,Cukup menarik.
+Dialogue: 0,0:13:56.58,0:14:11.58,ss,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:14:27.71,0:14:29.21,ss,,0,0,0,,Bel ini memang harta berharga.
+Dialogue: 0,0:14:29.88,0:14:31.44,ss,,0,0,0,,Serangan jiwa dan serangan fisik,
+Dialogue: 0,0:14:31.44,0:14:32.58,ss,,0,0,0,,bisa menahan lebih dari sembilan puluh persen.
+Dialogue: 0,0:14:33.74,0:14:34.08,ss,,0,0,0,,Sayangnya,
+Dialogue: 0,0:14:34.68,0:14:36.48,ss,,0,0,0,,barang pertahanan yang menyatu dengan tubuh ada batasannya.
+Dialogue: 0,0:14:36.61,0:14:37.51,ss,,0,0,0,,Untuk menyatu dengan Bel Ungu,
+Dialogue: 0,0:14:37.68,0:14:39.61,ss,,0,0,0,,harus mengeluarkan Mutiara Zirah Jenderal dari tubuh.
+Dialogue: 0,0:14:42.11,0:14:43.58,ss,,0,0,0,,Tentu pilih Zirah Jenderal.
+Dialogue: 0,0:14:44.24,0:14:45.64,ss,,0,0,0,,Selain pertahanan, Zirah Jenderal,
+Dialogue: 0,0:14:45.88,0:14:47.71,ss,,0,0,0,,juga memberimu sepuluh ribu kali kekuatan Level World Master.
+Dialogue: 0,0:14:49.78,0:14:51.21,ss,,0,0,0,,Bagaimana keadaan Raja Panah Berat sekarang?
+Dialogue: 0,0:14:52.71,0:14:55.54,ss,,0,0,0,,Kau habiskan 120 miliar Hunyuan untuk memulihkan kekuatannya.
+Dialogue: 0,0:14:55.88,0:14:57.01,ss,,0,0,0,,Mana mungkin tidak baik?
+Dialogue: 0,0:14:57.78,0:15:00.78,ss,,0,0,0,,Meski kali ini membunuh level Undying King ras asing dapat 230 miliar.
+Dialogue: 0,0:15:01.28,0:15:03.01,ss,,0,0,0,,Kau tidak perlu menghabiskan sebanyak itu.
+Dialogue: 0,0:15:05.41,0:15:07.41,ss,,0,0,0,,Aku sudah mengendalikan Raja Panah Berat dengan Teknik Rahasia Sepuluh Ribu Hati.
+Dialogue: 0,0:15:07.54,0:15:08.31,ss,,0,0,0,,Dia benar-benar setia.
+Dialogue: 0,0:15:09.04,0:15:09.84,ss,,0,0,0,,Bisa teleportasi.
+Dialogue: 0,0:15:10.21,0:15:11.04,ss,,0,0,0,,Dengan bantuannya,
+Dialogue: 0,0:15:11.28,0:15:12.98,ss,,0,0,0,,menerjang alam semesta akan jauh lebih mudah.
+Dialogue: 0,0:15:25.71,0:15:26.98,ss,,0,0,0,,Ada gelombang kesadaran.
+Dialogue: 0,0:15:42.01,0:15:42.61,ss,,0,0,0,,Tuan.
+Dialogue: 0,0:15:59.34,0:16:00.91,ss,,0,0,0,,Penampilannya jelas sangat imut,
+Dialogue: 0,0:16:01.18,0:16:03.18,ss,,0,0,0,,tapi maksa berpura-pura jadi pria kekar.
+Dialogue: 0,0:16:07.24,0:16:08.84,ss,,0,0,0,,Aku memang pria perkasa.
+Dialogue: 0,0:16:09.38,0:16:10.31,ss,,0,0,0,,Jangan remehkan aku.

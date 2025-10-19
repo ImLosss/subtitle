@@ -1,0 +1,321 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:05:20.95,0:05:25.32,komen,,0,0,0,,{\pos(193,545)\fad(500,250)}Tiga Bulan kemudian...
+Dialogue: 0,0:05:21.13,0:05:24.98,komen,,0,0,0,,{\pos(1596,504)\fad(500,250)}[Dibawah Tebing Raksasa\NWilayah Utara Iblis Bumi]
+Dialogue: 0,0:06:11.88,0:06:15.44,komen,,0,0,0,,{\pos(1596,504)\fad(500,250)}[Tan Lang\NTahap Illusory Yin]
+Dialogue: 0,0:07:44.25,0:07:47.81,komen,,0,0,0,,{\pos(1596,504)\fad(500,250)}[Sekte Xuanyuan\NPlanet Bumi]
+Dialogue: 0,0:07:48.40,0:07:51.96,komen,,0,0,0,,{\pos(295,557)\fad(500,250)}[Sun Yunshan\NTuan Muda Sekte Xuanyuan\NTahap Awal Soul Transformation]
+Dialogue: 0,0:08:09.67,0:08:12.36,komen,,0,0,0,,{\pos(1611,602)\fad(500,250)}[Sun Ruonan\NPutri Pemimpin Sekte Xuanyuan\NTahap Menengah Soul Formation]
+Dialogue: 0,0:08:49.30,0:08:53.20,komen,,0,0,0,,{\pos(1604,498)\fad(500,250)}[Laut Timur\NPlanet Tianyun]
+Dialogue: 0,0:09:21.91,0:09:25.48,komen,,0,0,0,,{\pos(1601,548)\fad(500,250)}[Yao Xixue\NPutri Leluhur Darah\NTahap Akhir Soul Transformation]
+Dialogue: 0,0:10:28.84,0:10:32.41,komen,,0,0,0,,{\pos(1576,507)\fad(500,250)}[Sekte Pedang Daluo\NDua Belas Murid Inti Pedang]
+Dialogue: 0,0:00:04.73,0:00:44.08,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:00:04.88,0:00:06.32,ri,,0,0,0,,Di Tanah Penghancur Immortal ini,
+Dialogue: 0,0:00:06.76,0:00:08.84,ri,,0,0,0,,dengan dua puluh dua langkah awalku sebagai dasar.
+Dialogue: 0,0:00:09.08,0:00:11.28,ri,,0,0,0,,Aku melangkahkan lima langkah Dao terakhir.
+Dialogue: 0,0:00:12.04,0:00:14.28,ri,,0,0,0,,Hari ini, di bawah cahaya sembilan warna ini.
+Dialogue: 0,0:00:14.68,0:00:17.52,ri,,0,0,0,,Aku menerimamu sebagai murid ketujuh Cabang Ungu.
+Dialogue: 0,0:00:18.44,0:00:21.48,ri,,0,0,0,,Ini adalah Jejak Kehidupan yang terbentuk dari Teknik Pembantaian Immortal.
+Dialogue: 0,0:00:21.76,0:00:23.12,ri,,0,0,0,,Semakin banyak jejak ini,
+Dialogue: 0,0:00:23.32,0:00:25.16,ri,,0,0,0,,kekuatan pertahanan semakin kuat.
+Dialogue: 0,0:00:25.56,0:00:27.52,ri,,0,0,0,,Dapat melindungi diri sendiri agar tak binasa.
+Dialogue: 0,0:00:27.84,0:00:28.84,ri,,0,0,0,,Yang paling mendesak sekarang,
+Dialogue: 0,0:00:29.20,0:00:30.88,ri,,0,0,0,,adalah mencari tempat yang cocok untuk membantai.
+Dialogue: 0,0:00:31.40,0:00:32.64,ri,,0,0,0,,Untuk melatih teknik immortal ini.
+Dialogue: 0,0:00:33.16,0:00:36.36,ri,,0,0,0,,Buah Emas Berkilau ini adalah milik Sekte Pedang Daluoku.
+Dialogue: 0,0:00:36.48,0:00:38.20,ri,,0,0,0,,Sekte Pedang Daluo?
+Dialogue: 0,0:00:39.12,0:00:40.84,ri,,0,0,0,,Kebetulan sekali ada satu hal,
+Dialogue: 0,0:00:41.40,0:00:43.08,ri,,0,0,0,,yang ingin kutanyakan padamu.
+Dialogue: 0,0:00:53.44,0:00:55.96,ri,,0,0,0,,Dulu, setelah Ling Tianhou kembali dari Dunia Abadi Hujan.
+Dialogue: 0,0:00:56.84,0:00:58.48,ri,,0,0,0,,Jiwa Pedang di belakangnya,
+Dialogue: 0,0:00:58.72,0:01:00.24,ri,,0,0,0,,sekarang berada di mana?
+Dialogue: 0,0:01:02.92,0:01:03.92,ri,,0,0,0,,Katakan!
+Dialogue: 0,0:01:06.28,0:01:07.28,ri,,0,0,0,,Sekte Tianyun.
+Dialogue: 0,0:01:07.28,0:01:08.64,ri,,0,0,0,,Cabang Ungu ketujuh.
+Dialogue: 0,0:01:08.88,0:01:09.92,ri,,0,0,0,,Kau adalah Wang Lin!
+Dialogue: 0,0:01:12.96,0:01:15.44,ri,,0,0,0,,Ini adalah rahasia Sekte Pedang Daluo kami.
+Dialogue: 0,0:01:15.64,0:01:17.88,ri,,0,0,0,,Jika kubocorkan, nyawaku pasti tidak aman.
+Dialogue: 0,0:01:19.12,0:01:21.00,ri,,0,0,0,,Meskipun kekuatanmu sangat kuat.
+Dialogue: 0,0:01:21.24,0:01:24.28,ri,,0,0,0,,Tapi kami berdua memegang Pedang Pusaka Daluo.
+Dialogue: 0,0:01:24.28,0:01:25.36,ri,,0,0,0,,Jika kami bertarung mati-matian...
+Dialogue: 0,0:01:25.40,0:01:26.16,ri,,0,0,0,,Katakan!
+Dialogue: 0,0:01:26.84,0:01:28.20,ri,,0,0,0,,Atau mati!
+Dialogue: 0,0:01:28.20,0:01:29.48,ri,,0,0,0,,Kau keterlaluan!
+Dialogue: 0,0:01:32.44,0:01:34.52,ri,,0,0,0,,Pedang Pusaka Daluo!
+Dialogue: 0,0:01:36.76,0:01:38.52,ri,,0,0,0,,Penelan Hantu Surgawi!
+Dialogue: 0,0:01:45.96,0:01:47.36,ri,,0,0,0,,Jari Pemusnah!
+Dialogue: 0,0:01:51.36,0:01:52.64,ri,,0,0,0,,Hanya dengan satu jari.
+Dialogue: 0,0:01:52.72,0:01:55.04,ri,,0,0,0,,Sudah menghancurkan Penelan Hantu Surgawi Saudara Lu.
+Dialogue: 0,0:02:01.04,0:02:03.00,ri,,0,0,0,,Bersiaplah mati!
+Dialogue: 0,0:02:04.84,0:02:07.56,ri,,0,0,0,,Roh Primordial meninggalkan tubuh dan menyatu dengan artefak kehidupan.
+Dialogue: 0,0:02:08.04,0:02:09.56,ri,,0,0,0,,Tekniknya lumayan menarik.
+Dialogue: 0,0:02:10.96,0:02:12.56,ri,,0,0,0,,Tapi cahaya kunang-kunang,
+Dialogue: 0,0:02:12.88,0:02:15.32,ri,,0,0,0,,Bagaimana mungkin berani bersaing dengan cahaya bulan?
+Dialogue: 0,0:02:20.68,0:02:22.24,ri,,0,0,0,,Pedang Abadi?!
+Dialogue: 0,0:02:28.48,0:02:29.56,ri,,0,0,0,,Binatang Nyamuk!
+Dialogue: 0,0:02:31.67,0:02:32.64,ri,,0,0,0,,Tidak!
+Dialogue: 0,0:02:34.76,0:02:35.80,ri,,0,0,0,,Rekan Dao Wang!
+Dialogue: 0,0:02:35.80,0:02:36.42,ri,,0,0,0,,Aku bicara!
+Dialogue: 0,0:02:36.73,0:02:37.88,ri,,0,0,0,,Aku akan mengatakan semuanya!
+Dialogue: 0,0:02:38.64,0:02:40.44,ri,,0,0,0,,Aku juga bisa memberimu sebuah teknik.
+Dialogue: 0,0:02:40.48,0:02:42.44,ri,,0,0,0,,Yang bisa meminjam perawan untuk menyembuhkan luka dengan cepat.
+Dialogue: 0,0:02:42.84,0:02:45.24,ri,,0,0,0,,Kau pasti membutuhkannya saat memasuki Gerbang Roh Iblis.
+Dialogue: 0,0:02:46.64,0:02:47.44,ri,,0,0,0,,Dan juga,
+Dialogue: 0,0:02:47.44,0:02:49.44,ri,,0,0,0,,Wanita ini, Qian Qin, masih perawan.
+Dialogue: 0,0:02:49.48,0:02:50.56,ri,,0,0,0,,Kau bisa bawa dia juga.
+Dialogue: 0,0:02:50.56,0:02:51.48,ri,,0,0,0,,Aku hanya mohon,
+Dialogue: 0,0:02:51.48,0:02:53.32,ri,,0,0,0,,kau mengampuni nyawaku.
+Dialogue: 0,0:02:54.48,0:02:55.92,ri,,0,0,0,,Dulu, Jiwa Pedang itu,
+Dialogue: 0,0:02:56.28,0:02:57.76,ri,,0,0,0,,sebenarnya ada di mana?
+Dialogue: 0,0:02:58.56,0:03:00.76,ri,,0,0,0,,Dulu, pertarungan antara Venerable Pedang dan Jiwa Pedang.
+Dialogue: 0,0:03:01.04,0:03:03.16,ri,,0,0,0,,Berlangsung selama sepuluh hari sepuluh malam.
+Dialogue: 0,0:03:03.56,0:03:05.88,ri,,0,0,0,,Akhirnya Jiwa Pedang dihancurkan oleh Venerable Pedang.
+Dialogue: 0,0:03:06.04,0:03:08.84,ri,,0,0,0,,Separuhnya berubah menjadi sisa-sisa niat pedang yang tersebar di mana-mana.
+Dialogue: 0,0:03:09.44,0:03:10.96,ri,,0,0,0,,Sedangkan separuh lainnya,
+Dialogue: 0,0:03:11.28,0:03:12.88,ri,,0,0,0,,disegel oleh Venerable Pedang.
+Dialogue: 0,0:03:13.20,0:03:16.44,ri,,0,0,0,,Dan ditekan di Kedalaman Pasang Surut Gerbang Roh Iblis Laut Timur.
+Dialogue: 0,0:03:22.88,0:03:24.48,ri,,0,0,0,,Niat pedang Senior Zhou Yi,
+Dialogue: 0,0:03:25.04,0:03:26.92,ri,,0,0,0,,tampaknya karena Jiwa Pedang dihancurkan,
+Dialogue: 0,0:03:27.16,0:03:29.24,ri,,0,0,0,,baru menempel pada pedang biasa.
+Dialogue: 0,0:03:30.36,0:03:31.04,ri,,0,0,0,,Rekan Dao.
+Dialogue: 0,0:03:31.28,0:03:32.04,ri,,0,0,0,,Bisa kau lepaskan...
+Dialogue: 0,0:03:43.28,0:03:44.68,ri,,0,0,0,,Jejak Kehidupan.
+Dialogue: 0,0:03:45.88,0:03:46.88,ri,,0,0,0,,Berhasil.
+Dialogue: 0,0:03:46.88,0:04:01.88,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:04:10.64,0:04:11.92,ri,,0,0,0,,Unsur logam sangat pekat,
+Dialogue: 0,0:04:12.56,0:04:14.56,ri,,0,0,0,,tapi tidak bisa diserap oleh Mutiara Penentang Langit.
+Dialogue: 0,0:04:31.88,0:04:32.64,ri,,0,0,0,,Makanlah.
+Dialogue: 0,0:04:38.28,0:04:41.16,ri,,0,0,0,,Harta karun tertinggi yang sekte kami cari dengan susah payah selama ratusan tahun.
+Dialogue: 0,0:04:41.20,0:04:41.88,ri,,0,0,0,,Ternyata dia,
+Dialogue: 0,0:04:42.48,0:04:43.40,ri,,0,0,0,,memberikannya ke binatang buas.
+Dialogue: 0,0:04:54.44,0:04:56.64,ri,,0,0,0,,Sepertinya saat Binatang Nyamuk keluar dari kepompong,
+Dialogue: 0,0:04:56.68,0:04:58.44,ri,,0,0,0,,kekuatannya pasti meningkat pesat.
+Dialogue: 0,0:05:09.00,0:05:10.64,ri,,0,0,0,,Aku juga bisa dibilang mengambil keberuntunganmu.
+Dialogue: 0,0:05:11.48,0:05:12.44,ri,,0,0,0,,Kau boleh pergi.
+Dialogue: 0,0:05:14.84,0:05:15.92,ri,,0,0,0,,Terima kasih, Senior.
+Dialogue: 0,0:05:33.92,0:05:36.04,ri,,0,0,0,,Jejak Kehidupan mengkristal menjadi tiga lapisan.
+Dialogue: 0,0:05:36.84,0:05:39.04,ri,,0,0,0,,Teknik Pembantaian Immortal bisa dibilang mencapai tingkat dasar.
+Dialogue: 0,0:05:41.04,0:05:42.64,ri,,0,0,0,,Senior Zhou Yi berjasa padaku.
+Dialogue: 0,0:05:43.32,0:05:44.64,ri,,0,0,0,,Perjalanan ke Tanah Roh Iblis ini,
+Dialogue: 0,0:05:44.64,0:05:46.16,ri,,0,0,0,,pasti akan kuselamatkan dengan segenap tenaga.
+Dialogue: 0,0:05:47.16,0:05:50.08,ri,,0,0,0,,Jika bisa menemukan benda penambah unsur logam di tempat rahasia,
+Dialogue: 0,0:05:50.44,0:05:51.84,ri,,0,0,0,,dan menyempurnakan Mutiara Penentang Langit.
+Dialogue: 0,0:05:52.28,0:05:54.68,ri,,0,0,0,,Sepertinya akan sangat bermanfaat bagi Wan'er juga.
+Dialogue: 0,0:06:09.16,0:06:09.92,ri,,0,0,0,,Tan Lang.
+Dialogue: 0,0:06:10.16,0:06:12.28,ri,,0,0,0,,Angin apa yang membawamu kemari?
+Dialogue: 0,0:06:14.28,0:06:15.16,ri,,0,0,0,,Aku datang,
+Dialogue: 0,0:06:15.16,0:06:17.68,ri,,0,0,0,,untuk memberimu sebuah takdir besar.
+Dialogue: 0,0:06:18.28,0:06:20.56,ri,,0,0,0,,Nanti, kau ingin mengalahkan si tua Tian Yun.
+Dialogue: 0,0:06:20.60,0:06:22.20,ri,,0,0,0,,Akan semudah membalikkan telapak tangan.
+Dialogue: 0,0:06:22.40,0:06:23.28,ri,,0,0,0,,Oh?
+Dialogue: 0,0:06:24.24,0:06:25.72,ri,,0,0,0,,Puluhan ribu tahun yang lalu,
+Dialogue: 0,0:06:25.92,0:06:28.56,ri,,0,0,0,,Aliansi Kultivasi pernah mengeluarkan sebuah pengumuman.
+Dialogue: 0,0:06:28.76,0:06:31.04,ri,,0,0,0,,Menawarkan hadiah untuk mencari sebuah mutiara.
+Dialogue: 0,0:06:31.28,0:06:32.56,ri,,0,0,0,,Jika bisa menemukannya,
+Dialogue: 0,0:06:33.04,0:06:35.84,ri,,0,0,0,,mereka akan memberikan satu set Teknik Immortal tingkat atas.
+Dialogue: 0,0:06:36.24,0:06:37.96,ri,,0,0,0,,Luka tersembunyi di tubuhmu,
+Dialogue: 0,0:06:38.12,0:06:39.88,ri,,0,0,0,,berkaitan dengan mutiara itu?
+Dialogue: 0,0:06:43.08,0:06:44.64,ri,,0,0,0,,Dulu demi mutiara itu,
+Dialogue: 0,0:06:44.64,0:06:46.44,ri,,0,0,0,,Kami mengepung Ketua Vermillion generasi kedua.
+Dialogue: 0,0:06:47.12,0:06:49.84,ri,,0,0,0,,Awalnya kupikir perjalanan ini akan mudah.
+Dialogue: 0,0:06:50.84,0:06:52.44,ri,,0,0,0,,Siapa sangka kekuatan lawan,
+Dialogue: 0,0:06:52.56,0:06:54.36,ri,,0,0,0,,sangat kuat sekali.
+Dialogue: 0,0:06:54.72,0:06:56.88,ri,,0,0,0,,Dia bahkan berhasil membuka jalan dengan darah.
+Dialogue: 0,0:06:58.08,0:06:59.68,ri,,0,0,0,,Jari Pemusnah.
+Dialogue: 0,0:07:00.44,0:07:01.36,ri,,0,0,0,,Sejak saat itu,
+Dialogue: 0,0:07:02.04,0:07:03.76,ri,,0,0,0,,tidak pernah ditemukan lagi jejaknya.
+Dialogue: 0,0:07:08.04,0:07:09.68,ri,,0,0,0,,Lebih baik kita tidak membicarakan masa lalu.
+Dialogue: 0,0:07:10.08,0:07:11.64,ri,,0,0,0,,Itu karena kultivasiku tidak cukup.
+Dialogue: 0,0:07:12.68,0:07:14.56,ri,,0,0,0,,Tapi jika Venerable Pedang yang bertindak,
+Dialogue: 0,0:07:15.12,0:07:16.68,ri,,0,0,0,,pasti akan berhasil dengan mudah.
+Dialogue: 0,0:07:18.24,0:07:20.68,ri,,0,0,0,,Aku mau membantumu boleh saja.
+Dialogue: 0,0:07:22.84,0:07:24.52,ri,,0,0,0,,Tapi sebelum itu,
+Dialogue: 0,0:07:25.24,0:07:27.36,ri,,0,0,0,,kau harus melakukan satu hal untukku.
+Dialogue: 0,0:07:28.76,0:07:31.32,ri,,0,0,0,,Gerbang Roh Iblis akan segera terbuka.
+Dialogue: 0,0:07:31.76,0:07:35.12,ri,,0,0,0,,Aku ingin kau masuk bersama dua belas murid sekte pedangku.
+Dialogue: 0,0:07:35.32,0:07:36.76,ri,,0,0,0,,Dan melindungi keselamatan mereka.
+Dialogue: 0,0:07:37.36,0:07:40.48,ri,,0,0,0,,Sampai mereka menyelesaikan tugas yang kuserahkan.
+Dialogue: 0,0:07:56.28,0:07:57.08,ri,,0,0,0,,Saudara Wang.
+Dialogue: 0,0:07:57.52,0:07:59.04,ri,,0,0,0,,Aku adalah Tuan Muda Sekte Xuanyuan.
+Dialogue: 0,0:07:59.04,0:07:59.84,ri,,0,0,0,,Sun Yunshan.
+Dialogue: 0,0:08:00.08,0:08:00.96,ri,,0,0,0,,Khusus menunggumu di sini.
+Dialogue: 0,0:08:01.92,0:08:02.72,ri,,0,0,0,,Terima kasih.
+Dialogue: 0,0:08:03.48,0:08:04.28,ri,,0,0,0,,Silakan, Saudara Wang.
+Dialogue: 0,0:08:12.32,0:08:13.00,ri,,0,0,0,,Nakal sekali!
+Dialogue: 0,0:08:14.04,0:08:15.12,ri,,0,0,0,,Kau ini, gadis kecil.
+Dialogue: 0,0:08:15.32,0:08:16.76,ri,,0,0,0,,Tidak tahu betapa berbahayanya tempat itu.
+Dialogue: 0,0:08:16.84,0:08:18.04,ri,,0,0,0,,Jika bukan karena perintah ayah,
+Dialogue: 0,0:08:18.32,0:08:19.64,ri,,0,0,0,,aku sendiri tidak mau pergi.
+Dialogue: 0,0:08:22.68,0:08:23.72,ri,,0,0,0,,Maafkan, Saudara Wang.
+Dialogue: 0,0:08:24.96,0:08:26.44,ri,,0,0,0,,Ini adik perempuanku, Sun Ruonan.
+Dialogue: 0,0:08:26.84,0:08:27.44,ri,,0,0,0,,Yang ini,
+Dialogue: 0,0:08:27.44,0:08:29.24,ri,,0,0,0,,Adalah murid langsung Senior Tian Yunzi.
+Dialogue: 0,0:08:29.24,0:08:29.84,ri,,0,0,0,,Wang Lin.
+Dialogue: 0,0:08:30.00,0:08:30.56,ri,,0,0,0,,Rekan Dao Wang.
+Dialogue: 0,0:08:30.88,0:08:31.84,ri,,0,0,0,,Cepat beri salam!
+Dialogue: 0,0:08:32.96,0:08:34.20,ri,,0,0,0,,Ruonan memberi hormat pada Kakak Wang.
+Dialogue: 0,0:08:35.72,0:08:37.84,ri,,0,0,0,,Saudara Sun bilang tadi tidak mau pergi.
+Dialogue: 0,0:08:38.04,0:08:38.96,ri,,0,0,0,,Mengapa begitu?
+Dialogue: 0,0:08:39.64,0:08:41.04,ri,,0,0,0,,Takut ditertawakan Saudara Wang.
+Dialogue: 0,0:08:41.68,0:08:42.84,ri,,0,0,0,,Tanah Roh Iblis ini,
+Dialogue: 0,0:08:43.00,0:08:44.48,ri,,0,0,0,,berbahaya dan penuh peluang.
+Dialogue: 0,0:08:45.64,0:08:47.40,ri,,0,0,0,,Takutnya pergi, tidak bisa kembali.
+Dialogue: 0,0:08:50.64,0:08:51.92,ri,,0,0,0,,Setiap lima ribu tahun.
+Dialogue: 0,0:08:52.28,0:08:53.64,ri,,0,0,0,,Laut Timur Planet Tianyun,
+Dialogue: 0,0:08:53.92,0:08:56.08,ri,,0,0,0,,akan menghasilkan kekuatan pasang surut yang unik.
+Dialogue: 0,0:08:56.32,0:08:58.24,ri,,0,0,0,,Yang menyedot harta karun tak bertuan di dunia.
+Dialogue: 0,0:08:58.24,0:09:00.64,ri,,0,0,0,,Dari segala penjuru ke dalam Laut Timur.
+Dialogue: 0,0:09:01.12,0:09:02.36,ri,,0,0,0,,Dalam jangka panjang,
+Dialogue: 0,0:09:02.84,0:09:03.40,ri,,0,0,0,,tempat itu...
+Dialogue: 0,0:09:03.88,0:09:06.08,ri,,0,0,0,,menjadi tempat berkumpulnya harta karun yang sesungguhnya.
+Dialogue: 0,0:09:07.88,0:09:08.52,ri,,0,0,0,,Saudara Zhang.
+Dialogue: 0,0:09:09.00,0:09:10.84,ri,,0,0,0,,Apakah kau akan masuk kali ini?
+Dialogue: 0,0:09:12.16,0:09:13.08,ri,,0,0,0,,Aku tidak akan masuk.
+Dialogue: 0,0:09:13.48,0:09:15.32,ri,,0,0,0,,Tapi pemandangan langka lima ribu tahun sekali ini,
+Dialogue: 0,0:09:15.32,0:09:16.52,ri,,0,0,0,,tetap harus kusaksikan.
+Dialogue: 0,0:09:16.92,0:09:19.08,ri,,0,0,0,,Konon banyak kultivator hebat akan datang.
+Dialogue: 0,0:09:22.96,0:09:24.76,ri,,0,0,0,,Itu adalah putri Leluhur Darah.
+Dialogue: 0,0:09:24.92,0:09:26.20,ri,,0,0,0,,Ayahnya Yao Xinghai,
+Dialogue: 0,0:09:26.20,0:09:27.52,ri,,0,0,0,,menguasai satu planet sendirian,
+Dialogue: 0,0:09:27.52,0:09:29.24,ri,,0,0,0,,dengan kultivasi yang sangat tinggi.
+Dialogue: 0,0:09:29.72,0:09:30.44,ri,,0,0,0,,Konon,
+Dialogue: 0,0:09:30.44,0:09:33.72,ri,,0,0,0,,Leluhur Darah mewariskan semua tekniknya kepada Yao Xixue ini.
+Dialogue: 0,0:09:34.12,0:09:36.72,ri,,0,0,0,,Katanya bahkan pernah mengubah takdirnya secara terbalik.
+Dialogue: 0,0:09:54.40,0:09:56.64,ri,,0,0,0,,Dia adalah murid baru Tian Yunzi.
+Dialogue: 0,0:09:57.44,0:09:58.76,ri,,0,0,0,,Baru masuk Sekte Tianyun,
+Dialogue: 0,0:09:58.76,0:10:01.56,ri,,0,0,0,,langsung ditunjuk Senior Tian Yunzi untuk pergi ke Gerbang Roh Iblis.
+Dialogue: 0,0:10:01.84,0:10:03.36,ri,,0,0,0,,Sungguh tidak biasa.
+Dialogue: 0,0:10:05.16,0:10:06.52,ri,,0,0,0,,Banyak sekali orang.
+Dialogue: 0,0:10:09.32,0:10:11.36,ri,,0,0,0,,Kultivasi orang ini biasa saja.
+Dialogue: 0,0:10:11.88,0:10:14.08,ri,,0,0,0,,Dan tidak ada yang istimewa.
+Dialogue: 0,0:10:14.92,0:10:17.44,ri,,0,0,0,,Mengapa ayah menyuruhku memperhatikannya?
+Dialogue: 0,0:10:33.40,0:10:35.52,ri,,0,0,0,,Dua Belas Murid Pedang,
+Dialogue: 0,0:10:35.52,0:10:36.52,ri,,0,0,0,,ternyata mereka.
+Dialogue: 0,0:10:37.00,0:10:39.08,ri,,0,0,0,,Menyambut Guru.
+Dialogue: 0,0:10:44.88,0:10:45.36,ri,,0,0,0,,Kak.
+Dialogue: 0,0:10:45.64,0:10:46.56,ri,,0,0,0,,Siapa ini?
+Dialogue: 0,0:10:47.56,0:10:49.08,ri,,0,0,0,,Ini adalah Senior Ling Tianhou.
+Dialogue: 0,0:10:49.88,0:10:50.84,ri,,0,0,0,,Venerable Tianyun,
+Dialogue: 0,0:10:51.12,0:10:52.76,ri,,0,0,0,,pernah mengundang Ling Tianhou dan pahlawan lainnya,
+Dialogue: 0,0:10:52.84,0:10:54.24,ri,,0,0,0,,untuk masuk dan mencari harta karun.
+Dialogue: 0,0:10:54.56,0:10:56.32,ri,,0,0,0,,Dua kali pertama kembali dengan selamat.
+Dialogue: 0,0:10:56.72,0:10:57.96,ri,,0,0,0,,tapi hanya pada kali ketiga,
+Dialogue: 0,0:10:58.32,0:10:59.20,ri,,0,0,0,,orang yang keluar...
+Dialogue: 0,0:10:59.44,0:11:00.80,ri,,0,0,0,,kurang dari setengah.
+Dialogue: 0,0:11:01.64,0:11:02.72,ri,,0,0,0,,Sejak saat itu,
+Dialogue: 0,0:11:02.96,0:11:03.76,ri,,0,0,0,,Ling Tianhou.
+Dialogue: 0,0:11:03.80,0:11:05.88,ri,,0,0,0,,Berpisah jalan dengan Tian Yunzi.
+Dialogue: 0,0:11:06.24,0:11:07.16,ri,,0,0,0,,Selama bertahun-tahun.
+Dialogue: 0,0:11:07.24,0:11:09.04,ri,,0,0,0,,Keduanya selalu menutup mulut.
+Dialogue: 0,0:11:09.04,0:11:10.84,ri,,0,0,0,,Tentang apa yang sebenarnya terjadi.
+Dialogue: 0,0:11:13.28,0:11:14.84,ri,,0,0,0,,Hanya menyisakan satu kalimat.
+Dialogue: 0,0:11:15.24,0:11:16.52,ri,,0,0,0,,Mengatakan bahwa di Laut Timur ini,
+Dialogue: 0,0:11:16.84,0:11:18.24,ri,,0,0,0,,ada Iblis Kuno yang hidup.
+Dialogue: 0,0:11:18.92,0:11:19.64,ri,,0,0,0,,Sejak saat itu,
+Dialogue: 0,0:11:19.88,0:11:22.36,ri,,0,0,0,,Laut Timur menjadi salah satu daerah terlarang di Planet Tianyun.
+Dialogue: 0,0:11:22.92,0:11:24.84,ri,,0,0,0,,Dijaga bergiliran oleh beberapa sekte besar.
+Dialogue: 0,0:11:25.64,0:11:27.84,ri,,0,0,0,,Karena harta karun di dalamnya terlalu melimpah.
+Dialogue: 0,0:11:27.96,0:11:28.60,ri,,0,0,0,,Kini,
+Dialogue: 0,0:11:29.04,0:11:31.56,ri,,0,0,0,,dijadikan tempat ujian bagi para murid jenius.
+Dialogue: 0,0:11:32.32,0:11:33.88,ri,,0,0,0,,Setiap sekte telah berjanji sebelumnya,
+Dialogue: 0,0:11:33.92,0:11:35.40,ri,,0,0,0,,murid di atas tahap Ascendant,
+Dialogue: 0,0:11:35.52,0:11:36.56,ri,,0,0,0,,tidak boleh masuk.
+Dialogue: 0,0:11:37.24,0:11:39.88,ri,,0,0,0,,Memberi hormat pada Senior Tian Yunzi.
+Dialogue: 0,0:11:40.44,0:11:43.52,ri,,0,0,0,,Menyapa Venerable Tianyun.
+Dialogue: 0,0:11:47.12,0:11:48.04,ri,,0,0,0,,Murid, Wang Lin.
+Dialogue: 0,0:11:48.24,0:11:49.36,ri,,0,0,0,,Memberi hormat pada Guru Agung.
+Dialogue: 0,0:11:50.88,0:11:53.20,ri,,0,0,0,,Peristiwa besar lima ribu tahun sekali ini,
+Dialogue: 0,0:11:53.32,0:11:55.04,ri,,0,0,0,,perhatikan baik-baik.
+Dialogue: 0,0:11:55.56,0:11:57.16,ri,,0,0,0,,Di antara pasang surut,
+Dialogue: 0,0:11:57.28,0:12:00.60,ri,,0,0,0,,mungkin ada takdirmu di sana.
+Dialogue: 0,0:12:02.04,0:12:02.56,ri,,0,0,0,,Ya.
+Dialogue: 0,0:12:07.04,0:12:07.88,ri,,0,0,0,,Kenapa?
+Dialogue: 0,0:12:08.20,0:12:09.64,ri,,0,0,0,,Kau kenal anak ini?
+Dialogue: 0,0:12:13.44,0:12:14.40,ri,,0,0,0,,Tidak kenal.
+Dialogue: 0,0:12:15.16,0:12:17.64,ri,,0,0,0,,Tapi ada perasaan familiar darinya.
+Dialogue: 0,0:12:18.92,0:12:21.28,ri,,0,0,0,,Mungkin keturunan kenalan lama.
+Dialogue: 0,0:12:34.72,0:12:36.80,ri,,0,0,0,,Kekuatan alam yang sangat kuat!
+Dialogue: 0,0:12:39.36,0:12:40.68,ri,,0,0,0,,Sudah mulai.
+Dialogue: 0,0:13:03.64,0:13:04.88,ri,,0,0,0,,Astaga!
+Dialogue: 0,0:13:04.88,0:13:19.88,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:13:26.52,0:13:27.92,ri,,0,0,0,,Di dalam Tanah Roh Iblis,
+Dialogue: 0,0:13:28.92,0:13:30.72,ri,,0,0,0,,teknik luar biasa apa yang tersembunyi?
+Dialogue: 0,0:13:32.76,0:13:33.44,ri,,0,0,0,,Harta pusaka!
+Dialogue: 0,0:13:33.68,0:13:34.32,ri,,0,0,0,,Binatang suci!
+Dialogue: 0,0:13:34.36,0:13:35.40,ri,,0,0,0,,Pil ajaib!
+Dialogue: 0,0:13:35.44,0:13:37.04,ri,,0,0,0,,Semuanya adalah harta karun!
+Dialogue: 0,0:13:38.12,0:13:39.12,ri,,0,0,0,,Tanah Emas Surgawi!
+Dialogue: 0,0:13:39.64,0:13:40.68,ri,,0,0,0,,Cairan Qionghe!
+Dialogue: 0,0:13:41.48,0:13:42.72,ri,,0,0,0,,Batu Tinta Air!
+Dialogue: 0,0:13:43.64,0:13:44.96,ri,,0,0,0,,Tanduk Kecerdasan!
+Dialogue: 0,0:13:46.28,0:13:48.96,ri,,0,0,0,,Semuanya adalah bahan tempa terbaik dalam ingatan Tu Si.
+Dialogue: 0,0:13:52.76,0:13:53.80,ri,,0,0,0,,Pak tua Tian Yun!
+Dialogue: 0,0:13:54.04,0:13:54.92,ri,,0,0,0,,Itu jangan-jangan...
+Dialogue: 0,0:14:10.92,0:14:12.24,ri,,0,0,0,,kekuatan pasang surut ini,
+Dialogue: 0,0:14:13.12,0:14:14.64,ri,,0,0,0,,bisa menghalangi kesadaran ilahi.
+Dialogue: 0,0:14:14.64,0:14:15.88,ri,,0,0,0,,Tarik kembali kesadaran ilahimu!
+Dialogue: 0,0:14:16.08,0:14:17.72,ri,,0,0,0,,Benda ini melukai sumber kehidupan.
+Dialogue: 0,0:14:17.76,0:14:20.12,ri,,0,0,0,,Bukan untuk diselidiki junior seperti kalian.
+Dialogue: 0,0:14:21.56,0:14:24.16,ri,,0,0,0,,Keduanya juga memperhatikan benda di dalamnya.
+Dialogue: 0,0:14:24.68,0:14:26.52,ri,,0,0,0,,Mungkin yang muncul sekarang,
+Dialogue: 0,0:14:27.24,0:14:29.76,ri,,0,0,0,,barulah harta karun yang benar-benar dirahasiakan.
+Dialogue: 0,0:14:41.36,0:14:42.16,ri,,0,0,0,,Itu...
+Dialogue: 0,0:14:42.40,0:14:43.52,ri,,0,0,0,,Sebuah token.
+Dialogue: 0,0:14:45.48,0:14:47.08,ri,,0,0,0,,Kekutannya sangat besar!
+Dialogue: 0,0:14:47.64,0:14:48.92,ri,,0,0,0,,Tanah Roh Iblis ini,
+Dialogue: 0,0:14:49.48,0:14:51.24,ri,,0,0,0,,pasti menyimpan rahasia yang lebih besar.
+Dialogue: 0,0:14:51.76,0:14:54.04,ri,,0,0,0,,Meski kultivasi orang ini tidak tinggi,
+Dialogue: 0,0:14:54.32,0:14:57.12,ri,,0,0,0,,kesadaran ilahinya bisa menembus pusaran aneh ini?
+Dialogue: 0,0:14:57.64,0:14:59.24,ri,,0,0,0,,Benar-benar tidak bisa diremehkan.
+Dialogue: 0,0:15:00.24,0:15:15.24,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:15:35.44,0:15:36.92,ri,,0,0,0,,Gerbang Roh Iblis telah terbuka.
+Dialogue: 0,0:15:37.28,0:15:38.04,ri,,0,0,0,,Cepat masuk!
+Dialogue: 0,0:15:43.48,0:15:45.32,ri,,0,0,0,,Bawalah energi pedangku ini,
+Dialogue: 0,0:15:45.68,0:15:48.08,ri,,0,0,0,,sebagai teknik penyelamat nyawa kalian semua.
+Dialogue: 0,0:15:48.60,0:15:50.00,ri,,0,0,0,,Pergilah.
+Dialogue: 0,0:16:12.64,0:16:14.28,ri,,0,0,0,,Benar seperti katamu.
+Dialogue: 0,0:16:14.56,0:16:15.84,ri,,0,0,0,,Pasang surut kali ini,
+Dialogue: 0,0:16:16.32,0:16:19.92,ri,,0,0,0,,benar-benar membuat kita menemukan token terakhir itu.
+Dialogue: 0,0:16:20.24,0:16:22.04,ri,,0,0,0,,Bukan ucapanku,
+Dialogue: 0,0:16:22.24,0:16:23.96,ri,,0,0,0,,semuanya ditentukan takdir.
+Dialogue: 0,0:16:24.44,0:16:25.44,ri,,0,0,0,,Ambil,
+Dialogue: 0,0:16:25.72,0:16:27.24,ri,,0,0,0,,atau tidak?
+Dialogue: 0,0:16:28.56,0:16:30.52,ri,,0,0,0,,Dulu kita menderita kerugian besar.
+Dialogue: 0,0:16:30.84,0:16:33.04,ri,,0,0,0,,Sekarang untuk mengambil token,
+Dialogue: 0,0:16:33.20,0:16:35.56,ri,,0,0,0,,perlu persiapan yang matang.
+Dialogue: 0,0:16:38.84,0:16:40.56,ri,,0,0,0,,Bagaimana kalau dua ratus tahun lagi,
+Dialogue: 0,0:16:40.80,0:16:43.48,ri,,0,0,0,,kita bersama-sama masuk ke Tanah Roh Iblis,
+Dialogue: 0,0:16:43.92,0:16:45.52,ri,,0,0,0,,dan mengambil token itu?
+Dialogue: 0,0:16:47.24,0:16:48.56,ri,,0,0,0,,Kalau begitu,
+Dialogue: 0,0:16:49.08,0:16:50.80,ri,,0,0,0,,sampai jumpa dua ratus tahun lagi.
+Dialogue: 0,0:16:52.64,0:16:54.40,ri,,0,0,0,,Muridku Wang Lin ini,
+Dialogue: 0,0:16:54.64,0:16:57.04,ri,,0,0,0,,benar-benar orang yang beruntung.
+Dialogue: 0,0:16:58.48,0:16:59.92,ri,,0,0,0,,Hanya saja tidak tahu,
+Dialogue: 0,0:16:59.92,0:17:01.48,ri,,0,0,0,,Keberuntungannya...
+Dialogue: 0,0:17:02.04,0:17:04.44,ri,,0,0,0,,masih berapa banyak?

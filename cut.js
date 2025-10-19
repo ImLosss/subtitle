@@ -42,16 +42,17 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', 
       '-i', inputFile, 
-      '-ss', '00:02:18', 
-      '-to', '00:18:12',
-      '-vf', 'scale=1920:-2', 
-      // '-r', '25', 
+      // '-ss', '00:02:44', 
+      // '-to', '00:18:43',
+      '-vf', 'scale=1280:-2', 
+      // '-pix_fmt', 'yuv420p',
+      '-r', '25', 
       '-c:v', 'h264_amf', 
       '-cq:v', '18', 
       '-rc', 'cbr', 
-      '-b:v', '5M',
-      '-maxrate', '5M',
-      '-bufsize', '10M',
+      '-b:v', '2M',
+      '-maxrate', '2M',
+      '-bufsize', '4M',
       '-quality', 'quality',
       '-preset', 'quality', 
       '-c:a', 'aac',
@@ -61,20 +62,21 @@ async function cut(inputFile, outputFile) {
     // const ffmpegArgs = [
     //   '-y', // Overwrite file output jika ada
     //   '-i', inputFile, // File input
-    //   '-vf', "scale=1280:-1",
+    //   '-to', '00:00:10',
+    //   // '-vf', "scale=1920:-1",
+    //   '-pix_fmt', 'yuv420p',
     //   '-c:v', 'libx264',
     //   '-crf', '30',
     //   // '-b:v', '2M', // Bitrate target rata-rata
-    //   '-maxrate', '5M', // Batasi bitrate maksimum hingga 5 Mbps
-    //   '-bufsize', '10M', // Buffer size dua kali maksimum bitrate
+    //   '-maxrate', '7M', // Batasi bitrate maksimum hingga 5 Mbps
+    //   '-bufsize', '14M', // Buffer size dua kali maksimum bitrate
     //   '-preset', 'fast',
     //   '-c:a', 'copy', 
     //   outputFile // File output
     // ];
-
   
     // Jalankan ffmpeg dengan argumen yang telah ditentukan
-    const ffmpegProcess = spawn(ffmpegStatic, ffmpegArgs);
+    const ffmpegProcess = spawn('ffmpeg', ffmpegArgs);
 
     ffmpegProcess.stdout.on('data', (data) => {
       console.log(`stdout: ${data}`);
@@ -136,5 +138,5 @@ async function extractSubtitle(inputFile, subtitleStreamIndex, outputFile, force
 //       outputFile
 //     ];
 
-cut('235_4K.mp4', 'PW_EP235.mp4');
+cut('111.mp4', 'RI_EP111d.mp4');
 // extractSubtitle('06V2_4K.mp4', 0, 'TOMB_EP6_INDO.srt', true);

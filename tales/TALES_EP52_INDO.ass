@@ -1,0 +1,160 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.16,0:00:10.00,tales,,0,0,0,,Sehari.
+Dialogue: 0,0:00:11.16,0:00:14.32,tales,,0,0,0,,Aku bisa menaklukkan semua murid Istana Emas.
+Dialogue: 0,0:00:15.40,0:00:18.28,tales,,0,0,0,,Menginjak-injak harga diri kalian.
+Dialogue: 0,0:00:19.88,0:00:22.60,tales,,0,0,0,,Menginjak martabat kalian di bawah kakiku.
+Dialogue: 0,0:00:28.42,0:00:30.03,tales,,0,0,0,,Matilah!
+Dialogue: 0,0:01:16.60,0:01:20.68,tales,,0,0,0,,Akan kubunuh jiwamu untuk balas dendam senior.
+Dialogue: 0,0:01:29.48,0:01:30.68,tales,,0,0,0,,Racun penyihir receh.
+Dialogue: 0,0:01:39.09,0:01:40.28,tales,,0,0,0,,Selanjutnya.
+Dialogue: 0,0:01:41.82,0:01:43.29,tales,,0,0,0,,Sialan.
+Dialogue: 0,0:01:43.48,0:01:49.48,tales,,0,0,0,,Bunuh dia!
+Dialogue: 0,0:02:42.96,0:02:45.08,tales,,0,0,0,,Empat puluh penyihir.
+Dialogue: 0,0:02:45.16,0:02:46.52,tales,,0,0,0,,Dibunuhnya begitu saja.
+Dialogue: 0,0:02:47.00,0:02:49.64,tales,,0,0,0,,Siapa lagi yang kultivasi dengan mengambil jiwa?
+Dialogue: 0,0:02:49.64,0:02:50.66,tales,,0,0,0,,Keluarlah!
+Dialogue: 0,0:02:50.66,0:02:52.66,tales,,0,0,0,,Aku ingin membunuh seseorang.
+Dialogue: 0,0:02:58.08,0:02:59.04,tales,,0,0,0,,Simuluo.
+Dialogue: 0,0:02:59.40,0:03:01.08,tales,,0,0,0,,Kelemahannya di bahu kiri,
+Dialogue: 0,0:03:01.28,0:03:03.80,tales,,0,0,0,,itu bagian yang tidak dilatih dalam tekniknya.
+Dialogue: 0,0:03:04.04,0:03:05.60,tales,,0,0,0,,Sudah kulihat,
+Dialogue: 0,0:03:05.92,0:03:08.04,tales,,0,0,0,,hanya belum tahu posisi pastinya.
+Dialogue: 0,0:03:08.28,0:03:09.68,tales,,0,0,0,,Terima kasih ajaran Raja Penyihir.
+Dialogue: 0,0:03:11.48,0:03:12.96,tales,,0,0,0,,Sebagai senior.
+Dialogue: 0,0:03:13.08,0:03:15.12,tales,,0,0,0,,Tidak pantas bertingkah memalukan seperti ini.
+Dialogue: 0,0:03:15.24,0:03:16.24,tales,,0,0,0,,Penguasa Perang.
+Dialogue: 0,0:03:16.68,0:03:18.52,tales,,0,0,0,,Dulu aku kalah olehmu.
+Dialogue: 0,0:03:18.68,0:03:19.96,tales,,0,0,0,,Setelah merenungkan rasa sakit.
+Dialogue: 0,0:03:20.08,0:03:22.16,tales,,0,0,0,,Harus hapuskan aib masa lalu.
+Dialogue: 0,0:03:22.16,0:03:23.23,tales,,0,0,0,,Silakan.
+Dialogue: 0,0:03:25.68,0:03:27.28,tales,,0,0,0,,Kultivasi orang di sini terlalu rendah,
+Dialogue: 0,0:03:27.36,0:03:29.96,tales,,0,0,0,,kuatir kita bertarung akan mengguncang mereka sampai mati.
+Dialogue: 0,0:03:30.00,0:03:31.56,tales,,0,0,0,,Ikut aku bertarung di gunung salju!
+Dialogue: 0,0:03:59.88,0:04:01.00,tales,,0,0,0,,Semoga kau tidak perlu menggunakannya.
+Dialogue: 0,0:04:01.96,0:04:03.56,tales,,0,0,0,,Senior mengalihkan perhatian Tuan Penyihir Agung.
+Dialogue: 0,0:04:04.44,0:04:07.12,tales,,0,0,0,,Agar aku bisa menyusup ke istana untuk mencuri.
+Dialogue: 0,0:04:08.08,0:04:10.24,tales,,0,0,0,,Tapi masih ada empat Raja Penyihir yang berjaga.
+Dialogue: 0,0:04:10.52,0:04:11.68,tales,,0,0,0,,Kalau begitu.
+Dialogue: 0,0:04:11.68,0:04:12.70,tales,,0,0,0,,Ayo!
+Dialogue: 0,0:04:15.96,0:04:17.68,tales,,0,0,0,,Bertarung melawan lebih dari empat puluh orang,
+Dialogue: 0,0:04:17.84,0:04:20.16,tales,,0,0,0,,kekuatanmu terkuras cukup banyak.
+Dialogue: 0,0:04:35.48,0:04:37.76,tales,,0,0,0,,Mengurung jiwa dendam dalam pedang bulu sebagai roh pedang.
+Dialogue: 0,0:04:37.88,0:04:39.32,tales,,0,0,0,,Ilmu sihir memang jahat.
+Dialogue: 0,0:05:50.48,0:05:54.08,tales,,0,0,0,,Matahari menyinari jiwa yang dimurnikan di angkasa.
+Dialogue: 0,0:06:01.56,0:06:03.00,tales,,0,0,0,,Teknik pemurnian jiwa Zen?
+Dialogue: 0,0:06:03.32,0:06:05.68,tales,,0,0,0,,Ishvara.
+Dialogue: 0,0:06:38.16,0:06:38.97,tales,,0,0,0,,Tuan Muda!
+Dialogue: 0,0:06:46.68,0:06:47.48,tales,,0,0,0,,Penggembala sapi.
+Dialogue: 0,0:06:47.92,0:06:48.93,tales,,0,0,0,,Tidak apa-apa.
+Dialogue: 0,0:06:51.08,0:06:52.00,tales,,0,0,0,,Bunuh dia!
+Dialogue: 0,0:06:53.28,0:06:56.68,tales,,0,0,0,,Sudah kukatakan akan menghancurkan semangat juang mereka.
+Dialogue: 0,0:07:04.68,0:07:06.40,tales,,0,0,0,,Pasti akan kulakukan.
+Dialogue: 0,0:07:14.76,0:07:15.60,tales,,0,0,0,,Penggembala Sapi.
+Dialogue: 0,0:07:15.80,0:07:16.88,tales,,0,0,0,,Luka di bahu kirimu.
+Dialogue: 0,0:07:17.40,0:07:19.60,tales,,0,0,0,,Darah di bulu itu bukan darahku.
+Dialogue: 0,0:07:24.44,0:07:27.12,tales,,0,0,0,,Adik seperguruan Simuluo masih terlalu muda.
+Dialogue: 0,0:07:27.64,0:07:28.68,tales,,0,0,0,,Kurang tenang.
+Dialogue: 0,0:07:36.12,0:07:39.08,tales,,0,0,0,,Aku Danbaluo.
+Dialogue: 0,0:09:25.38,0:09:26.38,tales,,0,0,0,,Bocah,
+Dialogue: 0,0:09:26.56,0:09:27.84,tales,,0,0,0,,kau pasti mati!
+Dialogue: 0,0:09:59.92,0:10:01.48,tales,,0,0,0,,Danbaluo bagus.
+Dialogue: 0,0:10:01.68,0:10:04.40,tales,,0,0,0,,Kejam dan keji, tapi juga sangat tenang.
+Dialogue: 0,0:10:04.52,0:10:06.04,tales,,0,0,0,,Dia benar-benar berbakat besar.
+Dialogue: 0,0:10:07.12,0:10:09.20,tales,,0,0,0,,Danbaluo.
+Dialogue: 0,0:10:15.40,0:10:16.68,tales,,0,0,0,,Penggembala sapi,
+Dialogue: 0,0:10:17.04,0:10:18.71,tales,,0,0,0,,mati.
+Dialogue: 0,0:10:19.60,0:10:20.32,tales,,0,0,0,,Tidak mungkin.
+Dialogue: 0,0:10:20.32,0:10:21.48,tales,,0,0,0,,Tuan Muda tidak mungkin kalah.
+Dialogue: 0,0:10:21.52,0:10:22.64,tales,,0,0,0,,Itu pasti bukan dia.
+Dialogue: 0,0:10:22.76,0:10:23.64,tales,,0,0,0,,Jangan gegabah.
+Dialogue: 0,0:10:33.16,0:10:35.08,tales,,0,0,0,,Domba berkaki dua dari Negara Yankang,
+Dialogue: 0,0:10:35.16,0:10:37.00,tales,,0,0,0,,tidak pantas hidup di dunia ini!
+Dialogue: 0,0:10:47.00,0:10:48.20,tales,,0,0,0,,Selanjutnya,
+Dialogue: 0,0:10:49.20,0:10:51.12,tales,,0,0,0,,yang menghalangi gerbang adalah aku!
+Dialogue: 0,0:10:55.56,0:10:57.72,tales,,0,0,0,,Sekarang hanya tinggal gadis kecil ini.
+Dialogue: 0,0:10:58.40,0:10:59.56,tales,,0,0,0,,Tidak akan lama lagi,
+Dialogue: 0,0:10:59.68,0:11:01.76,tales,,0,0,0,,kita bisa pergi ke gunung salju untuk melihat.
+Dialogue: 0,0:11:02.08,0:11:03.72,tales,,0,0,0,,Laporkan kemenangan pada Tuan Penyihir Agung.
+Dialogue: 0,0:11:03.72,0:11:04.90,tales,,0,0,0,,Baik.
+Dialogue: 0,0:11:18.52,0:11:19.60,tales,,0,0,0,,Lapor, Tuan Penyihir Agung.
+Dialogue: 0,0:11:20.36,0:11:22.00,tales,,0,0,0,,Si penghalang gerbang sudah mati.
+Dialogue: 0,0:11:24.88,0:11:26.00,tales,,0,0,0,,Penguasa Perang.
+Dialogue: 0,0:11:26.52,0:11:28.84,tales,,0,0,0,,Kau juga akan segera mati.
+Dialogue: 0,0:11:32.48,0:11:34.04,tales,,0,0,0,,Kenapa Danbaluo tidak kembali?
+Dialogue: 0,0:11:34.60,0:11:36.68,tales,,0,0,0,,Kemungkinan besar dia juga terluka.
+Dialogue: 0,0:11:37.08,0:11:39.04,tales,,0,0,0,,Danbaluo memang berhati-hati.
+Dialogue: 0,0:11:39.56,0:11:42.52,tales,,0,0,0,,Setelah terluka pasti langsung berobat.
+Dialogue: 0,0:11:42.72,0:11:44.36,tales,,0,0,0,,Tidak meninggalkan masalah apa pun.
+Dialogue: 0,0:11:45.44,0:11:47.56,tales,,0,0,0,,Ini juga hal yang patut dipuji darinya.
+Dialogue: 0,0:11:58.48,0:12:00.88,tales,,0,0,0,,Ini adalah tempat penyimpanan harta karun.
+Dialogue: 0,0:12:01.04,0:12:03.08,tales,,0,0,0,,Danbaluo, untuk apa kau ke sini?
+Dialogue: 0,0:12:03.60,0:12:06.36,tales,,0,0,0,,Murid telah membunuh penjahat Yankang yang menghalangi gerbang,
+Dialogue: 0,0:12:06.44,0:12:07.96,tales,,0,0,0,,dan mendapatkan sebilah pedang.
+Dialogue: 0,0:12:08.12,0:12:09.00,tales,,0,0,0,,Tidak berani menyimpannya sendiri.
+Dialogue: 0,0:12:09.20,0:12:11.08,tales,,0,0,0,,Bermaksud mempersembahkannya pada Tuan Penyihir Agung.
+Dialogue: 0,0:12:16.04,0:12:17.40,tales,,0,0,0,,Senjata Spiritual yang bagus.
+Dialogue: 0,0:12:17.84,0:12:19.60,tales,,0,0,0,,Di Istana Emasku,
+Dialogue: 0,0:12:19.84,0:12:22.88,tales,,0,0,0,,hanya sedikit harta yang bisa menandinginya.
+Dialogue: 0,0:12:24.56,0:12:26.64,tales,,0,0,0,,Kau telah berjasa besar.
+Dialogue: 0,0:12:26.68,0:12:28.60,tales,,0,0,0,,Dan mempersembahkan harta berharga ini.
+Dialogue: 0,0:12:29.68,0:12:33.40,tales,,0,0,0,,Tuan Penyihir Agung pasti akan memberimu hadiah besar.
+Dialogue: 0,0:12:40.76,0:12:42.88,tales,,0,0,0,,Mohon senior beri kemudahan.
+Dialogue: 0,0:12:43.72,0:12:46.76,tales,,0,0,0,,Bawa murid melihat harta karun di gudang.
+Dialogue: 0,0:12:50.24,0:12:52.52,tales,,0,0,0,,Saat menghadap Tuan Penyihir Agung nanti,
+Dialogue: 0,0:12:52.60,0:12:54.80,tales,,0,0,0,,murid bisa meminta hadiah.
+Dialogue: 0,0:13:01.24,0:13:02.30,tales,,0,0,0,,Baiklah.
+Dialogue: 0,0:13:28.41,0:13:29.43,tales,,0,0,0,,Ingat!
+Dialogue: 0,0:13:30.52,0:13:31.72,tales,,0,0,0,,Hanya boleh melihat.
+Dialogue: 0,0:13:31.96,0:13:33.08,tales,,0,0,0,,Jangan sembarangan menyentuh!
+Dialogue: 0,0:13:37.40,0:13:39.52,tales,,0,0,0,,Jika salah menyentuh segel Tuan Penyihir Agung,
+Dialogue: 0,0:13:43.36,0:13:47.28,tales,,0,0,0,,iblis jahat di dalamnya akan dibebaskan,
+Dialogue: 0,0:13:47.48,0:13:50.28,tales,,0,0,0,,dan melahap si penyusup.
+Dialogue: 0,0:13:51.28,0:14:06.28,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:14:56.84,0:14:57.48,tales,,0,0,0,,Senior.
+Dialogue: 0,0:14:58.32,0:14:59.24,tales,,0,0,0,,Di mana hartanya?
+Dialogue: 0,0:15:00.88,0:15:01.84,tales,,0,0,0,,Kenapa buru-buru?
+Dialogue: 0,0:15:02.48,0:15:03.92,tales,,0,0,0,,Mendekat dan lihat lagi.
+Dialogue: 0,0:15:24.16,0:15:25.52,tales,,0,0,0,,Danbaluo,
+Dialogue: 0,0:15:25.72,0:15:29.16,tales,,0,0,0,,prestasimu yang besar ini bahkan membuatku iri.
+Dialogue: 0,0:15:31.84,0:15:35.12,tales,,0,0,0,,Aku dapatkan lebih dari satu harta dari orang Yankang.
+Dialogue: 0,0:15:35.48,0:15:37.28,tales,,0,0,0,,Juga mendapatkan sebotol obat suci.
+Dialogue: 0,0:15:37.80,0:15:39.40,tales,,0,0,0,,Aku mencium aromanya.
+Dialogue: 0,0:15:40.00,0:15:41.40,tales,,0,0,0,,Sangat menakjubkan.
+Dialogue: 0,0:15:41.64,0:15:43.24,tales,,0,0,0,,Seolah-olah akan menjadi dewa.
+Dialogue: 0,0:15:45.84,0:15:47.28,tales,,0,0,0,,Danbaluo.
+Dialogue: 0,0:15:47.68,0:15:50.64,tales,,0,0,0,,Aku membawamu ke sini lebih awal untuk memilih harta.
+Dialogue: 0,0:15:51.76,0:15:54.28,tales,,0,0,0,,Tidakkah kau menghormatiku?
+Dialogue: 0,0:15:56.68,0:16:02.24,tales,,0,0,0,,Harta berharga ditempatkan di posisi terdalam dan paling berharga.
+Dialogue: 0,0:16:03.24,0:16:17.82,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:16:18.04,0:16:19.04,tales,,0,0,0,,Pelit.
+Dialogue: 0,0:16:31.48,0:16:33.36,tales,,0,0,0,,Wangi sekali.
+Dialogue: 0,0:16:34.36,0:16:49.36,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:17:03.72,0:17:06.72,tales,,0,0,0,,Ini disebut...
+Dialogue: 0,0:17:06.72,0:17:10.08,tales,,0,0,0,,Dupa Pelumpuh.
