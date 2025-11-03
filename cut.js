@@ -42,7 +42,7 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', 
       '-i', inputFile, 
-      '-ss', '00:02:17', 
+      // '-ss', '00:02:17', 
       '-to', '00:20:08',
       '-vf', 'scale=1920:-2', 
       // '-pix_fmt', 'yuv420p',
@@ -139,5 +139,5 @@ async function extractSubtitle(inputFile, subtitleStreamIndex, outputFile, force
 //       outputFile
 //     ];
 
-cut('113_4K.mp4', 'RI_EP113.mp4');
+cut('tess.mp4', 'output.mp4');
 // extractSubtitle('06V2_4K.mp4', 0, 'TOMB_EP6_INDO.srt', true);
