@@ -126,13 +126,68 @@ function cleanAllSRTInFolder(folderPath, typoMapPath, outputFolder) {
     }
 }
 
-// Membersihkan satu file SRT
-const inputFile = 'RI_EP111d.srt';
-const typoMapFile = 'd:/Dokumenku/Pemrograman/Node/subtitle/vse/resources/backend/configs/typoMap.json';
-const outputFile = 'cleaned_subtitle.srt';
+function fixSRTPunctuation(path) {
+    const srtContent = fs.readFileSync(path, 'utf8');
+    const lines = srtContent.split('\n');
+    const result = [];
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        
+        // Skip baris kosong, nomor urut, atau timestamp
+        if (!line || line.match(/^\d+$/) || line.match(/\d{2}:\d{2}:\d{2}/)) {
+            result.push(lines[i]); // Pertahankan format asli (dengan spasi)
+            continue;
+        }
+        
+        // Ini adalah baris subtitle
+        // Cek apakah sudah ada tanda baca di akhir
+        if (line.match(/[.,!?…]$/)) {
+            result.push(lines[i]); // Sudah ada tanda baca, gunakan baris asli
+            continue;
+        }
+        
+        // Cari baris subtitle berikutnya (bukan nomor/timestamp/kosong)
+        let nextSubtitleLine = null;
+        for (let j = i + 1; j < lines.length; j++) {
+            const nextLine = lines[j].trim();
+            // Skip baris kosong, nomor, timestamp
+            if (!nextLine || nextLine.match(/^\d+$/) || nextLine.match(/\d{2}:\d{2}:\d{2}/)) {
+                continue;
+            }
+            nextSubtitleLine = nextLine;
+            break;
+        }
+        
+        // Tentukan tanda baca berdasarkan huruf pertama baris berikutnya
+        let punctuation = '.'; // Default titik
+        
+        if (nextSubtitleLine) {
+            const firstChar = nextSubtitleLine.charAt(0);
+            // Jika huruf pertama baris berikutnya huruf kecil, gunakan koma
+            if (firstChar && firstChar === firstChar.toLowerCase() && firstChar.match(/[a-z\u00C0-\u017F]/i)) {
+                punctuation = ',';
+            }
+        }
+        
+        // Tambahkan tanda baca ke baris yang sudah di-trim
+        result.push(line + punctuation);
+    }
+    
+    fs.writeFileSync(path, result.join('\n'), 'utf8');
+    return result.join('\n');
+}
 
-const cleanedContent = cleanSRT(inputFile, typoMapFile, outputFile);
-console.log('SRT berhasil dibersihkan!');
+// // Membersihkan satu file SRT
+// const inputFile = 'RI_EP111d.srt';
+// const typoMapFile = 'd:/Dokumenku/Pemrograman/Node/subtitle/vse/resources/backend/configs/typoMap.json';
+// const outputFile = 'cleaned_subtitle.srt';
+
+// const cleanedContent = cleanSRT(inputFile, typoMapFile, outputFile);
+// console.log('SRT berhasil dibersihkan!');
+
+let tess = fixSRTPunctuation('EC_EP19_INDO.srt');
+console.log(tess);
 
 module.exports = {
     cleanSRT,

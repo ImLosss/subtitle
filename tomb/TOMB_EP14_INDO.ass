@@ -1,0 +1,341 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 818
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:40.51,0:01:45.63,komen,,0,0,0,,{\pos(178,512)\fad(500,250)}[Akademi Shenlan\NGudang Obat]
+Dialogue: 0,0:08:02.40,0:08:06.90,komen,,0,0,0,,{\pos(174,421)\fad(500,250)}Lima hari yang lalu...
+Dialogue: 0,0:08:02.40,0:08:06.90,komen,,0,0,0,,{\pos(1636,488)\fad(500,250)}[Istana Kerajaan Dongchu]
+Dialogue: 0,0:08:28.19,0:08:33.93,komen,,0,0,0,,{\pos(185,528)\fad(500,250)}[Ibu Kota Negara Dongchu\NKota Pingyang]
+Dialogue: 0,0:08:40.88,0:08:43.77,komen,,0,0,0,,{\pos(639,516)\fad(500,250)}[Kaisar Negara Dongchu\NChu Han]
+Dialogue: 0,0:09:30.55,0:09:34.41,komen,,0,0,0,,{\pos(340,501)\fad(500,250)}[Makam Kuno\NBawah Istana Kerajaan Dongchu]
+Dialogue: 0,0:09:47.05,0:09:52.23,komen,,0,0,0,,{\pos(155,527)\fad(500,250)}[Negara Dongchu\NWilayah Barat]
+Dialogue: 0,0:10:47.45,0:10:51.73,komen,,0,0,0,,{\pos(1621,548)\fad(500,250)}[Kaili\NTingkat Empat]
+Dialogue: 0,0:12:32.54,0:12:37.83,komen,,0,0,0,,{\pos(157,509)\fad(500,250)}[Penginapan\NKota Pingyang]
+Dialogue: 0,0:13:59.99,0:14:02.93,komen,,0,0,0,,{\pos(1699,540)\fad(500,250)}[Tuan Muda Jalan Kekacauan\NTingkat Empat Menengah]
+Dialogue: 0,0:00:00.00,0:00:15.00,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:15.07,0:00:16.20,tomb,,0,0,0,,Kakak Pemalas.
+Dialogue: 0,0:00:16.33,0:00:17.80,tomb,,0,0,0,,Matahari sudah tinggi.
+Dialogue: 0,0:00:17.87,0:00:19.07,tomb,,0,0,0,,Sudah waktunya bangun.
+Dialogue: 0,0:00:23.33,0:00:24.80,tomb,,0,0,0,,Kakak, ceritakan pada Chen Xi,
+Dialogue: 0,0:00:25.47,0:00:27.80,tomb,,0,0,0,,bagaimana kakak dan Kakak Meng mengalahkan penjahat.
+Dialogue: 0,0:00:28.47,0:00:30.13,tomb,,0,0,0,,Kakak Xiaomafan bilang,
+Dialogue: 0,0:00:30.33,0:00:31.53,tomb,,0,0,0,,semalam kakak menyelamatkannya.
+Dialogue: 0,0:00:31.80,0:00:32.93,tomb,,0,0,0,,Apa kalian sudah berbaikan?
+Dialogue: 0,0:00:33.40,0:00:35.27,tomb,,0,0,0,,Uh, ini...
+Dialogue: 0,0:00:35.70,0:00:36.83,tomb,,0,0,0,,tidak bisa dijelaskan singkat.
+Dialogue: 0,0:00:38.30,0:00:39.50,tomb,,0,0,0,,Pedang Kakak Meng.
+Dialogue: 0,0:00:44.70,0:00:45.30,tomb,,0,0,0,,Wah.
+Dialogue: 0,0:00:45.67,0:00:46.93,tomb,,0,0,0,,Pedangnya cantik sekali.
+Dialogue: 0,0:00:47.80,0:00:48.40,tomb,,0,0,0,,Chen Xi.
+Dialogue: 0,0:00:48.83,0:00:49.90,tomb,,0,0,0,,Kakak dan kakak perempuan,
+Dialogue: 0,0:00:49.90,0:00:50.90,tomb,,0,0,0,,sudah lama berbaikan.
+Dialogue: 0,0:00:51.63,0:00:52.27,tomb,,0,0,0,,Pedang ini,
+Dialogue: 0,0:00:52.73,0:00:54.20,tomb,,0,0,0,,adalah hadiahnya untuk kakak.
+Dialogue: 0,0:00:55.40,0:00:56.60,tomb,,0,0,0,,Hari ini kakak berikan untukmu.
+Dialogue: 0,0:00:57.23,0:00:59.07,tomb,,0,0,0,,Benarkah? Bagus sekali!
+Dialogue: 0,0:01:00.33,0:01:01.73,tomb,,0,0,0,,Hati-hati, jangan sampai melukai diri sendiri.
+Dialogue: 0,0:01:09.20,0:01:11.43,tomb,,0,0,0,,Anak ini baru belajar dengan Dekan beberapa hari,
+Dialogue: 0,0:01:11.83,0:01:13.03,tomb,,0,0,0,,perkembangannya sangat pesat.
+Dialogue: 0,0:01:14.40,0:01:16.40,tomb,,0,0,0,,Aku tahu kakak masih harus pergi berpetualang.
+Dialogue: 0,0:01:16.60,0:01:17.53,tomb,,0,0,0,,Kakak tenang saja.
+Dialogue: 0,0:01:17.73,0:01:19.33,tomb,,0,0,0,,Chen Xi akan tinggal dengan baik di akademi,
+Dialogue: 0,0:01:19.33,0:01:20.30,tomb,,0,0,0,,dan rajin berlatih.
+Dialogue: 0,0:01:20.70,0:01:22.83,tomb,,0,0,0,,Nanti kalau kakak menghadapi masalah lagi.
+Dialogue: 0,0:01:22.83,0:01:24.40,tomb,,0,0,0,,Chen Xi juga bisa membantu.
+Dialogue: 0,0:01:26.13,0:01:27.23,tomb,,0,0,0,,Chen Xi baik sekali.
+Dialogue: 0,0:01:27.47,0:01:28.30,tomb,,0,0,0,,Kakak janji,
+Dialogue: 0,0:01:28.60,0:01:30.13,tomb,,0,0,0,,pasti akan sering kembali menemuimu.
+Dialogue: 0,0:01:30.40,0:01:31.07,tomb,,0,0,0,,Hm.
+Dialogue: 0,0:01:32.63,0:01:33.50,tomb,,0,0,0,,Mana si Belut Tua itu?
+Dialogue: 0,0:01:33.70,0:01:35.20,tomb,,0,0,0,,Ada masalah, ada masalah!
+Dialogue: 0,0:01:35.33,0:01:36.73,tomb,,0,0,0,,Gudang obat dibobol.
+Dialogue: 0,0:01:58.50,0:02:01.13,tomb,,0,0,0,,Siapa yang menginjak ekor naga ini?
+Dialogue: 0,0:02:09.30,0:02:12.07,tomb,,0,0,0,,Oh, ternyata kau, Kakek Tua.
+Dialogue: 0,0:02:12.93,0:02:15.13,tomb,,0,0,0,,Bantu Kakek berguling.
+Dialogue: 0,0:02:15.60,0:02:17.43,tomb,,0,0,0,,Kakek kekenyangan sampai energi spiritual meluap.
+Dialogue: 0,0:02:17.60,0:02:19.47,tomb,,0,0,0,,Isi perut hampir pecah.
+Dialogue: 0,0:02:19.83,0:02:22.20,tomb,,0,0,0,,Buah Huoyun, Pir Kristal Ungu masih ada?
+Dialogue: 0,0:02:22.83,0:02:25.73,tomb,,0,0,0,,Yang satu tersisa intinya, yang satunya intinya sudah hilang.
+Dialogue: 0,0:02:27.93,0:02:28.93,tomb,,0,0,0,,Bagaimana Jamur Roh Sembilan Daun itu?
+Dialogue: 0,0:02:29.13,0:02:29.53,tomb,,0,0,0,,Hmm.
+Dialogue: 0,0:02:29.53,0:02:31.40,tomb,,0,0,0,,Itu terlalu pahit.
+Dialogue: 0,0:02:31.40,0:02:32.83,tomb,,0,0,0,,Kutinggalkan satu daun untuk kalian.
+Dialogue: 0,0:02:35.67,0:02:37.30,tomb,,0,0,0,,Teratai Abadi Sembilan Kelas mana?
+Dialogue: 0,0:02:43.60,0:02:44.47,tomb,,0,0,0,,Ah.
+Dialogue: 0,0:02:46.23,0:02:47.23,tomb,,0,0,0,,Aduh.
+Dialogue: 0,0:02:47.23,0:02:49.80,tomb,,0,0,0,,Kakek Tua, jangan pelit-pelit begitu.
+Dialogue: 0,0:02:49.87,0:02:52.90,tomb,,0,0,0,,Kakek, aku cuma makan sedikit camilan untuk menguatkan energi nagaku.
+Dialogue: 0,0:02:53.47,0:02:56.03,tomb,,0,0,0,,Nanti aku cari beberapa tanaman untuk menggantinya.
+Dialogue: 0,0:02:56.27,0:02:56.87,tomb,,0,0,0,,Cari?
+Dialogue: 0,0:02:57.13,0:02:59.20,tomb,,0,0,0,,Mau cari di mana tanaman spiritual sebanyak itu?
+Dialogue: 0,0:02:59.43,0:02:59.93,tomb,,0,0,0,,Siapa saja!
+Dialogue: 0,0:03:00.73,0:03:02.35,tomb,,0,0,0,,Ikat dia!
+Dialogue: 0,0:03:02.87,0:03:05.93,tomb,,0,0,0,,Hari ini aku akan menyulingnya jadi pil abadi!
+Dialogue: 0,0:03:05.93,0:03:07.20,tomb,,0,0,0,,Panas, panas, panas!
+Dialogue: 0,0:03:07.33,0:03:08.47,tomb,,0,0,0,,Aku ini binatang suci!
+Dialogue: 0,0:03:08.63,0:03:10.03,tomb,,0,0,0,,Berani-beraninya menyakitiku!
+Dialogue: 0,0:03:10.33,0:03:11.80,tomb,,0,0,0,,Binatang suci juga ada yang baik dan jahat.
+Dialogue: 0,0:03:12.07,0:03:13.47,tomb,,0,0,0,,Kau adalah naga jahat!
+Dialogue: 0,0:03:13.47,0:03:14.73,tomb,,0,0,0,,Tua bangka, siapa kau bohongi?
+Dialogue: 0,0:03:14.73,0:03:15.60,tomb,,0,0,0,,Manusia biasa,
+Dialogue: 0,0:03:15.60,0:03:17.20,tomb,,0,0,0,,mau menyuling naga suci jadi pil abadi?
+Dialogue: 0,0:03:17.27,0:03:18.23,tomb,,0,0,0,,Mimpi kali kau!
+Dialogue: 0,0:03:18.90,0:03:20.00,tomb,,0,0,0,,Panas sekali, panas sekali!
+Dialogue: 0,0:03:20.03,0:03:22.13,tomb,,0,0,0,,Chen Nan, Chen Nan!
+Dialogue: 0,0:03:22.23,0:03:23.25,tomb,,0,0,0,,Chen Nan!
+Dialogue: 0,0:03:27.03,0:03:29.40,tomb,,0,0,0,,Arwah gentayangan, menghalangi penyembuhanku.
+Dialogue: 0,0:03:36.30,0:03:37.33,tomb,,0,0,0,,Surat dari Tantai.
+Dialogue: 0,0:03:42.60,0:03:43.67,tomb,,0,0,0,,Pesan mendesak dari sekte.
+Dialogue: 0,0:03:43.80,0:03:44.87,tomb,,0,0,0,,Meng Ke'er yang terhormat.
+Dialogue: 0,0:03:45.23,0:03:45.87,tomb,,0,0,0,,Dengarkan baik-baik.
+Dialogue: 0,0:03:46.30,0:03:47.63,tomb,,0,0,0,,Murid generasi ini dari Jalan Kekacauan,
+Dialogue: 0,0:03:47.87,0:03:48.83,tomb,,0,0,0,,Raja Iblis Kecil Hun Tian,
+Dialogue: 0,0:03:48.83,0:03:49.53,tomb,,0,0,0,,Xiang Tian,
+Dialogue: 0,0:03:49.80,0:03:50.47,tomb,,0,0,0,,telah muncul.
+Dialogue: 0,0:03:50.90,0:03:52.83,tomb,,0,0,0,,Bagaimana bisa, sekarang?
+Dialogue: 0,0:03:54.47,0:03:56.33,tomb,,0,0,0,,Lima Tanah Suci jalan benar dan enam jalan sesat,
+Dialogue: 0,0:03:56.43,0:03:57.90,tomb,,0,0,0,,terjalin sejak zaman kuno.
+Dialogue: 0,0:03:58.50,0:03:59.47,tomb,,0,0,0,,Pertarungan kedua pihak,
+Dialogue: 0,0:03:59.90,0:04:02.40,tomb,,0,0,0,,sering dimulai dari pertarungan murid setiap generasi.
+Dialogue: 0,0:04:03.40,0:04:05.27,tomb,,0,0,0,,Keluarga Ling melahirkan murid Jalan Pemusnah,
+Dialogue: 0,0:04:06.27,0:04:07.80,tomb,,0,0,0,,Jalan Kekacauan juga mulai bergerak.
+Dialogue: 0,0:04:17.73,0:04:18.73,tomb,,0,0,0,,Hahaha!
+Dialogue: 0,0:04:19.27,0:04:20.83,tomb,,0,0,0,,Selamat, selamat.
+Dialogue: 0,0:04:21.33,0:04:23.43,tomb,,0,0,0,,Sudah lama mendengar nama besar Gadis Suci Tantai,
+Dialogue: 0,0:04:23.73,0:04:25.13,tomb,,0,0,0,,kini semakin terkenal.
+Dialogue: 0,0:04:25.23,0:04:27.07,tomb,,0,0,0,,Sepatutnya segera mencari jodoh yang baik.
+Dialogue: 0,0:04:27.90,0:04:29.00,tomb,,0,0,0,,Di hari yang baik,
+Dialogue: 0,0:04:29.23,0:04:31.73,tomb,,0,0,0,,pasti akan membawa paksa Gadis Suci ke Kota Ziyao,
+Dialogue: 0,0:04:31.87,0:04:33.30,tomb,,0,0,0,,bersama mencapai kebahagiaan tertinggi.
+Dialogue: 0,0:04:34.07,0:04:36.47,tomb,,0,0,0,,Ditulis sendiri oleh Xiang Tian dari Jalan Kekacauan.
+Dialogue: 0,0:04:46.10,0:04:47.27,tomb,,0,0,0,,Dia mencoba memancing amarahku.
+Dialogue: 0,0:04:48.27,0:04:49.43,tomb,,0,0,0,,Sejak dipermalukan hari itu,
+Dialogue: 0,0:04:49.80,0:04:50.70,tomb,,0,0,0,,aku sulit tetap tenang.
+Dialogue: 0,0:04:51.47,0:04:52.83,tomb,,0,0,0,,Hampir saja tingkatanku turun.
+Dialogue: 0,0:04:54.20,0:04:54.80,tomb,,0,0,0,,Chen Nan,
+Dialogue: 0,0:04:55.43,0:04:57.33,tomb,,0,0,0,,kau memang yang paling bisa mengganggu jalan kultivasiku.
+Dialogue: 0,0:04:58.70,0:05:00.00,tomb,,0,0,0,,Segala sesuatu di dunia ini,
+Dialogue: 0,0:05:00.00,0:05:01.23,tomb,,0,0,0,,bagaikan asap dan awan.
+Dialogue: 0,0:05:01.53,0:05:03.20,tomb,,0,0,0,,Mengapa harus berpegang pada satu obsesi?
+Dialogue: 0,0:05:03.50,0:05:05.03,tomb,,0,0,0,,Buanglah beban dalam hati.
+Dialogue: 0,0:05:05.50,0:05:07.03,tomb,,0,0,0,,Dengan hati yang melampaui dunia,
+Dialogue: 0,0:05:07.10,0:05:08.20,tomb,,0,0,0,,dan sikap yang terlibat dalam dunia,
+Dialogue: 0,0:05:08.80,0:05:10.67,tomb,,0,0,0,,untuk menghadapi kemewahan duniawi.
+Dialogue: 0,0:05:12.60,0:05:14.13,tomb,,0,0,0,,Murid Hun Tian telah muncul.
+Dialogue: 0,0:05:14.87,0:05:17.13,tomb,,0,0,0,,Putra Ling Zixu sebagai murid Jalan Pemusnah,
+Dialogue: 0,0:05:18.13,0:05:20.00,tomb,,0,0,0,,setelah muncul pasti akan datang membalas dendam padaku.
+Dialogue: 0,0:05:21.33,0:05:24.00,tomb,,0,0,0,,Entah apakah murid Kuil Xiaolin sudah muncul atau belum.
+Dialogue: 0,0:05:25.27,0:05:26.63,tomb,,0,0,0,,Saat ini aku sangat butuh bantuan.
+Dialogue: 0,0:05:28.60,0:05:29.80,tomb,,0,0,0,,Ini surat dari Chu Yue.
+Dialogue: 0,0:05:34.07,0:05:34.60,tomb,,0,0,0,,Oh.
+Dialogue: 0,0:05:36.90,0:05:38.30,tomb,,0,0,0,,Begitu cepat sudah mau pergi?
+Dialogue: 0,0:05:38.70,0:05:40.13,tomb,,0,0,0,,Misteri dalam hatiku belum terpecahkan.
+Dialogue: 0,0:05:40.70,0:05:41.67,tomb,,0,0,0,,Saat ini dengan tingkat 4,
+Dialogue: 0,0:05:42.20,0:05:43.43,tomb,,0,0,0,,juga belum bisa disebut yang terbaik di antara generasi.
+Dialogue: 0,0:05:44.10,0:05:45.50,tomb,,0,0,0,,Kalau tidak segera mencari kesempatan untuk berlatih,
+Dialogue: 0,0:05:45.80,0:05:46.60,tomb,,0,0,0,,mungkin sudah terlambat.
+Dialogue: 0,0:06:03.83,0:06:04.87,tomb,,0,0,0,,Ini darahku.
+Dialogue: 0,0:06:04.87,0:06:06.33,tomb,,0,0,0,,Sebanyak ini,
+Dialogue: 0,0:06:06.33,0:06:07.80,tomb,,0,0,0,,semoga cukup untuk penelitian Shenlan selanjutnya.
+Dialogue: 0,0:06:09.60,0:06:10.87,tomb,,0,0,0,,Lumayan mengerti.
+Dialogue: 0,0:06:16.23,0:06:17.10,tomb,,0,0,0,,Tenang saja.
+Dialogue: 0,0:06:17.33,0:06:20.23,tomb,,0,0,0,,Naga jahat ini mendapat keuntungan besar kali ini.
+Dialogue: 0,0:06:20.33,0:06:23.60,tomb,,0,0,0,,Setelah dia menyuling energi spiritual dalam tubuhnya menjadi energi sendiri,
+Dialogue: 0,0:06:23.73,0:06:26.33,tomb,,0,0,0,,kemampuannya mungkin tidak hanya pulih seperti semula.
+Dialogue: 0,0:06:26.33,0:06:28.50,tomb,,0,0,0,,Bajingan, katanya ada gudang obat.
+Dialogue: 0,0:06:29.00,0:06:30.03,tomb,,0,0,0,,Cepat ucapkan terima kasih pada Wakil Dekan.
+Dialogue: 0,0:06:31.53,0:06:33.20,tomb,,0,0,0,,Terima kasih, Wakil Dekan.
+Dialogue: 0,0:06:38.33,0:06:38.80,tomb,,0,0,0,,Peri Meng.
+Dialogue: 0,0:06:38.93,0:06:39.80,tomb,,0,0,0,,Setelah pemulihan tiga hari,
+Dialogue: 0,0:06:40.13,0:06:41.13,tomb,,0,0,0,,apakah kondisi tubuhmu sudah membaik?
+Dialogue: 0,0:06:41.63,0:06:42.43,tomb,,0,0,0,,Tidak usah khawatir.
+Dialogue: 0,0:06:42.83,0:06:43.60,tomb,,0,0,0,,Sudah tidak apa-apa.
+Dialogue: 0,0:06:44.57,0:06:46.59,tomb,,0,0,0,,oh, begitu ya?
+Dialogue: 0,0:06:48.20,0:06:50.20,tomb,,0,0,0,,Awalnya kubawakan obat penghilang bekas luka untukmu.
+Dialogue: 0,0:06:50.90,0:06:52.67,tomb,,0,0,0,,Tampaknya tidak diperlukan lagi.
+Dialogue: 0,0:06:55.60,0:06:56.67,tomb,,0,0,0,,Kembalikan Pedang-ku.
+Dialogue: 0,0:06:59.83,0:07:00.60,tomb,,0,0,0,,Hmm.
+Dialogue: 0,0:07:01.10,0:07:02.27,tomb,,0,0,0,,Tampaknya ini barang bagus.
+Dialogue: 0,0:07:04.07,0:07:05.30,tomb,,0,0,0,,Kalau begitu, kalau aku menemukannya,
+Dialogue: 0,0:07:06.07,0:07:06.87,tomb,,0,0,0,,pasti akan kutahan.
+Dialogue: 0,0:07:07.13,0:07:08.07,tomb,,0,0,0,,Tidak akan kukembalikan padamu.
+Dialogue: 0,0:07:10.35,0:07:11.52,tomb,,0,0,0,,Kau!
+Dialogue: 0,0:07:13.23,0:07:14.10,tomb,,0,0,0,,Hmm.
+Dialogue: 0,0:07:15.90,0:07:16.67,tomb,,0,0,0,,Baik.
+Dialogue: 0,0:07:17.20,0:07:18.37,tomb,,0,0,0,,Kalau begitu, semoga di masa depan,
+Dialogue: 0,0:07:19.07,0:07:20.13,tomb,,0,0,0,,kau masih bisa tertawa.
+Dialogue: 0,0:07:22.33,0:07:23.90,tomb,,0,0,0,,Peri Meng sebaiknya beristirahat dengan baik!
+Dialogue: 0,0:07:24.43,0:07:25.90,tomb,,0,0,0,,Jangan terlalu memaksakan diri.
+Dialogue: 0,0:07:26.13,0:07:26.87,tomb,,0,0,0,,Kurasa,
+Dialogue: 0,0:07:27.10,0:07:28.47,tomb,,0,0,0,,menuju tepi sungai kota lebih baik...
+Dialogue: 0,0:07:28.53,0:07:29.50,tomb,,0,0,0,,Jalan-jalan menghilangkan stres juga tidak buruk.
+Dialogue: 0,0:07:38.43,0:07:40.30,tomb,,0,0,0,,Kedua Dekan, saya pamit.
+Dialogue: 0,0:07:40.96,0:07:41.96,tomb,,0,0,0,,Hm.
+Dialogue: 0,0:07:46.73,0:07:48.03,tomb,,0,0,0,,Melihat keadaannya,
+Dialogue: 0,0:07:48.07,0:07:49.10,tomb,,0,0,0,,dia juga akan melakukan perjalanan jauh.
+Dialogue: 0,0:07:51.03,0:07:53.10,tomb,,0,0,0,,Dongchu dan Sekte Tantai hubungannya sangat erat,
+Dialogue: 0,0:07:53.43,0:07:55.53,tomb,,0,0,0,,Putri Mahkota Chu Yue juga murid luar.
+Dialogue: 0,0:07:55.87,0:07:57.23,tomb,,0,0,0,,Perubahan di Dongchu kali ini,
+Dialogue: 0,0:07:57.53,0:07:59.73,tomb,,0,0,0,,dia pasti ingin memeriksanya.
+Dialogue: 0,0:08:00.33,0:08:00.83,tomb,,0,0,0,,Perubahan?
+Dialogue: 0,0:08:12.83,0:08:13.70,tomb,,0,0,0,,Gempa bumi!
+Dialogue: 0,0:08:15.03,0:08:16.07,tomb,,0,0,0,,Ah!
+Dialogue: 0,0:08:20.08,0:08:20.63,tomb,,0,0,0,,Ah!
+Dialogue: 0,0:08:24.23,0:08:25.30,tomb,,0,0,0,,Cepat lihat, cepat lihat!
+Dialogue: 0,0:08:27.23,0:08:28.07,tomb,,0,0,0,,Apa ini?
+Dialogue: 0,0:08:28.70,0:08:29.53,tomb,,0,0,0,,Cantik sekali!
+Dialogue: 0,0:08:30.60,0:08:32.53,tomb,,0,0,0,,Apa... apa ini mukjizat dewa?
+Dialogue: 0,0:08:34.47,0:08:37.73,tomb,,0,0,0,,Ini adalah pertanda kemakmuran Negara Dongchu!
+Dialogue: 0,0:08:47.40,0:08:48.13,tomb,,0,0,0,,Leluhur,
+Dialogue: 0,0:08:48.70,0:08:50.83,tomb,,0,0,0,,apakah ini berkah dari langit?
+Dialogue: 0,0:08:52.43,0:08:54.67,tomb,,0,0,0,,Kalian juga praktisi kultivasi,
+Dialogue: 0,0:08:55.07,0:08:58.43,tomb,,0,0,0,,pasti merasakan di bawah cahaya keberuntungan ini,
+Dialogue: 0,0:08:58.47,0:09:02.23,tomb,,0,0,0,,getaran dan ketakutan yang berasal dari jiwa.
+Dialogue: 0,0:09:03.23,0:09:05.43,tomb,,0,0,0,,Tentang apakah ini berkah atau tidak,
+Dialogue: 0,0:09:06.00,0:09:07.90,tomb,,0,0,0,,semua tergantung usaha manusia.
+Dialogue: 0,0:09:10.87,0:09:12.00,tomb,,0,0,0,,Mohon petunjuk Leluhur.
+Dialogue: 0,0:09:12.53,0:09:14.30,tomb,,0,0,0,,Cari orang untuk membantu,
+Dialogue: 0,0:09:14.53,0:09:17.67,tomb,,0,0,0,,bukan hanya para bodoh dari Kantor Pejuang itu,
+Dialogue: 0,0:09:18.20,0:09:20.63,tomb,,0,0,0,,tapi juga cari raksasa sejati.
+Dialogue: 0,0:09:21.20,0:09:22.87,tomb,,0,0,0,,Di bawah istana,
+Dialogue: 0,0:09:22.93,0:09:25.47,tomb,,0,0,0,,akan ada harta karun yang tak terbayangkan,
+Dialogue: 0,0:09:25.50,0:09:27.23,tomb,,0,0,0,,yang akan muncul.
+Dialogue: 0,0:09:28.60,0:09:30.43,tomb,,0,0,0,,Di istana ini,
+Dialogue: 0,0:09:30.47,0:09:32.67,tomb,,0,0,0,,angin mulai berhembus.
+Dialogue: 0,0:09:53.33,0:09:54.07,tomb,,0,0,0,,Ah!
+Dialogue: 0,0:09:57.00,0:09:57.73,tomb,,0,0,0,,Cepat pergi, cepat pergi!
+Dialogue: 0,0:09:57.80,0:09:59.00,tomb,,0,0,0,,Waspada semuanya!
+Dialogue: 0,0:09:59.13,0:10:01.87,tomb,,0,0,0,,Ini adalah klien yang direkomendasikan langsung oleh Kakak Guan Hao,
+Dialogue: 0,0:10:02.23,0:10:03.47,tomb,,0,0,0,,tidak boleh ada kesalahan sedikit pun.
+Dialogue: 0,0:10:03.80,0:10:04.47,tomb,,0,0,0,,Ya!
+Dialogue: 0,0:10:08.10,0:10:09.43,tomb,,0,0,0,,Banyak sekali praktisi yang tertarik,
+Dialogue: 0,0:10:10.53,0:10:12.63,tomb,,0,0,0,,tapi makam kuno di bawah istana Dongchu,
+Dialogue: 0,0:10:13.03,0:10:15.00,tomb,,0,0,0,,jelas hanya ada tubuh abadi seorang master,
+Dialogue: 0,0:10:15.27,0:10:16.00,tomb,,0,0,0,,mana ada harta karun abadi?
+Dialogue: 0,0:10:17.83,0:10:20.13,tomb,,0,0,0,,Jangan-jangan di dalamnya ada dunia lain?
+Dialogue: 0,0:10:20.53,0:10:21.07,tomb,,0,0,0,,Long Wu,
+Dialogue: 0,0:10:21.67,0:10:22.10,tomb,,0,0,0,,katamu...
+Dialogue: 0,0:10:26.60,0:10:28.03,tomb,,0,0,0,,Cepat, ke kanan, ke kanan!
+Dialogue: 0,0:10:31.23,0:10:31.83,tomb,,0,0,0,,Hati-hati!
+Dialogue: 0,0:10:34.23,0:10:34.53,tomb,,0,0,0,,Whoa!
+Dialogue: 0,0:10:43.63,0:10:44.33,tomb,,0,0,0,,Ini...
+Dialogue: 0,0:10:45.30,0:10:46.23,tomb,,0,0,0,,Unicorn.
+Dialogue: 0,0:10:54.33,0:10:55.60,tomb,,0,0,0,,Nona cantik,
+Dialogue: 0,0:10:55.60,0:10:56.13,tomb,,0,0,0,,saya benar-benar minta maaf,
+Dialogue: 0,0:10:56.93,0:10:58.07,tomb,,0,0,0,,mengganggu perjalanan Anda.
+Dialogue: 0,0:10:58.73,0:10:59.73,tomb,,0,0,0,,Kerugian Anda,
+Dialogue: 0,0:11:00.23,0:11:01.23,tomb,,0,0,0,,akan segera saya ganti.
+Dialogue: 0,0:11:02.04,0:11:04.55,tomb,,0,0,0,,Kak...
+Dialogue: 0,0:11:06.30,0:11:07.13,tomb,,0,0,0,,Nona cantik,
+Dialogue: 0,0:11:08.00,0:11:09.43,tomb,,0,0,0,,mengapa Anda begitu sedih?
+Dialogue: 0,0:11:10.03,0:11:11.00,tomb,,0,0,0,,Benar-benar,
+Dialogue: 0,0:11:12.20,0:11:13.10,tomb,,0,0,0,,mirip.
+Dialogue: 0,0:11:21.03,0:11:21.80,tomb,,0,0,0,,Jangan sedih.
+Dialogue: 0,0:11:22.23,0:11:24.60,tomb,,0,0,0,,Bunga teratai ini diukir dengan kehidupan dan sihir es.
+Dialogue: 0,0:11:25.03,0:11:26.43,tomb,,0,0,0,,Jika nona membawanya,
+Dialogue: 0,0:11:27.20,0:11:28.60,tomb,,0,0,0,,hati akan menjadi tenang.
+Dialogue: 0,0:11:29.63,0:11:31.03,tomb,,0,0,0,,Memberi hadiah tidak perlu sedekat ini.
+Dialogue: 0,0:11:31.70,0:11:33.13,tomb,,0,0,0,,Dia sedang sedih akhir-akhir ini.
+Dialogue: 0,0:11:33.33,0:11:34.07,tomb,,0,0,0,,Salah orang.
+Dialogue: 0,0:11:35.53,0:11:36.30,tomb,,0,0,0,,Dia bukan Qian Long.
+Dialogue: 0,0:11:36.67,0:11:37.27,tomb,,0,0,0,,Ayo kita lanjutkan perjalanan.
+Dialogue: 0,0:11:40.30,0:11:41.00,tomb,,0,0,0,,Begitu rupanya.
+Dialogue: 0,0:11:41.40,0:11:42.13,tomb,,0,0,0,,Maaf atas ketidaksopanan saya.
+Dialogue: 0,0:11:42.90,0:11:44.03,tomb,,0,0,0,,Tapi pertemuan adalah takdir.
+Dialogue: 0,0:11:44.47,0:11:45.23,tomb,,0,0,0,,Nama saya Kaili.
+Dialogue: 0,0:11:45.90,0:11:47.03,tomb,,0,0,0,,Bolehkah saya tahu,
+Dialogue: 0,0:11:47.10,0:11:48.13,tomb,,0,0,0,,nama nona?
+Dialogue: 0,0:11:49.55,0:11:50.55,tomb,,0,0,0,,Longwu.
+Dialogue: 0,0:11:56.27,0:11:57.23,tomb,,0,0,0,,Jika kita bertemu lagi,
+Dialogue: 0,0:11:57.43,0:11:58.60,tomb,,0,0,0,,dan ia belum meleleh.
+Dialogue: 0,0:11:59.13,0:11:59.73,tomb,,0,0,0,,Saat itu,
+Dialogue: 0,0:12:00.40,0:12:01.63,tomb,,0,0,0,,akan saya berikan satu,
+Dialogue: 0,0:12:02.00,0:12:03.70,tomb,,0,0,0,,bunga teratai yang tak pernah layu.
+Dialogue: 0,0:12:14.60,0:12:15.00,tomb,,0,0,0,,Hei.
+Dialogue: 0,0:12:15.90,0:12:18.03,tomb,,0,0,0,,Jangan jadikan dia pengganti kakakmu.
+Dialogue: 0,0:12:18.73,0:12:20.87,tomb,,0,0,0,,Dia terlalu lihai, tidak seperti orang baik-baik.
+Dialogue: 0,0:12:24.48,0:12:25.10,tomb,,0,0,0,,Ayo.
+Dialogue: 0,0:12:25.10,0:12:27.27,tomb,,0,0,0,,Ke Negara Yangjin kebetulan melewati Kota Pingyang,
+Dialogue: 0,0:12:27.50,0:12:29.03,tomb,,0,0,0,,ikut aku melihat keramaian dan menghilangkan stres.
+Dialogue: 0,0:12:29.30,0:12:29.81,tomb,,0,0,0,,Bagaimana?
+Dialogue: 0,0:12:31.05,0:12:31.63,tomb,,0,0,0,,Hm.
+Dialogue: 0,0:12:33.10,0:12:34.00,tomb,,0,0,0,,Bubur bunga salju.
+Dialogue: 0,0:12:34.23,0:12:35.67,tomb,,0,0,0,,Bubur bunga salju hangat.
+Dialogue: 0,0:12:36.03,0:12:38.47,tomb,,0,0,0,,Khusus untuk memulihkan tubuh praktisi dari berbagai penjuru.
+Dialogue: 0,0:12:38.47,0:12:39.30,tomb,,0,0,0,,Di sini masih ada kamar kosong.
+Dialogue: 0,0:12:40.20,0:12:41.87,tomb,,0,0,0,,Ayo ayo ayo ayo.
+Dialogue: 0,0:12:47.23,0:12:48.33,tomb,,0,0,0,,Ya, datang Tuan.
+Dialogue: 0,0:12:51.40,0:12:52.53,tomb,,0,0,0,,Ayo ayo ayo ayo.
+Dialogue: 0,0:12:52.53,0:12:53.27,tomb,,0,0,0,,Wah.
+Dialogue: 0,0:12:53.63,0:12:54.47,tomb,,0,0,0,,Peri ini.
+Dialogue: 0,0:12:54.73,0:12:55.33,tomb,,0,0,0,,Silakan masuk.
+Dialogue: 0,0:12:57.07,0:12:57.80,tomb,,0,0,0,,Anggur enak, anggur enak.
+Dialogue: 0,0:12:58.33,0:13:00.07,tomb,,0,0,0,,Hidangkan makanan enak, tinggal semalam.
+Dialogue: 0,0:13:01.13,0:13:02.07,tomb,,0,0,0,,Baik.
+Dialogue: 0,0:13:02.33,0:13:03.27,tomb,,0,0,0,,Tunggu sebentar.
+Dialogue: 0,0:13:11.16,0:13:12.49,tomb,,0,0,0,,Ini, Peri.
+Dialogue: 0,0:13:13.47,0:13:14.47,tomb,,0,0,0,,Selamat menikmati.
+Dialogue: 0,0:13:15.10,0:13:15.47,tomb,,0,0,0,,Hm.
+Dialogue: 0,0:13:15.50,0:13:16.70,tomb,,0,0,0,,Hahaha!
+Dialogue: 0,0:13:20.87,0:13:23.07,tomb,,0,0,0,,Apakah Jalan Kekacauan meremehkanku?
+Dialogue: 0,0:13:23.53,0:13:24.90,tomb,,0,0,0,,Meski hanya murid luar,
+Dialogue: 0,0:13:25.60,0:13:27.03,tomb,,0,0,0,,cara meracuni makanan,
+Dialogue: 0,0:13:27.30,0:13:28.40,tomb,,0,0,0,,terlalu kacau.
+Dialogue: 0,0:13:31.40,0:13:32.33,tomb,,0,0,0,,Ah!
+Dialogue: 0,0:13:36.60,0:13:38.23,tomb,,0,0,0,,Ah!
+Dialogue: 0,0:13:44.93,0:13:46.30,tomb,,0,0,0,,Hahaha!
+Dialogue: 0,0:13:49.47,0:13:51.60,tomb,,0,0,0,,Peri Meng memang sesuai dengan reputasinya.
+Dialogue: 0,0:13:52.03,0:13:53.80,tomb,,0,0,0,,Rencana jebakanku ini,
+Dialogue: 0,0:13:54.00,0:13:56.10,tomb,,0,0,0,,ternyata sudah kau antisipasi sepenuhnya.
+Dialogue: 0,0:13:57.77,0:13:58.13,tomb,,0,0,0,,Oh,
+Dialogue: 0,0:13:58.60,0:13:59.10,tomb,,0,0,0,,benar,
+Dialogue: 0,0:13:59.90,0:14:00.83,tomb,,0,0,0,,suratku,
+Dialogue: 0,0:14:01.20,0:14:02.93,tomb,,0,0,0,,apa pendapatmu setelah membacanya?
+Dialogue: 0,0:14:03.30,0:14:05.33,tomb,,0,0,0,,Anda benar-benar mempermalukan salah satu dari Enam Jalan Sesat.
+Dialogue: 0,0:14:06.47,0:14:07.83,tomb,,0,0,0,,Mempermalukan gurumu!
+Dialogue: 0,0:14:08.10,0:14:10.03,tomb,,0,0,0,,Hahaha!
+Dialogue: 0,0:14:10.60,0:14:14.00,tomb,,0,0,0,,Apa yang lebih membanggakan guruku,
+Dialogue: 0,0:14:14.50,0:14:16.13,tomb,,0,0,0,,daripada membawa Gadis Suci Tantai ke kamarku?
+Dialogue: 0,0:14:18.50,0:14:19.90,tomb,,0,0,0,,Penyembah sesat, matilah!
+Dialogue: 0,0:14:30.33,0:14:31.13,tomb,,0,0,0,,Kekacauan—
+Dialogue: 0,0:14:31.63,0:14:32.80,tomb,,0,0,0,,Jalan Kekosongan!
+Dialogue: 0,0:14:33.80,0:14:53.80,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:15:12.80,0:15:13.53,tomb,,0,0,0,,Kau juga tahu,
+Dialogue: 0,0:15:14.07,0:15:15.67,tomb,,0,0,0,,bagaimana Raja Iblis sekte kalian seribu tahun lalu,
+Dialogue: 0,0:15:15.87,0:15:16.93,tomb,,0,0,0,,dikalahkan dengan tragis.
+Dialogue: 0,0:15:17.33,0:15:18.10,tomb,,0,0,0,,Kau tidak bisa mengalahkanku.
+Dialogue: 0,0:15:19.07,0:15:19.53,tomb,,0,0,0,,Ya,
+Dialogue: 0,0:15:20.10,0:15:21.87,tomb,,0,0,0,,sudah seribu tahun berlalu.
+Dialogue: 0,0:15:23.00,0:15:24.03,tomb,,0,0,0,,Jika tidak bisa dilupakan, biarkan saja,
+Dialogue: 0,0:15:24.63,0:15:26.13,tomb,,0,0,0,,ikatan masa lalu sangat berharga.
+Dialogue: 0,0:15:27.13,0:15:29.20,tomb,,0,0,0,,Tapi waktu juga akan membuat kita menjalin takdir baru.
+Dialogue: 0,0:15:31.70,0:15:32.63,tomb,,0,0,0,,Tombak sucinya ini,
+Dialogue: 0,0:15:33.27,0:15:34.20,tomb,,0,0,0,,memang ada takdir denganku.
+Dialogue: 0,0:15:34.67,0:15:35.33,tomb,,0,0,0,,Apakah kau ingin—
+Dialogue: 0,0:15:37.23,0:15:38.23,tomb,,0,0,0,,Kau, bocah,
+Dialogue: 0,0:15:38.43,0:15:40.03,tomb,,0,0,0,,sungguh mewarisi ajaran sejati generasiku!

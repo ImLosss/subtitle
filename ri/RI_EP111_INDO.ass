@@ -1,0 +1,309 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:08:48.10,0:08:49.62,komen,,0,0,0,,{\pos(1692,440)\fad(500,250)}[Suku Gua Batu]
+Dialogue: 0,0:10:48.89,0:10:52.28,komen,,0,0,0,,{\pos(958,479)\fad(500,250)}Tiga Bulan kemudian...
+Dialogue: 0,0:12:38.17,0:12:41.15,komen,,0,0,0,,{\pos(346,433)\fad(500,250)}[Suku Tianshui]
+Dialogue: 0,0:12:48.17,0:12:51.15,komen,,0,0,0,,{\pos(1525,563)\fad(500,250)}[Xie Hao\NKepala Suku Tianshui\NTahap Nascent Soul]
+Dialogue: 0,0:12:53.89,0:12:56.87,komen,,0,0,0,,{\pos(1525,563)\fad(500,250)}[Zeng Wei\NAnggota Suku Tianshui\NTahap Soul Formation]
+Dialogue: 0,0:00:03.51,0:00:47.08,ri,,0,0,0,,[PREVIEW EPISODE SEBELUMNYA]
+Dialogue: 0,0:00:56.96,0:00:58.48,ri,,0,0,0,,Boneka ini milikku.
+Dialogue: 0,0:00:58.56,0:01:00.24,ri,,0,0,0,,Pinjamkan aku main sebentar.
+Dialogue: 0,0:01:00.62,0:01:01.66,ri,,0,0,0,,Coba kejar aku!
+Dialogue: 0,0:01:02.62,0:01:04.22,ri,,0,0,0,,Berhenti kalian semua!
+Dialogue: 0,0:01:04.78,0:01:06.66,ri,,0,0,0,,Siapa yang mengizinkan kalian datang ke sini?
+Dialogue: 0,0:01:07.54,0:01:09.70,ri,,0,0,0,,Jangan ganggu meditasi Immortal Agung.
+Dialogue: 0,0:01:09.70,0:01:10.42,ri,,0,0,0,,Mengerti.
+Dialogue: 0,0:01:11.74,0:01:14.74,ri,,0,0,0,,Immortal Agung sudah tiga bulan tidak muncul.
+Dialogue: 0,0:01:15.46,0:01:17.70,ri,,0,0,0,,Entah apa yang sedang dilakukannya.
+Dialogue: 0,0:01:21.54,0:01:23.42,ri,,0,0,0,,Teknik Bendera Jiwa cukup mudah dipelajari.
+Dialogue: 0,0:01:24.18,0:01:27.02,ri,,0,0,0,,Cocok digunakan sebagai teknik untuk mendidik penduduk di sini.
+Dialogue: 0,0:01:28.42,0:01:29.70,ri,,0,0,0,,Meski di sini tidak ada kekuatan spiritual,
+Dialogue: 0,0:01:30.46,0:01:32.26,ri,,0,0,0,,tapi jika bisa melatih teknik ini dengan kekuatan iblis,
+Dialogue: 0,0:01:33.22,0:01:34.74,ri,,0,0,0,,mungkin akan ada hasil lain.
+Dialogue: 0,0:01:36.06,0:01:36.62,ri,,0,0,0,,Masuk.
+Dialogue: 0,0:01:37.46,0:01:39.62,ri,,0,0,0,,Bendera jiwa yang terbuat dari kulit binatang Gangmu ini,
+Dialogue: 0,0:01:40.46,0:01:42.74,ri,,0,0,0,,meski tak bisa dibandingkan dengan Bendera Jiwa asli,
+Dialogue: 0,0:01:43.38,0:01:44.74,ri,,0,0,0,,tapi kelebihannya adalah mudah dibuat.
+Dialogue: 0,0:01:45.54,0:01:46.90,ri,,0,0,0,,Penduduk lembah bisa menggunakannya untuk melindungi diri,
+Dialogue: 0,0:01:47.34,0:01:48.18,ri,,0,0,0,,tidak ada masalah.
+Dialogue: 0,0:01:52.46,0:01:55.70,ri,,0,0,0,,Namun, binatang jiwa yang dimurnikan dan disegel oleh Soul Refining yang telah dimodifikasi,
+Dialogue: 0,0:01:56.86,0:01:58.38,ri,,0,0,0,,tidak peduli berapa lama diolah oleh lawan,
+Dialogue: 0,0:01:59.02,0:02:00.22,ri,,0,0,0,,selama aku menginginkannya,
+Dialogue: 0,0:02:01.06,0:02:02.34,ri,,0,0,0,,bisa langsung kukendalikan.
+Dialogue: 0,0:02:05.58,0:02:07.22,ri,,0,0,0,,Semakin kuat kekuatan lembah ini,
+Dialogue: 0,0:02:08.22,0:02:10.02,ri,,0,0,0,,semakin banyak Bendera Jiwa yang ku kuasai.
+Dialogue: 0,0:02:11.06,0:02:11.94,ri,,0,0,0,,Dengan begini,
+Dialogue: 0,0:02:12.74,0:02:14.10,ri,,0,0,0,,aku juga bisa melihat,
+Dialogue: 0,0:02:14.34,0:02:16.06,ri,,0,0,0,,apakah bisa memperbaiki Bendera Jiwa 10 Miliar.
+Dialogue: 0,0:02:16.94,0:02:18.34,ri,,0,0,0,,Begitu Bendera Jiwa 10 Miliar diperbaiki,
+Dialogue: 0,0:02:18.94,0:02:20.34,ri,,0,0,0,,akan ada peluang lebih besar,
+Dialogue: 0,0:02:20.54,0:02:22.34,ri,,0,0,0,,untuk akhirnya mendapatkan Roh Iblis Kuno.
+Dialogue: 0,0:02:27.42,0:02:28.14,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:02:28.70,0:02:30.30,ri,,0,0,0,,A-apakah maksudmu,
+Dialogue: 0,0:02:30.66,0:02:33.10,ri,,0,0,0,,akan mengajarkan teknik ini kepadaku?
+Dialogue: 0,0:02:33.58,0:02:34.38,ri,,0,0,0,,Bukan hanya kamu,
+Dialogue: 0,0:02:34.78,0:02:35.98,ri,,0,0,0,,semua penduduk di sini,
+Dialogue: 0,0:02:36.38,0:02:37.90,ri,,0,0,0,,ke depannya harus mempelajari teknik ini.
+Dialogue: 0,0:02:40.78,0:02:41.54,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:02:41.94,0:02:44.78,ri,,0,0,0,,Benda ini, junior hanya pernah mendengarnya,
+Dialogue: 0,0:02:45.14,0:02:46.58,ri,,0,0,0,,tidak tahu cara menggunakannya.
+Dialogue: 0,0:02:46.82,0:02:47.74,ri,,0,0,0,,Tempelkan di titik antara alis.
+Dialogue: 0,0:02:48.02,0:02:49.82,ri,,0,0,0,,Tenangkan hati dan rasakan benda ini.
+Dialogue: 0,0:02:53.78,0:02:54.46,ri,,0,0,0,,Ini...
+Dialogue: 0,0:02:55.42,0:02:56.94,ri,,0,0,0,,Tidak ada apa-apa.
+Dialogue: 0,0:02:59.86,0:03:00.98,ri,,0,0,0,,Meridian tersumbat.
+Dialogue: 0,0:03:01.38,0:03:02.38,ri,,0,0,0,,Bakat buruk.
+Dialogue: 0,0:03:02.94,0:03:04.22,ri,,0,0,0,,Pantasan tidak bisa merasakan.
+Dialogue: 0,0:03:12.66,0:03:13.58,ri,,0,0,0,,Berkonsentrasi.
+Dialogue: 0,0:03:13.98,0:03:14.70,ri,,0,0,0,,Tahan sakitnya!
+Dialogue: 0,0:03:31.22,0:03:33.38,ri,,0,0,0,,Junior melihatnya.
+Dialogue: 0,0:03:33.78,0:03:37.10,ri,,0,0,0,,Di dalamnya adalah mantra Soul Refining dan cara membuat Bendera Jiwa.
+Dialogue: 0,0:03:37.58,0:03:38.62,ri,,0,0,0,,Kau harus ingat baik-baik.
+Dialogue: 0,0:03:38.94,0:03:39.82,ri,,0,0,0,,Mulai sekarang,
+Dialogue: 0,0:03:40.06,0:03:41.66,ri,,0,0,0,,ajarkan kepada semua orang di sini.
+Dialogue: 0,0:03:43.42,0:03:44.26,ri,,0,0,0,,Ouyang Hua.
+Dialogue: 0,0:03:44.74,0:03:47.14,ri,,0,0,0,,Sepanjang hidup tidak akan melupakan kebaikan Immortal Agung.
+Dialogue: 0,0:03:47.66,0:03:48.90,ri,,0,0,0,,Cepat, cepat, cepat!
+Dialogue: 0,0:03:49.98,0:03:51.26,ri,,0,0,0,,Semuanya hati-hati.
+Dialogue: 0,0:03:51.98,0:03:53.70,ri,,0,0,0,,Sini, sini.
+Dialogue: 0,0:04:24.86,0:04:26.26,ri,,0,0,0,,Kristal Iblis Tingkat Tiga.
+Dialogue: 0,0:04:26.90,0:04:27.54,ri,,0,0,0,,Berhasil.
+Dialogue: 0,0:04:46.54,0:04:48.02,ri,,0,0,0,,Kekuatan iblis ini cukup menarik.
+Dialogue: 0,0:04:49.34,0:04:50.78,ri,,0,0,0,,Sayang jumlah kekuatan iblis terlalu sedikit.
+Dialogue: 0,0:04:51.42,0:04:53.70,ri,,0,0,0,,Hanya setara dengan kultivator Foundation Establishment.
+Dialogue: 0,0:05:00.62,0:05:01.30,ri,,0,0,0,,Setelah kepala suku,
+Dialogue: 0,0:05:01.50,0:05:03.42,ri,,0,0,0,,yang pertama berhasil membuat Bendera Jiwa ternyata Shisan.
+Dialogue: 0,0:05:04.54,0:05:06.26,ri,,0,0,0,,Bendera Jiwa yang sudah jadi ini terlihat sangat gagah.
+Dialogue: 0,0:05:07.30,0:05:08.98,ri,,0,0,0,,Kakak Shisan benar-benar hebat.
+Dialogue: 0,0:05:10.25,0:05:11.66,ri,,0,0,0,,Shisan,
+Dialogue: 0,0:05:11.66,0:05:12.94,ri,,0,0,0,,meski Bendera Jiwa ini sudah jadi,
+Dialogue: 0,0:05:13.98,0:05:16.62,ri,,0,0,0,,tapi masih perlu memurnikan jiwa dan menyegelnya di dalam.
+Dialogue: 0,0:05:17.54,0:05:20.18,ri,,0,0,0,,Kau harus tetap rendah hati dan tidak gegabah.
+Dialogue: 0,0:05:22.34,0:05:23.06,ri,,0,0,0,,Kedepannya,
+Dialogue: 0,0:05:23.34,0:05:25.90,ri,,0,0,0,,mari kita bantu Shisan berburu binatang buas.
+Dialogue: 0,0:05:26.46,0:05:28.34,ri,,0,0,0,,Bantu dia mengekstrak jiwa mereka.
+Dialogue: 0,0:05:29.46,0:05:30.46,ri,,0,0,0,,Siapa bilang aku tidak punya?
+Dialogue: 0,0:05:31.22,0:05:32.06,ri,,0,0,0,,Kalian lihat baik-baik.
+Dialogue: 0,0:05:47.10,0:05:47.90,ri,,0,0,0,,Hebat sekali.
+Dialogue: 0,0:05:47.90,0:05:49.26,ri,,0,0,0,,Binatang iblis apa ini?
+Dialogue: 0,0:05:49.46,0:05:50.10,ri,,0,0,0,,Ini adalah,
+Dialogue: 0,0:05:50.46,0:05:51.94,ri,,0,0,0,,Singa Bersayap Berbulu Lebat.
+Dialogue: 0,0:05:54.11,0:05:55.11,ri,,0,0,0,,Pergi!
+Dialogue: 0,0:05:59.70,0:06:01.18,ri,,0,0,0,,Binatang iblis sekuat ini,
+Dialogue: 0,0:06:01.38,0:06:02.90,ri,,0,0,0,,bagaimana kau bisa menjinakkannya?
+Dialogue: 0,0:06:03.66,0:06:05.26,ri,,0,0,0,,Saat aku berburu di luar lembah,
+Dialogue: 0,0:06:05.78,0:06:07.62,ri,,0,0,0,,aku menemukan binatang buas ini yang baru saja mati.
+Dialogue: 0,0:06:08.34,0:06:10.22,ri,,0,0,0,,Aku membacakan mantra yang diajarkan Immortal Agung,
+Dialogue: 0,0:06:10.94,0:06:12.62,ri,,0,0,0,,dan benar-benar berhasil mengambil jiwanya.
+Dialogue: 0,0:06:12.98,0:06:14.34,ri,,0,0,0,,Lalu kusegel ke dalam Bendera Jiwa ini.
+Dialogue: 0,0:06:21.02,0:06:21.42,ri,,0,0,0,,Kembali!
+Dialogue: 0,0:06:29.66,0:06:30.10,ri,,0,0,0,,Kembali!
+Dialogue: 0,0:06:48.70,0:06:49.38,ri,,0,0,0,,Binatang nakal.
+Dialogue: 0,0:07:09.82,0:07:11.14,ri,,0,0,0,,Terima kasih Immortal Agung telah menyelamatkan nyawaku.
+Dialogue: 0,0:07:11.82,0:07:12.34,ri,,0,0,0,,Ingat,
+Dialogue: 0,0:07:12.62,0:07:13.70,ri,,0,0,0,,teknik Soul Refining,
+Dialogue: 0,0:07:13.98,0:07:14.98,ri,,0,0,0,,tidak ada jalan pintas.
+Dialogue: 0,0:07:15.66,0:07:17.82,ri,,0,0,0,,Binatang ini meski kebetulan kausegel,
+Dialogue: 0,0:07:18.46,0:07:19.90,ri,,0,0,0,,tapi jika kultivasimu tidak cukup,
+Dialogue: 0,0:07:20.22,0:07:21.78,ri,,0,0,0,,pada akhirnya akan berbalik memakanmu.
+Dialogue: 0,0:07:27.86,0:07:29.46,ri,,0,0,0,,Anak ini bakatnya cukup baik.
+Dialogue: 0,0:07:30.06,0:07:32.10,ri,,0,0,0,,Hari ini dengan sedikit bimbingan sudah bisa memahami.
+Dialogue: 0,0:07:32.86,0:07:34.42,ri,,0,0,0,,Jika wataknya lebih matang,
+Dialogue: 0,0:07:34.82,0:07:35.94,ri,,0,0,0,,bisa menjadi orang hebat.
+Dialogue: 0,0:07:41.62,0:07:42.14,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:07:42.74,0:07:44.98,ri,,0,0,0,,Ada 27 anggota suku di lembah.
+Dialogue: 0,0:07:45.30,0:07:48.42,ri,,0,0,0,,Saat ini, selain aku dan Shisan yang memiliki Bendera Jiwa utama,
+Dialogue: 0,0:07:48.70,0:07:52.02,ri,,0,0,0,,sebagian besar lainnya masih giat berlatih.
+Dialogue: 0,0:07:57.82,0:07:58.54,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:07:59.58,0:08:01.38,ri,,0,0,0,,Orang luar sekarang sudah masuk.
+Dialogue: 0,0:08:01.90,0:08:03.30,ri,,0,0,0,,Berdasarkan pengalaman sebelumnya,
+Dialogue: 0,0:08:03.46,0:08:04.86,ri,,0,0,0,,untuk merampas sumber daya,
+Dialogue: 0,0:08:05.22,0:08:07.78,ri,,0,0,0,,konflik antar suku baru akan segera meletus.
+Dialogue: 0,0:08:08.22,0:08:09.98,ri,,0,0,0,,Hari-hari kita selanjutnya,
+Dialogue: 0,0:08:10.18,0:08:11.62,ri,,0,0,0,,takutnya tidak akan aman.
+Dialogue: 0,0:08:19.86,0:08:21.14,ri,,0,0,0,,Daripada menunggu diserang,
+Dialogue: 0,0:08:21.70,0:08:22.62,ri,,0,0,0,,lebih baik menyerang lebih dulu.
+Dialogue: 0,0:08:24.26,0:08:27.46,ri,,0,0,0,,Dalam kekacauan, karena tidak bisa tetap sendiri,
+Dialogue: 0,0:08:27.82,0:08:30.58,ri,,0,0,0,,lebih baik kita cepat memperkuat diri.
+Dialogue: 0,0:08:30.86,0:08:31.38,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:08:31.74,0:08:33.54,ri,,0,0,0,,Aku ingin mengerahkan orang-orang lembah,
+Dialogue: 0,0:08:33.54,0:08:36.18,ri,,0,0,0,,pergi ke gua bawah tanah seribu mil dari sini.
+Dialogue: 0,0:08:36.50,0:08:38.42,ri,,0,0,0,,Di sana ada suku lain,
+Dialogue: 0,0:08:38.78,0:08:40.46,ri,,0,0,0,,dengan puluhan anggota suku.
+Dialogue: 0,0:08:41.02,0:08:42.74,ri,,0,0,0,,Teknik Soul Refining telah diberikan padamu,
+Dialogue: 0,0:08:43.06,0:08:44.38,ri,,0,0,0,,kau bebas melakukan apapun.
+Dialogue: 0,0:08:52.77,0:08:53.77,ri,,0,0,0,,Pergi!
+Dialogue: 0,0:08:57.14,0:08:57.90,ri,,0,0,0,,Langsung menyerah!
+Dialogue: 0,0:08:58.18,0:08:59.18,ri,,0,0,0,,Lepaskan senjata, tidak dibunuh.
+Dialogue: 0,0:08:59.18,0:09:14.18,ri,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh @dongworld
+Dialogue: 0,0:09:20.42,0:09:20.86,ri,,0,0,0,,Cepat!
+Dialogue: 0,0:09:21.38,0:09:21.74,ri,,0,0,0,,Ikuti!
+Dialogue: 0,0:09:22.02,0:09:22.42,ri,,0,0,0,,Jangan tertinggal.
+Dialogue: 0,0:09:22.86,0:09:23.98,ri,,0,0,0,,Minum ramuan pelupa iblis.
+Dialogue: 0,0:09:24.58,0:09:26.26,ri,,0,0,0,,Bisa membuat mereka lupa masa lalu,
+Dialogue: 0,0:09:26.82,0:09:28.38,ri,,0,0,0,,dan menggabungkan mereka ke suku baru.
+Dialogue: 0,0:09:29.74,0:09:31.50,ri,,0,0,0,,Ramuan pelupa iblis ini meski tidak berguna untuk kultivator,
+Dialogue: 0,0:09:32.26,0:09:33.98,ri,,0,0,0,,tapi sangat efektif untuk orang-orang di sini.
+Dialogue: 0,0:09:36.98,0:09:37.90,ri,,0,0,0,,Dengan begitu,
+Dialogue: 0,0:09:38.74,0:09:39.58,ri,,0,0,0,,suku akan membesar,
+Dialogue: 0,0:09:40.38,0:09:43.06,ri,,0,0,0,,dan lebih banyak orang baru akan belajar teknik Soul Refining.
+Dialogue: 0,0:09:43.40,0:09:44.08,ri,,0,0,0,,Pertempuran ini,
+Dialogue: 0,0:09:44.80,0:09:45.64,ri,,0,0,0,,sangat bagus.
+Dialogue: 0,0:09:48.00,0:09:51.12,ri,,0,0,0,,Memberi hormat pada Immortal Agung.
+Dialogue: 0,0:09:51.40,0:09:52.00,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:09:52.28,0:09:54.80,ri,,0,0,0,,Ini adalah Kristal Iblis yang junior temukan di suku lawan.
+Dialogue: 0,0:09:55.08,0:09:56.04,ri,,0,0,0,,Khusus dipersembahkan untuk Immortal.
+Dialogue: 0,0:10:01.96,0:10:03.08,ri,,0,0,0,,Kau mempersembahkan Kristal Iblis,
+Dialogue: 0,0:10:03.28,0:10:04.40,ri,,0,0,0,,Sangat berjasa.
+Dialogue: 0,0:10:04.68,0:10:06.28,ri,,0,0,0,,Kuberikan padamu mantra tahap selanjutnya.
+Dialogue: 0,0:10:07.28,0:10:08.20,ri,,0,0,0,,Latihlah dengan baik.
+Dialogue: 0,0:10:08.80,0:10:09.68,ri,,0,0,0,,Jangan sebarkan.
+Dialogue: 0,0:10:10.60,0:10:11.52,ri,,0,0,0,,Kebaikan Immortal Agung,
+Dialogue: 0,0:10:11.92,0:10:13.16,ri,,0,0,0,,Shisan bersumpah membalasnya dengan nyawa.
+Dialogue: 0,0:10:14.32,0:10:16.48,ri,,0,0,0,,Shisan mendapat perhatian dari Immortal Agung.
+Dialogue: 0,0:10:17.00,0:10:18.88,ri,,0,0,0,,Masa depan sudah pasti menjadi miliknya.
+Dialogue: 0,0:10:19.60,0:10:20.96,ri,,0,0,0,,Suku kecil ini,
+Dialogue: 0,0:10:21.48,0:10:23.32,ri,,0,0,0,,pada akhirnya akan mencapai masa kejayaan.
+Dialogue: 0,0:10:23.96,0:10:25.40,ri,,0,0,0,,Tulang tua sepertiku ini,
+Dialogue: 0,0:10:25.88,0:10:27.32,ri,,0,0,0,,juga sudah puas hati.
+Dialogue: 0,0:10:35.96,0:10:37.56,ri,,0,0,0,,Cepat lihat, mereka akan keluar dari lembah.
+Dialogue: 0,0:10:38.04,0:10:39.32,ri,,0,0,0,,Shisan dan yang lain sangat hebat.
+Dialogue: 0,0:10:40.56,0:10:41.64,ri,,0,0,0,,Begitu kakak Shisan keluar,
+Dialogue: 0,0:10:41.68,0:10:43.40,ri,,0,0,0,,malamnya pasti ada daging buruan enak.
+Dialogue: 0,0:10:45.16,0:10:45.64,ri,,0,0,0,,Tampaknya,
+Dialogue: 0,0:10:45.84,0:10:47.20,ri,,0,0,0,,langkah ini benar.
+Dialogue: 0,0:11:00.12,0:11:01.68,ri,,0,0,0,,Pasukan Shisan itu,
+Dialogue: 0,0:11:02.12,0:11:04.28,ri,,0,0,0,,seharusnya sudah kembali sejak dua hari lalu.
+Dialogue: 0,0:11:14.96,0:11:15.64,ri,,0,0,0,,Shisan.
+Dialogue: 0,0:11:17.32,0:11:17.72,ri,,0,0,0,,Kau...
+Dialogue: 0,0:11:19.72,0:11:20.44,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:11:20.92,0:11:21.76,ri,,0,0,0,,Shisan dia...
+Dialogue: 0,0:11:28.40,0:11:29.60,ri,,0,0,0,,Meridannya putus semua.
+Dialogue: 0,0:11:30.16,0:11:31.24,ri,,0,0,0,,Kultivasinya sudah hancur.
+Dialogue: 0,0:11:39.80,0:11:41.00,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:11:41.88,0:11:42.64,ri,,0,0,0,,Apa yang terjadi?
+Dialogue: 0,0:11:43.56,0:11:46.92,ri,,0,0,0,,Kami diserang oleh suku besar bernama Tianshui.
+Dialogue: 0,0:11:47.32,0:11:48.68,ri,,0,0,0,,Semua saudara yang ikut,
+Dialogue: 0,0:11:49.08,0:11:50.48,ri,,0,0,0,,dibunuh semua.
+Dialogue: 0,0:11:51.08,0:11:52.72,ri,,0,0,0,,Orang tua berpakaian putih yang memimpin,
+Dialogue: 0,0:11:53.08,0:11:54.60,ri,,0,0,0,,mengambil Bendera Jiwaku.
+Dialogue: 0,0:11:54.80,0:11:57.28,ri,,0,0,0,,Lalu menanamkan makhluk iblis di tubuhku.
+Dialogue: 0,0:11:57.60,0:12:00.80,ri,,0,0,0,,Dia juga bilang jika ingin Bendera Jiwa kembali,
+Dialogue: 0,0:12:00.80,0:12:02.68,ri,,0,0,0,,datanglah ke suku Tianshui untuk mencarinya.
+Dialogue: 0,0:12:04.48,0:12:05.64,ri,,0,0,0,,Bawa dia istirahat.
+Dialogue: 0,0:12:17.56,0:12:18.80,ri,,0,0,0,,Immortal Agung, hati-hati.
+Dialogue: 0,0:12:19.48,0:12:20.68,ri,,0,0,0,,Suku Tianshui itu,
+Dialogue: 0,0:12:21.00,0:12:23.52,ri,,0,0,0,,adalah suku terkuat di luar Kota Iblis Kuno.
+Dialogue: 0,0:12:24.08,0:12:26.64,ri,,0,0,0,,Mereka menduduki sebuah formasi kuno.
+Dialogue: 0,0:12:27.32,0:12:30.92,ri,,0,0,0,,Selama ribuan tahun, tidak ada yang bisa menggoyahkan mereka sedikit pun.
+Dialogue: 0,0:12:31.20,0:12:32.16,ri,,0,0,0,,Shisan,
+Dialogue: 0,0:12:32.52,0:12:35.48,ri,,0,0,0,,adalah tantangan perang hidup dari suku Tianshui untukku.
+Dialogue: 0,0:12:41.96,0:12:42.72,ri,,0,0,0,,Minggir, minggir.
+Dialogue: 0,0:12:43.48,0:12:44.44,ri,,0,0,0,,Beri jalan, beri jalan.
+Dialogue: 0,0:12:45.48,0:12:47.88,ri,,0,0,0,,Kau serakah akan teknik orang lain saja sudah keterlaluan,
+Dialogue: 0,0:12:48.56,0:12:50.20,ri,,0,0,0,,masih menghancurkan kultivasinya.
+Dialogue: 0,0:12:51.24,0:12:52.20,ri,,0,0,0,,Melakukan hal seperti ini,
+Dialogue: 0,0:12:53.20,0:12:54.72,ri,,0,0,0,,agak berlebihan.
+Dialogue: 0,0:12:56.48,0:12:58.80,ri,,0,0,0,,Aku adalah bawahan Jenderal Sayap Kiri.
+Dialogue: 0,0:12:59.00,0:13:00.52,ri,,0,0,0,,Membunuh beberapa manusia liar,
+Dialogue: 0,0:13:01.12,0:13:03.12,ri,,0,0,0,,mana ada yang namanya berlebihan.
+Dialogue: 0,0:13:03.72,0:13:06.36,ri,,0,0,0,,Teknik di tubuh anak itu sangat menarik.
+Dialogue: 0,0:13:06.92,0:13:08.52,ri,,0,0,0,,Sayangnya tidak lengkap.
+Dialogue: 0,0:13:09.28,0:13:11.64,ri,,0,0,0,,Jika orang di belakangnya tidak berani muncul,
+Dialogue: 0,0:13:12.20,0:13:14.92,ri,,0,0,0,,besok aku akan pergi ke lembah kecil itu.
+Dialogue: 0,0:13:16.32,0:13:18.32,ri,,0,0,0,,Bawa pulang tekniknya.
+Dialogue: 0,0:13:18.80,0:13:20.36,ri,,0,0,0,,Selalu ada yang lebih hebat.
+Dialogue: 0,0:13:21.12,0:13:23.04,ri,,0,0,0,,Masih terlalu berisiko.
+Dialogue: 0,0:13:24.88,0:13:25.92,ri,,0,0,0,,Kepala suku,
+Dialogue: 0,0:13:25.92,0:13:27.56,ri,,0,0,0,,kau sudah pikun.
+Dialogue: 0,0:13:28.28,0:13:30.28,ri,,0,0,0,,Jika orang itu benar-benar punya kemampuan.
+Dialogue: 0,0:13:30.72,0:13:33.72,ri,,0,0,0,,Mengapa tidak mencari jabatan di Kota Iblis Kuno kami.
+Dialogue: 0,0:13:34.56,0:13:37.72,ri,,0,0,0,,Bagaimana mungkin bersembunyi di suku terpencil.
+Dialogue: 0,0:13:38.88,0:13:42.48,ri,,0,0,0,,Apalagi suku Tianshui kami bisa bertahan ribuan tahun.
+Dialogue: 0,0:13:42.48,0:13:44.60,ri,,0,0,0,,Jika benar-benar menghadapi orang kuat.
+Dialogue: 0,0:13:44.60,0:13:46.12,ri,,0,0,0,,Masih ada formasi kuno yang melindungi.
+Dialogue: 0,0:13:46.92,0:13:48.40,ri,,0,0,0,,Tidak akan gagal.
+Dialogue: 0,0:13:59.72,0:14:01.72,ri,,0,0,0,,Siapa yang menantangku?
+Dialogue: 0,0:14:02.92,0:14:03.92,ri,,0,0,0,,Keluar!
+Dialogue: 0,0:14:06.32,0:14:07.32,ri,,0,0,0,,Orang luar.
+Dialogue: 0,0:14:07.60,0:14:09.00,ri,,0,0,0,,Kultivator Soul Transformation.
+Dialogue: 0,0:14:09.92,0:14:11.32,ri,,0,0,0,,Itu kau?
+Dialogue: 0,0:14:13.20,0:14:13.92,ri,,0,0,0,,Benar.
+Dialogue: 0,0:14:14.60,0:14:17.00,ri,,0,0,0,,Aku yang mengambil bendera kecil itu.
+Dialogue: 0,0:14:17.32,0:14:19.12,ri,,0,0,0,,Jika kau ingin menuntut.
+Dialogue: 0,0:14:19.12,0:14:20.76,ri,,0,0,0,,Hancurkan formasi ini dan masuk sendiri.
+Dialogue: 0,0:14:20.76,0:14:35.76,ri,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh @dongworld
+Dialogue: 0,0:15:02.84,0:15:05.00,ri,,0,0,0,,Suku Tianshui kami telah bertahan seribu tahun.
+Dialogue: 0,0:15:06.04,0:15:08.36,ri,,0,0,0,,Meskipun kau memiliki kemampuan sehebat apapun.
+Dialogue: 0,0:15:09.00,0:15:09.80,ri,,0,0,0,,Formasi ini,
+Dialogue: 0,0:15:10.44,0:15:12.52,ri,,0,0,0,,sama sekali tidak bisa kau hancurkan.
+Dialogue: 0,0:15:13.60,0:15:16.40,ri,,0,0,0,,Aku menyarankanmu segera pergi!
+Dialogue: 0,0:15:16.84,0:15:19.12,ri,,0,0,0,,Jangan mempermalukan diri di sini.
+Dialogue: 0,0:15:20.12,0:15:20.84,ri,,0,0,0,,Formasi ini,
+Dialogue: 0,0:15:21.20,0:15:23.72,ri,,0,0,0,,bisa terus menyerap serangan dari luar,
+Dialogue: 0,0:15:23.72,0:15:24.80,ri,,0,0,0,,dan mengubahnya untuk diri sendiri.
+Dialogue: 0,0:15:25.24,0:15:26.52,ri,,0,0,0,,Setelah bertahun-tahun,
+Dialogue: 0,0:15:27.20,0:15:28.80,ri,,0,0,0,,tentu saja tak tergoyahkan.
+Dialogue: 0,0:15:30.52,0:15:31.32,ri,,0,0,0,,Benarkah?
+Dialogue: 0,0:15:31.32,0:15:46.32,ri,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh @dongworld
+Dialogue: 0,0:15:46.40,0:15:47.32,ri,,0,0,0,,Apa yang dia lakukan?
+Dialogue: 0,0:15:47.64,0:15:54.00,ri,,0,0,0,,Bangkit!
+Dialogue: 0,0:16:02.72,0:16:05.32,ri,,0,0,0,,Lihatlah siapa yang kau hadapi!
+Dialogue: 0,0:16:05.32,0:16:06.32,ri,,0,0,0,,Gila!
+Dialogue: 0,0:16:06.32,0:16:07.72,ri,,0,0,0,,Dia orang gila!
+Dialogue: 0,0:16:12.52,0:16:14.88,ri,,0,0,0,,Butuh waktu untuk menghancurkan formasi ini.
+Dialogue: 0,0:16:15.40,0:16:18.00,ri,,0,0,0,,Menyuling dirimu bersama formasi ini,
+Dialogue: 0,0:16:19.12,0:16:21.40,ri,,0,0,0,,justru lebih sederhana.
+Dialogue: 0,0:16:33.92,0:16:34.40,ri,,0,0,0,,Itu...
+Dialogue: 0,0:16:35.28,0:16:36.00,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:16:51.00,0:16:52.40,ri,,0,0,0,,Jika kau bersikeras tidak keluar.
+Dialogue: 0,0:16:53.20,0:16:55.20,ri,,0,0,0,,Aku akan menyuling selama tujuh hari tujuh malam.
+Dialogue: 0,0:16:55.80,0:16:57.52,ri,,0,0,0,,Saat itu suku Tianshui-mu,
+Dialogue: 0,0:16:57.92,0:16:59.60,ri,,0,0,0,,akan banyak yang mati.
+Dialogue: 0,0:17:03.72,0:17:07.00,ri,,0,0,0,,Kekuatan ilahi Immortal Agung.
+Dialogue: 0,0:17:11.52,0:17:12.80,ri,,0,0,0,,Immortal Agung.
+Dialogue: 0,0:17:14.00,0:17:15.60,ri,,0,0,0,,Masalah yang kau sebabkan sendiri,
+Dialogue: 0,0:17:16.40,0:17:17.92,ri,,0,0,0,,jangan libatkan seluruh suku!
+Dialogue: 0,0:17:20.40,0:17:21.12,ri,,0,0,0,,Rekan Dao.
+Dialogue: 0,0:17:22.12,0:17:23.92,ri,,0,0,0,,Tantangan perang itu kuberikan,
+Dialogue: 0,0:17:24.60,0:17:26.32,ri,,0,0,0,,beranikah kau bertarung denganku?
+Dialogue: 0,0:17:27.00,0:17:28.72,ri,,0,0,0,,Jangan libatkan yang tidak bersalah.
+Dialogue: 0,0:17:28.72,0:17:30.12,ri,,0,0,0,,Kau tidak layak!
+Dialogue: 0,0:17:38.72,0:17:39.76,ri,,0,0,0,,Buka formasi!
+Dialogue: 0,0:17:44.80,0:17:45.64,ri,,0,0,0,,Ouyang Hua.
+Dialogue: 0,0:17:46.64,0:17:48.12,ri,,0,0,0,,Terima anggota suku baru.
+Dialogue: 0,0:18:02.48,0:18:03.72,ri,,0,0,0,,Suku berkembang.
+Dialogue: 0,0:18:04.12,0:18:06.64,ri,,0,0,0,,Semua bergantung pada kekuatan ilahi Immortal.
+Dialogue: 0,0:18:07.44,0:18:10.92,ri,,0,0,0,,Mohon Immortal beri nama baru untuk suku.
+Dialogue: 0,0:18:11.52,0:18:13.20,ri,,0,0,0,,Memberikan kehidupan baru.
+Dialogue: 0,0:18:15.28,0:18:16.84,ri,,0,0,0,,Saudara Zeng Niu,
+Dialogue: 0,0:18:17.52,0:18:18.40,ri,,0,0,0,,aku,
+Dialogue: 0,0:18:18.68,0:18:21.48,ri,,0,0,0,,meminta satu hal terakhir darimu.
+Dialogue: 0,0:18:24.20,0:18:25.12,ri,,0,0,0,,Nama suku adalah...
+Dialogue: 0,0:18:26.72,0:18:27.72,ri,,0,0,0,,Soul Refining.

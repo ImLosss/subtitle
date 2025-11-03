@@ -47,46 +47,46 @@ async function burnSubtitle(inputFile, outputFile) {
 
 async function burnSubtitleGPU(inputFile, outputFile) {
   return new Promise((resolve, reject) => {
-    // const ffmpegArgs = [
-    //   '-y', // Overwrite file output jika ada
-    //   '-i', inputFile, // File input
-    //   // '-ss', '00:05:00',
-    //   // '-to', '00:18:15',
-    //   '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
-    //   '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
-    //   '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
-    //   '-b:v', '4M', // Bitrate target rata-rata
-    //   '-maxrate', '4M', // Batasi bitrate maksimum hingga 4 Mbps
-    //   '-bufsize', '8M', // Buffer size dua kali maksimum bitrate
-    //   '-quality', 'quality', // Prioritaskan kualitas
-    //   '-preset', 'quality', // Gunakan preset kualitas GPU
-    //   // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
-    //   // scale=1920:-1
-    //   '-vf', "subtitles=TALES_EP53_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
-    //   '-c:a', 'copy', 
-    //   outputFile // File output
-    // ];
+    const ffmpegArgs = [
+      '-y', // Overwrite file output jika ada
+      '-i', inputFile, // File input
+      // '-ss', '00:05:00',
+      // '-to', '00:17:55',
+      '-c:v', 'h264_amf', // Gunakan GPU AMD dengan encoder h264_amf
+      '-cq:v', '18', // Gunakan CRF rendah untuk kualitas tinggi (angka lebih rendah = kualitas lebih baik)
+      '-rc', 'cbr', // Gunakan Variable Bitrate untuk membatasi bitrate maksimum
+      '-b:v', '4M', // Bitrate target rata-rata
+      '-maxrate', '4M', // Batasi bitrate maksimum hingga 4 Mbps
+      '-bufsize', '8M', // Buffer size dua kali maksimum bitrate
+      '-quality', 'quality', // Prioritaskan kualitas
+      '-preset', 'quality', // Gunakan preset kualitas GPU
+      // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
+      // scale=1920:-1
+      '-vf', "subtitles=RI_EP113_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
+      '-c:a', 'copy', 
+      outputFile // File output
+    ];
     // btth : 25
     // renegade : 40
     //pw : 33
 
-    const ffmpegArgs = [
-      '-y', // Overwrite file output jika ada
-      '-i', inputFile, // File input
-      // '-ss', '01:18:40',
-      // '-to', '00:00:10',
-      // scale=-1:1080
-      '-vf', "subtitles=pv.ass,drawtext=text='DongWorld':font=Verdana:fontsize=25:fontcolor=white@0.5:x=15:y=15",
-      // '-pix_fmt', 'yuv420p',
-      '-c:v', 'libx264',
-      '-crf', '22',
-      // '-b:v', '2M', // Bitrate target rata-rata
-      '-maxrate', '5M', // Batasi bitrate maksimum hingga 4 Mbps
-      '-bufsize', '10M', // Buffer size dua kali maksimum bitrate
-      '-preset', 'fast',
-      '-c:a', 'copy', 
-      outputFile // File output
-    ];
+    // const ffmpegArgs = [
+    //   '-y', // Overwrite file output jika ada
+    //   '-i', inputFile, // File input
+    //   // '-ss', '01:18:40',
+    //   // '-to', '00:17:55',
+    //   // scale=-1:1080
+    //   '-vf', "subtitles=pv.ass,drawtext=text='DongWorld':font=Verdana:fontsize=25:fontcolor=white@0.5:x=15:y=15",
+    //   // '-pix_fmt', 'yuv420p',
+    //   '-c:v', 'libx264',
+    //   '-crf', '25',
+    //   // '-b:v', '2M', // Bitrate target rata-rata
+    //   '-maxrate', '5M', // Batasi bitrate maksimum hingga 4 Mbps
+    //   '-bufsize', '10M', // Buffer size dua kali maksimum bitrate
+    //   '-preset', 'fast',
+    //   '-c:a', 'copy', 
+    //   outputFile // File output
+    // ];
 
     // Jalankan ffmpeg dengan argumen yang telah ditentukan
     const ffmpegProcess = spawn('ffmpeg', ffmpegArgs);
@@ -211,4 +211,4 @@ async function extractSrt(inputFile) {
 //   outputFile // File output
 // ];
 
-burnSubtitleGPU('pv.mp4', 'pv_INDO.mp4')
+burnSubtitleGPU('RI_EP113.mp4', 'RI_EP113_INDO.mp4')

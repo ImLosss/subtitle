@@ -1,0 +1,184 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:18.83,0:00:20.40,sl,,0,0,0,,Sungguh kejam!
+Dialogue: 0,0:00:21.20,0:00:25.23,sl,,0,0,0,,Berapa banyak roh korban yang dibutuhkan untuk membuat senjata seperti ini?
+Dialogue: 0,0:00:28.70,0:00:31.60,sl,,0,0,0,,Cahaya emasnya sangat kuat, kekuatan apa itu?
+Dialogue: 0,0:00:32.00,0:00:34.00,sl,,0,0,0,,Dia masih bisa hidup setelah terkena Sinar Kematian?
+Dialogue: 0,0:00:34.53,0:00:35.37,sl,,0,0,0,,Bagaimana kau melakukannya?
+Dialogue: 0,0:00:35.37,0:00:36.47,sl,,0,0,0,,Sisik Terbalik menyelamatkanku.
+Dialogue: 0,0:00:42.43,0:00:44.20,sl,,0,0,0,,Terakhir kali dia membunuh kapten kami.
+Dialogue: 0,0:00:44.67,0:00:47.83,sl,,0,0,0,,Kali ini kita akan menjebak mereka untuk balas dendam kapten.
+Dialogue: 0,0:00:48.17,0:00:49.90,sl,,0,0,0,,Wutong, bantu aku mengulur waktu sebentar.
+Dialogue: 0,0:00:50.60,0:00:51.83,sl,,0,0,0,,Serahkan mereka padaku.
+Dialogue: 0,0:00:52.90,0:00:53.93,sl,,0,0,0,,Teknik Roh Kelima!
+Dialogue: 0,0:00:55.90,0:00:57.13,sl,,0,0,0,,Raungan Dewa Naga!
+Dialogue: 0,0:01:09.20,0:01:10.63,sl,,0,0,0,,Mulai serangan gabungan!
+Dialogue: 0,0:01:10.63,0:01:25.63,sl,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh dongworld.
+Dialogue: 0,0:01:38.53,0:01:41.03,sl,,0,0,0,,Teknik Roh Kedua, Amukan Dewa Naga!
+Dialogue: 0,0:01:51.67,0:01:52.47,sl,,0,0,0,,Cepat tembak!
+Dialogue: 0,0:02:58.13,0:03:02.67,sl,,0,0,0,,Terima kasih atas kerja kerasnya, Sahabat Huo. Serahkan sisanya pada kami.
+Dialogue: 0,0:03:02.87,0:03:05.93,sl,,0,0,0,,Teknik Roh Keenam, Gemuruh Ribuan Lembah!
+Dialogue: 0,0:03:10.03,0:03:12.23,sl,,0,0,0,,Akhirnya bisa bertarung melawan para bajingan ini.
+Dialogue: 0,0:03:12.50,0:03:13.70,sl,,0,0,0,,Teknik Roh Kelima!
+Dialogue: 0,0:03:13.83,0:03:15.83,sl,,0,0,0,,Tebasan Pemusnah Sepuluh Arah!
+Dialogue: 0,0:03:21.23,0:03:22.73,sl,,0,0,0,,Senior Cheng Gang, Master Dunia Roh Pelindung Negara!
+Dialogue: 0,0:03:23.03,0:03:25.60,sl,,0,0,0,,Tempat ini lebih membutuhkanku daripada Kota Xingluo.
+Dialogue: 0,0:03:27.87,0:03:29.77,sl,,0,0,0,,Teknik Roh Kelima!
+Dialogue: 0,0:03:32.57,0:03:34.90,sl,,0,0,0,,Domain Bintang Kegelapan Abadi!
+Dialogue: 0,0:03:40.90,0:03:45.00,sl,,0,0,0,,Teknik Roh Keenam, Hukuman Meteor Bintang!
+Dialogue: 0,0:03:51.67,0:03:54.47,sl,,0,0,0,,Teknik Roh Keenam, Penghancur Kekosongan!
+Dialogue: 0,0:03:55.07,0:03:58.53,sl,,0,0,0,,Teknik Roh Keenam, Kehancuran Segala Penjuru!
+Dialogue: 0,0:04:03.20,0:04:07.57,sl,,0,0,0,,Teknik Roh Kelima, Wujud Hukum Semesta!
+Dialogue: 0,0:04:17.03,0:04:20.17,sl,,0,0,0,,Teknik Roh Kedelapan, Semua Sungai Menuju Kekosongan!
+Dialogue: 0,0:04:24.30,0:04:27.70,sl,,0,0,0,,Teknik Roh Kedelapan, Pemanggil Angin Petir Sembilan Langit!
+Dialogue: 0,0:04:30.13,0:04:32.10,sl,,0,0,0,,Dari mana munculnya begitu banyak Master Dunia Roh?
+Dialogue: 0,0:04:34.67,0:04:37.03,sl,,0,0,0,,Temui kapten kalian, Wang Yiheng!
+Dialogue: 0,0:04:39.00,0:04:41.37,sl,,0,0,0,,Kali ini ada 10 Master Dunia Roh yang secara sukarela mengajukan diri.
+Dialogue: 0,0:04:48.33,0:04:50.30,sl,,0,0,0,,Para Master Pembimbing Roh ini tidak perlu dikhawatirkan.
+Dialogue: 0,0:04:50.67,0:04:54.27,sl,,0,0,0,,Tapi ada terlalu banyak Alat Pembimbing Roh di gunung, ini adalah puncak utamanya.
+Dialogue: 0,0:04:54.47,0:04:54.97,sl,,0,0,0,,Benar.
+Dialogue: 0,0:04:55.00,0:04:56.13,sl,,0,0,0,,Setelah beberapa kali pengintaian,
+Dialogue: 0,0:04:56.37,0:04:58.67,sl,,0,0,0,,aku sudah memahami kekuatan Menara Kematian.
+Dialogue: 0,0:04:58.80,0:05:00.87,sl,,0,0,0,,Begitu kekuatan spiritualku mendekati Menara Kematian,
+Dialogue: 0,0:05:01.33,0:05:02.57,sl,,0,0,0,,aku langsung merasakan sakit dan terbakar.
+Dialogue: 0,0:05:03.27,0:05:05.77,sl,,0,0,0,,Ini membuktikan bahwa Sinar Kematian juga terdiri dari kekuatan spiritual.
+Dialogue: 0,0:05:06.53,0:05:07.90,sl,,0,0,0,,Jika tebakanku benar,
+Dialogue: 0,0:05:08.20,0:05:10.17,sl,,0,0,0,,itu terbuat dari kompresi dan pemadatan banyak roh pendendam.
+Dialogue: 0,0:05:10.80,0:05:11.67,sl,,0,0,0,,Roh pendendam?
+Dialogue: 0,0:05:12.13,0:05:14.97,sl,,0,0,0,,Tampaknya masih membutuhkan Master Roh Spiritual sepertimu untuk menghancurkannya.
+Dialogue: 0,0:05:15.67,0:05:16.77,sl,,0,0,0,,Kalau begitu kita bertindak terpisah.
+Dialogue: 0,0:05:17.23,0:05:18.47,sl,,0,0,0,,Juchui, Suixing,
+Dialogue: 0,0:05:18.97,0:05:20.73,sl,,0,0,0,,kalian antar Huo Yuhao dan yang lain
+Dialogue: 0,0:05:20.77,0:05:23.60,sl,,0,0,0,,melalui bagian dalam gunung ke puncak untuk menghancurkan Menara Kematian.
+Dialogue: 0,0:05:25.13,0:05:28.30,sl,,0,0,0,,Yang lain ikut aku untuk menghabisi sisa Master Roh dan Alat Pembimbing Roh.
+Dialogue: 0,0:05:28.53,0:05:29.97,sl,,0,0,0,,Buka jalan untuk pasukan belakang.
+Dialogue: 0,0:05:31.07,0:05:33.40,sl,,0,0,0,,Terakhir kita bertemu di puncak.
+Dialogue: 0,0:05:38.37,0:05:40.03,sl,,0,0,0,,Pukulan Menembus Gunung.
+Dialogue: 0,0:05:44.30,0:05:45.80,sl,,0,0,0,,Bagian dalam gunung agak kosong.
+Dialogue: 0,0:05:46.07,0:05:47.40,sl,,0,0,0,,Suixing, giliranmu.
+Dialogue: 0,0:05:48.27,0:05:53.43,sl,,0,0,0,,Teknik Roh Keenam, Blackhole Penghancur.
+Dialogue: 0,0:06:27.30,0:06:29.93,sl,,0,0,0,,Ini adalah puncak utama Pegunungan Mingdou.
+Dialogue: 0,0:06:30.73,0:06:33.60,sl,,0,0,0,,Aneh, di mana para Master Roh penjaganya?
+Dialogue: 0,0:06:51.73,0:06:53.13,sl,,0,0,0,,Ini adalah Menara Kematian.
+Dialogue: 0,0:06:59.40,0:07:03.17,sl,,0,0,0,,Benar ada tekanan spiritual yang sangat kuat, biar kuhancurkan dengan palu.
+Dialogue: 0,0:07:03.73,0:07:07.07,sl,,0,0,0,,Teknik Roh Kesembilan, Runtuhnya Ribuan Gunung Baja.
+Dialogue: 0,0:07:26.37,0:07:29.83,sl,,0,0,0,,Kupikir siapa yang bisa memasuki penghalang spiritualku.
+Dialogue: 0,0:07:30.93,0:07:34.40,sl,,0,0,0,,Ternyata ada bocah kecil yang ahli dalam kekuatan spiritual.
+Dialogue: 0,0:07:58.47,0:07:59.40,sl,,0,0,0,,Kebetulan sekali.
+Dialogue: 0,0:08:00.17,0:08:01.43,sl,,0,0,0,,Menara Kematianku
+Dialogue: 0,0:08:01.43,0:08:05.40,sl,,0,0,0,,masih membutuhkan beberapa jiwa kuat sebagai roh utama penjaga.
+Dialogue: 0,0:08:05.77,0:08:07.93,sl,,0,0,0,,Aku akan mengambil beberapa dari kalian.
+Dialogue: 0,0:08:13.50,0:08:15.13,sl,,0,0,0,,Tidak bisa bergerak.
+Dialogue: 0,0:08:18.73,0:08:23.23,sl,,0,0,0,,Enam cincin 10.000 tahun dan tiga cincin 100.000 tahun, dia Master Dunia Ekstrem.
+Dialogue: 0,0:08:23.23,0:08:38.23,sl,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh dongworld.
+Dialogue: 0,0:08:54.20,0:08:56.23,sl,,0,0,0,,Selain Long Xiaoyao, Naga Suci Kegelapan.
+Dialogue: 0,0:08:56.40,0:08:59.80,sl,,0,0,0,,Kekaisaran Riyue ternyata masih memiliki satu Master Dunia Ekstrem lagi.
+Dialogue: 0,0:09:00.03,0:09:01.80,sl,,0,0,0,,Dan dia mengendalikan Menara Kematian.
+Dialogue: 0,0:09:02.17,0:09:04.77,sl,,0,0,0,,Berarti dia adalah,
+Dialogue: 0,0:09:04.87,0:09:06.93,sl,,0,0,0,,Master Dunia Kematian yang paling misterius dan kuat di Kekaisaran Riyue.
+Dialogue: 0,0:09:07.07,0:09:09.07,sl,,0,0,0,,Juga seorang Master Roh tingkat sembilan.
+Dialogue: 0,0:09:09.90,0:09:11.93,sl,,0,0,0,,Master Dunia Ekstrem sudah mendekati semi-dewa.
+Dialogue: 0,0:09:12.20,0:09:14.77,sl,,0,0,0,,Jika dia mendapatkan takhta dewa, dia akan benar-benar menjadi dewa.
+Dialogue: 0,0:09:15.17,0:09:17.87,sl,,0,0,0,,Pantasan Kekaisaran Riyue begitu yakin dengan pertahanan Pegunungan Mingdou.
+Dialogue: 0,0:09:18.07,0:09:21.70,sl,,0,0,0,,Setelah dia muncul, Deteksi Roh-ku sepenuhnya ditekan.
+Dialogue: 0,0:09:22.67,0:09:26.83,sl,,0,0,0,,Senior Master Dunia Kematian, mengapa kau membantu kejahatan?
+Dialogue: 0,0:09:27.00,0:09:29.63,sl,,0,0,0,,Membantu Kekaisaran Riyue menyerang tanah airmu sendiri.
+Dialogue: 0,0:09:30.83,0:09:32.23,sl,,0,0,0,,Tanah air?
+Dialogue: 0,0:09:32.57,0:09:34.43,sl,,0,0,0,,Kau pasti bukan orang Kekaisaran Riyue.
+Dialogue: 0,0:09:34.87,0:09:36.73,sl,,0,0,0,,Karena perbedaan fisik ras.
+Dialogue: 0,0:09:36.77,0:09:39.70,sl,,0,0,0,,Master Roh Kekaisaran Riyue setelah mencapai tingkat tertentu,
+Dialogue: 0,0:09:39.70,0:09:41.60,sl,,0,0,0,,tingkat pelatihan akan jelas menurun.
+Dialogue: 0,0:09:42.30,0:09:43.87,sl,,0,0,0,,Ini juga alasan,
+Dialogue: 0,0:09:44.10,0:09:46.90,sl,,0,0,0,,mengapa Kekaisaran Riyue hampir tidak memiliki Master Dunia Super.
+Dialogue: 0,0:09:47.43,0:09:50.03,sl,,0,0,0,,Kau pasti berasal dari Dunia Roh kami.
+Dialogue: 0,0:09:50.63,0:09:52.63,sl,,0,0,0,,Mengapa tidak pertimbangkan kembali ke pihak kami?
+Dialogue: 0,0:09:52.80,0:09:54.53,sl,,0,0,0,,Kembali ke tanah air?
+Dialogue: 0,0:09:58.23,0:09:59.47,sl,,0,0,0,,Tanah air?
+Dialogue: 0,0:09:59.87,0:10:02.67,sl,,0,0,0,,Di mana tempat kembali untuk Master Roh Iblis di Dunia Roh?
+Dialogue: 0,0:10:03.47,0:10:05.83,sl,,0,0,0,,Kalian para Master Roh yang disebut ortodoks ini,
+Dialogue: 0,0:10:06.07,0:10:09.17,sl,,0,0,0,,setiap melihatku selalu ingin membunuhku.
+Dialogue: 0,0:10:09.53,0:10:11.67,sl,,0,0,0,,Kau malah berbicara tentang tanah air denganku?
+Dialogue: 0,0:10:13.40,0:10:14.90,sl,,0,0,0,,Konyol.
+Dialogue: 0,0:10:15.83,0:10:16.90,sl,,0,0,0,,Para senior.
+Dialogue: 0,0:10:22.57,0:10:25.07,sl,,0,0,0,,Tolong jangan bertindak dulu, ada beberapa hal yang ingin kukatakan.
+Dialogue: 0,0:10:26.03,0:10:29.50,sl,,0,0,0,,Kau lagi, berkali-kali memasuki wilayah pasukan kami.
+Dialogue: 0,0:10:29.53,0:10:31.10,sl,,0,0,0,,Tingkat Master Roh Mulia.
+Dialogue: 0,0:10:32.03,0:10:34.77,sl,,0,0,0,,Tapi memiliki kekuatan spiritual setara Master Dunia Roh.
+Dialogue: 0,0:10:34.97,0:10:36.57,sl,,0,0,0,,Sungguh langka.
+Dialogue: 0,0:10:36.63,0:10:39.43,sl,,0,0,0,,Kalau langsung membunuhmu malah sayang.
+Dialogue: 0,0:10:39.50,0:10:41.77,sl,,0,0,0,,Aku akan menahanmu sampai terakhir.
+Dialogue: 0,0:10:43.17,0:10:45.93,sl,,0,0,0,,Mengapa kau begitu keras kepala, Senior Ye?
+Dialogue: 0,0:10:47.47,0:10:48.73,sl,,0,0,0,,Kau memanggilku apa?
+Dialogue: 0,0:11:03.17,0:11:05.30,sl,,0,0,0,,Inikah kekuatan Master Dunia Ekstrem?
+Dialogue: 0,0:11:05.90,0:11:09.33,sl,,0,0,0,,Tadi dia sama sekali tidak bertabrakan langsung dengan kami.
+Dialogue: 0,0:11:09.67,0:11:12.60,sl,,0,0,0,,Hanya menggunakan kekuatan halus untuk melumpuhkan semua serangan.
+Dialogue: 0,0:11:13.63,0:11:18.37,sl,,0,0,0,,Penguasaannya yang sempurna atas waktu dan ruang jauh melampauiku.
+Dialogue: 0,0:11:27.47,0:11:31.20,sl,,0,0,0,,Katakan, bagaimana kau tahu aku bermarga Ye?
+Dialogue: 0,0:11:31.70,0:11:33.27,sl,,0,0,0,,Di dunia ini,
+Dialogue: 0,0:11:33.27,0:11:36.17,sl,,0,0,0,,seharusnya hanya sedikit yang mengenalku.
+Dialogue: 0,0:11:36.67,0:11:37.47,sl,,0,0,0,,Cepat katakan!
+Dialogue: 0,0:11:44.77,0:11:47.70,sl,,0,0,0,,Nama aslimu adalah Ye Xishui, benar kan?
+Dialogue: 0,0:11:47.80,0:11:49.40,sl,,0,0,0,,Siapa kau sebenarnya?
+Dialogue: 0,0:11:53.03,0:11:54.20,sl,,0,0,0,,Namaku Huo Yuhao.
+Dialogue: 0,0:11:55.03,0:11:58.07,sl,,0,0,0,,Guruku bernama Mu En.
+Dialogue: 0,0:11:59.73,0:12:00.63,sl,,0,0,0,,Mu En?
+Dialogue: 0,0:12:01.90,0:12:02.60,sl,,0,0,0,,Tidak,
+Dialogue: 0,0:12:02.60,0:12:05.17,sl,,0,0,0,,biarpun dia berdiri di hadapanku sekarang,
+Dialogue: 0,0:12:05.53,0:12:06.93,sl,,0,0,0,,belum tentu dia bisa mengenaliku.
+Dialogue: 0,0:12:08.30,0:12:12.60,sl,,0,0,0,,Apalagi dia sudah mati, mati!
+Dialogue: 0,0:12:14.87,0:12:15.53,sl,,0,0,0,,Senior Ye,
+Dialogue: 0,0:12:16.00,0:12:19.30,sl,,0,0,0,,mungkin hanya kau yang sezaman dengan Naga Suci Hitam-Putih
+Dialogue: 0,0:12:19.90,0:12:23.10,sl,,0,0,0,,yang bisa mencapai Master Dunia Ekstrem sebagai Master Roh Iblis.
+Dialogue: 0,0:12:24.43,0:12:27.17,sl,,0,0,0,,Hanya kau yang bisa membujuk Senior Long Xiaoyao bergabung dengan Sekte Roh Suci.
+Dialogue: 0,0:12:27.17,0:12:28.27,sl,,0,0,0,,Hanya saja aku tidak menyangka,
+Dialogue: 0,0:12:29.87,0:12:32.27,sl,,0,0,0,,kau juga adalah Master Dunia Kematian Kekaisaran Riyue.
+Dialogue: 0,0:12:33.43,0:12:36.17,sl,,0,0,0,,Apakah kau benar-benar akan demi penderitaan satu orang,
+Dialogue: 0,0:12:37.00,0:12:39.77,sl,,0,0,0,,membuat seluruh benua menderita karena perang?
+Dialogue: 0,0:12:42.87,0:12:45.00,sl,,0,0,0,,Bocah, kau sangat pintar,
+Dialogue: 0,0:12:45.80,0:12:48.37,sl,,0,0,0,,tapi orang pintar biasanya tidak berumur panjang.
+Dialogue: 0,0:12:49.63,0:12:52.77,sl,,0,0,0,,Kau adalah muridnya, aku bisa memaafkanmu sekali.
+Dialogue: 0,0:12:53.83,0:12:54.73,sl,,0,0,0,,Tapi,
+Dialogue: 0,0:12:55.17,0:12:57.80,sl,,0,0,0,,lebih baik kau jangan muncul di hadapanku lagi.
+Dialogue: 0,0:12:58.20,0:13:03.17,sl,,0,0,0,,Kali ini aku ingat kebaikannya, lain kali belum tentu.
+Dialogue: 0,0:13:03.67,0:13:06.47,sl,,0,0,0,,Sedekat ini pun tidak bisa mengintip struktur Menara Kematian.
+Dialogue: 0,0:13:07.93,0:13:08.67,sl,,0,0,0,,Berani!
+Dialogue: 0,0:13:08.67,0:13:23.67,sl,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh dongworld.
+Dialogue: 0,0:13:31.40,0:13:32.83,sl,,0,0,0,,Bukannya kau bilang tidak akan membunuhnya?
+Dialogue: 0,0:13:34.97,0:13:37.67,sl,,0,0,0,,Aku berubah pikiran tidak boleh?
+Dialogue: 0,0:13:38.50,0:13:40.87,sl,,0,0,0,,Mu En si mayat hidup itu sudah mati,
+Dialogue: 0,0:13:41.20,0:13:44.53,sl,,0,0,0,,kalau di alam baka melihat murid kecilnya mencarinya,
+Dialogue: 0,0:13:44.57,0:13:47.17,sl,,0,0,0,,ekspresinya akan seperti apa ya?
+Dialogue: 0,0:13:48.67,0:13:53.97,sl,,0,0,0,,Bocah, salahmu sendiri memilih guru yang salah.
+Dialogue: 0,0:13:59.97,0:14:01.10,sl,,0,0,0,,Yuhao!
+Dialogue: 0,0:14:59.30,0:15:00.70,sl,,0,0,0,,Tidak, tidak mungkin.
+Dialogue: 0,0:15:00.93,0:15:02.27,sl,,0,0,0,,Yuhao hanya Master Roh Mulia,
+Dialogue: 0,0:15:02.67,0:15:05.10,sl,,0,0,0,,bagaimana bisa tiba-tiba mengeluarkan aura Master Dunia Ekstrem?
+Dialogue: 0,0:15:05.73,0:15:10.00,sl,,0,0,0,,Manusia, cepat pergi.
+Dialogue: 0,0:15:11.67,0:15:13.20,sl,,0,0,0,,Kau bukan Huo Yuhao.

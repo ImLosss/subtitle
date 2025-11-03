@@ -1,0 +1,208 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Calibri,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.88,0:00:33.35,ss,,0,0,0,,[PREVIEW EPISODE SEBELUMNYA]
+Dialogue: 0,0:04:21.73,0:04:25.23,komen,,0,0,0,,{\pos(1668,611)\fad(500,250)}[Ras Serangga\NNancheng]
+Dialogue: 0,0:04:25.47,0:04:28.67,komen,,0,0,0,,{\pos(1382,735)\fad(500,250)}[Ras Robot\NRaja Mingyun]
+Dialogue: 0,0:04:34.66,0:04:39.37,komen,,0,0,0,,{\pos(1600,650)\fad(500,250)}[Ras Iblis\NRaja Xuanmu]
+Dialogue: 0,0:05:39.99,0:05:44.70,komen,,0,0,0,,{\pos(1346,699)\fad(500,250)}[Ras Manusia\NRaja Tujuh Pedang]
+Dialogue: 0,0:00:45.80,0:00:46.60,ss,,0,0,0,,Aku.
+Dialogue: 0,0:00:47.57,0:00:50.30,ss,,0,0,0,,Adalah saudara baik Raja Zizhong, Chen.
+Dialogue: 0,0:00:50.30,0:00:52.70,ss,,0,0,0,,Jangan banyak omong, kau datang untuk balas dendam.
+Dialogue: 0,0:00:53.70,0:00:55.03,ss,,0,0,0,,Kau menyela seperti ini,
+Dialogue: 0,0:00:55.47,0:00:56.93,ss,,0,0,0,,Apakah takut tidak cepat mati?
+Dialogue: 0,0:00:57.57,0:00:58.60,ss,,0,0,0,,Kuberitahu kau,
+Dialogue: 0,0:00:58.63,0:01:01.60,ss,,0,0,0,,Meski kau bisa membunuh 18 Undying King berturut-turut di Daratan Yanji,
+Dialogue: 0,0:01:01.93,0:01:04.17,ss,,0,0,0,,tapi di Menara Bintang yang penuh pejuang kuat,
+Dialogue: 0,0:01:04.70,0:01:07.37,ss,,0,0,0,,kau tidak punya hak untuk sombong.
+Dialogue: 0,0:01:16.30,0:01:18.53,ss,,0,0,0,,Yang akan mengakhiri Raja Sungai Pedang,
+Dialogue: 0,0:01:18.80,0:01:20.67,ss,,0,0,0,,adalah aku, Chen.
+Dialogue: 0,0:01:20.67,0:01:35.67,ss,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh dongworld
+Dialogue: 0,0:01:44.20,0:01:47.47,ss,,0,0,0,,Siapa pun yang menghina tuanku, mati!
+Dialogue: 0,0:02:01.67,0:02:03.67,ss,,0,0,0,,Tadi dia bilang namanya apa?
+Dialogue: 0,0:02:05.43,0:02:06.10,ss,,0,0,0,,Tidak pentinglah.
+Dialogue: 0,0:02:21.30,0:02:21.90,ss,,0,0,0,,Itu pintu keluar.
+Dialogue: 0,0:02:29.93,0:02:30.60,ss,,0,0,0,,Raja Sungai Pedang.
+Dialogue: 0,0:02:32.43,0:02:33.60,ss,,0,0,0,,Apa maksudmu?
+Dialogue: 0,0:02:34.13,0:02:35.73,ss,,0,0,0,,Raja Chenhun yang bodoh tampaknya lupa.
+Dialogue: 0,0:02:36.90,0:02:37.80,ss,,0,0,0,,Martabat seorang pejuang kuat,
+Dialogue: 0,0:02:38.03,0:02:39.00,ss,,0,0,0,,tidak boleh ditantang,
+Dialogue: 0,0:02:39.17,0:02:39.87,ss,,0,0,0,,tidak boleh dihina.
+Dialogue: 0,0:02:41.37,0:02:44.33,ss,,0,0,0,,Jika kalian ingin membela Raja Chenhun,
+Dialogue: 0,0:02:44.97,0:02:45.77,ss,,0,0,0,,maka bertarunglah!
+Dialogue: 0,0:02:47.33,0:02:49.10,ss,,0,0,0,,Hanya saja Bintang Penyegel akan segera muncul.
+Dialogue: 0,0:02:49.27,0:02:50.47,ss,,0,0,0,,Sekarang menyia-nyiakan energi.
+Dialogue: 0,0:02:51.57,0:02:53.83,ss,,0,0,0,,Khawatir akan memberi keuntungan pada pejuang kuat lainnya.
+Dialogue: 0,0:03:01.00,0:03:02.77,ss,,0,0,0,,Sebaiknya kau bisa bertahan sampai akhir.
+Dialogue: 0,0:03:05.87,0:03:07.10,ss,,0,0,0,,Semoga kalian juga begitu.
+Dialogue: 0,0:03:19.50,0:03:20.63,ss,,0,0,0,,Sayang sekali.
+Dialogue: 0,0:03:22.43,0:03:23.90,ss,,0,0,0,,Tubuhku gemetar tak terkendali.
+Dialogue: 0,0:03:24.70,0:03:26.13,ss,,0,0,0,,Tim ini meski jumlahnya tidak banyak,
+Dialogue: 0,0:03:26.30,0:03:29.03,ss,,0,0,0,,tapi tekanan yang dirasakan lebih kuat dari Ras Robot tadi.
+Dialogue: 0,0:03:29.43,0:03:32.13,ss,,0,0,0,,Apakah karena ada pejuang kuat bersembunyi di dalam Cincin Dunia?
+Dialogue: 0,0:03:52.17,0:03:52.42,ss,,0,0,0,,Yang.
+Dialogue: 0,0:03:53.80,0:03:59.20,ss,,0,0,0,,Raja Sungai Pedang, Raja Sungai Pedang datang!
+Dialogue: 0,0:04:00.10,0:04:02.57,ss,,0,0,0,,Aku, Raja Cangqi, mohon bimbingannya.
+Dialogue: 0,0:04:05.03,0:04:07.10,ss,,0,0,0,,Sekarang berbagai ras memperebutkan Bintang Penyegel.
+Dialogue: 0,0:04:07.40,0:04:09.10,ss,,0,0,0,,Secara bertahap membentuk banyak pasukan beranggotakan ratusan,
+Dialogue: 0,0:04:09.30,0:04:10.87,ss,,0,0,0,,bahkan ribuan orang.
+Dialogue: 0,0:04:14.03,0:04:15.10,ss,,0,0,0,,Untungnya kau bergabung,
+Dialogue: 0,0:04:15.50,0:04:16.60,ss,,0,0,0,,menambah kekuatan untuk kami.
+Dialogue: 0,0:04:17.33,0:04:20.10,ss,,0,0,0,,Saat ini, pasukan mana saja yang menjadi ancaman besar bagi kita?
+Dialogue: 0,0:04:20.67,0:04:21.93,ss,,0,0,0,,Ras Serangga, Nancheng.
+Dialogue: 0,0:04:22.27,0:04:24.13,ss,,0,0,0,,Licik, ahli menggunakan strategi tak terduga.
+Dialogue: 0,0:04:25.60,0:04:26.93,ss,,0,0,0,,Ras Robot, Raja Mingyun.
+Dialogue: 0,0:04:27.27,0:04:28.13,ss,,0,0,0,,Mementingkan keteraturan.
+Dialogue: 0,0:04:28.30,0:04:29.47,ss,,0,0,0,,Terkenal dengan kemampuan komandonya.
+Dialogue: 0,0:04:31.07,0:04:32.20,ss,,0,0,0,,Baru saja dibicarakan, sudah datang.
+Dialogue: 0,0:04:35.40,0:04:38.47,ss,,0,0,0,,Ras Iblis, Raja Xuanmu, satu orang setara pasukan.
+Dialogue: 0,0:04:52.23,0:04:54.53,ss,,0,0,0,,Kekuatan mereka mendekati Undying King Tak Terkalahkan.
+Dialogue: 0,0:04:55.13,0:04:57.27,ss,,0,0,0,,Bawahannya tentu mengumpulkan lebih banyak pejuang kuat.
+Dialogue: 0,0:04:58.50,0:04:59.57,ss,,0,0,0,,Undying King Tak Terkalahkan?
+Dialogue: 0,0:05:00.43,0:05:02.67,ss,,0,0,0,,Bukankah itu mendekati kekuatan guruku Raja Zhenyan?
+Dialogue: 0,0:05:02.67,0:05:17.67,ss,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh dongworld
+Dialogue: 0,0:05:37.43,0:05:38.23,ss,,0,0,0,,Ini siapa?
+Dialogue: 0,0:05:39.27,0:05:42.40,ss,,0,0,0,,Raja Tujuh Pedang, kekuatannya tidak kalah dari tiga ras asing tadi.
+Dialogue: 0,0:05:43.07,0:05:46.63,ss,,0,0,0,,Kabarnya adalah murid langsung seorang Universe Master di Arena Kapak Raksasa.
+Dialogue: 0,0:05:47.60,0:05:50.73,ss,,0,0,0,,Bakatnya jauh lebih kuat daripada Bolan yang baru-baru ini terkenal.
+Dialogue: 0,0:05:51.97,0:05:52.83,ss,,0,0,0,,Bolan...
+Dialogue: 0,0:05:53.47,0:05:55.60,ss,,0,0,0,,Sayang, kekuatannya terlalu kuat.
+Dialogue: 0,0:05:56.07,0:05:57.90,ss,,0,0,0,,Dia sendiri bisa menarik lebih banyak pengikut.
+Dialogue: 0,0:05:58.63,0:06:00.40,ss,,0,0,0,,Orang yang mau bergabung dengan kita jadi sedikit.
+Dialogue: 0,0:06:08.87,0:06:10.33,ss,,0,0,0,,Pintu keluar, itu pintu keluar.
+Dialogue: 0,0:06:10.37,0:06:12.90,ss,,0,0,0,,Cepat masuk, serbu.
+Dialogue: 0,0:06:34.47,0:06:36.97,ss,,0,0,0,,Yang bisa melewati kesulitan dan sampai di sini,
+Dialogue: 0,0:06:37.77,0:06:39.20,ss,,0,0,0,,kebanyakan punya kekuatan Undying King.
+Dialogue: 0,0:06:39.97,0:06:42.47,ss,,0,0,0,,Kuperkirakan di sini sudah terkumpul seratus ribu orang.
+Dialogue: 0,0:06:43.00,0:06:45.40,ss,,0,0,0,,Setara dengan total Undying King manusia di Aliansi Hong.
+Dialogue: 0,0:06:52.27,0:06:53.60,ss,,0,0,0,,Banyak sekali Undying King.
+Dialogue: 0,0:06:53.60,0:06:54.63,ss,,0,0,0,,Benar-benar.
+Dialogue: 0,0:06:56.30,0:06:57.50,ss,,0,0,0,,Belum pernah kulihat seumur hidup.
+Dialogue: 0,0:06:58.23,0:06:59.73,ss,,0,0,0,,Setiap anggota jika ditempatkan di tempat lain,
+Dialogue: 0,0:06:59.80,0:07:01.90,ss,,0,0,0,,adalah pejuang super yang cukup menggentarkan satu wilayah.
+Dialogue: 0,0:07:02.23,0:07:04.37,ss,,0,0,0,,Dan sekarang, mereka semua berkumpul di sini
+Dialogue: 0,0:07:04.83,0:07:06.77,ss,,0,0,0,,hanya untuk memperebutkan Bintang Penyegel.
+Dialogue: 0,0:07:07.47,0:07:09.77,ss,,0,0,0,,Bintang Penyegel muncul!
+Dialogue: 0,0:07:58.30,0:08:00.73,ss,,0,0,0,,Jangan hal ini mengacaukan konsentrasi.
+Dialogue: 0,0:08:01.20,0:08:02.60,ss,,0,0,0,,Rencana operasi tadi,
+Dialogue: 0,0:08:02.60,0:08:04.97,ss,,0,0,0,,masih ada beberapa poin kunci yang perlu diperjelas.
+Dialogue: 0,0:08:06.50,0:08:07.37,ss,,0,0,0,,Siap!
+Dialogue: 0,0:08:32.03,0:08:34.23,ss,,0,0,0,,Lebih dari seratus ribu Undying ras asing di sini.
+Dialogue: 0,0:08:34.73,0:08:36.53,ss,,0,0,0,,Entah berapa banyak sosok yang menakutkan?
+Dialogue: 0,0:08:37.20,0:08:38.37,ss,,0,0,0,,Hanya mengandalkan kita puluhan orang,
+Dialogue: 0,0:08:38.83,0:08:40.80,ss,,0,0,0,,akan sangat sulit mendapatkan Bintang Penyegel.
+Dialogue: 0,0:08:41.10,0:08:43.73,ss,,0,0,0,,Jangan khawatir, sekutu kita sudah sampai.
+Dialogue: 0,0:08:49.07,0:08:51.23,ss,,0,0,0,,Aku dan beberapa saudara masing-masing membawa satu tim.
+Dialogue: 0,0:08:51.57,0:08:53.27,ss,,0,0,0,,Total sekitar seribu orang, datang bergabung.
+Dialogue: 0,0:08:54.57,0:08:56.50,ss,,0,0,0,,Raja Quwu, terima kasih atas bantuannya.
+Dialogue: 0,0:09:05.90,0:09:08.67,ss,,0,0,0,,Semuanya, dalam perebutan Bintang Penyegel kali ini,
+Dialogue: 0,0:09:09.00,0:09:10.93,ss,,0,0,0,,pejuang kuat dari berbagai ras alam semesta bermunculan.
+Dialogue: 0,0:09:11.70,0:09:13.00,ss,,0,0,0,,Saat ini hanya dengan bersatu,
+Dialogue: 0,0:09:13.37,0:09:14.37,ss,,0,0,0,,baru ada kekuatan untuk bersaing.
+Dialogue: 0,0:09:15.30,0:09:16.40,ss,,0,0,0,,Jadi mulai sekarang,
+Dialogue: 0,0:09:16.77,0:09:18.07,ss,,0,0,0,,kita sementara membentuk persekutuan.
+Dialogue: 0,0:09:18.57,0:09:19.37,ss,,0,0,0,,Maju mundur bersama!
+Dialogue: 0,0:09:22.60,0:09:24.20,ss,,0,0,0,,Lalu nanti Bintang Penyegel akan jadi milik siapa?
+Dialogue: 0,0:09:32.53,0:09:34.10,ss,,0,0,0,,Menerobos hambatan pasukan ras asing
+Dialogue: 0,0:09:34.47,0:09:35.90,ss,,0,0,0,,sampai di depan Bintang Penyegel,
+Dialogue: 0,0:09:36.27,0:09:37.60,ss,,0,0,0,,kita harus bekerja sama.
+Dialogue: 0,0:09:38.47,0:09:40.00,ss,,0,0,0,,Setelahnya aliansi secara alami akan bubar.
+Dialogue: 0,0:09:40.43,0:09:41.87,ss,,0,0,0,,Semua menggunakan kemampuan masing-masing untuk berebut.
+Dialogue: 0,0:09:42.33,0:09:43.37,ss,,0,0,0,,Tapi sebelum itu,
+Dialogue: 0,0:09:45.10,0:09:46.47,ss,,0,0,0,,jika ada yang mengkhianati persekutuan.
+Dialogue: 0,0:09:47.17,0:09:48.27,ss,,0,0,0,,Aku Raja Tianzhen,
+Dialogue: 0,0:09:48.80,0:09:51.40,ss,,0,0,0,,pasti akan membunuh orang itu untuk saudara persekutuan kita.
+Dialogue: 0,0:09:58.13,0:09:59.87,ss,,0,0,0,,Selanjutnya kita lakukan penyusunan tim.
+Dialogue: 0,0:10:00.33,0:10:01.33,ss,,0,0,0,,Dengan seratus orang sebagai satu tim.
+Dialogue: 0,0:10:02.03,0:10:02.93,ss,,0,0,0,,Total dibagi sepuluh tim.
+Dialogue: 0,0:10:03.67,0:10:05.77,ss,,0,0,0,,Hanya dengan beberapa kata, bisa menyatukan hati orang.
+Dialogue: 0,0:10:06.17,0:10:08.30,ss,,0,0,0,,Kepemimpinan Raja Tianzhen benar-benar luar biasa.
+Dialogue: 0,0:10:08.30,0:10:23.30,ss,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh dongworld
+Dialogue: 0,0:10:31.87,0:10:33.73,ss,,0,0,0,,Penguncian ruang, penguncian ruang!
+Dialogue: 0,0:10:36.80,0:10:37.60,ss,,0,0,0,,Cepat, serbu.
+Dialogue: 0,0:10:41.80,0:10:42.60,ss,,0,0,0,,Ruang sudah dikunci.
+Dialogue: 0,0:10:42.93,0:10:43.60,ss,,0,0,0,,Teleportasi tidak berguna.
+Dialogue: 0,0:10:44.20,0:10:45.33,ss,,0,0,0,,Kita bersatu, cepat.
+Dialogue: 0,0:10:46.57,0:10:48.00,ss,,0,0,0,,Raja Panah Berat, hentikan teleportasi.
+Dialogue: 0,0:10:48.23,0:10:48.83,ss,,0,0,0,,Kita terbang ke sana!
+Dialogue: 0,0:10:48.83,0:10:50.83,ss,,0,0,0,,Baik, Tuan.
+Dialogue: 0,0:10:55.10,0:10:55.97,ss,,0,0,0,,Hati-hati, halangi!
+Dialogue: 0,0:10:57.70,0:10:59.40,ss,,0,0,0,,Serbu, serbu, rebut harta.
+Dialogue: 0,0:11:31.37,0:11:33.30,ss,,0,0,0,,Seperti ini, mana mungkin bisa ditaklukkan.
+Dialogue: 0,0:12:01.93,0:12:03.80,ss,,0,0,0,,Di bawah adalah wilayah berbahaya.
+Dialogue: 0,0:12:04.47,0:12:06.77,ss,,0,0,0,,Penuh dengan kekuatan penyegel kacau dari Menara Bintang itu sendiri.
+Dialogue: 0,0:12:07.23,0:12:10.13,ss,,0,0,0,,Begitu tersentuh, meski Undying King Ekstrem pun pasti mati.
+Dialogue: 0,0:12:10.80,0:12:11.97,ss,,0,0,0,,Harta, itu harta.
+Dialogue: 0,0:12:12.40,0:12:13.33,ss,,0,0,0,,Saatnya kita mencari keuntungan.
+Dialogue: 0,0:12:13.57,0:12:13.83,ss,,0,0,0,,Cepat.
+Dialogue: 0,0:12:18.73,0:12:20.77,ss,,0,0,0,,Milikku, semuanya milikku.
+Dialogue: 0,0:12:30.97,0:12:33.27,ss,,0,0,0,,Berbagai ras besar sudah datang.
+Dialogue: 0,0:12:33.93,0:12:34.80,ss,,0,0,0,,Menarik.
+Dialogue: 0,0:12:35.43,0:12:37.53,ss,,0,0,0,,Bahkan pintu keluar belum muncul.
+Dialogue: 0,0:12:38.10,0:12:40.20,ss,,0,0,0,,Meski sekarang berhasil merebut Bintang Penyegel,
+Dialogue: 0,0:12:41.07,0:12:43.07,ss,,0,0,0,,hanya akan menjadi sasaran empuk.
+Dialogue: 0,0:12:44.87,0:12:45.67,ss,,0,0,0,,Ribuan pintu keluar?
+Dialogue: 0,0:12:46.00,0:12:48.17,ss,,0,0,0,,Begitu Bintang Penyegel menyebabkan pembunuhan berlebihan.
+Dialogue: 0,0:12:48.57,0:12:50.03,ss,,0,0,0,,Akan muncul banyak pintu keluar.
+Dialogue: 0,0:12:50.47,0:12:51.93,ss,,0,0,0,,Membiarkan orang yang sudah ingin mundur,
+Dialogue: 0,0:12:52.13,0:12:53.93,ss,,0,0,0,,pergi ke ruang terlarang dengan aman.
+Dialogue: 0,0:12:54.30,0:12:55.57,ss,,0,0,0,,Raja Mingyun berbicara seakan mudah,
+Dialogue: 0,0:12:55.97,0:12:57.07,ss,,0,0,0,,orang lain tidak sekuat dia.
+Dialogue: 0,0:12:57.77,0:12:58.77,ss,,0,0,0,,Jika tidak mengambil tindakan sejak dini,
+Dialogue: 0,0:12:59.20,0:13:00.83,ss,,0,0,0,,semakin lama kesempatan semakin kecil.
+Dialogue: 0,0:13:01.37,0:13:01.87,ss,,0,0,0,,Pergi!
+Dialogue: 0,0:13:03.80,0:13:04.73,ss,,0,0,0,,Hanya dalam beberapa menit,
+Dialogue: 0,0:13:04.90,0:13:06.63,ss,,0,0,0,,aku sudah mendapat kekayaan lebih dari sepuluh miliar.
+Dialogue: 0,0:13:07.53,0:13:09.33,ss,,0,0,0,,Pantasan semua orang jadi gila.
+Dialogue: 0,0:13:19.27,0:13:21.37,ss,,0,0,0,,Merebut Bintang Penyegel hanya nomor dua.
+Dialogue: 0,0:13:21.83,0:13:24.10,ss,,0,0,0,,Target utama operasi kali ini adalah...
+Dialogue: 0,0:13:24.30,0:13:25.63,ss,,0,0,0,,Raja Tujuh Pedang.
+Dialogue: 0,0:13:28.50,0:13:29.80,ss,,0,0,0,,Rencana keenam.
+Dialogue: 0,0:13:43.73,0:13:44.40,ss,,0,0,0,,Menara Pengurai.
+Dialogue: 0,0:13:48.90,0:13:50.43,ss,,0,0,0,,Ras Robot benar-benar mengeluarkan modal besar,
+Dialogue: 0,0:13:51.13,0:13:52.47,ss,,0,0,0,,untuk membunuh Raja Tujuh Pedang.
+Dialogue: 0,0:13:53.30,0:13:56.97,ss,,0,0,0,,Raja Tujuh Pedang berada di peringkat ketiga daftar buruan Ras Robot.
+Dialogue: 0,0:13:57.93,0:14:00.33,ss,,0,0,0,,Ada hadiah besar untuk berhasil membunuh target.
+Dialogue: 0,0:14:00.53,0:14:03.43,ss,,0,0,0,,Sayangnya Luo Feng yang peringkat pertama tidak ada di sini.
+Dialogue: 0,0:14:04.47,0:14:06.27,ss,,0,0,0,,Raja Tujuh Pedang bukan lawan yang mudah,
+Dialogue: 0,0:14:06.60,0:14:08.93,ss,,0,0,0,,dia tidak hanya memiliki tujuh pedang dan Cengkraman Kekosongan sebagai harta berat,
+Dialogue: 0,0:14:09.20,0:14:11.03,ss,,0,0,0,,kabarnya juga mendapat warisan super,
+Dialogue: 0,0:14:11.03,0:14:12.70,ss,,0,0,0,,dari Sekte Dewa Leluhur.
+Dialogue: 0,0:14:16.13,0:14:17.47,ss,,0,0,0,,Bakar.
+Dialogue: 0,0:14:28.27,0:14:29.53,ss,,0,0,0,,Patung Binatang Dewa?
+Dialogue: 0,0:14:30.23,0:14:31.47,ss,,0,0,0,,Ternyata benar Sekte Dewa Leluhur.
+Dialogue: 0,0:14:32.17,0:14:34.13,ss,,0,0,0,,Ini pertama kalinya dia memamerkan Kolam Emas itu.
+Dialogue: 0,0:14:34.13,0:14:49.13,ss,,1,1,0,,Join channel Telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh dongworld
+Dialogue: 0,0:14:49.80,0:14:51.97,ss,,0,0,0,,Menara Pengurai sudah termasuk senjata tunggal terkuat Ras Robot.
+Dialogue: 0,0:14:52.43,0:14:53.97,ss,,0,0,0,,Pihak Raja Mingyun sudah merencanakannya.
+Dialogue: 0,0:14:54.50,0:14:56.03,ss,,0,0,0,,Sedangkan Raja Tujuh Pedang beraksi dalam situasi mendesak.
+Dialogue: 0,0:14:56.37,0:14:58.03,ss,,0,0,0,,Menyebarkan energi terbatas menjadi bidang.
+Dialogue: 0,0:14:58.40,0:15:00.60,ss,,0,0,0,,Masih bisa menahan serangan terkonsentrasi lawan.
+Dialogue: 0,0:15:02.57,0:15:03.47,ss,,0,0,0,,Bisa dilihat,
+Dialogue: 0,0:15:03.70,0:15:06.23,ss,,0,0,0,,kemampuan Kolam Emas jauh melampaui Menara Pengurai.
+Dialogue: 0,0:15:15.37,0:15:16.26,ss,,0,0,0,,Cepat mundur.

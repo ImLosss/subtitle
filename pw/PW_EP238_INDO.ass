@@ -1,0 +1,279 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 818
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.08,0:00:20.88,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:00:01.08,0:00:02.60,pw,,0,0,0,,Menipu langit dengan kematian.
+Dialogue: 0,0:00:02.76,0:00:05.04,pw,,0,0,0,,Hidup dari kematian.
+Dialogue: 0,0:00:05.96,0:00:06.80,pw,,0,0,0,,Hari ini,
+Dialogue: 0,0:00:06.92,0:00:08.56,pw,,0,0,0,,harus tercatat dalam sejarah.
+Dialogue: 0,0:00:09.08,0:00:10.72,pw,,0,0,0,,Selama dua setengah tahun kau latihan,
+Dialogue: 0,0:00:11.04,0:00:13.56,pw,,0,0,0,,banyak jenius muncul dari Akademi Immortal dan Akademi Suci.
+Dialogue: 0,0:00:14.36,0:00:15.72,pw,,0,0,0,,Siapa yang berkomplot diam-diam,
+Dialogue: 0,0:00:16.08,0:00:17.28,pw,,0,0,0,,ingin menguji kemampuanku?
+Dialogue: 0,0:00:18.16,0:00:19.68,pw,,0,0,0,,Keluarlah!
+Dialogue: 0,0:00:19.68,0:00:21.68,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:38.24,0:00:40.96,pw,,0,0,0,,Pelayanku memang nakal dan ceroboh,
+Dialogue: 0,0:00:41.32,0:00:43.28,pw,,0,0,0,,semua jangan tersinggung.
+Dialogue: 0,0:00:51.28,0:00:51.88,pw,,0,0,0,,Tuan,
+Dialogue: 0,0:00:52.16,0:00:53.08,pw,,0,0,0,,orang ini sangat tidak sopan.
+Dialogue: 0,0:00:53.44,0:00:54.24,pw,,0,0,0,,Mundur!
+Dialogue: 0,0:00:55.56,0:00:57.20,pw,,0,0,0,,Sudah lama mendengar nama besar Saudara Huang,
+Dialogue: 0,0:00:57.56,0:01:01.72,pw,,0,0,0,,Tadi kau dengan kultivasi Heavenly Deity berhasil mengalahkan Jinjiao Xi dan pelayanku,
+Dialogue: 0,0:01:01.96,0:01:03.64,pw,,0,0,0,,kemampuanmu benar-benar luar biasa.
+Dialogue: 0,0:01:05.52,0:01:06.60,pw,,0,0,0,,Kau mengirim orang untuk menguji,
+Dialogue: 0,0:01:07.20,0:01:08.44,pw,,0,0,0,,apakah ingin bertarung denganku?
+Dialogue: 0,0:01:09.04,0:01:11.16,pw,,0,0,0,,Si Ungu yang sok hebat,
+Dialogue: 0,0:01:11.64,0:01:12.71,pw,,0,0,0,,mengandalkan jumlah yang banyak,
+Dialogue: 0,0:01:12.80,0:01:13.76,pw,,0,0,0,,berani menantang Huang?
+Dialogue: 0,0:01:14.96,0:01:15.80,pw,,0,0,0,,Benar!
+Dialogue: 0,0:01:16.36,0:01:18.28,pw,,0,0,0,,Dulu saat dia menguasai dunia,
+Dialogue: 0,0:01:18.56,0:01:19.84,pw,,0,0,0,,kalian bahkan belum lahir.
+Dialogue: 0,0:01:21.20,0:01:21.64,pw,,0,0,0,,Omong kosong!
+Dialogue: 0,0:01:22.68,0:01:24.16,pw,,0,0,0,,Majikan memiliki aura energi ungu dari timur,
+Dialogue: 0,0:01:24.52,0:01:25.36,pw,,0,0,0,,setara dengan Raja Langit Muda.
+Dialogue: 0,0:01:27.64,0:01:29.28,pw,,0,0,0,,Kejayaan masa lalu, apa gunanya?
+Dialogue: 0,0:01:30.76,0:01:33.48,pw,,0,0,0,,Tidak pernah dengar dia menyatu dengan Benih Immortal sempurna mana pun,
+Dialogue: 0,0:01:34.40,0:01:36.16,pw,,0,0,0,,pasti pencapaiannya terbatas.
+Dialogue: 0,0:01:37.20,0:01:39.20,pw,,0,0,0,,Bagaimana kau tahu dia tidak menyatu?
+Dialogue: 0,0:01:39.60,0:01:40.36,pw,,0,0,0,,Benar, belum pernah.
+Dialogue: 0,0:01:41.40,0:01:42.56,pw,,0,0,0,,Meski tidak,
+Dialogue: 0,0:01:43.88,0:01:45.20,pw,,0,0,0,,hanya karena dia adalah Huang,
+Dialogue: 0,0:01:46.04,0:01:48.36,pw,,0,0,0,,bukankah dengan satu jari bisa membuatmu lumpuh?
+Dialogue: 0,0:01:57.20,0:01:58.12,pw,,0,0,0,,Sebenarnya,
+Dialogue: 0,0:01:58.56,0:02:01.08,pw,,0,0,0,,Aoyu adalah sahabat karibku,
+Dialogue: 0,0:02:01.68,0:02:04.48,pw,,0,0,0,,saat keluar dari latihan, kudengar Saudara Huang mengalahkannya,
+Dialogue: 0,0:02:04.84,0:02:06.68,pw,,0,0,0,,bahkan merebut zirah Raja Langit Muda.
+Dialogue: 0,0:02:07.32,0:02:09.16,pw,,0,0,0,,Memang pernah ingin bertarung denganmu,
+Dialogue: 0,0:02:09.72,0:02:10.52,pw,,0,0,0,,sayangnya,
+Dialogue: 0,0:02:12.60,0:02:14.28,pw,,0,0,0,,pilihanmu menggunakan tubuh sebagai benih,
+Dialogue: 0,0:02:14.64,0:02:16.92,pw,,0,0,0,,telah dibuktikan oleh pendahulu sebagai jalan buntu.
+Dialogue: 0,0:02:17.76,0:02:20.56,pw,,0,0,0,,Awalnya kukira akan ada pertarungan takdir,
+Dialogue: 0,0:02:21.60,0:02:22.96,pw,,0,0,0,,tapi sekarang tampaknya,
+Dialogue: 0,0:02:23.52,0:02:24.64,pw,,0,0,0,,tidak ada harapan lagi.
+Dialogue: 0,0:02:25.88,0:02:26.64,pw,,0,0,0,,Takdir?
+Dialogue: 0,0:02:28.08,0:02:29.08,pw,,0,0,0,,Baiklah,
+Dialogue: 0,0:02:29.64,0:02:31.60,pw,,0,0,0,,kau pernah menjadi nomor satu di Ranah Heavenly Deity.
+Dialogue: 0,0:02:32.24,0:02:33.68,pw,,0,0,0,,Aku akan mengikat tangan dan kakiku sendiri,
+Dialogue: 0,0:02:33.96,0:02:36.24,pw,,0,0,0,,menekan tingkat kultivasiku untuk bertarung setara denganmu.
+Dialogue: 0,0:02:37.20,0:02:38.84,pw,,0,0,0,,Dengan begitu bisa menghilangkan satu keinginan,
+Dialogue: 0,0:02:39.12,0:02:43.75,pw,,0,0,0,,juga membuatmu mengerti bagaimana wujud sesungguhnya dari Great Dao yang sebenarnya.
+Dialogue: 0,0:02:45.00,0:02:45.48,pw,,0,0,0,,Boleh juga.
+Dialogue: 0,0:02:49.36,0:02:50.08,pw,,0,0,0,,Dia kembali.
+Dialogue: 0,0:02:55.36,0:02:56.16,pw,,0,0,0,,Tianjun pasti menang!
+Dialogue: 0,0:02:56.24,0:02:57.32,pw,,0,0,0,,Tak terkalahkan!
+Dialogue: 0,0:02:58.20,0:03:00.48,pw,,0,0,0,,Andai bisa menjadi pasangan Dao dengannya.
+Dialogue: 0,0:03:02.04,0:03:03.68,pw,,0,0,0,,Memang punya modal untuk bersikap angkuh di dunia ini.
+Dialogue: 0,0:03:04.36,0:03:05.84,pw,,0,0,0,,Pantas saja Peri sekte kami tergila-gila padanya.
+Dialogue: 0,0:03:06.00,0:03:06.56,pw,,0,0,0,,Wu Tai,
+Dialogue: 0,0:03:06.80,0:03:08.28,pw,,0,0,0,,inikah Huang yang mengalahkanmu sebelumnya?
+Dialogue: 0,0:03:08.52,0:03:09.32,pw,,0,0,0,,Huang.
+Dialogue: 0,0:03:10.68,0:03:11.64,pw,,0,0,0,,Dangkal.
+Dialogue: 0,0:03:12.60,0:03:13.60,pw,,0,0,0,,Mengidolakan orang lain,
+Dialogue: 0,0:03:14.20,0:03:15.72,pw,,0,0,0,,bukankah lebih baik berdiri di puncak dengan kekuatan sendiri?
+Dialogue: 0,0:03:16.80,0:03:17.40,pw,,0,0,0,,Hah.
+Dialogue: 0,0:03:18.88,0:03:20.60,pw,,0,0,0,,Dulu pernah menjadi Supreme Muda generasinya,
+Dialogue: 0,0:03:21.52,0:03:23.68,pw,,0,0,0,,sekarang demi menjaga muka harus bertarung mati-matian.
+Dialogue: 0,0:03:24.52,0:03:25.80,pw,,0,0,0,,Sungguh menyedihkan.
+Dialogue: 0,0:03:27.16,0:03:28.72,pw,,0,0,0,,Dulu saat Huang bertarung sendirian melawan Dunia Asing,
+Dialogue: 0,0:03:28.84,0:03:30.48,pw,,0,0,0,,kenapa tidak terlihat hantu dan setan ini?
+Dialogue: 0,0:03:30.96,0:03:33.24,pw,,0,0,0,,Sekarang satu per satu mengaku diri Supreme.
+Dialogue: 0,0:03:33.56,0:03:34.24,pw,,0,0,0,,Aduh,
+Dialogue: 0,0:03:34.48,0:03:35.32,pw,,0,0,0,,tidak tahu malu.
+Dialogue: 0,0:03:36.52,0:03:37.72,pw,,0,0,0,,Setelah Benih Immortal menyatu dengan Dao,
+Dialogue: 0,0:03:38.08,0:03:39.36,pw,,0,0,0,,kekuatan akan berevolusi secara menyeluruh.
+Dialogue: 0,0:03:40.40,0:03:41.32,pw,,0,0,0,,Saudara Shi, pikirkan baik-baik.
+Dialogue: 0,0:04:01.36,0:04:01.96,pw,,0,0,0,,Bubar!
+Dialogue: 0,0:04:15.04,0:04:17.72,pw,,0,0,0,,Menggunakan Pehaman Sejati Primordial untuk memecah semua Dao.
+Dialogue: 0,0:04:18.08,0:04:20.24,pw,,0,0,0,,Sangat misterius.
+Dialogue: 0,0:04:20.88,0:04:21.68,pw,,0,0,0,,Bagus!
+Dialogue: 0,0:04:22.08,0:04:22.60,pw,,0,0,0,,Huang,
+Dialogue: 0,0:04:23.40,0:04:25.84,pw,,0,0,0,,aku selalu ingin melihatmu di masa kejayaanmu.
+Dialogue: 0,0:04:26.40,0:04:28.12,pw,,0,0,0,,Jangan sampai mengecewakanku.
+Dialogue: 0,0:04:40.40,0:04:41.84,pw,,0,0,0,,Menyatukan Benih Immortal sempurna,
+Dialogue: 0,0:04:41.92,0:04:44.48,pw,,0,0,0,,dengan gerakan sederhana bisa menggerakkan Great Dao langit dan bumi.
+Dialogue: 0,0:04:45.00,0:04:47.16,pw,,0,0,0,,Bahkan kami yang memasuki Dao dengan Metode Masa Kini,
+Dialogue: 0,0:04:47.48,0:04:48.64,pw,,0,0,0,,juga merasa ingin.
+Dialogue: 0,0:04:48.84,0:04:49.64,pw,,0,0,0,,Huang,
+Dialogue: 0,0:04:50.20,0:04:51.48,pw,,0,0,0,,sudah tamat.
+Dialogue: 0,0:04:51.84,0:04:52.92,pw,,0,0,0,,Haha,
+Dialogue: 0,0:04:53.44,0:04:55.04,pw,,0,0,0,,dia pasti akan ditaklukkan oleh tuanku.
+Dialogue: 0,0:04:59.24,0:04:59.60,pw,,0,0,0,,Kau...
+Dialogue: 0,0:05:04.80,0:05:05.20,pw,,0,0,0,,Huang,
+Dialogue: 0,0:05:05.60,0:05:06.40,pw,,0,0,0,,kau pasti mati!
+Dialogue: 0,0:05:31.20,0:05:32.28,pw,,0,0,0,,Orang dari Akademi Immortal,
+Dialogue: 0,0:05:32.96,0:05:34.28,pw,,0,0,0,,masih saja tidak pandai bicara.
+Dialogue: 0,0:05:43.20,0:05:44.76,pw,,0,0,0,,Aku meremehkannya.
+Dialogue: 0,0:05:46.12,0:05:47.76,pw,,0,0,0,,Sudah sepakat bertarung di tingkat Heavenly Deity,
+Dialogue: 0,0:05:48.04,0:05:50.12,pw,,0,0,0,,aku tidak akan mengaktifkan kekuatan Benih Immortal.
+Dialogue: 0,0:05:50.72,0:05:52.88,pw,,0,0,0,,Tapi penguatannya untukku menyeluruh.
+Dialogue: 0,0:05:53.52,0:05:54.76,pw,,0,0,0,,Biar kau paham,
+Dialogue: 0,0:05:55.48,0:05:57.00,pw,,0,0,0,,tanpa Benih Immortal luar biasa,
+Dialogue: 0,0:05:57.52,0:06:00.68,pw,,0,0,0,,perbedaannya bagai langit dan bumi.
+Dialogue: 0,0:06:01.68,0:06:16.68,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:06:26.16,0:06:27.52,pw,,0,0,0,,Dengan dukungan Benih Immortal,
+Dialogue: 0,0:06:27.92,0:06:30.64,pw,,0,0,0,,Teknik Phoenix juga memperoleh karakteristik energi ungu berwujud.
+Dialogue: 0,0:06:31.08,0:06:34.40,pw,,0,0,0,,yang bisa membakar semua teknik dengan api Phoenix di dalam tubuh.
+Dialogue: 0,0:06:38.44,0:06:39.91,pw,,0,0,0,,Tapi, aku dan Dao-ku,
+Dialogue: 0,0:06:41.12,0:06:42.36,pw,,0,0,0,,bisa memecahkan semua teknik.
+Dialogue: 0,0:06:56.24,0:06:56.72,pw,,0,0,0,,Tuan!
+Dialogue: 0,0:06:57.72,0:07:12.72,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:07:22.64,0:07:23.36,pw,,0,0,0,,Cepat sekali!
+Dialogue: 0,0:07:23.68,0:07:24.88,pw,,0,0,0,,Dia pakai cara apa?
+Dialogue: 0,0:07:28.68,0:07:29.40,pw,,0,0,0,,Menang!
+Dialogue: 0,0:07:30.32,0:07:31.92,pw,,0,0,0,,Hahaha!
+Dialogue: 0,0:07:32.28,0:07:33.52,pw,,0,0,0,,Tianjun apaan sih!
+Dialogue: 0,0:07:33.68,0:07:34.84,pw,,0,0,0,,Tetap kalah dari Huang.
+Dialogue: 0,0:07:34.84,0:07:35.64,pw,,0,0,0,,Kita menang!
+Dialogue: 0,0:07:35.96,0:07:38.20,pw,,0,0,0,,Tianjun Ziri kalah dari Huang dari Akademi Tianshen kami.
+Dialogue: 0,0:07:39.52,0:07:40.36,pw,,0,0,0,,Tuan Huang,
+Dialogue: 0,0:07:40.36,0:07:41.60,pw,,0,0,0,,izinkan kami mengikutimu.
+Dialogue: 0,0:07:41.84,0:07:42.68,pw,,0,0,0,,Tuan Huang!
+Dialogue: 0,0:08:01.08,0:08:02.00,pw,,0,0,0,,Lihat!
+Dialogue: 0,0:08:02.20,0:08:04.36,pw,,0,0,0,,Pintu istana immortal terbuka oleh Huang.
+Dialogue: 0,0:08:05.92,0:08:06.64,pw,,0,0,0,,Karena aku menang,
+Dialogue: 0,0:08:07.56,0:08:09.20,pw,,0,0,0,,kalian yang pertama turun mencari peluang.
+Dialogue: 0,0:08:10.64,0:08:11.96,pw,,0,0,0,,Jangan sampai peluang terlewat.
+Dialogue: 0,0:08:20.68,0:08:22.76,pw,,0,0,0,,Pertarungan ini aku kalah.
+Dialogue: 0,0:08:23.12,0:08:24.08,pw,,0,0,0,,Kau cukup paham.
+Dialogue: 0,0:08:25.04,0:08:25.68,pw,,0,0,0,,Masih tidak mau mundur?
+Dialogue: 0,0:08:33.80,0:08:34.32,pw,,0,0,0,,Kenapa?
+Dialogue: 0,0:08:35.12,0:08:36.04,pw,,0,0,0,,Mau berbuat curang?
+Dialogue: 0,0:08:38.48,0:08:39.76,pw,,0,0,0,,Ziri memang kalah,
+Dialogue: 0,0:08:40.52,0:08:43.48,pw,,0,0,0,,tapi istana immortal ini terbuka karena pertarungan terhebat kalian,
+Dialogue: 0,0:08:44.16,0:08:46.08,pw,,0,0,0,,membuktikan hanya mengakui kekuatan teratas.
+Dialogue: 0,0:08:47.24,0:08:48.92,pw,,0,0,0,,Biarkan murid biasa ini masuk,
+Dialogue: 0,0:08:49.28,0:08:50.48,pw,,0,0,0,,hanya membuang peluang.
+Dialogue: 0,0:08:51.28,0:08:54.36,pw,,0,0,0,,Seharusnya dijelajahi bersama oleh kami, pewaris terkuat tiga akademi.
+Dialogue: 0,0:08:55.84,0:08:57.24,pw,,0,0,0,,Perang dengan Dunia Asing akan segera dimulai,
+Dialogue: 0,0:08:58.12,0:09:00.08,pw,,0,0,0,,meningkatkan kekuatan yang terkuat lebih penting.
+Dialogue: 0,0:09:00.44,0:09:02.40,pw,,0,0,0,,Kami berempat sudah memasuki Ranah Void Dao,
+Dialogue: 0,0:09:02.88,0:09:04.40,pw,,0,0,0,,diberkati Great Dao langit dan bumi,
+Dialogue: 0,0:09:04.92,0:09:07.00,pw,,0,0,0,,kekuatan sudah berubah drastis.
+Dialogue: 0,0:09:07.48,0:09:08.09,pw,,0,0,0,,Huang,
+Dialogue: 0,0:09:08.72,0:09:09.92,pw,,0,0,0,,Kau tidak bisa menghentikan kami.
+Dialogue: 0,0:09:11.44,0:09:12.92,pw,,0,0,0,,Kalau ini berhasil,
+Dialogue: 0,0:09:13.24,0:09:14.72,pw,,0,0,0,,saat kau keluar dari tapa,
+Dialogue: 0,0:09:15.08,0:09:16.72,pw,,0,0,0,,tidak perlu menutupi kehebatanmu,
+Dialogue: 0,0:09:17.20,0:09:18.60,pw,,0,0,0,,bisa mengeluarkan kekuatan penuh.
+Dialogue: 0,0:09:18.92,0:09:20.20,pw,,0,0,0,,Menekan delapan penjuru.
+Dialogue: 0,0:09:22.68,0:09:23.16,pw,,0,0,0,,Aku paham,
+Dialogue: 0,0:09:23.96,0:09:24.96,pw,,0,0,0,,melepaskan diri dari belenggu dua akademi,
+Dialogue: 0,0:09:25.80,0:09:26.92,pw,,0,0,0,,membanggakan akademi.
+Dialogue: 0,0:09:29.20,0:09:32.00,pw,,0,0,0,,Persaingan tiga akademi hanyalah hal kecil,
+Dialogue: 0,0:09:32.48,0:09:34.08,pw,,0,0,0,,takutnya di Gerbang Kaisar,
+Dialogue: 0,0:09:34.32,0:09:37.24,pw,,0,0,0,,ada yang tidak menerima identitas Darah Berdosa Klan Shi-nya.
+Dialogue: 0,0:09:38.16,0:09:40.44,pw,,0,0,0,,Jika tidak ingin terkubur di Kota Kaisar,
+Dialogue: 0,0:09:40.68,0:09:44.04,pw,,0,0,0,,setelah kembali kali ini harus mengejutkan dunia.
+Dialogue: 0,0:09:44.60,0:09:47.68,pw,,0,0,0,,Tidak bisa lagi mengabaikan sinarmu.
+Dialogue: 0,0:09:49.16,0:09:49.84,pw,,0,0,0,,Oh,
+Dialogue: 0,0:09:50.76,0:09:51.96,pw,,0,0,0,,Ranah Void Dao, ya.
+Dialogue: 0,0:09:52.96,0:09:54.44,pw,,0,0,0,,Siapa yang tidak?
+Dialogue: 0,0:10:05.92,0:10:07.56,pw,,0,0,0,,Ternyata menyembunyikan kekuatan.
+Dialogue: 0,0:10:07.92,0:10:08.80,pw,,0,0,0,,Bagus sekali,
+Dialogue: 0,0:10:09.48,0:10:12.36,pw,,0,0,0,,dengan begitu aku bisa bertarung bebas denganmu.
+Dialogue: 0,0:10:14.04,0:10:14.72,pw,,0,0,0,,Huang,
+Dialogue: 0,0:10:15.08,0:10:16.28,pw,,0,0,0,,karena kau tidak tahu diri,
+Dialogue: 0,0:10:16.56,0:10:18.24,pw,,0,0,0,,aku tidak perlu lagi berbelas kasihan.
+Dialogue: 0,0:10:18.76,0:10:20.60,pw,,0,0,0,,Energi ungu mengental menjadi benih,
+Dialogue: 0,0:10:21.04,0:10:22.80,pw,,0,0,0,,menampakkan wujud sejati.
+Dialogue: 0,0:10:25.96,0:10:27.44,pw,,0,0,0,,Primordial Chaos menekan dunia,
+Dialogue: 0,0:10:29.72,0:10:31.52,pw,,0,0,0,,semua langit mendengarkan.
+Dialogue: 0,0:10:33.96,0:10:35.96,pw,,0,0,0,,Itukah wujud asli Benih Energi Ungu Primordial?
+Dialogue: 0,0:10:36.20,0:10:38.76,pw,,0,0,0,,Aku telah menyatukan benih tak terkalahkan itu,
+Dialogue: 0,0:10:40.04,0:10:41.36,pw,,0,0,0,,tidak mungkin kalah.
+Dialogue: 0,0:10:44.08,0:10:45.08,pw,,0,0,0,,Bunuh!
+Dialogue: 0,0:10:48.88,0:10:50.92,pw,,0,0,0,,Tapi tubuhku ini sendiri adalah benih tak terkalahkan,
+Dialogue: 0,0:10:51.80,0:10:53.80,pw,,0,0,0,,tidak perlu lagi meminjam benda luar.
+Dialogue: 0,0:11:05.52,0:11:06.00,pw,,0,0,0,,Apa?
+Dialogue: 0,0:11:06.16,0:11:06.76,pw,,0,0,0,,Aku,
+Dialogue: 0,0:11:06.84,0:11:08.00,pw,,0,0,0,,aku agak pusing,
+Dialogue: 0,0:11:08.56,0:11:11.28,pw,,0,0,0,,kok sepertinya melihat alam semesta.
+Dialogue: 0,0:11:11.80,0:11:12.68,pw,,0,0,0,,Tidak terbayangkan,
+Dialogue: 0,0:11:13.08,0:11:14.32,pw,,0,0,0,,Saudara Shi tidak punya Benih Immortal,
+Dialogue: 0,0:11:14.60,0:11:16.16,pw,,0,0,0,,tapi kuat sampai seperti ini.
+Dialogue: 0,0:11:17.08,0:11:19.08,pw,,0,0,0,,Dia selalu mengubah yang tidak mungkin menjadi mungkin.
+Dialogue: 0,0:11:24.28,0:11:25.96,pw,,0,0,0,,Raja Langit Muda adalah yang teratas di Akademi Immortal,
+Dialogue: 0,0:11:26.60,0:11:27.72,pw,,0,0,0,,tidak tahu siapa yang bisa menandinginya.
+Dialogue: 0,0:11:28.92,0:11:31.92,pw,,0,0,0,,Tentu saja aku.
+Dialogue: 0,0:11:44.52,0:11:45.20,pw,,0,0,0,,Cepat hentikan!
+Dialogue: 0,0:11:59.92,0:12:00.64,pw,,0,0,0,,Kau kalah.
+Dialogue: 0,0:12:01.00,0:12:01.32,pw,,0,0,0,,Hah,
+Dialogue: 0,0:12:01.56,0:12:02.08,pw,,0,0,0,,lihat tidak,
+Dialogue: 0,0:12:02.48,0:12:03.80,pw,,0,0,0,,apa itu Supreme dua akademi,
+Dialogue: 0,0:12:04.20,0:12:06.12,pw,,0,0,0,,di depan saudaraku bukan apa-apa.
+Dialogue: 0,0:12:09.48,0:12:10.24,pw,,0,0,0,,Tuan,
+Dialogue: 0,0:12:10.44,0:12:11.40,pw,,0,0,0,,kau tidak apa-apa, Tuan?
+Dialogue: 0,0:12:12.16,0:12:13.36,pw,,0,0,0,,Aku kalah,
+Dialogue: 0,0:12:13.56,0:12:15.16,pw,,0,0,0,,bagaimana mungkin aku kalah?
+Dialogue: 0,0:12:16.32,0:12:16.88,pw,,0,0,0,,Tuan.
+Dialogue: 0,0:12:17.44,0:12:18.36,pw,,0,0,0,,Great Dao berlangsung ribuan tahun,
+Dialogue: 0,0:12:18.80,0:12:20.08,pw,,0,0,0,,mana mungkin memperebutkan kalah menang sesaat.
+Dialogue: 0,0:12:21.24,0:12:22.88,pw,,0,0,0,,Lain hari bisa balas dendam.
+Dialogue: 0,0:12:23.56,0:12:25.52,pw,,0,0,0,,Untungnya aku kebetulan lewat,
+Dialogue: 0,0:12:26.00,0:12:28.92,pw,,0,0,0,,kalau tidak, paling sedikit beberapa bulan, paling lama beberapa tahun,
+Dialogue: 0,0:12:29.16,0:12:31.08,pw,,0,0,0,,kau harus istirahat di tempat tidur.
+Dialogue: 0,0:12:32.00,0:12:32.76,pw,,0,0,0,,Tetua klan.
+Dialogue: 0,0:12:33.36,0:12:35.24,pw,,0,0,0,,Aku pikir dengan berusaha keras,
+Dialogue: 0,0:12:35.56,0:12:37.00,pw,,0,0,0,,bisa menjadi yang teratas di dunia,
+Dialogue: 0,0:12:37.24,0:12:37.88,pw,,0,0,0,,kenapa...
+Dialogue: 0,0:12:38.04,0:12:39.68,pw,,0,0,0,,Tidak bisakah kau lihat,
+Dialogue: 0,0:12:40.08,0:12:43.00,pw,,0,0,0,,Huang telah berhasil menempuh jalan melawan langit yang belum pernah ada sebelumnya.
+Dialogue: 0,0:12:43.56,0:12:44.36,pw,,0,0,0,,Kalah darinya,
+Dialogue: 0,0:12:44.96,0:12:46.44,pw,,0,0,0,,bukan salahmu.
+Dialogue: 0,0:12:49.92,0:12:50.60,pw,,0,0,0,,Tuan.
+Dialogue: 0,0:12:53.08,0:12:53.88,pw,,0,0,0,,Aku tidak percaya,
+Dialogue: 0,0:12:54.52,0:12:58.04,pw,,0,0,0,,mana mungkin ada orang yang berhasil menggunakan tubuh sebagai benih.
+Dialogue: 0,0:13:10.12,0:13:10.80,pw,,0,0,0,,Tuan Huang,
+Dialogue: 0,0:13:11.20,0:13:12.48,pw,,0,0,0,,kulitku tebal dan dagingku kasar, tidak enak dimakan,
+Dialogue: 0,0:13:12.88,0:13:13.72,pw,,0,0,0,,tolong maafkan nyawaku,
+Dialogue: 0,0:13:14.08,0:13:15.00,pw,,0,0,0,,tidak berani lagi.
+Dialogue: 0,0:13:15.40,0:13:16.68,pw,,0,0,0,,Baru tadi berharap aku mati,
+Dialogue: 0,0:13:17.60,0:13:18.72,pw,,0,0,0,,sekarang malah minta ampun,
+Dialogue: 0,0:13:19.96,0:13:21.04,pw,,0,0,0,,cepat sekali berganti wajah.
+Dialogue: 0,0:13:22.60,0:13:24.12,pw,,0,0,0,,Menggunakan tubuh sebagai benih,
+Dialogue: 0,0:13:24.84,0:13:26.64,pw,,0,0,0,,memang terlihat lebih perkasa,
+Dialogue: 0,0:13:27.84,0:13:29.80,pw,,0,0,0,,sungguh membuat iri.
+Dialogue: 0,0:13:44.32,0:13:45.88,pw,,0,0,0,,Ini adalah peluang Akademi Tianshen,
+Dialogue: 0,0:13:46.92,0:13:47.44,pw,,0,0,0,,ikut aku.
+Dialogue: 0,0:13:52.04,0:13:52.84,pw,,0,0,0,,Si botak,
+Dialogue: 0,0:13:53.04,0:13:54.08,pw,,0,0,0,,masih tidur apa,
+Dialogue: 0,0:13:54.80,0:13:56.28,pw,,0,0,0,,tunggu sampai peluangnya habis,
+Dialogue: 0,0:13:56.68,0:13:58.60,pw,,0,0,0,,baru kau mau bergerak?
+Dialogue: 0,0:14:01.76,0:14:03.00,pw,,0,0,0,,Hidup susah memang.
+Dialogue: 0,0:14:05.08,0:14:06.04,pw,,0,0,0,,Aku akan mengantarmu.
+Dialogue: 0,0:14:10.24,0:14:10.80,pw,,0,0,0,,Tidak usah,
+Dialogue: 0,0:14:11.04,0:14:12.08,pw,,0,0,0,,aku punya cara sendiri.
+Dialogue: 0,0:14:36.04,0:14:36.92,pw,,0,0,0,,Kalian duluan,
+Dialogue: 0,0:14:37.48,0:14:38.24,pw,,0,0,0,,aku menyusul.
+Dialogue: 0,0:14:42.72,0:14:44.24,pw,,0,0,0,,Hahaha,
+Dialogue: 0,0:14:46.12,0:14:49.92,pw,,0,0,0,,hanya dengan kekuatan sendiri ingin melindungi orang lain,
+Dialogue: 0,0:14:50.56,0:14:52.72,pw,,0,0,0,,tidak tahu batas kekuatan sendiri.
+Dialogue: 0,0:15:03.08,0:15:04.00,pw,,0,0,0,,Istana immortal sudah terbuka,
+Dialogue: 0,0:15:04.44,0:15:05.52,pw,,0,0,0,,Anda mengalahkan semua pahlawan,
+Dialogue: 0,0:15:05.88,0:15:07.40,pw,,0,0,0,,zaman untuk terkenal dan menekan dunia telah tiba.
