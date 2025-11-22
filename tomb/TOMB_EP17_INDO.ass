@@ -1,0 +1,224 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:07:23.88,0:07:28.32,komen,,0,0,0,,{\pos(1687,550)\fad(500,250)}[Pak Tua Li\NTingkat Enam]
+Dialogue: 0,0:07:42.89,0:07:47.33,komen,,0,0,0,,{\pos(434,522)\fad(500,250)}[Pak Tua Zhou\NTingkat Enam]
+Dialogue: 0,0:13:17.53,0:13:21.97,komen,,0,0,0,,{\pos(1705,439)\fad(500,250)}[Duanmu\NWujud Roh]
+Dialogue: 0,0:00:03.96,0:00:05.52,tomb,,0,0,0,,Raja Iblis Jalan Kekacauan.
+Dialogue: 0,0:00:06.00,0:00:07.12,tomb,,0,0,0,,Dua puluh tahun yang lalu,
+Dialogue: 0,0:00:07.40,0:00:09.00,tomb,,0,0,0,,kau bersumpah padaku,
+Dialogue: 0,0:00:09.36,0:00:11.40,tomb,,0,0,0,,untuk tidak muncul dalam tiga puluh tahun.
+Dialogue: 0,0:00:11.80,0:00:13.40,tomb,,0,0,0,,Malam ini kau berani—
+Dialogue: 0,0:00:15.08,0:00:15.92,tomb,,0,0,0,,Botak tua!
+Dialogue: 0,0:00:16.20,0:00:17.04,tomb,,0,0,0,,Jangan banyak bicara!
+Dialogue: 0,0:00:17.52,0:00:19.28,tomb,,0,0,0,,Di dunia saat ini, aku bisa pergi ke mana saja,
+Dialogue: 0,0:00:19.60,0:00:20.56,tomb,,0,0,0,,siapa yang berani menghalangiku?
+Dialogue: 0,0:00:21.32,0:00:22.80,tomb,,0,0,0,,Ternyata Raja Iblis Jalan Kekacauan,
+Dialogue: 0,0:00:22.80,0:00:24.60,tomb,,0,0,0,,selama ini ditekan di Kuil Xiaolin.
+Dialogue: 0,0:00:25.32,0:00:27.36,tomb,,0,0,0,,Biksu senior Kuil Xiaolin juga datang.
+Dialogue: 0,0:00:30.40,0:00:32.56,tomb,,0,0,0,,Baru saja merebut tombak Fangtian dari murid,
+Dialogue: 0,0:00:33.00,0:00:33.88,tomb,,0,0,0,,gurunya langsung datang.
+Dialogue: 0,0:00:35.36,0:00:37.04,tomb,,0,0,0,,Jika diketahui raja iblis besar ini,
+Dialogue: 0,0:00:37.28,0:00:38.20,tomb,,0,0,0,,pasti takkan memaafkanku.
+Dialogue: 0,0:00:40.20,0:00:41.64,tomb,,0,0,0,,Janji pada pak tua itu,
+Dialogue: 0,0:00:41.84,0:00:43.12,tomb,,0,0,0,,tak boleh tidak ditepati.
+Dialogue: 0,0:00:53.52,0:00:54.36,tomb,,0,0,0,,Harta langka adalah milikku!
+Dialogue: 0,0:00:55.00,0:00:55.88,tomb,,0,0,0,,Khawatir kau tak punya nyawa untuk mengambilnya.
+Dialogue: 0,0:00:57.72,0:00:58.52,tomb,,0,0,0,,Milikku!
+Dialogue: 0,0:00:59.00,0:01:00.32,tomb,,0,0,0,,Milikku!
+Dialogue: 0,0:01:01.12,0:01:01.64,tomb,,0,0,0,,Minggir!
+Dialogue: 0,0:01:02.12,0:01:02.68,tomb,,0,0,0,,Enyahlah!
+Dialogue: 0,0:01:03.12,0:01:03.88,tomb,,0,0,0,,Wah,
+Dialogue: 0,0:01:04.76,0:01:05.48,tomb,,0,0,0,,banyak sekali orang.
+Dialogue: 0,0:01:23.84,0:01:25.04,tomb,,0,0,0,,Malam ini,
+Dialogue: 0,0:01:25.32,0:01:28.56,tomb,,0,0,0,,siapa pun yang ingin mendekati perpustakaan untuk memperebutkan harta langka,
+Dialogue: 0,0:01:28.80,0:01:31.68,tomb,,0,0,0,,harus melewati pertahanan tembok istana dulu.
+Dialogue: 0,0:01:40.08,0:01:41.52,tomb,,0,0,0,,Pak tua, minggir!
+Dialogue: 0,0:01:42.64,0:01:44.56,tomb,,0,0,0,,Kalian orang-orang rendahan,
+Dialogue: 0,0:01:44.76,0:01:47.24,tomb,,0,0,0,,tidak pantas berdiri di hadapanku.
+Dialogue: 0,0:02:06.88,0:02:09.40,tomb,,0,0,0,,Kalian pergi dukung garis depan.
+Dialogue: 0,0:02:09.84,0:02:11.40,tomb,,0,0,0,,Orang yang sampai ke tembok dalam,
+Dialogue: 0,0:02:11.52,0:02:13.44,tomb,,0,0,0,,bukan level yang bisa kalian hadapi.
+Dialogue: 0,0:02:14.36,0:02:14.80,tomb,,0,0,0,,Ya.
+Dialogue: 0,0:02:35.76,0:02:36.20,tomb,,0,0,0,,Bersiap!
+Dialogue: 0,0:02:43.16,0:02:43.44,tomb,,0,0,0,,Tembak!
+Dialogue: 0,0:03:21.72,0:03:22.08,tomb,,0,0,0,,Jangan kejar!
+Dialogue: 0,0:03:22.60,0:03:24.04,tomb,,0,0,0,,Orang-orang itu sudah masuk jajaran ahli,
+Dialogue: 0,0:03:24.44,0:03:25.44,tomb,,0,0,0,,layak menghadapi tahap kedua.
+Dialogue: 0,0:03:30.76,0:03:31.44,tomb,,0,0,0,,Panah sihir!
+Dialogue: 0,0:03:58.08,0:04:00.04,tomb,,0,0,0,,Dengan aku dan Xiaoyu berjaga di sini,
+Dialogue: 0,0:04:00.48,0:04:01.88,tomb,,0,0,0,,kalian yang belum mencapai tingkat 4,
+Dialogue: 0,0:04:02.12,0:04:03.28,tomb,,0,0,0,,jangan harap bisa masuk istana.
+Dialogue: 0,0:04:04.60,0:04:05.80,tomb,,0,0,0,,Leluhur Xuan memerintahkan,
+Dialogue: 0,0:04:06.12,0:04:07.48,tomb,,0,0,0,,siapa pun yang memaksa masuk istana,
+Dialogue: 0,0:04:07.92,0:04:08.76,tomb,,0,0,0,,akan dibunuh tanpa ampun.
+Dialogue: 0,0:04:09.40,0:04:10.64,tomb,,0,0,0,,Jika berani membantai prajurit,
+Dialogue: 0,0:04:11.00,0:04:12.68,tomb,,0,0,0,,setelahnya pasti akan kami kunjungi balik.
+Dialogue: 0,0:04:15.20,0:04:15.84,tomb,,0,0,0,,Benarkah?
+Dialogue: 0,0:04:16.40,0:04:17.68,tomb,,0,0,0,,Bicaramu besar sekali.
+Dialogue: 0,0:04:27.20,0:04:29.04,tomb,,0,0,0,,Hanya semut duniawi,
+Dialogue: 0,0:04:29.44,0:04:31.36,tomb,,0,0,0,,pantas mengincar benda suci?
+Dialogue: 0,0:04:44.36,0:04:45.56,tomb,,0,0,0,,Itu ahli dari Barat.
+Dialogue: 0,0:04:46.04,0:04:46.56,tomb,,0,0,0,,Sialan!
+Dialogue: 0,0:04:47.16,0:04:49.00,tomb,,0,0,0,,Kenapa ada ahli dari Barat datang?
+Dialogue: 0,0:04:52.20,0:04:54.24,tomb,,0,0,0,,Itu tiga orang Barat yang kujumpai sebelumnya.
+Dialogue: 0,0:04:56.28,0:04:59.00,tomb,,0,0,0,,Tampaknya dunia kultivasi Timur memang sudah merosot.
+Dialogue: 0,0:04:59.40,0:05:01.12,tomb,,0,0,0,,Sekelompok orang tak berguna,
+Dialogue: 0,0:05:01.48,0:05:03.32,tomb,,0,0,0,,berani merebut benda suci?
+Dialogue: 0,0:05:04.28,0:05:05.52,tomb,,0,0,0,,Bersihkan saja.
+Dialogue: 0,0:05:05.76,0:05:06.88,tomb,,0,0,0,,Benda suci muncul,
+Dialogue: 0,0:05:08.00,0:05:09.04,tomb,,0,0,0,,orang-orang biasa ini,
+Dialogue: 0,0:05:09.36,0:05:10.88,tomb,,0,0,0,,tak pantas menjadi penonton.
+Dialogue: 0,0:05:21.56,0:05:22.52,tomb,,0,0,0,,Wah,
+Dialogue: 0,0:05:23.00,0:05:24.96,tomb,,0,0,0,,kekuatan ketiganya di atas tingkat 5.
+Dialogue: 0,0:05:25.64,0:05:26.92,tomb,,0,0,0,,Malam ini,
+Dialogue: 0,0:05:27.28,0:05:28.76,tomb,,0,0,0,,mungkin masih ada yang lebih kuat.
+Dialogue: 0,0:05:29.32,0:05:29.80,tomb,,0,0,0,,Berhenti!
+Dialogue: 0,0:05:30.44,0:05:31.00,tomb,,0,0,0,,Hari ini,
+Dialogue: 0,0:05:31.36,0:05:33.64,tomb,,0,0,0,,kalian berbuat semena-mena di Negara Dongchu dengan kemampuan kalian.
+Dialogue: 0,0:05:34.24,0:05:34.76,tomb,,0,0,0,,Suatu hari,
+Dialogue: 0,0:05:35.12,0:05:36.16,tomb,,0,0,0,,para ahli kuat Timur,
+Dialogue: 0,0:05:36.28,0:05:37.72,tomb,,0,0,0,,juga bisa pergi ke negeri kalian,
+Dialogue: 0,0:05:37.96,0:05:39.08,tomb,,0,0,0,,dan memutus warisan kalian.
+Dialogue: 0,0:05:40.84,0:05:41.44,tomb,,0,0,0,,Oh,
+Dialogue: 0,0:05:41.84,0:05:42.68,tomb,,0,0,0,,kau?
+Dialogue: 0,0:05:43.12,0:05:45.00,tomb,,0,0,0,,Tak disangka masih keluarga kerajaan.
+Dialogue: 0,0:05:45.76,0:05:46.56,tomb,,0,0,0,,Berani sekali.
+Dialogue: 0,0:06:04.36,0:06:05.28,tomb,,0,0,0,,Tangan Penangkap Naga!
+Dialogue: 0,0:06:14.84,0:06:15.64,tomb,,0,0,0,,Chen Nan.
+Dialogue: 0,0:06:21.36,0:06:22.64,tomb,,0,0,0,,Ketiganya bukan orang baik.
+Dialogue: 0,0:06:23.00,0:06:24.64,tomb,,0,0,0,,Mereka hampir menangkap Chen Xi.
+Dialogue: 0,0:06:30.52,0:06:31.84,tomb,,0,0,0,,Senjata suci Timur,
+Dialogue: 0,0:06:32.36,0:06:34.84,tomb,,0,0,0,,ternyata di tangan pemuda tingkat 4.
+Dialogue: 0,0:06:37.20,0:06:37.88,tomb,,0,0,0,,Leluhur,
+Dialogue: 0,0:06:38.12,0:06:39.64,tomb,,0,0,0,,ketiga orang ini mengejekmu botak.
+Dialogue: 0,0:06:39.84,0:06:40.92,tomb,,0,0,0,,Cepat hajar mereka!
+Dialogue: 0,0:06:42.72,0:06:45.32,tomb,,0,0,0,,Tiga orang mengganggu seorang junior,
+Dialogue: 0,0:06:45.80,0:06:49.20,tomb,,0,0,0,,sungguh membanggakan Kota Baidan.
+Dialogue: 0,0:06:53.72,0:06:55.16,tomb,,0,0,0,,Pertarungan sekelompok ahli tingkat 6,
+Dialogue: 0,0:06:55.60,0:06:56.40,tomb,,0,0,0,,kita menjauh sedikit.
+Dialogue: 0,0:07:10.68,0:07:12.56,tomb,,0,0,0,,Seorang tingkat 6 yang sisa umurnya tak banyak,
+Dialogue: 0,0:07:12.88,0:07:14.16,tomb,,0,0,0,,Dongchu seperti ini,
+Dialogue: 0,0:07:14.44,0:07:15.76,tomb,,0,0,0,,tak bisa menjaga senjata suci!
+Dialogue: 0,0:07:21.12,0:07:22.28,tomb,,0,0,0,,Tak disangka,
+Dialogue: 0,0:07:22.28,0:07:24.16,tomb,,0,0,0,,baru datang langsung melihat keramaian.
+Dialogue: 0,0:07:25.84,0:07:26.56,tomb,,0,0,0,,Pak Tua Chu,
+Dialogue: 0,0:07:27.04,0:07:28.28,tomb,,0,0,0,,kau belum mati juga?
+Dialogue: 0,0:07:29.28,0:07:30.60,tomb,,0,0,0,,Pak Tua Li,
+Dialogue: 0,0:07:30.96,0:07:32.44,tomb,,0,0,0,,kau saja masih hidup,
+Dialogue: 0,0:07:32.52,0:07:34.68,tomb,,0,0,0,,mana mungkin aku mati duluan darimu.
+Dialogue: 0,0:07:38.48,0:07:40.28,tomb,,0,0,0,,Kalian berdua ini,
+Dialogue: 0,0:07:40.52,0:07:42.24,tomb,,0,0,0,,sungguh masih besar amarahnya.
+Dialogue: 0,0:07:42.88,0:07:44.48,tomb,,0,0,0,,Masalah kecil dulu,
+Dialogue: 0,0:07:44.84,0:07:47.12,tomb,,0,0,0,,tak perlu dipermasalahkan puluhan tahun.
+Dialogue: 0,0:07:52.92,0:07:54.04,tomb,,0,0,0,,Semuanya tingkat 6.
+Dialogue: 0,0:07:57.28,0:07:59.44,tomb,,0,0,0,,Kalau sekarang bertengkar,
+Dialogue: 0,0:07:59.84,0:08:02.72,tomb,,0,0,0,,bukankah malah menguntungkan tiga orang Barat itu?
+Dialogue: 0,0:08:02.88,0:08:03.64,tomb,,0,0,0,,Benar.
+Dialogue: 0,0:08:04.04,0:08:06.64,tomb,,0,0,0,,Jika harta langka ini direbut orang Barat,
+Dialogue: 0,0:08:07.12,0:08:09.56,tomb,,0,0,0,,akan jadi bahan tertawaan dunia.
+Dialogue: 0,0:08:23.48,0:08:25.04,tomb,,0,0,0,,Kasih karunia dewa,
+Dialogue: 0,0:08:25.40,0:08:26.52,tomb,,0,0,0,,di bawah penghakiman,
+Dialogue: 0,0:08:27.04,0:08:28.16,tomb,,0,0,0,,bersujudlah.
+Dialogue: 0,0:08:33.96,0:08:34.76,tomb,,0,0,0,,Tubuh manusia biasa,
+Dialogue: 0,0:08:35.24,0:08:36.92,tomb,,0,0,0,,berani mengukur kekuatan dewa?
+Dialogue: 0,0:08:37.72,0:08:38.64,tomb,,0,0,0,,Teknik barbar,
+Dialogue: 0,0:08:38.96,0:08:40.04,tomb,,0,0,0,,hanya tampak luarnya,
+Dialogue: 0,0:08:40.60,0:08:42.16,tomb,,0,0,0,,tak paham makna langit dan bumi,
+Dialogue: 0,0:08:42.60,0:08:44.20,tomb,,0,0,0,,berani pamer di wilayah Timur kami.
+Dialogue: 0,0:09:18.32,0:09:20.52,tomb,,0,0,0,,Berani tidak menganggapku!
+Dialogue: 0,0:09:20.92,0:09:22.52,tomb,,0,0,0,,Sungguh tak tahu tata krama,
+Dialogue: 0,0:09:22.96,0:09:26.48,tomb,,0,0,0,,akan kuajarkan padamu tatakrama.
+Dialogue: 0,0:09:30.20,0:09:31.60,tomb,,0,0,0,,Tubuh yang busuk,
+Dialogue: 0,0:09:32.08,0:09:33.48,tomb,,0,0,0,,seharusnya tidur selamanya.
+Dialogue: 0,0:09:56.32,0:09:57.04,tomb,,0,0,0,,Apa?
+Dialogue: 0,0:10:06.88,0:10:10.16,tomb,,0,0,0,,Jika Timur hanya punya tiga penjaga tua,
+Dialogue: 0,0:10:10.96,0:10:13.04,tomb,,0,0,0,,tak bisa menghalangi firman Dewa Perang.
+Dialogue: 0,0:10:22.60,0:10:23.04,tomb,,0,0,0,,Tebas!
+Dialogue: 0,0:10:23.92,0:10:25.40,tomb,,0,0,0,,Setengah badan sudah masuk tanah,
+Dialogue: 0,0:10:25.44,0:10:27.00,tomb,,0,0,0,,karena itu lebih tahu,
+Dialogue: 0,0:10:27.00,0:10:28.72,tomb,,0,0,0,,cara mengubur orang.
+Dialogue: 0,0:10:29.72,0:10:44.72,tomb,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:10:58.04,0:10:58.68,tomb,,0,0,0,,Akan muncul.
+Dialogue: 0,0:11:15.88,0:11:16.92,tomb,,0,0,0,,Benda suci.
+Dialogue: 0,0:11:17.60,0:11:18.64,tomb,,0,0,0,,Sudah muncul.
+Dialogue: 0,0:11:19.64,0:11:34.64,tomb,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:51.64,0:11:53.80,tomb,,0,0,0,,Datang awal tak semujur datang tepat waktu.
+Dialogue: 0,0:11:57.80,0:11:58.64,tomb,,0,0,0,,Seharusnya di sana.
+Dialogue: 0,0:11:59.48,0:11:59.76,tomb,,0,0,0,,Ayo.
+Dialogue: 0,0:12:04.11,0:12:04.62,tomb,,0,0,0,,Ayo.
+Dialogue: 0,0:12:06.72,0:12:07.88,tomb,,0,0,0,,Jebak mereka dulu.
+Dialogue: 0,0:12:08.16,0:12:09.88,tomb,,0,0,0,,Kelompok tingkat 5 itu tak perlu dikhawatirkan.
+Dialogue: 0,0:12:10.88,0:12:25.88,tomb,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:37.16,0:12:38.64,tomb,,0,0,0,,Ketiga ahli Timur ini,
+Dialogue: 0,0:12:39.12,0:12:40.56,tomb,,0,0,0,,kekuatannya begitu mendalam.
+Dialogue: 0,0:12:41.52,0:12:43.68,tomb,,0,0,0,,Ketiganya akhirnya tak bisa menembus hambatan.
+Dialogue: 0,0:12:44.08,0:12:45.00,tomb,,0,0,0,,Tidak sulit dihadapi.
+Dialogue: 0,0:12:45.20,0:12:46.64,tomb,,0,0,0,,Jangan remehkan Timur.
+Dialogue: 0,0:12:46.68,0:12:48.64,tomb,,0,0,0,,Pertempuran lintas dunia ribuan tahun lalu,
+Dialogue: 0,0:12:49.28,0:12:51.40,tomb,,0,0,0,,para praktisi Timur di zaman itu,
+Dialogue: 0,0:12:51.96,0:12:54.48,tomb,,0,0,0,,pernah membuat para ahli dunia dewa abadi takut.
+Dialogue: 0,0:12:55.00,0:12:56.24,tomb,,0,0,0,,Ada aura aneh,
+Dialogue: 0,0:12:56.52,0:12:58.68,tomb,,0,0,0,,jangan-jangan tubuhnya direbut?
+Dialogue: 0,0:13:04.44,0:13:05.76,tomb,,0,0,0,,Klan Siluman Kunlun?
+Dialogue: 0,0:13:07.52,0:13:09.16,tomb,,0,0,0,,Kalian disegel di Kunlun,
+Dialogue: 0,0:13:09.36,0:13:11.52,tomb,,0,0,0,,tak boleh masuk ke dunia manusia sembarangan.
+Dialogue: 0,0:13:12.12,0:13:14.00,tomb,,0,0,0,,Apakah lupa sumpah dulu?
+Dialogue: 0,0:13:14.96,0:13:17.20,tomb,,0,0,0,,Tak boleh sembarangan bukan berarti tidak bisa.
+Dialogue: 0,0:13:17.80,0:13:20.28,tomb,,0,0,0,,Identitas kalian bertiga lebih tidak pantas diketahui.
+Dialogue: 0,0:13:21.12,0:13:22.92,tomb,,0,0,0,,Mau kuungkap di depan umum?
+Dialogue: 0,0:13:23.88,0:13:25.24,tomb,,0,0,0,,Sekarang pergi,
+Dialogue: 0,0:13:25.72,0:13:27.52,tomb,,0,0,0,,aku anggap kalian tidak pernah datang.
+Dialogue: 0,0:13:29.08,0:13:30.28,tomb,,0,0,0,,Lagi-lagi orang kuat.
+Dialogue: 0,0:13:31.12,0:13:32.68,tomb,,0,0,0,,Ini siluman legendaris?
+Dialogue: 0,0:13:33.60,0:13:35.32,tomb,,0,0,0,,Pertarungan macam apa malam ini?
+Dialogue: 0,0:13:45.60,0:13:46.52,tomb,,0,0,0,,Tak bisa ditunda lagi.
+Dialogue: 0,0:13:55.84,0:13:56.44,tomb,,0,0,0,,Chen Nan,
+Dialogue: 0,0:13:56.80,0:13:57.72,tomb,,0,0,0,,ikut aku turun.
+Dialogue: 0,0:14:03.36,0:14:04.56,tomb,,0,0,0,,Saya pamit dulu.
+Dialogue: 0,0:14:08.80,0:14:10.04,tomb,,0,0,0,,Aku beri energiku padamu,
+Dialogue: 0,0:14:10.60,0:14:12.08,tomb,,0,0,0,,akan menjagamu satu jam,
+Dialogue: 0,0:14:12.16,0:14:13.92,tomb,,0,0,0,,dalam tingkat 4 sempurna.
+Dialogue: 0,0:14:23.72,0:14:26.64,tomb,,0,0,0,,Gua kuno sering punya banyak larangan,
+Dialogue: 0,0:14:27.24,0:14:29.44,tomb,,0,0,0,,perlu senjata suci untuk memecahkannya.
+Dialogue: 0,0:14:34.16,0:14:36.56,tomb,,0,0,0,,Hanya kau yang bisa menarik Busur Houyi,
+Dialogue: 0,0:14:37.04,0:14:38.64,tomb,,0,0,0,,orang lain tak bisa menggantikan.
+Dialogue: 0,0:14:51.20,0:14:52.36,tomb,,0,0,0,,Turunlah.
+Dialogue: 0,0:14:54.80,0:14:55.88,tomb,,0,0,0,,Harus turun juga.
+Dialogue: 0,0:15:07.24,0:15:09.92,tomb,,0,0,0,,Jika harta langka Timur ini direbut Barat,
+Dialogue: 0,0:15:10.08,0:15:12.16,tomb,,0,0,0,,dunia kultivasi akan menertawakan kami.
+Dialogue: 0,0:15:13.24,0:15:14.48,tomb,,0,0,0,,Buka Busur Houyi,
+Dialogue: 0,0:15:16.04,0:15:18.32,tomb,,0,0,0,,serang!
+Dialogue: 0,0:15:19.44,0:15:21.40,tomb,,0,0,0,,Apa ini?
+Dialogue: 0,0:15:22.64,0:15:24.48,tomb,,0,0,0,,Mereka mau merebut harta itu?
+Dialogue: 0,0:15:24.64,0:15:25.84,tomb,,0,0,0,,Jangan harap!
+Dialogue: 0,0:15:28.44,0:15:28.92,tomb,,0,0,0,,Orang Timur,
+Dialogue: 0,0:15:29.44,0:15:31.44,tomb,,0,0,0,,harus mati di sini?
+Dialogue: 0,0:15:34.32,0:15:34.84,tomb,,0,0,0,,Buruk,
+Dialogue: 0,0:15:35.36,0:15:37.72,tomb,,0,0,0,,kekuatan pak tua di tubuhku hampir habis.

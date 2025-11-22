@@ -39,42 +39,42 @@ async function cutFast(inputFile, outputFile) {
 
 async function cut(inputFile, outputFile) {
   return new Promise((resolve, reject) => {
-    // const ffmpegArgs = [
-    //   '-y', 
-    //   '-i', inputFile, 
-    //   // '-ss', '00:02:17', 
-    //   '-to', '00:20:08',
-    //   '-vf', 'scale=1920:-2', 
-    //   // '-pix_fmt', 'yuv420p',
-    //   // '-r', '25', 
-    //   '-c:v', 'h264_amf', 
-    //   '-cq:v', '18', 
-    //   '-rc', 'cbr', 
-    //   '-b:v', '6M',
-    //   '-maxrate', '6M',
-    //   '-bufsize', '12M',
-    //   '-quality', 'quality',
-    //   '-preset', 'quality', 
-    //   '-c:a', 'aac',
-    //   outputFile
-    // ];
-
     const ffmpegArgs = [
-      '-y', // Overwrite file output jika ada
-      '-i', inputFile, // File input
-      // '-ss', '00:02:45', 
-      '-to', '00:18:43',
-      '-vf', "scale=1920:-1",
+      '-y', 
+      '-i', inputFile, 
+      // '-ss', '00:02:25', 
+      '-to', '00:21:26',
+      '-vf', 'scale=1920:-2', 
       // '-pix_fmt', 'yuv420p',
-      '-c:v', 'libx264',
-      '-crf', '20',
-      // '-b:v', '2M', // Bitrate target rata-rata
-      '-maxrate', '7M', // Batasi bitrate maksimum hingga 5 Mbps
-      '-bufsize', '14M', // Buffer size dua kali maksimum bitrate
-      '-preset', 'fast',
-      '-c:a', 'copy', 
-      outputFile // File output
+      // '-r', '25', 
+      '-c:v', 'h264_amf', 
+      '-cq:v', '18', 
+      '-rc', 'cbr', 
+      '-b:v', '6M',
+      '-maxrate', '6M',
+      '-bufsize', '12M',
+      '-quality', 'quality',
+      '-preset', 'quality', 
+      '-c:a', 'aac',
+      outputFile
     ];
+
+    // const ffmpegArgs = [
+    //   '-y', // Overwrite file output jika ada
+    //   '-i', inputFile, // File input
+    //   // '-ss', '00:02:17', 
+    //   '-to', '00:20:01',
+    //   '-vf', "scale=1920:-1",
+    //   // '-pix_fmt', 'yuv420p',
+    //   '-c:v', 'libx264',
+    //   '-crf', '20',
+    //   // '-b:v', '2M', // Bitrate target rata-rata
+    //   '-maxrate', '7M', // Batasi bitrate maksimum hingga 5 Mbps
+    //   '-bufsize', '14M', // Buffer size dua kali maksimum bitrate
+    //   '-preset', 'fast',
+    //   '-c:a', 'copy', 
+    //   outputFile // File output
+    // ];
   
     // Jalankan ffmpeg dengan argumen yang telah ditentukan
     const ffmpegProcess = spawn('ffmpeg', ffmpegArgs);
@@ -139,5 +139,5 @@ async function extractSubtitle(inputFile, subtitleStreamIndex, outputFile, force
 //       outputFile
 //     ];
 
-cut('113.mp4', 'output.mp4');
+cut('174_4K.mp4', 'BTTH_EP174.mp4');
 // extractSubtitle('06V2_4K.mp4', 0, 'TOMB_EP6_INDO.srt', true);

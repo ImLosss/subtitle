@@ -1,0 +1,283 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:34.97,0:02:38.13,btth,,0,0,0,,Xiao Yan menghadapi Leluhur Huoyun yang memiliki penyakit lama.
+Dialogue: 0,0:02:38.18,0:02:40.62,btth,,0,0,0,,Dia berjanji bahwa terlepas dari aliansi atau tidak,
+Dialogue: 0,0:02:40.62,0:02:42.45,btth,,0,0,0,,akan memberikan bantuan.
+Dialogue: 0,0:02:42.90,0:02:45.90,btth,,0,0,0,,Tindakan mulianya membuat Leluhur Huoyun tersentuh.
+Dialogue: 0,0:02:45.90,0:02:47.30,btth,,0,0,0,,Dia setuju untuk beraliansi.
+Dialogue: 0,0:02:47.55,0:02:51.38,btth,,0,0,0,,Sementara itu, Peri Qing dari Sekte Bunga karena urusan lama dengan Yao Lao,
+Dialogue: 0,0:02:51.38,0:02:52.82,btth,,0,0,0,,menyimpan prasangka.
+Dialogue: 0,0:02:52.82,0:02:55.33,btth,,0,0,0,,Menyebabkan apakah Sekte Bunga akan bergabung dengan aliansi,
+Dialogue: 0,0:02:55.33,0:02:56.50,btth,,0,0,0,,masih belum diketahui.
+Dialogue: 0,0:02:57.02,0:02:59.98,btth,,0,0,0,,Karena itu, menarik Pagoda Pil untuk beraliansi
+Dialogue: 0,0:02:59.98,0:03:01.13,btth,,0,0,0,,sangatlah penting.
+Dialogue: 0,0:03:01.42,0:03:03.90,btth,,0,0,0,,Tetapi sebagian besar tetua Pagoda Pil.
+Dialogue: 0,0:03:03.93,0:03:08.10,btth,,0,0,0,,Xiao Yan harus mengalahkan alkemis Pak Tua Hou dalam pemilihan tetua,
+Dialogue: 0,0:03:08.13,0:03:10.28,btth,,0,0,0,,baru bisa mendapatkan suara
+Dialogue: 0,0:03:10.38,0:03:12.85,btth,,0,0,0,,untuk meyakinkan Pagoda Pil beraliansi.
+Dialogue: 0,0:03:34.05,0:03:35.98,btth,,0,0,0,,Dia benar-benar berani bersaing dengan Pak Tua Hou.
+Dialogue: 0,0:03:36.13,0:03:38.17,btth,,0,0,0,,Xiao Yan adalah murid Yao Chen,
+Dialogue: 0,0:03:38.42,0:03:39.95,btth,,0,0,0,,juara Konferensi Pil kali ini.
+Dialogue: 0,0:03:40.13,0:03:42.33,btth,,0,0,0,,Sepertinya dia punya kemampuan.
+Dialogue: 0,0:03:45.15,0:03:46.60,btth,,0,0,0,,Di usia muda seperti itu,
+Dialogue: 0,0:03:46.65,0:03:48.45,btth,,0,0,0,,meskipun juara Konferensi Pil,
+Dialogue: 0,0:03:48.45,0:03:50.58,btth,,0,0,0,,belum tentu bisa mengalahkan Pak Tua Hou.
+Dialogue: 0,0:03:52.52,0:03:53.30,btth,,0,0,0,,Yao Chen,
+Dialogue: 0,0:03:53.80,0:03:56.42,btth,,0,0,0,,hari ini aku akan mengincar murid baikmu,
+Dialogue: 0,0:03:56.42,0:03:57.53,btth,,0,0,0,,perhatikan baik-baik.
+Dialogue: 0,0:03:58.10,0:04:02.32,btth,,0,0,0,,Meracik pil tidak membutuhkan jalan pintas curangmu.
+Dialogue: 0,0:04:03.05,0:04:04.73,btth,,0,0,0,,Posisi tetua Pagoda Pil Kecil,
+Dialogue: 0,0:04:04.90,0:04:06.82,btth,,0,0,0,,sangat penting untuk aliansi.
+Dialogue: 0,0:04:07.33,0:04:08.13,btth,,0,0,0,,Xiao Yan,
+Dialogue: 0,0:04:08.33,0:04:09.53,btth,,0,0,0,,kau harus menang.
+Dialogue: 0,0:04:14.58,0:04:16.13,btth,,0,0,0,,Aturan pertandingan,
+Dialogue: 0,0:04:16.13,0:04:17.53,btth,,0,0,0,,tidak akan kujelaskan lagi.
+Dialogue: 0,0:04:17.85,0:04:20.02,btth,,0,0,0,,Bahan obat di seluruh gunung Pagoda Pil Kecil ini,
+Dialogue: 0,0:04:20.02,0:04:22.13,btth,,0,0,0,,bisa kalian ambil sendiri.
+Dialogue: 0,0:05:06.13,0:05:08.02,btth,,0,0,0,,Dengan simpanan bahan obat sebanyak ini,
+Dialogue: 0,0:05:08.62,0:05:10.77,btth,,0,0,0,,Pagoda Pil Kecil seperti Dunia Pil lainnya.
+Dialogue: 0,0:05:12.82,0:05:14.93,btth,,0,0,0,,Anak muda yang tidak berpengalaman.
+Dialogue: 0,0:05:21.05,0:05:22.57,btth,,0,0,0,,Apakah kalian berdua sudah siap?
+Dialogue: 0,0:05:22.73,0:05:23.93,btth,,0,0,0,,Kalau begitu, mari mulai.
+Dialogue: 0,0:05:37.37,0:05:41.47,btth,,0,0,0,,Sudah bertahun-tahun, masih kaulah yang paling bisa kuandalkan.
+Dialogue: 0,0:05:55.13,0:05:56.18,btth,,0,0,0,,Nyalakan api!
+Dialogue: 0,0:05:59.90,0:06:00.73,btth,,0,0,0,,Anak muda,
+Dialogue: 0,0:06:00.98,0:06:02.33,btth,,0,0,0,,pelajarilah dengan baik.
+Dialogue: 0,0:06:10.10,0:06:10.90,btth,,0,0,0,,Ini...
+Dialogue: 0,0:06:11.13,0:06:12.68,btth,,0,0,0,,Bahkan ada empat Api Surgawi?
+Dialogue: 0,0:06:19.73,0:06:21.42,btth,,0,0,0,,Bahkan bisa menyatu?
+Dialogue: 0,0:06:31.22,0:06:33.82,btth,,0,0,0,,Hal seperti ini hanya indah tapi tidak berguna.
+Dialogue: 0,0:06:40.37,0:06:41.53,btth,,0,0,0,,Api Surgawi menjadi kuali?
+Dialogue: 0,0:06:41.65,0:06:43.58,btth,,0,0,0,,Xiao Yan memiliki kontrol api yang sangat kuat.
+Dialogue: 0,0:06:48.77,0:06:52.22,btth,,0,0,0,,Hanya belajar hal-hal tidak berguna dari Yao Chen.
+Dialogue: 0,0:06:52.22,0:06:53.50,btth,,0,0,0,,Tidak mengikuti aturan,
+Dialogue: 0,0:06:53.70,0:06:55.25,btth,,0,0,0,,tunggulah kau terbakar oleh apimu sendiri.
+Dialogue: 0,0:06:56.22,0:06:59.07,btth,,0,0,0,,Sudah hampir dua puluh tahun tidak melihat Pak Tua Hou beraksi sepenuhnya.
+Dialogue: 0,0:06:59.62,0:07:02.62,btth,,0,0,0,,Masih ingat dulu dia berhasil memanggil Petir Pil Delapan Warna.
+Dialogue: 0,0:07:03.25,0:07:06.17,btth,,0,0,0,,Pastinya sekarang bisa memanggil Petir Pil Sembilan Warna.
+Dialogue: 0,0:07:06.45,0:07:07.93,btth,,0,0,0,,Petir Pil Sembilan Warna?
+Dialogue: 0,0:07:08.70,0:07:10.17,btth,,0,0,0,,Dalam pertandingan level seperti ini,
+Dialogue: 0,0:07:10.33,0:07:11.87,btth,,0,0,0,,resep sangatlah penting.
+Dialogue: 0,0:07:12.37,0:07:16.62,btth,,0,0,0,,Pak Tua Hou bahkan mengumpulkan beberapa gulungan resep Kelas 9 yang langka.
+Dialogue: 0,0:07:19.18,0:07:20.93,btth,,0,0,0,,Bahkan ada begitu banyak resep Kelas 9?
+Dialogue: 0,0:07:21.47,0:07:23.50,btth,,0,0,0,,Dulu aku tidak bisa meracik pil Kelas 9,
+Dialogue: 0,0:07:23.97,0:07:26.77,btth,,0,0,0,,jadi hanya meninggalkan dua gulungan resep Kelas 9 untuk Xiao Yan.
+Dialogue: 0,0:07:27.25,0:07:29.33,btth,,0,0,0,,Itu pun pil Kelas 9 tingkat terendah.
+Dialogue: 0,0:07:30.22,0:07:32.13,btth,,0,0,0,,Takutnya tidak akan berguna.
+Dialogue: 0,0:07:33.93,0:07:35.22,btth,,0,0,0,,Waktunya sudah tepat.
+Dialogue: 0,0:08:02.53,0:08:03.42,btth,,0,0,0,,Biji Bodhi?
+Dialogue: 0,0:08:03.82,0:08:05.90,btth,,0,0,0,,Xiao Yan berencana meracik Pil Bodhi.
+Dialogue: 0,0:08:06.58,0:08:08.73,btth,,0,0,0,,Bahkan jika meracik Pil Bodhi ke tingkat tertinggi,
+Dialogue: 0,0:08:08.93,0:08:10.13,btth,,0,0,0,,akan sulit menang.
+Dialogue: 0,0:08:10.70,0:08:11.87,btth,,0,0,0,,Xiao Yan ini...
+Dialogue: 0,0:08:19.73,0:08:20.82,btth,,0,0,0,,Bahan obat sebanyak ini?
+Dialogue: 0,0:08:20.85,0:08:21.73,btth,,0,0,0,,Ada apa ini?
+Dialogue: 0,0:08:22.28,0:08:23.82,btth,,0,0,0,,Kualitas bahan obat ini,
+Dialogue: 0,0:08:23.90,0:08:25.62,btth,,0,0,0,,tidak kalah dengan milik Pagoda Pil Kecil.
+Dialogue: 0,0:08:44.45,0:08:47.53,btth,,0,0,0,,Bahan obat ini sudah melebihi jumlah untuk meracik Pil Bodhi.
+Dialogue: 0,0:08:48.18,0:08:49.90,btth,,0,0,0,,Mungkinkah dia tidak berencana meracik Pil Bodhi?
+Dialogue: 0,0:08:50.33,0:08:52.13,btth,,0,0,0,,Tapi sebagian besar bahan obat ini,
+Dialogue: 0,0:08:52.13,0:08:54.82,btth,,0,0,0,,efeknya mirip dengan yang digunakan untuk Pil Bodhi.
+Dialogue: 0,0:08:56.05,0:08:57.57,btth,,0,0,0,,Dia pasti punya pemikirannya sendiri.
+Dialogue: 0,0:08:58.58,0:09:02.62,btth,,0,0,0,,Bahan obat yang diracik Xiao Yan bukan salah satu dari dua resepku.
+Dialogue: 0,0:09:03.82,0:09:06.45,btth,,0,0,0,,Semoga dia menemukan resep lain.
+Dialogue: 0,0:09:06.82,0:09:08.02,btth,,0,0,0,,Mungkin dia asal-asalan saja?
+Dialogue: 0,0:09:19.18,0:09:20.33,btth,,0,0,0,,Selama puluhan tahun,
+Dialogue: 0,0:09:20.67,0:09:22.53,btth,,0,0,0,,aku selalu berada di Pagoda Pil Kecil ini,
+Dialogue: 0,0:09:22.53,0:09:23.77,btth,,0,0,0,,tidak pernah pergi selangkah pun.
+Dialogue: 0,0:09:23.85,0:09:25.63,btth,,0,0,0,,Siang malam bersama resep,
+Dialogue: 0,0:09:26.05,0:09:28.45,btth,,0,0,0,,hatiku hanya punya satu pikiran.
+Dialogue: 0,0:09:29.25,0:09:30.05,btth,,0,0,0,,Yao Chen,
+Dialogue: 0,0:09:30.57,0:09:32.38,btth,,0,0,0,,syukurlah kau masih hidup,
+Dialogue: 0,0:09:32.55,0:09:34.62,btth,,0,0,0,,memberiku kesempatan untuk mengalahkanmu.
+Dialogue: 0,0:09:35.33,0:09:36.33,btth,,0,0,0,,Yao Chen,
+Dialogue: 0,0:09:36.50,0:09:39.38,btth,,0,0,0,,Hari ini aku pasti akan mengalahkan murid baikmu ini,
+Dialogue: 0,0:09:39.57,0:09:42.28,btth,,0,0,0,,dan menunjukkan padamu jalan sejati seni meracik pil.
+Dialogue: 0,0:09:48.10,0:09:51.22,btth,,0,0,0,,Detail adalah kunci penentu keberhasilan meracik pil.
+Dialogue: 0,0:10:21.65,0:10:23.33,btth,,0,0,0,,Api Surgawi menjadi kuali,
+Dialogue: 0,0:10:23.33,0:10:24.57,btth,,0,0,0,,hanya tampilan luar.
+Dialogue: 0,0:10:25.65,0:10:27.23,btth,,0,0,0,,Bahan obat dua kali lipat,
+Dialogue: 0,0:10:27.30,0:10:28.73,btth,,0,0,0,,terlalu serakah.
+Dialogue: 0,0:10:30.50,0:10:32.05,btth,,0,0,0,,Tidak seimbang, seperti mau jatuh.
+Dialogue: 0,0:10:32.35,0:10:34.33,btth,,0,0,0,,benar-benar gagal total.
+Dialogue: 0,0:10:35.33,0:10:50.33,btth,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:03.73,0:11:06.70,btth,,0,0,0,,Pak Tua Hou seharusnya bisa berhasil memadatkan pil dalam tiga hari.
+Dialogue: 0,0:11:07.30,0:11:08.30,btth,,0,0,0,,Kalau aku tidak salah lihat,
+Dialogue: 0,0:11:08.73,0:11:11.25,btth,,0,0,0,,dia sedang meracik Pil Pemurni Iblis Api.
+Dialogue: 0,0:11:12.23,0:11:13.53,btth,,0,0,0,,Begitu berhasil diracik,
+Dialogue: 0,0:11:13.70,0:11:15.42,btth,,0,0,0,,pasti akan memanggil Petir Pil Sembilan Warna.
+Dialogue: 0,0:11:16.28,0:11:17.93,btth,,0,0,0,,Keterampilan meracik pilnya selama ini,
+Dialogue: 0,0:11:18.05,0:11:19.22,btth,,0,0,0,,meningkat cukup banyak.
+Dialogue: 0,0:11:21.42,0:11:23.28,btth,,0,0,0,,Xiao Yan malah tenang dan santai.
+Dialogue: 0,0:11:24.62,0:11:26.77,btth,,0,0,0,,Meracik pil dengan bahan obat dua kali lipat,
+Dialogue: 0,0:11:26.93,0:11:28.22,btth,,0,0,0,,bukanlah hal mudah.
+Dialogue: 0,0:11:29.02,0:11:30.48,btth,,0,0,0,,Beberapa hari ini beberapa kali gagal,
+Dialogue: 0,0:11:30.78,0:11:34.38,btth,,0,0,0,,sepertinya baru mulai menguasai cara menyeimbangkan kekuatan obat.
+Dialogue: 0,0:11:35.57,0:11:37.58,btth,,0,0,0,,Tapi meski bahan obat yang dimasukkan lebih banyak,
+Dialogue: 0,0:11:37.90,0:11:40.25,btth,,0,0,0,,Pil Bodhi tidak bisa menerobos ke Kelas 9.
+Dialogue: 0,0:11:40.45,0:11:41.25,btth,,0,0,0,,Dia ini...
+Dialogue: 0,0:11:42.13,0:11:44.17,btth,,0,0,0,,Apa yang sebenarnya dilakukan Xiao Yan?
+Dialogue: 0,0:11:44.30,0:11:46.38,btth,,0,0,0,,Kenapa tidak terasa sedikit pun getaran pil?
+Dialogue: 0,0:11:47.33,0:11:49.22,btth,,0,0,0,,Anak muda hanya membual saja.
+Dialogue: 0,0:11:49.47,0:11:51.50,btth,,0,0,0,,Mungkin tidak ingin kalah terlalu memalukan.
+Dialogue: 0,0:11:53.17,0:11:56.20,btth,,0,0,0,,Sepertinya kali ini peluang Hou Qing menang cukup besar.
+Dialogue: 0,0:11:59.87,0:12:01.08,btth,,0,0,0,,Selama bertahun-tahun ini,
+Dialogue: 0,0:12:01.30,0:12:04.33,btth,,0,0,0,,hanya sedikit orang yang tidak bisa kupahami.
+Dialogue: 0,0:12:04.82,0:12:06.73,btth,,0,0,0,,Xiao Yan ini ternyata...
+Dialogue: 0,0:12:19.30,0:12:20.50,btth,,0,0,0,,Sekaranglah waktunya!
+Dialogue: 0,0:12:24.85,0:12:27.02,btth,,0,0,0,,Resep yang sulit dipahami,
+Dialogue: 0,0:12:27.05,0:12:28.62,btth,,0,0,0,,kekuatan jiwa yang tidak cukup,
+Dialogue: 0,0:12:28.67,0:12:30.17,btth,,0,0,0,,semuanya hanyalah alasan.
+Dialogue: 0,0:12:30.50,0:12:31.93,btth,,0,0,0,,Selama aku yang beraksi,
+Dialogue: 0,0:12:31.98,0:12:33.58,btth,,0,0,0,,tidak ada pil yang tidak bisa diracik.
+Dialogue: 0,0:12:34.10,0:12:35.07,btth,,0,0,0,,Dulu,
+Dialogue: 0,0:12:35.18,0:12:38.18,btth,,0,0,0,,setelah Yao Chen meningkatkan kualitas pil dengan kekuatan eksternal,
+Dialogue: 0,0:12:38.18,0:12:39.82,btth,,0,0,0,,dan merebut gelar juara Konferensi Pil,
+Dialogue: 0,0:12:40.30,0:12:44.18,btth,,0,0,0,,anggota Pagoda Pil satu per satu menirunya,
+Dialogue: 0,0:12:44.18,0:12:45.48,btth,,0,0,0,,mencoba mencari jalan pintas.
+Dialogue: 0,0:12:46.67,0:12:48.62,btth,,0,0,0,,Kedalaman seni meracik pil,
+Dialogue: 0,0:12:48.82,0:12:51.03,btth,,0,0,0,,mana bisa kalian gulingkan dengan jalan pintas?
+Dialogue: 0,0:12:51.42,0:12:53.75,btth,,0,0,0,,Resep adalah dasar meracik pil,
+Dialogue: 0,0:12:54.10,0:12:56.27,btth,,0,0,0,,dengan suhu api bahan obat yang jelas,
+Dialogue: 0,0:12:56.47,0:12:57.53,btth,,0,0,0,,begitu ditetapkan,
+Dialogue: 0,0:12:57.53,0:12:58.85,btth,,0,0,0,,tidak bisa diubah.
+Dialogue: 0,0:12:59.18,0:13:00.67,btth,,0,0,0,,Semakin mendekati resep,
+Dialogue: 0,0:13:00.68,0:13:03.02,btth,,0,0,0,,semakin bisa merasakan keindahannya.
+Dialogue: 0,0:13:03.42,0:13:05.83,btth,,0,0,0,,Pil yang dihasilkan dengan mengikuti langkah seperti ini,
+Dialogue: 0,0:13:05.83,0:13:07.62,btth,,0,0,0,,barulah disebut pil yang baik.
+Dialogue: 0,0:13:25.13,0:13:25.73,btth,,0,0,0,,Lihat,
+Dialogue: 0,0:13:25.73,0:13:26.85,btth,,0,0,0,,Petir Pil Sembilan Warna!
+Dialogue: 0,0:13:27.02,0:13:28.03,btth,,0,0,0,,Pemenang kali ini,
+Dialogue: 0,0:13:28.07,0:13:29.67,btth,,0,0,0,,sepertinya pasti Pak Tua Hou.
+Dialogue: 0,0:13:38.47,0:13:39.27,btth,,0,0,0,,Yao Chen,
+Dialogue: 0,0:13:39.67,0:13:42.22,btth,,0,0,0,,kali ini akulah yang menang.
+Dialogue: 0,0:13:43.28,0:13:44.38,btth,,0,0,0,,Belum tentu.
+Dialogue: 0,0:13:47.70,0:13:49.25,btth,,0,0,0,,Bicara sombong,
+Dialogue: 0,0:13:49.38,0:13:50.87,btth,,0,0,0,,tidak ada gunanya bagimu.
+Dialogue: 0,0:13:59.65,0:14:01.25,btth,,0,0,0,,Setiap bahan obat memiliki karakteristiknya masing-masing,
+Dialogue: 0,0:14:01.65,0:14:02.93,btth,,0,0,0,,hanya dengan mengelompokkannya,
+Dialogue: 0,0:14:02.93,0:14:03.98,btth,,0,0,0,,lalu meracik dengan hati-hati,
+Dialogue: 0,0:14:04.27,0:14:06.53,btth,,0,0,0,,baru bisa mengekstrak kekuatan obat yang paling maksimal,
+Dialogue: 0,0:14:06.70,0:14:08.63,btth,,0,0,0,,dan menghasilkan pil dengan kualitas terbaik.
+Dialogue: 0,0:14:11.58,0:14:15.30,btth,,0,0,0,,Anak ini memang agak berbeda.
+Dialogue: 0,0:14:17.33,0:14:18.60,btth,,0,0,0,,Bualan belaka.
+Dialogue: 0,0:14:43.03,0:14:43.90,btth,,0,0,0,,Apa itu?
+Dialogue: 0,0:14:56.38,0:14:57.18,btth,,0,0,0,,Gawat!
+Dialogue: 0,0:14:57.32,0:14:58.87,btth,,0,0,0,,Pil Pemurni Iblis Api-ku!
+Dialogue: 0,0:14:59.15,0:15:00.15,btth,,0,0,0,,Apa yang hendak kau lakukan?
+Dialogue: 0,0:15:01.98,0:15:03.30,btth,,0,0,0,,Tidak bisa ditunda lagi,
+Dialogue: 0,0:15:03.35,0:15:04.38,btth,,0,0,0,,padatkan pil!
+Dialogue: 0,0:15:08.03,0:15:09.43,btth,,0,0,0,,Naga Api Memadatkan Pil!
+Dialogue: 0,0:15:21.52,0:15:22.55,btth,,0,0,0,,Memadatkan bahan dengan api,
+Dialogue: 0,0:15:22.55,0:15:23.67,btth,,0,0,0,,menyembunyikan pil di dalam bahan.
+Dialogue: 0,0:15:23.98,0:15:25.80,btth,,0,0,0,,ternyata teknik Pembentukan Inti Pil saat Pemadatan!
+Dialogue: 0,0:15:26.38,0:15:27.10,btth,,0,0,0,,Yao Lao,
+Dialogue: 0,0:15:27.52,0:15:28.80,btth,,0,0,0,,ini juga kau ajarkan padanya?
+Dialogue: 0,0:15:29.27,0:15:33.03,btth,,0,0,0,,Pembentukan Inti Pil saat Pemadatan sangat menuntut kemampuan mengendalikan api dan kekuatan jiwa.
+Dialogue: 0,0:15:33.92,0:15:34.87,btth,,0,0,0,,Bahkan aku,
+Dialogue: 0,0:15:35.03,0:15:37.32,btth,,0,0,0,,tidak berani menggunakan teknik seperti ini saat meracik pil.
+Dialogue: 0,0:15:38.03,0:15:38.83,btth,,0,0,0,,Xiao Yan,
+Dialogue: 0,0:15:39.47,0:15:41.02,btth,,0,0,0,,dia belajar sendiri.
+Dialogue: 0,0:15:50.35,0:15:52.48,btth,,0,0,0,,Orang dengan kemampuan meracik pil seperti ini,
+Dialogue: 0,0:15:52.48,0:15:54.97,btth,,0,0,0,,di Pagoda Pil Kecil tidak sampai lima orang.
+Dialogue: 0,0:15:55.63,0:15:56.95,btth,,0,0,0,,Murid Yao Chen ini,
+Dialogue: 0,0:15:56.95,0:15:58.03,btth,,0,0,0,,luar biasa.
+Dialogue: 0,0:16:09.75,0:16:11.15,btth,,0,0,0,,Itu ternyata Petir Hitam Iblis!
+Dialogue: 0,0:16:11.72,0:16:14.03,btth,,0,0,0,,Sudah lama tidak melihatnya.
+Dialogue: 0,0:16:15.03,0:16:30.03,btth,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:16:50.47,0:16:50.88,btth,,0,0,0,,Pergi!
+Dialogue: 0,0:17:05.80,0:17:06.60,btth,,0,0,0,,Boneka Siluman Surgawi,
+Dialogue: 0,0:17:06.63,0:17:07.43,btth,,0,0,0,,tahan!
+Dialogue: 0,0:17:21.75,0:17:22.47,btth,,0,0,0,,Hancur!
+Dialogue: 0,0:17:34.12,0:17:35.43,btth,,0,0,0,,Petir Hitam Iblis,
+Dialogue: 0,0:17:36.08,0:17:38.60,btth,,0,0,0,,Xiao Yan itu berani melawan Petir Hitam Iblis secara langsung!
+Dialogue: 0,0:17:39.95,0:17:42.72,btth,,0,0,0,,Xiao Yan memiliki kekuatan Dou Sheng bintang 1 tahap awal,
+Dialogue: 0,0:17:42.83,0:17:45.52,btth,,0,0,0,,menghadapi satu Petir Hitam Iblis tidak akan terlalu sulit.
+Dialogue: 0,0:17:46.07,0:17:47.15,btth,,0,0,0,,Xiao Yan akan menang.
+Dialogue: 0,0:17:47.15,0:17:48.10,btth,,0,0,0,,Bukankah itu berarti...
+Dialogue: 0,0:17:48.55,0:17:49.63,btth,,0,0,0,,Menang pun bagaimana?
+Dialogue: 0,0:17:50.03,0:17:53.02,btth,,0,0,0,,Pagoda Pil kami selalu memiliki aturan netral.
+Dialogue: 0,0:17:53.22,0:17:54.03,btth,,0,0,0,,Benar,
+Dialogue: 0,0:17:54.12,0:17:56.63,btth,,0,0,0,,netral adalah dasar keberadaan Pagoda Pil.
+Dialogue: 0,0:17:57.08,0:17:58.55,btth,,0,0,0,,Aturan pagoda, aturan pagoda,
+Dialogue: 0,0:17:58.78,0:18:00.27,btth,,0,0,0,,ada pagoda baru ada aturan.
+Dialogue: 0,0:18:00.63,0:18:02.28,btth,,0,0,0,,Kalau pagodanya saja sudah tidak ada,
+Dialogue: 0,0:18:02.38,0:18:03.72,btth,,0,0,0,,masih bicara aturan apa?
+Dialogue: 0,0:18:25.18,0:18:27.27,btth,,0,0,0,,Petir pil yang dipanggil oleh pil Kelas 9,
+Dialogue: 0,0:18:27.27,0:18:28.52,btth,,0,0,0,,benar-benar hebat.
+Dialogue: 0,0:18:30.43,0:18:33.53,btth,,0,0,0,,Badai energi yang mengerikan itu tidak melukainya sedikit pun,
+Dialogue: 0,0:18:34.12,0:18:35.68,btth,,0,0,0,,pantas seorang Dou Sheng.
+Dialogue: 0,0:18:46.47,0:18:47.55,btth,,0,0,0,,Apa itu?
+Dialogue: 0,0:18:48.27,0:18:49.32,btth,,0,0,0,,Bentuk manusia?
+Dialogue: 0,0:18:51.95,0:18:52.70,btth,,0,0,0,,Menarik.
+Dialogue: 0,0:18:53.23,0:18:54.75,btth,,0,0,0,,Inikah Pil Harta Kelas 9?
+Dialogue: 0,0:18:55.40,0:18:56.85,btth,,0,0,0,,Bahkan meniru penampilanku,
+Dialogue: 0,0:18:57.43,0:18:59.10,btth,,0,0,0,,kau pikir dengan begitu aku akan melepaskanmu?
+Dialogue: 0,0:19:01.92,0:19:02.95,btth,,0,0,0,,Anak ini,
+Dialogue: 0,0:19:03.10,0:19:04.80,btth,,0,0,0,,benar-benar berhasil meraciknya.
+Dialogue: 0,0:19:05.00,0:19:07.35,btth,,0,0,0,,Hanya saja tidak tahu pil apa yang diraciknya,
+Dialogue: 0,0:19:08.38,0:19:09.60,btth,,0,0,0,,aku juga tidak bisa mengenalinya.
+Dialogue: 0,0:19:09.98,0:19:13.63,btth,,0,0,0,,Hanya bisa merasakan pil ini memiliki sedikit aroma Pil Bodhi,
+Dialogue: 0,0:19:14.30,0:19:16.78,btth,,0,0,0,,tapi kekuatan obatnya beberapa kali lebih kuat dari Pil Bodhi.
+Dialogue: 0,0:19:23.15,0:19:23.95,btth,,0,0,0,,Kedua orang,
+Dialogue: 0,0:19:24.35,0:19:26.83,btth,,0,0,0,,silakan sebutkan pil yang diracik masing-masing.
+Dialogue: 0,0:19:26.95,0:19:28.75,btth,,0,0,0,,Pil Pemurni Iblis Api,
+Dialogue: 0,0:19:28.75,0:19:31.20,btth,,0,0,0,,pil Kelas 8 dengan Petir Pil Sembilan Warna.
+Dialogue: 0,0:19:31.20,0:19:33.80,btth,,0,0,0,,Jika dikonsumsi oleh orang dengan Douqi elemen api,
+Dialogue: 0,0:19:33.80,0:19:35.90,btth,,0,0,0,,akan menyebabkan mutasi Douqi,
+Dialogue: 0,0:19:35.90,0:19:37.83,btth,,0,0,0,,sehingga meningkatkan kekuatan tempur.
+Dialogue: 0,0:19:38.08,0:19:39.27,btth,,0,0,0,,Pil Agung Bodhi,
+Dialogue: 0,0:19:39.55,0:19:40.60,btth,,0,0,0,,Pil Harta Kelas 9.
+Dialogue: 0,0:19:41.03,0:19:43.03,btth,,0,0,0,,Dalam tingkat keberhasilan menerobos Ban Sheng,
+Dialogue: 0,0:19:43.18,0:19:44.33,btth,,0,0,0,,meningkat dua kali lipat.
+Dialogue: 0,0:19:44.68,0:19:45.58,btth,,0,0,0,,Dua kali lipat?
+Dialogue: 0,0:19:45.67,0:19:46.60,btth,,0,0,0,,Bagaimana mungkin?
+Dialogue: 0,0:19:46.63,0:19:48.35,btth,,0,0,0,,Aku tidak pernah mendengar resep seperti itu.
+Dialogue: 0,0:19:58.30,0:20:01.97,btth,,0,0,0,,Energi yang terkandung dalam pil ini sangat menakutkan.
+Dialogue: 0,0:20:06.72,0:20:08.43,btth,,0,0,0,,Memang seperti kata Xiao Yan,
+Dialogue: 0,0:20:08.43,0:20:10.52,btth,,0,0,0,,efektivitas Pil Agung Bodhi ini,
+Dialogue: 0,0:20:10.52,0:20:12.70,btth,,0,0,0,,jauh lebih unggul dari Pil Pemurni Iblis Api.
+Dialogue: 0,0:20:12.80,0:20:13.92,btth,,0,0,0,,Aku umumkan,
+Dialogue: 0,0:20:13.92,0:20:16.03,btth,,0,0,0,,pemenang seleksi ini adalah...
+Dialogue: 0,0:20:16.55,0:20:17.55,btth,,0,0,0,,Xiao Yan.
+Dialogue: 0,0:20:19.20,0:20:20.27,btth,,0,0,0,,Terima kasih, Tetua Agung Lin.
+Dialogue: 0,0:20:21.75,0:20:22.92,btth,,0,0,0,,Mulai hari ini,
+Dialogue: 0,0:20:23.23,0:20:25.58,btth,,0,0,0,,kau adalah tetua Pagoda Pil Kecil.
+Dialogue: 0,0:20:30.60,0:20:32.15,btth,,0,0,0,,Orang yang tidak takut mati,
+Dialogue: 0,0:20:32.15,0:20:33.50,btth,,0,0,0,,hanya meracik pil saja,
+Dialogue: 0,0:20:33.53,0:20:35.52,btth,,0,0,0,,bahkan nekat mempertaruhkan nyawa melawan Petir Hitam Iblis,
+Dialogue: 0,0:20:35.52,0:20:36.90,btth,,0,0,0,,lebih berani mati dariku.
+Dialogue: 0,0:20:38.35,0:20:39.40,btth,,0,0,0,,Sudahlah, sudahlah.
+Dialogue: 0,0:20:40.40,0:20:55.40,btth,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:21:13.03,0:21:13.75,btth,,0,0,0,,Guru,
+Dialogue: 0,0:21:13.92,0:21:15.27,btth,,0,0,0,,apa yang Anda katakan pada Pak Tua Hou?
+Dialogue: 0,0:21:16.72,0:21:17.50,btth,,0,0,0,,Yao Chen,
+Dialogue: 0,0:21:17.80,0:21:19.52,btth,,0,0,0,,tunggu aku mencari murid yang baik,
+Dialogue: 0,0:21:19.52,0:21:21.32,btth,,0,0,0,,lalu akan kembali menantangmu.

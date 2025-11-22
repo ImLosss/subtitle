@@ -1,0 +1,271 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.10,0:00:15.77,sl,,0,0,0,,Dewa Monster Di Tian, bisa-bisanya kau.
+Dialogue: 0,0:00:12.10,0:00:41.80,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:00:15.83,0:00:20.83,sl,,0,0,0,,Bagaimana kau tahu aku tidak bisa datang dalam wujud asli?
+Dialogue: 0,0:00:21.97,0:00:24.43,sl,,0,0,0,,Situasinya sangat buruk, banyak meridian yang putus.
+Dialogue: 0,0:00:24.83,0:00:26.37,sl,,0,0,0,,Aura kehidupan sangat lemah.
+Dialogue: 0,0:00:27.23,0:00:29.40,sl,,0,0,0,,Wutong, terima kasih.
+Dialogue: 0,0:00:31.27,0:00:34.40,sl,,0,0,0,,Lain kali jangan terlalu memaksakan diri.
+Dialogue: 0,0:00:35.50,0:00:37.30,sl,,0,0,0,,Di antara langit dan bumi yang luas ini,
+Dialogue: 0,0:00:37.57,0:00:39.93,sl,,0,0,0,,ada energi dunia yang tak terbatas yang bisa diserap.
+Dialogue: 0,0:00:39.93,0:00:53.93,sl,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:54.80,0:00:57.77,sl,,0,0,0,,Memadukan kekuatan spiritual ke dalam energi roh yang dipadatkan?
+Dialogue: 0,0:01:05.03,0:01:08.30,sl,,0,0,0,,Pusaran energi roh ini sepertinya menghasilkan medan magnet aneh.
+Dialogue: 0,0:01:08.87,0:01:10.83,sl,,0,0,0,,Dan sudah mulai mempengaruhi ruang di sekitarnya.
+Dialogue: 0,0:01:11.73,0:01:12.60,sl,,0,0,0,,Dilihat dari ukurannya,
+Dialogue: 0,0:01:12.83,0:01:15.23,sl,,0,0,0,,sudah hampir sama dengan lubang hitam kecil di tubuh Di Tian.
+Dialogue: 0,0:01:15.73,0:01:17.07,sl,,0,0,0,,Tapi kemurniannya jauh lebih rendah.
+Dialogue: 0,0:01:17.50,0:01:18.80,sl,,0,0,0,,Dengan kemampuanku sekarang,
+Dialogue: 0,0:01:18.93,0:01:21.07,sl,,0,0,0,,aku tidak bisa memasukkan pusaran energi roh ini ke dalam tubuh.
+Dialogue: 0,0:01:21.30,0:01:24.10,sl,,0,0,0,,Energi roh yang sangat terkompresi ini bisa meledak kapan saja.
+Dialogue: 0,0:01:24.33,0:01:27.17,sl,,0,0,0,,Untuk keamanan, aku harus mencari tempat yang luas dan tidak berpenghuni.
+Dialogue: 0,0:01:37.50,0:01:39.70,sl,,0,0,0,,Energi dunia dalam radius ribuan meter persegi di sekitarnya,
+Dialogue: 0,0:01:39.87,0:01:41.30,sl,,0,0,0,,sedang berkumpul ke sini.
+Dialogue: 0,0:01:42.13,0:01:43.00,sl,,0,0,0,,Sungguh ajaib.
+Dialogue: 0,0:01:43.47,0:01:45.10,sl,,0,0,0,,Hukum seperti apa ini sebenarnya?
+Dialogue: 0,0:01:46.60,0:01:47.40,sl,,0,0,0,,Akan lepas kendali.
+Dialogue: 0,0:01:50.80,0:01:52.33,sl,,0,0,0,,Tidak bisa mengamati dari dekat lagi.
+Dialogue: 0,0:01:58.33,0:01:59.77,sl,,0,0,0,,Ada apa, diserang musuh?
+Dialogue: 0,0:02:00.47,0:02:02.13,sl,,0,0,0,,Tidak tahu, tim komunikasi belum ada kabar.
+Dialogue: 0,0:02:08.47,0:02:10.00,sl,,0,0,0,,Daya ledaknya sangat kuat.
+Dialogue: 0,0:02:10.73,0:02:12.30,sl,,0,0,0,,Ini pun masih belum sempurna.
+Dialogue: 0,0:02:16.23,0:02:17.70,sl,,0,0,0,,Huo Yuhao.
+Dialogue: 0,0:02:18.93,0:02:19.93,sl,,0,0,0,,Kau tadi pergi ke mana?
+Dialogue: 0,0:02:20.70,0:02:23.00,sl,,0,0,0,,A-aku pergi ke luar untuk cari udara segar.
+Dialogue: 0,0:02:26.33,0:02:27.83,sl,,0,0,0,,Cari udara segar sampai selama itu?
+Dialogue: 0,0:02:28.40,0:02:31.47,sl,,0,0,0,,A-aku, pemandangan malam ini sungguh indah.
+Dialogue: 0,0:02:43.50,0:02:45.70,sl,,0,0,0,,Kau, bagaimana kau tahu aku tidak ada di dalam tenda?
+Dialogue: 0,0:02:47.43,0:02:49.63,sl,,0,0,0,,Aku kebetulan lewat, jadi mampir melihatmu sebentar.
+Dialogue: 0,0:02:52.33,0:02:55.30,sl,,0,0,0,,Kalau kau sudah baik-baik saja, besok kita kembali ke akademi.
+Dialogue: 0,0:03:02.77,0:03:04.47,sl,,0,0,0,,Akhirnya bisa kembali ke Kota Shrek.
+Dialogue: 0,0:03:05.37,0:03:06.10,sl,,0,0,0,,Semuanya.
+Dialogue: 0,0:03:06.57,0:03:07.57,sl,,0,0,0,,Warga Shrek sekalian.
+Dialogue: 0,0:03:08.33,0:03:09.33,sl,,0,0,0,,Situasi di garis depan sedang genting,
+Dialogue: 0,0:03:09.50,0:03:11.37,sl,,0,0,0,,Panglima Tertinggi dan Putri Jiujiu sama-sama sibuk.
+Dialogue: 0,0:03:11.80,0:03:13.83,sl,,0,0,0,,Tapi hadiah yang diajukan Panglima Tertinggi kepada Kaisar,
+Dialogue: 0,0:03:14.07,0:03:15.60,sl,,0,0,0,,khususnya penganugerahan gelar bangsawan untuk Sahabat Muda Huo,
+Dialogue: 0,0:03:15.60,0:03:16.43,sl,,0,0,0,,sudah dalam perjalanan.
+Dialogue: 0,0:03:16.57,0:03:18.90,sl,,0,0,0,,Mohon tunggu beberapa hari, setelah upacara penganugerahan selesai,
+Dialogue: 0,0:03:19.03,0:03:21.10,sl,,0,0,0,,Panglima Tertinggi akan mengadakan jamuan perpisahan untuk kalian semua.
+Dialogue: 0,0:03:21.70,0:03:22.97,sl,,0,0,0,,Aku tidak butuh hadiah apapun.
+Dialogue: 0,0:03:24.70,0:03:27.43,sl,,0,0,0,,Niat baik Adipati Baihu dan Kaisar, kuhargai.
+Dialogue: 0,0:03:28.07,0:03:30.20,sl,,0,0,0,,Sampai jumpa lagi di lain waktu.
+Dialogue: 0,0:03:33.50,0:03:35.17,sl,,0,0,0,,Bahkan gelar bangsawan pun tidak mau diterima?
+Dialogue: 0,0:03:45.73,0:03:48.27,sl,,0,0,0,,Sudah terbang 6 jam, mari kita istirahat sebentar.
+Dialogue: 0,0:03:49.80,0:03:51.47,sl,,0,0,0,,Huo Yuhao, aku ingin makan ikan bakar.
+Dialogue: 0,0:04:05.87,0:04:07.40,sl,,0,0,0,,Kenapa dia tampak begitu khawatir?
+Dialogue: 0,0:04:11.07,0:04:12.73,sl,,0,0,0,,Ikan bakarnya sudah matang, semuanya bisa makan.
+Dialogue: 0,0:04:13.37,0:04:15.03,sl,,0,0,0,,Aku tidak lapar, akan makan setelah selesai berlatih.
+Dialogue: 0,0:04:15.33,0:04:18.13,sl,,0,0,0,,Adik, kalau kau rajin begini, mau ditarok dimana muka seniormu ini?
+Dialogue: 0,0:04:20.70,0:04:21.80,sl,,0,0,0,,Wanginya.
+Dialogue: 0,0:04:26.60,0:04:27.50,sl,,0,0,0,,Kakak Nannan.
+Dialogue: 0,0:04:28.00,0:04:30.27,sl,,0,0,0,,Apa kau merasa ikan bakar hari ini,
+Dialogue: 0,0:04:30.27,0:04:31.67,sl,,0,0,0,,berbeda dengan yang terakhir kali?
+Dialogue: 0,0:04:32.53,0:04:33.93,sl,,0,0,0,,Sepertinya ada yang kurang.
+Dialogue: 0,0:04:34.70,0:04:36.27,sl,,0,0,0,,Tidak merasa ada perbedaan apa-apa.
+Dialogue: 0,0:04:36.30,0:04:37.70,sl,,0,0,0,,Masih sama lezatnya.
+Dialogue: 0,0:04:39.83,0:04:40.63,sl,,0,0,0,,Aku paham.
+Dialogue: 0,0:04:41.10,0:04:42.57,sl,,0,0,0,,Benar ada yang kurang.
+Dialogue: 0,0:04:42.93,0:04:45.87,sl,,0,0,0,,Tapi bukan milik kita, melainkan ikan bakarmu.
+Dialogue: 0,0:04:51.30,0:04:53.00,sl,,0,0,0,,Kakak Ketiga, kalian kembali ke Sekte Tang dulu.
+Dialogue: 0,0:04:53.30,0:04:55.53,sl,,0,0,0,,Aku akan pergi ke Paviliun Dewa Laut, ada urusan untuk bertanya pada Tetua Xuan.
+Dialogue: 0,0:05:03.57,0:05:05.00,sl,,0,0,0,,Halo Guru Tang, halo Kakak Kelas Huo.
+Dialogue: 0,0:05:10.93,0:05:12.33,sl,,0,0,0,,Rasanya nyaman sekali pulang ke rumah.
+Dialogue: 0,0:05:14.90,0:05:16.93,sl,,0,0,0,,Aku akan pergi ke tempat Tetua Xuan, sampai jumpa di sini.
+Dialogue: 0,0:05:21.97,0:05:24.23,sl,,0,0,0,,Tang Wutong, kenapa kau begitu memperhatikannya?
+Dialogue: 0,0:05:24.70,0:05:25.67,sl,,0,0,0,,Kau tidak boleh terus begini.
+Dialogue: 0,0:05:27.00,0:05:28.83,sl,,0,0,0,,Guru, aku sudah kembali.
+Dialogue: 0,0:05:31.80,0:05:34.70,sl,,0,0,0,,Kali ini pergi, aku tidak menyangka bisa bertemu dengan Senior Ye Xishui.
+Dialogue: 0,0:05:36.30,0:05:38.83,sl,,0,0,0,,Sekarang dia sudah menjadi Master Dunia Kematian Kekaisaran Riyue.
+Dialogue: 0,0:05:39.80,0:05:42.30,sl,,0,0,0,,Guru, apa kau bisa mendengarku?
+Dialogue: 0,0:05:42.67,0:05:44.80,sl,,0,0,0,,Tetua Mu tidak bisa menanggapimu.
+Dialogue: 0,0:05:45.43,0:05:48.57,sl,,0,0,0,,Saat gelombang monster, dia melepaskan energi sehingga jiwanya terluka.
+Dialogue: 0,0:05:49.50,0:05:51.93,sl,,0,0,0,,Sekarang hanya bisa dirawat di dalam Pohon Emas.
+Dialogue: 0,0:05:54.53,0:05:57.17,sl,,0,0,0,,Situasi benua tiba-tiba menjadi begitu buruk.
+Dialogue: 0,0:05:57.97,0:06:01.27,sl,,0,0,0,,Tidak menyangka Kekaisaran Riyue bersembunyi begitu dalam.
+Dialogue: 0,0:06:02.13,0:06:04.90,sl,,0,0,0,,Ye Xishui, dia ternyata masih hidup.
+Dialogue: 0,0:06:06.33,0:06:09.63,sl,,0,0,0,,Hanya saja dia dan Long Xiaoyao berdiri di pihak Kekaisaran Riyue,
+Dialogue: 0,0:06:10.07,0:06:11.33,sl,,0,0,0,,tidak pernah kuduga.
+Dialogue: 0,0:06:12.47,0:06:14.97,sl,,0,0,0,,Dua Master Dunia Ekstrem level 99,
+Dialogue: 0,0:06:15.23,0:06:17.83,sl,,0,0,0,,cukup untuk mengguncang situasi seluruh benua.
+Dialogue: 0,0:06:19.77,0:06:22.00,sl,,0,0,0,,Bukankah Senior Dubus juga sudah menerobos?
+Dialogue: 0,0:06:23.20,0:06:23.90,sl,,0,0,0,,Mungkin,
+Dialogue: 0,0:06:25.37,0:06:28.30,sl,,0,0,0,,Si Aneh Racun melukai sumbernya dalam serangan mendadak Kekaisaran Riyue.
+Dialogue: 0,0:06:30.50,0:06:34.53,sl,,0,0,0,,Ditambah generasi muda Sekte Benti hampir habis,
+Dialogue: 0,0:06:38.23,0:06:39.47,sl,,0,0,0,,semangatnya jatuh!
+Dialogue: 0,0:06:41.30,0:06:44.50,sl,,0,0,0,,Sulit bersaing dengan Long Xiaoyao dan Ye Xishui lagi.
+Dialogue: 0,0:06:45.30,0:06:47.80,sl,,0,0,0,,Kekaisaran Tianhun setelah diserang mendadak ini,
+Dialogue: 0,0:06:48.03,0:06:49.13,sl,,0,0,0,,sangat terluka.
+Dialogue: 0,0:06:49.73,0:06:52.67,sl,,0,0,0,,Mungkin juga sulit bertempur lagi.
+Dialogue: 0,0:06:54.00,0:06:54.57,sl,,0,0,0,,Tetua Xuan.
+Dialogue: 0,0:06:55.23,0:06:57.20,sl,,0,0,0,,Kalau begitu, bisakah kita mengumpulkan beberapa sekte yang bersembunyi,
+Dialogue: 0,0:06:57.37,0:06:58.70,sl,,0,0,0,,bersama-sama melawan Kekaisaran Riyue?
+Dialogue: 0,0:06:59.37,0:06:59.80,sl,,0,0,0,,Lagipula,
+Dialogue: 0,0:07:00.23,0:07:01.80,sl,,0,0,0,,Tiga kerajaan asli Benua Douluo kita,
+Dialogue: 0,0:07:02.80,0:07:04.27,sl,,0,0,0,,jika diduduki Kekaisaran Riyue,
+Dialogue: 0,0:07:04.50,0:07:06.10,sl,,0,0,0,,mereka juga tidak akan mendapatkan hasil yang baik.
+Dialogue: 0,0:07:08.13,0:07:11.67,sl,,0,0,0,,Sudah dilakukan, banyak sekte yang merespons dengan antusias.
+Dialogue: 0,0:07:13.10,0:07:16.57,sl,,0,0,0,,Tapi di hadapan senjata Pembimbing Roh paling canggih Kekaisaran Riyue,
+Dialogue: 0,0:07:16.87,0:07:19.80,sl,,0,0,0,,kekuatan perlawanan ini masih terlalu lemah.
+Dialogue: 0,0:07:20.10,0:07:23.37,sl,,0,0,0,,Tetua Xuan, ada hal yang ingin kutanyakan pada Anda.
+Dialogue: 0,0:07:25.03,0:07:27.67,sl,,0,0,0,,Sebelumnya di Pegunungan Mingdou saat aku berhadapan dengan Ye Xishui,
+Dialogue: 0,0:07:28.50,0:07:30.17,sl,,0,0,0,,aku memicu Sisik Terbalik untuk memanggil Di Tian menyatu,
+Dialogue: 0,0:07:31.27,0:07:34.30,sl,,0,0,0,,Di Tian memasukkan kekuatannya ke tubuhku melalui kekuatan ruang,
+Dialogue: 0,0:07:34.77,0:07:36.13,sl,,0,0,0,,menggunakan tubuhku untuk hadir.
+Dialogue: 0,0:07:36.90,0:07:40.30,sl,,0,0,0,,Saat itu kusadari sirkulasi energi roh Di Tian sangat berbeda denganku,
+Dialogue: 0,0:07:40.90,0:07:42.30,sl,,0,0,0,,seperti lubang hitam yang saling terhubung,
+Dialogue: 0,0:07:42.97,0:07:45.27,sl,,0,0,0,,di antaranya mengandung kekuatan ruang yang sangat menakutkan.
+Dialogue: 0,0:07:48.00,0:07:50.43,sl,,0,0,0,,Pengetahuan yang diajarkan akademi berhenti di Master Roh Tertinggi,
+Dialogue: 0,0:07:51.23,0:07:53.73,sl,,0,0,0,,perubahan energi roh setelah mencapai Master Dunia Roh tidak diajarkan.
+Dialogue: 0,0:07:55.17,0:07:56.67,sl,,0,0,0,,Energi roh lubang hitam seperti Di Tian itu,
+Dialogue: 0,0:07:56.77,0:07:58.73,sl,,0,0,0,,apakah hanya dimiliki Master Dunia Ekstrem?
+Dialogue: 0,0:07:59.67,0:08:01.33,sl,,0,0,0,,Meski sama-sama level Master Dunia Ekstrem,
+Dialogue: 0,0:08:01.77,0:08:04.07,sl,,0,0,0,,tapi Di Tian jelas lebih kuat dari Ye Xishui.
+Dialogue: 0,0:08:05.03,0:08:07.47,sl,,0,0,0,,Kalau Ye Xishui tidak menggunakan Menara Kematian,
+Dialogue: 0,0:08:08.13,0:08:09.37,sl,,0,0,0,,dia bukan lawan Di Tian.
+Dialogue: 0,0:08:11.00,0:08:11.90,sl,,0,0,0,,Tidak kusangka,
+Dialogue: 0,0:08:12.00,0:08:14.17,sl,,0,0,0,,kau sudah mencapai level ini begitu cepat.
+Dialogue: 0,0:08:15.50,0:08:16.63,sl,,0,0,0,,Penilaianmu benar,
+Dialogue: 0,0:08:17.27,0:08:20.13,sl,,0,0,0,,setelah energi roh Master Roh mencapai level Master Dunia Roh,
+Dialogue: 0,0:08:20.33,0:08:22.90,sl,,0,0,0,,akan berubah dari bentuk cair menjadi padat.
+Dialogue: 0,0:08:23.70,0:08:26.60,sl,,0,0,0,,Setelah transformasi padat selesai, akan memasuki hambatan latihan.
+Dialogue: 0,0:08:27.67,0:08:30.40,sl,,0,0,0,,Hambatan ini bagi sebagian besar Master Roh,
+Dialogue: 0,0:08:30.53,0:08:32.03,sl,,0,0,0,,sangat sulit untuk dilewati.
+Dialogue: 0,0:08:33.07,0:08:33.67,sl,,0,0,0,,Kenapa?
+Dialogue: 0,0:08:34.77,0:08:35.57,sl,,0,0,0,,Sederhana,
+Dialogue: 0,0:08:36.27,0:08:38.50,sl,,0,0,0,,energi roh yang dipadatkan tidak bisa mengalir.
+Dialogue: 0,0:08:39.17,0:08:42.10,sl,,0,0,0,,Karena itu banyak Master Dunia Roh setelah menyelesaikan pemadatan energi roh,
+Dialogue: 0,0:08:42.43,0:08:44.53,sl,,0,0,0,,Pelatihan sulit meningkat lagi.
+Dialogue: 0,0:08:45.60,0:08:49.07,sl,,0,0,0,,Tapi pemadatan energi roh adalah dasar untuk mencapai Master Dunia Roh.
+Dialogue: 0,0:08:50.00,0:08:52.73,sl,,0,0,0,,Energi roh yang dipadatkan akan tenggelam di dantian,
+Dialogue: 0,0:08:53.03,0:08:54.07,sl,,0,0,0,,dinamakan inti roh.
+Dialogue: 0,0:08:55.10,0:08:56.40,sl,,0,0,0,,Inti roh terus berputar,
+Dialogue: 0,0:08:56.40,0:08:57.67,sl,,0,0,0,,menyerap energi roh dari luar,
+Dialogue: 0,0:08:58.00,0:08:59.13,sl,,0,0,0,,untuk digunakan Master Roh.
+Dialogue: 0,0:09:01.53,0:09:03.20,sl,,0,0,0,,Jadi alasan Di Tian kuat,
+Dialogue: 0,0:09:03.67,0:09:05.83,sl,,0,0,0,,adalah karena inti rohnya masih bisa terus mengalir.
+Dialogue: 0,0:09:07.10,0:09:08.50,sl,,0,0,0,,Alur pikiranmu tidak masalah,
+Dialogue: 0,0:09:09.00,0:09:11.67,sl,,0,0,0,,tapi metode Di Tian lebih hebat.
+Dialogue: 0,0:09:11.67,0:09:26.67,sl,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:35.27,0:09:38.33,sl,,0,0,0,,Ini adalah prinsip kondisi energi roh di dalam tubuh Di Tian.
+Dialogue: 0,0:09:38.67,0:09:41.70,sl,,0,0,0,,Menggunakan energi roh sendiri sebagai pemicu menyebabkan ruang runtuh,
+Dialogue: 0,0:09:42.00,0:09:45.30,sl,,0,0,0,,membentuk lubang hitam yang bisa menelan energi dunia tanpa batas.
+Dialogue: 0,0:09:46.50,0:09:48.17,sl,,0,0,0,,Energi roh lubang hitam seperti ini,
+Dialogue: 0,0:09:48.23,0:09:50.57,sl,,0,0,0,,membutuhkan kekuatan spiritual yang kuat untuk dikendalikan.
+Dialogue: 0,0:09:52.03,0:09:53.67,sl,,0,0,0,,Aku hanya bisa mempertahankannya sementara,
+Dialogue: 0,0:09:53.87,0:09:56.87,sl,,0,0,0,,sementara Di Tian bisa menjaganya sebagai kondisi normal.
+Dialogue: 0,0:09:57.47,0:09:59.40,sl,,0,0,0,,Inilah perbedaan antara aku dan Di Tian.
+Dialogue: 0,0:09:59.93,0:10:00.97,sl,,0,0,0,,Menjaga dalam kondisi normal?
+Dialogue: 0,0:10:02.17,0:10:04.80,sl,,0,0,0,,Bukankah konsumsi kekuatan spiritual Di Tian sangat besar?
+Dialogue: 0,0:10:05.43,0:10:08.73,sl,,0,0,0,,Tidak, dia memadatkan inti roh kedua.
+Dialogue: 0,0:10:09.67,0:10:13.17,sl,,0,0,0,,Dua inti roh saling melengkapi, membentuk keseimbangan yang stabil.
+Dialogue: 0,0:10:14.10,0:10:15.10,sl,,0,0,0,,Inti roh kedua?
+Dialogue: 0,0:10:15.83,0:10:18.83,sl,,0,0,0,,Semua Master Dunia Ekstrem memadatkan inti roh kedua.
+Dialogue: 0,0:10:19.50,0:10:24.80,sl,,0,0,0,,Tetua Mu, Ye Xishui, Long Xiaoyao, termasuk Dubus semuanya begitu.
+Dialogue: 0,0:10:26.17,0:10:29.70,sl,,0,0,0,,Tapi inti roh kedua yang mereka padatkan jauh lebih kecil dari inti roh pertama.
+Dialogue: 0,0:10:30.80,0:10:34.43,sl,,0,0,0,,Hanya inti roh kedua Di Tian yang setara dengan inti roh pertama.
+Dialogue: 0,0:10:35.53,0:10:36.43,sl,,0,0,0,,Jadi,
+Dialogue: 0,0:10:36.80,0:10:39.60,sl,,0,0,0,,dia jauh lebih kuat dari Master Dunia Ekstrem biasa.
+Dialogue: 0,0:10:40.60,0:10:43.90,sl,,0,0,0,,Kekuatannya sudah mendekati dewa.
+Dialogue: 0,0:10:44.37,0:10:45.67,sl,,0,0,0,,Dewa?
+Dialogue: 0,0:10:46.40,0:10:48.73,sl,,0,0,0,,Yuhao, kau memiliki roh pelindung ganda,
+Dialogue: 0,0:10:49.23,0:10:51.97,sl,,0,0,0,,mencapai Master Dunia Ekstrem akan jauh lebih mudah bagimu.
+Dialogue: 0,0:10:52.87,0:10:54.57,sl,,0,0,0,,Saat kau menerobos Master Dunia Roh,
+Dialogue: 0,0:10:54.90,0:10:57.47,sl,,0,0,0,,kau harus berusaha mencapai inti roh ganda sekaligus.
+Dialogue: 0,0:10:58.17,0:11:00.77,sl,,0,0,0,,Kekuatan spiritualmu jauh melampaui Master Roh level sama,
+Dialogue: 0,0:11:01.10,0:11:02.87,sl,,0,0,0,,bahkan bisa menyaingi Master Dunia Roh.
+Dialogue: 0,0:11:03.63,0:11:07.13,sl,,0,0,0,,Saat itu, kekuatan spiritual akan menjadi inti roh keduamu.
+Dialogue: 0,0:11:07.60,0:11:08.23,sl,,0,0,0,,Tetua Xuan,
+Dialogue: 0,0:11:09.03,0:11:11.20,sl,,0,0,0,,kalau aku mencapai inti roh pada tahap ini,
+Dialogue: 0,0:11:11.60,0:11:12.83,sl,,0,0,0,,apa yang akan terjadi?
+Dialogue: 0,0:11:17.53,0:11:20.10,sl,,0,0,0,,Maka kecepatan latihanmu akan meningkat drastis,
+Dialogue: 0,0:11:20.50,0:11:23.10,sl,,0,0,0,,karena kecepatan penyerapan energi dunia oleh inti roh
+Dialogue: 0,0:11:23.43,0:11:26.20,sl,,0,0,0,,beberapa kali bahkan puluhan kali lipat dari meditasi.
+Dialogue: 0,0:11:27.10,0:11:29.70,sl,,0,0,0,,Tapi, saat kau mencapai level 90,
+Dialogue: 0,0:11:30.40,0:11:34.03,sl,,0,0,0,,kesulitan mencapai Master Dunia Roh akan menjadi sangat tinggi.
+Dialogue: 0,0:11:34.97,0:11:36.20,sl,,0,0,0,,Karena inti roh pertama,
+Dialogue: 0,0:11:36.27,0:11:39.43,sl,,0,0,0,,akan membentuk daya tarik besar untuk memadatkan inti roh kedua.
+Dialogue: 0,0:11:40.67,0:11:43.23,sl,,0,0,0,,Ini adalah masalah yang bahkan banyak Master Dunia Super level 98,
+Dialogue: 0,0:11:43.23,0:11:45.53,sl,,0,0,0,,saat mencoba mencapai Master Dunia Ekstrem level 99,
+Dialogue: 0,0:11:45.83,0:11:47.90,sl,,0,0,0,,merasa tidak berdaya.
+Dialogue: 0,0:11:48.73,0:11:51.27,sl,,0,0,0,,Tetua Xuan, aku ingin mencoba.
+Dialogue: 0,0:11:52.83,0:11:56.30,sl,,0,0,0,,Baik, aku sendiri akan melindungimu.
+Dialogue: 0,0:12:05.97,0:12:07.87,sl,,0,0,0,,Bagus, lanjutkan.
+Dialogue: 0,0:12:08.33,0:12:10.80,sl,,0,0,0,,Biar kulihat sejauh apa kau bisa melakukannya.
+Dialogue: 0,0:12:29.67,0:12:31.67,sl,,0,0,0,,Kompresi, kompresi lagi.
+Dialogue: 0,0:12:32.60,0:12:35.27,sl,,0,0,0,,Putar, putar lagi.
+Dialogue: 0,0:12:36.30,0:12:39.80,sl,,0,0,0,,Energi roh padat sudah melebihi setengah total energi roh di tubuhku.
+Dialogue: 0,0:12:39.80,0:12:54.50,sl,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:54.50,0:12:56.13,sl,,0,0,0,,Energi rohku sedang menghilang dengan cepat.
+Dialogue: 0,0:12:56.63,0:13:00.40,sl,,0,0,0,,Lima puluh persen, enam puluh persen, tujuh puluh persen.
+Dialogue: 0,0:13:06.93,0:13:08.90,sl,,0,0,0,,Fluktuasi energi roh yang sangat kuat.
+Dialogue: 0,0:13:09.57,0:13:11.60,sl,,0,0,0,,Ada yang sedang mencoba mencapai Master Dunia Super.
+Dialogue: 0,0:13:12.23,0:13:15.13,sl,,0,0,0,,Pusat fluktuasi energi roh ada di kamar Tetua Xuan.
+Dialogue: 0,0:13:16.13,0:13:19.50,sl,,0,0,0,,Karena ada Tetua Xuan yang melindungi, seharusnya tidak perlu khawatir.
+Dialogue: 0,0:13:19.93,0:13:22.03,sl,,0,0,0,,Kita amati sebentar di sini.
+Dialogue: 0,0:13:22.30,0:13:25.33,sl,,0,0,0,,Aneh, siapa yang sedang mencoba mencapai Master Dunia Super?
+Dialogue: 0,0:13:31.13,0:13:32.33,sl,,0,0,0,,Jangan-jangan dia?
+Dialogue: 0,0:13:37.23,0:13:40.47,sl,,0,0,0,,Delapan puluh persen, energi roh yang ditelan sudah lebih dari delapan puluh persen.
+Dialogue: 0,0:13:45.37,0:13:46.90,sl,,0,0,0,,Yuhao, tahanlah.
+Dialogue: 0,0:13:47.50,0:13:49.63,sl,,0,0,0,,Energi Roh padatmu sudah berubah menjadi energi beratribut.
+Dialogue: 0,0:13:49.73,0:13:52.90,sl,,0,0,0,,Jika bisa membangun inti roh pada level ini,
+Dialogue: 0,0:13:53.73,0:13:56.30,sl,,0,0,0,,kau bisa mencapai level 89 dalam waktu singkat.
+Dialogue: 0,0:14:02.87,0:14:04.77,sl,,0,0,0,,Meski mencapai Master Dunia Roh akan sulit,
+Dialogue: 0,0:14:05.33,0:14:06.83,sl,,0,0,0,,tapi ini juga kesempatanmu.
+Dialogue: 0,0:14:07.50,0:14:08.33,sl,,0,0,0,,Tahanlah.
+Dialogue: 0,0:14:12.13,0:14:14.07,sl,,0,0,0,,Yuhao sudah mencapai batasnya.
+Dialogue: 0,0:14:14.70,0:14:15.63,sl,,0,0,0,,Terpaksa,
+Dialogue: 0,0:14:16.23,0:14:18.77,sl,,0,0,0,,dengan energi rohku kutahan energi roh padat Yuhao,
+Dialogue: 0,0:14:19.23,0:14:21.03,sl,,0,0,0,,lalu kirim ke ketinggian untuk diledakkan.
+Dialogue: 0,0:14:21.37,0:14:22.93,sl,,0,0,0,,Seharusnya tidak terlalu berbahaya,
+Dialogue: 0,0:14:23.33,0:14:26.20,sl,,0,0,0,,hanya saja Yuhao akan lemah beberapa hari sebelum pulih.
+Dialogue: 0,0:14:46.17,0:14:47.17,sl,,0,0,0,,Apa itu?
+Dialogue: 0,0:14:57.37,0:14:59.03,sl,,0,0,0,,Perisai Pantulan Kehidupan!
+Dialogue: 0,0:15:00.23,0:15:01.10,sl,,0,0,0,,Kak Tianmeng!
+Dialogue: 0,0:15:03.27,0:15:05.27,sl,,0,0,0,,Lanjutkan, ada aku di sini.
+Dialogue: 0,0:15:06.50,0:15:07.33,sl,,0,0,0,,Tianmeng,
+Dialogue: 0,0:15:07.73,0:15:10.20,sl,,0,0,0,,kau memasukkan kekuatan sumbermu ke dalam tubuh Yuhao?
+Dialogue: 0,0:15:10.87,0:15:11.77,sl,,0,0,0,,Kalau begini,
+Dialogue: 0,0:15:12.00,0:15:13.70,sl,,0,0,0,,begitu Yuhao gagal menjadi dewa,
+Dialogue: 0,0:15:14.00,0:15:16.80,sl,,0,0,0,,saat ajalnya tiba, kau juga akan mati bersamanya.
+Dialogue: 0,0:15:17.60,0:15:19.27,sl,,0,0,0,,Saat aku memilih Yuhao,
+Dialogue: 0,0:15:19.43,0:15:21.43,sl,,0,0,0,,aku sudah memutuskan untuk hidup dan mati bersamanya.
+Dialogue: 0,0:15:27.33,0:15:30.60,sl,,0,0,0,,Energi roh dan kekuatan spiritual Yuhao saat ini sudah mendekati batas,
+Dialogue: 0,0:15:31.23,0:15:33.40,sl,,0,0,0,,tapi aku tidak boleh mengganggu Yuhao saat ini,
+Dialogue: 0,0:15:34.33,0:15:36.50,sl,,0,0,0,,kalau tidak dia akan menerima serangan balik besar.
+Dialogue: 0,0:15:41.83,0:15:42.63,sl,,0,0,0,,Ayo!
+Dialogue: 0,0:15:46.37,0:15:47.17,sl,,0,0,0,,Runtuhlah!
+Dialogue: 0,0:15:51.17,0:15:53.33,sl,,0,0,0,,Jiwa seolah-olah akan tersedot masuk,
+Dialogue: 0,0:15:53.83,0:15:56.17,sl,,0,0,0,,di pusaran lubang hitam itu ada kegelapan tanpa batas,
+Dialogue: 0,0:15:56.90,0:15:58.47,sl,,0,0,0,,ada ketidaktahuan tanpa batas,
+Dialogue: 0,0:15:59.10,0:16:00.57,sl,,0,0,0,,tapi terhubung erat denganku.
+Dialogue: 0,0:16:00.97,0:16:03.90,sl,,0,0,0,,Inikah inti rohku?
+Dialogue: 0,0:16:03.90,0:16:18.90,sl,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.

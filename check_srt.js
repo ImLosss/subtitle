@@ -186,7 +186,7 @@ function fixSRTPunctuation(path) {
 // const cleanedContent = cleanSRT(inputFile, typoMapFile, outputFile);
 // console.log('SRT berhasil dibersihkan!');
 
-let tess = fixSRTPunctuation('EC_EP19_INDO.srt');
+let tess = fixSRTPunctuation('EC_EP22_INDO.srt');
 console.log(tess);
 
 module.exports = {

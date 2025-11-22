@@ -1,0 +1,396 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:07:55.45,0:07:58.52,komen,,0,0,0,,{\pos(1256,523)\fad(500,250)}[Peri Qing\NBan Sheng]
+Dialogue: 0,0:15:31.15,0:15:34.22,komen,,0,0,0,,{\pos(1507,550)\fad(500,250)}[Hou\NGrandmaster Alkemis Kelas 8]
+Dialogue: 0,0:18:09.53,0:18:12.60,komen,,0,0,0,,{\pos(1473,458)\fad(500,250)}[Tetua Agung Lin\NDou Sheng Bintang 2]
+Dialogue: 0,0:03:59.28,0:04:02.27,komen,,0,0,0,,{\pos(1484,593)\fad(500,250)}[Wakil Ketua Aula Jiwa\NDou Sheng Bintang 3]
+Dialogue: 0,0:04:22.94,0:04:26.20,komen,,0,0,0,,{\pos(1343,506)\fad(500,250)}[Leluhur Huo Yun\NDou Sheng Bintang 1]
+Dialogue: 0,0:02:34.74,0:02:37.14,btth,,0,0,0,,Xiao Yan, Dou Sheng bintang 1, muncul tiba-tiba.
+Dialogue: 0,0:02:37.14,0:02:39.18,btth,,0,0,0,,Dengan Samsara Amarah Buddha ciptaannya sendiri,
+Dialogue: 0,0:02:39.18,0:02:42.70,btth,,0,0,0,,dia menghancurkan semua musuh berlevel Ban Sheng sekaligus.
+Dialogue: 0,0:02:43.50,0:02:45.38,btth,,0,0,0,,Kekalahan Aliansi Sungai Kegelapan
+Dialogue: 0,0:02:45.38,0:02:47.30,btth,,0,0,0,,dengan cepat menyebar di Dataran Tengah.
+Dialogue: 0,0:02:47.38,0:02:50.22,btth,,0,0,0,,Xiao Yan bahkan memimpin pasukan mengejar kemenangan,
+Dialogue: 0,0:02:50.22,0:02:52.42,btth,,0,0,0,,dan menghancurkan Aliansi Sungai Kegelapan sekaligus.
+Dialogue: 0,0:02:52.74,0:02:54.50,btth,,0,0,0,,Kehancuran Aliansi Sungai Kegelapan,
+Dialogue: 0,0:02:54.54,0:02:56.14,btth,,0,0,0,,dan kebangkitan Paviliun Bintang Jatuh,
+Dialogue: 0,0:02:56.18,0:02:59.58,btth,,0,0,0,,membuat situasi Dataran Tengah kembali bergejolak.
+Dialogue: 0,0:02:59.98,0:03:00.58,btth,,0,0,0,,Sementara itu,
+Dialogue: 0,0:03:00.58,0:03:03.38,btth,,0,0,0,,tiga surat aliansi dari Paviliun Bintang Jatuh,
+Dialogue: 0,0:03:03.38,0:03:06.50,btth,,0,0,0,,diam-diam dikirim ke tiga kekuatan puncak.
+Dialogue: 0,0:03:06.82,0:03:09.18,btth,,0,0,0,,Xiao Yan sadar hanya dengan bersekutu,
+Dialogue: 0,0:03:09.18,0:03:11.58,btth,,0,0,0,,baru ada peluang melawan Aula Jiwa.
+Dialogue: 0,0:03:11.78,0:03:14.22,btth,,0,0,0,,Dan keputusan tiga kekuatan puncak ini,
+Dialogue: 0,0:03:14.22,0:03:18.30,btth,,0,0,0,,akan menentukan apakah aliansi bisa berhasil dibentuk.
+Dialogue: 0,0:03:25.34,0:03:26.14,btth,,0,0,0,,Paviliun Bintang Jatuh,
+Dialogue: 0,0:03:26.14,0:03:29.22,btth,,0,0,0,,dalam waktu dua tahun saja sudah muncul seorang Dou Sheng.
+Dialogue: 0,0:03:30.54,0:03:33.10,btth,,0,0,0,,Inikah yang kau sebut cara melawan?
+Dialogue: 0,0:03:37.86,0:03:38.66,btth,,0,0,0,,Ketua,
+Dialogue: 0,0:03:39.42,0:03:40.58,btth,,0,0,0,,setelah semuanya terjadi,
+Dialogue: 0,0:03:40.78,0:03:42.78,btth,,0,0,0,,mengapa marah untuk seorang pion yang dibuang?
+Dialogue: 0,0:03:43.90,0:03:45.14,btth,,0,0,0,,Kau punya ide?
+Dialogue: 0,0:03:47.78,0:03:49.78,btth,,0,0,0,,Xiao Yan pasti mendapatkan Hati Bodhi,
+Dialogue: 0,0:03:49.98,0:03:51.58,btth,,0,0,0,,baru bisa langsung menjadi Dou Sheng.
+Dialogue: 0,0:03:52.58,0:03:54.38,btth,,0,0,0,,Tapi fondasinya tidak stabil,
+Dialogue: 0,0:03:54.58,0:03:56.98,btth,,0,0,0,,kita bisa menghentikannya di sini.
+Dialogue: 0,0:03:59.70,0:04:00.90,btth,,0,0,0,,Bunuh satu untuk memperingatkan banyak orang.
+Dialogue: 0,0:04:01.58,0:04:03.98,btth,,0,0,0,,bukan hanya Paviliun Bintang Jatuh yang bisa lakukan.
+Dialogue: 0,0:04:11.62,0:04:12.66,btth,,0,0,0,,Aliansi?
+Dialogue: 0,0:04:12.90,0:04:14.22,btth,,0,0,0,,Untuk melawan Aula Jiwa?
+Dialogue: 0,0:04:17.02,0:04:19.54,btth,,0,0,0,,Makhluk-makhluk gak jelas itu memang menjijikkan,
+Dialogue: 0,0:04:20.10,0:04:22.02,btth,,0,0,0,,tapi siapa yang mau berurusan dengan mereka?
+Dialogue: 0,0:04:23.50,0:04:24.82,btth,,0,0,0,,Suruh orang Paviliun Bintang Jatuh pergi.
+Dialogue: 0,0:04:29.46,0:04:30.26,btth,,0,0,0,,Leluhur,
+Dialogue: 0,0:04:30.58,0:04:32.30,btth,,0,0,0,,Aula Jiwa sekarang mengincar kita,
+Dialogue: 0,0:04:32.34,0:04:33.90,btth,,0,0,0,,khawatirnya suatu hari nanti...
+Dialogue: 0,0:04:33.90,0:04:34.54,btth,,0,0,0,,Ayah.
+Dialogue: 0,0:04:34.54,0:04:35.62,btth,,0,0,0,,Jangan bicara dulu.
+Dialogue: 0,0:04:37.74,0:04:39.34,btth,,0,0,0,,Leluhur, tenanglah,
+Dialogue: 0,0:04:39.34,0:04:40.30,btth,,0,0,0,,jaga kesehatan.
+Dialogue: 0,0:04:40.30,0:04:41.50,btth,,0,0,0,,Hati-hati penyakit lama kambuh.
+Dialogue: 0,0:04:42.82,0:04:44.50,btth,,0,0,0,,Huo'er memang anak yang baik.
+Dialogue: 0,0:04:48.02,0:04:49.62,btth,,0,0,0,,Xiao Yan dari Paviliun Bintang Jatuh,
+Dialogue: 0,0:04:49.86,0:04:51.22,btth,,0,0,0,,adalah Dou Sheng bintang 1.
+Dialogue: 0,0:04:51.86,0:04:52.30,btth,,0,0,0,,Iya,
+Dialogue: 0,0:04:52.58,0:04:54.22,btth,,0,0,0,,dan dia punya hubungan baik dengan kita.
+Dialogue: 0,0:04:55.34,0:04:56.38,btth,,0,0,0,,Sekecil itu,
+Dialogue: 0,0:04:56.82,0:04:57.78,btth,,0,0,0,,bagaimana penampilannya?
+Dialogue: 0,0:05:00.06,0:05:00.78,btth,,0,0,0,,Kalau cukup tampan...
+Dialogue: 0,0:05:00.94,0:05:02.26,btth,,0,0,0,,Kalau mau menikahi Huo'er,
+Dialogue: 0,0:05:02.50,0:05:03.66,btth,,0,0,0,,aku akan setuju.
+Dialogue: 0,0:05:04.34,0:05:05.14,btth,,0,0,0,,Leluhur!
+Dialogue: 0,0:05:05.50,0:05:06.02,btth,,0,0,0,,Anda!
+Dialogue: 0,0:05:06.38,0:05:07.26,btth,,0,0,0,,Anda tidak tahu malu!
+Dialogue: 0,0:05:08.26,0:05:09.02,btth,,0,0,0,,Huo'er.
+Dialogue: 0,0:05:09.02,0:05:10.02,btth,,0,0,0,,Jangan lancang!
+Dialogue: 0,0:05:11.66,0:05:14.18,btth,,0,0,0,,Bisa mencapai Dou Sheng bintang 1 di usia segini,
+Dialogue: 0,0:05:14.46,0:05:16.38,btth,,0,0,0,,cukup membuktikan kehebatannya.
+Dialogue: 0,0:05:16.62,0:05:18.66,btth,,0,0,0,,Dan kalian berdua menyukainya,
+Dialogue: 0,0:05:18.86,0:05:21.30,btth,,0,0,0,,pemuda ini pasti tidak biasa.
+Dialogue: 0,0:05:22.14,0:05:22.86,btth,,0,0,0,,Leluhur,
+Dialogue: 0,0:05:23.06,0:05:23.74,btth,,0,0,0,,mereka bilang,
+Dialogue: 0,0:05:23.90,0:05:25.18,btth,,0,0,0,,jika setuju bersekutu,
+Dialogue: 0,0:05:25.22,0:05:27.22,btth,,0,0,0,,mereka bisa mengobati penyakit lama Anda.
+Dialogue: 0,0:05:30.50,0:05:32.16,btth,,0,0,0,,Kalau tidak setuju?
+Dialogue: 0,0:05:32.29,0:05:33.16,btth,,0,0,0,,Tidak setuju,
+Dialogue: 0,0:05:33.18,0:05:34.50,btth,,0,0,0,,Aku tetap akan bertindak,
+Dialogue: 0,0:05:34.78,0:05:36.38,btth,,0,0,0,,mengatasi masalah dalam tubuh Anda.
+Dialogue: 0,0:05:37.10,0:05:38.02,btth,,0,0,0,,Saudara Xiao Yan,
+Dialogue: 0,0:05:38.02,0:05:39.02,btth,,0,0,0,,kau datang.
+Dialogue: 0,0:05:39.26,0:05:40.06,btth,,0,0,0,,Leluhur,
+Dialogue: 0,0:05:40.18,0:05:42.10,btth,,0,0,0,,ini adalah Xiao Yan dari Paviliun Bintang Jatuh.
+Dialogue: 0,0:05:43.78,0:05:45.06,btth,,0,0,0,,Aku Xiao Yan,
+Dialogue: 0,0:05:45.10,0:05:46.38,btth,,0,0,0,,hormat pada Senior Huoyun.
+Dialogue: 0,0:06:00.82,0:06:02.10,btth,,0,0,0,,Kau cukup baik,
+Dialogue: 0,0:06:02.42,0:06:03.38,btth,,0,0,0,,tanpa kata-kata itu,
+Dialogue: 0,0:06:03.98,0:06:05.14,btth,,0,0,0,,urusan aliansi,
+Dialogue: 0,0:06:05.26,0:06:05.74,btth,,0,0,0,,tidak mungkin.
+Dialogue: 0,0:06:09.66,0:06:10.18,btth,,0,0,0,,Leluhur,
+Dialogue: 0,0:06:10.74,0:06:11.42,btth,,0,0,0,,Anda ini...
+Dialogue: 0,0:06:12.06,0:06:13.02,btth,,0,0,0,,Bersekutulah.
+Dialogue: 0,0:06:19.38,0:06:20.62,btth,,0,0,0,,Sudah lama tidak muncul,
+Dialogue: 0,0:06:20.98,0:06:22.30,btth,,0,0,0,,tidak tahu di dunia ini,
+Dialogue: 0,0:06:22.42,0:06:25.94,btth,,0,0,0,,masih ada yang ingat namaku atau tidak.
+Dialogue: 0,0:06:27.50,0:06:28.78,btth,,0,0,0,,Atas nama Paviliun Bintang Jatuh,
+Dialogue: 0,0:06:28.98,0:06:30.62,btth,,0,0,0,,aku menyambut Burning Flame Valley bergabung dengan aliansi.
+Dialogue: 0,0:06:33.18,0:06:33.98,btth,,0,0,0,,Baik,
+Dialogue: 0,0:06:34.22,0:06:35.62,btth,,0,0,0,,sampai jumpa di Paviliun Bintang Jatuh.
+Dialogue: 0,0:06:39.50,0:06:41.70,btth,,0,0,0,,Aula Jiwa bisa menyerang kapan saja,
+Dialogue: 0,0:06:42.02,0:06:44.06,btth,,0,0,0,,kita harus segera memperbaiki Formasi Pertahanan Sekte.
+Dialogue: 0,0:06:44.86,0:06:45.66,btth,,0,0,0,,Guru,
+Dialogue: 0,0:06:45.78,0:06:46.78,btth,,0,0,0,,Anda baik-baik saja?
+Dialogue: 0,0:06:47.02,0:06:48.02,btth,,0,0,0,,Aku baik-baik saja,
+Dialogue: 0,0:06:48.34,0:06:49.74,btth,,0,0,0,,periksa murid-murid lainnya.
+Dialogue: 0,0:06:51.70,0:06:52.14,btth,,0,0,0,,Kakak senior,
+Dialogue: 0,0:06:59.10,0:07:00.06,btth,,0,0,0,,Yang terpenting sekarang,
+Dialogue: 0,0:07:00.46,0:07:01.98,btth,,0,0,0,,semuanya cepat pulihkan luka.
+Dialogue: 0,0:07:04.14,0:07:04.78,btth,,0,0,0,,Baik.
+Dialogue: 0,0:07:14.42,0:07:15.06,btth,,0,0,0,,Senior Yao,
+Dialogue: 0,0:07:15.50,0:07:16.30,btth,,0,0,0,,Ketua Sekte Yun,
+Dialogue: 0,0:07:16.66,0:07:17.66,btth,,0,0,0,,apa yang terjadi?
+Dialogue: 0,0:07:17.82,0:07:19.94,btth,,0,0,0,,Bahkan Formasi Pertahanan Sekte Bunga sudah rusak.
+Dialogue: 0,0:07:20.50,0:07:22.22,btth,,0,0,0,,Sekte Bunga diserang diam-diam oleh Aula Jiwa.
+Dialogue: 0,0:07:23.10,0:07:24.94,btth,,0,0,0,,Untungnya Tetua Agung keluar tepat waktu,
+Dialogue: 0,0:07:24.94,0:07:26.14,btth,,0,0,0,,dan sudah mengusir mereka.
+Dialogue: 0,0:07:26.62,0:07:28.50,btth,,0,0,0,,Ada sedikit kerusakan,
+Dialogue: 0,0:07:28.50,0:07:28.78,btth,,0,0,0,,tapi tidak parah.
+Dialogue: 0,0:07:29.82,0:07:31.38,btth,,0,0,0,,Kalian juga cepat pulihkan diri.
+Dialogue: 0,0:07:33.42,0:07:34.78,btth,,0,0,0,,Terima kasih, Senior Yao.
+Dialogue: 0,0:07:35.50,0:07:36.98,btth,,0,0,0,,Tidak perlu berterima kasih,
+Dialogue: 0,0:07:37.50,0:07:39.38,btth,,0,0,0,,kalau bukan karena ingin beraliansi dengan Paviliun Bintang Jatuh,
+Dialogue: 0,0:07:39.78,0:07:42.02,btth,,0,0,0,,mana mungkin Aula Jiwa menyerang kita.
+Dialogue: 0,0:07:42.50,0:07:43.42,btth,,0,0,0,,Suara itu...
+Dialogue: 0,0:07:43.42,0:07:58.42,btth,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh DongWorld.
+Dialogue: 0,0:07:59.10,0:08:00.42,btth,,0,0,0,,Hormat pada Tetua Agung.
+Dialogue: 0,0:08:01.38,0:08:02.50,btth,,0,0,0,,Peri Qing.
+Dialogue: 0,0:08:04.79,0:08:05.79,btth,,0,0,0,,Yao Chen.
+Dialogue: 0,0:08:06.30,0:08:08.30,btth,,0,0,0,,Kau ternyata tidak mati.
+Dialogue: 0,0:08:10.02,0:08:11.34,btth,,0,0,0,,Sudah berantakan begini,
+Dialogue: 0,0:08:11.70,0:08:13.34,btth,,0,0,0,,cepat rapikan dan antar tamu pergi.
+Dialogue: 0,0:08:13.82,0:08:15.38,btth,,0,0,0,,Jangan sampai dilihat orang lain.
+Dialogue: 0,0:08:16.04,0:08:17.18,btth,,0,0,0,,Baik.
+Dialogue: 0,0:08:21.74,0:08:24.22,btth,,0,0,0,,Senior Yao, kami masih harus membereskan keadaan,
+Dialogue: 0,0:08:24.34,0:08:24.90,btth,,0,0,0,,maaf tidak bisa melayani dengan baik.
+Dialogue: 0,0:08:25.46,0:08:26.18,btth,,0,0,0,,Tidak apa-apa.
+Dialogue: 0,0:08:34.34,0:08:35.46,btth,,0,0,0,,Sudah bertahun-tahun,
+Dialogue: 0,0:08:35.78,0:08:36.94,btth,,0,0,0,,sifatmu masih tidak berubah.
+Dialogue: 0,0:08:39.74,0:08:40.54,btth,,0,0,0,,Yao Chen,
+Dialogue: 0,0:08:40.98,0:08:42.82,btth,,0,0,0,,Paviliun Bintang Jatuh mau bersekutu dengan siapa,
+Dialogue: 0,0:08:42.98,0:08:43.98,btth,,0,0,0,,aku tidak peduli.
+Dialogue: 0,0:08:44.38,0:08:45.78,btth,,0,0,0,,Tapi kalau sampai melibatkan Sekte Bunga,
+Dialogue: 0,0:08:46.22,0:08:48.29,btth,,0,0,0,,jangan salahkan aku kasar padamu.
+Dialogue: 0,0:08:49.62,0:08:50.42,btth,,0,0,0,,Maaf,
+Dialogue: 0,0:08:50.94,0:08:53.34,btth,,0,0,0,,musibah Sekte Bunga ini karena Paviliun Bintang Jatuh.
+Dialogue: 0,0:08:53.78,0:08:55.30,btth,,0,0,0,,Tapi ini bukan maksud kami.
+Dialogue: 0,0:08:59.94,0:09:00.98,btth,,0,0,0,,Sudah begini,
+Dialogue: 0,0:09:01.38,0:09:02.42,btth,,0,0,0,,silakan Anda kembali.
+Dialogue: 0,0:09:03.02,0:09:05.98,btth,,0,0,0,,Aku tidak ingin menempatkan Sekte Bunga dalam bahaya kehancuran.
+Dialogue: 0,0:09:06.98,0:09:08.78,btth,,0,0,0,,Aula Jiwa kali ini tidak berhasil,
+Dialogue: 0,0:09:08.78,0:09:10.14,btth,,0,0,0,,pasti akan menyerang lagi.
+Dialogue: 0,0:09:10.50,0:09:12.30,btth,,0,0,0,,Klan Ling menghilang tanpa sebab,
+Dialogue: 0,0:09:12.58,0:09:15.50,btth,,0,0,0,,pasti ada konspirasi besar di balik Aula Jiwa.
+Dialogue: 0,0:09:16.14,0:09:18.22,btth,,0,0,0,,Kau juga tahu kekuatan di balik Aula Jiwa,
+Dialogue: 0,0:09:18.62,0:09:20.54,btth,,0,0,0,,kalau aku setuju bekerja sama denganmu,
+Dialogue: 0,0:09:20.74,0:09:22.42,btth,,0,0,0,,dan ternyata Sekte Bunga mengalami nasib buruk,
+Dialogue: 0,0:09:22.58,0:09:23.90,btth,,0,0,0,,aku tidak sanggup menanggungnya.
+Dialogue: 0,0:09:24.42,0:09:25.82,btth,,0,0,0,,Aula Jiwa kejam dan keji,
+Dialogue: 0,0:09:25.82,0:09:26.90,btth,,0,0,0,,caranya licik,
+Dialogue: 0,0:09:27.38,0:09:29.18,btth,,0,0,0,,kalau Sekte Bunga bisa bergabung dengan aliansi,
+Dialogue: 0,0:09:29.18,0:09:32.58,btth,,0,0,0,,aliansi akan berusaha sekuat tenaga melindungi seluruh anggota.
+Dialogue: 0,0:09:38.50,0:09:39.34,btth,,0,0,0,,Tiga hari lagi,
+Dialogue: 0,0:09:39.74,0:09:40.62,btth,,0,0,0,,kalau aku datang,
+Dialogue: 0,0:09:40.82,0:09:42.74,btth,,0,0,0,,berarti Sekte Bunga setuju bersekutu.
+Dialogue: 0,0:09:43.22,0:09:44.22,btth,,0,0,0,,Kalau aku tidak datang,
+Dialogue: 0,0:09:44.82,0:09:45.74,btth,,0,0,0,,Semua hal ini,
+Dialogue: 0,0:09:46.02,0:09:47.58,btth,,0,0,0,,anggaplah tidak pernah terjadi.
+Dialogue: 0,0:09:50.94,0:09:52.42,btth,,0,0,0,,Kuharap kau akan datang.
+Dialogue: 0,0:09:57.02,0:09:58.78,btth,,0,0,0,,Burning Flame Valley sudah jelas setuju bersekutu,
+Dialogue: 0,0:09:59.18,0:10:02.22,btth,,0,0,0,,sekarang hanya menunggu balasan dari Sekte Bunga dan Pagoda Pil.
+Dialogue: 0,0:10:02.78,0:10:04.62,btth,,0,0,0,,Jangan terlalu berharap pada Sekte Bunga,
+Dialogue: 0,0:10:05.78,0:10:07.78,btth,,0,0,0,,serangan Aula Jiwa kali ini,
+Dialogue: 0,0:10:07.78,0:10:09.50,btth,,0,0,0,,sudah membuat mereka putus asa.
+Dialogue: 0,0:10:11.50,0:10:12.34,btth,,0,0,0,,Kalau begitu sekarang,
+Dialogue: 0,0:10:12.74,0:10:13.70,btth,,0,0,0,,sisi Pagoda Pil,
+Dialogue: 0,0:10:13.90,0:10:15.02,btth,,0,0,0,,adalah kunci kita.
+Dialogue: 0,0:10:17.06,0:10:17.86,btth,,0,0,0,,Benar,
+Dialogue: 0,0:10:18.38,0:10:20.70,btth,,0,0,0,,meskipun Pagoda Pil sangat membenci Aula Jiwa,
+Dialogue: 0,0:10:20.90,0:10:22.86,btth,,0,0,0,,tapi mereka selalu bersikap netral,
+Dialogue: 0,0:10:22.98,0:10:23.98,btth,,0,0,0,,agak sulit.
+Dialogue: 0,0:10:27.02,0:10:28.94,btth,,0,0,0,,Bagaimana kalau kirim surat lagi untuk menguji?
+Dialogue: 0,0:10:30.18,0:10:31.34,btth,,0,0,0,,Ini tidak bisa sembarangan,
+Dialogue: 0,0:10:31.90,0:10:33.10,btth,,0,0,0,,untuk meyakinkan mereka,
+Dialogue: 0,0:10:33.22,0:10:35.38,btth,,0,0,0,,aku dan Xiao Yan harus pergi sendiri.
+Dialogue: 0,0:10:38.42,0:10:40.18,btth,,0,0,0,,Paviliun Bintang Jatuh ada kami yang jaga,
+Dialogue: 0,0:10:40.50,0:10:42.42,btth,,0,0,0,,selama ini urusan juga sudah selesai,
+Dialogue: 0,0:10:42.62,0:10:44.10,btth,,0,0,0,,seharusnya tidak akan ada masalah.
+Dialogue: 0,0:10:45.02,0:10:45.82,btth,,0,0,0,,Kak Chen,
+Dialogue: 0,0:10:46.10,0:10:47.50,btth,,0,0,0,,kalian rencananya kapan pergi?
+Dialogue: 0,0:10:48.90,0:10:49.82,btth,,0,0,0,,Tidak bisa ditunda,
+Dialogue: 0,0:10:50.22,0:10:51.18,btth,,0,0,0,,hari ini juga berangkat.
+Dialogue: 0,0:11:11.02,0:11:11.98,btth,,0,0,0,,Sudah lama tidak datang,
+Dialogue: 0,0:11:12.38,0:11:14.94,btth,,0,0,0,,Pagoda Pil ternyata masih begitu bersemangat.
+Dialogue: 0,0:11:16.42,0:11:20.54,btth,,0,0,0,,Tapi begitu ingat para tetua tua di dewan kecil Pagoda Pil,
+Dialogue: 0,0:11:22.14,0:11:23.46,btth,,0,0,0,,sungguh sulit dijelaskan.
+Dialogue: 0,0:11:24.18,0:11:25.18,btth,,0,0,0,,Pagoda Pil kecil?
+Dialogue: 0,0:11:26.18,0:11:27.58,btth,,0,0,0,,Orang biasa hanya tahu Pagoda Pil,
+Dialogue: 0,0:11:27.82,0:11:30.82,btth,,0,0,0,,tidak tahu orang Pagoda Pil kecil adalah inti Pagoda Pil.
+Dialogue: 0,0:11:35.18,0:11:37.02,btth,,0,0,0,,Pagoda Pil berbeda dengan Sekte Bunga,
+Dialogue: 0,0:11:37.02,0:11:37.94,btth,,0,0,0,,Burning Flame Valley,
+Dialogue: 0,0:11:38.38,0:11:41.18,btth,,0,0,0,,bersekutu atau tidak tergantung pada pemungutan suara tetua.
+Dialogue: 0,0:11:42.22,0:11:43.98,btth,,0,0,0,,Dan sejak Pagoda Pil berdiri,
+Dialogue: 0,0:11:44.14,0:11:47.10,btth,,0,0,0,,tidak pernah ikut campur urusan kekuatan mana pun.
+Dialogue: 0,0:11:47.58,0:11:51.30,btth,,0,0,0,,Meskipun tiga pemimpin setuju membantuku mendapatkan suara di rapat,
+Dialogue: 0,0:11:51.70,0:11:54.38,btth,,0,0,0,,kita harus siap pulang dengan tangan hampa.
+Dialogue: 0,0:11:55.58,0:11:57.22,btth,,0,0,0,,Aula Jiwa mendominasi Dataran Tengah,
+Dialogue: 0,0:11:57.50,0:12:00.22,btth,,0,0,0,,kekuatannya jauh melampaui kita.
+Dialogue: 0,0:12:01.98,0:12:04.42,btth,,0,0,0,,Hanya dengan menarik Pagoda Pil yang berpengaruh besar ke aliansi,
+Dialogue: 0,0:12:05.10,0:12:07.30,btth,,0,0,0,,baru bisa mengajak semua melawan musuh bersama.
+Dialogue: 0,0:12:07.58,0:12:08.54,btth,,0,0,0,,Meskipun sulit,
+Dialogue: 0,0:12:08.98,0:12:10.18,btth,,0,0,0,,aku harus mencoba.
+Dialogue: 0,0:12:11.58,0:12:12.38,btth,,0,0,0,,Kata-katamu bagus!
+Dialogue: 0,0:12:21.98,0:12:22.78,btth,,0,0,0,,Yao Lao,
+Dialogue: 0,0:12:23.18,0:12:24.90,btth,,0,0,0,,sudah lama memulihkan tubuh,
+Dialogue: 0,0:12:24.94,0:12:26.86,btth,,0,0,0,,kenapa baru sekarang ingat kembali berkunjung?
+Dialogue: 0,0:12:27.82,0:12:28.90,btth,,0,0,0,,Kau juga tahu,
+Dialogue: 0,0:12:28.90,0:12:32.06,btth,,0,0,0,,wajah-wajah tua di dewan tetua Pagoda Pil tidak menyukaiku.
+Dialogue: 0,0:12:33.50,0:12:34.50,btth,,0,0,0,,Lihatmu pulih dengan baik,
+Dialogue: 0,0:12:34.62,0:12:35.22,btth,,0,0,0,,bahkan mencapai Ban Sheng,
+Dialogue: 0,0:12:36.02,0:12:37.18,btth,,0,0,0,,berkah dalam musibah.
+Dialogue: 0,0:12:37.90,0:12:38.82,btth,,0,0,0,,Lama tidak bertemu.
+Dialogue: 0,0:12:42.06,0:12:44.66,btth,,0,0,0,,Kali ini aku datang karena ada urusan penting.
+Dialogue: 0,0:12:45.34,0:12:46.94,btth,,0,0,0,,Bagaimana dengan urusan aliansi?
+Dialogue: 0,0:12:47.54,0:12:48.58,btth,,0,0,0,,Setelah menerima surat,
+Dialogue: 0,0:12:48.70,0:12:50.94,btth,,0,0,0,,aku langsung mengusulkan persekutuan ke dewan tetua.
+Dialogue: 0,0:12:51.74,0:12:55.14,btth,,0,0,0,,Sayangnya, orang-orang keras kepala di dewan tetua sulit diyakinkan.
+Dialogue: 0,0:12:55.58,0:12:57.74,btth,,0,0,0,,Setelah susah payah, baru dapat empat suara.
+Dialogue: 0,0:12:58.90,0:13:00.90,btth,,0,0,0,,Ditambah tiga suara kalian baru empat suara,
+Dialogue: 0,0:13:01.50,0:13:02.30,btth,,0,0,0,,tidak cukup.
+Dialogue: 0,0:13:03.38,0:13:05.10,btth,,0,0,0,,Dewan tetua delapan kursi, minimal setengah,
+Dialogue: 0,0:13:05.14,0:13:06.30,btth,,0,0,0,,baru bisa dianggap berhasil.
+Dialogue: 0,0:13:07.34,0:13:08.94,btth,,0,0,0,,Sekarang leluhur Pagoda Pil tidak ada,
+Dialogue: 0,0:13:09.34,0:13:10.74,btth,,0,0,0,,sungguh sulit.
+Dialogue: 0,0:13:10.98,0:13:12.74,btth,,0,0,0,,Leluhur itu pergi berkelana lagi?
+Dialogue: 0,0:13:13.58,0:13:15.58,btth,,0,0,0,,Bertahun-tahun tidak ada kabarnya.
+Dialogue: 0,0:13:15.90,0:13:17.90,btth,,0,0,0,,Kalau bukan karena giok jiwanya masih utuh,
+Dialogue: 0,0:13:18.10,0:13:20.74,btth,,0,0,0,,kami sudah mengira dia mengalami nasib buruk.
+Dialogue: 0,0:13:24.26,0:13:25.14,btth,,0,0,0,,Tiga hari lagi,
+Dialogue: 0,0:13:25.58,0:13:27.78,btth,,0,0,0,,tiga hari lagi dewan tetua akan menerima tetua baru,
+Dialogue: 0,0:13:28.30,0:13:31.94,btth,,0,0,0,,pada saat itu tetua baru ini juga akan punya hak suara.
+Dialogue: 0,0:13:33.30,0:13:33.98,btth,,0,0,0,,Paman Xuan,
+Dialogue: 0,0:13:33.98,0:13:35.54,btth,,0,0,0,,calon tetua baru ini,
+Dialogue: 0,0:13:35.58,0:13:36.78,btth,,0,0,0,,sudah ditentukan?
+Dialogue: 0,0:13:37.54,0:13:39.30,btth,,0,0,0,,Saat ini yang paling kompetitif,
+Dialogue: 0,0:13:39.30,0:13:40.50,btth,,0,0,0,,adalah si monster Hou,
+Dialogue: 0,0:13:40.98,0:13:42.90,btth,,0,0,0,,tapi dia selalu tidak akur denganmu,
+Dialogue: 0,0:13:43.14,0:13:44.30,btth,,0,0,0,,sekali terpilih,
+Dialogue: 0,0:13:44.34,0:13:46.94,btth,,0,0,0,,dia pasti akan menghalangi urusan persekutuan ini.
+Dialogue: 0,0:13:47.70,0:13:48.58,btth,,0,0,0,,Monster Hou?
+Dialogue: 0,0:13:49.14,0:13:50.18,btth,,0,0,0,,Orang tua itu,
+Dialogue: 0,0:13:50.54,0:13:51.78,btth,,0,0,0,,sejak Konferensi Pil dulu,
+Dialogue: 0,0:13:51.78,0:13:53.54,btth,,0,0,0,,sudah tidak suka pada Yao Chen.
+Dialogue: 0,0:13:53.98,0:13:57.30,btth,,0,0,0,,Dulu di Konferensi Pil kau menggunakan teknik meningkatkan jiwa dan mengalahkannya,
+Dialogue: 0,0:13:57.74,0:13:59.94,btth,,0,0,0,,dia selalu meragukan caramu tidak benar,
+Dialogue: 0,0:14:00.30,0:14:01.74,btth,,0,0,0,,dan menyimpan dendam padamu.
+Dialogue: 0,0:14:02.78,0:14:03.58,btth,,0,0,0,,Paman Xuan,
+Dialogue: 0,0:14:03.86,0:14:05.34,btth,,0,0,0,,bisakah Guru ikut pemilihan?
+Dialogue: 0,0:14:06.50,0:14:08.90,btth,,0,0,0,,Yao Chen dulu keluar dari Pagoda Pil kecil secara sukarela,
+Dialogue: 0,0:14:09.30,0:14:11.18,btth,,0,0,0,,tidak bisa masuk kembali ke dewan tetua.
+Dialogue: 0,0:14:11.34,0:14:13.26,btth,,0,0,0,,Yao Lao tidak memenuhi syarat,
+Dialogue: 0,0:14:13.70,0:14:14.78,btth,,0,0,0,,tapi Xiao Yan punya.
+Dialogue: 0,0:14:14.78,0:14:29.78,btth,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh DongWorld.
+Dialogue: 0,0:14:30.22,0:14:31.74,btth,,0,0,0,,Xuanyi setelah kau pergi,
+Dialogue: 0,0:14:31.74,0:14:34.30,btth,,0,0,0,,selalu mengkhawatirkan keberadaanmu.
+Dialogue: 0,0:14:34.62,0:14:35.58,btth,,0,0,0,,Tuan Xuan,
+Dialogue: 0,0:14:35.94,0:14:37.98,btth,,0,0,0,,diam saja, tidak ada yang anggap kau bisu.
+Dialogue: 0,0:14:39.18,0:14:40.94,btth,,0,0,0,,Xiao Yan adalah juara Konferensi Pil,
+Dialogue: 0,0:14:40.94,0:14:42.74,btth,,0,0,0,,dan juga kandidat pemimpin Pagoda Pil,
+Dialogue: 0,0:14:42.98,0:14:44.62,btth,,0,0,0,,dia berhak ikut pemilihan.
+Dialogue: 0,0:14:45.18,0:14:47.10,btth,,0,0,0,,Ini juga bukan cara yang buruk.
+Dialogue: 0,0:14:47.58,0:14:50.42,btth,,0,0,0,,Tapi si monster Hou sekarang bisa memanggil Petir Pil Sembilan Warna,
+Dialogue: 0,0:14:50.98,0:14:52.18,btth,,0,0,0,,kau yakin bisa?
+Dialogue: 0,0:14:52.98,0:14:53.86,btth,,0,0,0,,Bisa dicoba.
+Dialogue: 0,0:14:54.94,0:14:57.98,btth,,0,0,0,,Ingat pergi menilai ulang tingkat lencana alkemis,
+Dialogue: 0,0:14:58.10,0:14:59.18,btth,,0,0,0,,agar tidak dipertanyakan orang.
+Dialogue: 0,0:15:00.38,0:15:01.30,btth,,0,0,0,,Tidak bisa ditunda,
+Dialogue: 0,0:15:01.58,0:15:03.02,btth,,0,0,0,,aku dan Xiao Yan akan persiapkan dulu.
+Dialogue: 0,0:15:03.90,0:15:07.38,btth,,0,0,0,,Kalau begitu kami bertiga harus kembali ke Pagoda Pil kecil untuk persiapkan urusan lomba.
+Dialogue: 0,0:15:08.14,0:15:09.30,btth,,0,0,0,,Terima kasih para senior.
+Dialogue: 0,0:15:22.46,0:15:23.66,btth,,0,0,0,,Alkemis Kelas 8,
+Dialogue: 0,0:15:23.94,0:15:25.54,btth,,0,0,0,,masih tidak kalah dengan gurumu dulu.
+Dialogue: 0,0:15:27.38,0:15:28.30,btth,,0,0,0,,Senior Hou,
+Dialogue: 0,0:15:28.46,0:15:30.74,btth,,0,0,0,,pil ini menurutku ada yang tidak beres,
+Dialogue: 0,0:15:30.78,0:15:32.06,btth,,0,0,0,,bisakah Anda membantuku melihatnya?
+Dialogue: 0,0:15:38.10,0:15:40.58,btth,,0,0,0,,Langsung kelihatan kau tidak mengikuti gulungan dengan benar,
+Dialogue: 0,0:15:41.10,0:15:42.94,btth,,0,0,0,,apakah kau diam-diam menambah bahan lagi?
+Dialogue: 0,0:15:43.66,0:15:44.98,btth,,0,0,0,,Sudah kubilang dari dulu,
+Dialogue: 0,0:15:45.06,0:15:46.54,btth,,0,0,0,,jangan selalu ingin berinovasi,
+Dialogue: 0,0:15:46.54,0:15:47.94,btth,,0,0,0,,harus ikuti aturan.
+Dialogue: 0,0:15:47.94,0:15:48.66,btth,,0,0,0,,Senior,
+Dialogue: 0,0:15:48.70,0:15:49.74,btth,,0,0,0,,tolong lihat pilku ini.
+Dialogue: 0,0:15:51.46,0:15:52.94,btth,,0,0,0,,Bocah dari mana ini?
+Dialogue: 0,0:15:52.94,0:15:53.78,btth,,0,0,0,,Bikin kaget.
+Dialogue: 0,0:15:56.10,0:15:57.26,btth,,0,0,0,,Pil ini bagus,
+Dialogue: 0,0:15:57.98,0:16:00.34,btth,,0,0,0,,aroma pil menyebar, warna merata,
+Dialogue: 0,0:16:00.34,0:16:01.10,btth,,0,0,0,,tekniknya...
+Dialogue: 0,0:16:01.54,0:16:02.34,btth,,0,0,0,,tidak benar!
+Dialogue: 0,0:16:02.94,0:16:04.74,btth,,0,0,0,,Di dalamnya ada campuran bahan lain,
+Dialogue: 0,0:16:04.86,0:16:06.10,btth,,0,0,0,,juga tidak sesuai aturan.
+Dialogue: 0,0:16:07.22,0:16:08.02,btth,,0,0,0,,Guru.
+Dialogue: 0,0:16:10.34,0:16:11.14,btth,,0,0,0,,Yao Chen?
+Dialogue: 0,0:16:11.70,0:16:12.94,btth,,0,0,0,,Kenapa kau ada di sini?
+Dialogue: 0,0:16:14.26,0:16:16.10,btth,,0,0,0,,Ternyata murid Yao Chen,
+Dialogue: 0,0:16:16.26,0:16:17.14,btth,,0,0,0,,pantas saja.
+Dialogue: 0,0:16:18.46,0:16:20.70,btth,,0,0,0,,Orang tua ini ternyata masih hidup,
+Dialogue: 0,0:16:20.78,0:16:23.22,btth,,0,0,0,,bisa kabur dari tangan Aula Jiwa,
+Dialogue: 0,0:16:23.22,0:16:24.22,btth,,0,0,0,,hidupmu panjang sekali.
+Dialogue: 0,0:16:24.42,0:16:26.06,btth,,0,0,0,,Bagaimana mungkin aku mati duluan darimu?
+Dialogue: 0,0:16:26.94,0:16:29.34,btth,,0,0,0,,Guru, Senior Hou ini...
+Dialogue: 0,0:16:29.34,0:16:31.22,btth,,0,0,0,,memang sifatnya seperti ini,
+Dialogue: 0,0:16:31.22,0:16:32.66,btth,,0,0,0,,panggil saja dia Hou Lao.
+Dialogue: 0,0:16:33.94,0:16:36.10,btth,,0,0,0,,Dulu kau keluar dari Pagoda Pil kecil secara sukarela,
+Dialogue: 0,0:16:36.34,0:16:39.34,btth,,0,0,0,,kupikir kau punya nyali tidak kembali selamanya.
+Dialogue: 0,0:16:39.94,0:16:41.74,btth,,0,0,0,,Pagoda Pil punya jasa membesarkanku,
+Dialogue: 0,0:16:41.98,0:16:44.26,btth,,0,0,0,,kembali melihat juga sudah seharusnya.
+Dialogue: 0,0:16:45.54,0:16:46.70,btth,,0,0,0,,Aku tahu.
+Dialogue: 0,0:16:47.10,0:16:50.50,btth,,0,0,0,,Kau pasti ingin kursi tetua di Pagoda Pil kecil,
+Dialogue: 0,0:16:50.50,0:16:52.46,btth,,0,0,0,,makanya tidak tahu malu kembali lagi.
+Dialogue: 0,0:16:53.54,0:16:56.46,btth,,0,0,0,,Aku sebenarnya tidak terlalu tertarik dengan kursi tetua,
+Dialogue: 0,0:16:56.46,0:16:58.10,btth,,0,0,0,,tapi karena kau ikut lomba,
+Dialogue: 0,0:16:58.18,0:17:00.06,btth,,0,0,0,,aku harus tunjukkan kemampuanku.
+Dialogue: 0,0:17:00.34,0:17:02.50,btth,,0,0,0,,Akan kuperlihatkan kekuatanku yang sekarang.
+Dialogue: 0,0:17:04.58,0:17:05.90,btth,,0,0,0,,Kita lihat di arena lomba.
+Dialogue: 0,0:17:07.18,0:17:09.26,btth,,0,0,0,,Yang akan bertanding adalah aku.
+Dialogue: 0,0:17:09.26,0:17:11.34,btth,,0,0,0,,Dia dulu meski meragukanku,
+Dialogue: 0,0:17:11.46,0:17:12.74,btth,,0,0,0,,tapi sifatnya tidak buruk,
+Dialogue: 0,0:17:13.22,0:17:15.22,btth,,0,0,0,,hanya sesaat terbutakan oleh kemenangan.
+Dialogue: 0,0:17:15.98,0:17:17.90,btth,,0,0,0,,Dedikasinya dalam mempelajari alkemis,
+Dialogue: 0,0:17:18.30,0:17:19.38,btth,,0,0,0,,tidak kalah dariku.
+Dialogue: 0,0:17:27.14,0:17:28.66,btth,,0,0,0,,Aroma bahan obat yang sangat pekat.
+Dialogue: 0,0:17:29.50,0:17:32.14,btth,,0,0,0,,Tak kusangka di dalam Pagoda Pil ada tempat seperti ini.
+Dialogue: 0,0:17:32.54,0:17:33.34,btth,,0,0,0,,Tentu saja,
+Dialogue: 0,0:17:33.70,0:17:37.06,btth,,0,0,0,,bagaimanapun Pagoda Pil kecil adalah kekuatan inti di Pagoda Pil.
+Dialogue: 0,0:17:56.50,0:17:58.06,btth,,0,0,0,,Hormat pada tetua.
+Dialogue: 0,0:18:00.26,0:18:02.51,btth,,0,0,0,,Dua alkemis Kelas 8 tingkat menengah.
+Dialogue: 0,0:18:02.51,0:18:04.34,btth,,0,0,0,,Satu alkemis Kelas 8 tingkat Atas.
+Dialogue: 0,0:18:05.74,0:18:07.86,btth,,0,0,0,,Aura yang satu ini sangat dalam dan tak terukur.
+Dialogue: 0,0:18:08.98,0:18:11.14,btth,,0,0,0,,Dia adalah Tetua Agung Lin dari Pagoda Pil kecil.
+Dialogue: 0,0:18:12.54,0:18:13.94,btth,,0,0,0,,Dia selain leluhur,
+Dialogue: 0,0:18:13.94,0:18:15.98,btth,,0,0,0,,juga yang paling senior di Pagoda Pil kecil.
+Dialogue: 0,0:18:16.38,0:18:19.18,btth,,0,0,0,,Bahkan aku harus memberi hormat sebagai junior.
+Dialogue: 0,0:18:20.28,0:18:21.63,btth,,0,0,0,,Seleksi Tetua,
+Dialogue: 0,0:18:21.74,0:18:23.90,btth,,0,0,0,,Kalian juga bukan pertama kali mengalaminya,
+Dialogue: 0,0:18:24.46,0:18:25.74,btth,,0,0,0,,aturan-aturannya,
+Dialogue: 0,0:18:25.74,0:18:27.10,btth,,0,0,0,,tidak akan kujelaskan lagi.
+Dialogue: 0,0:18:27.74,0:18:30.90,btth,,0,0,0,,Semua bahan obat di sini bisa diambil oleh peserta,
+Dialogue: 0,0:18:31.50,0:18:35.50,btth,,0,0,0,,akhirnya siapa yang bisa meracik pil dengan tingkat terbaik,
+Dialogue: 0,0:18:35.50,0:18:37.82,btth,,0,0,0,,dialah pemenangnya.
+Dialogue: 0,0:18:34.65,0:18:35.65,btth,,0,0,0,,{\pos(969,139)}Yao Chen.
+Dialogue: 0,0:18:36.28,0:18:38.56,btth,,0,0,0,,{\pos(969,139)}Kali ini aku pasti akan menang.
+Dialogue: 0,0:18:38.74,0:18:40.90,btth,,0,0,0,,Jika tidak ada pertanyaan lagi,
+Dialogue: 0,0:18:41.26,0:18:43.74,btth,,0,0,0,,silakan peserta masuk ke arena.
+Dialogue: 0,0:18:46.70,0:18:47.82,btth,,0,0,0,,Yao Chen turunlah!
+Dialogue: 0,0:18:48.38,0:18:49.14,btth,,0,0,0,,Guru,
+Dialogue: 0,0:18:49.18,0:18:50.30,btth,,0,0,0,,tunggu kabar baik dariku.
+Dialogue: 0,0:19:00.86,0:19:02.02,btth,,0,0,0,,Murid Yao Chen?
+Dialogue: 0,0:19:03.26,0:19:04.74,btth,,0,0,0,,Pemuda ini siapa?
+Dialogue: 0,0:19:05.14,0:19:05.94,btth,,0,0,0,,Semuda ini,
+Dialogue: 0,0:19:05.94,0:19:07.86,btth,,0,0,0,,sudah menjadi alkemis Kelas 8?
+Dialogue: 0,0:19:08.34,0:19:10.74,btth,,0,0,0,,Xiao Yan adalah murid Yao Chen,
+Dialogue: 0,0:19:11.14,0:19:12.94,btth,,0,0,0,,juga juara Konferensi Pil kali ini,
+Dialogue: 0,0:19:13.26,0:19:15.46,btth,,0,0,0,,memiliki kemampuan alkemis Kelas 8.
+Dialogue: 0,0:19:16.06,0:19:17.10,btth,,0,0,0,,Menurut aturan,
+Dialogue: 0,0:19:17.34,0:19:20.22,btth,,0,0,0,,dia juga berhak ikut pemilihan tetua.
+Dialogue: 0,0:19:21.02,0:19:21.74,btth,,0,0,0,,Bocah kecil,
+Dialogue: 0,0:19:21.94,0:19:24.74,btth,,0,0,0,,pemilihan tetua ini bukan lomba biasa,
+Dialogue: 0,0:19:25.06,0:19:27.34,btth,,0,0,0,,hari ini akan kuperlihatkan kemampuanku,
+Dialogue: 0,0:19:27.54,0:19:31.06,btth,,0,0,0,,akan kutunjukkan padamu apa itu alkemi sejati.
+Dialogue: 0,0:19:32.86,0:19:34.26,btth,,0,0,0,,Gelombang jiwa yang sangat kuat.
+Dialogue: 0,0:19:36.10,0:19:36.90,btth,,0,0,0,,Guru tenang saja.
+Dialogue: 0,0:19:37.26,0:19:39.66,btth,,0,0,0,,Xiao Yan pasti tidak akan mencoreng nama baikmu.

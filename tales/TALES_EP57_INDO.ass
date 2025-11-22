@@ -1,0 +1,231 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0,0,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.87,0:00:05.77,tales,,0,0,0,,Titah Kaisar telah tiba.
+Dialogue: 0,0:00:05.80,0:00:09.17,tales,,0,0,0,,Gu Linuan berperangai lurus dan\Nterpelajar dalam kitab suci dan sejarah,
+Dialogue: 0,0:00:09.20,0:00:12.90,tales,,0,0,0,,dengan ini ditunjuk sebagai Pemimpin Besar\NAkademi Agung, memimpin urusan akademi.
+Dialogue: 0,0:00:12.97,0:00:15.00,tales,,0,0,0,,Semoga kau dapat mencetak banyak talenta berbakat,
+Dialogue: 0,0:00:15.10,0:00:16.57,tales,,0,0,0,,jangan mengecewakan harapanku.
+Dialogue: 0,0:00:16.60,0:00:21.07,tales,,0,0,0,,Hamba pasti akan mengabdikan diri\Nsepenuhnya, sampai mati sekalipun.
+Dialogue: 0,0:00:27.87,0:00:29.17,tales,,0,0,0,,Ada kabar dari Akademi Agung,
+Dialogue: 0,0:00:30.07,0:00:32.70,tales,,0,0,0,,Pemimpin Besar yang baru adalah Gu Linuan.
+Dialogue: 0,0:00:35.10,0:00:38.87,tales,,0,0,0,,Bakat dan moral Gu Linuan masih jauh dari memadai,
+Dialogue: 0,0:00:39.47,0:00:40.67,tales,,0,0,0,,tapi mengenai hal ini,
+Dialogue: 0,0:00:40.87,0:00:42.07,tales,,0,0,0,,aku tidak bisa banyak bicara.
+Dialogue: 0,0:00:42.77,0:00:44.20,tales,,0,0,0,,Pengaruhku terlalu besar,
+Dialogue: 0,0:00:44.37,0:00:46.37,tales,,0,0,0,,wajar jika Yang Mulia khawatir.
+Dialogue: 0,0:00:46.57,0:00:49.60,tales,,0,0,0,,Kalau tidak, aku justru akan merasa tidak tenang.
+Dialogue: 0,0:00:50.07,0:00:53.17,tales,,0,0,0,,Pergilah sampaikan urusan Pemimpin\NBaru Kultus Iblis Langit kepada Yang Mulia,
+Dialogue: 0,0:00:53.27,0:00:55.47,tales,,0,0,0,,tapi tentang asal-usul\NGrandmaster Kultus Iblis Langit,
+Dialogue: 0,0:00:55.77,0:00:57.07,tales,,0,0,0,,tidak perlu dibicarakan.
+Dialogue: 0,0:01:02.97,0:01:04.67,tales,,0,0,0,,Setelah kau menjadi Pemimpin Kultus Suci,
+Dialogue: 0,0:01:04.97,0:01:06.97,tales,,0,0,0,,apa hal pertama yang akan kau lakukan?
+Dialogue: 0,0:01:07.40,0:01:09.07,tales,,0,0,0,,Membentuk Aula ke-361,
+Dialogue: 0,0:01:09.57,0:01:10.37,tales,,0,0,0,,Aula Sekolah.
+Dialogue: 0,0:01:13.27,0:01:15.20,tales,,0,0,0,,Aku tahu kau suka bikin onar.
+Dialogue: 0,0:01:15.60,0:01:17.17,tales,,0,0,0,,Asrama Murid boleh kau ganggu,
+Dialogue: 0,0:01:17.70,0:01:19.20,tales,,0,0,0,,tapi Gunung Suci kita,
+Dialogue: 0,0:01:19.57,0:01:21.27,tales,,0,0,0,,jangan sekali-kali kau rusak!
+Dialogue: 0,0:01:21.80,0:01:23.17,tales,,0,0,0,,Aku juga tidak sering melakukannya kok.
+Dialogue: 0,0:01:23.47,0:01:24.37,tales,,0,0,0,,Aku paham.
+Dialogue: 0,0:01:24.90,0:01:26.67,tales,,0,0,0,,Kau datang ke Akademi\NAgung kurang dari delapan hari,
+Dialogue: 0,0:01:27.07,0:01:28.70,tales,,0,0,0,,sudah bikin rusuh dua tiga kali,
+Dialogue: 0,0:01:28.77,0:01:30.17,tales,,0,0,0,,lalu pergi mengacak ke perbatasan.
+Dialogue: 0,0:01:31.17,0:01:34.20,tales,,0,0,0,,Setiap aula dan istana di\Nsini adalah situs bersejarah,
+Dialogue: 0,0:01:34.60,0:01:36.07,tales,,0,0,0,,terukir banyak cara kultivasi,
+Dialogue: 0,0:01:36.47,0:01:37.57,tales,,0,0,0,,semua murid bisa mempelajarinya.
+Dialogue: 0,0:01:38.17,0:01:39.67,tales,,0,0,0,,Tidak perlu menyimpan sendiri\Nbarang yang tidak berharga,
+Dialogue: 0,0:01:40.07,0:01:41.77,tales,,0,0,0,,mampu mempelajarinya itulah kemampuan.
+Dialogue: 0,0:01:46.70,0:01:48.50,tales,,0,0,0,,Pemimpin Suci, tunggu sebentar.
+Dialogue: 0,0:01:49.70,0:01:52.27,tales,,0,0,0,,Perpisahan kali ini adalah untuk selamanya.
+Dialogue: 0,0:01:53.07,0:01:55.87,tales,,0,0,0,,Diantar sejauh apapun tetap harus berpisah.
+Dialogue: 0,0:01:56.17,0:01:56.77,tales,,0,0,0,,Grandmaster.
+Dialogue: 0,0:01:57.07,0:01:59.17,tales,,0,0,0,,Barang-barang berharga\Nini kuambil dari Istana Emas,
+Dialogue: 0,0:01:59.17,0:02:00.40,tales,,0,0,0,,seharusnya bisa ditukar dengan bekal perjalanan.
+Dialogue: 0,0:02:00.57,0:02:01.80,tales,,0,0,0,,Aku juga menyiapkan beberapa obat tonik,
+Dialogue: 0,0:02:01.87,0:02:03.77,tales,,0,0,0,,botol obatnya sudah dibagi berdasarkan musim.
+Dialogue: 0,0:02:03.77,0:02:05.87,tales,,0,0,0,,Makan yang putih saat Titik Musim\NSemi, yang hijau saat Embun Beku.
+Dialogue: 0,0:02:06.27,0:02:08.80,tales,,0,0,0,,Ember ini berisi Ikan Mas Sembilan\NNaga yang baru kupancing, masih segar.
+Dialogue: 0,0:02:08.80,0:02:10.77,tales,,0,0,0,,Ada juga simpul keselamatan yang kurajut,
+Dialogue: 0,0:02:10.80,0:02:13.20,tales,,0,0,0,,beberapa jubah tebal, sepatu.
+Dialogue: 0,0:02:50.47,0:02:52.07,tales,,0,0,0,,Terima kasih, Grandmaster.
+Dialogue: 0,0:02:55.30,0:02:57.37,tales,,0,0,0,,Untuk seratus tahun bimbingan,
+Dialogue: 0,0:02:58.00,0:03:00.30,tales,,0,0,0,,dan dukungan seumur hidup.
+Dialogue: 0,0:03:00.57,0:03:03.37,tales,,0,0,0,,Hormat perpisahan untuk Grandmaster.
+Dialogue: 0,0:03:20.97,0:03:21.50,tales,,0,0,0,,Kepala Desa.
+Dialogue: 0,0:03:22.17,0:03:24.27,tales,,0,0,0,,Apa kau selama dua hari\Nterakhir selalu tergeletak seperti ini,
+Dialogue: 0,0:03:24.80,0:03:27.20,tales,,0,0,0,,bahkan saat malam tidak kembali ke kamar tidur?
+Dialogue: 0,0:03:29.87,0:03:32.50,tales,,0,0,0,,Guru Obat, hatimu sedang tidak tenang.
+Dialogue: 0,0:03:33.30,0:03:35.87,tales,,0,0,0,,Biasanya kau setiap malam\Nmengantarku kembali ke kamar,
+Dialogue: 0,0:03:36.10,0:03:38.27,tales,,0,0,0,,tapi tiba-tiba semalam kau lupa.
+Dialogue: 0,0:03:38.67,0:03:41.57,tales,,0,0,0,,Lalu kau tidak bisa jalan\Nsendiri, terbang sendiri?
+Dialogue: 0,0:03:42.77,0:03:43.97,tales,,0,0,0,,Kau juga tahu,
+Dialogue: 0,0:03:43.97,0:03:46.97,tales,,0,0,0,,aku tidak punya kaki, juga tidak punya tangan.
+Dialogue: 0,0:03:47.47,0:03:49.10,tales,,0,0,0,,Kau punya kemampuan yang luar biasa,
+Dialogue: 0,0:03:49.27,0:03:50.57,tales,,0,0,0,,kegelapan saja tidak bisa membunuhmu.
+Dialogue: 0,0:03:50.67,0:03:52.77,tales,,0,0,0,,Kau, kau berani berpura-pura\Nmenyedihkan dihadapanku?
+Dialogue: 0,0:03:54.77,0:03:56.77,tales,,0,0,0,,Aku yang malas bergerak dua hari ini,
+Dialogue: 0,0:03:57.47,0:03:58.40,tales,,0,0,0,,itu salahku.
+Dialogue: 0,0:04:05.07,0:04:08.80,tales,,0,0,0,,Ada teman datang dari jauh,\Nbukankah itu menyenangkan?
+Dialogue: 0,0:04:09.17,0:04:09.97,tales,,0,0,0,,Rekan Tao.
+Dialogue: 0,0:04:10.47,0:04:12.27,tales,,0,0,0,,Kau terlihat begitu lega.
+Dialogue: 0,0:04:18.67,0:04:21.50,tales,,0,0,0,,Setelah menerima warisan Tulisan Batu Orang Suci,
+Dialogue: 0,0:04:21.97,0:04:25.67,tales,,0,0,0,,Pemimpin Suci harus merenungkan\Nteknik penyatuannya sendiri,
+Dialogue: 0,0:04:25.87,0:04:30.37,tales,,0,0,0,,untuk menyatukan semua Tao dan kekuatan\Nmagis dalam "Kitab Ajaran Iblis Langit".
+Dialogue: 0,0:04:31.20,0:04:34.00,tales,,0,0,0,,Gunung Suci jauh dari keramaian duniawi,
+Dialogue: 0,0:04:34.47,0:04:36.47,tales,,0,0,0,,sangat cocok untuk latihan.
+Dialogue: 0,0:04:37.47,0:04:52.47,tales,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:05:16.90,0:05:19.47,tales,,0,0,0,,Pemimpin Suci mendapat\Nbimbingan dari kalian semua,
+Dialogue: 0,0:05:20.17,0:05:21.57,tales,,0,0,0,,sangat cerdas dan luar biasa,
+Dialogue: 0,0:05:22.07,0:05:23.37,tales,,0,0,0,,terlahir dengan Tubuh Hegemonik.
+Dialogue: 0,0:05:23.80,0:05:24.87,tales,,0,0,0,,Pengetahuanku dangkal,
+Dialogue: 0,0:05:24.97,0:05:28.37,tales,,0,0,0,,tidak tahu di dunia ini ada Tubuh\NHegemonik, datang untuk meminta petunjuk.
+Dialogue: 0,0:05:30.87,0:05:33.10,tales,,0,0,0,,Kita berhasil menipu\NGrandmaster Kultus Iblis Langit juga.
+Dialogue: 0,0:05:36.60,0:05:37.47,tales,,0,0,0,,Aku tidak sopan.
+Dialogue: 0,0:05:38.27,0:05:40.07,tales,,0,0,0,,Tubuh Hegemonik yang disebut-sebut itu,
+Dialogue: 0,0:05:40.17,0:05:42.00,tales,,0,0,0,,ada sebabnya.
+Dialogue: 0,0:05:43.47,0:05:48.17,tales,,0,0,0,,Merenungkan teknik penyatuan, mana\Nmungkin bisa selesai dalam satu hari?
+Dialogue: 0,0:05:48.27,0:05:50.80,tales,,0,0,0,,Grandmaster mungkin ingin Pemimpin Suci
+Dialogue: 0,0:05:50.80,0:05:53.97,tales,,0,0,0,,segera mempelajari keahlian lain dari kultus kita.
+Dialogue: 0,0:05:54.27,0:05:56.30,tales,,0,0,0,,Maksudmu teknik teleportasi?
+Dialogue: 0,0:05:56.87,0:06:00.20,tales,,0,0,0,,Mempelajari teknik ini membutuhkan\Npemahaman numerologi yang sangat tinggi,
+Dialogue: 0,0:06:00.47,0:06:04.80,tales,,0,0,0,,Pemimpin Suci masih sangat\Nmuda, mungkin agak sulit.
+Dialogue: 0,0:06:11.20,0:06:13.37,tales,,0,0,0,,Dia berhasil membuat sebuah artefak teleportasi.
+Dialogue: 0,0:06:13.80,0:06:15.67,tales,,0,0,0,,Apa Tubuh Hegemonik belajar\Nlebih cepat dari orang lain?
+Dialogue: 0,0:06:19.67,0:06:22.57,tales,,0,0,0,,Itu Paviliun Phoenix Pemimpin\NSuci generasi keenam.
+Dialogue: 0,0:06:22.87,0:06:25.37,tales,,0,0,0,,Leluhur kecil, jangan dibongkar lagi.
+Dialogue: 0,0:06:25.47,0:06:26.67,tales,,0,0,0,,Pemimpin Suci,
+Dialogue: 0,0:06:26.77,0:06:30.20,tales,,0,0,0,,teknik teleportasi sangat berbahaya,\Nkonsumsi energinya sangat besar.
+Dialogue: 0,0:06:30.57,0:06:32.07,tales,,0,0,0,,Dengan tingkat kultivasimu sekarang,
+Dialogue: 0,0:06:32.07,0:06:34.27,tales,,0,0,0,,paling banyak hanya bisa\Nteleportasi tiga empat kali.
+Dialogue: 0,0:06:35.10,0:06:36.77,tales,,0,0,0,,Setiap kali maksimal 700 meter.
+Dialogue: 0,0:06:36.87,0:06:42.17,tales,,0,0,0,,Jika di tengah jalan energimu habis,\Ntersangkut di tembok atau pohon akan berbahaya.
+Dialogue: 0,0:06:51.27,0:06:51.57,tales,,0,0,0,,Hati-hati,
+Dialogue: 0,0:06:51.57,0:06:53.10,tales,,0,0,0,,teleportasi harus tentukan posisi dulu.
+Dialogue: 0,0:06:53.10,0:06:55.07,tales,,0,0,0,,Kalau tidak, kalau sampai\Nterteleportasi ke Tanah Terlarang Xiaolei,
+Dialogue: 0,0:06:55.07,0:06:57.37,tales,,0,0,0,,bisa mati tanpa pemakaman.
+Dialogue: 0,0:07:02.60,0:07:03.67,tales,,0,0,0,,Aku paham,
+Dialogue: 0,0:07:04.10,0:07:05.87,tales,,0,0,0,,tentukan dulu satu per satu posisi teleportasi,
+Dialogue: 0,0:07:05.97,0:07:07.57,tales,,0,0,0,,lalu sambungkan posisi-posisinya,
+Dialogue: 0,0:07:07.70,0:07:09.27,tales,,0,0,0,,maka bisa teleportasi dengan tepat.
+Dialogue: 0,0:07:15.27,0:07:17.97,tales,,0,0,0,,Pemimpin Suci terlahir dengan Tubuh Hegemonik,
+Dialogue: 0,0:07:18.17,0:07:22.47,tales,,0,0,0,,begitu cepat sudah melatih\Nteknik teleportasi sampai tingkat ini,
+Dialogue: 0,0:07:23.70,0:07:26.07,tales,,0,0,0,,mungkin Grandmaster juga tidak menyangka.
+Dialogue: 0,0:07:49.50,0:07:52.00,tales,,0,0,0,,Tidak disangka, Tubuh Hegemonik terkuat
+Dialogue: 0,0:07:52.70,0:07:54.10,tales,,0,0,0,,ternyata adalah orang biasa,
+Dialogue: 0,0:07:54.50,0:07:56.97,tales,,0,0,0,,tapi dia sendiri sangat percaya\Ndengan Tubuh Hegemoniknya,
+Dialogue: 0,0:07:57.07,0:08:00.60,tales,,0,0,0,,mengalahkan orang berbakat, sangat berbakat,\Ndan jenius lainnya sampai babak belur.
+Dialogue: 0,0:08:01.67,0:08:05.30,tales,,0,0,0,,Lalu Tubuh Hegemonik Teknik Tiga Inti\Nyang dia latih pasti ada keunikannya, kan?
+Dialogue: 0,0:08:06.27,0:08:08.07,tales,,0,0,0,,Tubuh Hegemonik Teknik Tiga Inti,
+Dialogue: 0,0:08:08.30,0:08:13.57,tales,,0,0,0,,adalah Teknik Pembimbing paling biasa\Ndari zaman dulu untuk menguatkan tubuh.
+Dialogue: 0,0:08:18.47,0:08:20.97,tales,,0,0,0,,Jika hanya orang biasa sebelum bencana Daxu,
+Dialogue: 0,0:08:21.00,0:08:23.07,tales,,0,0,0,,yang bisa melatih Tubuh\NHegemonik Teknik Tiga Inti,
+Dialogue: 0,0:08:23.80,0:08:26.10,tales,,0,0,0,,lalu kenapa Pemimpin Suci\Nbisa membangkitkan Tubuh Fana?
+Dialogue: 0,0:08:26.87,0:08:28.70,tales,,0,0,0,,Apa dia berasal dari sebelum bencana?
+Dialogue: 0,0:08:29.70,0:08:31.37,tales,,0,0,0,,Sebenarnya Mu'er berasal dari mana?
+Dialogue: 0,0:08:33.77,0:08:35.10,tales,,0,0,0,,Negeri Wuyou.
+Dialogue: 0,0:08:36.17,0:08:38.40,tales,,0,0,0,,Boleh tanya, Negeri Wuyou ini di mana?
+Dialogue: 0,0:08:41.07,0:08:43.07,tales,,0,0,0,,Jika Rekan Tao tertarik,
+Dialogue: 0,0:08:43.57,0:08:44.37,tales,,0,0,0,,malam ini,
+Dialogue: 0,0:08:44.57,0:08:46.57,tales,,0,0,0,,kita bisa keluar desa,
+Dialogue: 0,0:08:46.57,0:08:49.77,tales,,0,0,0,,mencari di kegelapan hulu Sungai Yong.
+Dialogue: 0,0:08:54.47,0:08:57.00,tales,,0,0,0,,Pohon Suci ini tidak boleh dihancurkan!
+Dialogue: 0,0:09:01.77,0:09:05.67,tales,,0,0,0,,Teknik penyatuan, dia sudah memahaminya!
+Dialogue: 0,0:09:09.70,0:09:11.27,tales,,0,0,0,,Kapan beberapa Raja Langit datang?
+Dialogue: 0,0:09:12.10,0:09:15.17,tales,,0,0,0,,Mengikuti sifat alami, sepenuhnya alami,
+Dialogue: 0,0:09:15.27,0:09:16.60,tales,,0,0,0,,itulah Tao.
+Dialogue: 0,0:09:16.87,0:09:20.87,tales,,0,0,0,,Pemimpin Suci lupa diri memasuki\NTao, sungguh mengagumkan.
+Dialogue: 0,0:09:21.57,0:09:22.57,tales,,0,0,0,,Raja Langit Lu terlalu memuji.
+Dialogue: 0,0:09:24.70,0:09:26.40,tales,,0,0,0,,Tuan Muda, lapar, kan?
+Dialogue: 0,0:09:27.37,0:09:27.77,tales,,0,0,0,,Ini.
+Dialogue: 0,0:09:31.67,0:09:34.10,tales,,0,0,0,,Ini ayam hutan yang dipelihara\NGadis Suci generasi sebelumnya.
+Dialogue: 0,0:09:34.87,0:09:35.87,tales,,0,0,0,,Dipelihara nenek, ya?
+Dialogue: 0,0:09:36.37,0:09:39.17,tales,,0,0,0,,Ganoderma besar sembilan daun di Aula Raja Obat
+Dialogue: 0,0:09:39.17,0:09:40.90,tales,,0,0,0,,tidak tahu siapa yang menggigit separuhnya,
+Dialogue: 0,0:09:41.10,0:09:43.77,tales,,0,0,0,,kalau tidak, bisa untuk\Nmenambah tenaga Pemimpin Suci.
+Dialogue: 0,0:09:46.67,0:09:47.87,tales,,0,0,0,,Aku tiba-tiba ingat,
+Dialogue: 0,0:09:47.90,0:09:49.97,tales,,0,0,0,,aku ini Doktor Akademi Agung\Nbelum pernah mengajar beberapa kelas,
+Dialogue: 0,0:09:50.70,0:09:51.97,tales,,0,0,0,,aku berencana pergi hari ini.
+Dialogue: 0,0:09:56.27,0:09:59.37,tales,,0,0,0,,Secara perasaan maupun akal,\Nkami harus menahan Pemimpin Suci,
+Dialogue: 0,0:09:59.67,0:10:01.27,tales,,0,0,0,,tapi pelajaran lebih penting,
+Dialogue: 0,0:10:01.47,0:10:03.40,tales,,0,0,0,,kami tidak akan menahannya.
+Dialogue: 0,0:10:03.77,0:10:06.77,tales,,0,0,0,,Pelajaran lebih penting.
+Dialogue: 0,0:10:07.27,0:10:09.17,tales,,0,0,0,,Pastikan sering-sering kembali.
+Dialogue: 0,0:10:10.47,0:10:11.97,tales,,0,0,0,,Pasti.
+Dialogue: 0,0:10:33.77,0:10:36.77,tales,,0,0,0,,Pemimpin Suci generasi ini, luar biasa.
+Dialogue: 0,0:10:37.07,0:10:39.07,tales,,0,0,0,,Teknik teleportasi bergantung pada numerologi,
+Dialogue: 0,0:10:39.07,0:10:41.20,tales,,0,0,0,,teknik penyatuan bergantung pada pemahaman.
+Dialogue: 0,0:10:41.47,0:10:44.04,tales,,0,0,0,,Hanya dalam belasan hari\Ndia sudah bisa menguasainya,
+Dialogue: 0,0:10:44.47,0:10:48.17,tales,,0,0,0,,bakat dan pemahaman\Nseperti ini jarang ada di dunia.
+Dialogue: 0,0:10:48.27,0:10:50.37,tales,,0,0,0,,Tapi jarang ada di dunia,
+Dialogue: 0,0:10:50.73,0:10:53.22,tales,,0,0,0,,bagaimana bisa dibandingkan\Ndengan Penasihat Yankang yang
+Dialogue: 0,0:10:53.22,0:10:55.93,tales,,0,0,0,,merupakan Orang Suci yang\Nmuncul sekali dalam lima ratus tahun?
+Dialogue: 0,0:10:56.07,0:10:56.93,tales,,0,0,0,,Belum tentu,
+Dialogue: 0,0:10:57.63,0:10:59.53,tales,,0,0,0,,ini hanya yang kita lihat,
+Dialogue: 0,0:10:59.63,0:11:01.83,tales,,0,0,0,,mungkin dia juga memahami hal lain.
+Dialogue: 0,0:11:03.83,0:11:06.67,tales,,0,0,0,,Aku sudah tidak sabar ingin melihatnya,
+Dialogue: 0,0:11:06.77,0:11:10.13,tales,,0,0,0,,memimpin kultus kita menuju kejayaan baru.
+Dialogue: 0,0:11:13.63,0:11:16.63,tales,,0,0,0,,Tempat suci kultus kita\Nsudah sampai di atas Guazhou,
+Dialogue: 0,0:11:16.77,0:11:21.17,tales,,0,0,0,,akhir-akhir ini ada pemberontakan\Nkeluarga kerajaan Yankang di Guazhou.
+Dialogue: 0,0:11:22.23,0:11:23.53,tales,,0,0,0,,Pemimpin Suci.
+Dialogue: 0,0:11:24.53,0:11:32.45,tales,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:31.47,0:12:32.13,tales,,0,0,0,,Bos,
+Dialogue: 0,0:12:32.43,0:12:34.37,tales,,0,0,0,,ada seorang pemuda yang\Ntidak tahu dari mana munculnya.
+Dialogue: 0,0:12:34.83,0:12:35.93,tales,,0,0,0,,Semuanya jangan tegang,
+Dialogue: 0,0:12:36.47,0:12:38.23,tales,,0,0,0,,aku hanya ingin numpang perahu ke ibu kota.
+Dialogue: 0,0:12:38.53,0:12:40.43,tales,,0,0,0,,Dari Guazhou ke ibu kota,
+Dialogue: 0,0:12:40.63,0:12:41.83,tales,,0,0,0,,seratus koin Feng besar.
+Dialogue: 0,0:12:42.53,0:12:43.13,tales,,0,0,0,,Semahal itu?
+Dialogue: 0,0:12:44.43,0:12:46.53,tales,,0,0,0,,Harga semurah ini di mana lagi bisa dicari?
+Dialogue: 0,0:12:47.83,0:12:51.37,tales,,0,0,0,,Keadaan tidak baik, setiap hari\Nberperang, sepanjang jalan tidak aman,
+Dialogue: 0,0:12:52.63,0:12:55.63,tales,,0,0,0,,kami melakukan pekerjaan\Nyang mempertaruhkan nyawa ini,
+Dialogue: 0,0:12:56.37,0:12:58.63,tales,,0,0,0,,harus menerima lebih banyak uang nyawa.
+Dialogue: 0,0:13:02.63,0:13:04.53,tales,,0,0,0,,Orang-orang ini mana seperti\Ntukang perahu yang baik,
+Dialogue: 0,0:13:04.57,0:13:05.83,tales,,0,0,0,,jelas-jelas perampok.
+Dialogue: 0,0:13:12.27,0:13:13.57,tales,,0,0,0,,Tamu silakan duduk di atas.
+Dialogue: 0,0:13:16.77,0:13:17.43,tales,,0,0,0,,Nyaman?
+Dialogue: 0,0:13:24.93,0:13:26.03,tales,,0,0,0,,Lapor, Yang Mulia,
+Dialogue: 0,0:13:26.53,0:13:28.23,tales,,0,0,0,,setelah ayah menyelidiki\Nkediaman Penasihat malam hari,
+Dialogue: 0,0:13:28.33,0:13:29.43,tales,,0,0,0,,Benteng Sanqi di Guazhou,
+Dialogue: 0,0:13:29.53,0:13:30.63,tales,,0,0,0,,Istana Liqing di Linzhou,
+Dialogue: 0,0:13:30.63,0:13:32.43,tales,,0,0,0,,dan Gerbang Gai di Pingzhou semua memberontak.
+Dialogue: 0,0:13:32.77,0:13:34.73,tales,,0,0,0,,Katanya Kaisar Yanfeng marah sekali,
+Dialogue: 0,0:13:34.83,0:13:38.07,tales,,0,0,0,,sampai memenjarakan Selir Che yang berasal\Ndari Benteng Sanqi di istana terpencil.
+Dialogue: 0,0:13:38.83,0:13:42.23,tales,,0,0,0,,Sampaikan pesan ke semua sekte,\Nkumpulkan pasukan di perbatasan selatan.
+Dialogue: 0,0:13:52.43,0:13:54.03,tales,,0,0,0,,Penasihat membiarkan pemberontakan begitu lama,
+Dialogue: 0,0:13:54.73,0:13:56.23,tales,,0,0,0,,belum juga berencana menarik jaring?
+Dialogue: 0,0:14:12.83,0:14:14.63,tales,,0,0,0,,Itu pasukan serangga Benteng Sanqi!
+Dialogue: 0,0:14:16.13,0:14:17.03,tales,,0,0,0,,Ganti sisi, belok!
+Dialogue: 0,0:14:17.37,0:14:18.27,tales,,0,0,0,,Tambah kekuatan tembakan!
+Dialogue: 0,0:14:19.27,0:14:20.47,tales,,0,0,0,,Berlayar dengan kecepatan penuh!
+Dialogue: 0,0:14:21.47,0:14:36.47,tales,,0,0,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:15:15.53,0:15:16.53,tales,,0,0,0,,Ilmu pedang yang bagus!
+Dialogue: 0,0:15:27.63,0:15:28.93,tales,,0,0,0,,Namaku Fan Yunxiao,
+Dialogue: 0,0:15:29.13,0:15:30.63,tales,,0,0,0,,Adik berasal dari keluarga Yuyuan?
+Dialogue: 0,0:15:31.17,0:15:33.67,tales,,0,0,0,,Namaku Qin Mu, berasal dari Akademi Agung.

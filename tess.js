@@ -6,7 +6,7 @@ import { promisify } from "util";
 const execPromise = promisify(exec);
 
 const PAGE_ID = "821089531095035";
-const ACCESS_TOKEN = "EAAr8tZA4GbfoBP5uYI655LUFWPtVchyEG1IfZCD2ZCh6WPDtDL5ZAT8U3lqnTGlTTfZA85TBvfVYnfbPZAZBicdqnRN2rzQRvSGzlueht4H44EaUamZB17bDQbz06ZBQjIo91KwIMvJmYUyWiJTjq2cPkcZBYjZBYA0bYdvqOp0kJq6AD9zbsQXtXfMu99RAH7vjBweX3Qy";
+const ACCESS_TOKEN = "EAAr8tZA4GbfoBPZCdwU4V2fO87aCMAOZCoW3oU85gJS2hgKsWLKkVVR9I2bZAheC3ukoFnxZAaP8RcHkeMfcNZB8POR5ZAzWtucyagtYMkSIFgu9kQZCHSDQ2Msn0qFNJuFwkYAZAGHE4XDsSJvsmOo0ZA1m2p97su1cIurL2uQHSoolaqVg3sdEbTZCSk6qaln9r8YJNvn";
 const VIDEO_PATH = "tess.mp4";
 const OUTPUT_VIDEO = "tess_reels.mp4";
 const DESCRIPTION = "tess";
