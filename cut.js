@@ -42,17 +42,17 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', 
       '-i', inputFile, 
-      // '-ss', '00:02:25', 
-      '-to', '00:21:26',
-      '-vf', 'scale=1920:-2', 
+      // '-ss', '00:02:17', 
+      '-to', '00:17:59',
+      // '-vf', 'scale=1920:-2', 
       // '-pix_fmt', 'yuv420p',
-      // '-r', '25', 
+      '-r', '25', 
       '-c:v', 'h264_amf', 
       '-cq:v', '18', 
       '-rc', 'cbr', 
-      '-b:v', '6M',
-      '-maxrate', '6M',
-      '-bufsize', '12M',
+      '-b:v', '2M',
+      '-maxrate', '2M',
+      '-bufsize', '4M',
       '-quality', 'quality',
       '-preset', 'quality', 
       '-c:a', 'aac',
@@ -63,8 +63,8 @@ async function cut(inputFile, outputFile) {
     //   '-y', // Overwrite file output jika ada
     //   '-i', inputFile, // File input
     //   // '-ss', '00:02:17', 
-    //   '-to', '00:20:01',
-    //   '-vf', "scale=1920:-1",
+    //   // '-to', '00:20:01',
+    //   // '-vf', "scale=1920:-1",
     //   // '-pix_fmt', 'yuv420p',
     //   '-c:v', 'libx264',
     //   '-crf', '20',
@@ -139,5 +139,5 @@ async function extractSubtitle(inputFile, subtitleStreamIndex, outputFile, force
 //       outputFile
 //     ];
 
-cut('174_4K.mp4', 'BTTH_EP174.mp4');
+cut('188.mp4', '188_cut.mp4');
 // extractSubtitle('06V2_4K.mp4', 0, 'TOMB_EP6_INDO.srt', true);

@@ -1,0 +1,200 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: RI_EP117_INDO
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:09.87,0:02:12.80,komen,,0,0,0,,{\pos(157,409)\fad(500,250)}Lima hari kemudian...
+Dialogue: 0,0:04:09.66,0:04:13.16,komen,,0,0,0,,{\pos(1612,512)\fad(500,250)}[Penjara Hong\NKolam Darah Pembantaian]
+Dialogue: 0,0:06:25.89,0:06:29.80,komen,,0,0,0,,{\pos(159,410)\fad(500,250)}Tiga hari kemudian...
+Dialogue: 0,0:13:11.23,0:13:15.14,komen,,0,0,0,,{\pos(1601,525)\fad(500,250)}[Kota Iblis Langit\NPaviliun Pedang]
+Dialogue: 0,0:13:15.77,0:13:18.08,komen,,0,0,0,,{\pos(1651,449)\fad(500,250)}[Pedang Kaisar]
+Dialogue: 0,0:13:45.44,0:13:47.75,komen,,0,0,0,,{\pos(1094,579)\fad(500,250)}[Hai Zhu\NMurid Sekte Pedang Daluo\NTahap Akhir Soul Transformation]
+Dialogue: 0,0:13:45.44,0:13:47.75,komen,,0,0,0,,{\pos(1695,581)\fad(500,250)}[Wei Yang\NMurid Sekte Pedang Daluo\NTahap Akhir Soul Transformation]
+Dialogue: 0,0:13:51.41,0:13:53.72,komen,,0,0,0,,{\pos(1562,469)\fad(500,250)}[Mo Fei\NJenderal Iblis\NTahap Sempurna Soul Transformation]
+Dialogue: 0,0:15:38.23,0:15:41.36,komen,,0,0,0,,{\pos(170,420)\fad(500,250)}Lima hari kemudian...
+Dialogue: 0,0:00:03.53,0:00:43.52,ri,,0,0,0,,[PREVIEW EPISODE SEBELUMNYA]
+Dialogue: 0,0:00:43.52,0:00:57.52,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:58.36,0:00:59.76,ri,,0,0,0,,Tempat ini memiliki aura kematian yang sangat kuat.
+Dialogue: 0,0:01:00.64,0:01:01.60,ri,,0,0,0,,Dan aura pembunuhan yang dahsyat,
+Dialogue: 0,0:01:02.16,0:01:04.08,ri,,0,0,0,,sepuluh kali lebih kuat dibanding di luar.
+Dialogue: 0,0:01:26.20,0:01:27.32,ri,,0,0,0,,Ada orang baru.
+Dialogue: 0,0:01:28.12,0:01:29.36,ri,,0,0,0,,Kulitnya putih dan halus,
+Dialogue: 0,0:01:30.00,0:01:33.04,ri,,0,0,0,,aku paling suka menguliti kulit lembut seperti ini.
+Dialogue: 0,0:01:35.28,0:01:37.00,ri,,0,0,0,,Aroma orang luar,
+Dialogue: 0,0:01:37.52,0:01:39.04,ri,,0,0,0,,tepat untuk membunuh satu lagi,
+Dialogue: 0,0:01:39.56,0:01:41.00,ri,,0,0,0,,dan meminum darahnya.
+Dialogue: 0,0:01:42.64,0:01:46.76,ri,,0,0,0,,Mereka adalah penjahat besar yang akan dieksekusi.
+Dialogue: 0,0:01:48.56,0:01:51.60,ri,,0,0,0,,Rekan Wang, silakan lakukan sesukamu.
+Dialogue: 0,0:01:59.12,0:02:00.76,ri,,0,0,0,,Tidak tahu berapa jejak pembantaian,
+Dialogue: 0,0:02:01.16,0:02:03.24,ri,,0,0,0,,yang bisa terkumpul setelah membunuh semua narapidana di sini.
+Dialogue: 0,0:02:12.96,0:02:15.36,ri,,0,0,0,,Tadi tempat ini jelas dipenuhi aura pembunuhan,
+Dialogue: 0,0:02:16.64,0:02:17.16,ri,,0,0,0,,mungkinkah...
+Dialogue: 0,0:02:18.56,0:02:19.72,ri,,0,0,0,,di bawah penjara Hong ini,
+Dialogue: 0,0:02:20.36,0:02:21.60,ri,,0,0,0,,ada rahasia lain?
+Dialogue: 0,0:02:22.96,0:02:24.00,ri,,0,0,0,,Teknik Pembantaian Immortal,
+Dialogue: 0,0:02:24.84,0:02:26.16,ri,,0,0,0,,mengolah kehidupan dari aura pembunuhan,
+Dialogue: 0,0:02:26.64,0:02:28.00,ri,,0,0,0,,mengubah kehidupan menjadi jejak.
+Dialogue: 0,0:02:29.32,0:02:31.04,ri,,0,0,0,,Mengapa setelah kubunuh semua orang di sini,
+Dialogue: 0,0:02:31.56,0:02:33.12,ri,,0,0,0,,hanya dapat aura kematian yang tak berguna?
+Dialogue: 0,0:02:34.36,0:02:35.68,ri,,0,0,0,,Di mana letak salahnya?
+Dialogue: 0,0:02:36.92,0:02:39.36,ri,,0,0,0,,Karena hatimu tidak cukup membunuh.
+Dialogue: 0,0:02:40.48,0:02:43.28,ri,,0,0,0,,Jika tidak merendam dirimu dalam pembantaian,
+Dialogue: 0,0:02:44.04,0:02:46.16,ri,,0,0,0,,dan menempa hati pembunuh,
+Dialogue: 0,0:02:46.92,0:02:49.56,ri,,0,0,0,,maka mustahil menghasilkan aura pembunuhan.
+Dialogue: 0,0:02:50.76,0:02:54.36,ri,,0,0,0,,Betapapun keras usahamu, itu akan sia-sia.
+Dialogue: 0,0:02:55.40,0:02:56.96,ri,,0,0,0,,Mengasah hati dengan pembunuhan,
+Dialogue: 0,0:02:57.76,0:02:59.36,ri,,0,0,0,,mengubah hati menjadi iblis,
+Dialogue: 0,0:03:00.36,0:03:03.32,ri,,0,0,0,,inilah Jalan Pembantaianku.
+Dialogue: 0,0:03:04.16,0:03:07.28,ri,,0,0,0,,Jika kau ingin mempelajari Jalan Pembantaian sejati,
+Dialogue: 0,0:03:07.96,0:03:10.36,ri,,0,0,0,,aku bisa memberimu sebuah kesempatan.
+Dialogue: 0,0:03:10.88,0:03:12.48,ri,,0,0,0,,Tapi apakah bisa mendapatkannya,
+Dialogue: 0,0:03:13.32,0:03:15.84,ri,,0,0,0,,tergantung nasibmu sendiri.
+Dialogue: 0,0:03:16.80,0:03:17.36,ri,,0,0,0,,Syaratnya?
+Dialogue: 0,0:03:19.76,0:03:21.52,ri,,0,0,0,,Sebagai Jenderal penjara,
+Dialogue: 0,0:03:21.96,0:03:24.28,ri,,0,0,0,,aku tak bisa meninggalkan penjara Hong selangkah pun.
+Dialogue: 0,0:03:24.96,0:03:26.56,ri,,0,0,0,,Jika kau berhasil,
+Dialogue: 0,0:03:27.72,0:03:29.96,ri,,0,0,0,,aku ingin kau menggunakan teknik pembantaian,
+Dialogue: 0,0:03:30.72,0:03:33.12,ri,,0,0,0,,untuk membunuh Jenderal Iblis Shi Xiao.
+Dialogue: 0,0:03:34.92,0:03:35.56,ri,,0,0,0,,Baik.
+Dialogue: 0,0:03:42.04,0:03:43.92,ri,,0,0,0,,Ikuti aku.
+Dialogue: 0,0:03:56.16,0:03:57.64,ri,,0,0,0,,Aura pembunuhan yang sangat pekat!
+Dialogue: 0,0:03:58.52,0:04:00.44,ri,,0,0,0,,Bahkan bisa mempengaruhi perubahan jejak pembantaian.
+Dialogue: 0,0:04:02.96,0:04:04.92,ri,,0,0,0,,Tampaknya perkataan orang ini tidak bohong.
+Dialogue: 0,0:04:08.24,0:04:10.56,ri,,0,0,0,,Ini adalah tempat untuk memberi makan Pedang Kaisar,
+Dialogue: 0,0:04:11.28,0:04:13.64,ri,,0,0,0,,dibuat langsung oleh Kaisar.
+Dialogue: 0,0:04:14.16,0:04:15.44,ri,,0,0,0,,Aura pembunuhannya begitu dahsyat,
+Dialogue: 0,0:04:16.00,0:04:17.44,ri,,0,0,0,,bisa menyerang pikiran dan jiwa.
+Dialogue: 0,0:04:18.12,0:04:20.08,ri,,0,0,0,,Jika keteguhan hatimu tidak kuat,
+Dialogue: 0,0:04:20.60,0:04:22.96,ri,,0,0,0,,mungkin kau akan seperti mereka,
+Dialogue: 0,0:04:23.48,0:04:26.60,ri,,0,0,0,,berubah menjadi mayat hidup.
+Dialogue: 0,0:04:27.96,0:04:29.76,ri,,0,0,0,,Tempat ini hanya bisa dimasuki, tidak bisa keluar,
+Dialogue: 0,0:04:30.56,0:04:32.52,ri,,0,0,0,,apa kau yakin?
+Dialogue: 0,0:04:46.96,0:04:48.56,ri,,0,0,0,,Tempat untuk memberi makan Pedang Kaisar.
+Dialogue: 0,0:05:31.76,0:05:33.56,ri,,0,0,0,,Sungguh tempat pembantaian yang luar biasa.
+Dialogue: 0,0:05:36.76,0:05:38.76,ri,,0,0,0,,Kabut darah ini terbentuk dari pemurnian aura pembunuhan,
+Dialogue: 0,0:05:39.76,0:05:42.20,ri,,0,0,0,,harusnya menjadi sumber terbaik untuk mempelajari Teknik Pembantaian Immortal.
+Dialogue: 0,0:05:43.00,0:05:44.36,ri,,0,0,0,,Mengapa tidak bisa menyatu?
+Dialogue: 0,0:05:45.68,0:05:46.64,ri,,0,0,0,,Atau mungkin,
+Dialogue: 0,0:05:47.32,0:05:48.56,ri,,0,0,0,,energi darahnya tidak cukup?
+Dialogue: 0,0:05:49.56,0:06:04.56,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:06:25.72,0:06:26.32,ri,,0,0,0,,Tidak,
+Dialogue: 0,0:06:27.88,0:06:28.76,ri,,0,0,0,,masih tidak benar.
+Dialogue: 0,0:06:29.60,0:06:31.76,ri,,0,0,0,,Metode untuk mengubah energi darah menjadi aura pembantaian,
+Dialogue: 0,0:06:32.80,0:06:33.88,ri,,0,0,0,,sebenarnya apa?
+Dialogue: 0,0:06:42.60,0:06:43.00,ri,,0,0,0,,Siapa?
+Dialogue: 0,0:07:06.56,0:07:07.64,ri,,0,0,0,,Dia memiliki kemampuan seperti itu,
+Dialogue: 0,0:07:08.60,0:07:09.80,ri,,0,0,0,,mengapa bisa terperangkap di sini?
+Dialogue: 0,0:07:16.88,0:07:17.88,ri,,0,0,0,,Aura pedangnya sangat ganas!
+Dialogue: 0,0:07:25.80,0:07:27.64,ri,,0,0,0,,Apakah naga perak ini adalah Pedang Kaisar?
+Dialogue: 0,0:07:39.72,0:07:40.80,ri,,0,0,0,,Biarkan aku,
+Dialogue: 0,0:07:41.40,0:07:42.68,ri,,0,0,0,,keluar!
+Dialogue: 0,0:07:43.12,0:07:44.16,ri,,0,0,0,,Begitu rupanya,
+Dialogue: 0,0:07:44.68,0:07:45.68,ri,,0,0,0,,jika ingin keluar dari sini,
+Dialogue: 0,0:07:46.60,0:07:47.72,ri,,0,0,0,,harus melewati Pedang Kaisar.
+Dialogue: 0,0:07:48.76,0:07:51.36,ri,,0,0,0,,Pantas saja orang itu bilang tempat ini hanya bisa masuk tidak bisa keluar.
+Dialogue: 0,0:07:52.60,0:07:53.76,ri,,0,0,0,,Kekuatan Pedang Kaisar tidak main-main,
+Dialogue: 0,0:07:54.36,0:07:56.00,ri,,0,0,0,,sama sekali tidak bisa berhadapan langsung dengannya.
+Dialogue: 0,0:08:02.84,0:08:04.40,ri,,0,0,0,,Kabut darah itu adalah makanan pedang,
+Dialogue: 0,0:08:05.48,0:08:07.84,ri,,0,0,0,,tapi kabut darah tercipta dari saling bunuh orang-orang di sini.
+Dialogue: 0,0:08:09.00,0:08:10.28,ri,,0,0,0,,Jika orang habis, maka berhenti,
+Dialogue: 0,0:08:11.20,0:08:13.36,ri,,0,0,0,,mengapa Pedang Kaisar melakukan hal yang merugikan diri sendiri?
+Dialogue: 0,0:08:14.64,0:08:15.40,ri,,0,0,0,,Mungkinkah,
+Dialogue: 0,0:08:23.40,0:08:25.08,ri,,0,0,0,,di kolam darah, tidak bisa mati,
+Dialogue: 0,0:08:26.08,0:08:27.52,ri,,0,0,0,,orang-orang bertarung tanpa henti,
+Dialogue: 0,0:08:28.48,0:08:31.80,ri,,0,0,0,,maka bisa menyediakan kabut darah yang tak ada habisnya untuk Pedang Kaisar.
+Dialogue: 0,0:08:32.88,0:08:34.76,ri,,0,0,0,,Mereka sudah terperangkap beberapa tahun,
+Dialogue: 0,0:08:35.80,0:08:36.72,ri,,0,0,0,,jika ingin keluar,
+Dialogue: 0,0:08:37.44,0:08:39.00,ri,,0,0,0,,aku harus menyempurnakan Teknik Pembantaian Immortal,
+Dialogue: 0,0:08:40.20,0:08:41.68,ri,,0,0,0,,baru ada kesempatan untuk bertarung.
+Dialogue: 0,0:09:04.60,0:09:05.68,ri,,0,0,0,,Matilah!
+Dialogue: 0,0:09:06.68,0:09:21.68,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:58.00,0:09:59.40,ri,,0,0,0,,Tidak bisa keluar.
+Dialogue: 0,0:10:05.60,0:10:07.00,ri,,0,0,0,,Sebenarnya di mana salahnya?
+Dialogue: 0,0:10:23.16,0:10:24.72,ri,,0,0,0,,Mengubah kematian menjadi kehidupan,
+Dialogue: 0,0:10:26.04,0:10:27.64,ri,,0,0,0,,hidup kembali lalu mati lagi,
+Dialogue: 0,0:10:28.72,0:10:31.44,ri,,0,0,0,,inilah jalan siklus prinsip memberi makan Pedang Kaisar.
+Dialogue: 0,0:10:31.96,0:10:33.36,ri,,0,0,0,,Teknik Pembantaian Immortal,
+Dialogue: 0,0:10:33.72,0:10:37.16,ri,,0,0,0,,adalah teknik yang meniru teknik immortal tak bertingkat,
+Dialogue: 0,0:10:37.60,0:10:39.20,ri,,0,0,0,,dan Konsepsi Kehidupan dan Kematianmu,
+Dialogue: 0,0:10:39.80,0:10:41.00,ri,,0,0,0,,bisa dibilang cocok.
+Dialogue: 0,0:10:44.28,0:10:46.96,ri,,0,0,0,,Pantas saja.
+Dialogue: 0,0:10:47.92,0:10:49.48,ri,,0,0,0,,Dengan niat membunuh merenggut nyawa,
+Dialogue: 0,0:10:51.16,0:10:52.56,ri,,0,0,0,,memurnikan kehidupan menjadi jejak.
+Dialogue: 0,0:10:54.04,0:10:55.32,ri,,0,0,0,,Mengubah kehidupan menjadi kematian,
+Dialogue: 0,0:10:56.92,0:10:58.48,ri,,0,0,0,,mengubah kematian menjadi kehidupan.
+Dialogue: 0,0:10:59.36,0:11:00.76,ri,,0,0,0,,Teknik Pembantaian Immortal.
+Dialogue: 0,0:11:06.44,0:11:08.56,ri,,0,0,0,,Akhirnya terbebaskan.
+Dialogue: 0,0:11:27.40,0:11:27.88,ri,,0,0,0,,Kau,
+Dialogue: 0,0:11:28.28,0:11:30.68,ri,,0,0,0,,ternyata bisa memanfaatkan kolam darah untuk dirimu sendiri.
+Dialogue: 0,0:11:33.00,0:11:34.80,ri,,0,0,0,,Ternyata kunci Teknik Pembantaian Immortal,
+Dialogue: 0,0:11:35.40,0:11:37.32,ri,,0,0,0,,juga merupakan jalan reinkarnasi kehidupan dan kematian.
+Dialogue: 0,0:11:37.92,0:11:38.76,ri,,0,0,0,,Percuma,
+Dialogue: 0,0:11:40.12,0:11:41.56,ri,,0,0,0,,Pedang Kaisar akan segera datang,
+Dialogue: 0,0:11:42.56,0:11:44.00,ri,,0,0,0,,kau tidak bisa keluar.
+Dialogue: 0,0:11:55.68,0:11:57.12,ri,,0,0,0,,Aura Pembantaian,
+Dialogue: 0,0:11:59.20,0:11:59.64,ri,,0,0,0,,keluar!
+Dialogue: 0,0:12:13.56,0:12:14.96,ri,,0,0,0,,Ini sudah berakhir.
+Dialogue: 0,0:12:16.16,0:12:17.72,ri,,0,0,0,,Kekuatan Pedang Kaisar ini,
+Dialogue: 0,0:12:19.00,0:12:20.40,ri,,0,0,0,,bahkan seorang Jenderal Iblis
+Dialogue: 0,0:12:21.16,0:12:22.76,ri,,0,0,0,,pasti tidak mungkin menahannya.
+Dialogue: 0,0:12:22.76,0:12:24.04,ri,,0,0,0,,Mengubah kematian menjadi kehidupan,
+Dialogue: 0,0:12:24.80,0:12:26.28,ri,,0,0,0,,Jejak Kehidupan.
+Dialogue: 0,0:12:48.28,0:12:50.16,ri,,0,0,0,,Dia ternyata bertahan dari kekuatan Pedang Kaisar!
+Dialogue: 0,0:13:00.00,0:13:00.88,ri,,0,0,0,,Tolong aku!
+Dialogue: 0,0:13:01.72,0:13:02.52,ri,,0,0,0,,Selamat tinggal.
+Dialogue: 0,0:13:24.92,0:13:26.56,ri,,0,0,0,,Betapa kesalnya dia,
+Dialogue: 0,0:13:27.52,0:13:28.88,ri,,0,0,0,,sampai marah seperti ini?
+Dialogue: 0,0:13:36.20,0:13:36.76,ri,,0,0,0,,Apa ini?
+Dialogue: 0,0:13:36.96,0:13:38.08,ri,,0,0,0,,Kemarahan Pedang Kaisar,
+Dialogue: 0,0:13:38.60,0:13:39.96,ri,,0,0,0,,jutaan mayat bergelimpangan,
+Dialogue: 0,0:13:40.36,0:13:41.60,ri,,0,0,0,,darah mengalir ribuan li.
+Dialogue: 0,0:13:42.96,0:13:43.96,ri,,0,0,0,,Pedang ini,
+Dialogue: 0,0:13:44.76,0:13:46.20,ri,,0,0,0,,menurut kalian berdua,
+Dialogue: 0,0:13:46.88,0:13:48.84,ri,,0,0,0,,bagaimana kekuatannya?
+Dialogue: 0,0:13:48.96,0:13:50.12,ri,,0,0,0,,Tidak kalah dengan pedang Guru Agung.
+Dialogue: 0,0:13:56.12,0:13:57.40,ri,,0,0,0,,Arah itu,
+Dialogue: 0,0:13:58.28,0:13:59.04,ri,,0,0,0,,penjara Hong?
+Dialogue: 0,0:14:00.00,0:14:00.68,ri,,0,0,0,,Pedang Kaisar,
+Dialogue: 0,0:14:01.68,0:14:03.56,ri,,0,0,0,,jangan-jangan Pedang Kaisar menuju Wang Lin?
+Dialogue: 0,0:14:05.00,0:14:06.32,ri,,0,0,0,,Dengan kultivasi Wang Lin,
+Dialogue: 0,0:14:06.56,0:14:08.56,ri,,0,0,0,,bagaimana mungkin bisa memancing kedatangan Pedang Kaisar?
+Dialogue: 0,0:14:09.80,0:14:11.00,ri,,0,0,0,,Pasti aku yang berpikir terlalu jauh.
+Dialogue: 0,0:14:18.48,0:14:21.00,ri,,0,0,0,,Jika tidak ingin mati, jangan keluar dari sini.
+Dialogue: 0,0:14:22.40,0:14:23.40,ri,,0,0,0,,Ikuti aku.
+Dialogue: 0,0:14:24.44,0:14:26.56,ri,,0,0,0,,Ini benar-benar masalah besar.
+Dialogue: 0,0:14:26.84,0:14:29.60,ri,,0,0,0,,Bagaimana dia bisa menarik perhatian Pedang Kaisar?
+Dialogue: 0,0:14:30.00,0:14:31.24,ri,,0,0,0,,Jika dia tertangkap,
+Dialogue: 0,0:14:31.80,0:14:33.40,ri,,0,0,0,,aku pasti juga tidak bisa lepas dari tanggung jawab.
+Dialogue: 0,0:14:46.04,0:14:46.60,ri,,0,0,0,,Cepat pergi!
+Dialogue: 0,0:14:47.28,0:14:48.84,ri,,0,0,0,,Jangan lupa perjanjian kita.
+Dialogue: 0,0:15:05.68,0:15:06.68,ri,,0,0,0,,Ada tempat untuk kultivasi tertutup?
+Dialogue: 0,0:15:09.96,0:15:10.76,ri,,0,0,0,,Ikut aku.
+Dialogue: 0,0:15:14.88,0:15:15.36,ri,,0,0,0,,Terima kasih.
+Dialogue: 0,0:15:18.08,0:15:19.56,ri,,0,0,0,,Benar-benar dia.
+Dialogue: 0,0:15:20.56,0:15:35.56,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:15:44.76,0:15:47.56,ri,,0,0,0,,3792 Jejak Pembantaian,
+Dialogue: 0,0:15:49.44,0:15:50.36,ri,,0,0,0,,sudah selesai.

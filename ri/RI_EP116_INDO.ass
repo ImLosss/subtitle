@@ -1,0 +1,322 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:05:39.77,0:05:43.60,komen,,0,0,0,,{\pos(336,450)\fad(500,250)}[Menara Iblis\NMedan Perang Kuno Wilayah Iblis Langit]
+Dialogue: 0,0:05:53.86,0:05:57.69,komen,,0,0,0,,{\pos(242,430)\fad(500,250)}[Iblis Pengembara]
+Dialogue: 0,0:06:47.51,0:06:49.68,komen,,0,0,0,,{\pos(966,521)\fad(500,250)}Dua Bulan kemudian...
+Dialogue: 0,0:08:32.13,0:08:36.16,komen,,0,0,0,,{\pos(242,406)\fad(500,250)}[Kota Iblis Langit]
+Dialogue: 0,0:09:25.57,0:09:28.65,komen,,0,0,0,,{\pos(226,484)\fad(500,250)}[Kota Iblis Langit\NIbu Kota Kekaisaran]
+Dialogue: 0,0:11:50.75,0:11:53.83,komen,,0,0,0,,{\pos(411,489)\fad(500,250)}[Shi Xiao\NTahap Akhir Soul Transformation]
+Dialogue: 0,0:14:20.15,0:14:22.68,komen,,0,0,0,,{\pos(242,471)\fad(500,250)}[Kediaman Mo\NKota Iblis Langit]
+Dialogue: 0,0:15:20.85,0:15:23.38,komen,,0,0,0,,{\pos(242,471)\fad(500,250)}[Penjara Hong\NKota Iblis Langit]
+Dialogue: 0,0:16:38.08,0:16:41.65,komen,,0,0,0,,{\pos(238,548)\fad(500,250)}[Xu Huichuan\NJenderal Penjara Hong\NTahap akhir Transformasi Jiwa]
+Dialogue: 0,0:00:03.38,0:00:41.92,ri,,0,0,0,,[PREVIEW EPISODE SEBELUMNYA]
+Dialogue: 0,0:00:52.37,0:00:53.97,ri,,0,0,0,,Salah satu dari sembilan wilayah roh iblis.
+Dialogue: 0,0:00:54.10,0:00:55.03,ri,,0,0,0,,Wilayah Iblis Langit.
+Dialogue: 0,0:00:55.93,0:00:59.13,ri,,0,0,0,,Setiap tiga ratus tahun diadakan kompetisi besar Jenderal Iblis.
+Dialogue: 0,0:00:59.73,0:01:00.77,ri,,0,0,0,,Pemenangnya,
+Dialogue: 0,0:01:01.03,0:01:04.07,ri,,0,0,0,,akan mendapat hadiah teknik dan harta iblis dari Kaisar Iblis.
+Dialogue: 0,0:01:05.53,0:01:06.97,ri,,0,0,0,,Tapi kompetisi kali ini,
+Dialogue: 0,0:01:07.50,0:01:08.97,ri,,0,0,0,,berbeda dari biasanya.
+Dialogue: 0,0:01:10.47,0:01:11.73,ri,,0,0,0,,Dua ratus tahun lalu,
+Dialogue: 0,0:01:11.90,0:01:14.13,ri,,0,0,0,,Wilayah Iblis Langit bertempur dengan Wilayah Iblis Api.
+Dialogue: 0,0:01:14.63,0:01:16.47,ri,,0,0,0,,Kedua belah pihak menderita korban jiwa yang besar.
+Dialogue: 0,0:01:17.73,0:01:19.83,ri,,0,0,0,,Kami bahkan kehilangan satu Panglima Iblis,
+Dialogue: 0,0:01:19.97,0:01:21.07,ri,,0,0,0,,dan satu Wakil Panglima.
+Dialogue: 0,0:01:22.07,0:01:24.97,ri,,0,0,0,,Posisi Panglima Iblis secara alami digantikan oleh wakilnya.
+Dialogue: 0,0:01:25.77,0:01:26.67,ri,,0,0,0,,Dengan begitu,
+Dialogue: 0,0:01:27.27,0:01:30.27,ri,,0,0,0,,Wilayah Iblis Langit memiliki dua posisi Wakil Panglima.
+Dialogue: 0,0:01:31.57,0:01:33.87,ri,,0,0,0,,Selain hadiah, kompetisi besar kali ini,
+Dialogue: 0,0:01:34.67,0:01:36.63,ri,,0,0,0,,juga akan memilih dua Wakil Panglima.
+Dialogue: 0,0:01:38.37,0:01:40.83,ri,,0,0,0,,Semua Jenderal Iblis mengincar posisi ini.
+Dialogue: 0,0:01:41.47,0:01:44.03,ri,,0,0,0,,Aku mencari delapan belas orang dengan tubuh perkasa,
+Dialogue: 0,0:01:44.73,0:01:46.37,ri,,0,0,0,,untuk menyempurnakan delapan belas tubuh iblis.
+Dialogue: 0,0:01:47.47,0:01:48.80,ri,,0,0,0,,Kau mengambil Shisan,
+Dialogue: 0,0:01:49.47,0:01:51.00,ri,,0,0,0,,merusak teknikku.
+Dialogue: 0,0:01:54.43,0:01:55.43,ri,,0,0,0,,Tapi aku percaya,
+Dialogue: 0,0:01:56.07,0:01:57.37,ri,,0,0,0,,selama kau membantuku,
+Dialogue: 0,0:01:58.07,0:02:00.03,ri,,0,0,0,,meski tanpa delapan belas tubuh iblis,
+Dialogue: 0,0:02:00.60,0:02:03.33,ri,,0,0,0,,aku yakin bisa meraih posisi Wakil Panglima itu.
+Dialogue: 0,0:02:04.23,0:02:04.90,ri,,0,0,0,,Karena sudah berjanji,
+Dialogue: 0,0:02:05.37,0:02:06.77,ri,,0,0,0,,Wang pasti akan membantu sepenuhnya.
+Dialogue: 0,0:02:07.37,0:02:08.77,ri,,0,0,0,,Tapi Wang masih ada urusan penting,
+Dialogue: 0,0:02:09.17,0:02:09.97,ri,,0,0,0,,dua bulan lagi,
+Dialogue: 0,0:02:10.10,0:02:11.07,ri,,0,0,0,,aku akan kembali.
+Dialogue: 0,0:02:12.21,0:02:13.21,ri,,0,0,0,,Baik.
+Dialogue: 0,0:02:13.47,0:02:14.50,ri,,0,0,0,,Sepakat!
+Dialogue: 0,0:02:19.37,0:02:19.80,ri,,0,0,0,,Leluhur!
+Dialogue: 0,0:02:20.03,0:02:21.17,ri,,0,0,0,,Leluhur sudah kembali!
+Dialogue: 0,0:02:23.50,0:02:24.20,ri,,0,0,0,,Leluhur!
+Dialogue: 0,0:02:24.80,0:02:25.60,ri,,0,0,0,,Leluhur sudah kembali!
+Dialogue: 0,0:02:26.23,0:02:26.83,ri,,0,0,0,,Leluhur!
+Dialogue: 0,0:02:26.83,0:02:28.17,ri,,0,0,0,,Leluhur sudah kembali!
+Dialogue: 0,0:02:29.43,0:02:34.27,ri,,0,0,0,,Menyambut kepulangan Leluhur!
+Dialogue: 0,0:02:35.00,0:02:36.07,ri,,0,0,0,,Keadaan yang makmur sekarang,
+Dialogue: 0,0:02:36.83,0:02:39.23,ri,,0,0,0,,sungguh mirip dengan Sekte Soul Refining dulu.
+Dialogue: 0,0:02:40.63,0:02:41.77,ri,,0,0,0,,Leluhur,
+Dialogue: 0,0:02:41.77,0:02:42.77,ri,,0,0,0,,saat Anda tidak ada,
+Dialogue: 0,0:02:43.27,0:02:46.17,ri,,0,0,0,,semua murid menurut perintah Anda berlatih dengan tekun.
+Dialogue: 0,0:02:46.77,0:02:49.43,ri,,0,0,0,,Setiap hari melepaskan jiwa ke dalam kabut hitam,
+Dialogue: 0,0:02:49.57,0:02:50.57,ri,,0,0,0,,untuk meningkatkan kekuatan.
+Dialogue: 0,0:02:51.40,0:02:54.27,ri,,0,0,0,,Sekarang teknik Bendera Jiwa sudah mencapai tingkat dasar.
+Dialogue: 0,0:02:54.87,0:02:55.37,ri,,0,0,0,,Bagus.
+Dialogue: 0,0:03:09.43,0:03:11.30,ri,,0,0,0,,Shisan, kau sudah bangun.
+Dialogue: 0,0:03:16.17,0:03:17.67,ri,,0,0,0,,Leluhur, Anda baik-baik saja?
+Dialogue: 0,0:03:19.37,0:03:21.27,ri,,0,0,0,,Shisan berterima kasih atas kebaikan Leluhur menyelamatkan nyawaku.
+Dialogue: 0,0:03:25.43,0:03:26.10,ri,,0,0,0,,Aku sudah tahu segalanya.
+Dialogue: 0,0:03:27.30,0:03:27.90,ri,,0,0,0,,Selama setahun ini,
+Dialogue: 0,0:03:28.30,0:03:28.97,ri,,0,0,0,,kau sudah bekerja keras.
+Dialogue: 0,0:03:31.60,0:03:33.27,ri,,0,0,0,,Dulu Leluhur pergi dan tidak kembali,
+Dialogue: 0,0:03:33.97,0:03:34.77,ri,,0,0,0,,yang penting Anda baik-baik saja,
+Dialogue: 0,0:03:35.23,0:03:36.63,ri,,0,0,0,,Shisan rela mati sepuluh ribu kali.
+Dialogue: 0,0:03:37.37,0:03:38.27,ri,,0,0,0,,Waktuku terbatas,
+Dialogue: 0,0:03:39.40,0:03:41.20,ri,,0,0,0,,dua bulan lagi aku harus pergi ke Wilayah Iblis Langit.
+Dialogue: 0,0:03:42.27,0:03:43.57,ri,,0,0,0,,Hari ini kalian berdua ada di sini,
+Dialogue: 0,0:03:44.27,0:03:45.27,ri,,0,0,0,,aku ada urusan penting untuk diperintahkan.
+Dialogue: 0,0:03:46.40,0:03:47.63,ri,,0,0,0,,Teknik Soul Refining memiliki dua bagian,
+Dialogue: 0,0:03:48.57,0:03:49.83,ri,,0,0,0,,Soul Refining hanyalah yang pertama.
+Dialogue: 0,0:03:50.37,0:03:51.83,ri,,0,0,0,,Yang kedua disebut Soul Extraction.
+Dialogue: 0,0:03:53.00,0:03:53.53,ri,,0,0,0,,Ouyang Hua,
+Dialogue: 0,0:03:54.57,0:03:56.70,ri,,0,0,0,,kelak kamu terus memimpin semua orang melatih teknik baru.
+Dialogue: 0,0:03:57.97,0:03:58.77,ri,,0,0,0,,Tapi ingat,
+Dialogue: 0,0:03:59.30,0:04:00.67,ri,,0,0,0,,teknik ini hanya diajarkan kepada keturunan langsung.
+Dialogue: 0,0:04:01.37,0:04:02.50,ri,,0,0,0,,Murid akan mengingatnya.
+Dialogue: 0,0:04:02.73,0:04:03.73,ri,,0,0,0,,Shisan,
+Dialogue: 0,0:04:04.87,0:04:06.57,ri,,0,0,0,,jalan kultivasimu berbeda dengan orang lain,
+Dialogue: 0,0:04:07.30,0:04:09.27,ri,,0,0,0,,ini adalah tingkat berikutnya dari teknik tubuh Klan Iblis Raksasa.
+Dialogue: 0,0:04:10.03,0:04:11.40,ri,,0,0,0,,Ambil dan lanjutkan menyempurnakannya.
+Dialogue: 0,0:04:11.87,0:04:12.60,ri,,0,0,0,,Terima kasih, Leluhur.
+Dialogue: 0,0:04:14.03,0:04:15.17,ri,,0,0,0,,Ouyang Hua, Shisan.
+Dialogue: 0,0:04:16.17,0:04:17.27,ri,,0,0,0,,Murid disini.
+Dialogue: 0,0:04:17.77,0:04:18.70,ri,,0,0,0,,Mulai hari ini,
+Dialogue: 0,0:04:19.37,0:04:20.83,ri,,0,0,0,,Suku Soul Refining tidak lagi bersembunyi.
+Dialogue: 0,0:04:21.57,0:04:22.50,ri,,0,0,0,,Berkembanglah sepenuhnya.
+Dialogue: 0,0:04:23.23,0:04:24.37,ri,,0,0,0,,Saat aku kembali nanti,
+Dialogue: 0,0:04:25.00,0:04:26.77,ri,,0,0,0,,kuharap anggota suku bisa melebihi satu juta.
+Dialogue: 0,0:04:29.83,0:04:30.63,ri,,0,0,0,,Murid menerima perintah,
+Dialogue: 0,0:04:31.03,0:04:32.57,ri,,0,0,0,,pasti tidak akan mengecewakan Leluhur.
+Dialogue: 0,0:04:33.97,0:04:36.17,ri,,0,0,0,,Perjalanan ke Wilayah Iblis Langit kali ini penuh bahaya,
+Dialogue: 0,0:04:36.97,0:04:38.93,ri,,0,0,0,,meskipun Bendera Jiwa belum sepenuhnya diperbaiki,
+Dialogue: 0,0:04:40.00,0:04:40.97,ri,,0,0,0,,tapi masih bisa membantu.
+Dialogue: 0,0:04:52.23,0:04:53.30,ri,,0,0,0,,Suku Soul Refining,
+Dialogue: 0,0:04:54.03,0:04:56.17,ri,,0,0,0,,untuk sementara dijaga dengan bendera jiwa lainnya.
+Dialogue: 0,0:05:06.57,0:05:07.80,ri,,0,0,0,,Jaga baik-baik suku ini,
+Dialogue: 0,0:05:08.57,0:05:09.03,ri,,0,0,0,,pergilah.
+Dialogue: 0,0:05:09.38,0:05:10.38,ri,,0,0,0,,Baik.
+Dialogue: 0,0:05:12.80,0:05:13.30,ri,,0,0,0,,Leluhur,
+Dialogue: 0,0:05:14.57,0:05:15.97,ri,,0,0,0,,Hu Pao dia...
+Dialogue: 0,0:05:17.07,0:05:18.17,ri,,0,0,0,,mungkin sudah...
+Dialogue: 0,0:05:18.57,0:05:19.37,ri,,0,0,0,,Dia masih hidup.
+Dialogue: 0,0:05:19.69,0:05:20.77,ri,,0,0,0,,Apa?
+Dialogue: 0,0:05:20.77,0:05:21.80,ri,,0,0,0,,Jika Hu Pao mati,
+Dialogue: 0,0:05:22.57,0:05:24.87,ri,,0,0,0,,aku pasti bisa merasakan aura di Bendera Jiwanya.
+Dialogue: 0,0:05:26.23,0:05:28.47,ri,,0,0,0,,Tapi aku pernah menyapu Kota Iblis Kuno dengan kesadaranku,
+Dialogue: 0,0:05:28.83,0:05:30.40,ri,,0,0,0,,dan tidak menemukan jejaknya sama sekali.
+Dialogue: 0,0:05:32.37,0:05:34.77,ri,,0,0,0,,Itu hanya berarti dia sekarang berada di tempat yang aneh.
+Dialogue: 0,0:05:35.77,0:05:36.67,ri,,0,0,0,,Dengan kultivasiku,
+Dialogue: 0,0:05:37.47,0:05:38.47,ri,,0,0,0,,masih belum bisa menemukannya.
+Dialogue: 0,0:05:42.43,0:05:43.10,ri,,0,0,0,,Tuan,
+Dialogue: 0,0:05:43.90,0:05:45.07,ri,,0,0,0,,bawahan mendengar kabar,
+Dialogue: 0,0:05:45.77,0:05:48.20,ri,,0,0,0,,orang itu telah menerobos hingga Soul Transformation tahap sempurna.
+Dialogue: 0,0:05:49.07,0:05:50.90,ri,,0,0,0,,Dan akan bersama Jenderal Iblis Kota Iblis Kuno,
+Dialogue: 0,0:05:50.97,0:05:53.23,ri,,0,0,0,,ikut serta dalam kompetisi besar Jenderal Iblis.
+Dialogue: 0,0:05:54.80,0:05:57.97,ri,,0,0,0,,Kecepatan kultivasinya ternyata sangat cepat.
+Dialogue: 0,0:05:58.70,0:06:00.40,ri,,0,0,0,,Kau awasi dari tempat tersembunyi,
+Dialogue: 0,0:06:00.97,0:06:02.83,ri,,0,0,0,,jangan sampai membuatnya curiga.
+Dialogue: 0,0:06:05.27,0:06:06.90,ri,,0,0,0,,Bagaimana dengan kandidat lainnya?
+Dialogue: 0,0:06:08.17,0:06:10.80,ri,,0,0,0,,Untuk sementara belum ada tanda-tanda terobosan.
+Dialogue: 0,0:06:11.67,0:06:14.57,ri,,0,0,0,,Tapi bawahan baru-baru ini sedang melatih sekelompok penjaga iblis baru.
+Dialogue: 0,0:06:15.27,0:06:16.50,ri,,0,0,0,,Setelah mereka selesai berlatih,
+Dialogue: 0,0:06:16.83,0:06:19.07,ri,,0,0,0,,pasti bisa membantu Tuan segera kembali.
+Dialogue: 0,0:06:19.97,0:06:21.50,ri,,0,0,0,,Hu Pao bertemu Tuan Baik Hati.
+Dialogue: 0,0:06:22.27,0:06:23.83,ri,,0,0,0,,Penampilanmu belakangan ini cukup bagus.
+Dialogue: 0,0:06:24.60,0:06:27.63,ri,,0,0,0,,Setelah kau menyempurnakan semua jiwa di medan perang kuno,
+Dialogue: 0,0:06:28.07,0:06:30.57,ri,,0,0,0,,pasti bisa menjadi penjaga iblis yang andal untuk Tuan.
+Dialogue: 0,0:06:31.57,0:06:33.07,ri,,0,0,0,,Semua ini adalah pemberian Tuan Baik Hati.
+Dialogue: 0,0:06:33.63,0:06:34.37,ri,,0,0,0,,Anda menyelamatkan nyawaku,
+Dialogue: 0,0:06:34.60,0:06:35.47,ri,,0,0,0,,mengajarku teknik ilahi,
+Dialogue: 0,0:06:36.10,0:06:37.13,ri,,0,0,0,,dan membawaku ke sini untuk berlatih.
+Dialogue: 0,0:06:37.87,0:06:39.07,ri,,0,0,0,,Hu Pao akan mengingat semuanya dalam hati.
+Dialogue: 0,0:07:03.57,0:07:04.60,ri,,0,0,0,,Wang Lin!
+Dialogue: 0,0:07:05.77,0:07:06.40,ri,,0,0,0,,Katakan,
+Dialogue: 0,0:07:06.97,0:07:08.67,ri,,0,0,0,,cara penggunaan sebenarnya dari Pil Jiwa Darah.
+Dialogue: 0,0:07:10.57,0:07:12.13,ri,,0,0,0,,Aku tidak mungkin memberitahumu.
+Dialogue: 0,0:07:12.83,0:07:15.07,ri,,0,0,0,,Kalau berani, bunuh saja aku!
+Dialogue: 0,0:07:17.17,0:07:19.17,ri,,0,0,0,,Kultivasiku sekarang belum mencapai Ascendant,
+Dialogue: 0,0:07:19.37,0:07:21.30,ri,,0,0,0,,jika memaksakan menggunakan teknik pencarian jiwa,
+Dialogue: 0,0:07:21.57,0:07:23.97,ri,,0,0,0,,sedikit saja ceroboh bisa membuatnya tewas.
+Dialogue: 0,0:07:25.17,0:07:26.57,ri,,0,0,0,,Jika kau tidak mau bicara,
+Dialogue: 0,0:07:26.97,0:07:30.27,ri,,0,0,0,,Wang bisa menggunakan larangan untuk membuatmu lenyap dari dunia.
+Dialogue: 0,0:07:31.57,0:07:33.07,ri,,0,0,0,,Hidup tak sebaik mati.
+Dialogue: 0,0:07:34.33,0:07:34.97,ri,,0,0,0,,Wang Lin,
+Dialogue: 0,0:07:35.37,0:07:36.60,ri,,0,0,0,,pada akhirnya suatu hari nanti,
+Dialogue: 0,0:07:36.90,0:07:38.87,ri,,0,0,0,,ayahku akan menyiksa jiwamu,
+Dialogue: 0,0:07:38.87,0:07:40.30,ri,,0,0,0,,dan menguncimu di tanah kematian,
+Dialogue: 0,0:07:40.77,0:07:43.57,ri,,0,0,0,,membuatmu tahu apa artinya hidup tak sebaik mati.
+Dialogue: 0,0:07:47.07,0:07:49.53,ri,,0,0,0,,Kali ini menyetujui Mo Lihai untuk ikut kompetisi besar Jenderal Iblis,
+Dialogue: 0,0:07:49.97,0:07:51.60,ri,,0,0,0,,meskipun untuk menyelamatkan Shisan,
+Dialogue: 0,0:07:51.97,0:07:54.43,ri,,0,0,0,,tapi juga cara tercepat bagiku menjadi Jenderal Iblis.
+Dialogue: 0,0:07:55.97,0:07:57.90,ri,,0,0,0,,Tapi sekarang Bendera Jiwa rusak,
+Dialogue: 0,0:07:58.60,0:07:59.77,ri,,0,0,0,,Pil Jiwa Darah tidak berguna,
+Dialogue: 0,0:08:00.47,0:08:02.33,ri,,0,0,0,,tiga teknik ilahi juga harus digunakan dengan hati-hati.
+Dialogue: 0,0:08:03.77,0:08:05.90,ri,,0,0,0,,Hanya bisa mengandalkan Teknik Pembantaian Immortal.
+Dialogue: 0,0:08:07.40,0:08:09.97,ri,,0,0,0,,Dengan energi pembantaian yang disempurnakan oleh Teknik Pembantaian Immortal,
+Dialogue: 0,0:08:10.30,0:08:12.07,ri,,0,0,0,,bisa langsung melukai pikiran orang,
+Dialogue: 0,0:08:12.37,0:08:13.63,ri,,0,0,0,,sulit diwaspadai.
+Dialogue: 0,0:08:14.90,0:08:16.80,ri,,0,0,0,,Makhluk hidup yang kubunuh tidak sedikit,
+Dialogue: 0,0:08:17.07,0:08:19.37,ri,,0,0,0,,tapi energi pembantaian yang berhasil kusempurnakan tidak banyak.
+Dialogue: 0,0:08:20.10,0:08:22.10,ri,,0,0,0,,Beberapa kali menyempurnakan energi pembantaian,
+Dialogue: 0,0:08:22.10,0:08:24.07,ri,,0,0,0,,sepertinya semuanya didapat secara kebetulan.
+Dialogue: 0,0:08:24.43,0:08:26.70,ri,,0,0,0,,Apa sebenarnya pola di balik ini?
+Dialogue: 0,0:08:27.57,0:08:28.37,ri,,0,0,0,,Saudara Wang,
+Dialogue: 0,0:08:29.47,0:08:30.60,ri,,0,0,0,,waktunya sudah tiba,
+Dialogue: 0,0:08:30.97,0:08:31.97,ri,,0,0,0,,ayo berangkat.
+Dialogue: 0,0:08:49.37,0:08:50.87,ri,,0,0,0,,Hormat pada Jenderal Iblis Mo.
+Dialogue: 0,0:08:51.17,0:08:52.37,ri,,0,0,0,,Tiga puluh tahun,
+Dialogue: 0,0:08:52.97,0:08:54.13,ri,,0,0,0,,akhirnya kembali.
+Dialogue: 0,0:09:08.33,0:09:10.07,ri,,0,0,0,,Bawahan memberi hormat pada Jenderal.
+Dialogue: 0,0:09:11.53,0:09:12.50,ri,,0,0,0,,Semuanya bangun.
+Dialogue: 0,0:09:13.67,0:09:16.27,ri,,0,0,0,,Ini adalah temanku, Wakil Jenderal Wang.
+Dialogue: 0,0:09:16.27,0:09:17.50,ri,,0,0,0,,Kalian di kemudian hari saat bertemu dia,
+Dialogue: 0,0:09:17.90,0:09:19.10,ri,,0,0,0,,sama seperti bertemu aku.
+Dialogue: 0,0:09:19.10,0:09:20.33,ri,,0,0,0,,Hormat pada Wakil Jenderal.
+Dialogue: 0,0:09:21.47,0:09:22.13,ri,,0,0,0,,Saudara Wang,
+Dialogue: 0,0:09:22.13,0:09:22.90,ri,,0,0,0,,silakan.
+Dialogue: 0,0:09:26.07,0:09:28.33,ri,,0,0,0,,Arak Darah Iblis, lihat di sini!
+Dialogue: 0,0:09:28.69,0:09:29.87,ri,,0,0,0,,Yang di dalam itu sangat cantik,
+Dialogue: 0,0:09:29.87,0:09:30.70,ri,,0,0,0,,ayo kita lihat.
+Dialogue: 0,0:09:31.10,0:09:32.00,ri,,0,0,0,,Arak Darah Iblis,
+Dialogue: 0,0:09:32.57,0:09:33.73,ri,,0,0,0,,banyak sekali lentera sungai.
+Dialogue: 0,0:09:36.50,0:09:37.40,ri,,0,0,0,,Hati-hati di jalan.
+Dialogue: 0,0:09:58.37,0:10:00.20,ri,,0,0,0,,Bukankah ini Jenderal Iblis Mo yang terkenal?
+Dialogue: 0,0:10:00.70,0:10:02.10,ri,,0,0,0,,Siapa orang di sampingnya?
+Dialogue: 0,0:10:02.67,0:10:03.67,ri,,0,0,0,,Tidak kenal.
+Dialogue: 0,0:10:04.07,0:10:05.20,ri,,0,0,0,,Tapi di kompetisi besar sebelumnya,
+Dialogue: 0,0:10:05.30,0:10:07.77,ri,,0,0,0,,setiap jenderal iblis pasti ditemani seorang pembantu untuk bertarung.
+Dialogue: 0,0:10:09.13,0:10:10.93,ri,,0,0,0,,Orang ini bisa dipilih Jenderal Iblis Mo,
+Dialogue: 0,0:10:11.07,0:10:12.70,ri,,0,0,0,,pasti ada keunikan tersendiri.
+Dialogue: 0,0:10:13.07,0:10:14.10,ri,,0,0,0,,Bukan orang biasa.
+Dialogue: 0,0:10:14.93,0:10:18.10,ri,,0,0,0,,Ibu kota Kota Iblis Langit ini terbagi menjadi dua lingkaran.
+Dialogue: 0,0:10:18.53,0:10:22.17,ri,,0,0,0,,Langit, Bumi, Misteri, Kuning, empat domain sebagai lingkaran dalam.
+Dialogue: 0,0:10:23.27,0:10:26.63,ri,,0,0,0,,Semesta, Kosmos, Besar, Purba, empat domain sebagai lingkaran luar.
+Dialogue: 0,0:10:27.27,0:10:28.73,ri,,0,0,0,,Lingkaran dalam untuk pejabat sipil,
+Dialogue: 0,0:10:28.80,0:10:30.27,ri,,0,0,0,,lingkaran luar untuk jenderal militer.
+Dialogue: 0,0:10:30.90,0:10:34.40,ri,,0,0,0,,Tempat tinggalku berada di Domain Besar.
+Dialogue: 0,0:10:34.93,0:10:36.40,ri,,0,0,0,,Jika Saudara Wang tidak kecewa,
+Dialogue: 0,0:10:37.10,0:10:38.73,ri,,0,0,0,,tinggallah di kediaman Mo.
+Dialogue: 0,0:10:39.40,0:10:40.60,ri,,0,0,0,,Semuanya terserah Saudara Mo.
+Dialogue: 0,0:10:41.47,0:10:42.80,ri,,0,0,0,,Sudah lama tidak datang,
+Dialogue: 0,0:10:43.67,0:10:46.50,ri,,0,0,0,,ibu kota ini tetap ramai seperti biasa.
+Dialogue: 0,0:11:10.53,0:11:12.87,ri,,0,0,0,,Kali ini jika aku ingin menjadi Wakil Panglima,
+Dialogue: 0,0:11:13.13,0:11:15.07,ri,,0,0,0,,ada dua orang yang perlu sangat diwaspadai.
+Dialogue: 0,0:11:16.67,0:11:17.70,ri,,0,0,0,,Pertama,
+Dialogue: 0,0:11:18.07,0:11:20.73,ri,,0,0,0,,adalah Mo Fei yang menjaga perbatasan Wilayah Iblis Api.
+Dialogue: 0,0:11:21.37,0:11:23.07,ri,,0,0,0,,Orang ini sangat berjasa dalam pertempuran,
+Dialogue: 0,0:11:23.30,0:11:25.53,ri,,0,0,0,,kekuatannya bahkan nomor satu di antara jenderal iblis.
+Dialogue: 0,0:11:27.67,0:11:28.53,ri,,0,0,0,,Yang kedua,
+Dialogue: 0,0:11:28.87,0:11:29.87,ri,,0,0,0,,bernama Shi Xiao,
+Dialogue: 0,0:11:30.50,0:11:31.87,ri,,0,0,0,,juga ditempatkan di perbatasan,
+Dialogue: 0,0:11:32.57,0:11:34.53,ri,,0,0,0,,orang ini sudah lama tidak akur denganku,
+Dialogue: 0,0:11:34.97,0:11:36.33,ri,,0,0,0,,menguasai Teknik Pedang Enam Jari,
+Dialogue: 0,0:11:36.90,0:11:38.10,ri,,0,0,0,,kekuatannya tak terduga.
+Dialogue: 0,0:11:47.53,0:11:49.07,ri,,0,0,0,,Baru saja membicarakannya, dia sudah datang.
+Dialogue: 0,0:11:50.07,0:12:05.07,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:28.03,0:12:28.73,ri,,0,0,0,,Terima kasih.
+Dialogue: 0,0:12:30.27,0:12:31.50,ri,,0,0,0,,Seratus tahun menjaga perbatasan,
+Dialogue: 0,0:12:32.20,0:12:33.53,ri,,0,0,0,,tidak terlihat ada kemajuan.
+Dialogue: 0,0:12:37.47,0:12:38.47,ri,,0,0,0,,Orang luar,
+Dialogue: 0,0:12:38.80,0:12:39.73,ri,,0,0,0,,siapa namamu?
+Dialogue: 0,0:12:40.40,0:12:41.30,ri,,0,0,0,,Dia bernama Wang Lin,
+Dialogue: 0,0:12:41.50,0:12:42.67,ri,,0,0,0,,adik seperguruanku.
+Dialogue: 0,0:12:44.00,0:12:45.63,ri,,0,0,0,,Tampaknya adik punya peruntungan lain,
+Dialogue: 0,0:12:46.13,0:12:47.70,ri,,0,0,0,,kemajuan kultivasinya begitu cepat.
+Dialogue: 0,0:12:51.53,0:12:53.93,ri,,0,0,0,,Dulu Guru Agung membantu Chen Tao menyembunyikan kultivasi Ascendant,
+Dialogue: 0,0:12:54.47,0:12:55.67,ri,,0,0,0,,baru bisa masuk ke tempat ini.
+Dialogue: 0,0:12:57.20,0:12:57.93,ri,,0,0,0,,Dengan kekuatannya,
+Dialogue: 0,0:12:58.40,0:12:59.63,ri,,0,0,0,,bagaimana bisa terluka parah,
+Dialogue: 0,0:13:00.27,0:13:02.23,ri,,0,0,0,,bahkan kultivasinya turun di bawah Ascendant?
+Dialogue: 0,0:13:02.67,0:13:04.10,ri,,0,0,0,,Hati-hati dengan orang Sekte Pedang Daluo,
+Dialogue: 0,0:13:04.70,0:13:05.47,ri,,0,0,0,,lukaku,
+Dialogue: 0,0:13:05.87,0:13:07.03,ri,,0,0,0,,adalah perbuatan mereka.
+Dialogue: 0,0:13:29.67,0:13:31.27,ri,,0,0,0,,Orang ini bernama Mo Lihai,
+Dialogue: 0,0:13:31.63,0:13:32.87,ri,,0,0,0,,memiliki tiga teknik ilahi,
+Dialogue: 0,0:13:33.30,0:13:35.30,ri,,0,0,0,,Konsepsi Sepuluh Pukulan Penghancur adalah teknik pertama,
+Dialogue: 0,0:13:36.07,0:13:37.90,ri,,0,0,0,,Seratus Ombak Laut Iblis adalah teknik kedua,
+Dialogue: 0,0:13:39.27,0:13:40.27,ri,,0,0,0,,teknik terakhir,
+Dialogue: 0,0:13:40.63,0:13:41.93,ri,,0,0,0,,diajarkan langsung oleh Kaisar Iblis,
+Dialogue: 0,0:13:42.60,0:13:43.70,ri,,0,0,0,,kekuatannya sangat besar.
+Dialogue: 0,0:13:44.90,0:13:46.43,ri,,0,0,0,,Jika aku sebelum terluka,
+Dialogue: 0,0:13:46.43,0:13:47.43,ri,,0,0,0,,bisa membunuh orang ini.
+Dialogue: 0,0:13:48.67,0:13:49.83,ri,,0,0,0,,Bagaimana dengan adik seperguruanmu itu?
+Dialogue: 0,0:13:51.67,0:13:52.30,ri,,0,0,0,,Sangat kuat,
+Dialogue: 0,0:13:53.33,0:13:54.87,ri,,0,0,0,,saat dia di tahap menengah Soul Transformation,
+Dialogue: 0,0:13:55.33,0:13:56.80,ri,,0,0,0,,sudah bisa melawan Ascendant,
+Dialogue: 0,0:13:57.60,0:13:58.90,ri,,0,0,0,,sekarang kultivasinya meningkat pesat,
+Dialogue: 0,0:13:59.73,0:14:01.33,ri,,0,0,0,,sebaiknya jangan sembarangan mengganggunya.
+Dialogue: 0,0:14:02.60,0:14:03.90,ri,,0,0,0,,Aku sudah lama mengenalmu,
+Dialogue: 0,0:14:04.80,0:14:06.83,ri,,0,0,0,,baru pertama kali mendengarmu memberikan penilaian seperti ini pada seseorang.
+Dialogue: 0,0:14:08.47,0:14:09.90,ri,,0,0,0,,Tapi meski begitu,
+Dialogue: 0,0:14:11.00,0:14:12.90,ri,,0,0,0,,mereka bukanlah lawan kita berdua.
+Dialogue: 0,0:14:21.07,0:14:23.90,ri,,0,0,0,,Kau memintaku membantumu mencari tempat yang bisa melakukan pembantaian besar-besaran,
+Dialogue: 0,0:14:24.47,0:14:26.33,ri,,0,0,0,,dan tidak menimbulkan masalah,
+Dialogue: 0,0:14:27.40,0:14:28.50,ri,,0,0,0,,apa yang ingin kau lakukan?
+Dialogue: 0,0:14:35.17,0:14:36.63,ri,,0,0,0,,Trikmu ini sudah pernah kulihat.
+Dialogue: 0,0:14:48.70,0:14:50.27,ri,,0,0,0,,Apa sebenarnya benda ini?
+Dialogue: 0,0:14:50.90,0:14:52.20,ri,,0,0,0,,Bisa mengguncang zirah iblis,
+Dialogue: 0,0:14:52.73,0:14:54.63,ri,,0,0,0,,juga bisa menggerakkan energi kehidupan dalam tubuhku,
+Dialogue: 0,0:14:55.00,0:14:55.80,ri,,0,0,0,,mengganggu pikiranku.
+Dialogue: 0,0:15:00.47,0:15:03.33,ri,,0,0,0,,Kini lima aliran energi abu-abu bisa membuat pikiranmu terguncang,
+Dialogue: 0,0:15:04.47,0:15:05.67,ri,,0,0,0,,jika teknik ini kusempurnakan,
+Dialogue: 0,0:15:06.33,0:15:08.00,ri,,0,0,0,,dengan seribu aliran energi abu-abu di tangan,
+Dialogue: 0,0:15:09.10,0:15:10.73,ri,,0,0,0,,bagaimana menurutmu kekuatannya nanti?
+Dialogue: 0,0:15:15.30,0:15:17.73,ri,,0,0,0,,Tempat untuk melakukan pembantaian,
+Dialogue: 0,0:15:18.70,0:15:19.93,ri,,0,0,0,,memang ada satu,
+Dialogue: 0,0:15:21.33,0:15:22.07,ri,,0,0,0,,Penjara Hong,
+Dialogue: 0,0:15:23.10,0:15:24.87,ri,,0,0,0,,salah satu dari empat penjara besar ibu kota,
+Dialogue: 0,0:15:25.67,0:15:27.47,ri,,0,0,0,,digunakan untuk mengurung narapidana berat dan tahanan mati,
+Dialogue: 0,0:15:28.47,0:15:30.33,ri,,0,0,0,,tapi tempat ini dijaga ketat,
+Dialogue: 0,0:15:30.70,0:15:33.70,ri,,0,0,0,,aku hanya bisa membantumu dapat waktu tujuh hari,
+Dialogue: 0,0:15:35.07,0:15:36.27,ri,,0,0,0,,malam ini pukul 12,
+Dialogue: 0,0:15:36.80,0:15:38.40,ri,,0,0,0,,kau pergi ke pintu Penjara Hong,
+Dialogue: 0,0:15:39.13,0:15:41.00,ri,,0,0,0,,pasti akan ada orang yang membawamu masuk.
+Dialogue: 0,0:15:43.90,0:15:44.53,ri,,0,0,0,,Jenderal,
+Dialogue: 0,0:15:44.93,0:15:46.07,ri,,0,0,0,,semuanya sudah diatur,
+Dialogue: 0,0:15:46.70,0:15:48.70,ri,,0,0,0,,bisa memastikan Wakil Jenderal Wang masuk ke Penjara Hong dengan lancar.
+Dialogue: 0,0:15:50.87,0:15:51.27,ri,,0,0,0,,Jenderal,
+Dialogue: 0,0:15:52.07,0:15:54.00,ri,,0,0,0,,Penjara Hong itu sangat aneh,
+Dialogue: 0,0:15:55.00,0:15:56.27,ri,,0,0,0,,perjalanan Wakil Jenderal kali ini,
+Dialogue: 0,0:15:56.83,0:15:58.03,ri,,0,0,0,,apakah terlalu berisiko?
+Dialogue: 0,0:15:59.27,0:16:00.90,ri,,0,0,0,,Jika bisa mendapatkan peruntungan,
+Dialogue: 0,0:16:01.47,0:16:02.80,ri,,0,0,0,,itulah takdirnya,
+Dialogue: 0,0:16:04.30,0:16:06.47,ri,,0,0,0,,perebutan posisi Wakil Panglima sangat penting,
+Dialogue: 0,0:16:07.33,0:16:08.80,ri,,0,0,0,,harus mengambil risiko.
+Dialogue: 0,0:16:09.80,0:16:24.80,ri,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:16:38.33,0:16:41.50,ri,,0,0,0,,Kau adalah orang yang disebut Mo Lihai?
+Dialogue: 0,0:16:43.60,0:16:44.47,ri,,0,0,0,,Benar, itu aku,
+Dialogue: 0,0:16:47.20,0:16:49.60,ri,,0,0,0,,ikutlah aku.
