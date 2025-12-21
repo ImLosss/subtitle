@@ -1,0 +1,284 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 804
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+Style: wdqk,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:28.20,0:03:31.52,komen,,0,0,0,,[Episode 12]
+Dialogue: 0,0:05:27.19,0:05:28.80,komen,,0,0,0,,{\pos(286,530)\fad(500,250)}[Petaka Angin-Petir Tingkat Satu]
+Dialogue: 0,0:06:45.18,0:06:48.16,komen,,0,0,0,,{\pos(286,530)\fad(500,250)}[Master Jimat Langit Tingkat Dua]
+Dialogue: 0,0:07:04.00,0:07:05.60,komen,,0,0,0,,{\pos(286,530)\fad(500,250)}[Petaka Angin-Petir Tingkat Dua]
+Dialogue: 0,0:08:43.61,0:08:47.08,komen,,0,0,0,,{\pos(286,530)\fad(500,250)}[Master Jimat Langit Tingkat Tiga]
+Dialogue: 0,0:09:29.74,0:09:32.64,komen,,0,0,0,,{\pos(286,530)\fad(500,250)}[Petaka Angin-Petir Tingkat Tiga]
+Dialogue: 0,0:10:10.09,0:10:13.32,komen,,0,0,0,,{\pos(286,530)\fad(500,250)}[Master Jimat Langit Tingkat Empat]
+Dialogue: 0,0:23:40.93,0:23:44.16,komen,,0,0,0,,{\pos(178,586)\fad(500,250)}[Sebulan Kemudian\NKeluarga Lin]
+Dialogue: 0,0:00:00.00,0:00:25.00,wdqk,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:02:35.80,0:02:37.00,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:02:35.80,0:02:37.00,wdqk,,0,0,0,,Lin Dong ini...
+Dialogue: 0,0:02:37.40,0:02:39.40,wdqk,,0,0,0,,Sepertinya sedang memprovokasi Lin Langtian.
+Dialogue: 0,0:02:39.80,0:02:40.76,wdqk,,0,0,0,,Terima kasih.
+Dialogue: 0,0:02:41.52,0:02:42.76,wdqk,,0,0,0,,Wujud Naga, muncul!
+Dialogue: 0,0:02:44.56,0:02:45.64,wdqk,,0,0,0,,Lin Langtian,
+Dialogue: 0,0:02:45.72,0:02:46.64,wdqk,,0,0,0,,mati kau!
+Dialogue: 0,0:02:52.08,0:02:52.88,wdqk,,0,0,0,,Lin Dong!
+Dialogue: 0,0:02:53.24,0:02:54.16,wdqk,,0,0,0,,Hari ini kau,
+Dialogue: 0,0:02:54.48,0:02:55.92,wdqk,,0,0,0,,dan semua orang di sini,
+Dialogue: 0,0:02:56.48,0:02:58.12,wdqk,,0,0,0,,akan ikut mati bersamaku!
+Dialogue: 0,0:03:00.64,0:03:02.60,wdqk,,0,0,0,,Sekte Yuan, Liu Tong.
+Dialogue: 0,0:03:03.40,0:03:04.64,wdqk,,0,0,0,,Lama tak berjumpa.
+Dialogue: 0,0:03:04.96,0:03:05.84,wdqk,,0,0,0,,Wilayah Xixuan?
+Dialogue: 0,0:03:09.60,0:03:10.80,wdqk,,0,0,0,,Siapa yang berani bergerak,
+Dialogue: 0,0:03:10.83,0:03:12.83,wdqk,,0,0,0,,mati!
+Dialogue: 0,0:03:16.40,0:03:17.60,wdqk,,0,0,0,,Medan perang ini,
+Dialogue: 0,0:03:17.96,0:03:20.28,wdqk,,0,0,0,,sekarang milik Wilayah Xixuan.
+Dialogue: 0,0:03:20.28,0:03:23.96,wdqk,,0,0,0,,Dia ingin memindahkan Medan Perang Kuno ke Wilayah Xixuan.
+Dialogue: 0,0:03:37.64,0:03:38.80,wdqk,,0,0,0,,Jika terus begini,
+Dialogue: 0,0:03:39.04,0:03:41.00,wdqk,,0,0,0,,seluruh medan perang akan terserap habis.
+Dialogue: 0,0:03:41.20,0:03:42.84,wdqk,,0,0,0,,Kita harus menghancurkan pusat formasi itu,
+Dialogue: 0,0:03:42.84,0:03:44.36,wdqk,,0,0,0,,baru kita punya sedikit harapan.
+Dialogue: 0,0:03:44.92,0:03:47.84,wdqk,,0,0,0,,Pusat formasi harta pusaka murni tidak mudah dihancurkan.
+Dialogue: 0,0:03:48.36,0:03:49.16,wdqk,,0,0,0,,Dan lagi,
+Dialogue: 0,0:03:49.52,0:03:51.60,wdqk,,0,0,0,,Jenderal Mayat ini berbeda dari sebelumnya,
+Dialogue: 0,0:03:51.92,0:03:52.84,wdqk,,0,0,0,,sangat merepotkan.
+Dialogue: 0,0:03:52.84,0:03:53.88,wdqk,,0,0,0,,Aku akan periksa dulu.
+Dialogue: 0,0:03:54.76,0:03:55.40,wdqk,,0,0,0,,Kakak,
+Dialogue: 0,0:03:55.40,0:03:56.20,wdqk,,0,0,0,,tunggu aku.
+Dialogue: 0,0:03:57.04,0:03:57.96,wdqk,,0,0,0,,Bocah ini.
+Dialogue: 0,0:04:07.52,0:04:09.08,wdqk,,0,0,0,,Ternyata itu kalian,
+Dialogue: 0,0:04:09.36,0:04:10.28,wdqk,,0,0,0,,Bagus.
+Dialogue: 0,0:04:10.64,0:04:11.92,wdqk,,0,0,0,,Mati kau!
+Dialogue: 0,0:04:21.40,0:04:24.04,wdqk,,0,0,0,,Pukulan Naga Hijau!
+Dialogue: 0,0:04:49.60,0:04:50.40,wdqk,,0,0,0,,Harimau bodoh,
+Dialogue: 0,0:04:50.48,0:04:51.32,wdqk,,0,0,0,,ikat dia.
+Dialogue: 0,0:05:13.00,0:05:14.36,wdqk,,0,0,0,,Sisanya serahkan padaku.
+Dialogue: 0,0:05:22.12,0:05:23.44,wdqk,,0,0,0,,Petaka Angin dan Petir yang begitu kuat.
+Dialogue: 0,0:05:24.64,0:05:25.72,wdqk,,0,0,0,,Jangan-jangan dia ingin...
+Dialogue: 0,0:05:30.84,0:05:31.84,wdqk,,0,0,0,,Hentikan dia!
+Dialogue: 0,0:05:43.84,0:05:44.84,wdqk,,0,0,0,,Segel Auman Naga Hitam!
+Dialogue: 0,0:06:05.96,0:06:07.36,wdqk,,0,0,0,,Dia ingin melewati Petaka Angin dan Petir.
+Dialogue: 0,0:06:14.36,0:06:16.96,wdqk,,0,0,0,,Biarkan Petaka Angin dan Petir membunuhnya.
+Dialogue: 0,0:06:55.28,0:06:56.80,wdqk,,0,0,0,,Master Jimat Langit tingkat dua.
+Dialogue: 0,0:07:08.96,0:07:09.88,wdqk,,0,0,0,,Jenderal Mayat!
+Dialogue: 0,0:07:10.40,0:07:11.32,wdqk,,0,0,0,,Hentikan dia!
+Dialogue: 0,0:07:16.32,0:07:17.12,wdqk,,0,0,0,,Harimau bodoh!
+Dialogue: 0,0:07:24.24,0:07:25.08,wdqk,,0,0,0,,Minggir!
+Dialogue: 0,0:07:34.08,0:07:34.44,wdqk,,0,0,0,,Ayo!
+Dialogue: 0,0:07:34.68,0:07:35.40,wdqk,,0,0,0,,Kita juga pergi bantu.
+Dialogue: 0,0:07:40.59,0:07:41.59,wdqk,,0,0,0,,Mati!
+Dialogue: 0,0:07:59.12,0:08:00.44,wdqk,,0,0,0,,Jimat Pengurung Langit.
+Dialogue: 0,0:08:25.08,0:08:26.44,wdqk,,0,0,0,,Kekuatan Taotie.
+Dialogue: 0,0:08:57.48,0:08:59.44,wdqk,,0,0,0,,Tidak mungkin.
+Dialogue: 0,0:09:03.76,0:09:04.88,wdqk,,0,0,0,,Kekuatan Taotie,
+Dialogue: 0,0:09:05.12,0:09:06.72,wdqk,,0,0,0,,bisa mengendalikan Petaka Petir.
+Dialogue: 0,0:09:08.32,0:09:09.48,wdqk,,0,0,0,,Kekuatan Taotie hanya kamuflase.
+Dialogue: 0,0:09:10.52,0:09:12.56,wdqk,,0,0,0,,Kekuatan Simbol Leluhur Penelan dan Batu Misterius,
+Dialogue: 0,0:09:12.56,0:09:14.00,wdqk,,0,0,0,,baru bisa menahan Petaka Petir,
+Dialogue: 0,0:09:14.12,0:09:15.24,wdqk,,0,0,0,,lalu mengubahnya untuk diri sendiri.
+Dialogue: 0,0:09:34.20,0:09:35.36,wdqk,,0,0,0,,Tiga petaka bertumpuk.
+Dialogue: 0,0:09:37.12,0:09:38.76,wdqk,,0,0,0,,Dia ingin menyerang pusat formasi.
+Dialogue: 0,0:09:53.12,0:09:54.72,wdqk,,0,0,0,,Semoga tiga lapis Petaka Angin dan Petir ini,
+Dialogue: 0,0:09:54.84,0:09:56.04,wdqk,,0,0,0,,bisa menghancurkan pusat formasi.
+Dialogue: 0,0:10:17.16,0:10:18.84,wdqk,,0,0,0,,Hancurkan!
+Dialogue: 0,0:10:30.60,0:10:31.40,wdqk,,0,0,0,,Berhasil.
+Dialogue: 0,0:10:42.80,0:10:44.00,wdqk,,0,0,0,,Cepat beritahu Guru,
+Dialogue: 0,0:10:44.00,0:10:45.28,wdqk,,0,0,0,,Medan Perang Kuno ada masalah.
+Dialogue: 0,0:10:48.80,0:10:49.60,wdqk,,0,0,0,,Sial.
+Dialogue: 0,0:10:49.60,0:10:50.52,wdqk,,0,0,0,,Diagram formasi rusak.
+Dialogue: 0,0:10:50.52,0:10:51.64,wdqk,,0,0,0,,Cepat perbaiki pusat formasi.
+Dialogue: 0,0:11:04.00,0:11:05.04,wdqk,,0,0,0,,Semuanya, serang bersama.
+Dialogue: 0,0:11:05.20,0:11:06.64,wdqk,,0,0,0,,Hancurkan pusat formasi itu sampai hancur total.
+Dialogue: 0,0:11:09.04,0:11:09.84,wdqk,,0,0,0,,Betul.
+Dialogue: 0,0:11:09.84,0:11:10.64,wdqk,,0,0,0,,Serang bersama.
+Dialogue: 0,0:11:11.08,0:11:11.96,wdqk,,0,0,0,,Kita juga ikut.
+Dialogue: 0,0:11:21.52,0:11:22.32,wdqk,,0,0,0,,Tuan,
+Dialogue: 0,0:11:22.48,0:11:23.92,wdqk,,0,0,0,,sudah hampir tidak kuat.
+Dialogue: 0,0:11:25.24,0:11:28.08,wdqk,,0,0,0,,Awalnya tidak ingin menyia-nyiakan energi Diagram Formasi Pengurung Langit,
+Dialogue: 0,0:11:28.80,0:11:30.72,wdqk,,0,0,0,,tapi kalian malah minta mati cepat.
+Dialogue: 0,0:11:31.04,0:11:32.76,wdqk,,0,0,0,,Baik, kukabulkan permintaan kalian.
+Dialogue: 0,0:11:48.48,0:11:49.28,wdqk,,0,0,0,,Mereka,
+Dialogue: 0,0:11:49.28,0:11:50.08,wdqk,,0,0,0,,kenapa?
+Dialogue: 0,0:12:01.76,0:12:06.00,wdqk,,0,0,0,,Energi kalian cukup untuk memperbaiki pusat formasi.
+Dialogue: 0,0:12:29.52,0:12:30.40,wdqk,,0,0,0,,Energi spiritual.
+Dialogue: 0,0:12:31.52,0:12:32.76,wdqk,,0,0,0,,Energi spiritual bisa menghancurkan siluman.
+Dialogue: 0,0:12:32.76,0:12:33.80,wdqk,,0,0,0,,Cepat bantu mereka.
+Dialogue: 0,0:13:02.48,0:13:03.88,wdqk,,0,0,0,,Serangan Zhen Zhong terlalu kuat.
+Dialogue: 0,0:13:03.88,0:13:04.84,wdqk,,0,0,0,,Jika begini terus,
+Dialogue: 0,0:13:04.84,0:13:05.80,wdqk,,0,0,0,,semua akan mati.
+Dialogue: 0,0:13:06.04,0:13:06.84,wdqk,,0,0,0,,Lin Dong,
+Dialogue: 0,0:13:07.32,0:13:08.96,wdqk,,0,0,0,,kalian tidak bisa melawan Zhen Zhong,
+Dialogue: 0,0:13:08.96,0:13:10.36,wdqk,,0,0,0,,tapi kami bisa.
+Dialogue: 0,0:13:10.48,0:13:12.24,wdqk,,0,0,0,,Asalkan dia lengah sedikit saja,
+Dialogue: 0,0:13:12.28,0:13:14.24,wdqk,,0,0,0,,sangkar ruang ini bisa dihancurkan.
+Dialogue: 0,0:13:17.88,0:13:19.36,wdqk,,0,0,0,,Itu tingkat Profound Life.
+Dialogue: 0,0:13:19.48,0:13:20.44,wdqk,,0,0,0,,Kau sudah yakin?
+Dialogue: 0,0:13:22.16,0:13:24.04,wdqk,,0,0,0,,Kebetulan ingin mencoba efek setelah terobosan.
+Dialogue: 0,0:13:25.52,0:13:26.32,wdqk,,0,0,0,,Baik.
+Dialogue: 0,0:13:26.64,0:13:28.28,wdqk,,0,0,0,,Akan kutemani bertindak gila sekali.
+Dialogue: 0,0:13:29.04,0:13:30.40,wdqk,,0,0,0,,Kakak, ada aku juga.
+Dialogue: 0,0:13:34.80,0:13:35.64,wdqk,,0,0,0,,Serang bersama.
+Dialogue: 0,0:13:45.28,0:13:46.80,wdqk,,0,0,0,,Segel Auman Naga Hitam!
+Dialogue: 0,0:13:48.56,0:13:49.96,wdqk,,0,0,0,,Tongkat Harimau Iblis Langit!
+Dialogue: 0,0:13:51.20,0:13:52.36,wdqk,,0,0,0,,Belenggu Pemecah Langit!
+Dialogue: 0,0:13:56.16,0:13:58.04,wdqk,,0,0,0,,Usaha yang sia-sia.
+Dialogue: 0,0:14:09.60,0:14:11.96,wdqk,,0,0,0,,Karena kalian begitu ingin mati,
+Dialogue: 0,0:14:12.52,0:14:14.44,wdqk,,0,0,0,,maka kukabulkan permintaan kalian.
+Dialogue: 0,0:14:47.76,0:14:49.20,wdqk,,0,0,0,,Lonceng Pelindung Naga Hijau!
+Dialogue: 0,0:15:42.56,0:15:43.52,wdqk,,0,0,0,,Cepat bantu Lin Dong!
+Dialogue: 0,0:15:54.44,0:15:55.24,wdqk,,0,0,0,,Lin Dong,
+Dialogue: 0,0:15:55.28,0:15:58.28,wdqk,,0,0,0,,cahaya putih itu adalah pecahan Roh Primordial yang dipisahkan Zhen Zhong,
+Dialogue: 0,0:15:58.28,0:16:00.32,wdqk,,0,0,0,,terhubung dengan Roh Primordial tubuh aslinya.
+Dialogue: 0,0:16:00.96,0:16:02.32,wdqk,,0,0,0,,Hanya perlu satu serangan,
+Dialogue: 0,0:16:02.44,0:16:04.44,wdqk,,0,0,0,,bisa mempengaruhi Roh Primordial tubuh aslinya.
+Dialogue: 0,0:16:04.84,0:16:07.12,wdqk,,0,0,0,,Asalkan Zhen Zhong sedikit saja lengah,
+Dialogue: 0,0:16:07.16,0:16:09.28,wdqk,,0,0,0,,kita pasti bisa keluar dari sangkar ini.
+Dialogue: 0,0:16:27.84,0:16:29.24,wdqk,,0,0,0,,Aura Naga Langit!
+Dialogue: 0,0:16:34.96,0:16:35.76,wdqk,,0,0,0,,Lin Dong,
+Dialogue: 0,0:16:36.00,0:16:37.40,wdqk,,0,0,0,,tubuhmu tidak akan kuat menahan ini.
+Dialogue: 0,0:16:37.40,0:16:38.24,wdqk,,0,0,0,,Cepat hentikan!
+Dialogue: 0,0:16:52.88,0:16:56.16,wdqk,,0,0,0,,Bocah dari Wilayah Dongxuan ini bisa mengendalikan Aura Naga Langit?
+Dialogue: 0,0:16:56.20,0:16:57.88,wdqk,,0,0,0,,Teknik Transformasi Naga Langit Biru.
+Dialogue: 0,0:16:58.56,0:16:59.52,wdqk,,0,0,0,,Gigitan Naga Hijau!
+Dialogue: 0,0:17:27.12,0:17:27.92,wdqk,,0,0,0,,Lin Dong,
+Dialogue: 0,0:17:27.96,0:17:28.92,wdqk,,0,0,0,,waktunya tiba.
+Dialogue: 0,0:17:29.00,0:17:30.40,wdqk,,0,0,0,,Ambil Roh Primordial itu!
+Dialogue: 0,0:17:31.32,0:17:32.72,wdqk,,0,0,0,,Mati kau!
+Dialogue: 0,0:17:33.72,0:17:48.72,wdqk,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:18:02.72,0:18:03.60,wdqk,,0,0,0,,Bocah,
+Dialogue: 0,0:18:03.84,0:18:06.76,wdqk,,0,0,0,,berani sekali kau menyentuh Roh Primordialku secara langsung.
+Dialogue: 0,0:18:23.96,0:18:24.76,wdqk,,0,0,0,,Bocah,
+Dialogue: 0,0:18:25.00,0:18:25.80,wdqk,,0,0,0,,pegang aku!
+Dialogue: 0,0:18:27.64,0:18:29.64,wdqk,,0,0,0,,Hidup dan mati bersama.
+Dialogue: 0,0:18:39.16,0:18:39.96,wdqk,,0,0,0,,Kakak,
+Dialogue: 0,0:18:40.08,0:18:41.16,wdqk,,0,0,0,,ada aku juga.
+Dialogue: 0,0:18:43.92,0:18:45.08,wdqk,,0,0,0,,Cari mati!
+Dialogue: 0,0:18:46.08,0:19:01.08,wdqk,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:19:12.16,0:19:13.08,wdqk,,0,0,0,,Kalian...
+Dialogue: 0,0:19:14.08,0:19:29.08,wdqk,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:19:41.36,0:19:45.24,wdqk,,0,0,0,,Sekarang saatnya!
+Dialogue: 0,0:19:48.92,0:19:50.08,wdqk,,0,0,0,,Bajingan kecil,
+Dialogue: 0,0:19:50.52,0:19:52.24,wdqk,,0,0,0,,kau ini siapa?
+Dialogue: 0,0:19:55.44,0:19:56.16,wdqk,,0,0,0,,Lin Dong!
+Dialogue: 0,0:19:59.48,0:20:00.32,wdqk,,0,0,0,,Kalian...
+Dialogue: 0,0:20:01.12,0:20:02.64,wdqk,,0,0,0,,Mati semua!
+Dialogue: 0,0:20:08.00,0:20:08.80,wdqk,,0,0,0,,Gawat!
+Dialogue: 0,0:20:23.96,0:20:25.60,wdqk,,0,0,0,,Istana Taiqing Sembilan Langit?!
+Dialogue: 0,0:20:40.40,0:20:41.64,wdqk,,0,0,0,,Zhen Zhong, bajingan!
+Dialogue: 0,0:20:41.96,0:20:43.00,wdqk,,0,0,0,,Serahkan nyawamu!
+Dialogue: 0,0:20:44.00,0:20:44.80,wdqk,,0,0,0,,Mundur!
+Dialogue: 0,0:20:45.60,0:20:46.20,wdqk,,0,0,0,,Ya!
+Dialogue: 0,0:20:57.04,0:20:58.16,wdqk,,0,0,0,,Medan Perang Kuno,
+Dialogue: 0,0:20:58.16,0:21:00.96,wdqk,,0,0,0,,biarkan Wilayah Dongxuan kalian menguasainya untuk sementara waktu.
+Dialogue: 0,0:21:01.32,0:21:03.00,wdqk,,0,0,0,,Tunggu sampai Perang Wilayah berikutnya.
+Dialogue: 0,0:21:03.32,0:21:06.00,wdqk,,0,0,0,,Ia akan menjadi milik Wilayah Xixuan kami.
+Dialogue: 0,0:21:09.20,0:21:10.00,wdqk,,0,0,0,,Qingzhu?
+Dialogue: 0,0:21:12.20,0:21:13.00,wdqk,,0,0,0,,Itu kau?
+Dialogue: 0,0:21:21.00,0:21:21.84,wdqk,,0,0,0,,Seandainya,
+Dialogue: 0,0:21:21.84,0:21:24.16,wdqk,,0,0,0,,aku bisa menonjol dari Perang Seratus Dinasti?
+Dialogue: 0,0:21:25.32,0:21:27.64,wdqk,,0,0,0,,Aku tidak yakin kau bisa sampai ke tahap itu.
+Dialogue: 0,0:21:27.64,0:21:28.80,wdqk,,0,0,0,,Hari itu akan tiba.
+Dialogue: 0,0:21:29.16,0:21:30.76,wdqk,,0,0,0,,Aku akan berdiri di hadapanmu lagi.
+Dialogue: 0,0:21:31.40,0:21:32.20,wdqk,,0,0,0,,Saat itu tiba,
+Dialogue: 0,0:21:32.72,0:21:34.04,wdqk,,0,0,0,,aku pasti akan pantas untukmu.
+Dialogue: 0,0:21:35.36,0:21:36.24,wdqk,,0,0,0,,Tak kusangka,
+Dialogue: 0,0:21:36.68,0:21:38.60,wdqk,,0,0,0,,dia benar-benar menepati janjinya dulu.
+Dialogue: 0,0:21:38.84,0:21:39.96,wdqk,,0,0,0,,Bisa sampai sejauh ini.
+Dialogue: 0,0:21:41.52,0:21:42.88,wdqk,,0,0,0,,Semoga saat kita bertemu lagi,
+Dialogue: 0,0:21:43.20,0:21:44.96,wdqk,,0,0,0,,kau bisa memberiku kejutan yang lebih besar.
+Dialogue: 0,0:21:48.12,0:21:50.56,wdqk,,0,0,0,,Kenapa tidak bicara sesuatu dengannya?
+Dialogue: 0,0:21:52.68,0:21:53.92,wdqk,,0,0,0,,Masih terlalu dini.
+Dialogue: 0,0:21:53.96,0:21:54.76,wdqk,,0,0,0,,Benar juga.
+Dialogue: 0,0:21:54.92,0:21:56.24,wdqk,,0,0,0,,Kalau kau ingin menyusulnya,
+Dialogue: 0,0:21:56.24,0:21:57.56,wdqk,,0,0,0,,masih ada jalan panjang yang harus ditempuh.
+Dialogue: 0,0:21:58.84,0:21:59.96,wdqk,,0,0,0,,Hari itu akan tiba.
+Dialogue: 0,0:22:18.48,0:22:19.64,wdqk,,0,0,0,,Peri Qingzhu,
+Dialogue: 0,0:22:20.08,0:22:21.04,wdqk,,0,0,0,,terima kasih banyak.
+Dialogue: 0,0:22:23.60,0:22:24.80,wdqk,,0,0,0,,Krisis telah teratasi.
+Dialogue: 0,0:22:25.04,0:22:26.28,wdqk,,0,0,0,,Kompetisi dilanjutkan.
+Dialogue: 0,0:22:26.44,0:22:27.88,wdqk,,0,0,0,,Tidak perlu lagi, kan?
+Dialogue: 0,0:22:28.52,0:22:30.52,wdqk,,0,0,0,,Melihat penampilan Lin Dong tadi,
+Dialogue: 0,0:22:30.72,0:22:33.28,wdqk,,0,0,0,,juara Perang Seratus Dinasti ini, kalau bukan untuknya,
+Dialogue: 0,0:22:33.48,0:22:34.68,wdqk,,0,0,0,,lalu untuk siapa lagi?
+Dialogue: 0,0:22:35.20,0:22:37.40,wdqk,,0,0,0,,Istana Primordial mendukung Lin Dong sebagai juara.
+Dialogue: 0,0:22:37.52,0:22:38.88,wdqk,,0,0,0,,Sekte Fu juga setuju.
+Dialogue: 0,0:22:39.24,0:22:41.08,wdqk,,0,0,0,,Istana Taiqing Sembilan Langit setuju.
+Dialogue: 0,0:22:41.20,0:22:42.60,wdqk,,0,0,0,,Sekte Wankui setuju.
+Dialogue: 0,0:22:45.72,0:22:46.72,wdqk,,0,0,0,,Kalau begitu,
+Dialogue: 0,0:22:47.04,0:22:47.92,wdqk,,0,0,0,,kuumumkan,
+Dialogue: 0,0:22:48.64,0:22:51.68,wdqk,,0,0,0,,juara Perang Seratus Dinasti kali ini diberikan kepada,
+Dialogue: 0,0:22:52.20,0:22:53.68,wdqk,,0,0,0,,Lin Dong.
+Dialogue: 0,0:23:02.07,0:23:03.07,wdqk,,0,0,0,,Lin Dong,
+Dialogue: 0,0:23:03.20,0:23:05.64,wdqk,,0,0,0,,Setiap juara sebelumnya bisa bergabung dengan Sekte Yuan kami,
+Dialogue: 0,0:23:05.88,0:23:08.00,wdqk,,0,0,0,,untuk mendapatkan sumber daya terbaik,
+Dialogue: 0,0:23:08.00,0:23:10.40,wdqk,,0,0,0,,serta perlindungan terkuat.
+Dialogue: 0,0:23:10.72,0:23:13.28,wdqk,,0,0,0,,Apakah kau bersedia bergabung dengan Sekte Yuan kami?
+Dialogue: 0,0:23:13.88,0:23:14.68,wdqk,,0,0,0,,Sekte Yuan?
+Dialogue: 0,0:23:14.96,0:23:17.88,wdqk,,0,0,0,,Itu sekte terkuat di antara Delapan Sekte Super.
+Dialogue: 0,0:23:18.32,0:23:19.00,wdqk,,0,0,0,,Benar.
+Dialogue: 0,0:23:19.00,0:23:21.08,wdqk,,0,0,0,,Tak disangka Sekte Yuan akan merekrut Lin Dong secara aktif.
+Dialogue: 0,0:23:21.08,0:23:21.96,wdqk,,0,0,0,,Memang pantas.
+Dialogue: 0,0:23:21.96,0:23:22.88,wdqk,,0,0,0,,Lin Dong begitu cemerlang,
+Dialogue: 0,0:23:23.00,0:23:24.08,wdqk,,0,0,0,,pantas untuk Sekte Yuan.
+Dialogue: 0,0:23:27.12,0:23:28.08,wdqk,,0,0,0,,Para Senior,
+Dialogue: 0,0:23:28.48,0:23:29.52,wdqk,,0,0,0,,Lin Dong memutuskan.
+Dialogue: 0,0:23:29.80,0:23:30.92,wdqk,,0,0,0,,Bergabung dengan Sekte Dao.
+Dialogue: 0,0:23:46.72,0:23:50.60,wdqk,,0,0,0,,Keluarga Lin kita benar-benar ada yang dilirik oleh sekte super.
+Dialogue: 0,0:23:50.60,0:23:51.44,wdqk,,0,0,0,,Haha.
+Dialogue: 0,0:23:53.20,0:23:54.84,wdqk,,0,0,0,,Pasti itu Lin Langtian.
+Dialogue: 0,0:23:55.96,0:23:56.88,wdqk,,0,0,0,,Memang.
+Dialogue: 0,0:23:57.28,0:24:01.28,wdqk,,0,0,0,,Di keluarga Lin kita, mungkin hanya dia yang bisa melakukan hal itu.
+Dialogue: 0,0:24:01.28,0:24:02.08,wdqk,,0,0,0,,Benar.
+Dialogue: 0,0:24:02.32,0:24:05.92,wdqk,,0,0,0,,Memang pantas disebut jenius terhebat di keluarga Lin kita.
+Dialogue: 0,0:24:06.56,0:24:08.44,wdqk,,0,0,0,,Anak dari cabang Kota Yan itu,
+Dialogue: 0,0:24:08.44,0:24:10.40,wdqk,,0,0,0,,hanya beruntung saja.
+Dialogue: 0,0:24:11.16,0:24:15.88,wdqk,,0,0,0,,Kabar ini tersebar, sandaran keluarga Lin Dong mungkin akan hilang.
+Dialogue: 0,0:24:15.88,0:24:16.80,wdqk,,0,0,0,,Benar.
+Dialogue: 0,0:24:17.08,0:24:18.32,wdqk,,0,0,0,,Cabang kecil,
+Dialogue: 0,0:24:18.36,0:24:20.40,wdqk,,0,0,0,,mana bisa disamakan dengan keluarga utama.
+Dialogue: 0,0:24:20.48,0:24:24.56,wdqk,,0,0,0,,Apa Lin Dong akhirnya kalah dalam persaingan dengan Lin Langtian?
+Dialogue: 0,0:24:30.60,0:24:32.72,wdqk,,0,0,0,,Dalam Perang Seratus Dinasti kali ini,
+Dialogue: 0,0:24:32.96,0:24:37.56,wdqk,,0,0,0,,satu murid dari keluarga kita melampaui para jenius dari dinasti super.
+Dialogue: 0,0:24:37.56,0:24:39.36,wdqk,,0,0,0,,Merebut posisi juara,
+Dialogue: 0,0:24:39.36,0:24:41.12,wdqk,,0,0,0,,dan bergabung dengan Sekte Dao.
+Dialogue: 0,0:24:41.96,0:24:44.28,wdqk,,0,0,0,,Sekte Dao yang merupakan salah satu dari Delapan Sekte Super itu?
+Dialogue: 0,0:24:44.96,0:24:45.88,wdqk,,0,0,0,,Sepertinya benar.
+Dialogue: 0,0:24:48.52,0:24:49.88,wdqk,,0,0,0,,Dia adalah,
+Dialogue: 0,0:24:49.88,0:24:51.28,wdqk,,0,0,0,,Lin Dong.
+Dialogue: 0,0:24:54.00,0:24:54.40,wdqk,,0,0,0,,Ini,
+Dialogue: 0,0:24:56.88,0:24:59.20,wdqk,,0,0,0,,Segera beri tahu cabang Kota Yan.
+Dialogue: 0,0:24:59.24,0:25:02.64,wdqk,,0,0,0,,Naikkan Lin Zhentian menjadi Tetua Agung Tertinggi keluarga.
+Dialogue: 0,0:25:03.00,0:25:03.72,wdqk,,0,0,0,,Lin Xiao,
+Dialogue: 0,0:25:03.72,0:25:07.24,wdqk,,0,0,0,,Lin Ke dan yang lainnya, undang semua untuk menduduki kursi Tetua.
+Dialogue: 0,0:25:07.60,0:25:09.00,wdqk,,0,0,0,,Mulai hari ini,
+Dialogue: 0,0:25:09.08,0:25:10.60,wdqk,,0,0,0,,di keluarga Lin,
+Dialogue: 0,0:25:10.80,0:25:14.08,wdqk,,0,0,0,,siapa pun yang berani berkata setengah kata buruk tentang cabang Kota Yan,
+Dialogue: 0,0:25:14.36,0:25:16.72,wdqk,,0,0,0,,langsung dicabut status keluarganya.
+Dialogue: 0,0:25:16.92,0:25:18.48,wdqk,,0,0,0,,Siapa pun itu.
+Dialogue: 0,0:25:19.32,0:25:20.48,wdqk,,0,0,0,,Mulai hari ini,
+Dialogue: 0,0:25:20.80,0:25:22.08,wdqk,,0,0,0,,cabang Kota Yan,
+Dialogue: 0,0:25:22.56,0:25:24.20,wdqk,,0,0,0,,akan menjadi,
+Dialogue: 0,0:25:24.20,0:25:26.12,wdqk,,0,0,0,,eksistensi yang paling tidak boleh diganggu,
+Dialogue: 0,0:25:26.16,0:25:28.28,wdqk,,0,0,0,,bahkan di seluruh Dinasti Agung Yan,

@@ -42,17 +42,17 @@ async function cut(inputFile, outputFile) {
     const ffmpegArgs = [
       '-y', 
       '-i', inputFile, 
-      // '-ss', '00:02:17', 
-      '-to', '00:17:59',
-      // '-vf', 'scale=1920:-2', 
+      // '-ss', '00:02:37',
+      '-to', '00:21:02',
+      '-vf', 'scale=1920:-2', 
       // '-pix_fmt', 'yuv420p',
-      '-r', '25', 
+      // '-r', '25', 
       '-c:v', 'h264_amf', 
       '-cq:v', '18', 
       '-rc', 'cbr', 
-      '-b:v', '2M',
-      '-maxrate', '2M',
-      '-bufsize', '4M',
+      '-b:v', '6M',
+      '-maxrate', '6M',
+      '-bufsize', '12M',
       '-quality', 'quality',
       '-preset', 'quality', 
       '-c:a', 'aac',
@@ -62,10 +62,13 @@ async function cut(inputFile, outputFile) {
     // const ffmpegArgs = [
     //   '-y', // Overwrite file output jika ada
     //   '-i', inputFile, // File input
-    //   // '-ss', '00:02:17', 
-    //   // '-to', '00:20:01',
-    //   // '-vf', "scale=1920:-1",
-    //   // '-pix_fmt', 'yuv420p',
+    //   '-ss', '00:02:35', 
+    //   '-to', '00:21:16',
+    //   '-vf', "scale=1920:-2",
+    //   '-pix_fmt', 'yuv420p',
+    //   // '-color_primaries', 'bt709',
+    //   // '-color_trc', 'bt709',
+    //   // '-colorspace', 'bt709',
     //   '-c:v', 'libx264',
     //   '-crf', '20',
     //   // '-b:v', '2M', // Bitrate target rata-rata
@@ -139,5 +142,5 @@ async function extractSubtitle(inputFile, subtitleStreamIndex, outputFile, force
 //       outputFile
 //     ];
 
-cut('188.mp4', '188_cut.mp4');
+cut('178_4K.mp4', 'BTTH_EP178.mp4');
 // extractSubtitle('06V2_4K.mp4', 0, 'TOMB_EP6_INDO.srt', true);

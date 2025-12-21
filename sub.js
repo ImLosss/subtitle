@@ -62,7 +62,7 @@ async function burnSubtitleGPU(inputFile, outputFile) {
       '-preset', 'quality', // Gunakan preset kualitas GPU
       // '-vf', `subtitles=output.srt:force_style='FontName=ArialMT,Bold=1,FontSize=16,PrimaryColour=&HFFFFFF&,Outline=0.5,MarginV=25',
       // scale=1920:-1
-      '-vf', "subtitles=TOS_EP188_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
+      '-vf', "subtitles=TALES_EP62_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
       '-c:a', 'copy', 
       outputFile // File output
     ];
@@ -74,9 +74,9 @@ async function burnSubtitleGPU(inputFile, outputFile) {
     //   '-y', // Overwrite file output jika ada
     //   '-i', inputFile, // File input
     //   // '-ss', '01:18:40',
-    //   // '-to', '00:20:01',
-    //   // scale=-1:1080
-    //   '-vf', "subtitles=TOS_EP188_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
+    //   // '-to', '00:00:10',
+    //   // scale=1920:-2
+    //   '-vf', "subtitles=TALES_EP62_INDO.ass,drawtext=text='DongWorld':font=Verdana:fontsize=30:fontcolor=white@0.5:x=15:y=15",
     //   // '-pix_fmt', 'yuv420p',
     //   '-c:v', 'libx264',
     //   '-crf', '25',
@@ -211,4 +211,4 @@ async function extractSrt(inputFile) {
 //   outputFile // File output
 // ];
 
-burnSubtitleGPU('TOS_EP188.mp4', 'TOS_EP188_INDO.mp4')
+burnSubtitleGPU('TALES_EP62.mp4', 'TALES_EP62_INDO.mp4')

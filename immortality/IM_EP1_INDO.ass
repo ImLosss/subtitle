@@ -1,0 +1,347 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+Style: wdqk,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: ap,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: im,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.28,0:00:44.76,Preview,,0,0,0,,Preview Season sebelumnya:
+Dialogue: 0,0:00:01.28,0:00:02.40,im,,0,0,0,,Tinggalkan Tungku Raja Lima Neraka,
+Dialogue: 0,0:00:02.48,0:00:04.60,im,,0,0,0,,akan kubiarkan jasad kalian utuh, bagaimana?
+Dialogue: 0,0:00:04.72,0:00:06.32,im,,0,0,0,,Kalian dari Sekte Taiyi keterlaluan sekali!
+Dialogue: 0,0:00:06.84,0:00:08.04,im,,0,0,0,,Seniorku Fang Qingxue...
+Dialogue: 0,0:00:08.12,0:00:09.92,im,,0,0,0,,pasti akan membalas dendam untuk kami berdua!
+Dialogue: 0,0:00:10.04,0:00:11.36,im,,0,0,0,,Fang Qingxue?
+Dialogue: 0,0:00:11.60,0:00:12.92,im,,0,0,0,,Emangnya dia siapa?
+Dialogue: 0,0:00:13.32,0:00:14.64,im,,0,0,0,,Begitu ya?
+Dialogue: 0,0:00:15.80,0:00:16.68,im,,0,0,0,,Sudah kuduga dia datang.
+Dialogue: 0,0:00:16.88,0:00:19.88,im,,0,0,0,,Sekte Taiyi benar-benar hebat ya.
+Dialogue: 0,0:00:20.04,0:00:20.88,im,,0,0,0,,Musnah!
+Dialogue: 0,0:00:21.24,0:00:22.24,im,,0,0,0,,Keluarkan Dekrit Surgawi!
+Dialogue: 0,0:00:22.32,0:00:24.00,im,,0,0,0,,Kumpulkan semua murid Sekte Taiyi di lautan!
+Dialogue: 0,0:00:24.40,0:00:25.60,im,,0,0,0,,Untuk Panglima Iblis,
+Dialogue: 0,0:00:26.16,0:00:27.20,im,,0,0,0,,kepung dan bunuh!
+Dialogue: 0,0:00:27.40,0:00:28.08,im,,0,0,0,,Begitu ya?
+Dialogue: 0,0:00:29.00,0:00:31.24,im,,0,0,0,,Di Dekrit Surgawi yang baru saja kalian kirim tadi...
+Dialogue: 0,0:00:31.64,0:00:33.04,im,,0,0,0,,tidak menyebutkan aku, kan?
+Dialogue: 0,0:00:33.24,0:00:35.20,im,,0,0,0,,Kalau begitu, jika aku membunuh kalian sekarang...
+Dialogue: 0,0:00:36.04,0:00:38.00,im,,0,0,0,,siapa yang akan tahu?
+Dialogue: 0,0:00:39.72,0:00:40.44,im,,0,0,0,,Kalau kau tidak memberi,
+Dialogue: 0,0:00:41.44,0:00:42.84,im,,0,0,0,,aku tidak bisa mencarinya sendiri?
+Dialogue: 0,0:00:43.84,0:00:58.84,im,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:00:46.56,0:00:50.96,im,,0,0,0,,[EPISODE 1]
+Dialogue: 0,0:01:08.72,0:01:10.04,im,,0,0,0,,Yao Dian dan mereka...
+Dialogue: 0,0:01:10.32,0:01:13.72,im,,0,0,0,,mengirim Dekrit Surgawi dari pulau terpencil ini.
+Dialogue: 0,0:01:15.16,0:01:16.48,im,,0,0,0,,Ke mana perginya orang-orang itu?
+Dialogue: 0,0:01:21.00,0:01:21.40,im,,0,0,0,,Fu Shou.
+Dialogue: 0,0:01:22.40,0:01:23.20,im,,0,0,0,,Di mana Yao Dian dan yang lainnya?
+Dialogue: 0,0:01:24.44,0:01:25.32,im,,0,0,0,,Tidak ketemu.
+Dialogue: 0,0:01:37.56,0:01:38.76,im,,0,0,0,,Kalian datang terlambat sekali.
+Dialogue: 0,0:01:39.40,0:01:40.52,im,,0,0,0,,Jangan-jangan pergi minum arak?
+Dialogue: 0,0:01:42.72,0:01:44.72,im,,0,0,0,,Master Lu Ming bercanda.
+Dialogue: 0,0:01:47.24,0:01:47.96,im,,0,0,0,,Lu Ming.
+Dialogue: 0,0:01:48.32,0:01:48.92,im,,0,0,0,,Fu Shou.
+Dialogue: 0,0:01:49.60,0:01:50.96,im,,0,0,0,,Kalian datang lumayan cepat.
+Dialogue: 0,0:01:51.68,0:01:53.04,im,,0,0,0,,Di mana Yao Dian dan lainnya?
+Dialogue: 0,0:01:54.56,0:01:55.28,im,,0,0,0,,Jangan ditanya.
+Dialogue: 0,0:01:55.52,0:01:56.68,im,,0,0,0,,Entah mati di mana.
+Dialogue: 0,0:02:14.44,0:02:17.12,im,,0,0,0,,Murid memberi salam kepada Lima Master Sejati.
+Dialogue: 0,0:02:19.20,0:02:20.96,im,,0,0,0,,Senior Weiyi datang.
+Dialogue: 0,0:02:21.96,0:02:36.96,im,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:02:55.00,0:02:56.88,im,,0,0,0,,Salam, Senior Weiyi.
+Dialogue: 0,0:02:59.92,0:03:01.64,im,,0,0,0,,Di mana Lima Master Sejati?
+Dialogue: 0,0:03:07.52,0:03:08.84,im,,0,0,0,,Lapor, Senior Weiyi.
+Dialogue: 0,0:03:09.52,0:03:11.28,im,,0,0,0,,Kami berlima langsung bergegas ke sini...
+Dialogue: 0,0:03:12.08,0:03:14.32,im,,0,0,0,,begitu menerima dekrit tersebut.
+Dialogue: 0,0:03:14.64,0:03:15.12,im,,0,0,0,,Tapi...
+Dialogue: 0,0:03:15.56,0:03:17.96,im,,0,0,0,,kami tidak menemukan tiga junior, Yao Dian dan yang lainnya.
+Dialogue: 0,0:03:17.96,0:03:19.00,im,,0,0,0,,Begitu aku menginjakkan kaki di pulau ini,
+Dialogue: 0,0:03:20.00,0:03:22.04,im,,0,0,0,,aku langsung merasakan...
+Dialogue: 0,0:03:23.04,0:03:24.40,im,,0,0,0,,aura dendam yang pekat
+Dialogue: 0,0:03:24.92,0:03:26.28,im,,0,0,0,,dan aura kematian yang mereka tinggalkan.
+Dialogue: 0,0:03:27.28,0:03:28.64,im,,0,0,0,,Tiga junior kita...
+Dialogue: 0,0:03:29.56,0:03:31.08,im,,0,0,0,,telah menjadi korban.
+Dialogue: 0,0:03:33.92,0:03:35.28,im,,0,0,0,,Siapa yang berani sekali?
+Dialogue: 0,0:03:38.60,0:03:39.36,im,,0,0,0,,Siapa, ya?
+Dialogue: 0,0:03:39.36,0:03:40.60,im,,0,0,0,,Sungguh keterlaluan!
+Dialogue: 0,0:03:41.08,0:03:41.96,im,,0,0,0,,Beraninya si Panglima Iblis!
+Dialogue: 0,0:03:42.80,0:03:43.68,im,,0,0,0,,Berani sungguh-sungguh...
+Dialogue: 0,0:03:44.00,0:03:45.80,im,,0,0,0,,membunuh murid Sekte Taiyi!
+Dialogue: 0,0:03:46.76,0:03:47.40,im,,0,0,0,,Cukup!
+Dialogue: 0,0:03:48.56,0:03:50.08,im,,0,0,0,,Untuk menyelidiki hal ini
+Dialogue: 0,0:03:50.52,0:03:51.44,im,,0,0,0,,pertama-tama...
+Dialogue: 0,0:03:51.68,0:03:53.04,im,,0,0,0,,kita harus menangkap Panglima Iblis.
+Dialogue: 0,0:03:54.08,0:03:54.92,im,,0,0,0,,Karena,
+Dialogue: 0,0:03:55.48,0:03:58.40,im,,0,0,0,,pertempuran antara jalan Abadi dan Iblis tak terhindarkan.
+Dialogue: 0,0:03:59.12,0:04:00.32,im,,0,0,0,,Maka bencana ini,
+Dialogue: 0,0:04:01.44,0:04:05.05,im,,0,0,0,,akan kumulai sendiri.
+Dialogue: 0,0:04:06.76,0:04:07.76,im,,0,0,0,,Lima Master Sejati!
+Dialogue: 0,0:04:09.68,0:04:11.44,im,,0,0,0,,Segera keluarkan Perintah Buronan Surgawi
+Dialogue: 0,0:04:12.08,0:04:13.84,im,,0,0,0,,ke seluruh jalan Abadi Xuanhuang!
+Dialogue: 0,0:04:16.84,0:04:19.52,im,,0,0,0,,Untuk bersama-sama menumpas Panglima Iblis!
+Dialogue: 0,0:04:22.32,0:04:24.44,im,,0,0,0,,Patuh pada perintah Senior Weiyi!
+Dialogue: 0,0:04:42.64,0:04:44.48,im,,0,0,0,,Racun serangga ini kenapa...
+Dialogue: 0,0:04:54.76,0:04:55.36,im,,0,0,0,,Fang Han?
+Dialogue: 0,0:04:56.24,0:04:56.64,im,,0,0,0,,Longxuan?
+Dialogue: 0,0:04:57.20,0:04:57.76,im,,0,0,0,,Bagaimana keadaanmu?
+Dialogue: 0,0:05:03.12,0:05:04.48,im,,0,0,0,,Racun seranggaku sudah teratasi.
+Dialogue: 0,0:05:05.84,0:05:07.20,im,,0,0,0,,Apa yang sebenarnya terjadi di luar?
+Dialogue: 0,0:05:08.64,0:05:09.84,im,,0,0,0,,Pertarungan di luar sudah berakhir.
+Dialogue: 0,0:05:10.48,0:05:11.20,im,,0,0,0,,Semua orang menghilang.
+Dialogue: 0,0:05:12.12,0:05:12.68,im,,0,0,0,,Mungkinkah...
+Dialogue: 0,0:05:13.64,0:05:14.84,im,,0,0,0,,mereka dibunuh oleh Panglima Iblis?
+Dialogue: 0,0:05:17.20,0:05:17.84,im,,0,0,0,,Tidak mungkin.
+Dialogue: 0,0:05:18.48,0:05:20.16,im,,0,0,0,,Itu kan murid sejati Sekte Taiyi.
+Dialogue: 0,0:05:20.64,0:05:21.56,im,,0,0,0,,Kecuali Panglima Iblis
+Dialogue: 0,0:05:21.68,0:05:23.04,im,,0,0,0,,ingin memicu perang Abadi-Iblis,
+Dialogue: 0,0:05:24.08,0:05:25.44,im,,0,0,0,,dia pasti tidak akan membunuh.
+Dialogue: 0,0:05:26.92,0:05:27.52,im,,0,0,0,,Lupakan saja.
+Dialogue: 0,0:05:28.08,0:05:29.36,im,,0,0,0,,Racun seranggamu sudah hilang.
+Dialogue: 0,0:05:29.72,0:05:31.32,im,,0,0,0,,Lebih baik kita segera menuju Reruntuhan.
+Dialogue: 0,0:05:35.92,0:05:36.64,im,,0,0,0,,Kamu istirahat dulu.
+Dialogue: 0,0:05:37.12,0:05:38.04,im,,0,0,0,,Aku akan periksa Fang Xiaolin.
+Dialogue: 0,0:05:38.52,0:05:39.00,im,,0,0,0,,Baik.
+Dialogue: 0,0:05:42.52,0:05:43.44,im,,0,0,0,,Masalah Sekte Taiyi ini,
+Dialogue: 0,0:05:44.08,0:05:45.00,im,,0,0,0,,melibatkan banyak hal.
+Dialogue: 0,0:05:46.12,0:05:47.48,im,,0,0,0,,Lebih baik tidak usah diberitahu ke Longxuan.
+Dialogue: 0,0:06:02.76,0:06:03.40,im,,0,0,0,,Sudah bangun?
+Dialogue: 0,0:06:04.12,0:06:04.76,im,,0,0,0,,Bagaimana keadaanmu?
+Dialogue: 0,0:06:06.92,0:06:07.56,im,,0,0,0,,Sudah baik.
+Dialogue: 0,0:06:08.60,0:06:09.96,im,,0,0,0,,Aku sudah merepotkan kalian.
+Dialogue: 0,0:06:10.80,0:06:11.16,im,,0,0,0,,Oh iya,
+Dialogue: 0,0:06:11.52,0:06:13.64,im,,0,0,0,,aku merasakan kalian bertarung lagi setelah itu.
+Dialogue: 0,0:06:13.64,0:06:14.48,im,,0,0,0,,Tidak ada bahaya, kan?
+Dialogue: 0,0:06:15.48,0:06:15.96,im,,0,0,0,,Tidak.
+Dialogue: 0,0:06:16.52,0:06:17.60,im,,0,0,0,,Krisis sudah teratasi.
+Dialogue: 0,0:06:19.36,0:06:20.28,im,,0,0,0,,Aku lagi-lagi tidak bisa membantu.
+Dialogue: 0,0:06:22.52,0:06:23.44,im,,0,0,0,,Kamu istirahat dan pulihkan lukamu dulu.
+Dialogue: 0,0:06:24.04,0:06:24.96,im,,0,0,0,,Aku juga akan meditasi sejenak.
+Dialogue: 0,0:06:26.24,0:06:27.16,im,,0,0,0,,Nanti kita langsung ke Reruntuhan.
+Dialogue: 0,0:06:33.52,0:06:35.28,im,,0,0,0,,Benar-benar berani mempertaruhkan nyawa,
+Dialogue: 0,0:06:35.60,0:06:37.36,im,,0,0,0,,berani menyeret kaisar turun dari kudanya.
+Dialogue: 0,0:06:39.44,0:06:40.92,im,,0,0,0,,Sekte Taiyi itu arogan dan semena-mena.
+Dialogue: 0,0:06:41.92,0:06:43.40,im,,0,0,0,,Karena sudah terlibat permusuhan,
+Dialogue: 0,0:06:44.40,0:06:45.28,im,,0,0,0,,maka seharusnya
+Dialogue: 0,0:06:45.92,0:06:47.12,im,,0,0,0,,menyerang lebih dulu.
+Dialogue: 0,0:06:48.48,0:06:48.96,im,,0,0,0,,Kalau tidak,
+Dialogue: 0,0:06:49.88,0:06:51.16,im,,0,0,0,,saat mereka berhasil pulih,
+Dialogue: 0,0:06:52.00,0:06:52.92,im,,0,0,0,,yang sial...
+Dialogue: 0,0:06:53.64,0:06:54.56,im,,0,0,0,,adalah aku.
+Dialogue: 0,0:06:55.68,0:06:56.92,im,,0,0,0,,Tak ada orang kaya tanpa keberuntungan.
+Dialogue: 0,0:06:57.20,0:06:59.36,im,,0,0,0,,Aku ingin lihat apa yang dimiliki murid sejati Sekte Taiyi.
+Dialogue: 0,0:06:59.76,0:07:01.00,im,,0,0,0,,Ada barang bagus apa, ya?
+Dialogue: 0,0:07:06.96,0:07:07.64,im,,0,0,0,,Ini...
+Dialogue: 0,0:07:09.08,0:07:10.00,im,,0,0,0,,Kantung Seratus Harta.
+Dialogue: 0,0:07:10.68,0:07:12.80,im,,0,0,0,,Setiap murid sejati Sekte Taiyi punya satu.
+Dialogue: 0,0:07:14.20,0:07:16.40,im,,0,0,0,,Ini adalah artefak penyimpanan dengan ruang dimensi sendiri.
+Dialogue: 0,0:07:17.44,0:07:17.96,im,,0,0,0,,Sini,
+Dialogue: 0,0:07:18.56,0:07:19.84,im,,0,0,0,,biar aku gunakan air Sungai Huangquan
+Dialogue: 0,0:07:20.08,0:07:21.80,im,,0,0,0,,untuk memecahkan segel mereka.
+Dialogue: 0,0:07:33.20,0:07:33.60,im,,0,0,0,,Fang Han,
+Dialogue: 0,0:07:34.16,0:07:35.20,im,,0,0,0,,lihatlah keberuntunganmu.
+Dialogue: 0,0:07:43.48,0:07:44.44,im,,0,0,0,,Pil yang bagus!
+Dialogue: 0,0:07:44.92,0:07:46.04,im,,0,0,0,,Ini Pil Nascent Soul.
+Dialogue: 0,0:07:46.53,0:07:47.32,im,,0,0,0,,Pil Nascent Soul?
+Dialogue: 0,0:07:48.68,0:07:50.40,im,,0,0,0,,Ini benar-benar pil kualitas atas.
+Dialogue: 0,0:07:51.84,0:07:53.00,im,,0,0,0,,Labu Pil Nascent Soul ini
+Dialogue: 0,0:07:53.40,0:07:54.36,im,,0,0,0,,seharusnya berisi seribu butir.
+Dialogue: 0,0:07:54.80,0:07:56.28,im,,0,0,0,,Kalau kamu mengonsumsi pil ini nanti,
+Dialogue: 0,0:07:56.68,0:07:57.48,im,,0,0,0,,untuk kultivasimu
+Dialogue: 0,0:07:57.60,0:07:58.40,im,,0,0,0,,akan sangat bermanfaat.
+Dialogue: 0,0:08:06.80,0:08:08.52,im,,0,0,0,,Kemampuan Singa Surgawi Sekte Taiyi.
+Dialogue: 0,0:08:10.64,0:08:14.43,im,,0,0,0,,Ini adalah esensi kehidupan Yao Dian yang dilatih menjadi tiga Singa Surgawi.
+Dialogue: 0,0:08:15.04,0:08:16.28,im,,0,0,0,,Esensi kehidupan?
+Dialogue: 0,0:08:17.28,0:08:17.76,im,,0,0,0,,Bagus.
+Dialogue: 0,0:08:18.28,0:08:20.56,im,,0,0,0,,Ini adalah kristalisasi seluruh tenaga dan darah ketiganya.
+Dialogue: 0,0:08:21.44,0:08:23.00,im,,0,0,0,,Bagaimana aku menggunakan tiga Singa Surgawi ini?
+Dialogue: 0,0:08:25.48,0:08:26.68,im,,0,0,0,,Pertama, aku akan gunakan air Sungai Huangquan
+Dialogue: 0,0:08:26.68,0:08:28.68,im,,0,0,0,,untuk membersihkan bekas spiritual pemilik aslinya.
+Dialogue: 0,0:08:30.28,0:08:31.96,im,,0,0,0,,Lalu, gunakan Teknik Boneka Kecil,
+Dialogue: 0,0:08:32.96,0:08:35.52,im,,0,0,0,,dan kamu bisa melatihnya menjadi avatar eksternalmu.
+Dialogue: 0,0:08:36.04,0:08:36.68,im,,0,0,0,,Nantinya,
+Dialogue: 0,0:08:37.36,0:08:38.36,im,,0,0,0,,kau, Fang Han,
+Dialogue: 0,0:08:38.72,0:08:40.00,im,,0,0,0,,akan memiliki tiga nyawa tambahan.
+Dialogue: 0,0:08:41.36,0:08:42.36,im,,0,0,0,,Avatar eksternal?!
+Dialogue: 0,0:08:42.75,0:08:43.44,im,,0,0,0,,Baik!
+Dialogue: 0,0:08:44.20,0:08:44.56,im,,0,0,0,,Ayo!
+Dialogue: 0,0:09:02.84,0:09:03.40,im,,0,0,0,,Fang Han,
+Dialogue: 0,0:09:03.72,0:09:04.52,im,,0,0,0,,segera lakukan pemurnian!
+Dialogue: 0,0:09:19.52,0:09:20.96,im,,0,0,0,,Dengan mendapatkan tiga avatar eksternal ini,
+Dialogue: 0,0:09:21.92,0:09:25.29,im,,0,0,0,,setara dengan mendapat bantuan tiga ahli Alam Avatar tingkat empat, Yin dan Yang.
+Dialogue: 0,0:09:26.52,0:09:27.76,im,,0,0,0,,Kemampuan Singa Surgawi ini memang bagus,
+Dialogue: 0,0:09:28.40,0:09:29.64,im,,0,0,0,,tapi sayangnya tidak bisa sembarangan digunakan.
+Dialogue: 0,0:09:30.80,0:09:32.16,im,,0,0,0,,Hanya bisa digunakan sebagai kartu truf.
+Dialogue: 0,0:09:38.60,0:09:39.60,im,,0,0,0,,Ada satu hal lagi.
+Dialogue: 0,0:09:47.28,0:09:47.84,im,,0,0,0,,Apa ini?
+Dialogue: 0,0:09:48.72,0:09:50.08,im,,0,0,0,,Air Suci Enam Yang.
+Dialogue: 0,0:09:50.43,0:09:51.55,im,,0,0,0,,Air Suci Enam Yang?
+Dialogue: 0,0:09:52.32,0:09:52.76,im,,0,0,0,,Bukankah ini...
+Dialogue: 0,0:09:53.12,0:09:54.84,im,,0,0,0,,air murni Yang yang bisa membantumu memulihkan kekuatan?
+Dialogue: 0,0:09:56.84,0:09:57.68,im,,0,0,0,,Diriku sendiri
+Dialogue: 0,0:09:57.92,0:10:00.12,im,,0,0,0,,setara dengan ahli Alam Abadi.
+Dialogue: 0,0:10:01.72,0:10:04.48,im,,0,0,0,,Hanya esensi yang terkondensasi dari sembilan energi surgawi di dunia abadi,
+Dialogue: 0,0:10:04.64,0:10:05.60,im,,0,0,0,,Air Suci Sembilan Yang,
+Dialogue: 0,0:10:06.12,0:10:07.72,im,,0,0,0,,yang bisa menambah kekuatanku.
+Dialogue: 0,0:10:08.20,0:10:09.12,im,,0,0,0,,Alam Abadi,
+Dialogue: 0,0:10:09.28,0:10:10.64,im,,0,0,0,,harus menyerap energi surgawi
+Dialogue: 0,0:10:11.04,0:10:12.20,im,,0,0,0,,baru bisa meningkatkan kekuatan.
+Dialogue: 0,0:10:13.08,0:10:13.60,im,,0,0,0,,Benar.
+Dialogue: 0,0:10:14.12,0:10:15.68,im,,0,0,0,,Begitu memasuki Alam Abadi,
+Dialogue: 0,0:10:16.12,0:10:17.24,im,,0,0,0,,pil biasa,
+Dialogue: 0,0:10:17.56,0:10:18.80,im,,0,0,0,,tidak banyak membantu lagi.
+Dialogue: 0,0:10:19.64,0:10:20.36,im,,0,0,0,,Kalau begitu, air suci ini
+Dialogue: 0,0:10:20.72,0:10:21.44,im,,0,0,0,,tidak berguna bagimu?
+Dialogue: 0,0:10:23.60,0:10:24.92,im,,0,0,0,,Tapi Air Suci Enam Yang ini,
+Dialogue: 0,0:10:25.08,0:10:26.52,im,,0,0,0,,bisa membantumu memadatkan energi sejati
+Dialogue: 0,0:10:26.84,0:10:27.60,im,,0,0,0,,dan melebur harta karun.
+Dialogue: 0,0:10:29.04,0:10:30.36,im,,0,0,0,,Coba kau siramkan air suci ini
+Dialogue: 0,0:10:30.60,0:10:32.92,im,,0,0,0,,ke pecahan Pohon Dunia itu.
+Dialogue: 0,0:10:47.48,0:10:47.80,im,,0,0,0,,Ini...
+Dialogue: 0,0:10:51.04,0:10:52.00,im,,0,0,0,,Benar-benar berguna!
+Dialogue: 0,0:10:56.68,0:10:57.80,im,,0,0,0,,Energi Kayu yang begitu kuat!
+Dialogue: 0,0:10:59.40,0:11:00.32,im,,0,0,0,,Pohon Dunia,
+Dialogue: 0,0:11:00.68,0:11:01.88,im,,0,0,0,,adalah kayu suci nomor satu
+Dialogue: 0,0:11:02.00,0:11:03.00,im,,0,0,0,,di antara langit dan bumi,
+Dialogue: 0,0:11:03.20,0:11:03.96,im,,0,0,0,,di zaman kuno.
+Dialogue: 0,0:11:04.80,0:11:05.88,im,,0,0,0,,Ia adalah pusat langit dan bumi,
+Dialogue: 0,0:11:06.24,0:11:07.56,im,,0,0,0,,jalur penghubung ke dunia abadi.
+Dialogue: 0,0:11:08.44,0:11:09.28,im,,0,0,0,,Aku menggunakan Air Penghilang Emosi
+Dialogue: 0,0:11:09.68,0:11:11.36,im,,0,0,0,,untuk membersihkan kotoran ratusan juta tahunnya,
+Dialogue: 0,0:11:12.08,0:11:13.52,im,,0,0,0,,lalu kau menggunakan Air Suci Enam Yang
+Dialogue: 0,0:11:13.68,0:11:14.68,im,,0,0,0,,untuk memberinya kehidupan.
+Dialogue: 0,0:11:15.08,0:11:16.08,im,,0,0,0,,dan memunculkan tunas baru.
+Dialogue: 0,0:11:16.68,0:11:18.40,im,,0,0,0,,Ini adalah hadiah terbaik dari langit untukmu,
+Dialogue: 0,0:11:19.12,0:11:19.88,im,,0,0,0,,dan juga
+Dialogue: 0,0:11:20.08,0:11:22.20,im,,0,0,0,,harapan besarmu untuk mengalahkan Hua Tiandu.
+Dialogue: 0,0:11:29.28,0:11:31.04,im,,0,0,0,,Aku akan merawat bibit pohon ini dengan hati-hati,
+Dialogue: 0,0:11:31.20,0:11:32.04,im,,0,0,0,,berharap ia segera...
+Dialogue: 0,0:11:32.56,0:11:33.40,im,,0,0,0,,bisa kugunakan.
+Dialogue: 0,0:11:47.44,0:11:48.08,im,,0,0,0,,Pulau ini,
+Dialogue: 0,0:11:48.44,0:11:50.04,im,,0,0,0,,energi kayu dan roh kayunya begitu subur.
+Dialogue: 0,0:11:50.76,0:11:52.28,im,,0,0,0,,Latihan Teknik Kaisar Kayu,
+Dialogue: 0,0:11:52.48,0:11:54.52,im,,0,0,0,,membutuhkan penyerapan energi kayu dan roh kayu dalam jumlah besar.
+Dialogue: 0,0:11:56.80,0:11:58.08,im,,0,0,0,,Kaisar Kayu...
+Dialogue: 0,0:11:59.24,0:11:59.64,im,,0,0,0,,Fang Han,
+Dialogue: 0,0:12:00.36,0:12:01.68,im,,0,0,0,,setelah menyerap semua energi kayu ini,
+Dialogue: 0,0:12:02.24,0:12:03.80,im,,0,0,0,,cukup untuk meningkatkan energi kokoh Kaisar Kayumu
+Dialogue: 0,0:12:04.16,0:12:05.44,im,,0,0,0,,satu tingkat kecil.
+Dialogue: 0,0:12:05.92,0:12:06.32,im,,0,0,0,,Baik.
+Dialogue: 0,0:12:08.92,0:12:11.48,im,,0,0,0,,Setelah menyerap energi roh kayu yang disuling Pohon Dunia,
+Dialogue: 0,0:12:11.88,0:12:13.80,im,,0,0,0,,Teknik Kaisar Kayu akan berkembang pesat.
+Dialogue: 0,0:12:16.12,0:12:17.72,im,,0,0,0,,Hutan seluas ini jadi sia-sia.
+Dialogue: 0,0:12:33.60,0:12:34.04,im,,0,0,0,,Berani!
+Dialogue: 0,0:12:34.72,0:12:35.36,im,,0,0,0,,Kamu siapa?
+Dialogue: 0,0:12:35.76,0:12:37.40,im,,0,0,0,,Berani-beraninya mengganggu Gua Kaisar Petirku!
+Dialogue: 0,0:12:37.96,0:12:38.64,im,,0,0,0,,Dan merusak kayu berharganya!
+Dialogue: 0,0:12:41.04,0:12:42.68,im,,0,0,0,,Energi Mulia Langit dan Bumi?
+Dialogue: 0,0:12:42.88,0:12:45.20,im,,0,0,0,,Teknik Sekte Yuhua muncul di sini?
+Dialogue: 0,0:12:45.56,0:12:46.56,im,,0,0,0,,Agak menarik.
+Dialogue: 0,0:12:48.28,0:12:49.08,im,,0,0,0,,Kalian siapa?
+Dialogue: 0,0:12:50.40,0:12:52.20,im,,0,0,0,,Kenapa mempelajari teknik Sekte Yuhua kami?
+Dialogue: 0,0:12:53.76,0:12:55.56,im,,0,0,0,,Rekan juga orang Sekte Yuhua?
+Dialogue: 0,0:12:57.04,0:12:57.96,im,,0,0,0,,Pemimpin kami
+Dialogue: 0,0:12:58.12,0:12:59.72,im,,0,0,0,,adalah reinkarnasi Dewi Petir zaman kuno,
+Dialogue: 0,0:13:00.00,0:13:01.20,im,,0,0,0,,murid sejati Sekte Yuhua,
+Dialogue: 0,0:13:01.20,0:13:01.84,im,,0,0,0,,Fang Qingxue.
+Dialogue: 0,0:13:03.16,0:13:04.52,im,,0,0,0,,Ternyata Senior Fang Qingxue!
+Dialogue: 0,0:13:05.68,0:13:07.84,im,,0,0,0,,Dia ternyata membangun usaha seperti ini di laut.
+Dialogue: 0,0:13:08.92,0:13:09.84,im,,0,0,0,,Kultivator abadi,
+Dialogue: 0,0:13:10.44,0:13:11.88,im,,0,0,0,,pasti punya rahasia masing-masing.
+Dialogue: 0,0:13:13.60,0:13:15.04,im,,0,0,0,,Tak disangka Fang Qingxue
+Dialogue: 0,0:13:15.04,0:13:16.48,im,,0,0,0,,ternyata punya identitas seperti ini.
+Dialogue: 0,0:13:20.20,0:13:20.96,im,,0,0,0,,Kalau begitu,
+Dialogue: 0,0:13:21.44,0:13:22.80,im,,0,0,0,,aku bisa dibilang paman seperguruan kalian.
+Dialogue: 0,0:13:25.40,0:13:27.20,im,,0,0,0,,Kalau kau bilang juga orang Sekte Yuhua,
+Dialogue: 0,0:13:27.48,0:13:28.12,im,,0,0,0,,ada buktinya?
+Dialogue: 0,0:13:33.56,0:13:34.52,im,,0,0,0,,Bibi Fang Qiang?
+Dialogue: 0,0:13:36.56,0:13:37.28,im,,0,0,0,,Fang Han,
+Dialogue: 0,0:13:37.92,0:13:38.84,im,,0,0,0,,ternyata kau!
+Dialogue: 0,0:13:40.92,0:13:41.40,im,,0,0,0,,Fang Han,
+Dialogue: 0,0:13:41.92,0:13:42.92,im,,0,0,0,,perjalanan ke Gunung Yuhua ini,
+Dialogue: 0,0:13:43.24,0:13:44.48,im,,0,0,0,,pastikan merawat Qianlixue dengan baik.
+Dialogue: 0,0:13:46.32,0:13:46.72,im,,0,0,0,,Ya.
+Dialogue: 0,0:13:48.80,0:13:49.40,im,,0,0,0,,Fang Qiang.
+Dialogue: 0,0:13:50.12,0:13:51.08,im,,0,0,0,,Tingkat sepuluh Tubuh Fisik.
+Dialogue: 0,0:13:51.36,0:13:53.72,im,,0,0,0,,Fang Qiang hanyalah pelayan pribadi Fang Qingxue,
+Dialogue: 0,0:13:53.72,0:13:55.04,im,,0,0,0,,ternyata menyembunyikan kedalamannya.
+Dialogue: 0,0:13:56.32,0:13:56.80,im,,0,0,0,,Fang Han,
+Dialogue: 0,0:13:57.44,0:13:58.16,im,,0,0,0,,setahun tidak bertemu,
+Dialogue: 0,0:13:58.64,0:13:59.36,im,,0,0,0,,tak disangka,
+Dialogue: 0,0:13:59.84,0:14:01.56,im,,0,0,0,,kau sudah mencapai Alam Avatar
+Dialogue: 0,0:14:02.04,0:14:03.88,im,,0,0,0,,dan menjadi murid sejati Sekte Yuhua.
+Dialogue: 0,0:14:04.36,0:14:05.80,im,,0,0,0,,Ini berkat bantuan senior.
+Dialogue: 0,0:14:06.44,0:14:06.96,im,,0,0,0,,Gua ini
+Dialogue: 0,0:14:07.40,0:14:08.64,im,,0,0,0,,adalah kediaman luar senior?
+Dialogue: 0,0:14:09.68,0:14:10.20,im,,0,0,0,,Benar.
+Dialogue: 0,0:14:10.72,0:14:13.28,im,,0,0,0,,Nona Besar mendapatkan artefak Tao kuno peninggalan Kaisar Petir,
+Dialogue: 0,0:14:13.56,0:14:14.48,im,,0,0,0,,Jimat Petir Abadi,
+Dialogue: 0,0:14:14.84,0:14:16.84,im,,0,0,0,,dan mengetahui identitasnya sebagai reinkarnasi Dewi Petir.
+Dialogue: 0,0:14:18.28,0:14:19.20,im,,0,0,0,,Barulah di Laut Selatan,
+Dialogue: 0,0:14:19.28,0:14:19.88,im,,0,0,0,,dia membangun gua ini.
+Dialogue: 0,0:14:30.72,0:14:32.44,im,,0,0,0,,Semua orang, lakukan tugas masing-masing, jaga segelnya!
+Dialogue: 0,0:14:32.64,0:14:34.12,im,,0,0,0,,Senior Fang Qiang sudah dalam perjalanan!
+Dialogue: 0,0:14:34.36,0:14:35.12,im,,0,0,0,,Tahan terus!
+Dialogue: 0,0:14:35.44,0:14:36.36,im,,0,0,0,,Selama formasi tidak rusak,
+Dialogue: 0,0:14:36.44,0:14:37.68,im,,0,0,0,,Iblis Surgawi Cacing Air tidak bisa keluar!
+Dialogue: 0,0:14:38.04,0:14:38.36,im,,0,0,0,,Benar!
+Dialogue: 0,0:14:38.60,0:14:39.28,im,,0,0,0,,Semua tahan terus!
+Dialogue: 0,0:14:39.60,0:14:41.24,im,,0,0,0,,Jaga formasi, jaga formasi!
+Dialogue: 0,0:14:41.96,0:14:42.60,im,,0,0,0,,Benar Begitu!
+Dialogue: 0,0:14:43.40,0:14:44.40,im,,0,0,0,,Semua tahan terus!
+Dialogue: 0,0:14:44.84,0:14:45.64,im,,0,0,0,,Bagus!
+Dialogue: 0,0:14:52.20,0:14:57.68,im,,0,0,0,,Ying Tianqing, Fang Qingxue.
+Dialogue: 0,0:15:05.72,0:15:06.24,im,,0,0,0,,Siapa?
+Dialogue: 0,0:15:26.36,0:15:26.88,im,,0,0,0,,Kalian...
+Dialogue: 0,0:15:27.68,0:15:28.48,im,,0,0,0,,siapa?
+Dialogue: 0,0:15:30.68,0:15:31.04,im,,0,0,0,,Sial!
+Dialogue: 0,0:15:31.44,0:15:32.40,im,,0,0,0,,Hentikan mereka!
+Dialogue: 0,0:15:33.52,0:15:34.12,im,,0,0,0,,Hati-hati!
+Dialogue: 0,0:15:52.32,0:15:52.84,im,,0,0,0,,Apa?
+Dialogue: 0,0:15:53.32,0:15:54.36,im,,0,0,0,,Formasinya tidak bisa bertahan lagi!
+Dialogue: 0,0:16:00.84,0:16:01.40,im,,0,0,0,,Jangan main-main lagi.
+Dialogue: 0,0:16:01.84,0:16:02.40,im,,0,0,0,,Selesaikan mereka.
+Dialogue: 0,0:16:02.92,0:16:03.48,im,,0,0,0,,Baik.
+Dialogue: 0,0:16:17.20,0:16:18.20,im,,0,0,0,,Sial, segelnya!
+Dialogue: 0,0:16:19.68,0:16:20.64,im,,0,0,0,,Aku lawan kalian!
+Dialogue: 0,0:16:29.52,0:16:30.48,im,,0,0,0,,Trik receh.
+Dialogue: 0,0:16:44.60,0:16:46.04,im,,0,0,0,,Tidak bisa bertahan lagi.
+Dialogue: 0,0:17:02.56,0:17:03.00,im,,0,0,0,,Sial!
+Dialogue: 0,0:17:03.60,0:17:04.28,im,,0,0,0,,Segelnya...
+Dialogue: 0,0:17:14.44,0:17:15.40,im,,0,0,0,,Iblis Surgawi Cacing Air
+Dialogue: 0,0:17:15.76,0:17:16.76,im,,0,0,0,,akan lepas!
+Dialogue: 0,0:17:20.12,0:17:21.20,im,,0,0,0,,Segelnya sudah rusak.
+Dialogue: 0,0:17:21.56,0:17:22.28,im,,0,0,0,,Kita pergi!
+Dialogue: 0,0:17:37.96,0:17:39.24,im,,0,0,0,,Aura iblis yang begitu kuat...
+Dialogue: 0,0:17:39.36,0:17:39.80,im,,0,0,0,,Gawat!
+Dialogue: 0,0:17:40.08,0:17:41.44,im,,0,0,0,,Segel Iblis Surgawi Cacing Air bermasalah.
+Dialogue: 0,0:17:41.64,0:17:42.52,im,,0,0,0,,Iblis Surgawi Cacing Air...
+Dialogue: 0,0:17:42.56,0:17:43.56,im,,0,0,0,,Aku harus pergi menekan iblis itu.
+Dialogue: 0,0:17:44.16,0:17:45.16,im,,0,0,0,,Fang Han, bagaimana denganmu?
+Dialogue: 0,0:17:46.36,0:17:48.16,im,,0,0,0,,Urusan Senior Qingxue adalah urusanku.
+Dialogue: 0,0:17:48.32,0:17:48.80,im,,0,0,0,,Aku ikut.
+Dialogue: 0,0:17:49.16,0:17:49.60,im,,0,0,0,,Baik.

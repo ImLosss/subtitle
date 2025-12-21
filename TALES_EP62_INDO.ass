@@ -1,0 +1,189 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+Style: wdqk,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: ap,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: im,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.47,0:00:07.57,tales,,0,0,0,,Pasukan Yulong, tangkap perapal mantra itu!
+Dialogue: 0,0:00:14.77,0:00:15.10,tales,,0,0,0,,Bunuh!
+Dialogue: 0,0:00:25.97,0:00:27.10,tales,,0,0,0,,Aktifkan Labu Angin!
+Dialogue: 0,0:00:27.67,0:00:28.20,tales,,0,0,0,,Tampung racunnya!
+Dialogue: 0,0:00:32.17,0:00:35.17,tales,,0,0,0,,[MANTRA PEMANGGILAN]
+Dialogue: 0,0:00:35.77,0:00:37.27,tales,,0,0,0,,Dupa Pelumpuh hampir habis.
+Dialogue: 0,0:00:37.57,0:00:39.40,tales,,0,0,0,,[MANTRA PEMANGGILAN]
+Dialogue: 0,0:00:39.50,0:00:40.87,tales,,0,0,0,,Tangkap mereka!
+Dialogue: 0,0:00:41.57,0:00:42.60,tales,,0,0,0,,Cepat lindungi Doktor Qin!
+Dialogue: 0,0:00:58.00,0:00:59.67,tales,,0,0,0,,Doktor Qin, cepat!
+Dialogue: 0,0:01:10.40,0:01:11.40,tales,,0,0,0,,Doktor Qin, lari cepat!
+Dialogue: 0,0:01:11.70,0:01:12.47,tales,,0,0,0,,Doktor Qin!
+Dialogue: 0,0:01:14.37,0:01:14.77,tales,,0,0,0,,Sial!
+Dialogue: 0,0:01:14.97,0:01:16.67,tales,,0,0,0,,Jangan-jangan dia jadi gila?
+Dialogue: 0,0:01:22.57,0:01:23.37,tales,,0,0,0,,Ini di mana?
+Dialogue: 0,0:01:24.20,0:01:26.07,tales,,0,0,0,,Kelihatannya mirip Dunia Gelap.
+Dialogue: 0,0:01:31.10,0:01:34.80,tales,,0,0,0,,Tidak sia-sia aku menyebarkan Jimat Panggilan Arwah dan Dewa.
+Dialogue: 0,0:01:35.37,0:01:37.77,tales,,0,0,0,,Akhirnya ada yang memanggilku.
+Dialogue: 0,0:01:49.27,0:01:50.97,tales,,0,0,0,,Makhluk hina.
+Dialogue: 0,0:01:51.37,0:01:53.30,tales,,0,0,0,,Kau membangunkanku?
+Dialogue: 0,0:01:53.67,0:01:58.67,tales,,0,0,0,,Membangunkan Raja Iblis Dutian yang menguasai wilayah tak terbatas.
+Dialogue: 0,0:02:00.17,0:02:03.97,tales,,0,0,0,,Kau memanggilku ke duniamu?
+Dialogue: 0,0:02:04.47,0:02:07.57,tales,,0,0,0,,Untuk membunuh, untuk bertarung?
+Dialogue: 0,0:02:08.47,0:02:09.97,tales,,0,0,0,,Raja Iblis Dutian yang agung.
+Dialogue: 0,0:02:10.27,0:02:11.87,tales,,0,0,0,,Aku memohon kedatanganmu.
+Dialogue: 0,0:02:12.00,0:02:15.17,tales,,0,0,0,,Aku akan mempersembahkan ribuan nyawa kuat untukmu.
+Dialogue: 0,0:02:15.30,0:02:20.30,tales,,0,0,0,,Semua ahli di Kota Tianbo dengan tingkat Enam Penjuru ke atas.
+Dialogue: 0,0:02:25.67,0:02:27.87,tales,,0,0,0,,Seperti keinginanmu.
+Dialogue: 0,0:02:34.37,0:02:36.50,tales,,0,0,0,,Bajingan Yankang yang menyamar sebagai Sekte Gunung Hong!
+Dialogue: 0,0:02:36.97,0:02:38.20,tales,,0,0,0,,Kalian tamat!
+Dialogue: 0,0:02:47.77,0:02:48.57,tales,,0,0,0,,Apa yang terjadi?
+Dialogue: 0,0:02:50.07,0:02:52.77,tales,,0,0,0,,Pa-patung ini kenapa jadi sebesar ini?
+Dialogue: 0,0:02:53.17,0:02:54.87,tales,,0,0,0,,A-apa yang terjadi?
+Dialogue: 0,0:03:14.97,0:03:16.40,tales,,0,0,0,,Kekuatan dewa iblis...
+Dialogue: 0,0:03:17.07,0:03:19.17,tales,,0,0,0,,sedang mengalir ke dalam patung.
+Dialogue: 0,0:03:23.87,0:03:26.00,tales,,0,0,0,,Sekte Gunung Hong mengendalikan dewa iblis?
+Dialogue: 0,0:03:26.27,0:03:27.77,tales,,0,0,0,,Yang mundur,
+Dialogue: 0,0:03:28.17,0:03:29.57,tales,,0,0,0,,akan kubunuh!
+Dialogue: 0,0:03:33.17,0:03:34.00,tales,,0,0,0,,Bentuk formasi!
+Dialogue: 0,0:03:35.27,0:03:36.80,tales,,0,0,0,,Perintah Pengusir Iblis!
+Dialogue: 0,0:03:45.60,0:03:47.67,tales,,0,0,0,,Tidak, ini salah.
+Dialogue: 0,0:03:50.07,0:03:51.20,tales,,0,0,0,,Dewa iblis ini...
+Dialogue: 0,0:03:51.67,0:03:52.70,tales,,0,0,0,,berbeda.
+Dialogue: 0,0:03:53.77,0:03:57.27,tales,,0,0,0,,Dia lebih menakutkan dari dewa iblis mana pun yang pernah kita panggil.
+Dialogue: 0,0:03:57.77,0:04:00.97,tales,,0,0,0,,Jimat sama sekali tidak bisa mengendalikannya.
+Dialogue: 0,0:04:01.10,0:04:01.97,tales,,0,0,0,,Berakhir.
+Dialogue: 0,0:04:03.50,0:04:05.50,tales,,0,0,0,,Kita semua berakhir.
+Dialogue: 0,0:04:20.57,0:04:22.57,tales,,0,0,0,,Bocah yang menyamar sebagai Sekte Gunung Hong itu,
+Dialogue: 0,0:04:22.87,0:04:24.30,tales,,0,0,0,,asal-usulnya apa sebenarnya?
+Dialogue: 0,0:04:30.57,0:04:33.07,tales,,0,0,0,,Mereka bukan persembahan untuk Raja Iblis Dutian yang agung.
+Dialogue: 0,0:04:33.77,0:04:38.57,tales,,0,0,0,,Berisik, kau tak punya hak sedikit pun untuk memerintah Penguasa Dutian.
+Dialogue: 0,0:04:41.57,0:04:43.87,tales,,0,0,0,,Dia ingin merebut kesadaranku.
+Dialogue: 0,0:04:44.17,0:04:46.10,tales,,0,0,0,,Mengendalikan ritual persembahan.
+Dialogue: 0,0:05:28.50,0:05:31.37,tales,,0,0,0,,Apa yang tersembunyi di dalam tubuhmu?
+Dialogue: 0,0:06:02.10,0:06:02.57,tales,,0,0,0,,Cepat lari!
+Dialogue: 0,0:06:03.80,0:06:05.17,tales,,0,0,0,,Kalau lari begini, takutnya tidak akan sempat.
+Dialogue: 0,0:06:05.30,0:06:06.87,tales,,0,0,0,,Kau masih punya cara lain?
+Dialogue: 0,0:06:07.30,0:06:09.17,tales,,0,0,0,,Teknik Teleportasi-ku hanya bisa memindahkan diriku sendiri.
+Dialogue: 0,0:06:09.30,0:06:10.57,tales,,0,0,0,,Tidak bisa membawa semua orang pergi.
+Dialogue: 0,0:06:10.57,0:06:12.00,tales,,0,0,0,,Berarti kita pasti mati?
+Dialogue: 0,0:06:13.37,0:06:14.37,tales,,0,0,0,,Lihat caraku.
+Dialogue: 0,0:06:26.70,0:06:27.60,tales,,0,0,0,,Lari?
+Dialogue: 0,0:06:28.50,0:06:30.67,tales,,0,0,0,,Aku akan gunakan tulang-belulang kalian,
+Dialogue: 0,0:06:30.80,0:06:33.00,tales,,0,0,0,,untuk membangun altar yang besar.
+Dialogue: 0,0:06:33.60,0:06:35.67,tales,,0,0,0,,Memanggil tubuh sejatiku.
+Dialogue: 0,0:06:35.80,0:06:38.27,tales,,0,0,0,,Memanggil para iblis langit Dutian-ku.
+Dialogue: 0,0:06:39.67,0:06:40.70,tales,,0,0,0,,Simpang kedua di depan,
+Dialogue: 0,0:06:40.97,0:06:41.47,tales,,0,0,0,,belok kiri.
+Dialogue: 0,0:06:42.77,0:06:44.17,tales,,0,0,0,,Arah itu adalah...
+Dialogue: 0,0:06:44.40,0:06:45.87,tales,,0,0,0,,tempat ayah bertapa.
+Dialogue: 0,0:06:47.60,0:06:51.87,tales,,0,0,0,,Para makhluk Dutian-ku akan menguasai dunia ini.
+Dialogue: 0,0:07:19.17,0:07:20.27,tales,,0,0,0,,Mau lari ke mana?!
+Dialogue: 0,0:07:27.20,0:07:27.87,tales,,0,0,0,,Ayah!
+Dialogue: 0,0:07:30.47,0:07:31.90,tales,,0,0,0,,Iblis apa ini?
+Dialogue: 0,0:07:32.37,0:07:34.20,tales,,0,0,0,,Berani membuat kekacauan di Kota Tianbo?
+Dialogue: 0,0:07:35.47,0:07:36.60,tales,,0,0,0,,Para prajurit,
+Dialogue: 0,0:07:36.95,0:07:38.95,tales,,0,0,0,,bentuk Formasi Pembunuh Naga Melingkar!
+Dialogue: 0,0:07:39.67,0:07:40.50,tales,,0,0,0,,Ayah, jangan!
+Dialogue: 0,0:07:51.47,0:07:53.57,tales,,0,0,0,,Ini pasti Raja Naga, pemimpin Sekte Yulong.
+Dialogue: 0,0:08:11.30,0:08:11.67,tales,,0,0,0,,Cepat lari!
+Dialogue: 0,0:08:33.27,0:08:34.00,tales,,0,0,0,,Ayah!
+Dialogue: 0,0:08:36.40,0:08:37.57,tales,,0,0,0,,Terima kasih atas perjalanan ini,
+Dialogue: 0,0:08:37.77,0:08:38.70,tales,,0,0,0,,Paman Guru,
+Dialogue: 0,0:08:39.70,0:08:54.70,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:18.87,0:09:21.60,tales,,0,0,0,,Orang-orang dari Perbatasan Selatan itu demi menang,
+Dialogue: 0,0:09:21.77,0:09:24.20,tales,,0,0,0,,sampai menggunakan cara seperti memanggil iblis.
+Dialogue: 0,0:09:24.67,0:09:29.27,tales,,0,0,0,,Bahkan memanggil dua dewa iblis berturut-turut di Lizhou, Kota Tianbo.
+Dialogue: 0,0:09:29.70,0:09:31.07,tales,,0,0,0,,Terlalu kejam.
+Dialogue: 0,0:09:31.57,0:09:33.80,tales,,0,0,0,,Lizhou dijaga oleh kakak-beradik Yuyuan,
+Dialogue: 0,0:09:34.07,0:09:36.37,tales,,0,0,0,,tidak akan biarkan dewa iblis itu merusak terlalu lama.
+Dialogue: 0,0:09:36.70,0:09:40.30,tales,,0,0,0,,Sayangnya, murid Akademi Agung menderita kerugian besar.
+Dialogue: 0,0:09:40.97,0:09:44.27,tales,,0,0,0,,Dalang di balik ini harus diselidiki tuntas.
+Dialogue: 0,0:09:46.17,0:09:51.00,tales,,0,0,0,,Si pemanggil iblis di Kota Tianbo malah memberikan jasa besar untuk Yankang.
+Dialogue: 0,0:09:51.70,0:09:53.90,tales,,0,0,0,,Bukankah Kota Tianbo bisa direbut seperti ini?
+Dialogue: 0,0:09:54.37,0:09:56.57,tales,,0,0,0,,Tanpa mengorbankan prajurit kita.
+Dialogue: 0,0:09:57.07,0:09:59.50,tales,,0,0,0,,Inilah alasan kaum Qingliu tidak memahamimu,
+Dialogue: 0,0:09:59.70,0:10:01.57,tales,,0,0,0,,dan menyebutmu sebagai pengikut Jalan Iblis.
+Dialogue: 0,0:10:02.77,0:10:05.47,tales,,0,0,0,,Untungnya kau segera mengirim Yuyuan Chuyu,
+Dialogue: 0,0:10:05.60,0:10:07.77,tales,,0,0,0,,baru bisa memecahkan pengepungan Lizhou.
+Dialogue: 0,0:10:08.40,0:10:10.97,tales,,0,0,0,,Sial, jasa sebesar ini,
+Dialogue: 0,0:10:11.27,0:10:14.77,tales,,0,0,0,,aku ingin lihat kaum Qingliu berani buang kotoran apa lagi.
+Dialogue: 0,0:10:15.77,0:10:17.10,tales,,0,0,0,,Jasa dan kesalahanku,
+Dialogue: 0,0:10:17.67,0:10:19.60,tales,,0,0,0,,tak perlu penilaian orang masa kini.
+Dialogue: 0,0:10:20.40,0:10:23.77,tales,,0,0,0,,Ribuan tahun kemudian, pasti ada kesimpulannya.
+Dialogue: 0,0:10:35.70,0:10:37.17,tales,,0,0,0,,Long Da, mana Long Da?
+Dialogue: 0,0:10:37.37,0:10:39.17,tales,,0,0,0,,Cepat ambilkan air liur ajaib untuk obati luka Tuan Muda.
+Dialogue: 0,0:10:39.37,0:10:40.67,tales,,0,0,0,,Long Da!
+Dialogue: 0,0:10:42.17,0:10:43.77,tales,,0,0,0,,Long Da hilang.
+Dialogue: 0,0:10:43.77,0:10:45.87,tales,,0,0,0,,Long Da dan Murid Shen juga terluka.
+Dialogue: 0,0:10:45.97,0:10:46.97,tales,,0,0,0,,Mungkin ada bahaya.
+Dialogue: 0,0:10:47.57,0:10:47.80,tales,,0,0,0,,Ayo.
+Dialogue: 0,0:10:48.40,0:10:49.30,tales,,0,0,0,,Kita cari mereka.
+Dialogue: 0,0:10:49.57,0:10:51.30,tales,,0,0,0,,Long Da sangat berharga.
+Dialogue: 0,0:10:51.30,0:10:53.67,tales,,0,0,0,,Shen Wanyun dan yang lain tidak berharga.
+Dialogue: 0,0:11:06.97,0:11:08.60,tales,,0,0,0,,Kau hancurkan Kota Tianbo,
+Dialogue: 0,0:11:08.80,0:11:09.97,tales,,0,0,0,,hancurkan Yulong-ku.
+Dialogue: 0,0:11:10.00,0:11:11.67,tales,,0,0,0,,Kau sebenarnya siapa?
+Dialogue: 0,0:11:12.27,0:11:14.10,tales,,0,0,0,,Apa Penasihat Yankang yang mengirimmu?
+Dialogue: 0,0:11:18.27,0:11:19.67,tales,,0,0,0,,Aku tahu kau tidak bisa pergi jauh.
+Dialogue: 0,0:11:20.67,0:11:22.50,tales,,0,0,0,,Masih bersembunyi di sekitar sini.
+Dialogue: 0,0:11:23.50,0:11:38.50,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:11:58.90,0:12:01.00,tales,,0,0,0,,Bisa ganti kulit seperti ular untuk menyembuhkan luka.
+Dialogue: 0,0:12:01.50,0:12:02.57,tales,,0,0,0,,Ini teknik apa?
+Dialogue: 0,0:12:02.97,0:12:05.17,tales,,0,0,0,,Orang ini sebenarnya pria atau wanita?
+Dialogue: 0,0:12:05.20,0:12:07.30,tales,,0,0,0,,Dadanya jauh lebih besar dariku.
+Dialogue: 0,0:12:09.07,0:12:09.57,tales,,0,0,0,,Tidak.
+Dialogue: 0,0:12:10.07,0:12:12.40,tales,,0,0,0,,Struktur tulangnya berubah total.
+Dialogue: 0,0:12:12.97,0:12:15.37,tales,,0,0,0,,Dia benar-benar mengganti tubuhnya dengan yang baru.
+Dialogue: 0,0:12:25.67,0:12:27.47,tales,,0,0,0,,Aku merasakannya.
+Dialogue: 0,0:12:27.87,0:12:29.37,tales,,0,0,0,,Pandanganmu.
+Dialogue: 0,0:12:32.87,0:12:35.37,tales,,0,0,0,,Kau mengagumi tubuhku.
+Dialogue: 0,0:12:41.27,0:12:44.87,tales,,0,0,0,,Kau terus menatapku.
+Dialogue: 0,0:12:46.70,0:12:48.17,tales,,0,0,0,,Aku...
+Dialogue: 0,0:12:49.07,0:12:51.00,tales,,0,0,0,,Cantik tidak?
+Dialogue: 0,0:13:12.27,0:13:14.30,tales,,0,0,0,,Mata pria.
+Dialogue: 0,0:13:18.70,0:13:20.60,tales,,0,0,0,,Teknik Teleportasi Kultus Iblis Langit?!
+Dialogue: 0,0:13:21.10,0:13:21.60,tales,,0,0,0,,Xiao Hong,
+Dialogue: 0,0:13:22.20,0:13:22.50,tales,,0,0,0,,kejar!
+Dialogue: 0,0:13:34.17,0:13:34.80,tales,,0,0,0,,Lapor, Penasihat.
+Dialogue: 0,0:13:35.27,0:13:37.30,tales,,0,0,0,,Pasukan Harimau Putih telah membantu Pasukan Lizhou keluar dari pengepungan.
+Dialogue: 0,0:13:37.67,0:13:39.27,tales,,0,0,0,,Tinggal tunggu kedua pasukan membunuh dewa iblis,
+Dialogue: 0,0:13:39.50,0:13:42.77,tales,,0,0,0,,baru bisa basmi Kultus Mayat Abadi, Gerbang Jiuyou, Pasukan Pemberontak Xiaoyi,
+Dialogue: 0,0:13:43.17,0:13:44.57,tales,,0,0,0,,dan selamatkan murid Akademi Agung.
+Dialogue: 0,0:13:45.10,0:13:46.90,tales,,0,0,0,,Hanya bunuh dewa iblis tidak cukup.
+Dialogue: 0,0:13:47.57,0:13:51.00,tales,,0,0,0,,Di Kota Tianbo masih ada satu patung raja iblis.
+Dialogue: 0,0:13:51.77,0:13:54.60,tales,,0,0,0,,Penasihat, kita juga harus berangkat, 'kan?
+Dialogue: 0,0:14:00.87,0:14:08.87,tales,,0,0,0,,[MANTRA PEMANGGILAN]
+Dialogue: 0,0:14:18.67,0:14:19.87,tales,,0,0,0,,Datanglah.
+Dialogue: 0,0:14:20.20,0:14:22.17,tales,,0,0,0,,Rakyat Dutian-ku.
+Dialogue: 0,0:14:22.67,0:14:25.97,tales,,0,0,0,,Tinggalkan dunia gelap kita yang hancur.
+Dialogue: 0,0:14:26.07,0:14:27.87,tales,,0,0,0,,Datanglah ke dunia baru.
+Dialogue: 0,0:14:28.60,0:14:31.50,tales,,0,0,0,,Di sini ada wanita yang cantik.
+Dialogue: 0,0:14:31.70,0:14:34.37,tales,,0,0,0,,Makanan tak terbatas.
+Dialogue: 0,0:14:35.37,0:14:50.37,tales,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:15:26.50,0:15:27.27,tales,,0,0,0,,Gawat.
+Dialogue: 0,0:15:27.67,0:15:30.57,tales,,0,0,0,,Raja iblis ini sedang membuka portal ke dunia lain dengan bahasa iblis.
+Dialogue: 0,0:15:30.77,0:15:32.80,tales,,0,0,0,,Masalah yang ditimbulkan kali ini terlalu besar.

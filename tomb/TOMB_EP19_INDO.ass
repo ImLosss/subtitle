@@ -1,0 +1,245 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 820
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.9,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:12.49,0:02:17.00,komen,,0,0,0,,{\pos(1695,558)\fad(500,250)}[Jones\NMalaikat Bersayap Empat\NTingkat Enam]
+Dialogue: 0,0:03:00.63,0:03:05.84,komen,,0,0,0,,{\pos(1635,557)\fad(500,250)}[Wang Yi\NPuncak Tingkat Enam]
+Dialogue: 0,0:07:09.77,0:07:13.88,komen,,0,0,0,,{\pos(1767,503)\fad(500,250)}[Cermin Naga]
+Dialogue: 0,0:07:14.46,0:07:17.64,komen,,0,0,0,,{\pos(273,447)\fad(500,250)}[Kitab Penyatuan]
+Dialogue: 0,0:07:25.36,0:07:27.81,komen,,0,0,0,,{\pos(273,447)\fad(500,250)}[Roda Pelahap Hati]
+Dialogue: 0,0:07:32.37,0:07:35.09,komen,,0,0,0,,{\pos(1717,483)\fad(500,250)}[Tongkat Elemen]
+Dialogue: 0,0:14:58.29,0:15:01.95,komen,,0,0,0,,{\pos(201,500)\fad(500,250)}[Makhluk Abadi\NTingkat Tujuh]
+Dialogue: 0,0:16:26.44,0:16:29.16,komen,,0,0,0,,{\pos(255,441)\fad(500,250)}[Katila\NKlan Malaikat.]
+Dialogue: 0,0:16:30.95,0:16:33.67,komen,,0,0,0,,{\pos(209,513)\fad(500,250)}[Amis\NKlan Malaikat]
+Dialogue: 0,0:00:00.00,0:00:25.00,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:02:18.60,0:02:20.24,tomb,,0,0,0,,Ini adalah malaikat dari legenda.
+Dialogue: 0,0:02:20.52,0:02:22.28,tomb,,0,0,0,,Chen Nan ini terlalu menakutkan.
+Dialogue: 0,0:02:22.36,0:02:24.92,tomb,,0,0,0,,Bisa-bisanya satu panah memaksa wujud asli malaikat keluar.
+Dialogue: 0,0:02:25.32,0:02:27.60,tomb,,0,0,0,,Suara apa yang mengerikan saat dia membuka busurnya?
+Dialogue: 0,0:02:28.16,0:02:30.16,tomb,,0,0,0,,Kenapa bisa muncul ilusi dewa dan iblis?
+Dialogue: 0,0:02:31.00,0:02:32.08,tomb,,0,0,0,,Malaikat.
+Dialogue: 0,0:02:33.88,0:02:35.68,tomb,,0,0,0,,Tidak tinggal dengan tenang di duniamu sendiri,
+Dialogue: 0,0:02:36.08,0:02:37.52,tomb,,0,0,0,,malah ikut campur urusan dunia manusia.
+Dialogue: 0,0:02:38.48,0:02:39.48,tomb,,0,0,0,,Menurut aturan,
+Dialogue: 0,0:02:40.08,0:02:41.16,tomb,,0,0,0,,kalian sudah melampaui batas.
+Dialogue: 0,0:02:43.24,0:02:44.28,tomb,,0,0,0,,Siapa yang akan menegakkan hukum?
+Dialogue: 0,0:02:44.96,0:02:45.68,tomb,,0,0,0,,Kau?
+Dialogue: 0,0:02:55.31,0:02:56.90,tomb,,0,0,0,,Makhluk Jahat,
+Dialogue: 0,0:02:56.92,0:02:57.80,tomb,,0,0,0,,Malaikat.
+Dialogue: 0,0:02:58.76,0:03:00.28,tomb,,0,0,0,,Aku juga harus keluar melihat,
+Dialogue: 0,0:03:00.76,0:03:01.83,tomb,,0,0,0,,siapa...
+Dialogue: 0,0:03:01.92,0:03:05.67,tomb,,0,0,0,,yang begitu berani di dunia kultivasi Timur kami.
+Dialogue: 0,0:03:06.00,0:03:06.80,tomb,,0,0,0,,Itu jangan-jangan...
+Dialogue: 0,0:03:07.28,0:03:09.08,tomb,,0,0,0,,Wang Xi dari Tanah Suci Kuno Istana Zixiao?
+Dialogue: 0,0:03:13.04,0:03:16.32,tomb,,0,0,0,,Malam ini monster tua benar-benar banyak.
+Dialogue: 0,0:03:16.44,0:03:19.56,tomb,,0,0,0,,Seratus empat puluh tahun tidak mendengar nama ini,
+Dialogue: 0,0:03:19.84,0:03:22.24,tomb,,0,0,0,,rasanya rindu juga.
+Dialogue: 0,0:03:22.56,0:03:25.20,tomb,,0,0,0,,Meski penegak hukum telah menghilang ribuan tahun,
+Dialogue: 0,0:03:25.72,0:03:26.96,tomb,,0,0,0,,selama aku masih ada,
+Dialogue: 0,0:03:27.52,0:03:28.72,tomb,,0,0,0,,di tanah Timur,
+Dialogue: 0,0:03:29.04,0:03:31.36,tomb,,0,0,0,,takkan kubiarkan kalian bangsa asing berbuat onar.
+Dialogue: 0,0:03:56.16,0:03:57.52,tomb,,0,0,0,,Masih ada ahli dari Timur.
+Dialogue: 0,0:03:57.84,0:03:59.04,tomb,,0,0,0,,Naga Suci Timur!
+Dialogue: 0,0:04:04.52,0:04:05.60,tomb,,0,0,0,,Tidak mungkin.
+Dialogue: 0,0:04:13.68,0:04:14.60,tomb,,0,0,0,,Loach, kau gila?
+Dialogue: 0,0:04:15.04,0:04:15.88,tomb,,0,0,0,,Keluar buat keributan apa?
+Dialogue: 0,0:04:20.52,0:04:21.32,tomb,,0,0,0,,Aku tidak gila.
+Dialogue: 0,0:04:21.68,0:04:22.32,tomb,,0,0,0,,Bocah,
+Dialogue: 0,0:04:22.64,0:04:24.08,tomb,,0,0,0,,aku mau bantu apa pun yang kau minta,
+Dialogue: 0,0:04:24.44,0:04:26.80,tomb,,0,0,0,,asal kau tembak jatuh manusia burung di langit itu untukku.
+Dialogue: 0,0:04:30.00,0:04:31.20,tomb,,0,0,0,,Kau kenal malaikat itu?
+Dialogue: 0,0:04:32.32,0:04:33.56,tomb,,0,0,0,,Ribuan tahun lalu,
+Dialogue: 0,0:04:33.88,0:04:35.40,tomb,,0,0,0,,manusia burung ini dan tuannya
+Dialogue: 0,0:04:35.64,0:04:37.96,tomb,,0,0,0,,menghancurkan orang terpenting dalam hidupku.
+Dialogue: 0,0:04:38.56,0:04:39.48,tomb,,0,0,0,,Dendam ini,
+Dialogue: 0,0:04:41.64,0:04:43.12,tomb,,0,0,0,,takkan berakhir sampai salah satu mati.
+Dialogue: 0,0:04:51.08,0:04:51.84,tomb,,0,0,0,,Baik.
+Dialogue: 0,0:04:54.92,0:04:56.08,tomb,,0,0,0,,Aku setuju.
+Dialogue: 0,0:04:56.64,0:04:58.16,tomb,,0,0,0,,Sifat Ilahi.
+Dialogue: 0,0:04:58.56,0:04:59.68,tomb,,0,0,0,,Sifat Iblis.
+Dialogue: 0,0:05:00.56,0:05:02.44,tomb,,0,0,0,,Sulitnya tetap sadar.
+Dialogue: 0,0:05:03.04,0:05:04.92,tomb,,0,0,0,,Musnahkan tubuh, hancurkan jiwa.
+Dialogue: 0,0:05:05.52,0:05:06.52,tomb,,0,0,0,,Atau,
+Dialogue: 0,0:05:06.96,0:05:09.20,tomb,,0,0,0,,menjadi iblis besar.
+Dialogue: 0,0:05:12.60,0:05:13.52,tomb,,0,0,0,,Suara apa ini?
+Dialogue: 0,0:05:13.68,0:05:14.76,tomb,,0,0,0,,Dari mana datangnya?
+Dialogue: 0,0:05:15.86,0:05:17.86,tomb,,0,0,0,,Di bawah tanah,
+Dialogue: 0,0:05:17.88,0:05:19.04,tomb,,0,0,0,,aura yang menakutkan.
+Dialogue: 0,0:05:20.80,0:05:22.92,tomb,,0,0,0,,Meski telah mencapai puncak dunia ini,
+Dialogue: 0,0:05:23.20,0:05:25.36,tomb,,0,0,0,,mereka tetap belum mampu memecahkan ruang hampa.
+Dialogue: 0,0:05:25.72,0:05:26.88,tomb,,0,0,0,,Manusia biasa saja.
+Dialogue: 0,0:05:27.24,0:05:30.64,tomb,,0,0,0,,Tubuh manusia hanyalah kamuflase untuk menutupi Petaka Langit.
+Dialogue: 0,0:05:31.08,0:05:32.88,tomb,,0,0,0,,Kini aku telah kehilangan sandaran,
+Dialogue: 0,0:05:33.28,0:05:35.32,tomb,,0,0,0,,kalian jangan sembarangan menampakkan wujud asli.
+Dialogue: 0,0:05:35.80,0:05:37.24,tomb,,0,0,0,,Selesaikan dengan cepat.
+Dialogue: 0,0:05:38.72,0:05:41.48,tomb,,0,0,0,,Dewa berkata, jadilah terang.
+Dialogue: 0,0:05:47.00,0:05:47.96,tomb,,0,0,0,,Kutukan Cahaya!
+Dialogue: 0,0:06:00.84,0:06:01.92,tomb,,0,0,0,,Kutukan?
+Dialogue: 0,0:06:02.40,0:06:03.36,tomb,,0,0,0,,Cuma begitu.
+Dialogue: 0,0:06:12.08,0:06:13.88,tomb,,0,0,0,,Malaikat menyusup ke dunia manusia,
+Dialogue: 0,0:06:14.08,0:06:15.40,tomb,,0,0,0,,menyerang tanah Timur kami,
+Dialogue: 0,0:06:15.52,0:06:17.48,tomb,,0,0,0,,harus dimusnahkan jiwa raganya.
+Dialogue: 0,0:06:27.20,0:06:29.28,tomb,,0,0,0,,Istana Zixiao lancang sekali,
+Dialogue: 0,0:06:29.88,0:06:31.84,tomb,,0,0,0,,berani menentang kehendak Dewa Perang.
+Dialogue: 0,0:06:35.96,0:06:37.44,tomb,,0,0,0,,Dewa palsu dari negeri asing,
+Dialogue: 0,0:06:37.64,0:06:39.08,tomb,,0,0,0,,sombong dan angkuh.
+Dialogue: 0,0:06:39.76,0:06:40.68,tomb,,0,0,0,,Lucu!
+Dialogue: 0,0:06:41.28,0:06:44.08,tomb,,0,0,0,,Timur kami telah mewarisi api pengetahuan selama puluhan ribu tahun,
+Dialogue: 0,0:06:44.24,0:06:46.32,tomb,,0,0,0,,mana mungkin takut pada dewa palsu.
+Dialogue: 0,0:07:02.16,0:07:03.60,tomb,,0,0,0,,Di wilayah Dongchu,
+Dialogue: 0,0:07:03.76,0:07:06.40,tomb,,0,0,0,,tidak ada tempat untuk anjing Dewa Perang bersikap sombong.
+Dialogue: 0,0:07:18.64,0:07:21.60,tomb,,0,0,0,,Elemen Badai!
+Dialogue: 0,0:07:47.76,0:07:49.08,tomb,,0,0,0,,Menentang tuanku,
+Dialogue: 0,0:07:49.76,0:07:51.16,tomb,,0,0,0,,dosa tak terampuni.
+Dialogue: 0,0:08:04.92,0:08:06.12,tomb,,0,0,0,,Sekarang sedang kacau-balau,
+Dialogue: 0,0:08:06.20,0:08:07.24,tomb,,0,0,0,,ini kesempatan bagus.
+Dialogue: 0,0:08:07.68,0:08:09.60,tomb,,0,0,0,,Bocah, sudah siap?
+Dialogue: 0,0:08:10.08,0:08:10.68,tomb,,0,0,0,,Hari ini,
+Dialogue: 0,0:08:11.24,0:08:12.96,tomb,,0,0,0,,aku pasti bunuh anjing ini.
+Dialogue: 0,0:08:13.84,0:08:14.80,tomb,,0,0,0,,Panah tadi,
+Dialogue: 0,0:08:15.16,0:08:16.56,tomb,,0,0,0,,menghabiskan banyak darah esensialku.
+Dialogue: 0,0:08:20.88,0:08:21.84,tomb,,0,0,0,,Tapi,
+Dialogue: 0,0:08:22.24,0:08:23.36,tomb,,0,0,0,,karena sudah berjanji membantumu,
+Dialogue: 0,0:08:23.48,0:08:24.84,tomb,,0,0,0,,aku akan bantu sampai tuntas.
+Dialogue: 0,0:08:25.16,0:08:25.88,tomb,,0,0,0,,Bocah,
+Dialogue: 0,0:08:26.32,0:08:28.64,tomb,,0,0,0,,hari ini meski harus menguras seluruh darah nagaku,
+Dialogue: 0,0:08:28.88,0:08:30.40,tomb,,0,0,0,,aku pasti bunuh manusia burung ini.
+Dialogue: 0,0:09:02.60,0:09:03.64,tomb,,0,0,0,,Kau lagi?!
+Dialogue: 0,0:09:15.04,0:09:17.44,tomb,,0,0,0,,Minggir dariku!
+Dialogue: 0,0:09:22.80,0:09:24.48,tomb,,0,0,0,,Terus-terusan begini,
+Dialogue: 0,0:09:25.24,0:09:27.36,tomb,,0,0,0,,kau kira aku tak bisa melawanmu?
+Dialogue: 0,0:09:28.16,0:09:29.16,tomb,,0,0,0,,Kalau begitu, ayo!
+Dialogue: 0,0:09:37.32,0:09:38.88,tomb,,0,0,0,,Ini... ini...
+Dialogue: 0,0:09:39.56,0:09:41.48,tomb,,0,0,0,,Kekuatan penghancur mendekati tingkat 7!
+Dialogue: 0,0:09:41.80,0:09:43.48,tomb,,0,0,0,,Akan memicu Petaka Langit!
+Dialogue: 0,0:09:45.68,0:09:46.96,tomb,,0,0,0,,Ini petir dewa!
+Dialogue: 0,0:09:47.44,0:09:48.84,tomb,,0,0,0,,Itu hukuman langit!
+Dialogue: 0,0:09:49.80,0:09:51.04,tomb,,0,0,0,,Hukuman langit, tersentuh langsung mati.
+Dialogue: 0,0:09:51.44,0:09:53.20,tomb,,0,0,0,,Kalau kita ikut campur, cuma bunuh diri saja.
+Dialogue: 0,0:09:55.84,0:09:56.64,tomb,,0,0,0,,Sial!
+Dialogue: 0,0:09:57.24,0:09:58.96,tomb,,0,0,0,,Langit sialan ini mau ikut campur urusan kita?
+Dialogue: 0,0:09:59.24,0:09:59.80,tomb,,0,0,0,,Apa?
+Dialogue: 0,0:10:03.40,0:10:04.64,tomb,,0,0,0,,Menurut hukum langit dan bumi,
+Dialogue: 0,0:10:05.04,0:10:06.24,tomb,,0,0,0,,makhluk yang terlalu kuat,
+Dialogue: 0,0:10:06.60,0:10:08.04,tomb,,0,0,0,,tidak diizinkan tinggal di dunia manusia.
+Dialogue: 0,0:10:08.32,0:10:09.12,tomb,,0,0,0,,Maksudmu,
+Dialogue: 0,0:10:09.68,0:10:10.68,tomb,,0,0,0,,kekuatanku sekarang...
+Dialogue: 0,0:10:10.76,0:10:12.52,tomb,,0,0,0,,Busur Houyi yang terkena darah kita berdua,
+Dialogue: 0,0:10:12.88,0:10:15.36,tomb,,0,0,0,,daya ledaknya hampir melebihi batas dunia ini.
+Dialogue: 0,0:10:15.84,0:10:17.12,tomb,,0,0,0,,Hanya "hampir"?
+Dialogue: 0,0:10:17.44,0:10:19.08,tomb,,0,0,0,,Kalau begitu, tidak perlu takut.
+Dialogue: 0,0:10:22.56,0:10:23.08,tomb,,0,0,0,,Buruk!
+Dialogue: 0,0:10:23.52,0:10:25.32,tomb,,0,0,0,,Jangan biarkan panah darah ini terus meningkatkan kekuatan.
+Dialogue: 0,0:10:25.64,0:10:26.56,tomb,,0,0,0,,Harus dihentikan!
+Dialogue: 0,0:10:43.41,0:10:44.41,tomb,,0,0,0,,Terlambat!
+Dialogue: 0,0:10:56.12,0:10:57.68,tomb,,0,0,0,,Kau tidak punya kesempatan lagi.
+Dialogue: 0,0:10:59.20,0:11:00.64,tomb,,0,0,0,,Busur Houyi!
+Dialogue: 0,0:11:01.44,0:11:02.36,tomb,,0,0,0,,Pergi!
+Dialogue: 0,0:11:26.52,0:11:27.64,tomb,,0,0,0,,Jones!
+Dialogue: 0,0:11:29.56,0:11:30.92,tomb,,0,0,0,,Tanganku!
+Dialogue: 0,0:11:51.52,0:11:52.40,tomb,,0,0,0,,Kau...
+Dialogue: 0,0:11:52.52,0:11:54.08,tomb,,0,0,0,,Kau manusia biasa ini!
+Dialogue: 0,0:11:54.64,0:11:56.40,tomb,,0,0,0,,Aku akan membunuhmu!
+Dialogue: 0,0:11:59.20,0:12:01.28,tomb,,0,0,0,,Siapa yang bunuh siapa, belum tentu.
+Dialogue: 0,0:12:18.28,0:12:19.00,tomb,,0,0,0,,Ayo!
+Dialogue: 0,0:12:19.56,0:12:20.48,tomb,,0,0,0,,Dendam masa lalu,
+Dialogue: 0,0:12:20.88,0:12:21.80,tomb,,0,0,0,,malam ini, naga ini
+Dialogue: 0,0:12:22.40,0:12:24.64,tomb,,0,0,0,,akan bayar berlipat ganda!
+Dialogue: 0,0:12:27.80,0:12:29.12,tomb,,0,0,0,,Jantungmu sebagai malaikat,
+Dialogue: 0,0:12:29.52,0:12:31.24,tomb,,0,0,0,,tinggalkan saja untuk kami sebagai suplemen.
+Dialogue: 0,0:12:49.68,0:12:53.52,tomb,,0,0,0,,Hahaha!
+Dialogue: 0,0:12:54.24,0:12:55.68,tomb,,0,0,0,,Darah dan energi habis.
+Dialogue: 0,0:12:56.00,0:12:57.68,tomb,,0,0,0,,Kau tidak bisa menembakkan panah berikutnya.
+Dialogue: 0,0:12:58.16,0:12:59.52,tomb,,0,0,0,,Matilah!
+Dialogue: 0,0:13:00.52,0:13:01.48,tomb,,0,0,0,,Benarkah?
+Dialogue: 0,0:13:02.92,0:13:04.04,tomb,,0,0,0,,Itu panah sebelumnya,
+Dialogue: 0,0:13:04.40,0:13:05.28,tomb,,0,0,0,,berbalik lagi?
+Dialogue: 0,0:13:18.08,0:13:20.68,tomb,,0,0,0,,Memang pantas sebagai panah yang ditembakkan Busur Houyi.
+Dialogue: 0,0:13:21.16,0:13:22.88,tomb,,0,0,0,,Setelah disiram darah naga,
+Dialogue: 0,0:13:23.08,0:13:24.52,tomb,,0,0,0,,belum membunuh musuh,
+Dialogue: 0,0:13:24.76,0:13:26.24,tomb,,0,0,0,,panah tidak menghilang.
+Dialogue: 0,0:13:26.56,0:13:27.80,tomb,,0,0,0,,Kekuatan satu panah,
+Dialogue: 0,0:13:28.08,0:13:29.04,tomb,,0,0,0,,bisa sampai sejauh ini?
+Dialogue: 0,0:13:29.04,0:13:30.46,tomb,,0,0,0,,Serangan ini,
+Dialogue: 0,0:13:30.48,0:13:32.56,tomb,,0,0,0,,takutnya kita berempat pun tidak bisa menahan.
+Dialogue: 0,0:13:34.96,0:13:36.04,tomb,,0,0,0,,Sial!
+Dialogue: 0,0:13:36.64,0:13:38.00,tomb,,0,0,0,,Manusia biasa...
+Dialogue: 0,0:13:38.56,0:13:39.52,tomb,,0,0,0,,Kalian berdua,
+Dialogue: 0,0:13:39.56,0:13:40.32,tomb,,0,0,0,,serang bersama!
+Dialogue: 0,0:13:41.00,0:13:42.76,tomb,,0,0,0,,Harus musnahkan dia di sini.
+Dialogue: 0,0:13:43.48,0:13:44.32,tomb,,0,0,0,,Bertindak!
+Dialogue: 0,0:13:45.96,0:13:46.20,tomb,,0,0,0,,Hmph!
+Dialogue: 0,0:13:50.96,0:13:54.32,tomb,,0,0,0,,Siapa yang begitu berisik?
+Dialogue: 0,0:13:58.16,0:13:59.28,tomb,,0,0,0,,Sifat Dewa,
+Dialogue: 0,0:13:59.96,0:14:00.88,tomb,,0,0,0,,sifat Iblis,
+Dialogue: 0,0:14:01.80,0:14:03.84,tomb,,0,0,0,,mana sifat asli?
+Dialogue: 0,0:14:04.52,0:14:05.24,tomb,,0,0,0,,Jalan Langit,
+Dialogue: 0,0:14:06.00,0:14:06.88,tomb,,0,0,0,,Jalan Manusia,
+Dialogue: 0,0:14:07.72,0:14:09.36,tomb,,0,0,0,,mana jalan yang benar?
+Dialogue: 0,0:14:09.48,0:14:10.28,tomb,,0,0,0,,Itu dia.
+Dialogue: 0,0:14:11.00,0:14:12.16,tomb,,0,0,0,,Dia bangun.
+Dialogue: 0,0:14:15.88,0:14:17.76,tomb,,0,0,0,,Tekanan aura ini...
+Dialogue: 0,0:14:18.76,0:14:33.76,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:14:49.62,0:14:51.62,tomb,,0,0,0,,
+Dialogue: 0,0:14:51.64,0:14:53.48,tomb,,0,0,0,,Aura ini terlalu menakutkan.
+Dialogue: 0,0:15:25.84,0:15:26.96,tomb,,0,0,0,,Kotor.
+Dialogue: 0,0:15:35.84,0:15:36.92,tomb,,0,0,0,,Malaikat,
+Dialogue: 0,0:15:39.12,0:15:42.88,tomb,,0,0,0,,berani memasuki dunia kultivasi Timur kami?
+Dialogue: 0,0:15:51.56,0:15:52.32,tomb,,0,0,0,,Mati!
+Dialogue: 0,0:15:55.36,0:15:57.52,tomb,,0,0,0,,Penegak Hukum Timur,
+Dialogue: 0,0:15:57.88,0:15:59.08,tomb,,0,0,0,,kau ternyata masih hidup.
+Dialogue: 0,0:16:06.92,0:16:07.72,tomb,,0,0,0,,Tidak!
+Dialogue: 0,0:16:13.04,0:16:13.92,tomb,,0,0,0,,Sangat kuat.
+Dialogue: 0,0:16:16.68,0:16:18.28,tomb,,0,0,0,,Masih ada dua.
+Dialogue: 0,0:16:18.92,0:16:20.44,tomb,,0,0,0,,Karena sudah datang,
+Dialogue: 0,0:16:20.88,0:16:23.04,tomb,,0,0,0,,kuburkan saja di sini.
+Dialogue: 0,0:16:23.24,0:16:24.40,tomb,,0,0,0,,Kalau tidak kembalikan wujud asli,
+Dialogue: 0,0:16:24.52,0:16:25.32,tomb,,0,0,0,,kita semua mati.
+Dialogue: 0,0:16:34.64,0:16:37.44,tomb,,0,0,0,,Cahaya Menyinari Dunia!
+Dialogue: 0,0:16:46.88,0:16:50.00,tomb,,0,0,0,,Hukuman Petir!
+Dialogue: 0,0:17:04.24,0:17:06.32,tomb,,0,0,0,,Cahaya Kedatangan Suci!
+Dialogue: 0,0:17:07.32,0:17:22.32,tomb,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:17:49.48,0:17:50.24,tomb,,0,0,0,,Cepat pergi!
+Dialogue: 0,0:18:04.80,0:18:06.88,tomb,,0,0,0,,Perlindungan Bintang!
+Dialogue: 0,0:18:22.84,0:18:24.60,tomb,,0,0,0,,Hanya tampak luar saja.
+Dialogue: 0,0:18:25.60,0:18:27.00,tomb,,0,0,0,,Di wilayah Timur,
+Dialogue: 0,0:18:27.56,0:18:29.12,tomb,,0,0,0,,Gencatan Senjata Antar Ras.
+Dialogue: 0,0:18:29.76,0:18:31.40,tomb,,0,0,0,,Melangkah satu langkah melewati garis,
+Dialogue: 0,0:18:32.16,0:18:33.12,tomb,,0,0,0,,mati.
+Dialogue: 0,0:18:34.40,0:18:36.64,tomb,,0,0,0,,Tiga malaikat bersayap empat setara tingkat 6,
+Dialogue: 0,0:18:37.52,0:18:38.32,tomb,,0,0,0,,ternyata...
+Dialogue: 0,0:18:39.44,0:18:40.76,tomb,,0,0,0,,dibunuh dengan satu serangan.
+Dialogue: 0,0:19:04.00,0:19:07.08,tomb,,0,0,0,,Bagaimana aku harus memilih?
+Dialogue: 0,0:19:08.00,0:19:09.68,tomb,,0,0,0,,Siapa aku?
+Dialogue: 0,0:19:09.68,0:19:11.48,tomb,,0,0,0,,Harusnya aku siapa?
+Dialogue: 0,0:19:12.76,0:19:13.96,tomb,,0,0,0,,Chen Nan, Petir Bencana!
+Dialogue: 0,0:19:14.72,0:19:15.80,tomb,,0,0,0,,Bikin kakek hampir mati ketakutan.
+Dialogue: 0,0:19:15.96,0:19:17.32,tomb,,0,0,0,,Kau harus lindungi aku.
+Dialogue: 0,0:19:18.84,0:19:20.84,tomb,,0,0,0,,Pergi, akhirnya pergi.
+Dialogue: 0,0:19:27.04,0:19:27.44,tomb,,0,0,0,,Long Wu.
+Dialogue: 0,0:19:29.08,0:19:33.80,tomb,,0,0,0,,Hahaha!

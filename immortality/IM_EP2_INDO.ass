@@ -1,0 +1,373 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.7,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+Style: wdqk,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: ap,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: im,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.14,0:00:04.32,im,,0,0,0,,[EPISODE 2]
+Dialogue: 0,0:00:12.16,0:00:13.60,im,,0,0,0,,Datanglah!
+Dialogue: 0,0:00:16.08,0:00:17.00,im,,0,0,0,,Bahaya, mundur cepat!
+Dialogue: 0,0:00:17.40,0:00:18.56,im,,0,0,0,,Dia memanggil pasukan Iblis Surgawi!
+Dialogue: 0,0:00:18.56,0:00:19.72,im,,0,0,0,,Lari cepat, cepat!
+Dialogue: 0,0:00:19.72,0:00:20.16,im,,0,0,0,,Kita...
+Dialogue: 0,0:00:20.64,0:00:22.08,im,,0,0,0,,Bagaimana kita menjelaskan ini kepada Ketua Sekte?
+Dialogue: 0,0:00:26.32,0:00:27.40,im,,0,0,0,,Bibi Master!
+Dialogue: 0,0:00:27.40,0:00:28.60,im,,0,0,0,,Bibi Master datang!
+Dialogue: 0,0:00:28.84,0:00:29.96,im,,0,0,0,,Aura iblisnya sangat kuat.
+Dialogue: 0,0:00:30.56,0:00:31.80,im,,0,0,0,,Inikah Raja Iblis Surgawi Cacing Air?
+Dialogue: 0,0:00:32.36,0:00:33.12,im,,0,0,0,,Iblis Surgawi Cacing Air...
+Dialogue: 0,0:00:33.84,0:00:35.04,im,,0,0,0,,adalah raja iblis yang telah membentuk Inti Iblis.
+Dialogue: 0,0:00:35.60,0:00:36.80,im,,0,0,0,,Itu berarti Alam Avatar tingkat ketujuh.
+Dialogue: 0,0:00:37.52,0:00:38.36,im,,0,0,0,,Alam Avatar tingkat tujuh...
+Dialogue: 0,0:00:38.68,0:00:39.64,im,,0,0,0,,Benih Inti Emas.
+Dialogue: 0,0:00:40.12,0:00:41.08,im,,0,0,0,,Nona Besar dan Panglima Iblis...
+Dialogue: 0,0:00:41.48,0:00:42.88,im,,0,0,0,,bekerja sama membunuh Iblis Surgawi Cacing Air.
+Dialogue: 0,0:00:43.52,0:00:44.60,im,,0,0,0,,Tapi jiwanya tidak mati,
+Dialogue: 0,0:00:44.76,0:00:45.64,im,,0,0,0,,hanya bisa disegel.
+Dialogue: 0,0:00:46.08,0:00:46.92,im,,0,0,0,,Kali ini yang kabur...
+Dialogue: 0,0:00:47.08,0:00:48.56,im,,0,0,0,,adalah sisa-sisa jiwanya yang terakhir.
+Dialogue: 0,0:00:49.32,0:00:50.48,im,,0,0,0,,Sisa jiwa iblis ini,
+Dialogue: 0,0:00:50.72,0:00:51.88,im,,0,0,0,,mungkin masih memiliki kekuatan Alam Avatar tingkat lima,
+Dialogue: 0,0:00:51.88,0:00:52.76,im,,0,0,0,,Alam Manusia Surga.
+Dialogue: 0,0:00:53.40,0:00:54.20,im,,0,0,0,,Jika dia berhasil kabur,
+Dialogue: 0,0:00:54.80,0:00:55.52,im,,0,0,0,,Gua Kaisar Petir...
+Dialogue: 0,0:00:55.92,0:00:56.92,im,,0,0,0,,akan menjadi lautan darah.
+Dialogue: 0,0:00:57.48,0:00:58.68,im,,0,0,0,,Gagal menekan Iblis Surgawi,
+Dialogue: 0,0:00:59.12,0:01:00.24,im,,0,0,0,,kediaman Nona Besar hancur.
+Dialogue: 0,0:01:00.76,0:01:01.80,im,,0,0,0,,Bahkan jika kami harus mati,
+Dialogue: 0,0:01:02.12,0:01:03.24,im,,0,0,0,,kami harus menahan Iblis Surgawi Cacing Air
+Dialogue: 0,0:01:03.48,0:01:04.52,im,,0,0,0,,di pulau ini!
+Dialogue: 0,0:01:04.76,0:01:06.16,im,,0,0,0,,Bawahan siap mati!
+Dialogue: 0,0:01:06.88,0:01:08.20,im,,0,0,0,,Kalian maju hanya akan sia-sia!
+Dialogue: 0,0:01:08.44,0:01:09.60,im,,0,0,0,,Aku yang akan menghadapi Raja Iblis Surgawi Cacing Air.
+Dialogue: 0,0:01:09.76,0:01:11.12,im,,0,0,0,,Kalian bersihkan Iblis Surgawi yang lolos.
+Dialogue: 0,0:01:11.24,0:01:11.68,im,,0,0,0,,Fang Han.
+Dialogue: 0,0:01:14.64,0:01:15.76,im,,0,0,0,,Kita tahan pasukan Iblis Surgawi,
+Dialogue: 0,0:01:16.04,0:01:17.00,im,,0,0,0,,untuk meringankan beban Fang Han.
+Dialogue: 0,0:01:17.16,0:01:17.76,im,,0,0,0,,Ya!
+Dialogue: 0,0:01:20.00,0:01:21.16,im,,0,0,0,,Iblis Surgawi Cacing Air...
+Dialogue: 0,0:01:24.40,0:01:25.04,im,,0,0,0,,Tebas!
+Dialogue: 0,0:01:31.08,0:01:32.12,im,,0,0,0,,Bunuh dia!
+Dialogue: 0,0:01:34.00,0:01:34.92,im,,0,0,0,,Serangan bagus!
+Dialogue: 0,0:01:34.94,0:01:49.94,im,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:01:51.80,0:01:54.52,im,,0,0,0,,Raja Iblis Surgawi Cacing Air bersembunyi di antara kerumunan Iblis Surgawi.
+Dialogue: 0,0:01:55.36,0:01:56.76,im,,0,0,0,,Harus cari cara memaksanya keluar.
+Dialogue: 0,0:02:03.08,0:02:03.60,im,,0,0,0,,Fang Han!
+Dialogue: 0,0:02:17.16,0:02:20.04,im,,0,0,0,,Keagungan langit dan bumi, keperkasaan semesta
+Dialogue: 0,0:02:20.48,0:02:23.72,im,,0,0,0,,Nyanyian pilu untuk kematian dan perpisahan!
+Dialogue: 0,0:02:29.24,0:02:30.68,im,,0,0,0,,Satu jurus saja sudah menghabisi pasukan Iblis Surgawi...
+Dialogue: 0,0:02:30.84,0:02:31.92,im,,0,0,0,,Paman Master hebat sekali!
+Dialogue: 0,0:02:32.68,0:02:33.32,im,,0,0,0,,Tapi kenapa...
+Dialogue: 0,0:02:33.56,0:02:34.72,im,,0,0,0,,bayangan raja iblis itu tidak terlihat?
+Dialogue: 0,0:02:44.52,0:02:44.96,im,,0,0,0,,Hati-hati!
+Dialogue: 0,0:02:46.24,0:02:46.76,im,,0,0,0,,Mati!
+Dialogue: 0,0:02:47.92,0:02:48.92,im,,0,0,0,,Agak berbakat.
+Dialogue: 0,0:02:51.84,0:02:52.92,im,,0,0,0,,Raja Iblis Surgawi Cacing Air.
+Dialogue: 0,0:02:53.44,0:02:54.76,im,,0,0,0,,Kau sebagai ahli Inti Iblis,
+Dialogue: 0,0:02:55.24,0:02:56.40,im,,0,0,0,,melawanku yang hanya Alam Avatar tingkat dua,
+Dialogue: 0,0:02:56.92,0:02:58.16,im,,0,0,0,,masih menggunakan serangan menyelinap?
+Dialogue: 0,0:02:59.28,0:03:00.04,im,,0,0,0,,Serangan menyelinap?
+Dialogue: 0,0:03:00.80,0:03:02.64,im,,0,0,0,,Raja ini dulu juga diserang secara menyelinap,
+Dialogue: 0,0:03:03.12,0:03:04.64,im,,0,0,0,,baru bisa disegel selama bertahun-tahun.
+Dialogue: 0,0:03:05.84,0:03:08.76,im,,0,0,0,,Meski tidak tahu siapa yang membantuku merusak segel,
+Dialogue: 0,0:03:09.80,0:03:10.88,im,,0,0,0,,tapi karena aku sudah keluar,
+Dialogue: 0,0:03:12.80,0:03:14.64,im,,0,0,0,,maka semua yang berhubungan dengan Fang Qingxue,
+Dialogue: 0,0:03:15.80,0:03:16.80,im,,0,0,0,,harus lenyap!
+Dialogue: 0,0:03:18.32,0:03:21.84,im,,0,0,0,,Penghalang ini setidaknya butuh Alam Avatar tingkat empat untuk dihancurkan.
+Dialogue: 0,0:03:21.84,0:03:22.32,im,,0,0,0,,Ini...
+Dialogue: 0,0:03:22.60,0:03:23.20,im,,0,0,0,,Penghalang?
+Dialogue: 0,0:03:23.56,0:03:24.64,im,,0,0,0,,Tenanglah dan terima kematianmu.
+Dialogue: 0,0:03:28.08,0:03:29.52,im,,0,0,0,,Kali ini setelah keluar dari segel,
+Dialogue: 0,0:03:29.80,0:03:31.92,im,,0,0,0,,rencananya ingin membantai semua orang di 49 pulau ini,
+Dialogue: 0,0:03:33.64,0:03:34.88,im,,0,0,0,,menggunakan darah mereka,
+Dialogue: 0,0:03:35.12,0:03:36.56,im,,0,0,0,,untuk memulihkan tubuhku.
+Dialogue: 0,0:03:41.56,0:03:42.56,im,,0,0,0,,Tapi tak disangka,
+Dialogue: 0,0:03:43.44,0:03:44.84,im,,0,0,0,,bertemu monster sepertimu.
+Dialogue: 0,0:03:45.32,0:03:46.52,im,,0,0,0,,Kau bisa menipu orang lain,
+Dialogue: 0,0:03:47.00,0:03:48.28,im,,0,0,0,,tapi tidak bisa menipuku.
+Dialogue: 0,0:03:48.88,0:03:50.24,im,,0,0,0,,Murid sejati Sekte Yuhua,
+Dialogue: 0,0:03:51.16,0:03:52.88,im,,0,0,0,,tapi malah kultivasi jalan iblis kuno,
+Dialogue: 0,0:03:53.44,0:03:55.20,im,,0,0,0,,Teknik Besar Lima Kaisar.
+Dialogue: 0,0:03:58.20,0:03:59.84,im,,0,0,0,,Setelah aku menangkapmu,
+Dialogue: 0,0:04:00.04,0:04:01.68,im,,0,0,0,,menyisir jiwa dan menangkap roh,
+Dialogue: 0,0:04:02.00,0:04:03.24,im,,0,0,0,,lihat apa lagi,
+Dialogue: 0,0:04:03.48,0:04:04.92,im,,0,0,0,,rahasia yang kau sembunyikan.
+Dialogue: 0,0:04:05.92,0:04:20.92,im,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:04:41.16,0:04:42.32,im,,0,0,0,,Teknik Singa Surgawi!
+Dialogue: 0,0:04:48.36,0:04:50.16,im,,0,0,0,,Qi Kokoh Singa Sekte Taiyi.
+Dialogue: 0,0:04:51.48,0:04:53.96,im,,0,0,0,,Menarik.
+Dialogue: 0,0:04:54.30,0:04:55.36,im,,0,0,0,,Serang!
+Dialogue: 0,0:05:17.00,0:05:18.04,im,,0,0,0,,Masih ada satu lagi!
+Dialogue: 0,0:05:25.72,0:05:26.76,im,,0,0,0,,Tipu muslihat!
+Dialogue: 0,0:05:26.88,0:05:28.28,im,,0,0,0,,Kenai aku kalau bisa!
+Dialogue: 0,0:05:33.92,0:05:34.96,im,,0,0,0,,Turun kau!
+Dialogue: 0,0:05:40.80,0:05:41.52,im,,0,0,0,,Pergi!
+Dialogue: 0,0:05:44.40,0:05:45.24,im,,0,0,0,,Sial!
+Dialogue: 0,0:05:46.20,0:05:47.24,im,,0,0,0,,Raja Iblis Surgawi Cacing Air,
+Dialogue: 0,0:05:47.64,0:05:49.64,im,,0,0,0,,Inti Emasmu hancur, energimu hampir habis.
+Dialogue: 0,0:05:50.04,0:05:52.04,im,,0,0,0,,Sepertinya kau tidak akan sempat tahu rahasiaku.
+Dialogue: 0,0:05:52.60,0:05:54.00,im,,0,0,0,,Bocah sombong!
+Dialogue: 0,0:05:54.56,0:05:55.48,im,,0,0,0,,Kau pikir...
+Dialogue: 0,0:05:55.96,0:05:57.44,im,,0,0,0,,sudah bisa mengalahkan raja ini?
+Dialogue: 0,0:05:58.80,0:06:00.16,im,,0,0,0,,Coba rasakan ini!
+Dialogue: 0,0:06:02.96,0:06:03.32,im,,0,0,0,,Gawat!
+Dialogue: 0,0:06:03.64,0:06:05.00,im,,0,0,0,,Ini adalah teknik iblis tertinggi dari dunia iblis,
+Dialogue: 0,0:06:05.24,0:06:05.88,im,,0,0,0,,Teknik Pemotongan Besar!
+Dialogue: 0,0:06:06.76,0:06:07.00,im,,0,0,0,,Fang Han!
+Dialogue: 0,0:06:07.48,0:06:08.28,im,,0,0,0,,Jangan sekali-kali menahannya langsung!
+Dialogue: 0,0:06:09.56,0:06:10.36,im,,0,0,0,,Teknik Pemotongan Besar?!
+Dialogue: 0,0:06:10.96,0:06:12.12,im,,0,0,0,,Singa Surgawi Pelindung Qi!
+Dialogue: 0,0:06:16.24,0:06:17.48,im,,0,0,0,,Potong!
+Dialogue: 0,0:06:18.68,0:06:20.20,im,,0,0,0,,Jangan sampai tersentuh celah-celah ini!
+Dialogue: 0,0:06:30.64,0:06:31.88,im,,0,0,0,,Teknik Pemotongan Besar ini,
+Dialogue: 0,0:06:32.20,0:06:33.44,im,,0,0,0,,ternyata begitu kuat!
+Dialogue: 0,0:06:34.12,0:06:35.92,im,,0,0,0,,Tapi kondisinya semakin buruk.
+Dialogue: 0,0:06:36.52,0:06:37.44,im,,0,0,0,,Terus habiskan energinya.
+Dialogue: 0,0:06:38.44,0:06:39.44,im,,0,0,0,,Mau kabur?
+Dialogue: 0,0:06:42.32,0:06:43.48,im,,0,0,0,,Pemotongan Ruang!
+Dialogue: 0,0:06:46.32,0:06:47.00,im,,0,0,0,,Apa?!
+Dialogue: 0,0:06:54.68,0:06:55.76,im,,0,0,0,,Boneka Pedang Iblis!
+Dialogue: 0,0:07:10.84,0:07:12.36,im,,0,0,0,,Raja ini ingin melihat,
+Dialogue: 0,0:07:12.72,0:07:14.40,im,,0,0,0,,cara apa lagi yang kau punya.
+Dialogue: 0,0:07:15.76,0:07:17.36,im,,0,0,0,,Tabrak!
+Dialogue: 0,0:07:28.80,0:07:29.80,im,,0,0,0,,Apakah itu...
+Dialogue: 0,0:07:30.24,0:07:31.16,im,,0,0,0,,Tungku Raja Lima Neraka?
+Dialogue: 0,0:07:35.80,0:07:36.72,im,,0,0,0,,Tinggalkan untuk raja ini!
+Dialogue: 0,0:07:40.84,0:07:41.84,im,,0,0,0,,Fang Han, kau baik-baik saja?
+Dialogue: 0,0:07:43.76,0:07:44.24,im,,0,0,0,,Tidak apa-apa.
+Dialogue: 0,0:07:44.84,0:07:45.68,im,,0,0,0,,Kalian fokus mengendalikan tungku.
+Dialogue: 0,0:07:46.20,0:07:47.08,im,,0,0,0,,Tunggu aku memulihkan energi.
+Dialogue: 0,0:07:47.52,0:07:48.52,im,,0,0,0,,Kami menerima telepatimu,
+Dialogue: 0,0:07:48.84,0:07:50.24,im,,0,0,0,,langsung memaksimalkan tungku untuk datang.
+Dialogue: 0,0:07:50.68,0:07:52.04,im,,0,0,0,,Untung tungku bisa menembus pelindung,
+Dialogue: 0,0:07:52.40,0:07:53.32,im,,0,0,0,,kalau tidak, kau dalam bahaya.
+Dialogue: 0,0:07:55.44,0:07:55.76,im,,0,0,0,,Ini...
+Dialogue: 0,0:07:56.08,0:07:57.00,im,,0,0,0,,celah ruang?
+Dialogue: 0,0:07:57.52,0:07:58.40,im,,0,0,0,,Kau menantang siapa lagi?
+Dialogue: 0,0:07:59.60,0:08:00.40,im,,0,0,0,,Itu Iblis Surgawi Cacing Air,
+Dialogue: 0,0:08:00.60,0:08:01.48,im,,0,0,0,,berhasil keluar dari segel.
+Dialogue: 0,0:08:02.52,0:08:03.32,im,,0,0,0,,Jangan banyak bicara.
+Dialogue: 0,0:08:03.88,0:08:05.24,im,,0,0,0,,Kalian kendalikan tungku kembali ke pelindung.
+Dialogue: 0,0:08:06.32,0:08:07.16,im,,0,0,0,,Aku akan keluar lagi.
+Dialogue: 0,0:08:07.88,0:08:09.52,im,,0,0,0,,Harus membunuh iblis ini sampai tuntas.
+Dialogue: 0,0:08:10.52,0:08:11.44,im,,0,0,0,,Sudah kabur dari pelindung,
+Dialogue: 0,0:08:12.12,0:08:13.12,im,,0,0,0,,masih berani kembali?
+Dialogue: 0,0:08:13.72,0:08:14.84,im,,0,0,0,,Kau berani meremehkanku?
+Dialogue: 0,0:08:15.72,0:08:16.40,im,,0,0,0,,Betul!
+Dialogue: 0,0:08:18.16,0:08:19.48,im,,0,0,0,,Raja Iblis Surgawi Cacing Air,
+Dialogue: 0,0:08:20.08,0:08:20.88,im,,0,0,0,,terima nasibmu.
+Dialogue: 0,0:08:22.00,0:08:22.96,im,,0,0,0,,Cari mati!
+Dialogue: 0,0:08:40.28,0:08:40.76,im,,0,0,0,,Pergi!
+Dialogue: 0,0:08:59.08,0:09:00.00,im,,0,0,0,,Masih bisa bertahan?
+Dialogue: 0,0:09:00.88,0:09:01.56,im,,0,0,0,,Yang ketiga!
+Dialogue: 0,0:09:03.20,0:09:04.36,im,,0,0,0,,Lihat bagaimana kau menghadapinya!
+Dialogue: 0,0:09:20.28,0:09:22.12,im,,0,0,0,,Singa Surgawi Pemurni Iblis!
+Dialogue: 0,0:09:30.24,0:09:30.88,im,,0,0,0,,Energi...
+Dialogue: 0,0:09:31.12,0:09:31.56,im,,0,0,0,,sudah...
+Dialogue: 0,0:09:32.28,0:09:33.04,im,,0,0,0,,tidak banyak lagi.
+Dialogue: 0,0:09:33.06,0:09:48.06,im,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:09:57.04,0:09:57.92,im,,0,0,0,,Aku ingin melihat,
+Dialogue: 0,0:09:58.28,0:09:59.72,im,,0,0,0,,berapa lama lagi kau bisa bertahan.
+Dialogue: 0,0:10:09.20,0:10:09.68,im,,0,0,0,,Iblis!
+Dialogue: 0,0:10:10.52,0:10:11.64,im,,0,0,0,,Aku punya pil, punya artefak,
+Dialogue: 0,0:10:12.28,0:10:13.04,im,,0,0,0,,masih ada bantuan,
+Dialogue: 0,0:10:13.44,0:10:14.44,im,,0,0,0,,mengurasmu saja bisa membunuhmu.
+Dialogue: 0,0:10:15.20,0:10:15.80,im,,0,0,0,,Dan lagi,
+Dialogue: 0,0:10:16.80,0:10:18.00,im,,0,0,0,,sumber daya iblis surgawimu,
+Dialogue: 0,0:10:18.00,0:10:19.20,im,,0,0,0,,juga sangat menarik bagiku.
+Dialogue: 0,0:10:22.24,0:10:24.52,im,,0,0,0,,Macan terpuruk dihina anjing?
+Dialogue: 0,0:10:26.08,0:10:26.76,im,,0,0,0,,Tapi,
+Dialogue: 0,0:10:27.60,0:10:30.12,im,,0,0,0,,kau jangan berharap mendapatkan apapun dariku.
+Dialogue: 0,0:10:34.20,0:10:37.96,im,,0,0,0,,Teknik Peledakan Iblis Surgawi!
+Dialogue: 0,0:10:40.20,0:10:41.20,im,,0,0,0,,Peledakan Iblis Surgawi?!
+Dialogue: 0,0:10:41.36,0:10:42.16,im,,0,0,0,,Dia akan meledakkan diri!
+Dialogue: 0,0:10:42.60,0:10:43.16,im,,0,0,0,,Cepat pergi!
+Dialogue: 0,0:10:43.44,0:10:44.52,im,,0,0,0,,Mau pergi ke mana!
+Dialogue: 0,0:10:45.96,0:10:47.40,im,,0,0,0,,Kembalilah!
+Dialogue: 0,0:10:49.68,0:10:50.40,im,,0,0,0,,Fang Han!
+Dialogue: 0,0:10:50.56,0:10:51.60,im,,0,0,0,,Kalian pergi dulu!
+Dialogue: 0,0:10:52.32,0:10:53.96,im,,0,0,0,,Mari kita binasa bersama!
+Dialogue: 0,0:10:55.84,0:10:56.32,im,,0,0,0,,Yan!
+Dialogue: 0,0:10:57.28,0:10:58.08,im,,0,0,0,,Bertindak!
+Dialogue: 0,0:11:04.96,0:11:05.48,im,,0,0,0,,Ini...
+Dialogue: 0,0:11:06.24,0:11:07.68,im,,0,0,0,,air Sungai Huangquan!
+Dialogue: 0,0:11:09.04,0:11:10.24,im,,0,0,0,,Raja Iblis Surgawi Cacing Air,
+Dialogue: 0,0:11:11.00,0:11:12.32,im,,0,0,0,,waktumu sudah habis!
+Dialogue: 0,0:11:12.92,0:11:14.12,im,,0,0,0,,Tarik!
+Dialogue: 0,0:11:15.76,0:11:16.72,im,,0,0,0,,Inti Emasmu hancur,
+Dialogue: 0,0:11:16.84,0:11:17.92,im,,0,0,0,,hanya punya kekuatan Alam Manusia Surga,
+Dialogue: 0,0:11:18.44,0:11:20.08,im,,0,0,0,,tepat ditekan oleh air Sungai Huangquan.
+Dialogue: 0,0:11:20.12,0:11:22.72,im,,0,0,0,,Aku tidak terima!
+Dialogue: 0,0:11:39.20,0:11:41.00,im,,0,0,0,,Sudah menduga dia akan menyeretmu ikut mati.
+Dialogue: 0,0:11:42.16,0:11:44.04,im,,0,0,0,,Jadi kau sengaja mengikuti rencananya.
+Dialogue: 0,0:11:45.60,0:11:46.68,im,,0,0,0,,Juga berkat air Sungai Huangquan,
+Dialogue: 0,0:11:47.04,0:11:48.92,im,,0,0,0,,bisa menekan Teknik Peledakan Iblis Surgawinya.
+Dialogue: 0,0:11:50.04,0:11:51.32,im,,0,0,0,,Kali ini untung besar.
+Dialogue: 0,0:11:52.12,0:11:53.40,im,,0,0,0,,Kalau bukan karena Teknik Pemotongan Besar,
+Dialogue: 0,0:11:53.40,0:11:54.68,im,,0,0,0,,begitu menguras energi vital,
+Dialogue: 0,0:11:55.32,0:11:56.68,im,,0,0,0,,kita bukan lawannya sama sekali.
+Dialogue: 0,0:11:58.08,0:11:59.32,im,,0,0,0,,Karena sudah kita tekan,
+Dialogue: 0,0:11:59.56,0:12:01.04,im,,0,0,0,,maka seluruh kekuatannya,
+Dialogue: 0,0:12:01.60,0:12:02.48,im,,0,0,0,,berbagai teknik,
+Dialogue: 0,0:12:03.08,0:12:04.24,im,,0,0,0,,semuanya akan menjadi milikmu.
+Dialogue: 0,0:12:13.76,0:12:15.72,im,,0,0,0,,Secepat itu sudah mengalahkan Raja Iblis Surgawi Cacing Air?
+Dialogue: 0,0:12:16.40,0:12:18.72,im,,0,0,0,,Fang Han ternyata bisa menggunakan Teknik Singa Surgawi dari Sekte Taiyi.
+Dialogue: 0,0:12:19.28,0:12:21.24,im,,0,0,0,,Dan juga teknik tak dikenal yang baru saja dia gunakan.
+Dialogue: 0,0:12:21.88,0:12:23.36,im,,0,0,0,,Berapa banyak lagi rahasia yang dia miliki?
+Dialogue: 0,0:12:24.52,0:12:25.00,im,,0,0,0,,Mungkin,
+Dialogue: 0,0:12:25.80,0:12:26.92,im,,0,0,0,,dalam sepuluh tahun ke depan,
+Dialogue: 0,0:12:27.88,0:12:29.48,im,,0,0,0,,dia benar-benar bisa menantang Senior Hua.
+Dialogue: 0,0:12:31.00,0:12:32.64,im,,0,0,0,,Tak disangka dia tumbuh secepat ini.
+Dialogue: 0,0:12:37.72,0:12:38.52,im,,0,0,0,,Paman Guru.
+Dialogue: 0,0:12:39.48,0:12:39.88,im,,0,0,0,,Fang Han,
+Dialogue: 0,0:12:40.08,0:12:40.88,im,,0,0,0,,kau baik-baik saja?
+Dialogue: 0,0:12:42.44,0:12:43.08,im,,0,0,0,,Aku baik-baik saja.
+Dialogue: 0,0:12:46.04,0:12:46.84,im,,0,0,0,,Syukurlah kau baik-baik saja.
+Dialogue: 0,0:12:47.32,0:12:47.76,im,,0,0,0,,Fang Han,
+Dialogue: 0,0:12:48.04,0:12:48.44,im,,0,0,0,,kalian berdua,
+Dialogue: 0,0:12:49.08,0:12:49.72,im,,0,0,0,,Gua Kaisar Petir
+Dialogue: 0,0:12:49.84,0:12:51.36,im,,0,0,0,,berhutang budi besar pada kalian semua.
+Dialogue: 0,0:12:52.08,0:12:53.08,im,,0,0,0,,Senior sudah sangat baik padaku,
+Dialogue: 0,0:12:53.88,0:12:55.20,im,,0,0,0,,aku tentu tidak bisa tinggal diam.
+Dialogue: 0,0:12:56.56,0:12:57.04,im,,0,0,0,,Bibi Guru.
+Dialogue: 0,0:13:04.40,0:13:05.08,im,,0,0,0,,Murid pamit.
+Dialogue: 0,0:13:06.20,0:13:07.36,im,,0,0,0,,Laut Selatan terjadi masalah besar lagi.
+Dialogue: 0,0:13:08.36,0:13:08.84,im,,0,0,0,,Panglima Iblis
+Dialogue: 0,0:13:09.04,0:13:10.92,im,,0,0,0,,membunuh tiga murid sejati Sekte Taiyi.
+Dialogue: 0,0:13:11.32,0:13:12.08,im,,0,0,0,,Sekte Taiyi karena itu,
+Dialogue: 0,0:13:12.32,0:13:13.96,im,,0,0,0,,mengeluarkan Dekrit Surgawi untuk mengejar Panglima Iblis.
+Dialogue: 0,0:13:14.56,0:13:16.24,im,,0,0,0,,Tak disangka orang yang memicu perang abadi-iblis
+Dialogue: 0,0:13:16.48,0:13:17.28,im,,0,0,0,,ternyata adalah Panglima Iblis.
+Dialogue: 0,0:13:17.76,0:13:18.84,im,,0,0,0,,Sekarang orang-orang Sekte Taiyi,
+Dialogue: 0,0:13:19.12,0:13:20.52,im,,0,0,0,,pergi ke Sekte Iblis Tianjue untuk menuntut orang,
+Dialogue: 0,0:13:20.92,0:13:22.64,im,,0,0,0,,malah dilukai parah oleh ayahnya, Kaisar Iblis Tianjue,
+Dialogue: 0,0:13:22.84,0:13:23.64,im,,0,0,0,,dan kabur kembali ke Sekte Taiyi.
+Dialogue: 0,0:13:24.28,0:13:26.00,im,,0,0,0,,Sekarang Sekte Taiyi bersatu dengan semua sekte abadi,
+Dialogue: 0,0:13:26.44,0:13:27.72,im,,0,0,0,,untuk membasmi Sekte Iblis Tianjue.
+Dialogue: 0,0:13:28.84,0:13:29.76,im,,0,0,0,,Pertempuran besar akan datang,
+Dialogue: 0,0:13:30.08,0:13:31.44,im,,0,0,0,,kita juga harus mempercepat latihan
+Dialogue: 0,0:13:32.12,0:13:33.28,im,,0,0,0,,untuk menghadapi bencana besar di masa depan.
+Dialogue: 0,0:13:35.36,0:13:36.40,im,,0,0,0,,Kami masih ada urusan penting,
+Dialogue: 0,0:13:37.24,0:13:38.60,im,,0,0,0,,jadi tidak akan menunda waktu Nona Fang lagi.
+Dialogue: 0,0:13:38.96,0:13:39.44,im,,0,0,0,,Baik.
+Dialogue: 0,0:13:39.96,0:13:40.66,im,,0,0,0,,Keadaan darurat,
+Dialogue: 0,0:13:41.00,0:13:42.12,im,,0,0,0,,tidak sempat menjamu kalian,
+Dialogue: 0,0:13:42.56,0:13:43.48,im,,0,0,0,,silakan kalian berbuat sesukanya.
+Dialogue: 0,0:13:44.68,0:13:45.36,im,,0,0,0,,Sampai jumpa lagi.
+Dialogue: 0,0:13:49.72,0:13:51.40,im,,0,0,0,,Masalah Iblis Surgawi Cacing Air dan Panglima Iblis
+Dialogue: 0,0:13:51.84,0:13:53.16,im,,0,0,0,,harus segera dilaporkan kepada Nona Besar,
+Dialogue: 0,0:13:53.60,0:13:54.60,im,,0,0,0,,biar dia yang mengambil keputusan.
+Dialogue: 0,0:13:55.44,0:13:57.00,im,,0,0,0,,Meskipun mempengaruhi kultivasi tertutup Nona Besar,
+Dialogue: 0,0:13:57.24,0:13:58.04,im,,0,0,0,,tidak bisa dihindari lagi.
+Dialogue: 0,0:13:58.80,0:13:59.64,im,,0,0,0,,Jalan Agung adalah satu-satunya,
+Dialogue: 0,0:14:00.12,0:14:01.08,im,,0,0,0,,esensi petir,
+Dialogue: 0,0:14:01.52,0:14:02.48,im,,0,0,0,,berjalan di seluruh dunia.
+Dialogue: 0,0:14:02.72,0:14:03.64,im,,0,0,0,,Pikiran abadi berkembang.
+Dialogue: 0,0:14:04.44,0:14:04.92,im,,0,0,0,,Aktif!
+Dialogue: 0,0:14:15.88,0:14:17.44,im,,0,0,0,,Fang Han ini sebenarnya siapa?
+Dialogue: 0,0:14:17.96,0:14:19.08,im,,0,0,0,,Bisa begitu hebatnya?
+Dialogue: 0,0:14:19.60,0:14:21.12,im,,0,0,0,,Menekan Iblis Surgawi Cacing Air.
+Dialogue: 0,0:14:22.64,0:14:24.40,im,,0,0,0,,Awalnya berencana mengambil keuntungan,
+Dialogue: 0,0:14:24.80,0:14:26.32,im,,0,0,0,,merebut sumber daya iblis surgawi,
+Dialogue: 0,0:14:26.72,0:14:28.36,im,,0,0,0,,tapi gagal di ujung jalan.
+Dialogue: 0,0:14:29.04,0:14:30.56,im,,0,0,0,,Haruskah kita maju merebutnya?
+Dialogue: 0,0:14:31.20,0:14:31.60,im,,0,0,0,,Tidak,
+Dialogue: 0,0:14:32.20,0:14:33.40,im,,0,0,0,,jangan membangunkan ular yang tidur.
+Dialogue: 0,0:14:34.44,0:14:35.72,im,,0,0,0,,Fang Han itu misterius,
+Dialogue: 0,0:14:36.16,0:14:37.68,im,,0,0,0,,lagi pula ada Tungku Raja Lima Neraka di tangannya.
+Dialogue: 0,0:14:38.12,0:14:38.92,im,,0,0,0,,Kalau dia mau kabur,
+Dialogue: 0,0:14:39.08,0:14:40.40,im,,0,0,0,,kita mungkin tidak bisa menghentikannya.
+Dialogue: 0,0:14:40.88,0:14:42.56,im,,0,0,0,,Tugas kita adalah menyusup diam-diam,
+Dialogue: 0,0:14:42.56,0:14:43.52,im,,0,0,0,,mengacaukan keadaan,
+Dialogue: 0,0:14:44.24,0:14:45.28,im,,0,0,0,,biar perang abadi-iblis,
+Dialogue: 0,0:14:45.28,0:14:46.44,im,,0,0,0,,menderita kerugian besar.
+Dialogue: 0,0:14:47.56,0:14:49.04,im,,0,0,0,,Saat ras kami muncul,
+Dialogue: 0,0:14:49.44,0:14:50.56,im,,0,0,0,,apa itu jalan abadi?
+Dialogue: 0,0:14:50.96,0:14:51.52,im,,0,0,0,,Jalan iblis?
+Dialogue: 0,0:14:51.76,0:14:52.72,im,,0,0,0,,Apa lagi itu?
+Dialogue: 0,0:14:53.84,0:14:55.76,im,,0,0,0,,Kita akan menyatukan abadi, iblis, manusia, siluman,
+Dialogue: 0,0:14:56.44,0:14:57.84,im,,0,0,0,,segala alam semesta.
+Dialogue: 0,0:14:58.72,0:15:00.08,im,,0,0,0,,Kalau begitu, tugas kali ini gagal,
+Dialogue: 0,0:15:00.36,0:15:00.92,im,,0,0,0,,kita harus bagaimana?
+Dialogue: 0,0:15:01.60,0:15:02.56,im,,0,0,0,,Laporkan...
+Dialogue: 0,0:15:03.28,0:15:05.00,im,,0,0,0,,Fang Han ini orang Sekte Yuhua,
+Dialogue: 0,0:15:05.60,0:15:06.56,im,,0,0,0,,Yang Mulia Shenjun
+Dialogue: 0,0:15:06.84,0:15:08.20,im,,0,0,0,,sudah mulai mendekati Sekte Yuhua.
+Dialogue: 0,0:15:09.24,0:15:11.36,im,,0,0,0,,Lihat saja bagaimana Yang Mulia Shenjun menanganinya.
+Dialogue: 0,0:15:20.89,0:15:21.92,im,,0,0,0,,Bagus,
+Dialogue: 0,0:15:22.36,0:15:23.84,im,,0,0,0,,kalian terus latihan seperti ini,
+Dialogue: 0,0:15:24.12,0:15:25.20,im,,0,0,0,,pasti akan berhasil.
+Dialogue: 0,0:15:26.28,0:15:27.04,im,,0,0,0,,Nona Qingwei,
+Dialogue: 0,0:15:27.48,0:15:28.12,im,,0,0,0,,biarkan mereka
+Dialogue: 0,0:15:28.12,0:15:29.12,im,,0,0,0,,terus latihan seperti ini.
+Dialogue: 0,0:15:29.96,0:15:30.24,im,,0,0,0,,Baik,
+Dialogue: 0,0:15:30.52,0:15:30.84,im,,0,0,0,,kalau begitu,
+Dialogue: 0,0:15:30.96,0:15:31.68,im,,0,0,0,,Tuan Huan Zhen,
+Dialogue: 0,0:15:31.92,0:15:32.52,im,,0,0,0,,ayo kita pergi.
+Dialogue: 0,0:15:33.08,0:15:35.92,im,,0,0,0,,Aku akan memperkenalkanmu pada murid sejati Sekte Yuhua,
+Dialogue: 0,0:15:36.28,0:15:37.28,im,,0,0,0,,Senior Wan Luo.
+Dialogue: 0,0:15:38.04,0:15:39.40,im,,0,0,0,,Terima kasih atas bimbingan Nona Qingwei.
+Dialogue: 0,0:15:40.28,0:15:41.00,im,,0,0,0,,Kalian berdua,
+Dialogue: 0,0:15:41.24,0:15:42.04,im,,0,0,0,,berlatihlah dengan baik,
+Dialogue: 0,0:15:42.44,0:15:43.84,im,,0,0,0,,jangan mempermalukan Tuan Huan Zhen.
+Dialogue: 0,0:15:44.20,0:15:45.20,im,,0,0,0,,Baik.
+Dialogue: 0,0:15:49.88,0:15:51.56,im,,0,0,0,,Tetap saja Tuan Fang lebih hebat,
+Dialogue: 0,0:15:52.92,0:15:53.72,im,,0,0,0,,Tuan Huan Zhen ini...
+Dialogue: 0,0:15:54.00,0:15:55.56,im,,0,0,0,,Teknik abadi yang diajarkan pada kita
+Dialogue: 0,0:15:55.76,0:15:56.80,im,,0,0,0,,lumayan menarik.
+Dialogue: 0,0:15:57.52,0:15:58.32,im,,0,0,0,,Sayangnya,
+Dialogue: 0,0:15:58.60,0:15:59.72,im,,0,0,0,,Guru datang dan pergi terburu-buru,
+Dialogue: 0,0:16:00.36,0:16:00.92,im,,0,0,0,,kalau tidak,
+Dialogue: 0,0:16:01.52,0:16:02.80,im,,0,0,0,,bisa belajar lebih banyak teknik abadi.
+Dialogue: 0,0:16:03.04,0:16:03.76,im,,0,0,0,,Nanti turun gunung,
+Dialogue: 0,0:16:03.88,0:16:04.80,im,,0,0,0,,jadi jenderal atau apa gitu,
+Dialogue: 0,0:16:05.60,0:16:06.88,im,,0,0,0,,seumur hidup kaya raya.
+Dialogue: 0,0:16:08.64,0:16:10.00,im,,0,0,0,,Lihat ambisimu yang kecil itu.
+Dialogue: 0,0:16:11.04,0:16:11.76,im,,0,0,0,,Di dunia biasa,
+Dialogue: 0,0:16:12.16,0:16:13.24,im,,0,0,0,,kekayaan melimpah ruah
+Dialogue: 0,0:16:13.76,0:16:15.32,im,,0,0,0,,hanya bisa dinikmati seratus tahun.
+Dialogue: 0,0:16:16.60,0:16:16.96,im,,0,0,0,,Iya,
+Dialogue: 0,0:16:17.08,0:16:18.24,im,,0,0,0,,tapi kalau kita
+Dialogue: 0,0:16:18.60,0:16:20.52,im,,0,0,0,,bisa mencapai Alam Avatar,
+Dialogue: 0,0:16:21.20,0:16:23.24,im,,0,0,0,,siapa yang tidak akan memanggil kita
+Dialogue: 0,0:16:23.24,0:16:24.68,im,,0,0,0,,Guru Abadi?
+Dialogue: 0,0:16:25.20,0:16:27.48,im,,0,0,0,,Itu mana bisa dibandingkan dengan kekayaan seratus tahun?
+Dialogue: 0,0:16:30.64,0:16:31.16,im,,0,0,0,,Tuan,
+Dialogue: 0,0:16:31.40,0:16:32.08,im,,0,0,0,,kata-katamu benar.
+Dialogue: 0,0:16:34.72,0:16:35.36,im,,0,0,0,,Kamu,
+Dialogue: 0,0:16:35.72,0:16:36.60,im,,0,0,0,,latihan lagi deh.
+Dialogue: 0,0:16:37.12,0:16:38.88,im,,0,0,0,,Masa kamu yang berlatar belakang prajurit,
+Dialogue: 0,0:16:39.40,0:16:41.28,im,,0,0,0,,latihannya kalah sama aku?
+Dialogue: 0,0:16:42.00,0:16:42.64,im,,0,0,0,,Nanti,
+Dialogue: 0,0:16:42.64,0:16:45.16,im,,0,0,0,,gimana mau balas dendam pada budak Fang Han itu?
+Dialogue: 0,0:16:49.12,0:16:50.28,im,,0,0,0,,Kata Tuan Fang benar.
+Dialogue: 0,0:16:51.36,0:16:53.48,im,,0,0,0,,Dengar-dengar dia sekarang pergi ke Laut Selatan.
+Dialogue: 0,0:16:54.56,0:16:56.68,im,,0,0,0,,Aku malah berharap dia bisa kembali hidup-hidup.
+Dialogue: 0,0:16:57.32,0:16:59.00,im,,0,0,0,,Saat kita menguasai teknik hebat,
+Dialogue: 0,0:16:59.60,0:17:01.68,im,,0,0,0,,baru kita giling tulangnya jadi abu.

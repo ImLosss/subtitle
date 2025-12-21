@@ -1,0 +1,310 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 818
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,56.8,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: jd,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,85,1
+Style: sl,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,130,1
+Style: komen,Gloucester MT Extra Condensed,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: ec,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: ri,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,110,1
+Style: pw,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,100,1
+Style: Preview,Gloucester MT Extra Condensed,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,10,1
+Style: tales,Panefresco 800wt,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,115,1
+Style: ss,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,120,1
+Style: tos,Panefresco 800wt,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,150,1
+Style: Jurus btth,PrinceofPersia,70,&H005E5FFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,30,30,65,1
+Style: btth,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: tomb,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+Style: dm,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,400,400,90,1
+Style: wdqk,Panefresco 800wt,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,75,1
+Style: ap,Panefresco 800wt,50,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,500,500,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.97,0:00:22.04,Preview,,0,0,0,,Preview Episode sebelumnya:
+Dialogue: 0,0:00:01.97,0:00:02.90,pw,,0,0,0,,Huang.
+Dialogue: 0,0:00:03.17,0:00:05.07,pw,,0,0,0,,Kau tahu dosamu?
+Dialogue: 0,0:00:05.33,0:00:06.70,pw,,0,0,0,,Ternyata kehancuran Ancient Immortal,
+Dialogue: 0,0:00:06.80,0:00:08.33,pw,,0,0,0,,karena ulah bajingan seperti kalian.
+Dialogue: 0,0:00:08.50,0:00:10.27,pw,,0,0,0,,Kalian Keluarga Wang,
+Dialogue: 0,0:00:10.40,0:00:12.17,pw,,0,0,0,,seharusnya dimusnahkan oleh Tetua Agung.
+Dialogue: 0,0:00:12.40,0:00:13.10,pw,,0,0,0,,Keluarga Wang,
+Dialogue: 0,0:00:13.40,0:00:15.50,pw,,0,0,0,,kalian sudah melampaui batas.
+Dialogue: 0,0:00:15.80,0:00:16.87,pw,,0,0,0,,Sembilan leluhur keluar bersama,
+Dialogue: 0,0:00:17.17,0:00:18.87,pw,,0,0,0,,siapa di Sembilan Langit dan Sepuluh Bumi yang bisa menghalangi?
+Dialogue: 0,0:00:19.33,0:00:20.57,pw,,0,0,0,,Cari mati!
+Dialogue: 0,0:00:30.57,0:00:31.70,pw,,0,0,0,,Kupikir siapa,
+Dialogue: 0,0:00:32.40,0:00:33.67,pw,,0,0,0,,ternyata kau.
+Dialogue: 0,0:00:34.07,0:00:35.40,pw,,0,0,0,,Meng Tianzheng.
+Dialogue: 0,0:00:54.50,0:00:56.07,pw,,0,0,0,,Orang ini sangat licik.
+Dialogue: 0,0:00:56.13,0:00:57.93,pw,,0,0,0,,Kalau orang biasa terkena serangan ini,
+Dialogue: 0,0:00:58.37,0:00:59.37,pw,,0,0,0,,pasti roh primordialnya tidak akan selamat.
+Dialogue: 0,0:00:59.67,0:01:00.20,pw,,0,0,0,,Meng Tianzheng!
+Dialogue: 0,0:01:01.30,0:01:02.53,pw,,0,0,0,,Aku tahu kau kuat,
+Dialogue: 0,0:01:02.80,0:01:04.93,pw,,0,0,0,,tapi datang ke Keluarga Wang untuk berulah,
+Dialogue: 0,0:01:05.10,0:01:06.33,pw,,0,0,0,,kau tidak cukup kuat.
+Dialogue: 0,0:01:12.10,0:01:13.67,pw,,0,0,0,,Wang Da, Wang Er,
+Dialogue: 0,0:01:13.87,0:01:15.90,pw,,0,0,0,,benar-benar sudah berani.
+Dialogue: 0,0:01:16.27,0:01:18.60,pw,,0,0,0,,Berani memanggilku seperti ini.
+Dialogue: 0,0:01:18.60,0:01:20.37,pw,,0,0,0,,Kau memang memiliki pencapaian luar biasa,
+Dialogue: 0,0:01:20.70,0:01:22.30,pw,,0,0,0,,dijuluki master tak tertandingi,
+Dialogue: 0,0:01:22.47,0:01:24.53,pw,,0,0,0,,pernah menggentarkan dunia dalam waktu yang lama.
+Dialogue: 0,0:01:26.60,0:01:29.00,pw,,0,0,0,,Tapi era milikmu sudah lama berlalu.
+Dialogue: 0,0:01:29.27,0:01:30.70,pw,,0,0,0,,Berani menantang Keluarga Wang,
+Dialogue: 0,0:01:30.70,0:01:32.07,pw,,0,0,0,,pasti tidak akan berakhir dengan baik.
+Dialogue: 0,0:01:32.23,0:01:34.20,pw,,0,0,0,,Aku sudah lama ingin bertarung denganmu,
+Dialogue: 0,0:01:34.30,0:01:36.77,pw,,0,0,0,,hari ini kau sendiri yang datang.
+Dialogue: 0,0:01:37.77,0:01:52.77,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:02:44.20,0:02:45.17,pw,,0,0,0,,Kurang ajar!
+Dialogue: 0,0:02:58.97,0:02:59.77,pw,,0,0,0,,Kau...
+Dialogue: 0,0:03:00.17,0:03:02.30,pw,,0,0,0,,Bagus, bagus bagus bagus.
+Dialogue: 0,0:03:02.53,0:03:04.10,pw,,0,0,0,,Kau demi melindungi bocah ini,
+Dialogue: 0,0:03:04.20,0:03:05.53,pw,,0,0,0,,berani memprovokasi sampai seperti ini.
+Dialogue: 0,0:03:05.90,0:03:07.20,pw,,0,0,0,,Masalah hari ini belum selesai.
+Dialogue: 0,0:03:07.27,0:03:08.13,pw,,0,0,0,,Meng Tianzheng,
+Dialogue: 0,0:03:08.37,0:03:09.47,pw,,0,0,0,,kau memang kuat,
+Dialogue: 0,0:03:09.70,0:03:10.80,pw,,0,0,0,,tapi sembilan saudara kami,
+Dialogue: 0,0:03:10.80,0:03:12.27,pw,,0,0,0,,menekanmu sudah lebih dari cukup.
+Dialogue: 0,0:03:20.67,0:03:22.20,pw,,0,0,0,,Tidak mau intropeksi diri,
+Dialogue: 0,0:03:22.60,0:03:24.50,pw,,0,0,0,,malah terus melakukan kesalahan.
+Dialogue: 0,0:03:42.17,0:03:43.81,pw,,0,0,0,,Saudara Tianzheng datang ke sini,
+Dialogue: 0,0:03:44.17,0:03:46.30,pw,,0,0,0,,kalian tidak boleh lancang.
+Dialogue: 0,0:03:47.37,0:03:48.80,pw,,0,0,0,,Dia bahkan bisa mengusir tekanan Tetua Agung.
+Dialogue: 0,0:03:49.67,0:03:50.50,pw,,0,0,0,,Yang datang ini tidak baik.
+Dialogue: 0,0:03:50.50,0:03:51.73,pw,,0,0,0,,Wang Changsheng,
+Dialogue: 0,0:03:51.77,0:03:54.13,pw,,0,0,0,,ternyata kau masih hidup.
+Dialogue: 0,0:03:57.37,0:03:58.13,pw,,0,0,0,,Pemimpin,
+Dialogue: 0,0:03:58.27,0:04:00.40,pw,,0,0,0,,cepat undang tamu terhormat masuk.
+Dialogue: 0,0:04:00.80,0:04:03.37,pw,,0,0,0,,Kita benar-benar akan masuk?
+Dialogue: 0,0:04:03.50,0:04:05.47,pw,,0,0,0,,Karena datang untuk menuntut penjelasan,
+Dialogue: 0,0:04:06.00,0:04:07.57,pw,,0,0,0,,tentu saja harus masuk.
+Dialogue: 0,0:04:17.30,0:04:18.60,pw,,0,0,0,,Itu tulisan Ancient Immortal.
+Dialogue: 0,0:04:18.80,0:04:20.80,pw,,0,0,0,,Benda dari Ancient Immortal terawat hingga kini,
+Dialogue: 0,0:04:21.20,0:04:22.10,pw,,0,0,0,,dan masih utuh sempurna.
+Dialogue: 0,0:04:22.40,0:04:26.53,pw,,0,0,0,,Semua bangunan ini diukir dengan pola Dao Immortal,
+Dialogue: 0,0:04:26.77,0:04:29.37,pw,,0,0,0,,membentuk formasi abadi yang tak bisa rusak.
+Dialogue: 0,0:04:29.67,0:04:33.77,pw,,0,0,0,,Pondok batu dan monumen besar di atasnya adalah bendera formasi,
+Dialogue: 0,0:04:33.87,0:04:36.77,pw,,0,0,0,,dapat menjaga tempat ini sakral dan tenang,
+Dialogue: 0,0:04:37.07,0:04:39.20,pw,,0,0,0,,sulit ditembus dari luar.
+Dialogue: 0,0:04:44.70,0:04:46.93,pw,,0,0,0,,Makhluk buas kuno dahulu kala,
+Dialogue: 0,0:04:47.30,0:04:49.00,pw,,0,0,0,,ternyata jadi anjing penjaga pintu.
+Dialogue: 0,0:04:49.53,0:04:53.90,pw,,0,0,0,,Kera kuno dan Jinwu itu juga sudah ditaklukkan Keluarga Wang.
+Dialogue: 0,0:04:54.50,0:04:57.37,pw,,0,0,0,,Apakah sengaja menunjukkannya padaku?
+Dialogue: 0,0:05:02.17,0:05:02.87,pw,,0,0,0,,Tetua Agung,
+Dialogue: 0,0:05:03.97,0:05:05.10,pw,,0,0,0,,kita terperangkap dalam formasi musuh,
+Dialogue: 0,0:05:05.53,0:05:06.67,pw,,0,0,0,,Apa Anda tidak khawatir?
+Dialogue: 0,0:05:07.03,0:05:10.07,pw,,0,0,0,,Sudah masuk, terimalah dengan tenang.
+Dialogue: 0,0:05:22.77,0:05:24.57,pw,,0,0,0,,Kakak tertua mereka dipanggil Wang Da,
+Dialogue: 0,0:05:24.93,0:05:26.73,pw,,0,0,0,,berarti yang kedelapan pasti dipanggil...
+Dialogue: 0,0:05:37.53,0:05:40.47,pw,,0,0,0,,Sembilan naga ini semakin muda, semakin kuat momentumnya.
+Dialogue: 0,0:05:40.73,0:05:43.27,pw,,0,0,0,,Wang Jiu ini bahkan lebih dalam dan tidak terukur kekuatannya.
+Dialogue: 0,0:05:44.00,0:05:45.00,pw,,0,0,0,,Senior Meng,
+Dialogue: 0,0:05:45.40,0:05:48.27,pw,,0,0,0,,dulu kau gagal menapaki jalan Immortal tapi masih bisa selamat dari kematian,
+Dialogue: 0,0:05:48.30,0:05:49.87,pw,,0,0,0,,memang membuat orang takjub.
+Dialogue: 0,0:05:50.30,0:05:52.70,pw,,0,0,0,,Tapi era ini milik penguasa baru,
+Dialogue: 0,0:05:53.10,0:05:54.27,pw,,0,0,0,,kau sudah tua.
+Dialogue: 0,0:05:54.93,0:05:56.07,pw,,0,0,0,,Wang Changsheng,
+Dialogue: 0,0:05:56.37,0:05:58.57,pw,,0,0,0,,sampai kapan kau baru akan keluar?
+Dialogue: 0,0:05:59.53,0:06:01.00,pw,,0,0,0,,Saudara Tianzheng berkunjung,
+Dialogue: 0,0:06:01.17,0:06:02.87,pw,,0,0,0,,aku tentu akan muncul.
+Dialogue: 0,0:06:03.13,0:06:06.20,pw,,0,0,0,,Tapi Saudara Dao hanya datang dengan satu tubuh spiritual,
+Dialogue: 0,0:06:06.67,0:06:09.20,pw,,0,0,0,,terlalu meremehkan Keluarga Wang.
+Dialogue: 0,0:06:09.70,0:06:11.20,pw,,0,0,0,,Ini hanya satu tubuh spiritual?
+Dialogue: 0,0:06:23.50,0:06:24.30,pw,,0,0,0,,Bagus.
+Dialogue: 0,0:06:24.90,0:06:26.67,pw,,0,0,0,,Hari ini bertemu teman lama,
+Dialogue: 0,0:06:26.93,0:06:28.67,pw,,0,0,0,,sangat senang.
+Dialogue: 0,0:06:32.10,0:06:33.40,pw,,0,0,0,,Inilah Wang Changsheng?
+Dialogue: 0,0:06:33.50,0:06:34.73,pw,,0,0,0,,Sangat muda.
+Dialogue: 0,0:06:34.87,0:06:36.33,pw,,0,0,0,,Sama sekali tidak seperti ayah dari sembilan orang ini.
+Dialogue: 0,0:06:36.53,0:06:39.20,pw,,0,0,0,,Benar-benar semakin hidup semakin muda.
+Dialogue: 0,0:06:39.67,0:06:41.77,pw,,0,0,0,,Setelah seratus juta tahun lagi,
+Dialogue: 0,0:06:41.97,0:06:44.50,pw,,0,0,0,,apakah kau akan berubah menjadi anak kecil?
+Dialogue: 0,0:06:45.00,0:06:46.10,pw,,0,0,0,,Pikiran baik,
+Dialogue: 0,0:06:46.20,0:06:47.87,pw,,0,0,0,,hidup pun alami muda.
+Dialogue: 0,0:06:47.97,0:06:48.93,pw,,0,0,0,,Saudara Tianzheng,
+Dialogue: 0,0:06:49.40,0:06:52.57,pw,,0,0,0,,selama ini kau terlalu lelah pikiran dan tenaga.
+Dialogue: 0,0:06:52.77,0:06:54.87,pw,,0,0,0,,Sayangnya suaramu ini...
+Dialogue: 0,0:06:54.97,0:06:57.00,pw,,0,0,0,,Ya, Benih Dewa itu tidak sempurna.
+Dialogue: 0,0:06:57.00,0:06:58.57,pw,,0,0,0,,Aku juga tidak bermaksud menutupi.
+Dialogue: 0,0:06:58.57,0:07:00.90,pw,,0,0,0,,Mungkin dunia ini tidak cukup kejam,
+Dialogue: 0,0:07:01.17,0:07:02.80,pw,,0,0,0,,belum sampai titik hidup dan mati,
+Dialogue: 0,0:07:03.10,0:07:05.47,pw,,0,0,0,,tidak bisa memaksa potensi terakhir keluar.
+Dialogue: 0,0:07:05.60,0:07:07.87,pw,,0,0,0,,Kau sudah meramalkan sampai langkah ini.
+Dialogue: 0,0:07:08.13,0:07:09.17,pw,,0,0,0,,Jika tak ada kejutan,
+Dialogue: 0,0:07:09.33,0:07:11.60,pw,,0,0,0,,dunia ini akan semakin kering,
+Dialogue: 0,0:07:11.80,0:07:14.20,pw,,0,0,0,,benar-benar memasuki era Dharma akhir.
+Dialogue: 0,0:07:14.50,0:07:15.33,pw,,0,0,0,,Saat itu,
+Dialogue: 0,0:07:15.73,0:07:17.80,pw,,0,0,0,,zat keabadian akan hilang sepenuhnya,
+Dialogue: 0,0:07:18.47,0:07:20.67,pw,,0,0,0,,bahkan kultivator terkuat sekalipun,
+Dialogue: 0,0:07:20.90,0:07:23.27,pw,,0,0,0,,sulit hidup sepuluh ribu tahun dalam satu masa.
+Dialogue: 0,0:07:23.33,0:07:28.33,pw,,0,0,0,,Dan satu master tak tertandingi akan menghabiskan peluang puluhan ribu tahun,
+Dialogue: 0,0:07:28.33,0:07:29.70,pw,,0,0,0,,dalam waktu yang lama,
+Dialogue: 0,0:07:30.17,0:07:33.00,pw,,0,0,0,,Orang lain tak lagi punya harapan mencapai ranah itu.
+Dialogue: 0,0:07:33.00,0:07:34.67,pw,,0,0,0,,Kalau aku lahir di masa itu,
+Dialogue: 0,0:07:34.80,0:07:36.27,pw,,0,0,0,,pasti sudah mengerahkan semua upaya,
+Dialogue: 0,0:07:36.33,0:07:38.60,pw,,0,0,0,,dipaksa mengeluarkan kehidupan kedua yang sejati.
+Dialogue: 0,0:07:39.03,0:07:40.70,pw,,0,0,0,,Mana mungkin seperti hari ini?
+Dialogue: 0,0:07:40.77,0:07:42.30,pw,,0,0,0,,Bencana besar akan datang,
+Dialogue: 0,0:07:42.73,0:07:45.40,pw,,0,0,0,,kita seharusnya bekerja sama.
+Dialogue: 0,0:07:45.73,0:07:48.73,pw,,0,0,0,,Tapi sekarang malah demi seorang pemuda,
+Dialogue: 0,0:07:48.93,0:07:50.33,pw,,0,0,0,,menerobos Keluarga Wangku,
+Dialogue: 0,0:07:50.53,0:07:52.33,pw,,0,0,0,,dan bermusuhan denganku?
+Dialogue: 0,0:07:53.10,0:07:55.97,pw,,0,0,0,,Seluruh dunia tahu ini adalah murid terakhirku,
+Dialogue: 0,0:07:56.13,0:07:57.47,pw,,0,0,0,,seperti keturunanku sendiri.
+Dialogue: 0,0:07:57.70,0:08:00.13,pw,,0,0,0,,Sama seperti sembilan naga bagimu,
+Dialogue: 0,0:08:00.50,0:08:02.53,pw,,0,0,0,,kalau ada orang yang tahu ini,
+Dialogue: 0,0:08:02.67,0:08:04.47,pw,,0,0,0,,tapi masih diam-diam menyakitinya,
+Dialogue: 0,0:08:04.80,0:08:06.20,pw,,0,0,0,,apa yang akan kau lakukan?
+Dialogue: 0,0:08:06.40,0:08:07.70,pw,,0,0,0,,Nanti kalau aku bangkit,
+Dialogue: 0,0:08:08.40,0:08:09.97,pw,,0,0,0,,pasti akan memenuhi keinginan Tetua Agung,
+Dialogue: 0,0:08:10.70,0:08:12.50,pw,,0,0,0,,menyapu bersih musuh besar dari dunia asing,
+Dialogue: 0,0:08:13.07,0:08:14.50,pw,,0,0,0,,dan bertempur di seberang dunia.
+Dialogue: 0,0:08:15.17,0:08:17.73,pw,,0,0,0,,Sepertinya kau bersikeras untuk merobek muka,
+Dialogue: 0,0:08:17.80,0:08:19.87,pw,,0,0,0,,dan menuntut penjelasan dariku.
+Dialogue: 0,0:08:22.93,0:08:24.07,pw,,0,0,0,,Meng Tianzheng,
+Dialogue: 0,0:08:24.30,0:08:25.70,pw,,0,0,0,,jangan jadi pikun,
+Dialogue: 0,0:08:25.97,0:08:28.53,pw,,0,0,0,,lihat jelas dengan siapa kau bicara.
+Dialogue: 0,0:08:28.80,0:08:31.33,pw,,0,0,0,,Aku memang datang untuk menuntut penjelasan.
+Dialogue: 0,0:08:31.67,0:08:33.60,pw,,0,0,0,,Karena kau tidak mau mendengarkan alasan,
+Dialogue: 0,0:08:33.83,0:08:35.67,pw,,0,0,0,,maka bicaralah dengan kekuatan.
+Dialogue: 0,0:08:36.00,0:08:37.17,pw,,0,0,0,,Peta Sepuluh Dunia!
+Dialogue: 0,0:08:46.30,0:08:48.60,pw,,0,0,0,,Ayah, pinjamkan tombak perangmu padaku,
+Dialogue: 0,0:08:48.80,0:08:49.87,pw,,0,0,0,,aku ingin bertarung dengannya.
+Dialogue: 0,0:08:50.00,0:08:50.40,pw,,0,0,0,,Tidak boleh.
+Dialogue: 0,0:08:51.20,0:08:54.30,pw,,0,0,0,,Aku sudah dua kali bertarung dengannya dan berakhir seri,
+Dialogue: 0,0:08:54.40,0:08:55.90,pw,,0,0,0,,hari ini tidak boleh gagal.
+Dialogue: 0,0:08:56.57,0:08:57.70,pw,,0,0,0,,Semuanya bekerja sama,
+Dialogue: 0,0:08:57.87,0:08:59.73,pw,,0,0,0,,ada formasi dan senjata leluhur di sini,
+Dialogue: 0,0:08:59.80,0:09:01.20,pw,,0,0,0,,dia tidak bisa kabur.
+Dialogue: 0,0:09:09.50,0:09:10.10,pw,,0,0,0,,Aneh.
+Dialogue: 0,0:09:10.77,0:09:12.57,pw,,0,0,0,,Teknik Penakluk Kekacauan adalah pedang Dao terkuat,
+Dialogue: 0,0:09:12.90,0:09:15.43,pw,,0,0,0,,kenapa senjata leluhur mereka malah tombak perang?
+Dialogue: 0,0:09:18.03,0:09:19.57,pw,,0,0,0,,Kewibawaan Keluarga Wang tidak boleh dihina.
+Dialogue: 0,0:09:19.70,0:09:20.33,pw,,0,0,0,,Benar.
+Dialogue: 0,0:09:20.50,0:09:22.43,pw,,0,0,0,,Ini adalah kesempatan langka,
+Dialogue: 0,0:09:22.53,0:09:24.17,pw,,0,0,0,,manfaatkan hari ini untuk menyingkirkannya,
+Dialogue: 0,0:09:24.30,0:09:25.67,pw,,0,0,0,,dan hilangkan ancaman.
+Dialogue: 0,0:09:40.90,0:09:42.40,pw,,0,0,0,,Sepuluh lawan satu,
+Dialogue: 0,0:09:42.70,0:09:45.13,pw,,0,0,0,,kadal berkaki empat ini memang licik.
+Dialogue: 0,0:09:45.37,0:09:46.43,pw,,0,0,0,,Meng Tianzheng,
+Dialogue: 0,0:09:46.90,0:09:48.50,pw,,0,0,0,,kau terlalu percaya diri.
+Dialogue: 0,0:09:48.63,0:09:49.43,pw,,0,0,0,,Oh?
+Dialogue: 0,0:09:54.63,0:09:56.17,pw,,0,0,0,,Bendera perang dari zaman dulu,
+Dialogue: 0,0:09:56.27,0:09:57.77,pw,,0,0,0,,kain pembungkus Immortal King.
+Dialogue: 0,0:09:57.83,0:10:00.30,pw,,0,0,0,,Keluarga Xu berani meminjamkan nyawa mereka padamu?
+Dialogue: 0,0:10:00.50,0:10:03.37,pw,,0,0,0,,Tidak takut ada yang menyerang mereka saat lengah?
+Dialogue: 0,0:10:07.63,0:10:09.27,pw,,0,0,0,,Di zaman Ancient Immortal,
+Dialogue: 0,0:10:09.37,0:10:12.10,pw,,0,0,0,,pernah ada True Immortal membawa bendera perang ini,
+Dialogue: 0,0:10:12.30,0:10:15.87,pw,,0,0,0,,memimpin semua klan melawan ribuan pasukan dunia asing.
+Dialogue: 0,0:10:16.17,0:10:19.33,pw,,0,0,0,,Bahkan membungkus mayat dua Immortal King dan membawanya pulang.
+Dialogue: 0,0:10:20.34,0:10:22.07,pw,,0,0,0,,Sepotong kain tua,
+Dialogue: 0,0:10:22.17,0:10:23.33,pw,,0,0,0,,apa yang istimewa?
+Dialogue: 0,0:10:24.13,0:10:28.13,pw,,0,0,0,,Keluarga Wang benar-benar tidak peduli dengan pertempuran akhir Ancient Immortal,
+Dialogue: 0,0:10:28.37,0:10:30.90,pw,,0,0,0,,bahkan benda suci pembungkus mayat Immortal King itu,
+Dialogue: 0,0:10:30.93,0:10:34.03,pw,,0,0,0,,bendera perang berdarah besi dunia kita dulu, tidak dihargai.
+Dialogue: 0,0:10:35.70,0:10:37.17,pw,,0,0,0,,Aku menghormati bendera perang,
+Dialogue: 0,0:10:37.53,0:10:39.03,pw,,0,0,0,,tidak ingin berperang.
+Dialogue: 0,0:10:39.07,0:10:40.17,pw,,0,0,0,,Masalah hari ini,
+Dialogue: 0,0:10:40.27,0:10:41.10,pw,,0,0,0,,lupakan saja.
+Dialogue: 0,0:10:41.27,0:10:42.33,pw,,0,0,0,,Hahaha.
+Dialogue: 0,0:10:42.90,0:10:44.53,pw,,0,0,0,,Menghormati bendera perang?
+Dialogue: 0,0:10:45.10,0:10:48.53,pw,,0,0,0,,Bagaimana Keluarga Wang memandang pertempuran Ancient Immortal masih diragukan,
+Dialogue: 0,0:10:48.67,0:10:51.13,pw,,0,0,0,,apalagi mana bisa kau yang menentukan.
+Dialogue: 0,0:10:51.17,0:10:53.57,pw,,0,0,0,,Hari ini aku yang datang menuntut,
+Dialogue: 0,0:10:53.77,0:10:55.57,pw,,0,0,0,,apa sebenarnya yang kau inginkan?
+Dialogue: 0,0:10:55.77,0:10:56.97,pw,,0,0,0,,Sederhana,
+Dialogue: 0,0:10:57.13,0:10:58.93,pw,,0,0,0,,aku ingin kau membatasi keturunanmu,
+Dialogue: 0,0:10:59.07,0:11:01.13,pw,,0,0,0,,dan bersumpah tidak lagi menargetkan Huang.
+Dialogue: 0,0:11:01.53,0:11:02.90,pw,,0,0,0,,Hal kecil seperti ini,
+Dialogue: 0,0:11:03.17,0:11:05.17,pw,,0,0,0,,kenapa tidak beritahu dengan surat?
+Dialogue: 0,0:11:05.73,0:11:07.33,pw,,0,0,0,,Tubuh asliku datang sendiri,
+Dialogue: 0,0:11:07.63,0:11:09.17,pw,,0,0,0,,kalian masih ingin menekanku,
+Dialogue: 0,0:11:09.53,0:11:11.23,pw,,0,0,0,,apalagi bicara tentang surat.
+Dialogue: 0,0:11:11.50,0:11:12.67,pw,,0,0,0,,Demi seekor semut,
+Dialogue: 0,0:11:12.73,0:11:14.17,pw,,0,0,0,,kau membuat keributan seperti ini,
+Dialogue: 0,0:11:14.30,0:11:16.10,pw,,0,0,0,,dan bahkan berusaha memaksa ayahku bersumpah?
+Dialogue: 0,0:11:19.70,0:11:22.87,pw,,0,0,0,,Kau mengandalkan bakat dan sombong,
+Dialogue: 0,0:11:22.97,0:11:25.93,pw,,0,0,0,,tapi menurutku juga tidak seberapa.
+Dialogue: 0,0:11:26.31,0:11:26.97,pw,,0,0,0,,Huang,
+Dialogue: 0,0:11:27.53,0:11:29.43,pw,,0,0,0,,jauh di atas kalian semua.
+Dialogue: 0,0:11:29.73,0:11:31.47,pw,,0,0,0,,Dia adalah muridku,
+Dialogue: 0,0:11:31.63,0:11:34.27,pw,,0,0,0,,sama seperti kalian adalah keturunan Wang Changsheng.
+Dialogue: 0,0:11:34.77,0:11:36.43,pw,,0,0,0,,Aku akan berpesan di sini,
+Dialogue: 0,0:11:36.77,0:11:39.97,pw,,0,0,0,,kalau nanti Keluarga Wang berani menyakiti Shi Hao lagi,
+Dialogue: 0,0:11:40.17,0:11:42.83,pw,,0,0,0,,aku akan mulai dari sembilan naga,
+Dialogue: 0,0:11:43.47,0:11:45.67,pw,,0,0,0,,kubunuh satu persatu.
+Dialogue: 0,0:11:46.83,0:11:48.63,pw,,0,0,0,,Mari kita bertukar tiga atau empat jurus,
+Dialogue: 0,0:11:48.70,0:11:49.83,pw,,0,0,0,,kalau aku kalah,
+Dialogue: 0,0:11:49.97,0:11:51.63,pw,,0,0,0,,semuanya akan mengikuti permintaanmu.
+Dialogue: 0,0:11:51.77,0:11:52.53,pw,,0,0,0,,Huang,
+Dialogue: 0,0:11:53.03,0:11:55.10,pw,,0,0,0,,apakah kau masih membutuhkan kompensasi lain?
+Dialogue: 0,0:11:55.30,0:11:56.83,pw,,0,0,0,,Aku ingin Teknik Penakluk Kekacauan.
+Dialogue: 0,0:11:57.43,0:11:59.33,pw,,0,0,0,,Kau berani mengincar teknik rahasia klan kami?
+Dialogue: 0,0:11:59.77,0:12:00.67,pw,,0,0,0,,Tidak mungkin.
+Dialogue: 0,0:12:01.10,0:12:03.67,pw,,0,0,0,,Aku tahu kau sudah lama ingin Teknik Penakluk Kekacauan,
+Dialogue: 0,0:12:03.97,0:12:06.13,pw,,0,0,0,,tapi itu adalah harta karun klan mereka,
+Dialogue: 0,0:12:06.37,0:12:08.07,pw,,0,0,0,,mana mungkin dengan mudah diberikan ke luar?
+Dialogue: 0,0:12:08.70,0:12:09.87,pw,,0,0,0,,Lebih baik aku yang memutuskan,
+Dialogue: 0,0:12:10.13,0:12:13.07,pw,,0,0,0,,ambil beberapa obat dewa rumput Zifu yang berharga untukmu,
+Dialogue: 0,0:12:13.09,0:12:14.57,pw,,0,0,0,,bagaimana?
+Dialogue: 0,0:12:16.17,0:12:17.37,pw,,0,0,0,,Terima kasih banyak, Tetua Agung.
+Dialogue: 0,0:12:17.73,0:12:19.87,pw,,0,0,0,,Aku baru-baru ini mendapat pencerahan,
+Dialogue: 0,0:12:20.07,0:12:21.42,pw,,0,0,0,,hati-hatilah.
+Dialogue: 0,0:12:22.42,0:12:37.42,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:12:46.40,0:12:47.50,pw,,0,0,0,,Apa yang dilakukan ayah?
+Dialogue: 0,0:12:47.70,0:12:49.47,pw,,0,0,0,,Kenapa tidak langsung gunakan Teknik Penakluk Kekacauan untuk membunuhnya?
+Dialogue: 0,0:12:51.53,0:12:53.40,pw,,0,0,0,,Ini adalah warisan Dao Immortal klan kami,
+Dialogue: 0,0:12:53.70,0:12:55.17,pw,,0,0,0,,bagian dari formasi tak tertandingi,
+Dialogue: 0,0:12:55.33,0:12:56.37,pw,,0,0,0,,kenapa bisa retak?
+Dialogue: 0,0:12:56.53,0:12:57.87,pw,,0,0,0,,Mereka menyederhanakan yang rumit,
+Dialogue: 0,0:12:58.27,0:13:00.17,pw,,0,0,0,,mengkonsentrasikan semua Dao di alam semesta menjadi satu jurus,
+Dialogue: 0,0:13:00.20,0:13:01.70,pw,,0,0,0,,bersaing dengan teknik tak tertandingi.
+Dialogue: 0,0:13:02.00,0:13:03.17,pw,,0,0,0,,Hanya pada jurus pertama,
+Dialogue: 0,0:13:03.70,0:13:06.50,pw,,0,0,0,,ayah sudah menggabungkan beberapa jurus pembunuhan dari Sepuluh Binatang Buas.
+Dialogue: 0,0:13:13.47,0:13:14.37,pw,,0,0,0,,Pemahaman seperti ini,
+Dialogue: 0,0:13:14.60,0:13:16.00,pw,,0,0,0,,kami memang tidak bisa menandinginya.
+Dialogue: 0,0:13:17.00,0:13:32.00,pw,,1,1,0,,Join channel telegram @dongworld agar tidak ketinggalan update.\NDonghua ini diterjemahkan oleh Dongworld.
+Dialogue: 0,0:13:53.33,0:13:54.03,pw,,0,0,0,,Tebas!
+Dialogue: 0,0:13:54.50,0:13:55.30,pw,,0,0,0,,Gawat.
+Dialogue: 0,0:13:55.50,0:13:56.57,pw,,0,0,0,,Serangan terakhir
+Dialogue: 0,0:13:56.59,0:13:57.93,pw,,0,0,0,,mereka tak sempat menahannya.
+Dialogue: 0,0:14:14.33,0:14:15.03,pw,,0,0,0,,Apa yang terjadi?
+Dialogue: 0,0:14:15.17,0:14:16.17,pw,,0,0,0,,Bagaimana hasilnya?
+Dialogue: 0,0:14:16.60,0:14:17.87,pw,,0,0,0,,Tangkap sumber masalah ini dulu,
+Dialogue: 0,0:14:18.70,0:14:19.37,pw,,0,0,0,,ambil kain tua itu,
+Dialogue: 0,0:14:19.70,0:14:21.03,pw,,0,0,0,,putuskan jalan mundur pak tua itu.
+Dialogue: 0,0:14:21.47,0:14:23.03,pw,,0,0,0,,Di hadapan bendera perang Ancient Immortal,
+Dialogue: 0,0:14:23.33,0:14:25.70,pw,,0,0,0,,Keluarga Wang berani melakukan tindakan memalukan seperti ini?
+Dialogue: 0,0:14:29.47,0:14:31.23,pw,,0,0,0,,Apa gunanya bendera perang di tubuhmu?
+Dialogue: 0,0:14:31.60,0:14:33.07,pw,,0,0,0,,Kau belum berkembang,
+Dialogue: 0,0:14:33.33,0:14:34.90,pw,,0,0,0,,masih bisa menghalangi kami?
+Dialogue: 0,0:14:40.67,0:14:41.67,pw,,0,0,0,,Pak Tua bangka itu,
+Dialogue: 0,0:14:42.13,0:14:44.17,pw,,0,0,0,,ternyata meninggalkanmu satu energi roh.
+Dialogue: 0,0:14:57.53,0:14:58.67,pw,,0,0,0,,Kakak!
+Dialogue: 0,0:15:00.00,0:15:01.80,pw,,0,0,0,,Tunggu ayahku membunuh Meng Tianzheng,
+Dialogue: 0,0:15:02.13,0:15:03.73,pw,,0,0,0,,lihat siapa lagi yang bisa melindungimu.
+Dialogue: 0,0:15:03.83,0:15:04.87,pw,,0,0,0,,Serang bersama!
+Dialogue: 0,0:15:11.27,0:15:12.67,pw,,0,0,0,,Mari kita coba.
+Dialogue: 0,0:15:19.07,0:15:19.53,pw,,0,0,0,,Tetua Agung!
+Dialogue: 0,0:15:22.63,0:15:23.20,pw,,0,0,0,,Ayah!
+Dialogue: 0,0:15:24.80,0:15:26.00,pw,,0,0,0,,Mulai hari ini,
+Dialogue: 0,0:15:26.23,0:15:28.80,pw,,0,0,0,,orang Keluarga Wang tidak boleh menargetkannya lagi.
+Dialogue: 0,0:15:29.27,0:15:31.20,pw,,0,0,0,,Aku akan berlatih tertutup mulai hari ini,
+Dialogue: 0,0:15:31.43,0:15:33.27,pw,,0,0,0,,kalian tidak boleh mengganggu lagi.
+Dialogue: 0,0:15:43.40,0:15:45.33,pw,,0,0,0,,Maklumat belum selesai ditulis.
+Dialogue: 0,0:15:46.40,0:15:47.83,pw,,0,0,0,,Kalau kau tidak bisa membaca,
+Dialogue: 0,0:15:48.20,0:15:51.03,pw,,0,0,0,,suruh Wang Changsheng keluar dan tulis sendiri.
+Dialogue: 0,0:15:59.00,0:16:00.27,pw,,0,0,0,,Maklumat sebagai bukti,
+Dialogue: 0,0:16:00.43,0:16:01.67,pw,,0,0,0,,diumumkan ke seluruh alam semesta.
+Dialogue: 0,0:16:02.20,0:16:03.33,pw,,0,0,0,,Mulai hari ini,
+Dialogue: 0,0:16:03.43,0:16:05.93,pw,,0,0,0,,Keluarga Wang bersedia mengubah permusuhan dengan Huang menjadi persahabatan.
+Dialogue: 0,0:16:06.43,0:16:08.20,pw,,0,0,0,,Kesalahan besar di masa lalu,
+Dialogue: 0,0:16:08.40,0:16:10.67,pw,,0,0,0,,klan kami akan menjadikannya pelajaran.
